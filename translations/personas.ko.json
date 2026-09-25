@@ -142,7 +142,12 @@
         "HELLO_AND_DIE_1"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "SENSE_EVIL": "드냐리의 존재를 감지하며 조상의 기억과 공포가 드러난다. 평소의 무감정함으로 덮지 않는다.",
+        "RESPONSE_TO_KEY_PHRASE / WE_WERE_SLAVES / WE_ARE_URQUAN_TOO / BONE_GARDENS / YOU_DIE / THEN_DIE": "역사 설명은 엄숙한 한다체. 타알로를 친구로 기억하는 점과 직접 살해한 사실, 강제된 행동과 스스로 정한 교리를 구분한다.",
+        "OUT_TAKES": "배역의 명령조로 시작했다가 발음 실수와 감독을 향한 해요체로 전환. 절멸의 발음을 반복해서 틀리는 농담을 살린다."
+      }
     },
     "melnorme": {
       "persona": "친절하고 계산이 빠른 정보 상인",

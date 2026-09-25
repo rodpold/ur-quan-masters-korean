@@ -1651,7 +1651,7 @@
       "ko": "현재와 영원의 길",
       "category": "concept",
       "status": "in_use",
-      "notes": "크저자의 노예화 정책 명칭. 우르콴 번역 초안; 최종 승인 아님.",
+      "notes": "크저자의 정책 명칭으로 설명되지만 코르아 원문도 자기 교리를 이 이름으로 부른다. 원문의 명칭 불일치를 교정하지 않는다. 기존 한국어 표기 유지.",
       "ui_keys": []
     },
     {
@@ -1697,6 +1697,42 @@
       "category": "person",
       "status": "in_use",
       "notes": "아웃테이크의 동요 속 인물. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "yuli",
+      "source": "Yuli",
+      "ko": "율리",
+      "category": "species",
+      "status": "in_use",
+      "notes": "코르아 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "drall",
+      "source": "Drall",
+      "ko": "드랄",
+      "category": "species",
+      "status": "in_use",
+      "notes": "코르아 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mael_num",
+      "source": "Mael-Num",
+      "ko": "마엘눔",
+      "category": "species",
+      "status": "in_use",
+      "notes": "코르아 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "excruciator",
+      "source": "Excruciator",
+      "ko": "고통 유발기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "코르아 역사 설명 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
     }
   ]
