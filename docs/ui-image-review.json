@@ -4,11 +4,13 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 86,
+    "embedded_text_pending": 47,
     "existing_replacement_runtime_pending": 10,
+    "generated_korean_heading_runtime_pending": 34,
     "generated_korean_panel_runtime_pending": 34,
     "no_obvious_language_text_in_viewed_image": 267,
     "partial_button_replacement_other_text_pending": 1,
+    "partial_heading_replacement_other_text_pending": 5,
     "preserve_numeric_sprite": 21,
     "preserve_product_logo": 1
   },
@@ -1714,230 +1716,230 @@
     {
       "source_path": "base/ui/playmenu-000.png",
       "source_sha256": "8540af89d83795426b9025cfccb275dc8bbda97a0afb729c9265dfff60cc67bc",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-001.png",
       "source_sha256": "5d56eea833c26bddec6b2bd77cdf47be9d5b4efe1a5f46de61eacea51886d671",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-002.png",
       "source_sha256": "3fdb96e87a4e55779426cfffdb602e1e4e53a32d2fcaa1c39bbf3020c91b1b1a",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-003.png",
       "source_sha256": "6fb339eb4c1f8981fe35ecd8e124c19e856de14e95b9efcbbef58b7784dd5850",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-004.png",
       "source_sha256": "b0501cd176d67bb16c8f8881b738c9833d30019da5cc30196ccf3a1ba4965387",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-005.png",
       "source_sha256": "aa40285a3699a8f75c17d8173a1c73dd580a882bb5c90a3eee76656a98696340",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-006.png",
       "source_sha256": "ea5acbddc4e4fad1489005bbccdb0de2ce5c08a66eee28d56adf83020e1c4cec",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-007.png",
       "source_sha256": "c49e3f81c4b3ecfb4324f31815e63cc77d73e927cc6413be13471de86451bbb9",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-008.png",
       "source_sha256": "bd650a9cecda89ee27ad0fe19d731f72ec406548810b75b2faf823641881263f",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-009.png",
       "source_sha256": "444b21faac87108718a533b511a776bc02cef15352d663809b74849319711e00",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-010.png",
       "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-011.png",
       "source_sha256": "97780a704da93753e7b205c38db2ecb84610dd1e258144d628383c64672927de",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-012.png",
       "source_sha256": "3167f0af5b1186179c40718f57ce5d29eaa71b9cfb6fdf1a9d9e7c32cf4258b6",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-013.png",
       "source_sha256": "145320dba14403b3aea81fee8cbb68be55a39d7397c493dd6e21748d06e8f8f3",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-014.png",
       "source_sha256": "8cb73fefeb1d666aec79a8836d51c94a41d77516a691a9c9171185821f468fff",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-015.png",
       "source_sha256": "54d5429d5d596ee320b4904721410478c551163b5ac1db2df3f226293d712e96",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-016.png",
       "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-017.png",
       "source_sha256": "7d198a7991416509ac413e530b45b5593b9fedf2a7286ded2fba1c1f6139f28e",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-018.png",
       "source_sha256": "d55851371621bb12345e424b78545a5f1baa0b51fdf987ee25fd425f1a8c620b",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-019.png",
       "source_sha256": "aa40285a3699a8f75c17d8173a1c73dd580a882bb5c90a3eee76656a98696340",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-020.png",
       "source_sha256": "411c17ae51c18127e8ddd5f95fbb71ce00c6eee466de420bb130c9e9b0005f3c",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-021.png",
       "source_sha256": "27b3c7ed6f4d075953d340e1bbcc01151d14b98a0c3e957df552aa884edbedce",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-022.png",
       "source_sha256": "aa40285a3699a8f75c17d8173a1c73dd580a882bb5c90a3eee76656a98696340",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-023.png",
       "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-024.png",
       "source_sha256": "9c5e33db94592b6b8aacfbbff0829c0d39b722c244a62d8cbca1d51731900526",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-025.png",
       "source_sha256": "ad76dd3488be63105da2061714a081ba8606f99afa1176a4568aa528ccc392b3",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-026.png",
       "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-027.png",
       "source_sha256": "f8922a4d5c291c8ffc880a8631286206b94c0ed0ffd64d446efe1b10ba0dbcb0",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-028.png",
       "source_sha256": "e8dc41e7d3b4d5594c2300d7cb4ca60bd60b4c46cd1087e90744bfcb70cc9af3",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-029.png",
       "source_sha256": "3b870e5913a212a03ddb6362583591ae3503465abe46fa339bbe356d58f3e2f6",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-030.png",
       "source_sha256": "4c6e6e16a60758546d4472ca2ddbbd0a9f8f488d87f3e2ad9c88f40e954b1a03",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-031.png",
       "source_sha256": "20afaf4d7d4ebfcbd063f0e078515b82fe3bb9f414ab97d5548adb18b9948c73",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "partial_heading_replacement_other_text_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-032.png",
       "source_sha256": "ede3fe04ca5788ba6b24e6c8c41fba7cbd5017a2b04c186e29195c24d9d95cc3",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "partial_heading_replacement_other_text_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-033.png",
       "source_sha256": "019c9fe79981304462faa38271502c921b51ea359305b3ca88a3b3031ed88dbc",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "partial_heading_replacement_other_text_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-034.png",
       "source_sha256": "9f1abf3175d8838d380f91a0598f1463f300cc133e2358b81225f9774b6bd8ee",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "partial_heading_replacement_other_text_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-035.png",
       "source_sha256": "1374f882d87a552b11a2e95057a4fe351e6ebb2acf01d0ec1f6473edba2f5d39",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-036.png",
       "source_sha256": "870cf78c23f092cae2ab7eb6938763b7451d784de46df74f26e0346c2d5edfea",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "partial_heading_replacement_other_text_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-037.png",
       "source_sha256": "6e113826f6a0844e312c6358754725afeb5149b7a984b018ad656275e38b5b60",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-038.png",
@@ -2110,8 +2112,8 @@
     {
       "source_path": "base/ui/playmenu-064.png",
       "source_sha256": "fb80f01ba5bdc56eb102305b2d4c097217c0e4aa47e15c5210663d56076c1935",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/segue-000.png",

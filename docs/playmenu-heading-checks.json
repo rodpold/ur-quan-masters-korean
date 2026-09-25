@@ -1,0 +1,8 @@
+{
+  "status": "static_passed_runtime_pending",
+  "headings": 39,
+  "limitations": [
+    "HUMAN/CYBORG and decorative ship-name art inside icons remain pending.",
+    "In-game visibility is not verified by this static check."
+  ]
+}
