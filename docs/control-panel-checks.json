@@ -1,6 +1,6 @@
 {
   "status": "static_passed_runtime_pending",
-  "panels": 24,
+  "panels": 34,
   "records": [
     {
       "source_path": "base/ui/activity-000.png",
@@ -262,10 +262,110 @@
         42,
         9
       ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-017.png",
+      "lines": [
+        "불러오기"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-018.png",
+      "lines": [
+        "저장"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-019.png",
+      "lines": [
+        "불러오기"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-020.png",
+      "lines": [
+        "저장"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-021.png",
+      "lines": [
+        "저장"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-022.png",
+      "lines": [
+        "불러오기"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-023.png",
+      "lines": [
+        "저장"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-024.png",
+      "lines": [
+        "불러오기"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-029.png",
+      "lines": [
+        "종료"
+      ],
+      "size": [
+        36,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-030.png",
+      "lines": [
+        "종료"
+      ],
+      "size": [
+        36,
+        7
+      ]
     }
   ],
   "limitations": [
-    "Sprite sizes, ANI frame order/hotspots and unedited sprites are preserved.",
+    "Ten melee button sprites grow from 5/6px to 7px; width, ANI order and hotspots stay unchanged. Five normal buttons also replace their baked-in background copies.",
     "Native input handling is unchanged; B is the original displayed button identifier.",
     "Runtime visibility and selected-state contrast need in-game review."
   ]

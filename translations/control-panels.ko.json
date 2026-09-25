@@ -638,6 +638,373 @@
         255
       ],
       "style": "bevel"
+    },
+    {
+      "source_path": "base/ui/meleemenu-017.png",
+      "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "LOAD",
+      "lines": [
+        "불러오기"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "load game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-018.png",
+      "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "SAVE",
+      "lines": [
+        "저장"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "save game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-019.png",
+      "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "LOAD",
+      "lines": [
+        "불러오기"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        248,
+        224,
+        0,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "load game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-020.png",
+      "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "SAVE",
+      "lines": [
+        "저장"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        248,
+        224,
+        0,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "save game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-021.png",
+      "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "SAVE",
+      "lines": [
+        "저장"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "save game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-022.png",
+      "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "LOAD",
+      "lines": [
+        "불러오기"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "load game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-023.png",
+      "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "SAVE",
+      "lines": [
+        "저장"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        248,
+        224,
+        0,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "save game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-024.png",
+      "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
+      "source_size": [
+        36,
+        5
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "LOAD",
+      "lines": [
+        "불러오기"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        248,
+        224,
+        0,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "load game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-029.png",
+      "source_sha256": "66790803e4a8bfd2ba33b19e13ee4451e8901d6ed64d4481e878e15acd286e63",
+      "source_size": [
+        36,
+        6
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "QUIT",
+      "lines": [
+        "종료"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "quit game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    },
+    {
+      "source_path": "base/ui/meleemenu-030.png",
+      "source_sha256": "c802d81f8f39311d6ee2e5fe1c4c0bab0b96d8fab012430fcc32a2d723b305e6",
+      "source_size": [
+        36,
+        6
+      ],
+      "size": [
+        36,
+        7
+      ],
+      "source_text": "QUIT",
+      "lines": [
+        "종료"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        248,
+        224,
+        0,
+        255
+      ],
+      "style": "flat",
+      "vertical_padding": 0,
+      "ui_key": "quit game",
+      "layout_note": "7px native ink; same ANI position. Top load ends at y=76, before battle starts at y=77."
+    }
+  ],
+  "background_composites": [
+    {
+      "source_path": "base/ui/meleemenu-000.png",
+      "source_sha256": "7ec85607d5390aefe2b25c36358a2a7e5c4b06f83b6e7f82aa8df8e4bf903df9",
+      "size": [
+        318,
+        240
+      ],
+      "placements": [
+        {
+          "panel": "base/ui/meleemenu-017.png",
+          "origin": [
+            268,
+            69
+          ]
+        },
+        {
+          "panel": "base/ui/meleemenu-018.png",
+          "origin": [
+            268,
+            59
+          ]
+        },
+        {
+          "panel": "base/ui/meleemenu-021.png",
+          "origin": [
+            268,
+            157
+          ]
+        },
+        {
+          "panel": "base/ui/meleemenu-022.png",
+          "origin": [
+            268,
+            147
+          ]
+        },
+        {
+          "panel": "base/ui/meleemenu-029.png",
+          "origin": [
+            268,
+            217
+          ]
+        }
+      ]
     }
   ]
 }

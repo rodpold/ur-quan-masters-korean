@@ -17,6 +17,11 @@ class ControlPanelTests(unittest.TestCase):
     def test_rejects_rows_that_exceed_height(self):
         self.row['size']=[60,9]
         with self.assertRaises(ValueError):render_panel(self.row,self.font)
+    def test_native_ink_fits_explicit_borderless_seven_pixel_button(self):
+        self.row.update(size=[36,7],lines=['불러오기'],vertical_padding=0)
+        im=Image.open(io.BytesIO(render_panel(self.row,self.font)))
+        self.assertEqual(im.size,(36,7))
+
     def test_selected_palette_changes_output(self):
         normal=render_panel(self.row,self.font);self.row['background']=[4,8,124,255]
         self.assertNotEqual(normal,render_panel(self.row,self.font))

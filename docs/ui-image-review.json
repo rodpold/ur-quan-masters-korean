@@ -4,10 +4,11 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 97,
+    "embedded_text_pending": 86,
     "existing_replacement_runtime_pending": 10,
-    "generated_korean_panel_runtime_pending": 24,
+    "generated_korean_panel_runtime_pending": 34,
     "no_obvious_language_text_in_viewed_image": 267,
+    "partial_button_replacement_other_text_pending": 1,
     "preserve_numeric_sprite": 21,
     "preserve_product_logo": 1
   },
@@ -357,8 +358,8 @@
     {
       "source_path": "base/ui/meleemenu-000.png",
       "source_sha256": "7ec85607d5390aefe2b25c36358a2a7e5c4b06f83b6e7f82aa8df8e4bf903df9",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "partial_button_replacement_other_text_pending",
+      "notes": "배경에 박힌 기본 상태 버튼 5곳을 교체. SUPER-MELEE 제목은 여전히 번역 대기."
     },
     {
       "source_path": "base/ui/meleemenu-001.png",
@@ -459,50 +460,50 @@
     {
       "source_path": "base/ui/meleemenu-017.png",
       "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-018.png",
       "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-019.png",
       "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-020.png",
       "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-021.png",
       "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-022.png",
       "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-023.png",
       "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-024.png",
       "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-025.png",
@@ -531,14 +532,14 @@
     {
       "source_path": "base/ui/meleemenu-029.png",
       "source_sha256": "66790803e4a8bfd2ba33b19e13ee4451e8901d6ed64d4481e878e15acd286e63",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleemenu-030.png",
       "source_sha256": "c802d81f8f39311d6ee2e5fe1c4c0bab0b96d8fab012430fcc32a2d723b305e6",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_panel_runtime_pending",
+      "notes": "저장/불러오기/종료 버튼. 원본 5/6px 높이를 native 한글 7px로 확장하며 ANI 위치는 유지. 인접 위젯 간격/선택 상태 검사 통과, 실기 대기."
     },
     {
       "source_path": "base/ui/meleepickship-000.png",

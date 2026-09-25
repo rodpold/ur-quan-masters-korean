@@ -16,7 +16,7 @@ def render_panel(row,font):
         if mask.width>width-2 or mask.height>7:raise ValueError('Control panel text does not fit: '+text)
         masks.append(mask)
     total=sum(m.height for m in masks)+3*(len(masks)-1)
-    if not masks or total>height-2:raise ValueError('Control panel rows do not fit')
+    if not masks or total>height-row.get('vertical_padding',2):raise ValueError('Control panel rows do not fit')
     im=Image.new('RGBA',(width,height),tuple(row['background']));d=ImageDraw.Draw(im)
     if row['style']=='bevel':
         d.line((0,height-1,0,0,width-1,0),fill=(145,145,145,255))
@@ -44,5 +44,19 @@ def add_panels(entries,rmp,source,spec):
     for row in spec['panels']:
         path=row['source_path'];raw=source.read(path)
         if path not in reachable or path in seen or hashlib.sha256(raw).hexdigest()!=row['source_sha256']:raise ValueError('Panel source mismatch')
-        if list(Image.open(io.BytesIO(raw)).size)!=row['size']:raise ValueError('Panel dimensions changed')
+        if list(Image.open(io.BytesIO(raw)).size)!=row.get('source_size',row['size']):raise ValueError('Panel dimensions changed')
         seen.add(path);entries[path.replace('base/','ko/',1)]=render_panel(row,font)
+
+    for composite in spec.get('background_composites',[]):
+        path=composite['source_path'];raw=source.read(path)
+        if hashlib.sha256(raw).hexdigest()!=composite['source_sha256']:raise ValueError('Panel background changed')
+        im=Image.open(io.BytesIO(raw)).convert('RGBA')
+        if list(im.size)!=composite['size']:raise ValueError('Panel background dimensions changed')
+        for placement in composite['placements']:
+            name=placement['panel']
+            if name not in seen:raise ValueError('Unknown background panel')
+            panel=Image.open(io.BytesIO(entries[name.replace('base/','ko/',1)])).convert('RGBA')
+            x,y=placement['origin']
+            if x<0 or y<0 or x+panel.width>im.width or y+panel.height>im.height:raise ValueError('Background panel out of bounds')
+            im.paste(panel,(x,y))
+        out=io.BytesIO();im.save(out,format='PNG');entries[path.replace('base/','ko/',1)]=out.getvalue()

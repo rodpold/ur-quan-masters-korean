@@ -177,3 +177,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 조선소 이미지 라벨 배치 조사: 같은 고정 UQM 리비전의 shipyard.c DrawRaceStrings를 확인했다. docs/shipyard-label-layout-review.json에 URL/해시/제약을 기록. 소스·게임 이미지 재배포와 신규 폰트 추가 없음.
 
 조작 패널 24개: 기존 vendor/galmuri/Galmuri7.ttf 및 OFL.txt, SHA256.json의 출처/라이선스/해시를 재사용한다. 원본 패널 크기와 상태별 팔레트를 바탕으로 자체 텍스트 패널 생성 코드를 작성했다. 7px 잉크와 이진 알파를 사용하며 원본 게임 이미지와 생성 PNG는 Git에 배포하지 않는다. 신규 외부 폰트/자산 다운로드 없음.
+
+함대 대전 작은 버튼: 기존 Galmuri7/OFL을 재사용하며 추가 이미지 다운로드 없음. 고정 UQM 리비전의 supermelee/melee.c(출처/해시: docs/melee-button-source-review.json)로 프레임 호출·배경 복구를 확인했다. 버튼 주변 아트는 보존하고 빌드할 때만 기본 상태 한글 버튼을 배경에 합성한다. 원본/생성 PNG는 Git에 배포하지 않는다.
