@@ -1,0 +1,44 @@
+{
+  "scripts": [
+    {
+      "path": "base/cutscene/spins/ship00.txt",
+      "sha256": "0a2ac923abef68f7b48983a5eb87fecf15ec947dcdbeb62c9575822fc935ac3a",
+      "referenced_animation": "base/cutscene/spins/ship00.ani",
+      "animation_exists": true
+    },
+    {
+      "path": "base/cutscene/spins/ship04.txt",
+      "sha256": "ad1da986d73ba71a1dae3dacff333f62f0301c5a3eb4fc019d8c2f2153c7668d",
+      "referenced_animation": "base/cutscene/spins/ship04.ani",
+      "animation_exists": true
+    },
+    {
+      "path": "base/cutscene/spins/ship10.txt",
+      "sha256": "09619195fbefe704956c9fa79501f2efd264b33d2d9fc0d94c3ec1d2f3510831",
+      "referenced_animation": "base/cutscene/spins/ship10.ani",
+      "animation_exists": true
+    }
+  ],
+  "resource_bindings": [],
+  "source_evidence": {
+    "fmv.c": {
+      "sha256": "ad633d3950a6c5746f1b9c234db005d3ae85c643eb09b98a3354d713a85dcd1f",
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/fmv.c"
+    },
+    "intro.c": {
+      "sha256": "0e54bfd17906818a83c088ff5d08cd8ccbea4cb5fac424e69b1151e13e058e96",
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/intro.c"
+    },
+    "shipyard.c": {
+      "sha256": "d28caace03efa0e8841e8d9135c67d098f44a38f9ef96eb049275082456bc8fd",
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/shipyard.c"
+    }
+  },
+  "status": "base_scripts_present_no_installed_resource_binding",
+  "decision": "Do not enable dormant presentation features as a translation side effect.",
+  "limitations": [
+    "Public source is a port at a pinned commit, not proof of the installed executable build flags.",
+    "Installed base, 3DO music and voice packages were inspected; optional future video packs require separate inspection.",
+    "Absence of bindings does not prove there is no English text in other ship information interfaces."
+  ]
+}

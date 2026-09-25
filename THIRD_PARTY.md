@@ -152,3 +152,7 @@ Inspected public source snapshot: [report.c](https://github.com/intgr/uqm-wasm/b
 소개 슬라이드 한글 추가 용도: 기존 Galmuri7/Galmuri9 파일과 라이선스·해시를 재사용한다. 새 외부 폰트는 없으며 Galmuri9의 기존 흑백 래스터를 slides 글꼴에도 배치한다. 원본 영문 슬라이드 글리프는 사용자 설치 패키지에서 빌드 시 복사하며 저장소에 배포하지 않는다. 원본 글리프와 음악·이미지는 변경하지 않는다.
 
 최종 엔딩 슬라이드에도 위 소개와 동일한 Galmuri9 원본 파일·라이선스·해시와 흑백 변환을 재사용한다. 기존 slides 영문 글리프는 사용자 설치본에서만 복사하고 저장소에는 배포하지 않는다.
+
+## 슬라이드·함선 소개 재생 경로 조사
+
+UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/intro.c), [fmv.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/fmv.c), [shipyard.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/shipyard.c)를 참고했다. 원 저작권 Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). 해시는 docs/shipspin-resource-audit.json 참조. 사용 목적은 리소스 이름·FONT 선택 동작·텍스트 버퍼 한도의 사실 확인이다. 원본 코드를 복제·배포하거나 설치 EXE를 수정하지 않았다.

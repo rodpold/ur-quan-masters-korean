@@ -19,7 +19,7 @@ def verify_slides(package,source,spec,expected_count):
             if len(a['text'].split())==3:
                 fields=a['text'].split()
                 slots[fields[1]]=Path(fields[2]).stem
-                if fields[1]=='0':font=slots['0']
+                font=slots[fields[1]]
                 assert b['text'].split()[:2]==a['text'].split()[:2]
                 assert b['text'].split()[2]=='addons/uqm-korean-ui-poc/ko/fonts/'+a['text'].split('/')[-1]
             else:
@@ -27,6 +27,8 @@ def verify_slides(package,source,spec,expected_count):
                 font=slots[a['text'].split()[1]]
         elif a['kind']=='slide_text':
             assert b['text']==spec['records'][a['id']]
+            assert len(b['text'].encode('utf-8'))<512,('Slide text buffer exceeded',a['id'])
+            assert len(b['text'].splitlines())<=15,('Slide line buffer exceeded',a['id'])
             check_dialogue_record(a['text'],b['text'],terms,spec['source_path'],spec['source_path']+'/'+a['id'])
             widths=[]
             for line in b['text'].splitlines():
