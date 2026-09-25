@@ -1,0 +1,884 @@
+{
+  "source_path": "base/ui/setupmenu.txt",
+  "source_sha256": "635d42d0697c94cfb62c792d6148bcc1a98a5f6ef5898982a27b74e2a6ecdef2",
+  "total_records": 121,
+  "translated_records": 121,
+  "pending_records": 0,
+  "status": "structure_passed_linguistic_and_runtime_review_pending",
+  "preserved_technical_names": [
+    "UQM",
+    "PC",
+    "3DO",
+    "SDL",
+    "OpenGL",
+    "OpenAL",
+    "MixSDL",
+    "Bilinear",
+    "Biadapt",
+    "Biadv",
+    "Triscan",
+    "HQ",
+    "HQ2X",
+    "Scale2x",
+    "FPS",
+    "Creative Labs",
+    "Precursors",
+    "The Precursors",
+    "Enter",
+    "Delete"
+  ],
+  "limitations": [
+    "Coverage does not prove meaning or runtime behavior.",
+    "List order/count is checked by the compiler; free-form description line wrapping may differ.",
+    "Control-template placeholders are replaced at runtime; user configuration names remain user data."
+  ],
+  "records": [
+    {
+      "id": "TITLE",
+      "source_text_sha256": "f5ae5cc728b533ba82b9294c299a15d39ae7fdfa51361d6863e68361ecbeed07",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "SUBTITLES",
+      "source_text_sha256": "35207096796355e29f7563358a29b6bcd4af3bd9c67953974f3eb76c551eb750",
+      "status": "translated_draft",
+      "source_lines": 8,
+      "translated_lines": 8
+    },
+    {
+      "id": "CHOICES",
+      "source_text_sha256": "334de5f4a13527e2148bd62379712e4cddbe7b8091441b3c71c73551fa48498f",
+      "status": "translated_draft",
+      "source_lines": 24,
+      "translated_lines": 24
+    },
+    {
+      "id": "CAT_0_OPTS",
+      "source_text_sha256": "3edf0e3cb2665f3611d3ba1ca4328630014472aeb88c676e7ef442fc6c27c965",
+      "status": "translated_draft",
+      "source_lines": 6,
+      "translated_lines": 6
+    },
+    {
+      "id": "CAT_0_OPT_0_DESC",
+      "source_text_sha256": "886751d310eefa48506af8c097fea4b302254a5c5d0192e375045dfd595bf497",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_0_OPT_1_DESC",
+      "source_text_sha256": "e0e08924e6de652d42a9a04e3ce837629ad8806aceadacc21708548df54a5602",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_0_OPT_2_DESC",
+      "source_text_sha256": "9e8031508d7c0f82dbbc3d73c612e58a12274a7ad510554e9762f8beb1df178a",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_0_OPT_3_DESC",
+      "source_text_sha256": "6aca92572529899d8bb75c7ddef8a91a44c7a3a9d5e4b4e2bea72407da96eb59",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_0_OPT_4_DESC",
+      "source_text_sha256": "6b18839559e672188c4581bed24dfbb1b5b6c14ba8076f58ea820ea83b61ad86",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_0_OPT_5_DESC",
+      "source_text_sha256": "77e0bcbf747bf65383fe08d68783af9d8ee75c96afa4b233390ebf22101c7b24",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_1_OPTS",
+      "source_text_sha256": "ac75ab823455e95e67eb4fc39e69e602202abc459523ebde75f129622911014a",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_1_OPT_0_DESC",
+      "source_text_sha256": "a96e72df200cfcb46cefa71ef46190b235ec1eb08027108a84f120014047f360",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_1_OPT_1_DESC",
+      "source_text_sha256": "57ba4b3cded32b6707c7adb1eb008b9f787a1066899b5b30e5acbf942944a292",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_2_OPTS",
+      "source_text_sha256": "88e10e43fe2f0e0d5949283050e6ea4c7ea39e07f06441e9282a967ad97cbd9a",
+      "status": "translated_draft",
+      "source_lines": 6,
+      "translated_lines": 6
+    },
+    {
+      "id": "CAT_2_OPT_0_DESC",
+      "source_text_sha256": "130e40288e90d04daf5e6566de0b9162622a58a194e35b7b6a613072047d4313",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_2_OPT_1_DESC",
+      "source_text_sha256": "e1afb378d2d97d077ee830d28a7860903cf6d63424f9f44c615986746f9dcf12",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_2_OPT_2_DESC",
+      "source_text_sha256": "be53be14737b13dc6721ee536773afee0d069d07f02475bf94cb10a9f73adadf",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_2_OPT_3_DESC",
+      "source_text_sha256": "0fa90dd25ff4143b8a4c6e10c0cd36baf2115a456d0529206bc4d6e7dd18a06b",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_2_OPT_4_DESC",
+      "source_text_sha256": "337021067df987daff46ff477963aff6ebd004f8546317fd2388d6d6cd2b44fa",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_2_OPT_5_DESC",
+      "source_text_sha256": "e5e7755247d1e5d236621f7f83bbd9ec216d3fbc4b33ab0407b212484e3d2282",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_3_OPTS",
+      "source_text_sha256": "23f0092b21c6fda3e1d8beff63ba908e5c9b882386f9217a9808461f55f918a4",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_3_OPT_0_DESC",
+      "source_text_sha256": "cb2cc79af83d41866415e09ff3bc9f8417957e5e13e19d95fcc8fa2364f0210c",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_3_OPT_1_DESC",
+      "source_text_sha256": "afcdc372bed28d821d3344017709485bd7b37b2d3b1c591c0c1212c95951fa1c",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_4_OPTS",
+      "source_text_sha256": "685386791459d7ecacd6f57091db636f649a373590128300a78cc0b6aa380dfa",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_4_OPT_0_DESC",
+      "source_text_sha256": "1cef8b5932d1c64e64fb4075a7ca6d079de614594ae29de65f14cc673f8af0c3",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_4_OPT_1_DESC",
+      "source_text_sha256": "4df3774c29d92ccb81b80838da1b8196d566390f859e9ece20d4039d18db5e7a",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_5_OPTS",
+      "source_text_sha256": "81d5c89e7a45c418284170a77c11ee7f8d996a7f0b28c97dc5f6b54c765a1b23",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_5_OPT_0_DESC",
+      "source_text_sha256": "afba3b51c36b153b106db9bc94bab99c88c26517864e69daa02d89e9105cabad",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_5_OPT_1_DESC",
+      "source_text_sha256": "02261c6640514cd8be4058f3898b219585dcce8aacc870cb4c2db894fb3bae0d",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_6_OPTS",
+      "source_text_sha256": "ae1969ec30d67b389d98ac93b7acd1d8756c49e6c27fe5d656dea19684d7d5d2",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_6_OPT_0_DESC",
+      "source_text_sha256": "2076346528eea1c32601f890e39c0ab6b275bff3c5715751a90f583cb5c595f3",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_6_OPT_1_DESC",
+      "source_text_sha256": "2df8d85e20ade125eb040f7fa0772fbc5db8e724b0767ece1da959e0003c9693",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_7_OPTS",
+      "source_text_sha256": "a6f2dfb83dd1908cc271c590c09ea7f02a5c327376f0ef3a3f98ed431d0d367a",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_7_OPT_0_DESC",
+      "source_text_sha256": "811da44d14600f33d9c17a9e403df01c94ec322001725704c169cb8118802cc4",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_7_OPT_1_DESC",
+      "source_text_sha256": "fdece301a1d644ba1102195b85a3ee583ccacd03b1b0acdaa7e362acb69a8c0f",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_8_OPTS",
+      "source_text_sha256": "23f0092b21c6fda3e1d8beff63ba908e5c9b882386f9217a9808461f55f918a4",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_8_OPT_0_DESC",
+      "source_text_sha256": "4d8151400a2de10c2344f3ee49e637e701c223d12327791cd2b90de5e80afef5",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_8_OPT_1_DESC",
+      "source_text_sha256": "2668a8b323a28155b2088c1fad1b2083536025bba966b231572b4c0258e4ba13",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_9_OPTS",
+      "source_text_sha256": "23f0092b21c6fda3e1d8beff63ba908e5c9b882386f9217a9808461f55f918a4",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_9_OPT_0_DESC",
+      "source_text_sha256": "31924ad6b30db49287bbeb33d131dd7515a1984e309a8fe4d12a2576723c05d0",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_9_OPT_1_DESC",
+      "source_text_sha256": "08d3d7223b0cb0e32dcf00e686fdcaf1080569bb942feb9991811bf1501c90fb",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_10_OPTS",
+      "source_text_sha256": "55f5f5942b63c2583472110cc1afc358ba63e30c92b5882396f7396085eb6580",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_10_OPT_0_DESC",
+      "source_text_sha256": "0546dcaf59059bf64e3e0849001a982b261e64d3c919a69616b72f5265378bb7",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_10_OPT_1_DESC",
+      "source_text_sha256": "585cad5c4864e38022d26f8c2b97b437be56f73422dcedcac9902e59a47ee2c0",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_11_OPTS",
+      "source_text_sha256": "99af4cddbac9f7ae56fa08b220c183bab195874e96e0e00d106c05c82a126dad",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_11_OPT_0_DESC",
+      "source_text_sha256": "c5bb9307ce37da1c7f3910c62ad774132ae62f52ac2141956ba819d7abd88b02",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_11_OPT_1_DESC",
+      "source_text_sha256": "b9f651a17d08f8d53156dea3892820328fa1fbb8b445f562d0409f82b1f84154",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_12_OPTS",
+      "source_text_sha256": "f83c1be51cb2c9c7fa2fabdb2f5a39bf32812f0755bc97d5b8ed2e58b37054e7",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_12_OPT_0_DESC",
+      "source_text_sha256": "8372a9a36ac70b7a784d63b67bd751b74c113a1f589255ef43adfa91a1f30b9a",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_12_OPT_1_DESC",
+      "source_text_sha256": "73234c8e769001a86c2912b72b666aad8e586bb17eda050c585a6dcd3d5b94b9",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_13_OPTS",
+      "source_text_sha256": "54edb215507d445a0c6b3e827fb5af5f1d1b840b95d665d71f9eb9a4b94b1824",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_13_OPT_0_DESC",
+      "source_text_sha256": "530afb2b80a54a22caa70ce9cace80a7dbb5c8290d0d01f8608ae85e22d5b45f",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_13_OPT_1_DESC",
+      "source_text_sha256": "7a4f22e919a16efc19b32e12153d5f390868259eaf75f73128ef91b76b17310f",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_14_OPTS",
+      "source_text_sha256": "23f0092b21c6fda3e1d8beff63ba908e5c9b882386f9217a9808461f55f918a4",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_14_OPT_0_DESC",
+      "source_text_sha256": "d202d9a70a8673cb308c0b46b26a398e25bddc10fab93e57d749f0f87fd368ec",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CAT_14_OPT_1_DESC",
+      "source_text_sha256": "06ecede8733c6cefcab399fac02fcfb8c1e54258f24fb8ee8794b7d95edba136",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_15_OPTS",
+      "source_text_sha256": "70146f31fb1fa011437d31aa1db3677fa5a4e693b81a7893b31347a4f781c82e",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_15_OPT_0_DESC",
+      "source_text_sha256": "7b65831c146471505f653eb520588e854605b23a2c02dd32eb42d1e3de2367a9",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_15_OPT_1_DESC",
+      "source_text_sha256": "69888b9cdac2776c96215349702e14ac45c19ac48a39b1fb73b964a093eb90ae",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_15_OPT_2_DESC",
+      "source_text_sha256": "0ca07e6d1aa01aca80f03cc31e10deba36677158180b3ba2bd2757ff08bc59c0",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_16_OPTS",
+      "source_text_sha256": "67a23be4fa1d479390cbf501fe8fc269fa2327cf01f67333ef8cb1afc403da00",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_16_OPT_0_DESC",
+      "source_text_sha256": "a08b036ba36b449f97c8defe79f28bd88bf0fd91438dbab67f860bd3c9cf5530",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_16_OPT_1_DESC",
+      "source_text_sha256": "f3a7992daf09ba27dc976db1540c00eb517f0ee9daa6627591c11a64af35aca7",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_16_OPT_2_DESC",
+      "source_text_sha256": "af03a599763ee5330ce006a094e49a1eb62d48388805e938388f0f25e2dc4adc",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_17_OPTS",
+      "source_text_sha256": "26fab3292f0b75ce5d6801f0c04aae81d6873ed24f0b08f019cdc6907dd74449",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_17_OPT_0_DESC",
+      "source_text_sha256": "633e664a6a1d83e6413c1cf6175364056d5d9cf4e3b8e59013d8b3115266fbe9",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_17_OPT_1_DESC",
+      "source_text_sha256": "ccd329822db160ff6ccdbfafce6b15389ca2ac4464ef11696d0b5fadd93aa033",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_18_OPTS",
+      "source_text_sha256": "cccbce05d2abfbb49cacf17d5b22e5db4e6b618084e19bd1768f13cea38012c6",
+      "status": "translated_draft",
+      "source_lines": 6,
+      "translated_lines": 6
+    },
+    {
+      "id": "CAT_18_OPT_0_DESC",
+      "source_text_sha256": "4ac4b06ddb952b16f4b4a2d634ba2e7253692951213ca7f78a8a4fecdc500595",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_18_OPT_1_DESC",
+      "source_text_sha256": "4ac4b06ddb952b16f4b4a2d634ba2e7253692951213ca7f78a8a4fecdc500595",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_18_OPT_2_DESC",
+      "source_text_sha256": "4ac4b06ddb952b16f4b4a2d634ba2e7253692951213ca7f78a8a4fecdc500595",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_18_OPT_3_DESC",
+      "source_text_sha256": "4ac4b06ddb952b16f4b4a2d634ba2e7253692951213ca7f78a8a4fecdc500595",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_18_OPT_4_DESC",
+      "source_text_sha256": "4ac4b06ddb952b16f4b4a2d634ba2e7253692951213ca7f78a8a4fecdc500595",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_18_OPT_5_DESC",
+      "source_text_sha256": "4ac4b06ddb952b16f4b4a2d634ba2e7253692951213ca7f78a8a4fecdc500595",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_19_OPTS",
+      "source_text_sha256": "cccbce05d2abfbb49cacf17d5b22e5db4e6b618084e19bd1768f13cea38012c6",
+      "status": "translated_draft",
+      "source_lines": 6,
+      "translated_lines": 6
+    },
+    {
+      "id": "CAT_19_OPT_0_DESC",
+      "source_text_sha256": "9df9e93509b0c48370f3fba5da3d7a9382c434c2cb91d3ac1c45a2212dab421c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_19_OPT_1_DESC",
+      "source_text_sha256": "9df9e93509b0c48370f3fba5da3d7a9382c434c2cb91d3ac1c45a2212dab421c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_19_OPT_2_DESC",
+      "source_text_sha256": "9df9e93509b0c48370f3fba5da3d7a9382c434c2cb91d3ac1c45a2212dab421c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_19_OPT_3_DESC",
+      "source_text_sha256": "9df9e93509b0c48370f3fba5da3d7a9382c434c2cb91d3ac1c45a2212dab421c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_19_OPT_4_DESC",
+      "source_text_sha256": "9df9e93509b0c48370f3fba5da3d7a9382c434c2cb91d3ac1c45a2212dab421c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_19_OPT_5_DESC",
+      "source_text_sha256": "9df9e93509b0c48370f3fba5da3d7a9382c434c2cb91d3ac1c45a2212dab421c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_20_OPTS",
+      "source_text_sha256": "cccbce05d2abfbb49cacf17d5b22e5db4e6b618084e19bd1768f13cea38012c6",
+      "status": "translated_draft",
+      "source_lines": 6,
+      "translated_lines": 6
+    },
+    {
+      "id": "CAT_20_OPT_0_DESC",
+      "source_text_sha256": "72849eba86a2c81328fce6bbadf81441828bf528d91fad09df42255a000c2513",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_20_OPT_1_DESC",
+      "source_text_sha256": "72849eba86a2c81328fce6bbadf81441828bf528d91fad09df42255a000c2513",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_20_OPT_2_DESC",
+      "source_text_sha256": "72849eba86a2c81328fce6bbadf81441828bf528d91fad09df42255a000c2513",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_20_OPT_3_DESC",
+      "source_text_sha256": "72849eba86a2c81328fce6bbadf81441828bf528d91fad09df42255a000c2513",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_20_OPT_4_DESC",
+      "source_text_sha256": "72849eba86a2c81328fce6bbadf81441828bf528d91fad09df42255a000c2513",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_20_OPT_5_DESC",
+      "source_text_sha256": "72849eba86a2c81328fce6bbadf81441828bf528d91fad09df42255a000c2513",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_21_OPTS",
+      "source_text_sha256": "23f0092b21c6fda3e1d8beff63ba908e5c9b882386f9217a9808461f55f918a4",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_21_OPT_0_DESC",
+      "source_text_sha256": "5b91c7445402875e8ec2c60f2d182d57d8bbde91500125c615937cb398fe2639",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_21_OPT_1_DESC",
+      "source_text_sha256": "b9d4ea8ae78bd1b39f200b7776b56cc3a96bb8a7d40cdfe494f1429046a881ac",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_22_OPTS",
+      "source_text_sha256": "23f0092b21c6fda3e1d8beff63ba908e5c9b882386f9217a9808461f55f918a4",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_22_OPT_0_DESC",
+      "source_text_sha256": "c96c458dfea27522a1a8bda7bb94e1169ad3e46d438c471e86975ac9c759f7d0",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_22_OPT_1_DESC",
+      "source_text_sha256": "7700530e5afcd608a71c0cfbd60431d35bfceb61d517c323887c1ee64e663eaa",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_23_OPTS",
+      "source_text_sha256": "85699eac2214e7f0119dd5593ddfe27f9178cceacd2f3be267469005dbacaceb",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "CAT_23_OPT_0_DESC",
+      "source_text_sha256": "3ab82753a5beb6e28589a2d96dacab604ae0aa1a024fd651318aeac2a3f20dbe",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "CAT_23_OPT_1_DESC",
+      "source_text_sha256": "8eefa4eb07b2a27aebbac3e9f529a701b0623f1120685ac017a0fd7ba278ac03",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "SLIDERS",
+      "source_text_sha256": "e937c33693eb5156cdc798d347c74c95fe77320b844f0c7ff8a7b6b9f7011666",
+      "status": "translated_draft",
+      "source_lines": 4,
+      "translated_lines": 4
+    },
+    {
+      "id": "SLIDER_0_DESC",
+      "source_text_sha256": "0eba6b346dfaeab0ac9a15e797412600dcd50d733a020d12357bf28111b6cc58",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "SLIDER_1_DESC",
+      "source_text_sha256": "01c75e2545c189d0ca7e3f251954a1996b2b1c4ec551972db66800f7116396c0",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "SLIDER_2_DESC",
+      "source_text_sha256": "b7d9fe3be3fb8ddb0518f58e5f7f23b69cfe5c7f2555f1ecea23d57c9b109ec3",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "SLIDER_3_DESC",
+      "source_text_sha256": "3aee004c3c002f05f780d036bc2febc094690fa4151dd0b4b4b053c21973359c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "BUTTONS",
+      "source_text_sha256": "089fc8421a6d92343b398ee244f2b4cb1835284782f694110f86b05405655b4a",
+      "status": "translated_draft",
+      "source_lines": 10,
+      "translated_lines": 10
+    },
+    {
+      "id": "BUTTON_0_DESC",
+      "source_text_sha256": "c82873a8faab3ac74eb759f4699bc6835b5b238e518a5a9ad9f9a667d8404f9b",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "BUTTON_1_DESC",
+      "source_text_sha256": "3c086edd5c0031598d206dfc01adf419be07dea07d0c24aa7dba034a8d13abd4",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 2
+    },
+    {
+      "id": "BUTTON_2_DESC",
+      "source_text_sha256": "aa5a2ddba114b7daaf9b27f2bdfb97199688b604958f19c9344a8a364768e20c",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "BUTTON_3_DESC",
+      "source_text_sha256": "8415d3a1436909a1f8636b65c138a6a9e9bd36a2be4295c3749f17983fbaf59a",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "BUTTON_4_DESC",
+      "source_text_sha256": "1e29c3868a925d77125afe5072d96992a86bfdf451b5486b872ccac04045490b",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "BUTTON_5_DESC",
+      "source_text_sha256": "bb958a22331737c7d2f727229b5140fe0ae57573ecc80836650d2ab9206ab901",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "BUTTON_6_DESC",
+      "source_text_sha256": "6fe753f677b5cdcfbaf37f3e623833b7800a663e84d165b548363adf7a3942f0",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "BUTTON_7_DESC",
+      "source_text_sha256": "c97dc5e3b341e3241210667770630937c57ff1ce9ca92b2c65345d148665d63e",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "BUTTON_8_DESC",
+      "source_text_sha256": "50e8703a3761af3b6238e94000181f6b9d9bb5f5b80fbcb48de9ff3ab199a4b0",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "BUTTON_9_DESC",
+      "source_text_sha256": "e4cb53ee5f04340ee2b0e15179bcf84bdd56fdce48e03b448fd35b1814abd5b1",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "LABELS",
+      "source_text_sha256": "c1807b893d722be7e71b987867b666b7b8f30552927237bbac058a1901ee6628",
+      "status": "translated_draft",
+      "source_lines": 4,
+      "translated_lines": 4
+    },
+    {
+      "id": "LABEL_0",
+      "source_text_sha256": "59f4ecfc6ead84f5787bd84264ebd9afd8d4b5f5b786a6eb997b590e46fa41c7",
+      "status": "translated_draft",
+      "source_lines": 4,
+      "translated_lines": 4
+    },
+    {
+      "id": "LABEL_1",
+      "source_text_sha256": "41a8b00016d36374cc68891a551173a973a4893da3da58a7bf0982c42e9e2465",
+      "status": "translated_draft",
+      "source_lines": 2,
+      "translated_lines": 2
+    },
+    {
+      "id": "LABEL_2",
+      "source_text_sha256": "91171787fcedf2cd21502f99b6091ae5956d6d443adf3b4b6d8b014b461d1697",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "LABEL_3",
+      "source_text_sha256": "323005577e30b1d8abefebec1295eeca4452a4ed7a1f507a90876a7893507b0b",
+      "status": "translated_draft",
+      "source_lines": 3,
+      "translated_lines": 3
+    },
+    {
+      "id": "TEXT_ENTRIES",
+      "source_text_sha256": "dcd1d5223f73b3a965c07e3ff5dbee3eedcfedb806686a05b9b3868a2c3d6d50",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "TEXT_ENTRIES_INITIAL",
+      "source_text_sha256": "f4b24fed0274a31618ac1b665ee162af331b4b70fdff74f3f9ddedc94b4da745",
+      "status": "translated_draft",
+      "source_lines": 1,
+      "translated_lines": 1
+    },
+    {
+      "id": "CONTROL_ENTRIES",
+      "source_text_sha256": "d9cc811278fdab98d644fa0883f96a295a26bccef291ccf88853e32f6c86501a",
+      "status": "translated_draft",
+      "source_lines": 7,
+      "translated_lines": 7
+    }
+  ]
+}

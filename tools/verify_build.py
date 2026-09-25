@@ -30,6 +30,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_world_types import verify_world_types
         world_check = verify_world_types(z, source)
         (patcher.ROOT/'docs/world-type-layout-checks.json').write_text(json.dumps(world_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_setup import audit_setup
+        setup_check = audit_setup(source.read('base/ui/setupmenu.txt'),json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8')))
+        (patcher.ROOT/'docs/setup-progress.json').write_text(json.dumps(setup_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')

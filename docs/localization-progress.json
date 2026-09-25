@@ -8,6 +8,9 @@
   },
   "dialogue_records": 3451,
   "translated_intro_subtitles": 32,
+  "setup_records": 121,
+  "translated_setup_records": 121,
+  "pending_setup_records": 0,
   "ui_records": 594,
   "translated_ui_records": 581,
   "pending_ui_records": 0,
@@ -439,8 +442,8 @@
       "source_path": "base/gamestrings.txt",
       "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
       "records": 594,
-      "translated": null,
-      "status": "partial_existing_patch",
+      "translated": 581,
+      "status": "translated_draft_with_explicit_preserved_records",
       "linguistic_review": "pending",
       "in_game_review": "pending"
     },
@@ -862,8 +865,8 @@
       "source_path": "base/ui/setupmenu.txt",
       "source_sha256": "635d42d0697c94cfb62c792d6148bcc1a98a5f6ef5898982a27b74e2a6ecdef2",
       "records": 121,
-      "translated": null,
-      "status": "partial_existing_patch",
+      "translated": 121,
+      "status": "translated_draft_runtime_pending",
       "linguistic_review": "pending",
       "in_game_review": "pending"
     }
