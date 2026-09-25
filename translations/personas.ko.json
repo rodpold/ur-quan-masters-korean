@@ -711,7 +711,11 @@
         "ALLY_WITH_US1",
         "EMMISSARIES5",
         "WE_ENEMIES0",
-        "HOSTILE_HELLO_23"
+        "HOSTILE_HELLO_23",
+        "ALLIED_HOME_HELLO_26",
+        "THANKS_FOR_RESCUE9",
+        "GENERAL_INFO_25",
+        "GENERAL_INFO_46"
       ],
       "status": "source_based_working_profile",
       "human_style_review": "pending",
@@ -726,7 +730,9 @@
         "NOT_HELPFUL* / SEE_TOLD_YOU*": "조크는 이해하려다 당황하고 피크는 상대를 의심했다며 비난한다. 동료에게 해체, 함장에게 설명하는 조크의 해요체를 구분한다.",
         "ALLY_WITH_US* / EMMISSARIES* / WE_ALLY*": "조크의 공식 설명과 피크의 거친 요약·과장을 교차한다. 피크가 지도자의 권위를 깎는 농담을 유지한다.",
         "WE_ENEMIES* / HOSTILE_HELLO*": "조크의 분노를 약화하지 않는다. 직접 전투 명령에는 해라체, 함장에게 적대를 설명할 때는 냉담한 해요체. 피크는 짧은 독설과 반박을 유지한다.",
-        "NEUTRAL_HOME_HELLO*": "동맹 전의 설명과 경계. 우호적 접근을 이미 동맹이 된 상태처럼 번역하지 않는다."
+        "NEUTRAL_HOME_HELLO*": "동맹 전의 설명과 경계. 우호적 접근을 이미 동맹이 된 상태처럼 번역하지 않는다.",
+        "ALLIED_HOME_HELLO* / THANKS_FOR_RESCUE*": "동맹의 환대와 발화 순서에 대한 말다툼, 구조 뒤 감사와 자연 피해에 대한 분노를 구분한다. 피크가 동물을 걱정하다 자신들보다 낫다고 뒤집는 이기심을 유지한다.",
+        "GENERAL_INFO*": "조크의 보고와 피크의 반박. 프렁기 취향 논쟁과 초능력 조롱은 동료에게 해체로, 외교적 보고는 해요체로 유지한다. 기술적 발화 순서 농담과 초능력 주장을 객관적 설명으로 교정하지 않는다."
       }
     }
   },
