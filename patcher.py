@@ -128,7 +128,9 @@ def panel_assets(z):
     entries['ko/ui/playmenu-063.png']=png(im)
     return entries
 
-def build(game):
+def build(game, ui_font="compact"):
+    if ui_font not in {"compact", "larger"}:
+        raise ValueError("Unknown UI font preset")
     game = validate_game(game)
     translations = json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
     setup = json.loads((ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
@@ -153,11 +155,13 @@ def build(game):
                     entries[name.replace('base/fonts/', 'ko/fonts/', 1)] = z.read(name)
             for char in chars:
                 large = family == 'micro'
-                mask = text_mask(char, font('Galmuri11' if large else 'Galmuri7', 12 if large else 8))
-                if mask.size != ((12,11) if large else (8,7)):
+                larger_ui = family == 'starcon' and ui_font == 'larger'
+                mask = text_mask(char, font('Galmuri11' if large or larger_ui else 'Galmuri7', 12 if large else 10 if larger_ui else 8))
+                if mask.size != ((12,11) if large else (10,9) if larger_ui else (8,7)):
                     raise ValueError(f'예상하지 못한 글자 크기: {ord(char):x} {mask.size}')
-                # UI: 7px + 1px padding (hotspot 7); micro: 11px + 3px (hotspot 11).
-                glyph = Image.new('RGBA', (12,14) if large else (8,8), (255,255,255,0))
+                # Keep the baseline at the bottom of the ink; UQM uses h-3 above 9px.
+                # Larger starcon is experimental: fixed 8px in-game rows need visual QA.
+                glyph = Image.new('RGBA', (12,14) if large else (10,12) if larger_ui else (8,8), (255,255,255,0))
                 glyph.paste(Image.new('RGBA', mask.size, (255,255,255,255)), (0,0), mask)
                 entries[f'ko/fonts/{family}.fon/{ord(char):05x}.png'] = png(glyph)
             rmp.append(f'font.{family} = FONTRES:ko/fonts/{family}.fon')
@@ -170,7 +174,7 @@ def build(game):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)
@@ -210,10 +214,10 @@ def atomic_write(path, data):
         if os.path.exists(temp):
             os.unlink(temp)
 
-def install(game):
+def install(game, ui_font="compact"):
     validate_game(game)
     current = status(game)
-    data, report = build(game)
+    data, report = build(game, ui_font)
     if current['state'] == 'installed' and current['sha256'] == sha(data):
         return current
     target = addon_dir(game)
@@ -265,14 +269,18 @@ def main():
     parser.add_argument('--game',required=True,type=Path)
     parser.add_argument('--output',type=Path,default=ROOT/'artifacts/ko-ui.uqm')
     parser.add_argument('--test-config',type=Path)
+    parser.add_argument('--ui-font',choices=['compact','larger'],default='compact',
+                        help='Experimental larger preset: 9px common UI glyphs (build/install only).')
     args = parser.parse_args()
     try:
         if args.command == 'inspect':
             print(validate_game(args.game)); return
         if args.command == 'build':
-            data, result = build(args.game)
+            data, result = build(args.game, args.ui_font)
             args.output.parent.mkdir(parents=True,exist_ok=True)
             atomic_write(args.output,data)
+        elif args.command == 'install':
+            result = install(args.game, args.ui_font)
         elif args.command == 'launch':
             result = {'pid':launch(args.game,args.test_config)}
         else:

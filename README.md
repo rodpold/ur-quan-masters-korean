@@ -49,6 +49,15 @@ Steam 실행 옵션을 직접 추가했다면 제거 후 해당 옵션도 지우
 정보용 micro 폰트는 11픽셀 한글을 사용하며, 고정 간격 UI는 7픽셀을 유지합니다.
 함장과 함선의 고유 이름 및 숫자/좌표는 유지합니다.
 
+## 9픽셀 공통 UI 시험 옵션
+
+게임 종료 후 `python patcher.py install --game "$game" --ui-font larger`로 설치하고
+기존 `launch` 명령으로 실행합니다. 공통 starcon 폰트의 한글만 7→9픽셀 높이로 바꿉니다.
+Galmuri11을 10px로 래스터화하며 글리프 폭도 8→10픽셀로 늘어납니다.
+설정 화면과 게임 목록 메뉴에 함께 영향을 주므로, 고정 8픽셀 줄에서 겹침이 생기는지 확인해야 합니다.
+기본값은 기존 7픽셀이며 `install --ui-font compact`로 되돌릴 수 있습니다.
+음량이나 개인 설정은 바꾸지 않습니다. `python tools/verify_build.py "$game" larger`로 패키지를 검사합니다.
+
 ## 개발
 
 ```powershell

@@ -6,9 +6,9 @@ from PIL import Image
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import patcher
 
-def verify(game):
-    data,report=patcher.build(game)
-    assert patcher.build(game)[0]==data,'Non-deterministic build'
+def verify(game, ui_font="compact"):
+    data,report=patcher.build(game, ui_font)
+    assert patcher.build(game, ui_font)[0]==data,'Non-deterministic build'
     with ZipFile(io.BytesIO(data)) as z, ZipFile(Path(game)/patcher.SOURCE) as source:
         assert z.testzip() is None
         names=set(z.namelist())
@@ -37,7 +37,7 @@ def verify(game):
         translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         required={c for value in [*translations.values(),*setup.values()] for c in value if ord(c)>127}
-        for fontname,size in [('Galmuri7',8),('Galmuri11',12)]:
+        for fontname,size in [('Galmuri7',8),('Galmuri11',10),('Galmuri11',12)]:
             face=patcher.font(fontname,size)
             missing=bytes(face.getmask(chr(0x10ffff)))
             for char in required:
@@ -55,4 +55,4 @@ def verify(game):
             assert Image.open(io.BytesIO(z.read('ko/ui/'+n))).size==Image.open(io.BytesIO(source.read('base/ui/'+n))).size
     print(json.dumps({'checks':'passed',**report},indent=2))
 
-if __name__=='__main__':verify(Path(sys.argv[1]))
+if __name__=='__main__':verify(Path(sys.argv[1]), sys.argv[2] if len(sys.argv)>2 else "compact")
