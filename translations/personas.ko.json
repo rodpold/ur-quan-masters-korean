@@ -406,7 +406,13 @@
         "SENSE_EVIL"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "WHAT_COMPULSION / WHAT_FELT_LIKE / SOUNDS_FAMILIAR / MUST_EXPLAIN": "정신 지배 소식에 명령조가 공포와 다급함으로 흔들린다. 드냐리의 위협과 거짓말하지 않는다는 자기 주장은 해설 없이 유지.",
+        "INIT_FLEE_HUMAN / FLEE_BECAUSE / ABOUT_US / GOODBYE_WARS_OVER": "패전 뒤에도 권위적인 한다체를 유지하지만 체념·절박한 경고·생존을 바라는 태도를 드러낸다.",
+        "URQUAN_STORY": "의례적인 역사 설명. 노예화와 절멸의 교리 및 인물 이름과 아종 이름이 같은 점을 보존.",
+        "OUT_TAKES": "화자는 화면 구석의 통역 생물. 해요체와 귀여운 표현으로 엄숙한 우르콴 말투에서 벗어나며 게임 제작에 관한 농담을 유지."
+      }
     },
     "utwig": {
       "persona": "의식과 상실에 몰두하는 비탄의 종족",

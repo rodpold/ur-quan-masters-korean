@@ -1626,6 +1626,78 @@
       "status": "in_use",
       "notes": "아릴루 대화 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "sentient_milieu",
+      "source": "Sentient Milieu",
+      "ko": "지성체 공동체",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "고대 다종족 공동체. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "eternal_doctrine",
+      "source": "Eternal Doctrine",
+      "ko": "영원한 교리",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "코르아의 절멸 교리. 크저자의 노예화 정책과 구분. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "path_now_forever",
+      "source": "Path of Now and Forever",
+      "ko": "현재와 영원의 길",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "크저자의 노예화 정책 명칭. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "doctrinal_war",
+      "source": "Doctrinal War",
+      "ko": "교리 전쟁",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "교리 분쟁의 전쟁을 지칭하는 원문 표현. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "yuptar",
+      "source": "Yuptar",
+      "ko": "윱타르",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우르콴 과거 설명에 등장. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "primat",
+      "source": "Primat",
+      "ko": "프리마트",
+      "category": "title",
+      "status": "in_use",
+      "notes": "코르아 지도자의 직함. 이 대사에서는 여성으로 지칭. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "precursor_singular",
+      "source": "Precursor",
+      "ko": "선구자",
+      "category": "species",
+      "status": "in_use",
+      "notes": "기존 Precursors의 단수·수식형. 기존 표기 유지. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mary",
+      "source": "Mary",
+      "ko": "메리",
+      "category": "person",
+      "status": "in_use",
+      "notes": "아웃테이크의 동요 속 인물. 우르콴 번역 초안; 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
