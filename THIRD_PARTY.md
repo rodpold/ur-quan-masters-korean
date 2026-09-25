@@ -140,3 +140,11 @@ Lander reports use the existing Galmuri9.ttf by Lee Minseo (quiple), OFL-1.1, ra
 `tools/check_report_layout.py` adapts the pagination/control-flow of UQM's MakeReport and UniChar_isGraph for an offline audit. This tool is **GPL-2.0-or-later**, an exception to the repository's default MIT license. Original copyright: Paul Reiche, Fred Ford, 1992-2002; Python adaptation: 2026 ur-quan-masters-korean contributors. License: [LICENSES/UQM-GPL.txt](LICENSES/UQM-GPL.txt), SHA-256 `560aff43d87dd0a1c1281e48a72152d854001209f76962b2fbe47cc38b97c958`.
 
 Inspected public source snapshot: [report.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/report.c), [unicode.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/libs/strings/unicode.c), [gfxload.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/libs/graphics/gfxload.c), and [getstr.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/libs/strings/getstr.c). Full C source and game assets are not bundled. The audit excludes timing, input handling, and PC font effects; it does not establish executable equivalence or replace runtime testing.
+
+## 조크-포트-피크 화자 연결 참고
+
+- 출처: [UQM 공개 포트 zoqfotc.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/zoqfot/zoqfotc.c), 고정 커밋 daadbb540a8c46f09dcdb0080b4212fb33e6cb94.
+- 원 소스 저작권: Paul Reiche, Fred Ford (1992–2002). GPL-2.0-or-later, [라이선스 사본](licenses/UQM-GPL.txt).
+- 용도: 발화 ID와 ZOQ/PIK 콜백의 사실적 대응을 추출해 translations/zoqfotpik-speakers.ko.json에 기록. 원문 파일 SHA-256은 해당 JSON 참조.
+- 원본 C 코드·게임 대사·이미지·음성은 이 자료에 복제하지 않는다. 기존 게임 소스의 라이선스는 원 출처를 따른다. 신규 폰트나 폰트 수정은 없다.
+- 설치 EXE와 공개 포트의 동일성 및 실제 자막·화자 타이밍은 별도 검토 대상이다.

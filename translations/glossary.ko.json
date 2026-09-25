@@ -4253,6 +4253,33 @@
       "status": "in_use",
       "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "zoq",
+      "source": "Zoq",
+      "ko": "조크",
+      "category": "species",
+      "status": "in_use",
+      "notes": "조크-포트-피크 구성 종족. 화자 대응은 별도 콜백 표로 관리하며 포트 정체 농담을 번역에 해설하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "fot",
+      "source": "Fot",
+      "ko": "포트",
+      "category": "species",
+      "status": "in_use",
+      "notes": "조크-포트-피크 구성 종족. 화자 대응은 별도 콜백 표로 관리하며 포트 정체 농담을 번역에 해설하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "pik",
+      "source": "Pik",
+      "ko": "피크",
+      "category": "species",
+      "status": "in_use",
+      "notes": "조크-포트-피크 구성 종족. 화자 대응은 별도 콜백 표로 관리하며 포트 정체 농담을 번역에 해설하지 않는다.",
+      "ui_keys": []
     }
   ]
 }

@@ -701,15 +701,22 @@
       "source_path": "base/comm/zoqfotpik/zoqfotpik.txt",
       "evidence_record_ids": [
         "WE_ARE0",
-        "WE_ARE1"
+        "WE_ARE1",
+        "SCOUT_HELLO2",
+        "HE_IS6",
+        "WE_GLAD4",
+        "YEARS_AGO13",
+        "UNDER_ATTACK11"
       ],
       "status": "source_based_working_profile",
       "human_style_review": "pending",
       "variants": {
-        "WE_ARE0,WE_ARE2,WE_ARE4,WE_ARE6": "차분한 설명자",
-        "WE_ARE1,WE_ARE3,WE_ARE5,WE_ARE7": "공격적 반박자",
-        "other": "분기와 화자 전환 확인 후 지정"
-      }
+        "ZOQ": "함장에게 설명하는 해요체. 동료를 나무라거나 반박할 때는 해체로 전환한다. 항상 침착한 존댓말로 평준화하지 않는다.",
+        "PIK": "함장에게도 짧고 거친 해체, 의심과 허세. 때로 설명을 이어받으므로 모든 대사를 고함으로 만들지 않는다.",
+        "FOT": "현재 확인한 발화 콜백에는 없음. 포트를 둘러싼 논쟁을 실제 정체 설명으로 교정하지 않는다.",
+        "player": "자기소개는 합쇼체. 모욕과 지배 선언은 원문대로 해라체."
+      },
+      "speaker_reference": "translations/zoqfotpik-speakers.ko.json"
     }
   },
   "report_profiles": {
