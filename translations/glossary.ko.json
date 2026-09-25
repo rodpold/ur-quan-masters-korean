@@ -2456,6 +2456,105 @@
       "status": "in_use",
       "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "hendryx",
+      "source": "Hendryx",
+      "ko": "헨드릭스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "burvixese",
+      "source": "Burvixese",
+      "ko": "버빅시즈",
+      "category": "species",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jeevo",
+      "source": "Jeevo",
+      "ko": "지보",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "eterna_tech",
+      "source": "Eterna-Tech",
+      "ko": "이터나테크",
+      "category": "material",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "penetrator",
+      "source": "Penetrator",
+      "ko": "페너트레이터",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hodgkins",
+      "source": "Hodgkins",
+      "ko": "호지킨스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "witherspoon",
+      "source": "Witherspoon",
+      "ko": "위더스푼",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "impregnium",
+      "source": "Impregnium",
+      "ko": "임프레그늄",
+      "category": "material",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "robinson",
+      "source": "Robinson",
+      "ko": "로빈슨",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "talbot",
+      "source": "Talbot",
+      "ko": "탤벗",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jenkins",
+      "source": "Jenkins",
+      "ko": "젠킨스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

@@ -63,9 +63,149 @@
       "nonspace_characters": 50,
       "static_ink_check": "passed",
       "in_game_review": "pending"
+    },
+    {
+      "id": "AQUHELIX 1",
+      "pages": 8,
+      "nonspace_characters": 458,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "DRUTRANS 1",
+      "pages": 3,
+      "nonspace_characters": 143,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "BURRUINS 1",
+      "pages": 3,
+      "nonspace_characters": 157,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "CHMMRBAS 1",
+      "pages": 5,
+      "nonspace_characters": 268,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SPHERE 1",
+      "pages": 4,
+      "nonspace_characters": 211,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SPHERE 2",
+      "pages": 2,
+      "nonspace_characters": 62,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SPINDLE 1",
+      "pages": 5,
+      "nonspace_characters": 212,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SPINDLE 2",
+      "pages": 2,
+      "nonspace_characters": 57,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SUNDEVIC 1",
+      "pages": 7,
+      "nonspace_characters": 332,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SYRVAULT 1",
+      "pages": 3,
+      "nonspace_characters": 156,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SYRVAULT 2",
+      "pages": 2,
+      "nonspace_characters": 101,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SYRVAULT 3",
+      "pages": 2,
+      "nonspace_characters": 49,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "TAADEVIC 1",
+      "pages": 8,
+      "nonspace_characters": 405,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "ULTRON 1",
+      "pages": 5,
+      "nonspace_characters": 261,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "ULTRON 2",
+      "pages": 2,
+      "nonspace_characters": 79,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "UMGTRANS 1",
+      "pages": 11,
+      "nonspace_characters": 548,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "UMGTRANS 2",
+      "pages": 4,
+      "nonspace_characters": 177,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "URQWRECK 1",
+      "pages": 5,
+      "nonspace_characters": 226,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "URQWRECK 2",
+      "pages": 2,
+      "nonspace_characters": 60,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "UTWBOMB 1",
+      "pages": 5,
+      "nonspace_characters": 277,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
     }
   ],
-  "pages": 46,
+  "pages": 134,
   "limitations": [
     "Public-port model, not live Steam executable testing.",
     "PC font effects and input/timing are not simulated."
