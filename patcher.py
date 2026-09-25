@@ -128,6 +128,24 @@ def panel_assets(z):
     entries['ko/ui/playmenu-063.png']=png(im)
     return entries
 
+def translate_dialogue(text, translations):
+    chunks = re.split(r'(?m)(^#\(([^\r\n)]*)\)[^\r\n]*\r?\n)', text)
+    seen = set()
+    for i in range(1, len(chunks), 3):
+        header, key, body = chunks[i:i+3]
+        chunks[i+1] = ''
+        if key not in translations:
+            continue
+        value = translations[key]
+        old = body.rstrip('\r\n')
+        if len(old.splitlines()) != len(value.splitlines()):
+            raise ValueError(f'Dialogue timing segment count changed: {key}')
+        chunks[i+2] = value.replace('\n', '\r\n' if '\r\n' in text else '\n') + body[len(old):]
+        seen.add(key)
+    if seen != set(translations):
+        raise ValueError(f'Missing dialogue IDs: {set(translations)-seen}')
+    return ''.join(chunks)
+
 def build(game, ui_font="compact"):
     if ui_font not in {"compact", "larger"}:
         raise ValueError("Unknown UI font preset")
@@ -144,7 +162,9 @@ def build(game, ui_font="compact"):
         subtitles[0] = setup['TITLE']
         setup['SUBTITLES'] = '\n'.join(subtitles)
         setup['TITLE'] = ' '
-    chars = sorted({c for s in [*translations.values(), *setup.values()] for c in s if ord(c)>127})
+    dialogue = {species: json.loads((ROOT/'translations/dialogue'/f'{species}.ko.json').read_text(encoding='utf-8')) for species in ['commander','urquan']}
+    dialogue_values = [v for records in dialogue.values() for v in records.values()]
+    chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
     entries = {}
     rmp = ['text.starcon = STRTAB:ko/gamestrings.txt',
            'graphics.newgame = GFXRES:ko/ui/newgame.ani',
@@ -157,7 +177,28 @@ def build(game, ui_font="compact"):
         entries.update(menu_assets(z))
         entries.update(panel_assets(z))
         entries['ko/setupmenu.txt'] = translate_setup(z.read('base/ui/setupmenu.txt').decode('utf-8'),setup).encode('utf-8')
-        for family in ['starcon','tiny','micro','player']:
+        voice_paths = {}
+        voice = game/'content/addons/uqm-0.8.0-voice.uqm'
+        if voice.is_file():
+            with ZipFile(voice) as vz:
+                for name in vz.namelist():
+                    if name.endswith('.rmp'):
+                        for line in vz.read(name).decode('utf-8').splitlines():
+                            if '=' in line:
+                                key, value = line.split('=', 1)
+                                voice_paths[key.strip()] = value.strip()
+        for species, records in dialogue.items():
+            source = f'base/comm/{species}/{species}.txt'
+            target = f'ko/comm/{species}/{species}.txt'
+            entries[target] = translate_dialogue(z.read(source).decode('utf-8'), records).encode('utf-8')
+            key = f'comm.{species}.dialogue'
+            original_mapping = voice_paths.get(key, f'CONVERSATION:{source}')
+            parts = original_mapping.split(':', 2)
+            if parts[:2] != ['CONVERSATION', source]:
+                raise ValueError(f'Unexpected voice mapping: {key}')
+            suffix = ':' + parts[2] if len(parts) == 3 else ''
+            rmp.append(f'{key} = CONVERSATION:{target}{suffix}')
+        for family in ['starcon','tiny','micro','player','urquan']:
             prefix = f'base/fonts/{family}.fon/'
             # Retain original ASCII/symbol metrics; add only translated Hangul.
             for name in z.namelist():
@@ -165,7 +206,7 @@ def build(game, ui_font="compact"):
                     entries[name.replace('base/fonts/', 'ko/fonts/', 1)] = z.read(name)
             for char in chars:
                 large = family == 'micro'
-                larger_ui = family == 'starcon' and ui_font == 'larger'
+                larger_ui = family in {'player','urquan'} or (family == 'starcon' and ui_font == 'larger')
                 mask = text_mask(char, font('Galmuri11' if large else 'Galmuri9' if larger_ui else 'Galmuri7', 12 if large else 10 if larger_ui else 8))
                 if mask.size != ((12,11) if large else (10,9) if larger_ui else (8,7)):
                     raise ValueError(f'예상하지 못한 글자 크기: {ord(char):x} {mask.size}')
@@ -174,7 +215,9 @@ def build(game, ui_font="compact"):
                 glyph = Image.new('RGBA', (12,14) if large else (10,12) if larger_ui else (8,8), (255,255,255,0))
                 glyph.paste(Image.new('RGBA', mask.size, (255,255,255,255)), (0,0), mask)
                 entries[f'ko/fonts/{family}.fon/{ord(char):05x}.png'] = png(glyph)
-            rmp.append(f'font.{family} = FONTRES:ko/fonts/{family}.fon')
+            resource = 'comm.urquan.font' if family == 'urquan' else f'font.{family}'
+            rmp.append(f'{resource} = FONTRES:ko/fonts/{family}.fon')
+        rmp.append('comm.commander.font = FONTRES:ko/fonts/player.fon')
         entries['ko-ui.rmp'] = ('\n'.join(line.replace(':ko/', f':addons/{ADDON}/ko/') for line in rmp)+'\n').encode()
     entries['ko/OFL.txt'] = (ROOT/'vendor/galmuri/OFL.txt').read_bytes()
     data = io.BytesIO()
@@ -184,7 +227,7 @@ def build(game, ui_font="compact"):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'ui_font':ui_font, 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'dialogue_records':sum(map(len,dialogue.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)

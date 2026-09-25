@@ -321,6 +321,15 @@
       "status": "preserve",
       "notes": "기본 함선 이름의 예. 번역 문자열을 분할한 사이에 실제 함선 이름을 삽입한다.",
       "ui_keys": []
+    },
+    {
+      "id": "hyperwave",
+      "source": "HyperWave",
+      "ko": "초파장",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "첫 교신 시험 번역. 최종 용어 검토 필요.",
+      "ui_keys": []
     }
   ]
 }

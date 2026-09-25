@@ -24,7 +24,7 @@ def verify(game, ui_font="compact"):
             path=line.split(':',1)[1]
             prefix='addons/'+patcher.ADDON+'/'
             assert path.startswith(prefix),path
-            relative=path.removeprefix(prefix)
+            relative=path.split(':',1)[0].removeprefix(prefix)
             assert relative in names or any(n.startswith(relative+'/') for n in names),relative
         for name in names:
             if name.endswith('.ani'):
@@ -34,7 +34,7 @@ def verify(game, ui_font="compact"):
         for original,translated in [('base/gamestrings.txt','ko/gamestrings.txt'),('base/ui/setupmenu.txt','ko/setupmenu.txt')]:
             header=lambda b: re.findall(rb'(?m)^#[^\r\n]*',b)
             assert header(source.read(original))==header(z.read(translated))
-        for family in ['starcon','tiny','micro','player']:
+        for family in ['starcon','tiny','micro','player','urquan']:
             for name in source.namelist():
                 if name.startswith(f'base/fonts/{family}.fon/'):
                     assert source.read(name)==z.read(name.replace('base/fonts/','ko/fonts/',1))
@@ -44,7 +44,16 @@ def verify(game, ui_font="compact"):
                 assert im.getchannel('A').getbbox(),n
         translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
-        required={c for value in [*translations.values(),*setup.values()] for c in value if ord(c)>127}
+        dialogue = {p.stem:json.loads(p.read_text(encoding='utf-8')) for p in (patcher.ROOT/'translations/dialogue').glob('*.json')}
+        required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
+        for species in ['commander','urquan']:
+            a=source.read(f'base/comm/{species}/{species}.txt').decode('utf-8')
+            b=z.read(f'ko/comm/{species}/{species}.txt').decode('utf-8')
+            split=lambda t: re.split(r'(?m)(^#\([^\r\n]*\)[^\r\n]*\r?\n)',t)
+            aa,bb=split(a),split(b)
+            assert aa[1::2]==bb[1::2], 'Dialogue headers or audio names changed'
+            for before,after in zip(aa[2::2],bb[2::2]):
+                assert len(before.rstrip('\r\n').splitlines())==len(after.rstrip('\r\n').splitlines()), 'Subtitle segment count changed'
         for fontname,size in [('Galmuri7',8),('Galmuri9',10),('Galmuri11',12)]:
             face=patcher.font(fontname,size)
             missing=bytes(face.getmask(chr(0x10ffff)))

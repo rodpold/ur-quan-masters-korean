@@ -38,6 +38,15 @@ class PatcherTests(unittest.TestCase):
 
 
 class RegressionTests(unittest.TestCase):
+    def test_dialogue_preserves_voice_headers_and_untouched_records(self):
+        source='#(a) a.ogg\nOne\nTwo\n\n#(b) b.ogg\nUnchanged\n'
+        result=patcher.translate_dialogue(source,{'a':'하나\n둘'})
+        self.assertEqual(result,'#(a) a.ogg\n하나\n둘\n\n#(b) b.ogg\nUnchanged\n')
+        with self.assertRaises(ValueError):
+            patcher.translate_dialogue(source,{'a':'한 줄'})
+        with self.assertRaises(ValueError):
+            patcher.translate_dialogue(source,{'missing':'없음'})
+
     def test_native_nine_pixel_kyeom_keeps_consonant_and_vowel_strokes(self):
         # The prior Galmuri11-at-10px raster merged the two strokes of kieuk
         # and lost the upper horizontal of yeo. Native Galmuri9 keeps both.

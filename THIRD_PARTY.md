@@ -23,8 +23,8 @@ Local license: [OFL.txt](vendor/galmuri/OFL.txt). License: SIL OFL 1.1.
 
 | File | Official download | Raster size | Current use |
 |---|---|---|---|
-| Galmuri7.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri7.ttf | 8px (7px ink) | Compact UI, log/tiny and compact player glyphs |
-| Galmuri9.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf | 10px (9px ink) | Larger UI trial; candidate for separate dialogue font |
+| Galmuri7.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri7.ttf | 8px (7px ink) | Compact UI and log/tiny glyphs |
+| Galmuri9.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf | 10px (9px ink) | Player choices, commander/Ur-Quan subtitle trial; larger UI trial |
 | Galmuri11.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf | 12px (11px ink), 24px | Micro font and start-menu artwork |
 
 The official project offers web fonts too. This patch uses vendored TTFs to generate PNGs locally;
