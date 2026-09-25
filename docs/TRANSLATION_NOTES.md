@@ -175,3 +175,13 @@ GetCultureName은 CULTURE, FAT_JERKS, SLAVE_EMPIRE 중 하나를 반환한다. W
 피그 라틴은 [thraddash-wordplay.ko.json](../translations/thraddash-wordplay.ko.json)의 한국어 평문과 변환문으로 시험 현지화했다. 어절 첫 음절 블록을 뒤로 옮기고 에이를 붙이며, 인사 네 가지와 예시를 같은 규칙으로 생성했다. 원문의 자음군/모음 처리와 완전히 같은 언어 규칙은 아니다. example은 원문에서 모음으로 시작하는 단어의 규칙을 묻는 인용으로 그대로 둔다. 가독성과 원작 농담의 전달은 검토 대기다.
 
 운율 인사는 니/지 어미 반복과 자유시를 사용한다. 마크로니·아포디스·드라코니스·볼로니는 의미와 소리의 연결을 유지하되 완전한 영문 압운 재현은 아니다. 유물의 순환 논증, 제9문화의 짧은 지배, 펭귄 농담의 반전, 일라스 교환비와 함대 수, 배우 아웃테이크의 섬세한 내면을 원문 수준에서 유지했다. 언어·실기 검토 대기.
+
+## 멜노름 첫 묶음
+
+122/282 레코드를 초안 번역했다. 첫 인사부터 GOODBYE_AND_GOODLUCK_AGAIN까지와 CHARITY, 구조 시 장비 목록·수량 조각을 포함한다. HELLO_PISSED_OFF_1 이후 거래·기술·정보 판매 등 160개는 아직 원문이다. 그리니시, 고정 NPC 함선명, 메타크론과 킬베레지 등의 새 용어를 등록했다. Turning Jets는 기존 자세 제어 분사기와 동일한 장비로 맞췄다. Planet Landers는 기존 착륙정 표현에 맞춰 행성 착륙정으로 등록하고 우주기지 선택지 한 곳을 정렬했다. 크레딧은 멜노름의 화폐 문맥에 자동 검사 범위를 제한한다.
+
+공개 포트 [melnorm.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/melnorm/melnorm.c)의 StripShip은 장비 수량 ENUMERATE_ONE부터 SIXTEEN까지와 장비 조각을 직접 이어 붙인다. 따라서 1 + 개의 행성 착륙정, 16 + 개의 자세 제어 분사기처럼 읽히도록 했다. 마지막 항목 앞에는 그리고 조각을 유지한다. 원문의 장비 조각은 of your로 시작하지만 한국어에서는 수량 뒤의 단위와 장비명으로 바꿨다.
+
+일반 거래의 NPCNumber는 [commglue.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/commglue.c)의 NPCNumberPhrase에서 숫자 문자열을 만들고 SpliceMultiTrack에 전달한다. 영어 수사 조립표는 음성 선택에 사용되므로 20과 3의 번역 레코드가 203으로 표시된다고 가정하지 않는다. 수량 레코드는 아라비아 숫자를 사용하며 EXE나 수사 조립 코드는 변경하지 않았다. 이 분석은 공개 포트 근거이고 설치 EXE의 실기 확인은 별도다.
+
+HELLO_AND_DOWN_TO_BUSINESS_2의 메타크론 설명은 기본판 17구간, 음성판 한 구간 인사로 분리했다. 미래 경고와 날짜를 음성판에 추가하지 않는다. 구조 제안의 탱크 충전/귀환 연료, 장비가 없을 때 무료 연료를 투자라 부르는 태도를 유지한다. Sunflower의 긴 자막·선택지·로그 배치, 장비 조각 사이 실제 공백과 음성 시점은 실기 검토 대기다.

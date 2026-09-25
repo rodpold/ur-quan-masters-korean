@@ -3957,6 +3957,185 @@
       "status": "in_use",
       "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "greenish",
+      "source": "Greenish",
+      "ko": "그리니시",
+      "category": "person",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "inevitably_successful",
+      "source": "Inevitably Successful in All Circumstances",
+      "ko": "어떤 상황에서도 반드시 성공",
+      "category": "ship_name",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "keel_verezy",
+      "source": "Keel-Verezy",
+      "ko": "킬베레지",
+      "category": "species",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "verezy",
+      "source": "Verezy",
+      "ko": "베레지",
+      "category": "species",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "metachron",
+      "source": "MetaChron",
+      "ko": "메타크론",
+      "category": "object",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "tzo",
+      "source": "Tzo",
+      "ko": "츠오",
+      "category": "object",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": [],
+      "case_sensitive": true
+    },
+    {
+      "id": "ochre",
+      "source": "Ochre",
+      "ko": "오커",
+      "category": "person",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": [],
+      "case_sensitive": true
+    },
+    {
+      "id": "algol",
+      "source": "Algol",
+      "ko": "알골",
+      "category": "place",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "algolites",
+      "source": "Algolites",
+      "ko": "알골인",
+      "category": "species",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "credits",
+      "source": "Credits",
+      "ko": "크레딧",
+      "category": "currency",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분. 신용/공적의 일반명사 용례와 구분하며 현재 거래 리소스에서 검사한다.",
+      "ui_keys": [],
+      "audit_source_paths": [
+        "base/comm/melnorme/melnorme.txt"
+      ]
+    },
+    {
+      "id": "credit",
+      "source": "Credit",
+      "ko": "크레딧",
+      "category": "currency",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분. 신용/공적의 일반명사 용례와 구분하며 현재 거래 리소스에서 검사한다.",
+      "ui_keys": [],
+      "audit_source_paths": [
+        "base/comm/melnorme/melnorme.txt"
+      ]
+    },
+    {
+      "id": "planet_landers",
+      "source": "Planet Landers",
+      "ko": "행성 착륙정",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "fusion_thrusters",
+      "source": "Fusion Thrusters",
+      "ko": "융합 추진기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "turning_jets",
+      "source": "Turning Jets",
+      "ko": "자세 제어 분사기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "shiva_furnaces",
+      "source": "Shiva Furnaces",
+      "ko": "시바 용광로",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "blasters",
+      "source": "Blasters",
+      "ko": "블래스터",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "hellbore_cannons",
+      "source": "Hellbore Cannons",
+      "ko": "헬보어 포",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "auto_tracking_modules",
+      "source": "Auto-Tracking Modules",
+      "ko": "자동 추적 모듈",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "point_defense_lasers",
+      "source": "Point-Defense Lasers",
+      "ko": "근접 방어 레이저",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
     }
   ]
 }

@@ -189,10 +189,24 @@
       "source_path": "base/comm/melnorme/melnorme.txt",
       "evidence_record_ids": [
         "HELLO_NOW_DOWN_TO_BUSINESS_1",
-        "HELLO_NOW_DOWN_TO_BUSINESS_2"
+        "FACTORS_ARE",
+        "GIVING_IS_BAD_2",
+        "WERE_NOT_AFRAID",
+        "HELLO_AND_DOWN_TO_BUSINESS_2",
+        "NO_EXCUSE_1",
+        "RESCUE_EXPLANATION",
+        "CHARITY"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "neutral / FACTORS_ARE / NO_FREE_LUNCH": "유창하고 정중한 합쇼체. 비밀주의를 정보 유료 판매로 연결하며 모든 호의를 이익과 교환이라는 관점으로 해석한다.",
+        "WERE_NOT_AFRAID / HELLO_SLIGHTLY_ANGRY_* / EXAMPLE_OF_RELATIONSHIP": "정중한 형식 속 냉소와 경고. 무방비하다는 자기표현을 무기 보유 사실에 맞춰 교정하지 않는다.",
+        "NO_EXCUSE_1 / APOLOGY_ACCEPTED / HELLO_HATE_YOU_*": "변명을 거절하는 우화와 제한된 용서, 영구 적대의 단호함을 구분한다. 스파시 기후 조정의 결과를 완화하지 않는다.",
+        "HELLO_AND_DOWN_TO_BUSINESS_*": "초능력·타 종족·이상한 신체에 관한 농담을 설명으로 해소하지 않는다. 메타크론의 예측은 기본판에만 있으며 음성판에는 인사 한 줄만 있다.",
+        "RESCUE_* / CHARITY": "위험한 표류 상황을 차분하게 설명하고 구조를 거래로 제안한다. 무료 연료도 이타심이 아니라 장기 투자라는 화자의 논리를 유지한다.",
+        "remaining trade / anger / information": "아직 미번역인 가격·판매·배상·정보 상품 본문은 후속 묶음에서 원문과 연결을 확인한다."
+      }
     },
     "mycon": {
       "persona": "집단 기억과 신념이 뒤섞인 생명체",
