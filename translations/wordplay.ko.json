@@ -141,6 +141,52 @@
         "꽃"
       ],
       "notes": "음이 비슷한 질문을 바꾸는 정신 지배는 능력/꽃의 의미와 후속 yes_flowers로 보존했다. 한국어 유사음은 재현되지 않아 말장난 검토 대기."
+    },
+    {
+      "species": "pkunk",
+      "request": "hostile_greeting",
+      "response": "DONT_BE_HOSTILE",
+      "source_pair": [
+        "bird-brains",
+        "fruit loops"
+      ],
+      "ko_pair": [
+        "새대가리",
+        "과일 고리 시리얼"
+      ],
+      "notes": "새대가리 모욕과 시리얼 이미지를 남긴 초안. fruit loop의 괴짜 중의성과 상품 연상은 한국어에서 약해져 개선 검토 필요."
+    },
+    {
+      "species": "pkunk",
+      "request": "SENSE_KOHRAH_VICTORY",
+      "response": "SENSE_KOHRAH_VICTORY",
+      "source_pair": [
+        "C",
+        "S",
+        "Asteric"
+      ],
+      "ko_pair": [
+        "C",
+        "S",
+        "Asteric"
+      ],
+      "notes": "성좌 철자 단서를 그대로 보존. Asteric은 Crateris와 철자 수가 맞지 않는 원문 단서이므로 임의로 고치거나 정답을 본문에 추가하지 않는다."
+    },
+    {
+      "species": "pkunk",
+      "request": "FORTUNE_IS_1",
+      "response": "FORTUNE_IS_1",
+      "source_pair": [
+        "ArilouLaleelay",
+        "LalilouArilay",
+        "LoopylooHappyday"
+      ],
+      "ko_pair": [
+        "아릴룰랄릴레이",
+        "랄릴루아릴레이",
+        "루피루해피데이"
+      ],
+      "notes": "이름을 거듭 잘못 부르는 농담. 첫 이름은 기존 종족 표기를 유지하고 오칭은 별도 등록."
     }
   ],
   "jokes": [

@@ -3353,6 +3353,259 @@
       "status": "in_use",
       "notes": "말하는 애완동물 대화의 작업 표기. 최종 사용자 승인과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "pootworm",
+      "source": "Pootworm",
+      "ko": "풋벌레",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "krueger",
+      "source": "Krueger",
+      "ko": "크루거",
+      "category": "place",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "franz_ferdinand",
+      "source": "Franz Ferdinand",
+      "ko": "프란츠 페르디난트",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "atum_ta",
+      "source": "Atum-ta",
+      "ko": "아툼타",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "ouija_board",
+      "source": "Ouija Board",
+      "ko": "위저 보드",
+      "category": "object",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "ouija",
+      "source": "Ouija",
+      "ko": "위저",
+      "category": "object",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "swollen_moon",
+      "source": "Swollen Moon",
+      "ko": "부푼 달",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "plam_prikky",
+      "source": "Plam Prikky",
+      "ko": "플람 프리키",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "chrupp",
+      "source": "Chrupp",
+      "ko": "츄럽",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "plarty_fum",
+      "source": "Plarty Fum",
+      "ko": "플라티 펌",
+      "category": "place",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "bis_bis",
+      "source": "Bis Bis",
+      "ko": "비스 비스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "shamla_sool",
+      "source": "Shamla Sool",
+      "ko": "샴라 술",
+      "category": "place",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "awkky_birdy",
+      "source": "Awkky Birdy",
+      "ko": "오키 버디",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "wart_wumpet",
+      "source": "Wart Wumpet",
+      "ko": "와트 웜펫",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "charg",
+      "source": "Charg",
+      "ko": "차그",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "ibids",
+      "source": "Ibids",
+      "ko": "이비드",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "wrinkle_dogs",
+      "source": "Wrinkle Dogs",
+      "ko": "주름개",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "gobbet",
+      "source": "gobbet",
+      "ko": "고벳",
+      "category": "object",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "trumble",
+      "source": "trumble",
+      "ko": "트럼블",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "weeny_wikki_beeki_birdi",
+      "source": "Weeny Wikki Beeki Birdi",
+      "ko": "위니 위키 비키 버디",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "sneegel",
+      "source": "sneegel",
+      "ko": "스니글",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "fury",
+      "source": "Fury",
+      "ko": "퓨리",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분. 함급 이름이며 일반적인 분노와 구분. 복수형 Furies와 같은 퓨리 표기.",
+      "ui_keys": [],
+      "case_sensitive": true
+    },
+    {
+      "id": "bosco",
+      "source": "Bosco",
+      "ko": "보스코",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "blissful_yompin",
+      "source": "Blissful Yompin",
+      "ko": "황홀한 욤핀",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "braky",
+      "source": "Braky",
+      "ko": "브레이키",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분. Braky Girdy의 첫 이름과 표기를 맞추되 이 발화만으로 동일 인물로 단정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "rumdumdaddy",
+      "source": "Rumdumdaddy",
+      "ko": "럼덤대디",
+      "category": "person",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "lalilouarilay",
+      "source": "LalilouArilay",
+      "ko": "랄릴루아릴레이",
+      "category": "misnomer",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분. 아릴룰랄릴레이를 잘못 부르는 표현으로, 정상 종족명으로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "loopyloohappyday",
+      "source": "LoopylooHappyday",
+      "ko": "루피루해피데이",
+      "category": "misnomer",
+      "status": "in_use",
+      "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분. 아릴룰랄릴레이를 잘못 부르는 표현으로, 정상 종족명으로 교정하지 않는다.",
+      "ui_keys": []
     }
   ]
 }

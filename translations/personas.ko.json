@@ -266,10 +266,24 @@
       "source_path": "base/comm/pkunk/pkunk.txt",
       "evidence_record_ids": [
         "GIVE_SPINDLE",
-        "NEUTRAL_SPACE_HELLO_1"
+        "FRIENDLY_SPACE_HELLO_2",
+        "HATE_YOU_FOREVER_1",
+        "DONT_WORRY_3",
+        "ALMOST_ALLIANCE",
+        "FORTUNE_IS_5",
+        "OUT_TAKES"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "greetings / culture": "그대/함장 호칭의 수다스러운 하오체. 장황한 영적 개념과 갑작스러운 일상적 반전을 유지한다. 모호한 설명을 논리적으로 정리하지 않는다.",
+        "GIVE_SPINDLE / FRIENDLY_HOMEWORLD_HELLO_1 / ALMOST_ALLIANCE": "초능력과 선의를 자랑하다가 유물 용도·방문 목적을 모른다고 하거나 물자 대신 사랑을 주는 반전을 보존한다.",
+        "SPIRITUAL_PROBLEMS_* / HATE_YOU_FOREVER_* / VERY_WELL": "적대 상대에게도 영적 우월감을 드러내지만 분노와 공격 의도가 있다. 사랑과 자비를 위해 파괴한다는 모순을 없애지 않는다.",
+        "MIGRATING_* / DONT_WORRY_* / ABOUT_YEHAT": "예하트의 공격 사실을 알고도 사랑과 재회를 확신한다. 두 차례 귀환 설득과 세 번째의 완강함, 징조를 핑계로 태도를 바꾸는 순서를 유지한다.",
+        "SENSE_KOHRAH_VICTORY / WAR_GOES_*": "장황하고 우스운 설명 안에서도 검은 함대의 승리와 실제 행동 조언은 명료하게 보존한다. 모호한 예언에 종족명이나 해답을 추가하지 않는다.",
+        "FORTUNE_IS_* / GENERAL_INFO_SPACE_5": "예언과 다른 이의 꿈을 구분한다. 말이 늘어지는 빙의, 사적인 암시, 영계의 파업과 협상으로 점술을 거절하는 변화를 유지한다.",
+        "OUT_TAKES": "유료 점술 전화 광고로 끝내는 하오체. 전화번호와 24시간, 요금, 미성년자 안내는 원작 농담의 일부로 유지한다."
+      }
     },
     "probe": {
       "persona": "고장 난 우선순위를 따르는 자동 탐사선",
