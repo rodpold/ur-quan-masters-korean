@@ -134,6 +134,16 @@ def build(game, ui_font="compact"):
     game = validate_game(game)
     translations = json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
     setup = json.loads((ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
+    if ui_font == 'larger':
+        # The engine fixes title/subtitle baselines only 8px apart.
+        # Keep one heading at the subtitle position, including on the main page.
+        # A space retains the title record without drawing visible ink.
+        subtitles = setup['SUBTITLES'].split('\n')
+        if subtitles[0] != '':
+            raise ValueError('Expected empty main setup subtitle')
+        subtitles[0] = setup['TITLE']
+        setup['SUBTITLES'] = '\n'.join(subtitles)
+        setup['TITLE'] = ' '
     chars = sorted({c for s in [*translations.values(), *setup.values()] for c in s if ord(c)>127})
     entries = {}
     rmp = ['text.starcon = STRTAB:ko/gamestrings.txt',

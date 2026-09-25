@@ -12,6 +12,14 @@ def verify(game, ui_font="compact"):
     with ZipFile(io.BytesIO(data)) as z, ZipFile(Path(game)/patcher.SOURCE) as source:
         assert z.testzip() is None
         names=set(z.namelist())
+        if ui_font == 'larger':
+            table=z.read('ko/setupmenu.txt').decode('utf-8')
+            records=re.split(r'(?m)^#\(([^\r\n]*)\)[^\r\n]*\r?\n',table)
+            fields={records[i]:records[i+1].rstrip('\r\n') for i in range(1,len(records),2)}
+            assert fields['TITLE']==' ', 'Large setup title must not overlap subtitle'
+            assert fields['SUBTITLES'].splitlines()[0]=='UQM 설정'
+            assert len(fields['SUBTITLES'].splitlines())==8
+
         for line in z.read('ko-ui.rmp').decode().splitlines():
             path=line.split(':',1)[1]
             prefix='addons/'+patcher.ADDON+'/'
