@@ -13,7 +13,7 @@ def add_special(entries,rmp,source):
         target=p.replace('base/','ko/',1);entries[target]=raw
         rmp.append(group['resource_key']+' = GFXRES:'+target)
         for line in raw.decode().splitlines():
-            name='base/ui/'+line.split()[0];reachable.add(name);entries[name.replace('base/','ko/',1)]=source.read(name)
+            name=str(Path(p).parent/line.split()[0]).replace('\\','/');reachable.add(name);entries[name.replace('base/','ko/',1)]=source.read(name)
     reachable.update('base/ui/'+line.split()[0] for line in source.read('base/ui/playmenu.ani').decode().splitlines())
     font=ImageFont.truetype(str(ROOT/'vendor/galmuri/Galmuri7.ttf'),8);seen=set()
     for row in spec['rows']:

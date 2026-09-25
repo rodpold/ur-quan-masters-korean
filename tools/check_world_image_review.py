@@ -5,7 +5,7 @@ from collections import Counter
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 GROUPS={'battle':117,'lander':331,'nav':294,'planets':177}
-PENDING={'base/lander/lander-032.png','base/nav/orbitenter-000.png'}
+PENDING={'base/lander/lander-032.png'}
 
 def verify(game):
     review=json.loads((ROOT/'docs/world-image-review.json').read_text(encoding='utf-8'))
@@ -23,7 +23,7 @@ def verify(game):
             raw=source.read(row['source_path'])
             assert hashlib.sha256(raw).hexdigest()==row['source_sha256'],row['source_path']
             assert list(Image.open(io.BytesIO(raw)).size)==row['size'],row['source_path']
-            assert row['status'] in {'no_readable_language_text_observed','embedded_text_pending','preserve_unit_symbol'}
+            assert row['status'] in {'no_readable_language_text_observed','embedded_text_pending','preserve_unit_symbol','generated_korean_caption_runtime_pending'}
     return {'status':'source_inventory_binding_passed','images':len(rows),'pending_image_translations':len(PENDING),'limitations':'Visual judgments and runtime playback are not certified.'}
 
 if __name__=='__main__':

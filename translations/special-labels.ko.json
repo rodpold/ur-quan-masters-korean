@@ -5,6 +5,11 @@
       "source_path": "base/ui/outfitmodules.ani",
       "source_sha256": "8b595b14f549bcf53a5dbf4bbd4f941c98bc20fa4ec6723ef009f8a548cfc271",
       "resource_key": "graphics.outfitmodules"
+    },
+    {
+      "source_path": "base/nav/orbitenter.ani",
+      "source_sha256": "fc330c591759b69d2f6dfec36d9c8e740cfa68a5f214bd08d94ea65b3af4c994",
+      "resource_key": "graphics.orbitenter"
     }
   ],
   "rows": [
@@ -351,6 +356,61 @@
             174,
             255
           ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/nav/orbitenter-000.png",
+      "source_sha256": "3cc052fc06a2da2e7f978e7e481a5927c0a03be712acaaf51c4c1afed3053ec4",
+      "size": [
+        242,
+        75
+      ],
+      "source_text": "ENTERING PLANETARY ORBIT...",
+      "regions": [
+        {
+          "box": [
+            40,
+            3,
+            172,
+            9
+          ],
+          "text": "행성 궤도",
+          "background": [
+            0,
+            0,
+            52,
+            255
+          ],
+          "foreground": [
+            132,
+            132,
+            255,
+            255
+          ],
+          "background_from_sides": true
+        },
+        {
+          "box": [
+            94,
+            14,
+            60,
+            9
+          ],
+          "text": "진입 중...",
+          "background": [
+            0,
+            0,
+            52,
+            255
+          ],
+          "foreground": [
+            132,
+            132,
+            255,
+            255
+          ],
+          "background_from_sides": true
         }
       ]
     }

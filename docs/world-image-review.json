@@ -9,7 +9,7 @@
     "nav": 294,
     "planets": 177
   },
-  "pending_image_translations": 2,
+  "pending_image_translations": 1,
   "limitations": [
     "Does not verify rendered animation, dynamic strings, sprites in other groups, or runtime playback.",
     "Preserve original assets until replacement regions and call sites have been validated."
@@ -6174,9 +6174,9 @@
         242,
         75
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_nearest_neighbor_enlargement",
-      "notes": "ENTERING PLANETARY ORBIT...; two lines in 242x75 image. Translate caption preserving planetary art, image dimensions and ANI position."
+      "notes": "행성 궤도 / 진입 중... generated with native Galmuri7. Caption backgrounds interpolated from side pixels. Image/ANI dimensions and all pixels outside two caption rectangles preserved; runtime pending."
     },
     {
       "source_path": "base/nav/orbview-000.png",

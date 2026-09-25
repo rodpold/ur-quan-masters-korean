@@ -1,9 +1,10 @@
 {
   "status": "static_passed_runtime_pending",
-  "sprites": 5,
-  "caption_regions": 14,
+  "sprites": 6,
+  "caption_regions": 16,
   "prepared_only_safex_variants": 2,
   "unchanged_outfit_sprites": 55,
+  "orbit_entry_captions": 2,
   "limitations": [
     "Two SAFEX=16 variants have no base-package reference; translated assets are prepared but not activated.",
     "Bomb/escape-pod art and ANI positions are preserved; actual outfitting screen and status visibility still need runtime review."

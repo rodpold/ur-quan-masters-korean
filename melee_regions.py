@@ -19,6 +19,18 @@ def render_regions(raw,row,font):
             for i,char in enumerate(chars):paint_label(panel,{**label,'text':char,'box':[0,(h-total)//2+i*(7+gap),w,7]},font)
         else:paint_label(panel,{**label,'box':[0,0,panel.width,panel.height]},font)
         if scale!=1:panel=panel.resize((w,h),Image.Resampling.NEAREST)
+        if label.get('background_from_sides'):
+            if scale!=1 or x==0 or x+w>=im.width:raise ValueError('Caption interpolation requires adjacent side pixels and native scale')
+            # Restore a smooth background across the caption using its two edges.
+            restored=Image.new('RGBA',(w,h))
+            for yy in range(h):
+                left=im.getpixel((x-1,y+yy));right=im.getpixel((x+w,y+yy))
+                if left[3]!=255 or right[3]!=255:raise ValueError('Caption background edges must be opaque')
+                for xx in range(w):
+                    restored.putpixel((xx,yy),tuple(round(left[c]+(right[c]-left[c])*(xx+1)/(w+1)) for c in range(3))+(255,))
+            ink=Image.new('RGBA',(w,h),(0,0,0,0))
+            paint_label(ink,{**label,'box':[0,0,w,h],'background':[0,0,0,0]},font)
+            restored.alpha_composite(ink);panel=restored
         im.paste(panel,(x,y))
     out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
 def add_regions(entries,source):
