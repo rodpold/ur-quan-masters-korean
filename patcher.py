@@ -329,6 +329,8 @@ def build(game, ui_font="compact"):
         race_font_report = add_race_fonts(entries, rmp, z, chars)
         add_intro(entries, rmp, z, intro, ADDON)
         add_ending(entries, rmp, z, ending, ADDON)
+        from credit_text import load_credits, add_credits
+        add_credits(entries, rmp, z, load_credits())
         entries['ko-ui.rmp'] = ('\n'.join(line.replace(':ko/', f':addons/{ADDON}/ko/') for line in rmp)+'\n').encode()
     entries['ko/OFL.txt'] = (ROOT/'vendor/galmuri/OFL.txt').read_bytes()
     data = io.BytesIO()

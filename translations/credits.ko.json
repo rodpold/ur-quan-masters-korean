@@ -1,0 +1,827 @@
+{
+  "source_path": "base/cutscene/credits/credits.txt",
+  "source_sha256": "0978849a31bcc7c00d2d235bf0303d372679e6e5f4c7081185782026bd011b9e",
+  "status": "draft_runtime_pending",
+  "records": [
+    {
+      "id": "0023",
+      "source_body_sha256": "dfee32585868ac567886a1cde4eef840e79f98d266135b0ec2f11d5c97bd5fb8",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "The Ur-Quan Masters port",
+          "ko": "The Ur-Quan Masters 이식판"
+        },
+        {
+          "line": 1,
+          "column": 0,
+          "source": "CREW",
+          "ko": "제작진"
+        }
+      ]
+    },
+    {
+      "id": "0024",
+      "source_body_sha256": "9b104c1ee987e55aaa0b19a5472f9176d9dd7aab96c4a6573d0e5b282ed3a169",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "CORE TEAM",
+          "ko": "핵심 개발진"
+        }
+      ]
+    },
+    {
+      "id": "0025",
+      "source_body_sha256": "a083c600c1f615f38f3883a4abd19cb98e4ce100971418adbe6394eca81af4cd",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0026",
+      "source_body_sha256": "1801583a4c1a9d23dd44045ad721fbf8fc46fec6fd325ac54d4a377788146e23",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "ADDITIONAL PROGRAMMING",
+          "ko": "추가 프로그래밍"
+        }
+      ]
+    },
+    {
+      "id": "0027",
+      "source_body_sha256": "6e3931a6fe20897ed2999fb05009d2ab3e3ae3015be342898a3819cbd837d73b",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0028",
+      "source_body_sha256": "460383a4c1591a065e1937a32ef095b35bb03f6d42973c41909e3edb462432d5",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "MUSIC REMIXERS",
+          "ko": "음악 리믹스"
+        }
+      ]
+    },
+    {
+      "id": "0029",
+      "source_body_sha256": "927d79594159cdea7bc2a399f35b820487ef6921c093c5430be9c5c9c82c3ea6",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0030",
+      "source_body_sha256": "22385f9326bd301bbb027fc22770332ca027f6b480aebad419b4d4339eb10bae",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "ADDITIONAL ARTWORK",
+          "ko": "추가 미술"
+        }
+      ]
+    },
+    {
+      "id": "0031",
+      "source_body_sha256": "0ccd96c4b8e8ca321360073a42047fe76e66f1a039d64577447b5faade7f2937",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0032",
+      "source_body_sha256": "1c85e729118639d14811e9d5513e3defc7a6b4888b1882519655982186eb8ea8",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "OTHER CONTRIBUTIONS",
+          "ko": "그 밖의 기여"
+        }
+      ]
+    },
+    {
+      "id": "0033",
+      "source_body_sha256": "8ec340a054967f5ebcdf49bbf4e7c2ceee3d79e3a49001ace24412fe570d3348",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 1,
+          "column": 0,
+          "source": "(Text Editing)",
+          "ko": "(텍스트 편집)"
+        },
+        {
+          "line": 4,
+          "column": 0,
+          "source": "(3DO internals)",
+          "ko": "(3DO 내부 구조)"
+        },
+        {
+          "line": 7,
+          "column": 0,
+          "source": "(ADPCM basis from MPlayer",
+          "ko": "(DUK 음향에 사용한"
+        },
+        {
+          "line": 8,
+          "column": 0,
+          "source": "  used for DUK audio)",
+          "ko": "  MPlayer의 ADPCM 기반 기술)"
+        },
+        {
+          "line": 11,
+          "column": 0,
+          "source": "(additional slides)",
+          "ko": "(추가 슬라이드)"
+        }
+      ]
+    },
+    {
+      "id": "0034",
+      "source_body_sha256": "7753bb16559814a7b0bfe8dcf38ced78845fe020c275aeba4fde2a0181e4e2e3",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "EXTERNAL LIBRARIES",
+          "ko": "외부 라이브러리"
+        }
+      ]
+    },
+    {
+      "id": "0035",
+      "source_body_sha256": "22547562e4bd2f65df2b5514e1f0f1dbc075caa3774f8cb8448122cc91f71b48",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0036",
+      "source_body_sha256": "f4560c59413bb231990cf91bd37e1779f7347c3cdf1b05b340c8928f347a6fd7",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "Original Game",
+          "ko": "원작 게임"
+        },
+        {
+          "line": 1,
+          "column": 0,
+          "source": "CREW",
+          "ko": "제작진"
+        }
+      ]
+    },
+    {
+      "id": "0037",
+      "source_body_sha256": "a7df880954f85aa77aaaeb9bcf36b0cca1308460b532769f48b1c007c9f0edf3",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "ORIGINAL PROGRAMMING",
+          "ko": "원작 프로그래밍"
+        },
+        {
+          "line": 1,
+          "column": 0,
+          "source": "& TECHNOLOGY",
+          "ko": "및 기술"
+        }
+      ]
+    },
+    {
+      "id": "0038",
+      "source_body_sha256": "bd831cbe3fefc947b23d92b3ab2c9e9f369884442bd0a8f613dc760a9656a137",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0039",
+      "source_body_sha256": "17b6207ed599c9e4bfcfa4049ce5217fe5670613c586468e2953073d861d4646",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "GAME DESIGN & FICTION",
+          "ko": "게임 설계 및 이야기"
+        }
+      ]
+    },
+    {
+      "id": "0040",
+      "source_body_sha256": "b164e13a9e0d599c6b6d3ed83735e897a0a93e1a0af2320950a13419c7274ab1",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0041",
+      "source_body_sha256": "ecaa1fd86622729fe67cd8287211d8feb8b518f53a5a7b78f3dd6cc355301314",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "3DO PROGRAMMING",
+          "ko": "3DO 프로그래밍"
+        }
+      ]
+    },
+    {
+      "id": "0042",
+      "source_body_sha256": "e6738124a304a9617a577bc7a8cc04fa244bb52ed7f62395bfe11e19a96616aa",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0043",
+      "source_body_sha256": "bb8f3e87862603303f4b2aace9c4721db1411d235ee3f9bd7ffd2d981c1b9d16",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "PRODUCER (3DO Version)",
+          "ko": "프로듀서 (3DO판)"
+        }
+      ]
+    },
+    {
+      "id": "0044",
+      "source_body_sha256": "f2d768883a76badfa8617a1c5aa8fb9bb09b6e74f6abddf264a6bb170d24d5eb",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0045",
+      "source_body_sha256": "87a488f07a5100a006a7660b18e2c1c03e12e9fbf27e6faa295f2bc1da005cdb",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "3DO PRODUCTION",
+          "ko": "3DO 제작"
+        }
+      ]
+    },
+    {
+      "id": "0046",
+      "source_body_sha256": "fac42a1ae7720810bc84d3ff9c9e11fe5281bb3866f844ee36666afeb3483ebd",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0047",
+      "source_body_sha256": "ca8175eb011b18bd027017fbdbaecb95b13c3eef5c46699cde957625c2196404",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "PRODUCER (PC/DOS Version)",
+          "ko": "프로듀서 (PC/DOS판)"
+        }
+      ]
+    },
+    {
+      "id": "0048",
+      "source_body_sha256": "b3495b4dc6c8ad0f0983638f0795678a271506cbadd7ea5586af3debd0ae792b",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0049",
+      "source_body_sha256": "a0561d9385e8d8766424e03e05d4e7156e511c26783eec2413124e3d610ad79d",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "STARRING THE VOICES OF:",
+          "ko": "목소리 출연:"
+        }
+      ]
+    },
+    {
+      "id": "0050",
+      "source_body_sha256": "a5c6165b5eecfa30506ed0a9f6b3a9597d62b4e364398fa76193b4863ee7a4ca",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 1,
+          "source": "Thraddash",
+          "ko": "스래대시",
+          "glossary_id": "thraddash"
+        },
+        {
+          "line": 1,
+          "column": 1,
+          "source": " Starbase",
+          "ko": " 우주기지"
+        },
+        {
+          "line": 2,
+          "column": 1,
+          "source": "Commander",
+          "ko": "사령관"
+        },
+        {
+          "line": 3,
+          "column": 1,
+          "source": "Ariloulaleelay",
+          "ko": "아릴룰랄릴레이",
+          "glossary_id": "arilou_full"
+        },
+        {
+          "line": 4,
+          "column": 1,
+          "source": "Druuge",
+          "ko": "드루지",
+          "glossary_id": "druuge"
+        },
+        {
+          "line": 5,
+          "column": 1,
+          "source": "Zoq-Fot-Pik",
+          "ko": "조크-포트-피크",
+          "glossary_id": "zoq_fot_pik"
+        },
+        {
+          "line": 6,
+          "column": 1,
+          "source": "Kohr-Ah",
+          "ko": "코르아",
+          "glossary_id": "kohr_ah"
+        },
+        {
+          "line": 7,
+          "column": 1,
+          "source": "Ilwrath",
+          "ko": "일라스",
+          "glossary_id": "ilwrath"
+        },
+        {
+          "line": 8,
+          "column": 1,
+          "source": "Shofixti",
+          "ko": "쇼픽스티",
+          "glossary_id": "shofixti"
+        },
+        {
+          "line": 9,
+          "column": 1,
+          "source": "Spathi",
+          "ko": "스파시",
+          "glossary_id": "spathi"
+        },
+        {
+          "line": 10,
+          "column": 1,
+          "source": "Supox",
+          "ko": "수폭스",
+          "glossary_id": "supox"
+        },
+        {
+          "line": 11,
+          "column": 1,
+          "source": "Orz",
+          "ko": "오르즈",
+          "glossary_id": "orz"
+        },
+        {
+          "line": 12,
+          "column": 1,
+          "source": "Pkunk",
+          "ko": "프쿤크",
+          "glossary_id": "pkunk"
+        },
+        {
+          "line": 13,
+          "column": 1,
+          "source": "Utwig",
+          "ko": "우트위그",
+          "glossary_id": "utwig"
+        }
+      ]
+    },
+    {
+      "id": "0051",
+      "source_body_sha256": "27929f1174a6d6c403ac7e2202ba35cb690f955b378b2eca23e988576e3e3952",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 1,
+          "source": "Yehat",
+          "ko": "예하트",
+          "glossary_id": "yehat"
+        },
+        {
+          "line": 1,
+          "column": 1,
+          "source": "Chmmr",
+          "ko": "촘르",
+          "glossary_id": "chmmr"
+        },
+        {
+          "line": 2,
+          "column": 1,
+          "source": "Mycon",
+          "ko": "마이콘",
+          "glossary_id": "mycon"
+        },
+        {
+          "line": 3,
+          "column": 1,
+          "source": "Talking Pet",
+          "ko": "말하는 애완동물",
+          "glossary_id": "talking_pet"
+        },
+        {
+          "line": 4,
+          "column": 1,
+          "source": "Slylandro Speaker",
+          "ko": "슬라이랜드로 대변인"
+        },
+        {
+          "line": 5,
+          "column": 1,
+          "source": "Zoq-Fot-Pik",
+          "ko": "조크-포트-피크",
+          "glossary_id": "zoq_fot_pik"
+        },
+        {
+          "line": 6,
+          "column": 1,
+          "source": "Syreen",
+          "ko": "시린",
+          "glossary_id": "syreen"
+        },
+        {
+          "line": 7,
+          "column": 1,
+          "source": "VUX",
+          "ko": "VUX",
+          "glossary_id": "vux"
+        },
+        {
+          "line": 8,
+          "column": 1,
+          "source": "Umgah",
+          "ko": "움가",
+          "glossary_id": "umgah"
+        },
+        {
+          "line": 9,
+          "column": 1,
+          "source": "Melnorme",
+          "ko": "멜노름",
+          "glossary_id": "melnorme"
+        },
+        {
+          "line": 10,
+          "column": 1,
+          "source": "Ur-Quan",
+          "ko": "우르콴",
+          "glossary_id": "ur_quan"
+        },
+        {
+          "line": 11,
+          "column": 1,
+          "source": "Slylandro Probe",
+          "ko": "슬라이랜드로 탐사선",
+          "glossary_id": "slylandro_probe"
+        },
+        {
+          "line": 12,
+          "column": 1,
+          "source": "Victory Sequence",
+          "ko": "승리 장면"
+        }
+      ]
+    },
+    {
+      "id": "0052",
+      "source_body_sha256": "31ade1303b28acb96b4e2ab37b8ddc175d624376b1bac9a23bd53299f4b3807d",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "VOICE EFFECTS",
+          "ko": "음성 효과"
+        }
+      ]
+    },
+    {
+      "id": "0053",
+      "source_body_sha256": "af83b5240c5cf8b20206afd20c58219ca1153879a4e76aed0a61a0a609f2ecee",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0054",
+      "source_body_sha256": "34c6cb23ae3621720e36e451d5578af3a86a650e7fa484b9ea807bf2a4ae9fd6",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "VOICE EDITING",
+          "ko": "음성 편집"
+        }
+      ]
+    },
+    {
+      "id": "0055",
+      "source_body_sha256": "7a71c8fd6dc1b597c036a4a88f4279ec92ae240b54465cce7ba3cdbf2dec534d",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0056",
+      "source_body_sha256": "a8dbaec239764fa2bd883cf47c3a3ae00e34257b643ae88f6fd95c76a5335782",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "ART AND ANIMATION",
+          "ko": "미술 및 애니메이션"
+        }
+      ]
+    },
+    {
+      "id": "0057",
+      "source_body_sha256": "20f816d08f195702c8b309d88c9eb143c4ddb0f37466600340e7afedf5b400eb",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0058",
+      "source_body_sha256": "d5bba77608ac2531fe933724c7cd3364b561e33b5bbb1b91c9a11e528a60f9c5",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "ADDITIONAL WRITING",
+          "ko": "추가 집필"
+        }
+      ]
+    },
+    {
+      "id": "0059",
+      "source_body_sha256": "044858a452c48f81fd0a0c16566f72bdbe8655c97f263f44811abd18293e8e92",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0060",
+      "source_body_sha256": "82fe6843f3650feac0aebca714b9ee8cd8d474f2ea5d40f67c55308f7786a6ca",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "MUSIC",
+          "ko": "음악"
+        }
+      ]
+    },
+    {
+      "id": "0061",
+      "source_body_sha256": "2aa7899c1f4a053ee57c1c9d0e546f775662e8edbf511f00fe357a9701b85b0f",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0062",
+      "source_body_sha256": "c6726c4098f10ef18d623dd6b95423241f209dbd4af8582c25420bedecc22965",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "3D CINEMAGRAPHICS",
+          "ko": "3D 영상 미술"
+        }
+      ]
+    },
+    {
+      "id": "0063",
+      "source_body_sha256": "917a1d4c7c45ae97845ffe918eafbff3012b012b1b2a58c876f7035107aa2390",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0064",
+      "source_body_sha256": "a0505982542de7d704a559df6a8e55dd5e04f24ce9836609ab15cc1475cc2f21",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "TrueMotion(R) \"S\" Video Compression",
+          "ko": "TrueMotion(R) \"S\" 영상 압축"
+        },
+        {
+          "line": 1,
+          "column": 0,
+          "source": "by The Duck Corporation ",
+          "ko": "제작: The Duck Corporation "
+        }
+      ]
+    },
+    {
+      "id": "0065",
+      "source_body_sha256": "dafdbe561948eb3aa3734612eb10e9faca1411356db1c28152907aa2fd58b083",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "PRODUCT MARKETING MANAGER",
+          "ko": "제품 마케팅 담당"
+        },
+        {
+          "line": 1,
+          "column": 0,
+          "source": "(3DO Version)",
+          "ko": "(3DO판)"
+        }
+      ]
+    },
+    {
+      "id": "0066",
+      "source_body_sha256": "3a21db49dd4aca024aa7344f77431906feed35c84e89441dd7faf265b221ab77",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0067",
+      "source_body_sha256": "3c137c24d3f043987dfa651c750183adb1f01e91a50a0e97354a8448f42b9684",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "3DO TESTERS",
+          "ko": "3DO 테스트"
+        }
+      ]
+    },
+    {
+      "id": "0068",
+      "source_body_sha256": "6aea03bb6111986cff622b7fef3b118e96cdf399038cead8e5dd0608f9584548",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0069",
+      "source_body_sha256": "084d5b9f015536eb174e235ecc85b93e272fe9e37ee6c4f98afbadaf407cf832",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "PC/DOS TESTERS",
+          "ko": "PC/DOS 테스트"
+        }
+      ]
+    },
+    {
+      "id": "0070",
+      "source_body_sha256": "994b8005b37accf74d8b0a443fb21ea485f41d0d001a276acf66c661ccc78d63",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0071",
+      "source_body_sha256": "f9423723ae99249469d859faeb2d8ac29e5c00c6a30673dcbbb9eaab1d343ed6",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "SPECIAL THANKS TO",
+          "ko": "특별히 감사드리는 분들"
+        }
+      ]
+    },
+    {
+      "id": "0072",
+      "source_body_sha256": "80a53fafb0a41ebed6a1ebf90913e82a6c31fe3664eb5b38de90a990191eda0d",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0073",
+      "source_body_sha256": "bb355ba17219643bc665e0f745d430bbcdce8c5cdb0532d968a0b8d3cc73d003",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "PAUL'S FOUNDATION",
+          "ko": "PAUL을 지탱해 준 가족"
+        }
+      ]
+    },
+    {
+      "id": "0074",
+      "source_body_sha256": "3657d885ca9b16bac49a98b66405b7058391857b73a41a1c7e7decb60bff576d",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 2,
+          "column": 0,
+          "source": "and Arianna",
+          "ko": "그리고 Arianna"
+        }
+      ]
+    },
+    {
+      "id": "0075",
+      "source_body_sha256": "1af182089ff41b6c4c46d02d4277fa922978224ae375e76ddedb1eca28ba0d5b",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "GOT US 86'ED OUT OF A",
+          "ko": "우리를 라스베이거스 식당에서"
+        },
+        {
+          "line": 1,
+          "column": 0,
+          "source": "RESTAURANT IN LAS VEGAS",
+          "ko": "쫓겨나게 한 사람"
+        },
+        {
+          "line": 5,
+          "column": 0,
+          "source": "(WE LOVE HER ANYWAY) ",
+          "ko": "(그래도 우리는 그녀를 사랑합니다) "
+        }
+      ]
+    },
+    {
+      "id": "0076",
+      "source_body_sha256": "cecf10f862da35ef13037876e317c4642c6217c8118004ef02dab62a95aac2e8",
+      "decision": "preserve_names_urls_or_padding",
+      "edits": []
+    },
+    {
+      "id": "0077",
+      "source_body_sha256": "e5496115757c05b0c41c30e3c14987589e95fc0f5996fcc43a6993c8b6674a36",
+      "decision": "translated_draft",
+      "edits": [
+        {
+          "line": 0,
+          "column": 0,
+          "source": "THE END",
+          "ko": "끝"
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "13": {
+      "family": "Galmuri11",
+      "size": 12,
+      "scale": 1,
+      "height": 17
+    },
+    "17": {
+      "family": "Galmuri9",
+      "size": 10,
+      "scale": 2,
+      "height": 24
+    },
+    "45": {
+      "family": "Galmuri11",
+      "size": 12,
+      "scale": 4,
+      "height": 57
+    }
+  }
+}

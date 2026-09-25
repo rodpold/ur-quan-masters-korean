@@ -36,6 +36,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_ships import verify_ships
         ship_check = verify_ships(z, source)
         (patcher.ROOT/'docs/ship-label-checks.json').write_text(json.dumps(ship_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_credits import verify_credits
+        credit_check = verify_credits(z, source)
+        (patcher.ROOT/'docs/credit-layout-checks.json').write_text(json.dumps(credit_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')

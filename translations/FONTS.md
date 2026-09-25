@@ -79,3 +79,7 @@ font.lander에 Galmuri9 10px(10x9 잉크, 10x12 PNG)을 별도 연결했습니�
 소개 슬라이드: 원본 starcon/slides ASCII를 보존하고 애드온의 starcon에는 기존 Galmuri7, slides에는 player 글꼴과 같은 Galmuri9 10px 래스터(9px 잉크/12px PNG)의 이진 알파 한글을 연결한다. 24개 종족 폰트 배정은 그대로다. 정적 폭 검사 및 실제 소개 재생 확인은 구분한다.
 
 최종 엔딩도 소개의 slides 글꼴을 공유한다. Galmuri9 흑백 한글과 원본 영문 글리프를 유지하며 새 외부 폰트는 추가하지 않는다.
+
+## 크레딧 공통 폰트
+
+credits.font.pt13: 기존 Galmuri11의 native 12 래스터(잉크 11), pt17: Galmuri9 native 10을 최근접 2배(잉크 18), pt45: Galmuri11 native 12를 최근접 4배(잉크 44). 원본 PNG 높이 17/24/57과 영문 글리프를 유지하고 한글 알파는 0/255만 쓴다. 종족 24종 배정은 변경하지 않는다. 실기 스크롤 확인 대기.

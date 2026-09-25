@@ -1310,5 +1310,31 @@
     "content_rows_per_page": 5,
     "original_latin_glyphs": "preserved",
     "status": "installed_trial_pending_in_game_review"
+  },
+  "credits_fonts": {
+    "status": "applied_draft_runtime_pending",
+    "spec": "translations/credits.ko.json",
+    "alpha": "binary",
+    "original_glyphs": "preserved",
+    "profiles": {
+      "13": {
+        "family": "Galmuri11",
+        "size": 12,
+        "scale": 1,
+        "height": 17
+      },
+      "17": {
+        "family": "Galmuri9",
+        "size": 10,
+        "scale": 2,
+        "height": 24
+      },
+      "45": {
+        "family": "Galmuri11",
+        "size": 12,
+        "scale": 4,
+        "height": 57
+      }
+    }
   }
 }

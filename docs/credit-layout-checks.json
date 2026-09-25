@@ -1,0 +1,342 @@
+{
+  "status": "static_passed_runtime_pending",
+  "records": 55,
+  "translated_blocks": 33,
+  "preserved_blocks": 22,
+  "details": [
+    {
+      "id": "0023",
+      "decision": "translated_draft",
+      "edited_cells": 2,
+      "max_edited_width": 219
+    },
+    {
+      "id": "0024",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 113
+    },
+    {
+      "id": "0025",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0026",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 155
+    },
+    {
+      "id": "0027",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0028",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 113
+    },
+    {
+      "id": "0029",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0030",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 92
+    },
+    {
+      "id": "0031",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0032",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 121
+    },
+    {
+      "id": "0033",
+      "decision": "translated_draft",
+      "edited_cells": 5,
+      "max_edited_width": 232
+    },
+    {
+      "id": "0034",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 155
+    },
+    {
+      "id": "0035",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0036",
+      "decision": "translated_draft",
+      "edited_cells": 2,
+      "max_edited_width": 59
+    },
+    {
+      "id": "0037",
+      "decision": "translated_draft",
+      "edited_cells": 2,
+      "max_edited_width": 98
+    },
+    {
+      "id": "0038",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0039",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 125
+    },
+    {
+      "id": "0040",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0041",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 103
+    },
+    {
+      "id": "0042",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0043",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 115
+    },
+    {
+      "id": "0044",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0045",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 64
+    },
+    {
+      "id": "0046",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0047",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 144
+    },
+    {
+      "id": "0048",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0049",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 77
+    },
+    {
+      "id": "0050",
+      "decision": "translated_draft",
+      "edited_cells": 14,
+      "max_edited_width": 92
+    },
+    {
+      "id": "0051",
+      "decision": "translated_draft",
+      "edited_cells": 13,
+      "max_edited_width": 124
+    },
+    {
+      "id": "0052",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 59
+    },
+    {
+      "id": "0053",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0054",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 59
+    },
+    {
+      "id": "0055",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0056",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 118
+    },
+    {
+      "id": "0057",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0058",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 59
+    },
+    {
+      "id": "0059",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0060",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 26
+    },
+    {
+      "id": "0061",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0062",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 87
+    },
+    {
+      "id": "0063",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0064",
+      "decision": "translated_draft",
+      "edited_cells": 2,
+      "max_edited_width": 218
+    },
+    {
+      "id": "0065",
+      "decision": "translated_draft",
+      "edited_cells": 2,
+      "max_edited_width": 105
+    },
+    {
+      "id": "0066",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0067",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 77
+    },
+    {
+      "id": "0068",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0069",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 106
+    },
+    {
+      "id": "0070",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0071",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 144
+    },
+    {
+      "id": "0072",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0073",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 156
+    },
+    {
+      "id": "0074",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 110
+    },
+    {
+      "id": "0075",
+      "decision": "translated_draft",
+      "edited_cells": 3,
+      "max_edited_width": 222
+    },
+    {
+      "id": "0076",
+      "decision": "preserve_names_urls_or_padding",
+      "edited_cells": 0,
+      "max_edited_width": 0
+    },
+    {
+      "id": "0077",
+      "decision": "translated_draft",
+      "edited_cells": 1,
+      "max_edited_width": 49
+    }
+  ],
+  "limitations": [
+    "Runtime scroll, baseline and visual review remain pending.",
+    "Original Latin glyphs and unedited names/URLs are retained; Korean glyph alpha is binary."
+  ]
+}
