@@ -4335,6 +4335,76 @@
       "status": "in_use",
       "notes": "조크-포트-피크 동맹 이후 대화 초안. 도르프의 정체는 원문에 없으므로 숟가락 등으로 단정하지 않는다. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "yip",
+      "source": "Yip",
+      "ko": "입",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "tun",
+      "source": "Tun",
+      "ko": "툰",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "haffy",
+      "source": "Haffy",
+      "ko": "해피",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jiff",
+      "source": "Jiff",
+      "ko": "지프",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "fod",
+      "source": "Fod",
+      "ko": "포드",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rogi",
+      "source": "Rogi",
+      "ko": "로기",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "buppo",
+      "source": "Buppo",
+      "ko": "부포",
+      "category": "person",
+      "status": "in_use",
+      "case_sensitive": true,
+      "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
