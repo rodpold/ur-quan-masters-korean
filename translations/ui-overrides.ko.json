@@ -1,0 +1,19 @@
+{
+  "source_path": "base/gamestrings.txt",
+  "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
+  "records": {
+    "0251": {
+      "source": "Mercury",
+      "ko": "수은",
+      "context": "chemical element",
+      "status": "in_use"
+    },
+    "0375": {
+      "source": "Mercury",
+      "ko": "수성",
+      "context": "solar-system planet",
+      "glossary_id": "mercury",
+      "status": "in_use"
+    }
+  }
+}

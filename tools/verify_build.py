@@ -22,6 +22,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_devices import verify_devices
         device_check = verify_devices(z, source)
         (patcher.ROOT/'docs/device-layout-checks.json').write_text(json.dumps(device_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_elements import verify_elements
+        element_check = verify_elements(z, source)
+        (patcher.ROOT/'docs/element-layout-checks.json').write_text(json.dumps(element_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')
@@ -59,6 +62,7 @@ def verify(game, ui_font="compact", report_previews=None):
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         dialogue = {p.stem:json.loads(p.read_text(encoding='utf-8')) for p in (patcher.ROOT/'translations/dialogue').glob('*.json')}
         required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
+        required.update(c for row in patcher.load_ui_overrides()['records'].values() for c in row['ko'] if ord(c)>127)
         for p in (patcher.ROOT/'translations/dialogue-voice').glob('*.ko.json'):
             required.update(c for value in json.loads(p.read_text(encoding='utf-8')).values() for c in value if ord(c)>127)
         from cutscene_text import load_intro, load_ending

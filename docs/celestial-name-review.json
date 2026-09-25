@@ -880,6 +880,12 @@
       "glossary_id": "map_xi"
     },
     {
+      "id": "0375",
+      "source": "Mercury",
+      "ko": "수성",
+      "glossary_id": "mercury"
+    },
+    {
       "id": "0376",
       "source": "Venus",
       "ko": "금성",
@@ -1072,9 +1078,7 @@
       "glossary_id": "sa_matra"
     }
   ],
-  "exceptions": {
-    "0375": "Mercury remains untranslated until an ordinal-specific override distinguishes planet from element."
-  },
+  "exceptions": {},
   "source_evidence": {
     "starmap.c": {
       "sha256": "cc4ffcece29cd69eeec4814096efb8117cfbec3c3758758cf05537c714d2068f",

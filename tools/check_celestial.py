@@ -16,8 +16,8 @@ def verify_celestial(package,source):
         index=int(row['id'])
         assert old[index][2]==row['source'] and new[index][2]==row['ko']
         if row['glossary_id']:assert glossary[row['glossary_id']]['ko']==row['ko']
-    # The Mercury element and planet remain original until ordinal overrides exist.
-    assert new[251][2]==new[375][2]=='Mercury'
+    assert new[251][2]=='수은' and new[375][2]=='수성'
+    assert glossary['mercury']['ko']==new[375][2]
     prefixes=['']+[new[i][2] for i in range(361,375)]
     names=[new[i][2] for i in range(132)]
     combinations=[(prefix+' ' if prefix else '')+name for prefix in prefixes for name in names]

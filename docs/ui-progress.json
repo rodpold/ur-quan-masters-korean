@@ -1,16 +1,14 @@
 {
   "source_path": "base/gamestrings.txt",
   "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
-  "translated_records": 394,
+  "translated_records": 492,
   "total_records": 594,
-  "pending_records": 187,
+  "pending_records": 89,
   "status": "structure_passed_linguistic_and_runtime_review_pending",
-  "known_context_collision": {
-    "Mercury": [
-      "0251: chemical element",
-      "0375: planet"
-    ]
-  },
+  "context_specific_records": [
+    "0251",
+    "0375"
+  ],
   "limitations": [
     "Record coverage does not prove meaning, screen fit, dynamic formatting, or installed UI behavior.",
     "Repeated source labels require ordinal handling when meanings differ."
@@ -879,472 +877,472 @@
     {
       "id": "0172",
       "source_text_sha256": "1f54ba0f3bd3d3f394b1df30ffaabab393366c1bf441fa90e8662bf72fa2f7fc",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0173",
       "source_text_sha256": "cf39361b66d906e58c5d2856ded73d3fa112d1add55a16bc4c6f8cb977399b70",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0174",
       "source_text_sha256": "b422ec117b6371b0cae96ba95f311de80b8e810f7bf6d847987c02562badfed4",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0175",
       "source_text_sha256": "e0d57aa27df80d00aab458f7a69d249cfe6089ee6dfa6b460ab665aa1844d903",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0176",
       "source_text_sha256": "b173092d155530d76524f74dbcf9872d16c2c5037e7955a8e971d859009f1454",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0177",
       "source_text_sha256": "694c87c2e0b088915a129be46bb6ee159fa76d67625aeb705c3fc891a2544f43",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0178",
       "source_text_sha256": "ed657064daf740734d4a4ae31406cb294a17dc2dbd422ce90a86ed9816f0ded4",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0179",
       "source_text_sha256": "943077f0507ddf71e79a6b07cdc9a1f452bab07502be36ba125a6f5250038012",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0180",
       "source_text_sha256": "14a8f2e4fd32ab595f650016b645769940d52596deeb90bdd93f95a695583207",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0181",
       "source_text_sha256": "618484e2c549451830e2b2c19b498d90b4fc8d206174f13c43ed058e6470ee2f",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0182",
       "source_text_sha256": "cbd06db64d872d0e1dee4f360ce269f10bcdf7bfb0c84d324c3d2cd7a15e4115",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0183",
       "source_text_sha256": "b502eb348ec79060af2ecf9bd586a492c025478eeda20aa21b6d19aafc5019ae",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0184",
       "source_text_sha256": "bf61918ceda355fa1b9f3606375fde4d6345c60e3ab67601f0983e0665b8a8a2",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0185",
       "source_text_sha256": "a2812d1533184a4f4264928c066d2528e2f75723b29b8d9c4970d266b95f552b",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0186",
       "source_text_sha256": "0fb379525dac2a9d33f85a2b126a25fd7d52e7a59270c48ea76658951dc20cd7",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0187",
       "source_text_sha256": "2c5cc137169abef6de5ea1cbd62cbeac1577e926ec4903dc25e1698e19a4ef26",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0188",
       "source_text_sha256": "384544f13e53b137ac93b734929b6c50702273881fe18cd8fec2769837d9f247",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0189",
       "source_text_sha256": "c7014459a61e8b33913a9f253d001858cd376a38e41d185ac5ca1cab066b9b51",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0190",
       "source_text_sha256": "0bf539dff60dee0862dc48a4e87440d49cfcceb9bca44db4e9693daee731bd16",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0191",
       "source_text_sha256": "636f0dc2dfb9f86221365459a9145c904e211ee378a3a2b6a0aa3459873ef402",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0192",
       "source_text_sha256": "f9040342a7aa65758a0b75fd7d3eff03119dac2860559498ab0aa283ec07999a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0193",
       "source_text_sha256": "8fa017ad74e86d5f4838bb404b3b25db0f6240d6da3fc9ba70caf5c973090039",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0194",
       "source_text_sha256": "24d09db36e415ec12991eec698967fc8ad6fdf6a9540318a627038137d046ad7",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0195",
       "source_text_sha256": "443373ad0b9d685d067c81e4f9744acf4dc83158e40c748ee94ac3a652cc2339",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0196",
       "source_text_sha256": "0047e3734d16c9f449c41779e30044f0f2c70adff4ef314ec9810785c1efbac8",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0197",
       "source_text_sha256": "bd223c81de7e86da43eee0f9abf0b2b87e7a9b0ad3b6e215ee55e68d49b31ba9",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0198",
       "source_text_sha256": "9eae7576c1913ab6bf4f30a2e3436b8463b5065be193a22b87b7e64e759fc003",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0199",
       "source_text_sha256": "17af1c2d5d7559a82ea4818dc28e81debc431dc84c568b093a4ecd3a26cabe2a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0200",
       "source_text_sha256": "d35b0efe21288fd59dac3436ab3bd1c3b741261ef75b8b2af53ad8eb881f0c04",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0201",
       "source_text_sha256": "4f89fdf9f1d9ba6f55a58807cf488ec978a47763cdaeb50ad3355e6e3bc3398d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0202",
       "source_text_sha256": "1639ba490c6c3c35a606c6c0d1575e908da3abf1f8ac8d6318118bacb98fc7b1",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0203",
       "source_text_sha256": "99533d08b85400c30e147ec461737603d2585dcdb10a9f748b4614bddd1b84aa",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0204",
       "source_text_sha256": "f16a05892eabdadb72380ad1fad01b7480dc566092cd5779cd6b23e8940d376a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0205",
       "source_text_sha256": "e28a70b2356a8e991440ce970130ae0e0320978d93ebcf5c445cd048b8f1304a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0206",
       "source_text_sha256": "d26e9a48d877786a8713cec2e58891d7fa7b4fd529d6f00974098d94065933f2",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0207",
       "source_text_sha256": "5e23c1628e599e6698d4b2550ff04312e84f61536f6f8edfb728224ebc65c295",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0208",
       "source_text_sha256": "c3bcce1a4d0e1ccacd15757056e1a68021130ea528e62ea7dbf64d458476b1a6",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0209",
       "source_text_sha256": "b75a2708fc7b9f6ec3cfa511e887aafa1d4bff012880740d9d25011729aa13e4",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0210",
       "source_text_sha256": "25443fc6c0e57426c62874b807b9c8859f7f11482b47d43c6239c6d6bd17f97e",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0211",
       "source_text_sha256": "0fd07d2e6f8c2045c1bf1050b4490bbbbc372275f7521489edf697779872634b",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0212",
       "source_text_sha256": "6c0122361e640053f8635840bf737573229b87752ac90d87970da613848270c9",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0213",
       "source_text_sha256": "f2bb2196559424f8e0207b0f4a9a48795d43ddebdd5b88de7b484fbc0a04053f",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0214",
       "source_text_sha256": "748c629cc97d2edb117c96526c5661b64260425c3bbd9c6b32be51adcc88838e",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0215",
       "source_text_sha256": "390da40014b75b63c7ed2f315afe83ba35e8c80a4608188826ffe2001a372a29",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0216",
       "source_text_sha256": "c3e207acc199faa3346f6fb696f323760ed56dd3bec4e485b6a15da69e176101",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0217",
       "source_text_sha256": "fc207b18b0d4d8a8e3817536dfc4ff8c3491f569c6bb3996dbbc5e69b0cbd336",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0218",
       "source_text_sha256": "a0b43df06f52085e62ab592a6adc991e32fadfa13f51c7692ba1c1720b5663d2",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0219",
       "source_text_sha256": "37684c78a6c3c19b610402ed4680087a418d8d014f93cfd69df974266b1f20bf",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0220",
       "source_text_sha256": "cbf201454da701bc18974e845f2468abf053d2c5dab245787a5aa2bc5bb5fe03",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0221",
       "source_text_sha256": "6377a611414395082b002257f8b0d7e7cc684a674d177483e95fd2bdf1f35a26",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0222",
       "source_text_sha256": "dc9c3b23b0ee07f54f846256f11ea115a187361390f3ff74badc6cf8dfce9ea1",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0223",
       "source_text_sha256": "d4f08c4b07d503ed96b34bd2e9dea0b8ec576c98254018339eaf479d52fcd2a9",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0224",
       "source_text_sha256": "55908cd34e2df5488a2ff97e6b7277898aa8e92e35ade57c5157139d69e54ff8",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0225",
       "source_text_sha256": "e1e2d099ffa04d1fc7d2ea1b14c1a2642b0d975c7165745e6cf340c4a00f8342",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0226",
       "source_text_sha256": "ea2d75dea2bb021f9ec2b16a196058a1f7b154f58fdb07c4d640548d65992b32",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0227",
       "source_text_sha256": "7e3e93fcc7d1a546ad2e9d1e73b1b7cadf8749aa7c12afd400cf825987aa8027",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0228",
       "source_text_sha256": "7f3a4eff11cb6b10dcdbf4dff60641eff69a697d2223987c2c2587e362ad4da1",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0229",
       "source_text_sha256": "c56e7a4b8d652170dd187077947cdb86b80eb972755cde0059a62b864bd71274",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0230",
       "source_text_sha256": "c2d2d236faff849094ae6ac43aec3555ce1ddc7f80519dd5bb6c91e71c878523",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0231",
       "source_text_sha256": "3d7fcf5cdecb9a2138d5e95403be8316fac29196615de5da9ac773322ab91349",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0232",
       "source_text_sha256": "11b11d94ba2b62a13ae9b4d4bf26a359698844204fb05b1410dcd09e0ed246d0",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0233",
       "source_text_sha256": "d3bb8d20212667e1e3a6113b0296c5d55f68b8d0012049d3e98619bf2af8b8b6",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0234",
       "source_text_sha256": "2f9f7475cfececd063199d002e7899b8984a824b13b66294c9f6977f4e51ec75",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0235",
       "source_text_sha256": "664cda1bcdd84a0957759aa01aa4e9d0f1c43ca3e38bc80c7fbd85573d78d069",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0236",
       "source_text_sha256": "0d3ea972fa1857305475a1979534794cacd2eb62c8f558d73bddcd1013078409",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0237",
       "source_text_sha256": "eb26f049eaa71e34904803dbcc6784ce57a1961a82aadd3ba7eaf121ed697f44",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0238",
       "source_text_sha256": "eaa4fdde4deb8a1e24f5cb0c0c184be0a3d7962150fc7be31710d2dc79f6a813",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0239",
       "source_text_sha256": "0001f03dd2418f0d352e5d5a078d4bc625eee58a49e38e2eb3f235493fe3889d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0240",
       "source_text_sha256": "42bf480b13c93ac4985374da5e846ee2f28ca3fbc7e349567d24f92fb661bd10",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0241",
       "source_text_sha256": "3ef6302f63a71def84d508f9588d324d28b89e9600421159888c5fb8068e1070",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0242",
       "source_text_sha256": "495317937ff99b1cd45dea2c16a6b5cbeb87e04b59b415efd2ab48849a436060",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0243",
       "source_text_sha256": "f0df12bf31b1d15c5531ed5b499b3c4b3cf78642eed84d1bd4dbb57c2320fabe",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0244",
       "source_text_sha256": "647b4cbfd728eb90a640dc7367d62e92bb6eeedd00f28a7188ac344b161d86f1",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0245",
       "source_text_sha256": "97b356bf2273cbd3697e797e981e9375dcb5e6b036ac4249a2960bcc3e6c7501",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0246",
       "source_text_sha256": "5adeb056c4182ed0781ac031a4aaa2f9e6a6038d978e0bd872a29d61cf7d95b7",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0247",
       "source_text_sha256": "3e1e09bfc3c528bb05e1c036b226bdb91ac4379e464f6cc77d95175d3818d71e",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0248",
       "source_text_sha256": "3113c496c4544abb4b18ea53fcfb886e751ae964e3d0aa35038720b165fc8c2b",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0249",
       "source_text_sha256": "5a98505ed913859038c5c27056b95c5ccb54f43073887c548c0ec8c3a14765d5",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0250",
       "source_text_sha256": "6249df4367d0a2e088c8eb1117ef59430f0d7dad4bf0fcf8a01d7f0415f4d511",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0251",
       "source_text_sha256": "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0252",
       "source_text_sha256": "d94f4b544234805bfcbfdb74e4196e2b560392541e59751d37ebe54e894f43df",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0253",
       "source_text_sha256": "645978287991a6f40bcaf5840f5653b89b75b3bd1ea78cf9f39192e2400ac23e",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0254",
       "source_text_sha256": "7a86133de9fbd340126d157bd0e37966d6bbf85075347d97cb372deea3bde7ee",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0255",
       "source_text_sha256": "7698a6c36ca5a4ce1ab7050b52e4e4bc542ef9dcd251fbe353951f072b77ab04",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0256",
       "source_text_sha256": "0be8332ff233c285df322a7067c488834216c0318893547d19d785eca2bbedea",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0257",
       "source_text_sha256": "b713edd6b91a7fdbf5a0354c30d04c8867a7583dd06ebc12c58e2d1ee575af1b",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0258",
       "source_text_sha256": "ec30db3d89fad009a53866f7d148f8a376e9dce601c61b55fc94548b3bddf741",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0259",
       "source_text_sha256": "55c693a79ac5e47df2f4bc8203bf7a9becec332da807a40453a71e241d94e6f7",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0260",
       "source_text_sha256": "d40727014a477cae3cf13ac4c9a04b55fb9a7996b6f7588ad482eb16bd353414",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0261",
       "source_text_sha256": "b7f0942503ad9c7ccedb7897fac0711c11d8b946595c29180ea886eb03779898",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0262",
       "source_text_sha256": "bd54b73b09b26ab6c99611223bfd05ca2e46f5569011daf86a755dbe2d476d64",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0263",
       "source_text_sha256": "12b454d4b27e44c80f3e9d095c6f24dd84caf0f2cc8b27e2ad01ee86ebcab521",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0264",
       "source_text_sha256": "f28bf939eee3ebc82ac5dd36ddf908cc1523d48e59daedf7f51d7eec9a189ad5",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0265",
       "source_text_sha256": "633e2df7669b41118daf87e94898fe3fba7021ff10f750366ae85d745816c95b",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0266",
@@ -1634,7 +1632,7 @@
     {
       "id": "0323",
       "source_text_sha256": "d35b0efe21288fd59dac3436ab3bd1c3b741261ef75b8b2af53ad8eb881f0c04",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0324",
@@ -1764,7 +1762,7 @@
     {
       "id": "0349",
       "source_text_sha256": "384544f13e53b137ac93b734929b6c50702273881fe18cd8fec2769837d9f247",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0350",
@@ -1789,7 +1787,7 @@
     {
       "id": "0354",
       "source_text_sha256": "55908cd34e2df5488a2ff97e6b7277898aa8e92e35ade57c5157139d69e54ff8",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0355",
@@ -1894,7 +1892,7 @@
     {
       "id": "0375",
       "source_text_sha256": "6a7367ef7970d165bf9a60a16ef4365b2b7670f5064a35438e2ea0049dbdb1dd",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0376",

@@ -1,0 +1,762 @@
+{
+  "status": "static_passed_runtime_pending",
+  "records": 94,
+  "labels": [
+    {
+      "id": "0172",
+      "ko": "수소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0173",
+      "ko": "헬륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0174",
+      "ko": "리튬",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0175",
+      "ko": "베릴륨",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0176",
+      "ko": "붕소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0177",
+      "ko": "탄소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0178",
+      "ko": "질소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0179",
+      "ko": "산소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0180",
+      "ko": "플루오린",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0181",
+      "ko": "네온",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0182",
+      "ko": "나트륨",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0183",
+      "ko": "마그네슘",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0184",
+      "ko": "알루미늄",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0185",
+      "ko": "규소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0186",
+      "ko": "인",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0187",
+      "ko": "황",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0188",
+      "ko": "염소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0189",
+      "ko": "아르곤",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0190",
+      "ko": "칼륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0191",
+      "ko": "칼슘",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0192",
+      "ko": "스칸듐",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0193",
+      "ko": "타이타늄",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0194",
+      "ko": "바나듐",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0195",
+      "ko": "크로뮴",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0196",
+      "ko": "망가니즈",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0197",
+      "ko": "철",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0198",
+      "ko": "코발트",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0199",
+      "ko": "니켈",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0200",
+      "ko": "구리",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0201",
+      "ko": "아연",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0202",
+      "ko": "갈륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0203",
+      "ko": "저마늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0204",
+      "ko": "비소",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0205",
+      "ko": "셀레늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0206",
+      "ko": "브로민",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0207",
+      "ko": "크립톤",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0208",
+      "ko": "루비듐",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0209",
+      "ko": "스트론튬",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0210",
+      "ko": "이트륨",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0211",
+      "ko": "지르코늄",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0212",
+      "ko": "나이오븀",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0213",
+      "ko": "몰리브데넘",
+      "widths": [
+        45
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0214",
+      "ko": "테크네튬",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0215",
+      "ko": "루테늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0216",
+      "ko": "로듐",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0217",
+      "ko": "팔라듐",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0218",
+      "ko": "은",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0219",
+      "ko": "카드뮴",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0220",
+      "ko": "인듐",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0221",
+      "ko": "주석",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0222",
+      "ko": "안티모니",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0223",
+      "ko": "텔루륨",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0224",
+      "ko": "아이오딘",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0225",
+      "ko": "제논",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0226",
+      "ko": "세슘",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0227",
+      "ko": "바륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0228",
+      "ko": "란타넘",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0229",
+      "ko": "세륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0230",
+      "ko": "프라세오디뮴",
+      "widths": [
+        54
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0231",
+      "ko": "네오디뮴",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0232",
+      "ko": "프로메튬",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0233",
+      "ko": "사마륨",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0234",
+      "ko": "유로퓸",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0235",
+      "ko": "가돌리늄",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0236",
+      "ko": "터븀",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0237",
+      "ko": "디스프로슘",
+      "widths": [
+        45
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0238",
+      "ko": "홀뮴",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0239",
+      "ko": "어븀",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0240",
+      "ko": "툴륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0241",
+      "ko": "이터븀",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0242",
+      "ko": "루테튬",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0243",
+      "ko": "하프늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0244",
+      "ko": "탄탈럼",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0245",
+      "ko": "텅스텐",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0246",
+      "ko": "레늄",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0247",
+      "ko": "오스뮴",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0248",
+      "ko": "이리듐",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0249",
+      "ko": "백금",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0250",
+      "ko": "금",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0251",
+      "ko": "수은",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0252",
+      "ko": "탈륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0253",
+      "ko": "납",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0254",
+      "ko": "비스무트",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0255",
+      "ko": "폴로늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0256",
+      "ko": "아스타틴",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0257",
+      "ko": "라돈",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0258",
+      "ko": "프랑슘",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0259",
+      "ko": "라듐",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0260",
+      "ko": "악티늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0261",
+      "ko": "토륨",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0262",
+      "ko": "프로트악티늄",
+      "widths": [
+        54
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0263",
+      "ko": "우라늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0264",
+      "ko": "넵투늄",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0265",
+      "ko": "플루토늄",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    }
+  ],
+  "limitations": [
+    "Pickup location moves with lander; edge clipping requires runtime review.",
+    "No changes to pickup quantities or resource values."
+  ]
+}

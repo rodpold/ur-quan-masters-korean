@@ -29,16 +29,36 @@ def validate_game(game):
         raise ValueError('검증되지 않은 게임 데이터입니다. 이 테스트는 확인된 Steam 0.8.0 데이터만 지원합니다.')
     return game
 
-def translate_table(text, translations):
+def load_ui_overrides():
+    return json.loads((ROOT/'translations/ui-overrides.ko.json').read_text(encoding='utf-8'))
+
+
+def translate_table(text, translations, overrides=None):
     # Keep every header, record order, blank record and newline intact.
     chunks = re.split(r'(?m)(^#\([^\r\n]*\)[^\r\n]*\r?\n)', text)
     counts = {key: 0 for key in translations}
+    records = overrides['records'] if overrides else {}
+    if overrides and sha(text.encode('utf-8')) != overrides['source_sha256']:
+        raise ValueError('UI override source hash mismatch')
+    seen = set()
     for i in range(2, len(chunks), 2):
         body = chunks[i]
         value = body.rstrip('\r\n')
-        if value in translations:
+        ordinal = f'{(i-2)//2:04d}'
+        if ordinal in records:
+            row = records[ordinal]
+            if value != row['source'] or value in translations:
+                raise ValueError('UI override source/context conflict: '+ordinal)
+            if not row['ko'].strip() or re.search(r'^#\(',row['ko'],re.M):
+                raise ValueError('Invalid UI override: '+ordinal)
+            chunks[i] = row['ko'] + body[len(value):]
+            counts['@'+ordinal] = 1
+            seen.add(ordinal)
+        elif value in translations:
             chunks[i] = translations[value] + body[len(value):]
             counts[value] += 1
+    if seen != set(records):
+        raise ValueError('Unknown UI override ordinal')
     missing = [key for key, count in counts.items() if not count]
     if missing:
         raise ValueError(f'원본 문자열을 찾지 못했습니다: {missing}')
@@ -247,6 +267,7 @@ def build(game, ui_font="compact"):
     dialogue_values = [v for records in [*dialogue.values(), *reports.values()] for v in records.values()]
     for p in (ROOT/'translations/dialogue-voice').glob('*.ko.json'):
         dialogue_values.extend(json.loads(p.read_text(encoding='utf-8')).values())
+    dialogue_values.extend(row['ko'] for row in load_ui_overrides()['records'].values())
     dialogue_values.extend(intro['records'].values())
     dialogue_values.extend(ending['records'].values())
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
@@ -263,7 +284,7 @@ def build(game, ui_font="compact"):
         if reports:
             from report_layout import spaced
             translations = {**translations, '(MORE)': spaced(translations.get('(MORE)', '(다음)'))}
-        translated, counts = translate_table(original, translations)
+        translated, counts = translate_table(original, translations, load_ui_overrides())
         entries['ko/gamestrings.txt'] = translated.encode('utf-8')
         entries.update(menu_assets(z))
         entries.update(panel_assets(z))

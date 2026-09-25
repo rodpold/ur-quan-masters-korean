@@ -53,7 +53,7 @@ def audit(game):
   compile_script(z.read(ending['source_path']),ending)
   compile_ending_wrapper(z.read(ending['wrapper_path']),ending,patcher.ADDON)
   from check_ui import audit_ui
-  ui_report=audit_ui(z.read('base/gamestrings.txt'),json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8')))
+  ui_report=audit_ui(z.read('base/gamestrings.txt'),json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8')),patcher.load_ui_overrides())
   patcher.report_assets(z,reports)
   for row in reg['dialogue_fonts']:
    id=row['id'];group=row['font_group'];profile=per['profiles'][group]

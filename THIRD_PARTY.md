@@ -160,3 +160,8 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 성도 이름 처리 참고: [starmap.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/starmap.c), [planets/pstarmap.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/pstarmap.c). Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). 파일 해시는 docs/celestial-name-review.json에 기록했다. 이름 연결·UTF-8 검색·버퍼 크기를 확인했으며 원본 코드는 저장소에 포함하지 않는다. 새 폰트나 외부 이미지는 추가하지 않았다.
 
 장치 목록 레이아웃 참고: [planets/devices.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/devices.c), Paul Reiche / Fred Ford (1992–2002), GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). SHA-256과 용도는 translations/device-labels.ko.json 참조. 원본 코드는 배포하지 않으며 기존 Galmuri7 흑백 tiny 글리프를 재사용한다.
+
+## 원소명 및 착륙정 텍스트 참고
+
+- 원소 표기: [2022 개정 교육과정에 따른 교과용도서 개발을 위한 편수자료 III 기초과학·정보 편](https://www.goe.go.kr/resource/old/BBSMSTR_000000030136/BBS_202304060600195200.pdf), 경기교육청 공개본, 본문 213–214쪽. 원소명 사실 대조에만 사용했으며 문서·표 이미지는 배포하지 않는다. 일반 화학 명칭을 직접 입력했고 재배포 라이선스를 주장하지 않는다.
+- 표시 방식: [planets/lander.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/lander.c), Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). pickupMineralNode와 DrawPlanetSide의 첫 공백 분리/7픽셀 간격을 확인했다. 원본 코드·그림은 배포하지 않는다. 기존 Galmuri7 흑백 폰트를 재사용한다.

@@ -15,16 +15,17 @@ PRESERVED={'Vindicator':'default_player_editable_ship_name','Zelnick':'default_p
            'Cr':'unit_abbreviation','RU':'unit_abbreviation',' a.u.':'unit_abbreviation',
            ' atm':'unit_abbreviation',' e.s.':'unit_abbreviation',' g.':'unit_abbreviation'}
 
-def audit_ui(raw,translations):
+def audit_ui(raw,translations,overrides=None):
     original=raw.decode('utf-8-sig')
-    translated,counts=patcher.translate_table(original,translations)
+    translated,counts=patcher.translate_table(original,translations,overrides)
     before=list(blocks(original));after=list(blocks(translated))
     assert len(before)==len(after)
     rows=[]
     for (index,label,src),(new_index,new_label,dst) in zip(before,after):
         assert (index,label)==(new_index,new_label)
-        if src in translations:
-            assert dst==translations[src]
+        override=(overrides or {}).get('records',{}).get(f'{index:04d}')
+        if src in translations or override:
+            assert dst==(override['ko'] if override else translations[src])
             assert re.findall(r'%[-+0-9.]*[sduf]',src)==re.findall(r'%[-+0-9.]*[sduf]',dst)
             months='JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
             if src in months:
@@ -42,13 +43,13 @@ def audit_ui(raw,translations):
             'translated_records':sum(counts.values()),'total_records':len(rows),
             'pending_records':sum(row['status']=='translation_pending' for row in rows),
             'status':'structure_passed_linguistic_and_runtime_review_pending',
-            'known_context_collision':{'Mercury':['0251: chemical element','0375: planet']},
+            'context_specific_records':sorted((overrides or {}).get('records',{})),
             'limitations':['Record coverage does not prove meaning, screen fit, dynamic formatting, or installed UI behavior.','Repeated source labels require ordinal handling when meanings differ.'],
             'records':rows}
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--game',type=Path,required=True);p.add_argument('--write-report',action='store_true');a=p.parse_args()
     with ZipFile(a.game/patcher.SOURCE) as z:
-        result=audit_ui(z.read('base/gamestrings.txt'),json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8')))
+        result=audit_ui(z.read('base/gamestrings.txt'),json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8')),patcher.load_ui_overrides())
     if a.write_report:(ROOT/'docs/ui-progress.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps({k:v for k,v in result.items() if k!='records'},ensure_ascii=False,indent=2))

@@ -1,6 +1,6 @@
 {
   "status": "mapping_glyph_buffer_passed_runtime_pending",
-  "mapped_records": 178,
+  "mapped_records": 179,
   "conservative_combinations": 1980,
   "max_utf8_bytes_with_nul": 35,
   "max_width_with_spacing": {
