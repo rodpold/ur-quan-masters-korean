@@ -1734,6 +1734,42 @@
       "status": "in_use",
       "notes": "코르아 역사 설명 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "broodhome",
+      "source": "Broodhome",
+      "ko": "브루드홈",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "촘르 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "x_form",
+      "source": "X-Form",
+      "ko": "엑스폼",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "촘르 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "avatar",
+      "source": "Avatar",
+      "ko": "아바타",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "촘르 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "crateris",
+      "source": "Crateris",
+      "ko": "크라테리스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "촘르 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

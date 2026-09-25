@@ -70,7 +70,12 @@
         "WHY_YOU_HERE_2"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "WHY_YOU_HERE_* / HYBRID_PROCESS / CANT_HELP / GOODBYE_SHIELDED": "장벽 안의 합일 전 화자는 첸제수와 므른므흐름. 아직 촘르라고 자칭하지 않는다. 합일 과정 방해의 고통과 오랜 시간 전망을 차분한 한다체로 표현.",
+        "WE_ARE_FREE / WILL_HELP_ANALYZE_LOGS": "새 집단 촘르의 등장. 미완성 합일이라는 사실과 이미 벌어진 일을 받아들이는 태도를 유지한다. 영문 대문자는 띄어쓰기 파괴나 전면 고함으로 흉내 내지 않는다.",
+        "WILL_DESTROY_IT / DEAD_SILENCE": "기함 소멸과 대안 부재를 짧고 단정하게 말한다. 위로나 회피를 추가하지 않는다."
+      }
     },
     "commander": {
       "persona": "현실적이고 책임감 있는 군 지휘관",
