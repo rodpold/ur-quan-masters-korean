@@ -1,0 +1,60 @@
+{
+  "status": "source_review_installed_data_checked_runtime_pending",
+  "sources": [
+    {
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/slyland/slyland.c",
+      "sha256": "2d8e157648f557ceb510807e71c4c0e1fa8ddc8296b5b36e6fd3267f37948117",
+      "functions": [
+        "sayCoord",
+        "coordinate response in THIS_IS_PROBE_40 branch"
+      ]
+    },
+    {
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/commglue.c",
+      "sha256": "f44e336ddaba314885196d3f0f0ed7377cfda2d8affbdd99d53baadc1504bb88",
+      "functions": [
+        "NPCNumber",
+        "NPCNumberPhrase",
+        "NPCPhrase_splice"
+      ]
+    }
+  ],
+  "coordinate_rule": "In integer tenths of map units: first component = 9812 - map_y; second = map_x - 333. Each uses sign, at least three integer digits, decimal point, one fractional digit. Components separated by comma.",
+  "source_examples": [
+    {
+      "map_xy_tenths": [
+        1752,
+        1450
+      ],
+      "coordinate_text": "+836.2,+141.9"
+    },
+    {
+      "map_xy_tenths": [
+        333,
+        9812
+      ],
+      "coordinate_text": "+000.0,+000.0"
+    },
+    {
+      "map_xy_tenths": [
+        0,
+        0
+      ],
+      "coordinate_text": "+981.2,-033.3"
+    },
+    {
+      "map_xy_tenths": [
+        9999,
+        9999
+      ],
+      "coordinate_text": "-018.7,+966.6"
+    }
+  ],
+  "subtitle_behavior": "NPCNumberPhrase formats numeric subtitle separately and selects original numeric voice clips by string IDs. Korean ENUMERATE text is not concatenated into the coordinate subtitle.",
+  "preservation": "Do not normalize the transformed coordinates to map coordinates; retain signs, zero padding, suffix punctuation, voice filenames, and original digit PNG bytes.",
+  "limitations": [
+    "Examples are arithmetic derived from pinned public source, not captures from the installed executable.",
+    "English audio remains English; this is not a Korean voice pack.",
+    "Actual subtitle splicing, timing and encounter state need runtime verification."
+  ]
+}

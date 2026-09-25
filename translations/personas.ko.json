@@ -340,7 +340,7 @@
       "machine_checks": {
         "required_id": "2418-B",
         "register": "machine",
-        "numeral_fragments": "숫자 레코드 순서를 유지; 좌표 조립과 발음은 별도 실기 검증"
+        "numeral_fragments": "고정 공개 소스에서는 숫자 자막을 아라비아 숫자로 생성하고 ENUMERATE ID는 원래 영어 음성 조각 선택에 사용. 부호·구두점·음성 헤더·원본 숫자 글리프 보존을 정적 검사하며 실제 좌표 조립/재생은 별도 검증."
       }
     },
     "spathi": {

@@ -1,0 +1,10 @@
+{
+  "status": "installed_coordinate_fragments_and_numeric_glyphs_preserved",
+  "numeric_voice_headers": 30,
+  "literal_coordinate_fragments": 5,
+  "engine_generated_digits": "Arabic numerals per pinned public source; translated numeral words are not composed into the coordinate subtitle.",
+  "limitations": [
+    "No execution of the installed EXE or validation of audio playback/timing.",
+    "Pinned source coordinate basis and subtitle formatting remain runtime verification targets."
+  ]
+}
