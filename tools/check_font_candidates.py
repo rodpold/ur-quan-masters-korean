@@ -18,6 +18,7 @@ def check():
     reports = ROOT/'translations/reports.ko.json'
     if reports.is_file():
         texts.extend(v for rows in json.loads(reports.read_text(encoding='utf-8')).values() for v in rows.values())
+    texts.extend(json.loads((ROOT/'translations/intro.ko.json').read_text(encoding='utf-8'))['records'].values())
     chars = sorted({c for text in texts for c in text if ord(c)>127})
     results = {}
     for name in dict.fromkeys(registry['specimen_order'] + registry.get('expressive_specimen_order', []) + registry.get('binary_specimen_order', [])):

@@ -41,6 +41,9 @@ def audit(game):
  rows=[];other=[];translated_total=0;total=0;orz_report=None
  reports=patcher.report_translations()
  with ZipFile(Path(game)/patcher.SOURCE) as z:
+  from cutscene_text import load_intro,compile_script
+  intro=load_intro()
+  compile_script(z.read(intro['source_path']),intro)
   patcher.report_assets(z,reports)
   for row in reg['dialogue_fonts']:
    id=row['id'];group=row['font_group'];profile=per['profiles'][group]
@@ -79,8 +82,9 @@ def audit(game):
      for token in re.findall(r'\d+(?:[.,]\d+)*',original):assert token in text,f'Report number: {n}/{key}: {token}'
      for term in canonical_terms(original,terms.values(),n):assert term['ko'] in text,f'Report term: {n}/{key}: {term["source"]}'
     status=('translated_draft' if len(report_trans)==len(rr) else 'partial') if report_trans else ('partial_existing_patch' if n in ['base/gamestrings.txt','base/ui/setupmenu.txt'] else 'not_started_or_requires_classification')
+    if n=='base/cutscene/intro/intro.txt':status='subtitle_draft_runtime_pending'
     other.append({'source_path':n,'source_sha256':hashlib.sha256(data).hexdigest(),'records':len(rr),'translated':len(report_trans) if n.startswith('base/lander/') else None,'status':status,'linguistic_review':'pending','in_game_review':'pending'})
- return {'goal':'full_game_korean_localization','complete':False,'orz_concepts':orz_report,'dialogue_records':total,'translated_report_records':sum(map(len,reports.values())),'report_records':sum(row['records'] for row in other if row['source_path'].startswith('base/lander/')),'translated_dialogue_records':translated_total,'dialogue_coverage_percent':round(translated_total*100/total,2),'locked_terms':len(lock),'persona_groups':len(per['profiles']),'dialogue':rows,'other_text_resources':other,'limitations':['Coverage counts translated records, not meaning/style quality or rendered layout.','Other text includes technical/credit/name fragments; classify before marking preserved/translated.','Numeric check preserves source digit tokens but does not prove dynamic numeral grammar.']}
+ return {'goal':'full_game_korean_localization','complete':False,'orz_concepts':orz_report,'dialogue_records':total,'translated_intro_subtitles':len(json.loads((ROOT/'translations/intro.ko.json').read_text(encoding='utf-8'))['records']),'translated_report_records':sum(map(len,reports.values())),'report_records':sum(row['records'] for row in other if row['source_path'].startswith('base/lander/')),'translated_dialogue_records':translated_total,'dialogue_coverage_percent':round(translated_total*100/total,2),'locked_terms':len(lock),'persona_groups':len(per['profiles']),'dialogue':rows,'other_text_resources':other,'limitations':['Coverage counts translated records, not meaning/style quality or rendered layout.','Other text includes technical/credit/name fragments; classify before marking preserved/translated.','Numeric check preserves source digit tokens but does not prove dynamic numeral grammar.']}
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--game',required=True,type=Path);p.add_argument('--write-report',action='store_true');a=p.parse_args();report=audit(a.game)

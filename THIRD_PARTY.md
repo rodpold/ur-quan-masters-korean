@@ -148,3 +148,5 @@ Inspected public source snapshot: [report.c](https://github.com/intgr/uqm-wasm/b
 - 용도: 발화 ID와 ZOQ/PIK 콜백의 사실적 대응을 추출해 translations/zoqfotpik-speakers.ko.json에 기록. 원문 파일 SHA-256은 해당 JSON 참조.
 - 원본 C 코드·게임 대사·이미지·음성은 이 자료에 복제하지 않는다. 기존 게임 소스의 라이선스는 원 출처를 따른다. 신규 폰트나 폰트 수정은 없다.
 - 설치 EXE와 공개 포트의 동일성 및 실제 자막·화자 타이밍은 별도 검토 대상이다.
+
+소개 슬라이드 한글 추가 용도: 기존 Galmuri7/Galmuri9 파일과 라이선스·해시를 재사용한다. 새 외부 폰트는 없으며 Galmuri9의 기존 흑백 래스터를 slides 글꼴에도 배치한다. 원본 영문 슬라이드 글리프는 사용자 설치 패키지에서 빌드 시 복사하며 저장소에 배포하지 않는다. 원본 글리프와 음악·이미지는 변경하지 않는다.

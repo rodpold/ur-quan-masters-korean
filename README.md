@@ -113,8 +113,10 @@ Galmuri9 9픽셀로 구성합니다. 종족 자막은 24개 독립 폰트 파일
 
 ## 전체 번역 진행
 
-전체 번역 목표를 진행 중입니다. 24종 종족 폰트는 실제 빌드에 연결됐으며, 모든 대사가 번역된 것은 아닙니다. [진행률과 완료 기준](docs/LOCALIZATION_GOAL.md), [페르소나](translations/PERSONAS.md), [용어집](translations/GLOSSARY.md)을 기준으로 작업합니다. `tools/check_localization.py --game "게임 경로" --write-report`로 누락을 추적합니다.
+전체 번역 목표를 진행 중입니다. 24종 종족 폰트는 실제 빌드에 연결됐으며, 대화 3,451개 레코드의 번역 초안을 작성했습니다. 의미·말투·실기 검토와 나머지 비대화 텍스트 번역은 진행 중입니다. [진행률과 완료 기준](docs/LOCALIZATION_GOAL.md), [페르소나](translations/PERSONAS.md), [용어집](translations/GLOSSARY.md)을 기준으로 작업합니다. `tools/check_localization.py --game "게임 경로" --write-report`로 누락을 추적합니다.
 
 보고서 정적 시뮬레이터 `tools/check_report_layout.py`에는 별도 GPL-2.0-or-later 라이선스가 적용됩니다. [출처와 라이선스](THIRD_PARTY.md#report-font-and-rendering-audit)를 참조하세요.
 
 대화 외 텍스트는 [구조별 목록](docs/TEXT_INVENTORY.md)에서 추적한다. 소개/최종 엔딩 자막 74개, 위치 지정 문구 12개, 크레딧 블록 55개를 연출 명령과 분리했다. 아직 번역 완료가 아니며 이미지 내 텍스트·애드온 판본은 별도 조사 대상이다.
+
+PC 소개 슬라이드 자막 32개 초안을 패키지에 연결했습니다. 원문 타이밍은 유지하며 실제 재생·음성/음악 시점 검토는 남아 있습니다. 3DO 영상 소개와 영상 내 글자는 별도 범위입니다.

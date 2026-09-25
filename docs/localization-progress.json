@@ -7,6 +7,7 @@
     "status": "structure_passed_meaning_review_pending"
   },
   "dialogue_records": 3451,
+  "translated_intro_subtitles": 32,
   "translated_report_records": 29,
   "report_records": 29,
   "translated_dialogue_records": 3451,
@@ -399,7 +400,7 @@
       "source_sha256": "7588cf6aab993189c5516e7b635a757b0002f3722e3a86915e164c583afc8de7",
       "records": 220,
       "translated": null,
-      "status": "not_started_or_requires_classification",
+      "status": "subtitle_draft_runtime_pending",
       "linguistic_review": "pending",
       "in_game_review": "pending"
     },

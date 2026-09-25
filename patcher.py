@@ -241,9 +241,12 @@ def build(game, ui_font="compact"):
     registry = json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
     dialogue_rows = {row['id']: row for row in registry['dialogue_fonts']}
     reports = report_translations()
+    from cutscene_text import load_intro, add_intro
+    intro = load_intro()
     dialogue_values = [v for records in [*dialogue.values(), *reports.values()] for v in records.values()]
     for p in (ROOT/'translations/dialogue-voice').glob('*.ko.json'):
         dialogue_values.extend(json.loads(p.read_text(encoding='utf-8')).values())
+    dialogue_values.extend(intro['records'].values())
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
     entries = {}
     rmp = ['text.starcon = STRTAB:ko/gamestrings.txt',
@@ -295,6 +298,7 @@ def build(game, ui_font="compact"):
         rmp.append('comm.commander.font = FONTRES:ko/fonts/player.fon')
         from race_fonts import add_race_fonts
         race_font_report = add_race_fonts(entries, rmp, z, chars)
+        add_intro(entries, rmp, z, intro, ADDON)
         entries['ko-ui.rmp'] = ('\n'.join(line.replace(':ko/', f':addons/{ADDON}/ko/') for line in rmp)+'\n').encode()
     entries['ko/OFL.txt'] = (ROOT/'vendor/galmuri/OFL.txt').read_bytes()
     data = io.BytesIO()
@@ -304,7 +308,7 @@ def build(game, ui_font="compact"):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'intro_records':len(intro['records']), 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)
