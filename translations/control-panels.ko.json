@@ -1,0 +1,643 @@
+{
+  "status": "draft_runtime_pending",
+  "font": {
+    "family": "Galmuri7",
+    "raster_px": 8,
+    "ink_height": 7
+  },
+  "groups": [
+    {
+      "source_path": "base/ui/activity.ani",
+      "source_sha256": "aa83e8e2fa4ddd7eabd90adc71d98356a6feabf1cc4d7da2ae90182ed50c66ca",
+      "resource_key": "graphics.activity"
+    },
+    {
+      "source_path": "base/ui/meleemenu.ani",
+      "source_sha256": "5def1b641eb9e43d4c9cd8fc9972b4919f583e61ff85a6b7cab06ddeb275fc64",
+      "resource_key": "graphics.meleemenu"
+    }
+  ],
+  "panels": [
+    {
+      "source_path": "base/ui/activity-000.png",
+      "source_sha256": "df01e310c8c8e1cffd05408dc8bc8bac58dd4e0e47cb2cb5f8fa9ddadfe7ab4a",
+      "size": [
+        112,
+        15
+      ],
+      "source_text": "GAME PAUSED",
+      "lines": [
+        "일시 정지"
+      ],
+      "background": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "foreground": [
+        58,
+        58,
+        58,
+        255
+      ],
+      "style": "bevel"
+    },
+    {
+      "source_path": "base/ui/activity-001.png",
+      "source_sha256": "d3705f7ecdcdd8eaaf0686379f62a227bd42b570215df9c1c2310640cc2be304",
+      "size": [
+        92,
+        26
+      ],
+      "source_text": "TO QUIT PRESS B",
+      "lines": [
+        "종료하려면",
+        "B 버튼"
+      ],
+      "background": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "foreground": [
+        58,
+        58,
+        58,
+        255
+      ],
+      "style": "bevel"
+    },
+    {
+      "source_path": "base/ui/meleemenu-001.png",
+      "source_sha256": "ca2ffb7e679c4ac0793ec0301fcd2cfdec3d3e037e244dc12d03df7100c3f96a",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "HUMAN CONTROL",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-002.png",
+      "source_sha256": "6a944f721a368eb90f49122e7f85c7f51acba0563970953e8c1831d6caff8884",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "WEAK CYBORG",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-003.png",
+      "source_sha256": "8c9bd8173c0841f697e194028401ecff54e48739888bf8250d4d6d614c3e2b51",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "GOOD CYBORG",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-004.png",
+      "source_sha256": "927ff56c96ed51afe350f6a543d0bbd4b221fd3f312b4d73b33ba3881ea4a083",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "AWESOME CYBORG",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-005.png",
+      "source_sha256": "aa9a51f09732d8ab3ccb59e06be8abe8a139528b83938c80ea00befeef68c979",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "HUMAN CONTROL",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-006.png",
+      "source_sha256": "8c616456f537e2b6759d77500757207c390aa5248331f7f8a1ac117bb0a5cd7b",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "WEAK CYBORG",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-007.png",
+      "source_sha256": "681ce1fe695acbd0533909c413421ee4c47e5e6a421a880da8a4857b2506d817",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "GOOD CYBORG",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-008.png",
+      "source_sha256": "9e2d69bbcbae1d47649beaaeb225838c5e99c0bc8d16a132127f5c0c0f54a5c5",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "AWESOME CYBORG",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-009.png",
+      "source_sha256": "ca2ffb7e679c4ac0793ec0301fcd2cfdec3d3e037e244dc12d03df7100c3f96a",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "HUMAN CONTROL",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-010.png",
+      "source_sha256": "6a944f721a368eb90f49122e7f85c7f51acba0563970953e8c1831d6caff8884",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "WEAK CYBORG",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-011.png",
+      "source_sha256": "8c9bd8173c0841f697e194028401ecff54e48739888bf8250d4d6d614c3e2b51",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "GOOD CYBORG",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-012.png",
+      "source_sha256": "927ff56c96ed51afe350f6a543d0bbd4b221fd3f312b4d73b33ba3881ea4a083",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "AWESOME CYBORG",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-013.png",
+      "source_sha256": "31c97b8ea23efbfb8d853d1cd1a8af8b85b549c44a2fbefa4733d2888bccac83",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "HUMAN CONTROL",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-014.png",
+      "source_sha256": "d36d07946809102f4b7e739e33af7c955c99ce42377931eec662d333bdf1438c",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "WEAK CYBORG",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-015.png",
+      "source_sha256": "67254fdaf5a1c822398b4f5707eee30a2b727f0a508cf67c1523e3bb7d7a3adc",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "GOOD CYBORG",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/meleemenu-016.png",
+      "source_sha256": "a5dafa7d7150ea496f4bf6f4dc319b48e0fd27dcc9db345d52e828e52aae5c24",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "AWESOME CYBORG",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/netplay-000.png",
+      "source_sha256": "d0865df408dac949c5aaa8ba52ce4067a0d671c7d06ddfce4a8023afc9ad2696",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "NETWORK CONTROL",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/netplay-001.png",
+      "source_sha256": "b3b7565808942cce43888363a60ac229a3fd5a14f22dd5b0fe3662362e51462b",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "NETWORK CONTROL",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/netplay-002.png",
+      "source_sha256": "d0865df408dac949c5aaa8ba52ce4067a0d671c7d06ddfce4a8023afc9ad2696",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "NETWORK CONTROL",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "background": [
+        2,
+        4,
+        62,
+        255
+      ],
+      "foreground": [
+        35,
+        140,
+        210,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/netplay-003.png",
+      "source_sha256": "b345699c8657ea9676d5d53b77c1e0b992ffe2a1fd72b22b48b7a65935b7f63c",
+      "size": [
+        60,
+        30
+      ],
+      "source_text": "NETWORK CONTROL",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "background": [
+        4,
+        8,
+        124,
+        255
+      ],
+      "foreground": [
+        40,
+        160,
+        240,
+        255
+      ],
+      "style": "flat"
+    },
+    {
+      "source_path": "base/ui/netplay-004.png",
+      "source_sha256": "82dfce601e1853b55f352fbc5cae880307b902136c5b74f74c1db79bef9fa25e",
+      "size": [
+        42,
+        9
+      ],
+      "source_text": "NET",
+      "lines": [
+        "네트워크"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        138,
+        138,
+        138,
+        255
+      ],
+      "style": "bevel"
+    },
+    {
+      "source_path": "base/ui/netplay-005.png",
+      "source_sha256": "c910e767f385ec42defd7fef20e2f0309868fe493b887f691f4fde496e7f2af0",
+      "size": [
+        42,
+        9
+      ],
+      "source_text": "NET",
+      "lines": [
+        "네트워크"
+      ],
+      "background": [
+        87,
+        87,
+        87,
+        255
+      ],
+      "foreground": [
+        248,
+        224,
+        0,
+        255
+      ],
+      "style": "bevel"
+    }
+  ]
+}

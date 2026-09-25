@@ -18,7 +18,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-001.png",
@@ -36,7 +36,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-002.png",
@@ -54,7 +54,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-003.png",
@@ -72,7 +72,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-004.png",
@@ -90,7 +90,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-005-SAFEX=16.png",
@@ -118,7 +118,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-006.png",
@@ -136,7 +136,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-007.png",
@@ -154,7 +154,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-008.png",
@@ -172,7 +172,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/activity-009.png",
@@ -190,7 +190,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/blueprints-000.png",
@@ -1036,7 +1036,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-001.png",
@@ -1054,7 +1054,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-002.png",
@@ -1072,7 +1072,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-003.png",
@@ -1090,7 +1090,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-004.png",
@@ -1108,7 +1108,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-005.png",
@@ -1126,7 +1126,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-006.png",
@@ -1144,7 +1144,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-007.png",
@@ -1162,7 +1162,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-008.png",
@@ -1180,7 +1180,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-009.png",
@@ -1198,7 +1198,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-010.png",
@@ -1216,7 +1216,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-011.png",
@@ -1234,7 +1234,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-012.png",
@@ -1252,7 +1252,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-013.png",
@@ -1270,7 +1270,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-014.png",
@@ -1288,7 +1288,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-015.png",
@@ -1306,7 +1306,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-016.png",
@@ -1324,7 +1324,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-017.png",
@@ -1342,7 +1342,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-018.png",
@@ -1360,7 +1360,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-019.png",
@@ -1378,7 +1378,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-020.png",
@@ -1396,7 +1396,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-021.png",
@@ -1414,7 +1414,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-022.png",
@@ -1432,7 +1432,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-023.png",
@@ -1450,7 +1450,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-024.png",
@@ -1468,7 +1468,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-025.png",
@@ -1486,7 +1486,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-026.png",
@@ -1504,7 +1504,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-027.png",
@@ -1522,7 +1522,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-028.png",
@@ -1540,7 +1540,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-029.png",
@@ -1558,7 +1558,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleemenu-030.png",
@@ -1576,7 +1576,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/meleepickship-000.png",
@@ -3826,7 +3826,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/netplay-001.png",
@@ -3844,7 +3844,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/netplay-002.png",
@@ -3862,7 +3862,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/netplay-003.png",
@@ -3880,7 +3880,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/netplay-004.png",
@@ -3905,7 +3905,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/netplay-005.png",
@@ -3930,7 +3930,7 @@
           ]
         }
       ],
-      "installed_private_copy": false
+      "installed_private_copy": true
     },
     {
       "source_path": "base/ui/newgame-000.png",

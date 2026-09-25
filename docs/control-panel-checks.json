@@ -1,0 +1,272 @@
+{
+  "status": "static_passed_runtime_pending",
+  "panels": 24,
+  "records": [
+    {
+      "source_path": "base/ui/activity-000.png",
+      "lines": [
+        "일시 정지"
+      ],
+      "size": [
+        112,
+        15
+      ]
+    },
+    {
+      "source_path": "base/ui/activity-001.png",
+      "lines": [
+        "종료하려면",
+        "B 버튼"
+      ],
+      "size": [
+        92,
+        26
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-001.png",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-002.png",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-003.png",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-004.png",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-005.png",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-006.png",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-007.png",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-008.png",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-009.png",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-010.png",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-011.png",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-012.png",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-013.png",
+      "lines": [
+        "사람",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-014.png",
+      "lines": [
+        "초급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-015.png",
+      "lines": [
+        "중급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-016.png",
+      "lines": [
+        "고급",
+        "사이보그"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/netplay-000.png",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/netplay-001.png",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/netplay-002.png",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/netplay-003.png",
+      "lines": [
+        "네트워크",
+        "조작"
+      ],
+      "size": [
+        60,
+        30
+      ]
+    },
+    {
+      "source_path": "base/ui/netplay-004.png",
+      "lines": [
+        "네트워크"
+      ],
+      "size": [
+        42,
+        9
+      ]
+    },
+    {
+      "source_path": "base/ui/netplay-005.png",
+      "lines": [
+        "네트워크"
+      ],
+      "size": [
+        42,
+        9
+      ]
+    }
+  ],
+  "limitations": [
+    "Sprite sizes, ANI frame order/hotspots and unedited sprites are preserved.",
+    "Native input handling is unchanged; B is the original displayed button identifier.",
+    "Runtime visibility and selected-state contrast need in-game review."
+  ]
+}

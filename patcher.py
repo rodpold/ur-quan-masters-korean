@@ -294,6 +294,8 @@ def build(game, ui_font="compact"):
         entries['ko/gamestrings.txt'] = translated.encode('utf-8')
         entries.update(menu_assets(z))
         entries.update(panel_assets(z))
+        from ui_text_panels import load_panels, add_panels
+        add_panels(entries, rmp, z, load_panels())
         entries['ko/setupmenu.txt'] = translate_setup(z.read('base/ui/setupmenu.txt').decode('utf-8'),setup).encode('utf-8')
         for species, records in dialogue.items():
             source_species = 'yehatrebels' if species == 'yehat.rebel' else species

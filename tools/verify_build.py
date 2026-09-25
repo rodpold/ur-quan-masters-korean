@@ -39,6 +39,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_credits import verify_credits
         credit_check = verify_credits(z, source)
         (patcher.ROOT/'docs/credit-layout-checks.json').write_text(json.dumps(credit_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_control_panels import verify_control_panels
+        control_check = verify_control_panels(z, source)
+        (patcher.ROOT/'docs/control-panel-checks.json').write_text(json.dumps(control_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')

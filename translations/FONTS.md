@@ -83,3 +83,5 @@ font.lander에 Galmuri9 10px(10x9 잉크, 10x12 PNG)을 별도 연결했습니�
 ## 크레딧 공통 폰트
 
 credits.font.pt13: 기존 Galmuri11의 native 12 래스터(잉크 11), pt17: Galmuri9 native 10을 최근접 2배(잉크 18), pt45: Galmuri11 native 12를 최근접 4배(잉크 44). 원본 PNG 높이 17/24/57과 영문 글리프를 유지하고 한글 알파는 0/255만 쓴다. 종족 24종 배정은 변경하지 않는다. 실기 스크롤 확인 대기.
+
+조작 패널: control-panels.ko.json의 24개 텍스트 패널은 기존 Galmuri7 native 8px 래스터(7px 잉크)를 사용한다. 축소/반투명 없이 각 원본 캔버스 크기 안에서 가운데 정렬한다. 전체 라벨과 두 줄 간격이 들어가지 않으면 빌드를 거부한다.

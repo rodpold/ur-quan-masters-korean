@@ -175,3 +175,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 크레딧 번역: 기존 Galmuri OFL 폰트/라이선스/해시는 그대로 재사용한다. pt13/17/45에 각각 Galmuri11 1배, Galmuri9 2배, Galmuri11 4배 최근접 확대 흑백 한글을 추가하며 원본 영문 PNG와 높이는 유지한다. 출처 파일과 라이선스는 기존 vendor/galmuri 기록 참조. 공개 credits.c의 2048바이트 버퍼·50개 텍스트 슬롯·폰트/열 처리를 대조했다: https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/credits.c (SHA256 8d74a36303d97b9e5c637771458ac0ee1d05fcd83cb6436cf5795e06994ea252). 원본 코드는 재배포하지 않는다.
 
 조선소 이미지 라벨 배치 조사: 같은 고정 UQM 리비전의 shipyard.c DrawRaceStrings를 확인했다. docs/shipyard-label-layout-review.json에 URL/해시/제약을 기록. 소스·게임 이미지 재배포와 신규 폰트 추가 없음.
+
+조작 패널 24개: 기존 vendor/galmuri/Galmuri7.ttf 및 OFL.txt, SHA256.json의 출처/라이선스/해시를 재사용한다. 원본 패널 크기와 상태별 팔레트를 바탕으로 자체 텍스트 패널 생성 코드를 작성했다. 7px 잉크와 이진 알파를 사용하며 원본 게임 이미지와 생성 PNG는 Git에 배포하지 않는다. 신규 외부 폰트/자산 다운로드 없음.
