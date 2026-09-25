@@ -251,7 +251,12 @@
         "I_FWIFFO"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "state_notes": [
+        "프위포의 합류 거절은 두려움과 자기합리화, 공격적 우주 조우에서는 냉소와 분노를 유지한다.",
+        "휴남은 Human을 잘못 부르는 이름으로 유지한다. 함장/무기 담당/프와피 등 선내 대화는 해체, 플레이어에게는 해요체를 사용한다.",
+        "스파시와 최고 통치 의회의 말투는 safeones의 별도 합쇼체 규칙을 따른다."
+      ]
     },
     "shofixti": {
       "persona": "명예와 전투에 충실한 전사",

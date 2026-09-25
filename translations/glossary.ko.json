@@ -1329,6 +1329,105 @@
       "status": "in_use",
       "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "puun_taffy",
+      "source": "Puun-Taffy",
+      "ko": "푼-태피",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "ta_puun",
+      "source": "Ta Puun",
+      "ko": "타 푼",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hunam",
+      "source": "Hunam",
+      "ko": "휴남",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안. Hunam은 Human을 잘못 부르는 표현이며 인간으로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "tuffa_yuf",
+      "source": "Tuffa-Yuf",
+      "ko": "터파-유프",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "grand_planet_eaters",
+      "source": "Grand Master Planet Eaters",
+      "ko": "행성 포식의 대가들",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jud_vug",
+      "source": "Jud the Ineffable Vug",
+      "ko": "형언할 수 없는 버그 주드",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "killmaster18",
+      "source": "Killmaster 18",
+      "ko": "킬마스터 18",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dravatz",
+      "source": "Dravatz",
+      "ko": "드라바츠",
+      "category": "species",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "pwappy",
+      "source": "Pwappy",
+      "ko": "프와피",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "circini",
+      "source": "Circini",
+      "ko": "키르키니",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "chandrasekhar",
+      "source": "Chandrasekhar",
+      "ko": "찬드라세카르",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
