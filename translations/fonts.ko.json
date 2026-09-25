@@ -833,22 +833,16 @@
     "SongMyung",
     "DoHyeon"
   ],
-  "active_local_trial": {
-    "id": "ui7-alpha",
-    "font": "DoHyeon",
-    "source_raster_px": 32,
-    "ink_box": [
-      6,
-      7
-    ],
-    "render": "alpha",
-    "scope": [
-      "starcon Hangul",
-      "tiny Hangul"
-    ],
-    "tool": "tools/trial_ui_font.py",
-    "default_build_unchanged": true,
-    "dialogue": "baseline Galmuri9 restored",
-    "visual_status": "pending"
+  "active_local_trial": null,
+  "rendering_policy": {
+    "mode": "binary",
+    "alpha_allowed": false,
+    "status": "user_approved",
+    "reason": "사용자 실기 평가로 대화 및 7픽셀 UI 반투명 폰트 모두 사용하지 않기로 결정.",
+    "date": "2026-09-25"
+  },
+  "trial_results": {
+    "commander-alpha": "rejected_by_user",
+    "ui7-alpha": "rejected_by_user"
   }
 }

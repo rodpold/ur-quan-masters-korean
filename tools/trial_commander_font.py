@@ -51,6 +51,9 @@ def build_trial(game, mode='alpha'):
     return output.getvalue(),report
 
 def install_trial(game, mode, builder=build_trial):
+    policy=json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8')).get('rendering_policy',{})
+    if mode=='alpha' and policy.get('alpha_allowed') is False:
+        raise ValueError('사용자 결정에 따라 반투명 폰트 설치가 비활성화되었습니다. 기본 patcher.py install을 사용하세요.')
     game=patcher.validate_game(game); current=patcher.status(game)
     if current['state']!='installed': raise ValueError('Install the baseline patch first')
     data,report=builder(game,mode);target=patcher.addon_dir(game)

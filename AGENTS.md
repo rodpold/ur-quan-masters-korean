@@ -11,3 +11,5 @@
 - Use native pixel-font raster sizes and verify glyph coverage. Fixed 8px rows cannot fit 9px ink.
 
 - Keep translations/fonts.ko.json and FONTS.md aligned with glossary IDs and actual font assignments. Distinguish proposed fonts from applied trials; update attribution for new fonts.
+
+- User decision (2026-09-25): no semitransparent Korean font glyphs, including small UI and dialogue. Use binary alpha (0/255). Retained AA tools/specimens are historical experiments, not approved deployment candidates.
