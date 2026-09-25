@@ -127,6 +127,20 @@
         "잘 즐기고 살다"
       ],
       "notes": "잘 지낸다는 뜻과 친밀한 암시를 함께 전달하는 초안. 한국어 말장난 검토 대기."
+    },
+    {
+      "species": "talkingpet",
+      "request": "what_about_powers",
+      "response": "NOT_POWERS_BUT_FLOWERS",
+      "source_pair": [
+        "powers",
+        "flowers"
+      ],
+      "ko_pair": [
+        "능력",
+        "꽃"
+      ],
+      "notes": "음이 비슷한 질문을 바꾸는 정신 지배는 능력/꽃의 의미와 후속 yes_flowers로 보존했다. 한국어 유사음은 재현되지 않아 말장난 검토 대기."
     }
   ],
   "jokes": [
