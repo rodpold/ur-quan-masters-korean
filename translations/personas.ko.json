@@ -479,7 +479,7 @@
     },
     "thraddash": {
       "persona": "힘과 승리를 숭배하는 거친 전사",
-      "register": "우리/너희. 거친 해라체, 원문 SNORT는 흥! 계열.",
+      "register": "적대는 우리/너희의 거친 해라체. 패배 후 동맹은 스승님 호칭과 합쇼체. 인사는 선택된 네 가지 말투로 별도 변형. SNORT는 흥! 계열.",
       "constraints": "문화 번호와 패배 후 학습·새 문화 변화를 유지. 욕설 강도를 원문 이상으로 높이지 않는다.",
       "illustrative_style_sample": "흥! 싸울 상대가 또 생겼군. 힘으로 증명해 봐라!",
       "sample_is_translation": false,
@@ -496,7 +496,15 @@
         "ABOUT_US_1",
         "ABOUT_URQUAN_2",
         "GOOD_IDEA",
-        "IMPRESSED_LIKE_SO_1"
+        "IMPRESSED_LIKE_SO_1",
+        "AMAZING_PERFORMANCE",
+        "HELLO_POLITE_1",
+        "HELLO_RHYME_3",
+        "HELLO_PIG_LATIN_1",
+        "OK_JUST_LIKE_YOU",
+        "WACKY_GOES_1",
+        "HELIX_IS_ALLY",
+        "OUT_TAKES"
       ],
       "status": "source_based_working_profile",
       "human_style_review": "pending",
@@ -505,7 +513,12 @@
         "GENERAL_INFO_HOSTILE_1 / GENERAL_INFO_HOSTILE_2 / ABOUT_US_*": "문화별 폭력과 퇴보의 역사를 배움과 발전이라고 자랑한다. 제3문화를 멍청하다고 인정하는 반전, 제14문화의 평화를 실패라고 결론짓는 논리를 고쳐 쓰지 않는다.",
         "ABOUT_URQUAN_*": "우르콴의 노예임을 자랑하지만 전투 참가에서 배제된 데는 실망한다. 비밀을 말하지 않겠다며 누설하는 순서와 부하들끼리 싸워 제지당한 경험을 유지한다.",
         "GOOD_IDEA / WE_GO_TO_IMPRESS_* / WE_IMPRESSING_* / WE_IMPRESSED_* / IMPRESSED_LIKE_SO_*": "플레이어의 제안을 자신의 생각으로 가로챈다. 출정·교전·귀환의 자랑과 큰 손실을 구분한다. 우르콴에게도 공격받았다는 사실을 승리 선전으로 지우지 않는다.",
-        "untranslated later culture states": "새 문화 채택·언어 선택·우호·유물·일라스 분기는 아직 미번역이며 다음 묶음에서 원문과 소스 분기를 확인할 것."
+        "AMAZING_PERFORMANCE / allied default": "전투 패배 뒤 강자를 스승님으로 존경하는 합쇼체로 전환한다. 무력 숭배와 잔혹한 농담은 계속된다.",
+        "HELLO_POLITE_* / HELLO_RHYME_* / HELLO_PIG_LATIN_* / HELLO_LIKE_YOU_*": "플레이어가 고른 인사 방식에 따른 네 가지 변형. 예의는 과장된 격식, 운율은 억지 각운과 시, 피그 라틴은 별도 말놀이 대응표, 인간 흉내는 고정 함선명 자기소개다.",
+        "OK_FRIENDLY / OK_WACKY / OK_JUST_LIKE_YOU / OK_CONTEMPLATIVE / *_GOES_*": "친절·희극·인간 흉내·사색을 모두 전투의 이점으로 해석한다. 후속 불편·실패·몸개그 적응과 정보 수집은 분기별로 구분한다.",
+        "HELIX_* / BLUE_HELIX / DIE_THIEF_*": "적대 경비의 정보 숨기기, 존경 후 유물 관람 허가, 도난 뒤 적대를 구분한다. 유물 위대함의 순환 논증과 제9문화의 짧은 지배를 유지한다.",
+        "HAVING_FUN_WITH_ILWRATH_* / GO_AWAY_FIGHTING_ILWRATH_*": "우호면 스승에게 존대, 적대면 인간에게 해라체. 손실을 가볍게 여기며 전쟁을 찬양한다. 교환비와 적 함대 수의 모순을 고치지 않는다.",
+        "OUT_TAKES": "배우가 허세와 협박 배역에 갇힌다고 불평한다. 부드러운 내면과 스필버그에게 연락을 못 받을까 두려워하는 희극적 반전."
       }
     },
     "umgah": {

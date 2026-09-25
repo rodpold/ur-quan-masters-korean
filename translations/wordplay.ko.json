@@ -187,6 +187,36 @@
         "루피루해피데이"
       ],
       "notes": "이름을 거듭 잘못 부르는 농담. 첫 이름은 기존 종족 표기를 유지하고 오칭은 별도 등록."
+    },
+    {
+      "species": "thraddash",
+      "request": "speak_pig_latin",
+      "response": "OK_PIG_LATIN",
+      "source_pair": [
+        "pig latin",
+        "Upidstay Eaturecray"
+      ],
+      "ko_pair": [
+        "피그 라틴",
+        "청한멍에이 물생에이"
+      ],
+      "notes": "한국어 어절 첫 음절 이동+에이로 시험 현지화. thraddash-wordplay.ko.json의 평문/변환문 참고. 원문의 영문 자음군 규칙과 다르며 언어·가독성 검토 대기. example은 모음 시작 규칙을 묻는 원문의 인용 단어로 유지."
+    },
+    {
+      "species": "thraddash",
+      "request": "use_rhymes",
+      "response": "HELLO_RHYME_3",
+      "source_pair": [
+        "Mak-Roni",
+        "caco-phony",
+        "baloney"
+      ],
+      "ko_pair": [
+        "마크로니",
+        "불협화음이었으니",
+        "볼로니뿐이었으니"
+      ],
+      "notes": "니 계열 각운으로 시험 번역. 블랑망제/오렌지와 자유시를 비롯한 다른 시도 원문 의미와 어색함을 유지하되 리듬 검토 필요."
     }
   ],
   "jokes": [

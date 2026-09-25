@@ -3777,6 +3777,186 @@
       "status": "in_use",
       "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "funt",
+      "source": "Funt",
+      "ko": "푼트",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_16_members",
+      "source": "Culture Sixteeners",
+      "ko": "제16문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_9",
+      "source": "Culture Nine",
+      "ko": "제9문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_10",
+      "source": "Culture Ten",
+      "ko": "제10문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_20",
+      "source": "Culture Twenty",
+      "ko": "제20문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "mak_roni",
+      "source": "Mak-Roni",
+      "ko": "마크로니",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "apodis",
+      "source": "Apodis",
+      "ko": "아포디스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "chudd",
+      "source": "Chudd",
+      "ko": "처드",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "dthunk",
+      "source": "Dthunk",
+      "ko": "드퉁크",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "hot_pulsing_thrusters",
+      "source": "Hot Pulsing Thrusters",
+      "ko": "뜨겁게 고동치는 추진기",
+      "category": "ship_name",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분. 고정 NPC 함선 이름. 세이브의 사용자 함선명과 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "blazing_guns_of_glory",
+      "source": "Blazing Guns of Glory",
+      "ko": "영광의 불타는 포",
+      "category": "ship_name",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분. 고정 NPC 함선 이름. 세이브의 사용자 함선명과 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "overwhelmer",
+      "source": "Overwhelmer",
+      "ko": "압도자",
+      "category": "ship_name",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분. 고정 NPC 함선 이름. 세이브의 사용자 함선명과 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "monty_python",
+      "source": "Monty Python",
+      "ko": "몬티 파이선",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "marx_brothers",
+      "source": "Marx Brothers",
+      "ko": "마르크스 형제",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "spielberg",
+      "source": "Spielberg",
+      "ko": "스필버그",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "precursor_dumps",
+      "source": "Precursor Dumps",
+      "ko": "선구자 폐기장",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "pig_latin",
+      "source": "pig latin",
+      "ko": "피그 라틴",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "pig_latin_hyphen",
+      "source": "Pig-Latin",
+      "ko": "피그 라틴",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "fat_obstreperous_jerks",
+      "source": "Fat Obstreperous Jerks",
+      "ko": "뚱뚱하고 시끄러운 얼간이들",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "glorious_slave_empire",
+      "source": "Glorious Slave Empire",
+      "ko": "영광스러운 노예 제국",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
     }
   ]
 }
