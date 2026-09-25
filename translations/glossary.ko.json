@@ -942,6 +942,258 @@
       "status": "in_use",
       "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "giclas",
+      "source": "Giclas",
+      "ko": "기클라스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "draconis",
+      "source": "Draconis",
+      "ko": "드라코니스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "gorno",
+      "source": "Gorno",
+      "ko": "고르노",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "glory_device",
+      "source": "Glory Device",
+      "ko": "영광 장치",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "veep_zeeps",
+      "source": "Veep-Zeeps",
+      "ko": "빕집스",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mother_ark",
+      "source": "Mother-Ark",
+      "ko": "어머니 방주",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "factory_ark",
+      "source": "Factory-Ark",
+      "ko": "공장 방주",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "black_spathi_squadron",
+      "source": "Black Spathi Squadron",
+      "ko": "검은 스파시 전대",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hit_run_squadron",
+      "source": "Hit-And-Run Squadron",
+      "ko": "치고 빠지기 전대",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "blazer",
+      "source": "Blazer",
+      "ko": "블레이저",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "vulpeculae",
+      "source": "Vulpeculae",
+      "ko": "불페쿨라이",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "far_voyager",
+      "source": "Far Voyager",
+      "ko": "파 보이저",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jeffry_rand",
+      "source": "Jeffry L. Rand",
+      "ko": "제프리 L. 랜드",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mira",
+      "source": "Mira",
+      "ko": "미라",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dogar",
+      "source": "Dogar",
+      "ko": "도가르",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "kazon",
+      "source": "Kazon",
+      "ko": "카존",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "pluto",
+      "source": "Pluto",
+      "ko": "명왕성",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "new_orleans",
+      "source": "New Orleans",
+      "ko": "뉴올리언스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "tzzz_tzer_tzak",
+      "source": "Tzzz-Tzer-Tzak",
+      "ko": "츠즈-체르-차크",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "ophiuchi",
+      "source": "Ophiuchi",
+      "ko": "오피우키",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "orionis",
+      "source": "Orionis",
+      "ko": "오리오니스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mars",
+      "source": "Mars",
+      "ko": "화성",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "luyten",
+      "source": "Luyten",
+      "ko": "루이텐",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "brahe",
+      "source": "Brahe",
+      "ko": "브라헤",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "podship",
+      "source": "Podship",
+      "ko": "포드십",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "indi",
+      "source": "Indi",
+      "ko": "인디",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "raynet",
+      "source": "Raynet",
+      "ko": "레이넷",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "ceres_station",
+      "source": "Ceres Station",
+      "ko": "세레스 기지",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
