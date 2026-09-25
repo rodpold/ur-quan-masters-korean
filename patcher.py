@@ -296,6 +296,8 @@ def build(game, ui_font="compact"):
         entries.update(panel_assets(z))
         from playmenu_headings import add_headings
         add_headings(entries, z)
+        from module_labels import add_modules
+        add_modules(entries, rmp, z)
         from ui_text_panels import load_panels, add_panels
         add_panels(entries, rmp, z, load_panels())
         entries['ko/setupmenu.txt'] = translate_setup(z.read('base/ui/setupmenu.txt').decode('utf-8'),setup).encode('utf-8')

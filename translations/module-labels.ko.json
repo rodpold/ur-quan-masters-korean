@@ -1,0 +1,473 @@
+{
+  "status": "draft_runtime_pending",
+  "source_ani": "base/ui/modulesmenu.ani",
+  "ani_sha256": "43ac63c6d23ab46e262d51b47ca620da3285d0806675c0d2a2709c02877a7c0f",
+  "resource_key": "graphics.modulesmenu",
+  "rows": [
+    {
+      "source_path": "base/ui/modulesmenu-000.png",
+      "source_sha256": "40ac893a9a1cfe379f7edccfc8e7c49e5f54bbd555e6296ea1597052b0ad98b1",
+      "source_text": "PLANET LANDER",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "행성 착륙정",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "planet_landers"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-001.png",
+      "source_sha256": "991dd6cd8716d00c291a8d5d64ce7848014f8585cd7bd24126e4ba3cceb80f35",
+      "source_text": "ANTIMAT THRUSTER",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "반물질 추진기",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "antimatter_thruster"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-002.png",
+      "source_sha256": "0b3fa9222861e977b471ed2083abbd0d5c0a2a504eddb859475895710d50b08d",
+      "source_text": "TURNING JETS",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "회전 분사기",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "turning_jets",
+      "compact_label_note": "그림 원문 TURNING JETS의 직접 표기. 대화의 자세 제어 분사기는 유지."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-003.png",
+      "source_sha256": "8ac61bf411973a40ce35b1fc9733d5d79a49ce8ecf30979d577f9da8a83676bb",
+      "source_text": "CREW POD",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "승무원실",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "crew_pods"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-004.png",
+      "source_sha256": "ca90c48d5ff847c655cc0b69f558cb6ef63ee618b982fd30a0955c0eb75e4a2c",
+      "source_text": "STORAGE BAY",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "화물칸",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "storage_bay"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-005.png",
+      "source_sha256": "252cae0f1a8eb1ea1fb7bbb7e69f6802eec57eba3e0943c6fe43a56ae798100a",
+      "source_text": "FUEL TANK",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "연료 탱크",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "fuel_tanks"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-006.png",
+      "source_sha256": "b1514a8bc685da629b53e0cdd701caad425ed19831b26cdf18f0a3f60755c381",
+      "source_text": "HIGH-EFF FUEL SYS.",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "고효율 연료계",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "high_eff_fuel_system"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-007.png",
+      "source_sha256": "9858b7633abda0f373799b2ed3f4f9e9371172a5bc0b26ddca3fe35ad60c889c",
+      "source_text": "DYNAMO UNIT",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "발전기",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "dynamos"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-008.png",
+      "source_sha256": "99f6a582e1650089100296a3d78ed21a9d770f17d03f2e23290cd15569bb3df8",
+      "source_text": "SHIVA FURNACE",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "시바 용광로",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "shiva_furnaces"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-009.png",
+      "source_sha256": "4ac7b5eec299581fa173e90c584062a936144eacfc743764dd4561f026d249b2",
+      "source_text": "ION-BOLT GUN",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "이온탄 포",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "ion_bolt_guns"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-010.png",
+      "source_sha256": "9b8b0bd8e054cca79ec796dc3218b96601d62d4a24a2daedb744f18e77abcd00",
+      "source_text": "FUSION BLASTER",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "융합 블래스터",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "fusion_blaster"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-011.png",
+      "source_sha256": "f543aabc2ca0f15c47f59c8821983e33e0cd0bef5acd80f6206ad9dfb1dfb154",
+      "source_text": "HELLBORE CANNON",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "헬보어 포",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "hellbore_cannons"
+    },
+    {
+      "source_path": "base/ui/modulesmenu-012.png",
+      "source_sha256": "2411def0c92c88dea0278bb1c8e5857f4dd6d696f53728160d3b5ad1fa35f2e4",
+      "source_text": "TRACKING SYSTEM",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "추적 장치",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "auto_tracking_modules",
+      "compact_label_note": "그림 원문 TRACKING SYSTEM의 간결한 UI 표기. 대화의 자동 추적 모듈은 유지."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-013.png",
+      "source_sha256": "f810c6f57bfafdc6ad5711b4d009da0891887668a4c66dda130244cf62160982",
+      "source_text": "POINT DEFENSE",
+      "size": [
+        56,
+        64
+      ],
+      "box": [
+        0,
+        0,
+        56,
+        11
+      ],
+      "text": "근접 방어",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        116,
+        116,
+        116,
+        255
+      ],
+      "glossary_id": "point_defense_lasers",
+      "compact_label_note": "그림 원문 POINT DEFENSE에 맞춘 UI 표기. 대화의 근접 방어 레이저는 유지."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-014.png",
+      "source_sha256": "da7597829dd7cbc6c80cafe0540459b84e2a5f3234bea82a9c16cec494eb4ae0",
+      "source_text": "BUY",
+      "size": [
+        26,
+        10
+      ],
+      "box": [
+        0,
+        0,
+        26,
+        10
+      ],
+      "text": "구매",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        255,
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "source_path": "base/ui/modulesmenu-015.png",
+      "source_sha256": "9a26b6e61562876ab788c3ef444bd1a2eb79842a60959e44c0e9887926506d3a",
+      "source_text": "SELL",
+      "size": [
+        33,
+        10
+      ],
+      "box": [
+        0,
+        0,
+        33,
+        10
+      ],
+      "text": "판매",
+      "background": [
+        23,
+        23,
+        23,
+        0
+      ],
+      "foreground": [
+        0,
+        255,
+        0,
+        255
+      ]
+    }
+  ]
+}

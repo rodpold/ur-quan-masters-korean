@@ -183,3 +183,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 기존 Galmuri7(동일 vendor 파일·출처·라이선스·해시)을 그림 메뉴 제목 39개에도 사용한다. 원본 UQM 그림은 설치 시 읽고 제목 영역만 생성하며 재배포 저장소에는 포함하지 않는다. 세부 변환과 원본별 해시는 translations/playmenu-headings.ko.json 참조.
 
 같은 Galmuri7을 playmenu 31–34의 내부 조작 라벨 4개(사람/사이보그)에도 사용한다. 글자 영역만 단색 배경으로 치환하고 원본 아이콘 그림은 유지한다. 기존 Galmuri 출처·라이선스·해시가 적용된다.
+
+장비 메뉴 라벨 16개에도 기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)을 사용한다. 기존 UQM 그림은 설치 시 읽고 글자 영역만 변경하며 저장소에 재배포하지 않는다. 배치 근거: [고정 버전 outfit.c / DrawModuleStrings](https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/outfit.c), SHA-256 `d23e4755f6facda80322ad59577633cac7bd9ac54a55540183a9f95e9c105a0f`. 소스는 레이아웃 조사용으로만 읽었으며 코드를 복제하지 않았다.

@@ -4,9 +4,10 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 47,
+    "embedded_text_pending": 31,
     "existing_replacement_runtime_pending": 10,
     "generated_korean_heading_runtime_pending": 38,
+    "generated_korean_module_label_runtime_pending": 16,
     "generated_korean_panel_runtime_pending": 34,
     "no_obvious_language_text_in_viewed_image": 267,
     "partial_button_replacement_other_text_pending": 1,
@@ -1194,98 +1195,98 @@
     {
       "source_path": "base/ui/modulesmenu-000.png",
       "source_sha256": "40ac893a9a1cfe379f7edccfc8e7c49e5f54bbd555e6296ea1597052b0ad98b1",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-001.png",
       "source_sha256": "991dd6cd8716d00c291a8d5d64ce7848014f8585cd7bd24126e4ba3cceb80f35",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-002.png",
       "source_sha256": "0b3fa9222861e977b471ed2083abbd0d5c0a2a504eddb859475895710d50b08d",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-003.png",
       "source_sha256": "8ac61bf411973a40ce35b1fc9733d5d79a49ce8ecf30979d577f9da8a83676bb",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-004.png",
       "source_sha256": "ca90c48d5ff847c655cc0b69f558cb6ef63ee618b982fd30a0955c0eb75e4a2c",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-005.png",
       "source_sha256": "252cae0f1a8eb1ea1fb7bbb7e69f6802eec57eba3e0943c6fe43a56ae798100a",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-006.png",
       "source_sha256": "b1514a8bc685da629b53e0cdd701caad425ed19831b26cdf18f0a3f60755c381",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-007.png",
       "source_sha256": "9858b7633abda0f373799b2ed3f4f9e9371172a5bc0b26ddca3fe35ad60c889c",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-008.png",
       "source_sha256": "99f6a582e1650089100296a3d78ed21a9d770f17d03f2e23290cd15569bb3df8",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-009.png",
       "source_sha256": "4ac7b5eec299581fa173e90c584062a936144eacfc743764dd4561f026d249b2",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-010.png",
       "source_sha256": "9b8b0bd8e054cca79ec796dc3218b96601d62d4a24a2daedb744f18e77abcd00",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-011.png",
       "source_sha256": "f543aabc2ca0f15c47f59c8821983e33e0cd0bef5acd80f6206ad9dfb1dfb154",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-012.png",
       "source_sha256": "2411def0c92c88dea0278bb1c8e5857f4dd6d696f53728160d3b5ad1fa35f2e4",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-013.png",
       "source_sha256": "f810c6f57bfafdc6ad5711b4d009da0891887668a4c66dda130244cf62160982",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-014.png",
       "source_sha256": "da7597829dd7cbc6c80cafe0540459b84e2a5f3234bea82a9c16cec494eb4ae0",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/modulesmenu-015.png",
       "source_sha256": "9a26b6e61562876ab788c3ef444bd1a2eb79842a60959e44c0e9887926506d3a",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_module_label_runtime_pending",
+      "notes": "장비 제목 14개와 구매/판매 2개를 동일 크기/ANI로 생성. 장비 그림은 y11부터 원본 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/netplay-000.png",

@@ -1,0 +1,9 @@
+{
+  "status": "static_passed_runtime_pending",
+  "equipment_labels": 14,
+  "transaction_labels": 2,
+  "source_layout": "DrawModuleStrings clears 11px above RADAR_Y; original ANI and image dimensions preserved.",
+  "limitations": [
+    "Actual outfit selection/redraw and price visibility require in-game review."
+  ]
+}
