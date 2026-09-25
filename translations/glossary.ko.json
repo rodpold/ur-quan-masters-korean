@@ -2636,6 +2636,127 @@
       "status": "in_use",
       "notes": "드루지가 회상하는 우트위그 여성 지도자. 감독관과 직급을 구분한다.",
       "ui_keys": []
+    },
+    {
+      "id": "content_to_hover",
+      "source": "Content To Hover",
+      "ko": "만족스러운 부유",
+      "category": "person",
+      "status": "in_use",
+      "notes": "슬라이랜드로 대변인. 동료들의 기억과 말을 전하는 주 화자. 묘사형 이름을 의역한 작업 표기.",
+      "ui_keys": []
+    },
+    {
+      "id": "joyous_lifting",
+      "source": "Joyous Lifting",
+      "ko": "기쁜 상승",
+      "category": "person",
+      "status": "in_use",
+      "notes": "슬라이랜드로 동료. 기억력이 좋으며 탐사선 복제 우선순위를 올린 인물.",
+      "ui_keys": []
+    },
+    {
+      "id": "sullen_plummet",
+      "source": "Sullen Plummet",
+      "ko": "침울한 추락",
+      "category": "person",
+      "status": "in_use",
+      "notes": "슬라이랜드로 동료. 마지막 선구자 방문을 기억하며 신체 질문에 부끄러워한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "drahn",
+      "source": "Drahn",
+      "ko": "드란",
+      "category": "unit",
+      "status": "in_use",
+      "notes": "슬라이랜드로 시간 단위. 자전 사백만 회. 지구 연도로 임의 환산하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "drahns",
+      "source": "Drahns",
+      "ko": "드란",
+      "category": "unit",
+      "status": "in_use",
+      "notes": "Drahn 복수형. 동일한 단위로 표기한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "drahnasa",
+      "source": "Drahnasa",
+      "ko": "드란아사",
+      "category": "unit",
+      "status": "in_use",
+      "notes": "한 드란의 이천분의 일. 원문의 자전 횟수와 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "source_planet",
+      "source": "Source",
+      "ko": "소스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "슬라이랜드로 고향 행성. 일반명사 source에는 적용하지 않으며 Transmission Source는 송신원이다.",
+      "ui_keys": [],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/comm/slylandro/slylandro.txt"
+      ]
+    },
+    {
+      "id": "transmission_source",
+      "source": "Transmission Source",
+      "ko": "송신원",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "탐사선 프로그램의 대상 유형. 행성 Source와 무관하다.",
+      "ui_keys": []
+    },
+    {
+      "id": "faz",
+      "source": "Faz",
+      "ko": "파즈",
+      "category": "species",
+      "status": "in_use",
+      "notes": "지성체 공동체 구성 종족.",
+      "ui_keys": []
+    },
+    {
+      "id": "milieu",
+      "source": "Milieu",
+      "ko": "공동체",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "Sentient Milieu(지성체 공동체)의 축약형.",
+      "ui_keys": []
+    },
+    {
+      "id": "shaggy_ones",
+      "source": "Shaggy Ones",
+      "ko": "털북숭이들",
+      "category": "species_alias",
+      "status": "in_use",
+      "notes": "슬라이랜드로가 이름을 잊은 선구자들을 부르는 묘사형 호칭. 알아보기 전에 선구자로 치환하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "gree_dots",
+      "source": "Gree-dots",
+      "ko": "그리닷",
+      "category": "unit",
+      "status": "in_use",
+      "notes": "대변인이 멜노름 거래 단위를 잘 몰라 부르는 표현. 크레디트로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "remote_robot_explorer",
+      "source": "Remote Self-Replicating Robot Explorer Probe",
+      "ko": "원격 자가 복제 로봇 탐사선",
+      "category": "device",
+      "status": "in_use",
+      "notes": "상품명. 2418과 귀환 송신기가 달린 2419의 차이를 보존한다.",
+      "ui_keys": []
     }
   ]
 }

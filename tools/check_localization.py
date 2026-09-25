@@ -10,11 +10,13 @@ def records(text):
  p=re.split(r'(?m)^#\(([^\r\n)]*)\)[^\r\n]*\r?\n',text)
  return [(p[i],p[i+1].rstrip('\r\n')) for i in range(1,len(p),2)]
 
-def canonical_terms(source, terms):
+def canonical_terms(source, terms, source_path=None):
  # A full name owns its span; its embedded short name need not be repeated in Korean.
  # A separately occurring short name still has its own terminology requirement.
  matches=[]
  for term in terms:
+  if 'audit_source_paths' in term and source_path not in term['audit_source_paths']:
+   continue
   if term['ko']:
    pattern=r'(?<![A-Za-z])'+re.escape(term['source'])+r'(?![A-Za-z])'
    matches.extend((m.start(),m.end(),term) for m in re.finditer(pattern,source,0 if term.get('case_sensitive',False) else re.I))
@@ -50,7 +52,7 @@ def audit(game):
     assert re.findall(r'%[-+0-9.]*[sduf]',src[key])==re.findall(r'%[-+0-9.]*[sduf]',text),f'Placeholder: {id}/{key}'
     for token in re.findall(r'\d+(?:[.,]\d+)*',src[key]):assert token in text,f'Number lost: {id}/{key}: {token}'
     if src[key].endswith(' '):assert text.endswith(' '),f'Dynamic suffix space: {id}/{key}'
-    for term in canonical_terms(src[key],terms.values()):
+    for term in canonical_terms(src[key],terms.values(),path):
      assert term['ko'] in text,f'Canonical term missing: {id}/{key}: {term["source"]} -> {term["ko"]}'
    translated_total+=len(trans);total+=len(src)
    rows.append({'id':id,'source_path':path,'source_sha256':hashlib.sha256(source).hexdigest(),'records':len(src),'translated':len(trans),'untranslated_ids':[k for k in src if k not in trans],'persona':group,'status':'translated_draft' if len(trans)==len(src) else 'partial' if trans else 'not_started','linguistic_review':'pending','in_game_review':'pending'})
@@ -63,7 +65,7 @@ def audit(game):
      assert [bool(x.strip()) for x in original.splitlines()]==[bool(x.strip()) for x in text.splitlines()],f'Report paragraphs: {n}/{key}'
      assert re.findall(r'%[-+0-9.]*[sduf]',original)==re.findall(r'%[-+0-9.]*[sduf]',text),f'Report placeholder: {n}/{key}'
      for token in re.findall(r'\d+(?:[.,]\d+)*',original):assert token in text,f'Report number: {n}/{key}: {token}'
-     for term in canonical_terms(original,terms.values()):assert term['ko'] in text,f'Report term: {n}/{key}: {term["source"]}'
+     for term in canonical_terms(original,terms.values(),n):assert term['ko'] in text,f'Report term: {n}/{key}: {term["source"]}'
     status=('translated_draft' if len(report_trans)==len(rr) else 'partial') if report_trans else ('partial_existing_patch' if n in ['base/gamestrings.txt','base/ui/setupmenu.txt'] else 'not_started_or_requires_classification')
     other.append({'source_path':n,'source_sha256':hashlib.sha256(data).hexdigest(),'records':len(rr),'translated':len(report_trans) if n.startswith('base/lander/') else None,'status':status,'linguistic_review':'pending','in_game_review':'pending'})
  return {'goal':'full_game_korean_localization','complete':False,'dialogue_records':total,'translated_report_records':sum(map(len,reports.values())),'report_records':sum(row['records'] for row in other if row['source_path'].startswith('base/lander/')),'translated_dialogue_records':translated_total,'dialogue_coverage_percent':round(translated_total*100/total,2),'locked_terms':len(lock),'persona_groups':len(per['profiles']),'dialogue':rows,'other_text_resources':other,'limitations':['Coverage counts translated records, not meaning/style quality or rendered layout.','Other text includes technical/credit/name fragments; classify before marking preserved/translated.','Numeric check preserves source digit tokens but does not prove dynamic numeral grammar.']}

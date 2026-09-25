@@ -323,7 +323,7 @@
     "slylandro": {
       "persona": "호기심 많고 방문객을 반기는 공중 생명체",
       "register": "우리/방문객. 밝은 해요체와 감탄.",
-      "constraints": "탐사선의 기계 말투와 섞지 않는다. 여러 대변인의 이름과 발화 구간을 보존.",
+      "constraints": "탐사선의 기계 말투와 섞지 않는다. 주 대변인이 동료의 말을 전달하는 서술을 임의로 직접 발화로 바꾸지 않는다. 오래된 기억의 혼란·불확실성을 보존한다.",
       "illustrative_style_sample": "방문객이군요! 정말 반가워요. 잠시 머물며 이야기를 나눠요.",
       "sample_is_translation": false,
       "glossary_ids": [
@@ -333,10 +333,20 @@
       "source_path": "base/comm/slylandro/slylandro.txt",
       "evidence_record_ids": [
         "HELLO_1",
-        "HELLO_2"
+        "ABOUT_PRECURSORS",
+        "ALL_WE_KNOW",
+        "BASIC_COMMANDS",
+        "UH_OH"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "HELLO_* / TERRIBLY_EXCITING / YES_TELL_MORE": "만족스러운 부유의 밝은 해요체. 방문객을 향한 호기심과 질문 폭주를 유지한다.",
+        "ABOUT_PRECURSORS / ALL_WE_KNOW": "기쁜 상승과 침울한 추락의 기억을 주 대변인이 전한다. 발견/조립과 행성 배치에 대한 혼란을 해소하거나 정답을 덧붙이지 않는다.",
+        "DOWN_HERE / NO_ITS_NOT_*": "빛나는 생식기관을 묻는 질문에 당황하며 말을 흐린다. 침울한 추락의 부끄러움과 후속 암시를 유지하되 노골적인 해부 설명은 추가하지 않는다.",
+        "BASIC_COMMANDS / OK_BASICS_AGAIN / MAXIMUM": "설명은 해요체, 의사 코드·목록은 간결한 서술형. 변경된 999와 기본값 2를 통일하지 않는다. 이론만 아는 화자의 추정과 방어 기능에 관한 주장을 유지한다.",
+        "UH_OH / WHY_YES_THERE_IS / RECALL_PROGRAM_1": "공격 가능성 부정에서 문제를 깨달은 공포와 책임감, 자폭 암호 발견의 기쁨, 회수 프로그램 소식으로 전환한다."
+      }
     },
     "supox": {
       "persona": "상대의 표현을 반영하는 식물 지성",

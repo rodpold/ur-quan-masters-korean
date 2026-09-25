@@ -64,6 +64,20 @@
       "source_wordplay": "Dribble-Down effect / trickle-down economics",
       "ko_wordplay": "찔끔 낙수 효과",
       "notes": "낙수 효과를 비트는 표현. 혜택이 아래로 거의 내려오지 않는 어감을 보존하는 초안이며 언어 검토 대기."
+    },
+    {
+      "species": "slylandro",
+      "record": "SEEK_OUT_NEW_LIFE",
+      "source_wordplay": "seek out new life / boldly go / catalog item 2418",
+      "ko_wordplay": "새로운 생명과 문명을 찾아 / 그 어떤 카탈로그 품목 2418도 가 보지 못한 곳으로 담대히",
+      "notes": "장엄한 탐험 선언에 상품 번호가 끼어드는 패러디를 유지한다. 실제 자막 길이와 언어 검토 대기."
+    },
+    {
+      "species": "slylandro",
+      "record": "bye / GOODBYE_1 / GOODBYE_2",
+      "source_wordplay": "gas bags / fluid sack",
+      "ko_wordplay": "가스 주머니들 / 액체 주머니",
+      "notes": "플레이어의 신체 묘사를 같은 방식으로 되돌려 주는 인사. 적대적인 욕설로 강화하지 않는다."
     }
   ],
   "jokes": [

@@ -30,6 +30,14 @@ def validate(data, ui):
                 raise ValueError(f'{key}: preserved names must not have fixed translations')
         elif not isinstance(ko, str) or not ko.strip():
             raise ValueError(f'{key}: missing Korean term')
+        if 'audit_source_paths' in entry:
+            paths = entry['audit_source_paths']
+            if (not isinstance(paths, list) or not paths
+                    or any(not isinstance(v, str) or not v.startswith('base/')
+                           or not v.endswith('.txt') or '\\' in v
+                           or '..' in v.split('/') for v in paths)
+                    or len(set(paths)) != len(paths)):
+                raise ValueError(f'{key}: invalid audit source paths')
         links = entry.get('ui_keys')
         if not isinstance(links, list):
             raise ValueError(f'{key}: ui_keys must be a list')

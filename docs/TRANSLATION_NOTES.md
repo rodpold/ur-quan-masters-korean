@@ -93,3 +93,11 @@ reports.ko.json은 원본 base/lander 경로→레코드 ID→번역 본문 구�
 공개 소스 [druugec.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/druuge/druugec.c)의 sell 분기를 확인했다. YOU_GET 뒤에는 함대 빈자리에 따른 DEAL_FOR_*가 오고, 연료도 거래하면 YOU_ALSO_GET가 이어진다. FUEL0 → NPCNumber → FUEL1 순서를 보존하며 FUEL1은 수량 뒤의 단위 문장으로 쓴다. 함선이 한 척도 지급되지 않는 분기도 생략하지 않는다. 공개 포트 근거이며 Steam 실행 파일의 실기 검증을 대신하지 않는다.
 
 몰러 여섯 척·세 척·한 척의 교환 대상과 승무원 100명, 열 명당 연료 열 단위의 가격을 구분한다. 3429/A86 법령, 퇴거 5초, 신의 기적 최소 3회, 빈 연료 탱크 열두 개 조건을 유지한다. God/god의 대소문자 중복 정의는 한글에 대소문자가 없으므로 대소문자 구분 없는 신으로 풀었다. 울트론이 사기라는 것은 드루지의 시각이며 사실로 확정하지 않는다. Dribble-Down은 찔끔 낙수 효과로 옮겼으며 말장난 검토 목록에 등록했다. 긴 계약·회상 자막의 줄바꿈과 음성 타이밍은 검토 대기다.
+
+## 슬라이랜드로
+
+공개 소스 [slyhome.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/slyhome/slyhome.c)의 HomeWorld에서 자기소개는 we_are_us0 → 함장명 → we_are_us1 → 함선명 → we_are_us2 순서다. 이름을 고정하지 않고 이 순서와 공백을 보존한다.
+
+드란은 자전 사백만 회, 한 드란은 이천 드란아사다. 39드란 전 마지막 방문과 41드란 전 첫 방문을 통일하지 않는다. FIFTY_THOUSAND_ROTATIONS는 ID와 달리 본문이 이백~삼백 회이므로 본문대로 옮긴다. BASIC_COMMANDS는 복제 원료 탐색 999, OK_BASICS_AGAIN은 기본 복제 원료 준비 2로 원문 차이를 보존한다. 2418/2419 모델과 10,000 그리닷도 보존하며, 모호한 선구자 행성 배치에 해답을 덧붙이지 않는다.
+
+미사일 방어와 방전 수집에 관한 설명은 슬라이랜드로의 주장으로 유지한다. 실제 탐사선 전투 동작에 맞추어 대사를 고치지 않는다. ALL_WE_KNOW의 빈 구간과 모든 음성 구간 수를 보존했다. 대변인은 동료의 기억을 간접 전달하며, 이를 세 명의 직접 대사로 재구성하지 않는다. 긴 프로그램 표의 자막 배치·음성 타이밍과 이름 삽입 뒤 선택지는 실기 검토 대기다.
