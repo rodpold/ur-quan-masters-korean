@@ -1,0 +1,11 @@
+# Project conventions
+
+- Do not modify the game executable. Keep saves, game assets and generated packages out of Git.
+- Whenever adding or replacing third-party fonts/assets, update THIRD_PARTY.md in the same change:
+  author, official source/download URL, license and local license file, hash, usage and modifications.
+- Read translations/GLOSSARY.md and glossary.ko.json before translating proper nouns.
+  Register new names separately; distinguish proposed, in_use, approved and preserve.
+  Never label a proposal user-approved without evidence. Preserve dynamic player/ship names.
+- Run python tools/check_glossary.py for terminology changes. This checks only explicit UI bindings;
+  do not claim it verifies all dialogue terminology.
+- Use native pixel-font raster sizes and verify glyph coverage. Fixed 8px rows cannot fit 9px ink.

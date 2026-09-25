@@ -63,6 +63,7 @@ Steam 실행 옵션을 직접 추가했다면 제거 후 해당 옵션도 지우
 
 ```powershell
 python -m unittest discover -s tests -v
+python tools/check_glossary.py
 python tools/verify_build.py "$game"
 python patcher.py build --game "$game" --output artifacts/ko-ui.uqm
 ```
@@ -85,3 +86,10 @@ python patcher.py build --game "$game" --output artifacts/ko-ui.uqm
 [검증 현황](docs/VERIFICATION.md)을 참조하세요.
 실기 검증 완료 → Steam 경로 자동 탐색 → GUI → 실행 파일 패키징.
 현재는 개발판이며, 검증하지 않은 항목을 완료로 표시하지 않습니다.
+
+## 번역 표기와 출처 관리
+
+고유명사는 [용어집](translations/GLOSSARY.md)과 [독립 JSON](translations/glossary.ko.json)에서 관리합니다.
+종족명 초안은 proposed이며 확정 표기가 아닙니다. 기존 UI 표기와 연결한 항목은 검사 도구로 검증합니다.
+폰트별 공식 다운로드·권장 크기·라이선스는 [출처](THIRD_PARTY.md)에 기록합니다.
+새 외부 자료를 사용할 때는 출처와 라이선스 기록을 같은 변경에 포함해야 합니다.

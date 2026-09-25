@@ -14,3 +14,27 @@ Game assets are read from the user's installed Steam game during build; they are
 Public source inspected for resource format documentation: https://github.com/intgr/uqm-wasm/tree/main/sc2/src
 The local installation's Manual.txt documents --addon and .rmp resource maps.
 This is an unofficial fan project, not affiliated with the original developers.
+
+## Font provenance and usage policy
+
+Official webfont/documentation: https://github.com/quiple/galmuri#use-as-web-fonts
+Official license: https://github.com/quiple/galmuri/blob/main/ofl.md
+Local license: [OFL.txt](vendor/galmuri/OFL.txt). License: SIL OFL 1.1.
+
+| File | Official download | Raster size | Current use |
+|---|---|---|---|
+| Galmuri7.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri7.ttf | 8px (7px ink) | Compact UI, log/tiny and compact player glyphs |
+| Galmuri9.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf | 10px (9px ink) | Larger UI trial; candidate for separate dialogue font |
+| Galmuri11.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf | 12px (11px ink), 24px | Micro font and start-menu artwork |
+
+The official project offers web fonts too. This patch uses vendored TTFs to generate PNGs locally;
+playing does not require a CDN or network connection. Never shrink a larger pixel face to an
+unsupported size. Galmuri7 has limited Hangul syllable coverage; check each newly translated glyph.
+
+Exact downloaded bytes are pinned by [SHA256.json](vendor/galmuri/SHA256.json), not by a claimed
+upstream commit. The URLs above point to a moving branch. Recheck hashes and coverage on updates.
+
+Whenever adding/replacing an external font or other asset, update this source section in the same
+change with author, official source/download, license, local license file, file hash, usage and any
+modifications. Free download alone is not a redistribution license. Keep font attribution/licenses
+with generated assets. Record modifications explicitly; do not claim a modified font is original.

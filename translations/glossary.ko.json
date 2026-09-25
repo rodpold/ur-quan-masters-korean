@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "terms": [
+    {
+      "id": "sol",
+      "source": "Sol",
+      "ko": "태양",
+      "category": "place",
+      "status": "in_use",
+      "notes": "별 이름. 태양계를 뜻하는 문맥에서는 태양계로 활용한다.",
+      "ui_keys": [
+        "Sol"
+      ]
+    },
+    {
+      "id": "hyperspace",
+      "source": "HyperSpace",
+      "ko": "초공간",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "현재 UI 표기.",
+      "ui_keys": [
+        "HyperSpace"
+      ]
+    },
+    {
+      "id": "quasispace",
+      "source": "QuasiSpace",
+      "ko": "준공간",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "현재 UI 표기.",
+      "ui_keys": [
+        "QuasiSpace"
+      ]
+    },
+    {
+      "id": "earth",
+      "source": "Earth",
+      "ko": "지구",
+      "category": "place",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "hayes",
+      "source": "Hayes",
+      "ko": "헤이스",
+      "category": "person",
+      "status": "proposed",
+      "notes": "Commander는 직함 사령관으로 별도 번역한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "ur_quan",
+      "source": "Ur-Quan",
+      "ko": "우르콴",
+      "category": "species",
+      "status": "proposed",
+      "notes": "사용자 검토 전 제안. Kzer-Za와 Kohr-Ah를 문맥상 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "hierarchy",
+      "source": "Hierarchy",
+      "ko": "지배 계층",
+      "category": "organization",
+      "status": "proposed",
+      "notes": "우르콴 진영 명칭. 일반 계급 구조를 뜻하는 용례와 구분하고 명칭 재검토 필요.",
+      "ui_keys": []
+    },
+    {
+      "id": "star_control",
+      "source": "Star Control",
+      "ko": "스타 컨트롤",
+      "category": "organization",
+      "status": "proposed",
+      "notes": "게임 제목과 조직명 문맥을 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "alliance_free_stars",
+      "source": "Alliance of Free Stars",
+      "ko": "자유 항성 동맹",
+      "category": "organization",
+      "status": "proposed",
+      "notes": "New Alliance와 기존 동맹을 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "new_alliance_free_stars",
+      "source": "New Alliance of Free Stars",
+      "ko": "신 자유 항성 동맹",
+      "category": "organization",
+      "status": "proposed",
+      "notes": "플레이어의 동맹 이름 선택과 동적 문자열 삽입 주의.",
+      "ui_keys": []
+    },
+    {
+      "id": "precursors",
+      "source": "Precursors",
+      "ko": "선구자",
+      "category": "species",
+      "status": "proposed",
+      "notes": "문명 명칭으로 쓰이는 문맥. 확정 전 검토.",
+      "ui_keys": []
+    },
+    {
+      "id": "sa_matra",
+      "source": "Sa-Matra",
+      "ko": "사마트라",
+      "category": "object",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "kzer_za",
+      "source": "Kzer-Za",
+      "ko": "크저자",
+      "category": "species",
+      "status": "proposed",
+      "notes": "잠정 음역.",
+      "ui_keys": []
+    },
+    {
+      "id": "kohr_ah",
+      "source": "Kohr-Ah",
+      "ko": "코르아",
+      "category": "species",
+      "status": "proposed",
+      "notes": "잠정 음역.",
+      "ui_keys": []
+    },
+    {
+      "id": "arilou",
+      "source": "Arilou",
+      "ko": "아릴루",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "chmmr",
+      "source": "Chmmr",
+      "ko": "촘르",
+      "category": "species",
+      "status": "proposed",
+      "notes": "잠정 음역.",
+      "ui_keys": []
+    },
+    {
+      "id": "druuge",
+      "source": "Druuge",
+      "ko": "드루지",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "ilwrath",
+      "source": "Ilwrath",
+      "ko": "일라스",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "melnorme",
+      "source": "Melnorme",
+      "ko": "멜노름",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "mycon",
+      "source": "Mycon",
+      "ko": "마이콘",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "orz",
+      "source": "Orz",
+      "ko": "오르즈",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "pkunk",
+      "source": "Pkunk",
+      "ko": "프쿤크",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "shofixti",
+      "source": "Shofixti",
+      "ko": "쇼픽스티",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "slylandro",
+      "source": "Slylandro",
+      "ko": "슬라이랜드로",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "spathi",
+      "source": "Spathi",
+      "ko": "스파시",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "supox",
+      "source": "Supox",
+      "ko": "수폭스",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "syreen",
+      "source": "Syreen",
+      "ko": "시린",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash",
+      "source": "Thraddash",
+      "ko": "스래대시",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "umgah",
+      "source": "Umgah",
+      "ko": "움가",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "utwig",
+      "source": "Utwig",
+      "ko": "우트위그",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "vux",
+      "source": "VUX",
+      "ko": "VUX",
+      "category": "species",
+      "status": "proposed",
+      "notes": "약어 표기 유지 제안. 발음 표기는 별도 검토.",
+      "ui_keys": []
+    },
+    {
+      "id": "yehat",
+      "source": "Yehat",
+      "ko": "예하트",
+      "category": "species",
+      "status": "proposed",
+      "notes": "",
+      "ui_keys": []
+    },
+    {
+      "id": "zoq_fot_pik",
+      "source": "Zoq-Fot-Pik",
+      "ko": "조크-포트-피크",
+      "category": "species",
+      "status": "proposed",
+      "notes": "세 집단의 이름을 합친 표기.",
+      "ui_keys": []
+    },
+    {
+      "id": "captain_name",
+      "source": "Zelnick",
+      "ko": null,
+      "category": "dynamic_name",
+      "status": "preserve",
+      "notes": "기본 함장 이름의 예. 실제 저장 데이터의 사용자 이름을 그대로 삽입한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "ship_name",
+      "source": "Vindicator",
+      "ko": null,
+      "category": "dynamic_name",
+      "status": "preserve",
+      "notes": "기본 함선 이름의 예. 번역 문자열을 분할한 사이에 실제 함선 이름을 삽입한다.",
+      "ui_keys": []
+    }
+  ]
+}
