@@ -73,3 +73,12 @@ SAFEX=16 변형 060/063에는 각각 빈 슬롯과 화물·장치·착륙선·�
 `python tools/check_comm_image_review.py --game "게임 경로"`는 전체 경로 집합·중복·원본 해시·크기·디렉터리별 수량을 대조한다. 자동 검사는 육안 판단의 정확성을 보장하지 않는다. 원본 게임 PNG나 접촉 시트는 저장소에 포함하지 않는다. 이번 조사에는 기존 Pillow만 사용했으며 신규 폰트/자산은 도입하지 않았다.
 
 다른 미검토 PNG 자산군은 base/ships 3,903개, base/lander 331개, base/nav 294개, base/planets 177개, base/battle 117개다. UI와 컷신의 검토 결과를 이 자산군에 확대 적용하지 않는다. 통신 이미지 검토로 HUD CAPTAIN/FUEL/CREW 또는 playmenu-036 내부 장식 이름의 미완료 상태가 해소되지는 않는다.
+
+
+### 항해·전투·행성·착륙 이미지 검토 (2026-09-26)
+
+앞서 미검토로 남긴 base/battle 117개, base/lander 331개, base/nav 294개, base/planets 177개 PNG 총 919개를 10개 접촉 시트에서 초기 육안 검토했다. `world-image-review.json`에 전체 경로·해시·크기·검토 상태를 기록한다. base/ships 3,903개는 이 검토에 포함되지 않는다.
+
+새 번역 대상은 두 이미지다. `base/lander/lander-032.png`(54×51)의 MIN/DAT 약어는 하단 잉크 높이가 5픽셀이라 기존 7픽셀 한글을 그대로 넣을 수 없다. 자원/생물 자료 의미와 실행 시 지우기 영역을 소스로 확인한 뒤 번역 영역을 정해야 한다. `base/nav/orbitenter-000.png`(242×75)의 ENTERING PLANETARY ORBIT...는 별도 그림 안내문이다. 원본 `graphics.orbitenter` → `base/nav/orbitenter.ani` → 해당 PNG 연결을 확인했으며 행성 그림·프레임 크기·핫스폿을 보존해 교체할 대상이다. 아직 두 이미지 모두 번역 적용하지 않았다.
+
+`base/nav/orbitbackground-020.png`의 KG는 단위 기호로 보존한다. 두 번역 대상과 단위 이미지는 별도로 확대했다. 나머지 916개에서는 읽을 수 있는 언어 문구를 발견하지 못했다. 접촉 시트 결과는 합성 재생/동적 문자열/전체 게임 완료를 증명하지 않는다. `tools/check_world_image_review.py --game "게임 경로"`는 원본과 검토 기록의 전체 경로·해시·크기 연결 및 미번역 상태를 검사한다. 원본 그림·생성 접촉 시트는 Git에 배포하지 않으며 신규 외부 폰트/자산은 도입하지 않았다.
