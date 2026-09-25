@@ -34,6 +34,23 @@ def verify(game):
             if '/fonts/' in n and 0xAC00 <= int(Path(n).stem,16) <= 0xD7A3:
                 im=Image.open(io.BytesIO(z.read(n)))
                 assert im.getchannel('A').getbbox(),n
+        translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
+        setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
+        required={c for value in [*translations.values(),*setup.values()] for c in value if ord(c)>127}
+        for fontname,size in [('Galmuri7',8),('Galmuri11',12)]:
+            face=patcher.font(fontname,size)
+            missing=bytes(face.getmask(chr(0x10ffff)))
+            for char in required:
+                mask=bytes(face.getmask(char))
+                assert any(mask) and mask!=missing,f'{fontname}: missing glyph U+{ord(char):04X}'
+        widths={chr(int(Path(n).stem,16)):Image.open(io.BytesIO(z.read(n))).width+1
+                for n in names if n.startswith('ko/fonts/starcon.fon/')}
+        for key,value in setup.items():
+            for line in value.splitlines():
+                width=sum(widths[c] for c in line)
+                assert width<=300,f'Setup text wider than safe screen area: {key}: {width}'
+        for key in ['starmap','manifest','game','navigate','cargo','devices','roster','save game','load game','quit game','exit menu']:
+            assert sum(widths[c] for c in translations[key])<=54,f'Sidebar overflow: {key}'
         for n in ['playmenu-060.png','playmenu-061.png','playmenu-062.png','playmenu-063.png']:
             assert Image.open(io.BytesIO(z.read('ko/ui/'+n))).size==Image.open(io.BytesIO(source.read('base/ui/'+n))).size
     print(json.dumps({'checks':'passed',**report},indent=2))
