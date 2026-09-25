@@ -163,6 +163,196 @@
           ]
         }
       ]
+    },
+    {
+      "source_path": "base/ui/playmenu-060-SAFEX=16.png",
+      "source_sha256": "90f373a156731b64ea3855f67a7065cf74a4ee3fa4d745fff42563bb0760ee2b",
+      "size": [
+        212,
+        138
+      ],
+      "usage": "unreferenced_asset_prepared_only",
+      "regions": [
+        {
+          "box": [
+            50,
+            50,
+            112,
+            35
+          ],
+          "text": "빈 슬롯",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            255,
+            0,
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/playmenu-063-SAFEX=16.png",
+      "source_sha256": "0437429bf540684408b14e39d6df2eed5cd5b6aba697bf547ac825a7d38cb700",
+      "size": [
+        212,
+        197
+      ],
+      "usage": "unreferenced_asset_prepared_only",
+      "regions": [
+        {
+          "box": [
+            10,
+            1,
+            61,
+            11
+          ],
+          "text": "화물",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            255,
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "box": [
+            138,
+            1,
+            73,
+            11
+          ],
+          "text": "장치",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            255,
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "box": [
+            2,
+            73,
+            69,
+            10
+          ],
+          "text": "착륙선",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            255,
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "box": [
+            138,
+            84,
+            72,
+            10
+          ],
+          "text": "자원",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            255,
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "box": [
+            138,
+            109,
+            72,
+            10
+          ],
+          "text": "크레딧",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            255,
+            0,
+            255,
+            255
+          ]
+        },
+        {
+          "box": [
+            78,
+            157,
+            48,
+            13
+          ],
+          "text": "실행",
+          "background": [
+            116,
+            116,
+            116,
+            255
+          ],
+          "foreground": [
+            174,
+            174,
+            174,
+            255
+          ]
+        },
+        {
+          "box": [
+            149,
+            157,
+            62,
+            13
+          ],
+          "text": "취소",
+          "background": [
+            116,
+            116,
+            116,
+            255
+          ],
+          "foreground": [
+            174,
+            174,
+            174,
+            255
+          ]
+        }
+      ]
     }
   ]
 }

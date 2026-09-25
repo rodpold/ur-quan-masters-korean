@@ -195,3 +195,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 소개 연결 문구에 기존 Galmuri11(native raster 12, 제공)과 Galmuri7(native raster 8, 제작/·)을 사용한다. 기존 공식 출처·저자·라이선스·vendor 해시가 적용된다. IFL 회사 로고, 게임 로고, Paul Reiche III/Fred Ford의 원본 이름 픽셀은 보존한다. 미연결 title-004는 새 재생 연결을 만들지 않는다. 원본 PNG/ANI 해시는 translations/intro-titles.ko.json 참조.
 
 기존 Galmuri7(동일 공식 출처·저자·라이선스·vendor 해시)을 조선소 이름 그림 21개에도 사용한다. 원본 shipyard.c/units.h의 배치 근거는 기존 shipyard-label-layout-review.json 및 아래 해시로 추적한다. 원본 C나 게임 PNG는 재배포하지 않는다. units.h SHA-256 `55061f177ecd8d8b408adc5bc09f7f6bfe013f4df13c1a241bf5e49ebf603a99`. 원본 ANI/PNG별 해시는 translations/shipyard-labels.ko.json, 아이콘 ANI 근거는 docs/shipyard-label-checks.json 참조.
+
+기존 Galmuri7(동일 출처·저자·라이선스·vendor 해시)을 미참조 SAFEX=16 UI 변형의 문구 8개에도 사용한다. 일반 이미지와 다른 하단 실행/취소 문구를 포함하며 원본 입력 식별자·숫자·테두리는 유지한다. 원본 게임 PNG는 저장소에 포함하지 않는다.

@@ -4,7 +4,7 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 3,
+    "embedded_text_pending": 1,
     "existing_replacement_runtime_pending": 10,
     "generated_korean_heading_runtime_pending": 38,
     "generated_korean_melee_caption_runtime_pending": 5,
@@ -15,7 +15,8 @@
     "no_obvious_language_text_in_viewed_image": 267,
     "partial_heading_replacement_other_text_pending": 1,
     "preserve_numeric_sprite": 21,
-    "preserve_product_logo": 1
+    "preserve_product_logo": 1,
+    "unreferenced_safex_variant_translated_not_activated": 2
   },
   "records": [
     {
@@ -2079,8 +2080,8 @@
     {
       "source_path": "base/ui/playmenu-060-SAFEX=16.png",
       "source_sha256": "90f373a156731b64ea3855f67a7065cf74a4ee3fa4d745fff42563bb0760ee2b",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "unreferenced_safex_variant_translated_not_activated",
+      "notes": "빈 슬롯/정보 패널 및 일반 버전에 없는 실행·취소 안내까지 번역 준비. A/B·숫자·테두리 보존. 기본 패키지 ANI/TXT/RMP 참조 없음; 새 연결하지 않음."
     },
     {
       "source_path": "base/ui/playmenu-060.png",
@@ -2103,8 +2104,8 @@
     {
       "source_path": "base/ui/playmenu-063-SAFEX=16.png",
       "source_sha256": "0437429bf540684408b14e39d6df2eed5cd5b6aba697bf547ac825a7d38cb700",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "unreferenced_safex_variant_translated_not_activated",
+      "notes": "빈 슬롯/정보 패널 및 일반 버전에 없는 실행·취소 안내까지 번역 준비. A/B·숫자·테두리 보존. 기본 패키지 ANI/TXT/RMP 참조 없음; 새 연결하지 않음."
     },
     {
       "source_path": "base/ui/playmenu-063.png",
