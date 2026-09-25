@@ -38,6 +38,14 @@ class PatcherTests(unittest.TestCase):
 
 
 class RegressionTests(unittest.TestCase):
+    def test_native_nine_pixel_kyeom_keeps_consonant_and_vowel_strokes(self):
+        # The prior Galmuri11-at-10px raster merged the two strokes of kieuk
+        # and lost the upper horizontal of yeo. Native Galmuri9 keeps both.
+        mask=patcher.text_mask('켬',patcher.font('Galmuri9',10))
+        self.assertEqual(mask.size,(10,9))
+        rows=[''.join('#' if mask.getpixel((x,y)) else '.' for x in range(10)) for y in range(9)]
+        self.assertEqual(rows[:5],['#####..#..','....####..','#####..#..','...#.###..','###....#..'])
+
     def test_setup_preserves_headers_and_empty_menu_item(self):
         source='#(SUBTITLES)\n\nGraphics\nAudio\n\n#(TITLE)\nSetup\n'
         result=patcher.translate_setup(source,{'SUBTITLES':'\n화면\n소리','TITLE':'설정'})

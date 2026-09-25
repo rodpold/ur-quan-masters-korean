@@ -4,7 +4,7 @@
 
 Author: Lee Minseo (quiple). SIL Open Font License 1.1.
 Source: https://github.com/quiple/galmuri
-Files: vendor/galmuri/Galmuri7.ttf, Galmuri11.ttf, OFL.txt.
+Files: vendor/galmuri/Galmuri7.ttf, Galmuri9.ttf, Galmuri11.ttf, OFL.txt.
 Downloaded 2026-09-25 from the upstream main branch; exact SHA-256 values are recorded in vendor/galmuri/SHA256.json.
 Fonts are unmodified. Build-generated PNG glyphs derive from Galmuri; retain its notice and license.
 

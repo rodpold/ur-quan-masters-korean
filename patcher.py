@@ -156,7 +156,7 @@ def build(game, ui_font="compact"):
             for char in chars:
                 large = family == 'micro'
                 larger_ui = family == 'starcon' and ui_font == 'larger'
-                mask = text_mask(char, font('Galmuri11' if large or larger_ui else 'Galmuri7', 12 if large else 10 if larger_ui else 8))
+                mask = text_mask(char, font('Galmuri11' if large else 'Galmuri9' if larger_ui else 'Galmuri7', 12 if large else 10 if larger_ui else 8))
                 if mask.size != ((12,11) if large else (10,9) if larger_ui else (8,7)):
                     raise ValueError(f'예상하지 못한 글자 크기: {ord(char):x} {mask.size}')
                 # Keep the baseline at the bottom of the ink; UQM uses h-3 above 9px.

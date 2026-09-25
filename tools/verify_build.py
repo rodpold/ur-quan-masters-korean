@@ -37,7 +37,7 @@ def verify(game, ui_font="compact"):
         translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         required={c for value in [*translations.values(),*setup.values()] for c in value if ord(c)>127}
-        for fontname,size in [('Galmuri7',8),('Galmuri11',10),('Galmuri11',12)]:
+        for fontname,size in [('Galmuri7',8),('Galmuri9',10),('Galmuri11',12)]:
             face=patcher.font(fontname,size)
             missing=bytes(face.getmask(chr(0x10ffff)))
             for char in required:
