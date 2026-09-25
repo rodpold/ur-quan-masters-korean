@@ -1,0 +1,23 @@
+{
+  "status": "draft_runtime_pending",
+  "source_ani": "base/cutscene/ending/ending.ani",
+  "ani_sha256": "040854d364efd5eef33d60fc6c207f410297e9ea94f8f079fc7a2e3f66472082",
+  "source_path": "base/cutscene/ending/ending-006.png",
+  "source_sha256": "76439bafbb8ee10011b2b0a288acc69e93403654b2bc986a1374c56677cec69f",
+  "size": [
+    320,
+    200
+  ],
+  "box": [
+    50,
+    45,
+    182,
+    30
+  ],
+  "source_text": "THE END",
+  "text": "끝",
+  "font": "Galmuri11",
+  "raster_px": 12,
+  "scale": 2,
+  "notes": "Only the title rectangle changes. The original copyright line, all other pixels and frames are retained."
+}

@@ -60,7 +60,9 @@ def compile_ending_wrapper(raw,spec,addon):
 
 def add_ending(entries,rmp,archive,spec,addon):
     # The shared slides glyphs are prepared by add_intro before this call.
+    from ending_card import add_card
+    image_paths=add_card(entries,archive,addon)
     entries['ko/cutscene/ending/final.txt']=compile_script(archive.read(spec['source_path']),spec,
-        {'FONT 0 base/fonts/slides.fon':f'FONT 0 addons/{addon}/ko/fonts/slides.fon'})
+        {'FONT 0 base/fonts/slides.fon':f'FONT 0 addons/{addon}/ko/fonts/slides.fon',**image_paths})
     entries['ko/cutscene/ending/ending.txt']=compile_ending_wrapper(archive.read(spec['wrapper_path']),spec,addon)
     rmp.append('slides.ending = STRTAB:ko/cutscene/ending/ending.txt')

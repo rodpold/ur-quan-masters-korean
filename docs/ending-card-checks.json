@@ -1,0 +1,9 @@
+{
+  "status": "static_passed_runtime_pending",
+  "translated_image_titles": 1,
+  "unchanged_frames": 5,
+  "copyright_pixels": "preserved",
+  "limitations": [
+    "Timing/control commands are checked separately; actual ending playback still needs runtime review."
+  ]
+}

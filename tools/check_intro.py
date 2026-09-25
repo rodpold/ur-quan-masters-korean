@@ -6,7 +6,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from inventory_text import classify
 from check_localization import check_dialogue_record
 
-def verify_slides(package,source,spec,expected_count):
+def verify_slides(package,source,spec,expected_count,resource_remaps=None):
     root=Path(__file__).resolve().parents[1]
     terms=json.loads((root/'translations/glossary.ko.json').read_text(encoding='utf-8'))['terms']
     old=classify(spec['source_path'],source.read(spec['source_path']).decode('utf-8'))
@@ -40,6 +40,8 @@ def verify_slides(package,source,spec,expected_count):
                 widths.append(width)
             assert max(widths)<=310,(a['id'],widths)
             rows.append(dict(id=a['id'],font=font,widths=widths))
+        elif resource_remaps and a['text'] in resource_remaps:
+            assert b=={**a,'text':resource_remaps[a['text']]},'Unexpected image command change'
         else:assert a==b,('Control command changed',a['id'])
     assert len(rows)==expected_count
     return dict(status='static_passed_runtime_pending',subtitles=rows)
@@ -63,4 +65,6 @@ def verify_ending(package,source):
     assert actual==compile_ending_wrapper(raw,spec,patcher.ADDON)
     assert actual.replace(f'CALL addons/{patcher.ADDON}/ko/cutscene/ending/final.txt'.encode(),
                           b'CALL base/cutscene/ending/final.txt')==raw
-    return verify_slides(package,source,spec,42)
+    from check_ending_card import verify_ending_card
+    verify_ending_card(package,source)
+    return verify_slides(package,source,spec,42,{'ANI base/cutscene/ending/ending.ani':f'ANI addons/{patcher.ADDON}/ko/cutscene/ending/ending.ani'})

@@ -71,8 +71,8 @@
         320,
         200
       ],
-      "status": "embedded_text_pending",
-      "notes": "THE END + 저작권 이름. 끝 표제는 번역, 저작권 인명은 보존해야 함. 크레딧 문자열 THE END와 별개의 그림."
+      "status": "generated_korean_title_runtime_pending",
+      "notes": "THE END를 끝으로 치환. Galmuri11 native 12px raster를 최근접 2배 확대. 저작권 행과 제목 밖 RGBA 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/cutscene/ending/fs_skeleton-000.png",

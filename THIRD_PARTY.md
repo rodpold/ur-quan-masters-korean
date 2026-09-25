@@ -189,3 +189,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 같은 Galmuri7(기존 저자·공식 출처·라이선스·vendor 해시)을 함대 대전 안내 8개에도 사용한다. 제목은 최근접 정수 2배, 기타 글자는 native 7픽셀 잉크이며 반투명 없이 생성한다. 원본 그림은 설치 시 읽고 글자 영역만 합성하며 Git에는 포함하지 않는다.
 
 기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)로 특수 장치/무제한/착륙정 안내 3개 이미지의 6개 글자 영역을 생성한다. native 7픽셀 이진 알파이며 원본 장치 그림은 설치 시 복사한다. 원본 PNG/ANI 해시는 translations/special-labels.ko.json에 기록한다.
+
+기존 Galmuri11(동일 저자·공식 출처·라이선스·vendor 해시)을 엔딩 THE END → 끝 제목에 사용한다. native raster 12 마스크를 최근접 정수 2배 확대하며 이진 알파를 유지한다. 원본 저작권 행·제작자 이름은 보존한다. PNG/ANI 원본 해시는 translations/ending-card.ko.json 참조. 원본 게임 그림은 Git에 포함하지 않는다.
