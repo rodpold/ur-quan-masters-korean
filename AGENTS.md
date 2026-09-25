@@ -9,3 +9,5 @@
 - Run python tools/check_glossary.py for terminology changes. This checks only explicit UI bindings;
   do not claim it verifies all dialogue terminology.
 - Use native pixel-font raster sizes and verify glyph coverage. Fixed 8px rows cannot fit 9px ink.
+
+- Keep translations/fonts.ko.json and FONTS.md aligned with glossary IDs and actual font assignments. Distinguish proposed fonts from applied trials; update attribution for new fonts.

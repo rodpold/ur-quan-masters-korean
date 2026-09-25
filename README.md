@@ -106,3 +106,5 @@ python patcher.py build --game "$game" --output artifacts/ko-ui.uqm
 사용자가 저장한 테스트 프로필을 열어 같은 지점에서 교신을 재현합니다.
 대화 도중 설치하지 말고 게임 종료 후 설치/재실행하세요.
 자동 검사는 통과했으며 실제 자막 타이밍, 긴 어절 줄바꿈 및 선택지 스크롤은 실기 확인 대상입니다.
+
+종족/대화별 폰트는 [배정표](translations/FONTS.md)와 [JSON](translations/fonts.ko.json)에 용어집 ID로 연결합니다. 적용 중인 글꼴과 시험 후보를 구분합니다.

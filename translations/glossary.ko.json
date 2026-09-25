@@ -330,6 +330,24 @@
       "status": "in_use",
       "notes": "첫 교신 시험 번역. 최종 용어 검토 필요.",
       "ui_keys": []
+    },
+    {
+      "id": "talking_pet",
+      "source": "Talking Pet",
+      "ko": "말하는 애완동물",
+      "category": "character",
+      "status": "proposed",
+      "notes": "대화 폰트 배정표 참조용 잠정 표기.",
+      "ui_keys": []
+    },
+    {
+      "id": "slylandro_probe",
+      "source": "Slylandro Probe",
+      "ko": "슬라이랜드로 탐사선",
+      "category": "object",
+      "status": "proposed",
+      "notes": "대화 폰트 배정표 참조용 잠정 표기.",
+      "ui_keys": []
     }
   ]
 }

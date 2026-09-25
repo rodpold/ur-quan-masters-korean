@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "fonts": {
+    "Galmuri7": {
+      "file": "vendor/galmuri/Galmuri7.ttf",
+      "raster_px": 8,
+      "ink_height_px": 7,
+      "author": "Lee Minseo (quiple)",
+      "license": "OFL-1.1",
+      "license_file": "vendor/galmuri/OFL.txt",
+      "source": "https://github.com/quiple/galmuri",
+      "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri7.ttf",
+      "sha256": "c845c6bf6f7236ed370aed4a8f8d9b4f25e6a18f63515777fe4153d287c32917"
+    },
+    "Galmuri9": {
+      "file": "vendor/galmuri/Galmuri9.ttf",
+      "raster_px": 10,
+      "ink_height_px": 9,
+      "author": "Lee Minseo (quiple)",
+      "license": "OFL-1.1",
+      "license_file": "vendor/galmuri/OFL.txt",
+      "source": "https://github.com/quiple/galmuri",
+      "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf",
+      "sha256": "e84e821b18be15b9e3a907ceb83cfba25fabf51c80b7edf0d2921cf8f8e1a11d"
+    },
+    "Galmuri11": {
+      "file": "vendor/galmuri/Galmuri11.ttf",
+      "raster_px": 12,
+      "ink_height_px": 11,
+      "author": "Lee Minseo (quiple)",
+      "license": "OFL-1.1",
+      "license_file": "vendor/galmuri/OFL.txt",
+      "source": "https://github.com/quiple/galmuri",
+      "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf",
+      "sha256": "e24256f42e43713d2ea086a1e1669d78b968f5b3cc547e5c157f0606ffa5def1"
+    }
+  },
+  "shared_surfaces": [
+    {
+      "id": "sidebar",
+      "font": "Galmuri7",
+      "resource": "font.starcon",
+      "notes": "compact 기준. 고정 8px 행."
+    },
+    {
+      "id": "history",
+      "font": "Galmuri7",
+      "resource": "font.tiny",
+      "notes": "고정 8px 행."
+    },
+    {
+      "id": "player_choices",
+      "font": "Galmuri9",
+      "resource": "font.player",
+      "notes": "시험 적용. 자동 줄바꿈/스크롤 검증 필요."
+    }
+  ],
+  "dialogue_fonts": [
+    {
+      "id": "arilou",
+      "glossary_ids": [
+        "arilou"
+      ],
+      "dialogue_resource": "comm.arilou.dialogue",
+      "font_resource": "comm.arilou.font",
+      "original_font": "FONTRES:base/fonts/arilou.fon",
+      "original_max_png_height": 10,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "chmmr",
+      "glossary_ids": [
+        "chmmr"
+      ],
+      "dialogue_resource": "comm.chmmr.dialogue",
+      "font_resource": "comm.chmmr.font",
+      "original_font": "FONTRES:base/fonts/chmmr.fon",
+      "original_max_png_height": 12,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "commander",
+      "glossary_ids": [
+        "hayes"
+      ],
+      "dialogue_resource": "comm.commander.dialogue",
+      "font_resource": "comm.commander.font",
+      "original_font": "FONTRES:base/fonts/player.fon",
+      "original_max_png_height": 9,
+      "current_korean_font": "Galmuri9",
+      "candidate_font": "Galmuri9",
+      "status": "trial_applied",
+      "notes": "일부 대사에 적용 중. 실기 줄바꿈·음성 동기 검증 필요."
+    },
+    {
+      "id": "druuge",
+      "glossary_ids": [
+        "druuge"
+      ],
+      "dialogue_resource": "comm.druuge.dialogue",
+      "font_resource": "comm.druuge.font",
+      "original_font": "FONTRES:base/fonts/micro.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "ilwrath",
+      "glossary_ids": [
+        "ilwrath"
+      ],
+      "dialogue_resource": "comm.ilwrath.dialogue",
+      "font_resource": "comm.ilwrath.font",
+      "original_font": "FONTRES:base/fonts/ilwrath.fon",
+      "original_max_png_height": 11,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "kohrah",
+      "glossary_ids": [
+        "kohr_ah"
+      ],
+      "dialogue_resource": "comm.kohrah.dialogue",
+      "font_resource": "comm.kohrah.font",
+      "original_font": "FONTRES:base/fonts/kohrah.fon",
+      "original_max_png_height": 15,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri11",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "melnorme",
+      "glossary_ids": [
+        "melnorme"
+      ],
+      "dialogue_resource": "comm.melnorme.dialogue",
+      "font_resource": "comm.melnorme.font",
+      "original_font": "FONTRES:base/fonts/micro.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "mycon",
+      "glossary_ids": [
+        "mycon"
+      ],
+      "dialogue_resource": "comm.mycon.dialogue",
+      "font_resource": "comm.mycon.font",
+      "original_font": "FONTRES:base/fonts/mycon.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "orz",
+      "glossary_ids": [
+        "orz"
+      ],
+      "dialogue_resource": "comm.orz.dialogue",
+      "font_resource": "comm.orz.font",
+      "original_font": "FONTRES:base/fonts/orz.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "pkunk",
+      "glossary_ids": [
+        "pkunk"
+      ],
+      "dialogue_resource": "comm.pkunk.dialogue",
+      "font_resource": "comm.pkunk.font",
+      "original_font": "FONTRES:base/fonts/pkunk.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "probe",
+      "glossary_ids": [
+        "slylandro_probe",
+        "slylandro"
+      ],
+      "dialogue_resource": "comm.probe.dialogue",
+      "font_resource": "comm.probe.font",
+      "original_font": "FONTRES:base/fonts/probe.fon",
+      "original_max_png_height": 11,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "safeones",
+      "glossary_ids": [
+        "spathi"
+      ],
+      "dialogue_resource": "comm.safeones.dialogue",
+      "font_resource": null,
+      "original_font": null,
+      "original_max_png_height": null,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용."
+    },
+    {
+      "id": "shofixti",
+      "glossary_ids": [
+        "shofixti"
+      ],
+      "dialogue_resource": "comm.shofixti.dialogue",
+      "font_resource": "comm.shofixti.font",
+      "original_font": "FONTRES:base/fonts/shofixti.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "slylandro",
+      "glossary_ids": [
+        "slylandro"
+      ],
+      "dialogue_resource": "comm.slylandro.dialogue",
+      "font_resource": "comm.slylandro.font",
+      "original_font": "FONTRES:base/fonts/slylandro.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "spathi",
+      "glossary_ids": [
+        "spathi"
+      ],
+      "dialogue_resource": "comm.spathi.dialogue",
+      "font_resource": "comm.spathi.font",
+      "original_font": "FONTRES:base/fonts/spathi.fon",
+      "original_max_png_height": 14,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri11",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "starbase",
+      "glossary_ids": [
+        "hayes"
+      ],
+      "dialogue_resource": "comm.starbase.dialogue",
+      "font_resource": null,
+      "original_font": null,
+      "original_max_png_height": null,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용."
+    },
+    {
+      "id": "supox",
+      "glossary_ids": [
+        "supox"
+      ],
+      "dialogue_resource": "comm.supox.dialogue",
+      "font_resource": "comm.supox.font",
+      "original_font": "FONTRES:base/fonts/supox.fon",
+      "original_max_png_height": 11,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "syreen",
+      "glossary_ids": [
+        "syreen"
+      ],
+      "dialogue_resource": "comm.syreen.dialogue",
+      "font_resource": "comm.syreen.font",
+      "original_font": "FONTRES:base/fonts/syreen.fon",
+      "original_max_png_height": 14,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri11",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "talkingpet",
+      "glossary_ids": [
+        "talking_pet"
+      ],
+      "dialogue_resource": "comm.talkingpet.dialogue",
+      "font_resource": "comm.talkingpet.font",
+      "original_font": "FONTRES:base/fonts/talkingpet.fon",
+      "original_max_png_height": 11,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "thraddash",
+      "glossary_ids": [
+        "thraddash"
+      ],
+      "dialogue_resource": "comm.thraddash.dialogue",
+      "font_resource": "comm.thraddash.font",
+      "original_font": "FONTRES:base/fonts/thraddash.fon",
+      "original_max_png_height": 11,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "umgah",
+      "glossary_ids": [
+        "umgah"
+      ],
+      "dialogue_resource": "comm.umgah.dialogue",
+      "font_resource": "comm.umgah.font",
+      "original_font": "FONTRES:base/fonts/umgah.fon",
+      "original_max_png_height": 8,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "urquan",
+      "glossary_ids": [
+        "ur_quan",
+        "kzer_za"
+      ],
+      "dialogue_resource": "comm.urquan.dialogue",
+      "font_resource": "comm.urquan.font",
+      "original_font": "FONTRES:base/fonts/urquan.fon",
+      "original_max_png_height": 15,
+      "current_korean_font": "Galmuri9",
+      "candidate_font": "Galmuri9",
+      "status": "trial_applied",
+      "notes": "일부 대사에 적용 중. 실기 줄바꿈·음성 동기 검증 필요."
+    },
+    {
+      "id": "utwig",
+      "glossary_ids": [
+        "utwig"
+      ],
+      "dialogue_resource": "comm.utwig.dialogue",
+      "font_resource": "comm.utwig.font",
+      "original_font": "FONTRES:base/fonts/utwig.fon",
+      "original_max_png_height": 14,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri11",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "vux",
+      "glossary_ids": [
+        "vux"
+      ],
+      "dialogue_resource": "comm.vux.dialogue",
+      "font_resource": "comm.vux.font",
+      "original_font": "FONTRES:base/fonts/vux.fon",
+      "original_max_png_height": 11,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "yehat",
+      "glossary_ids": [
+        "yehat"
+      ],
+      "dialogue_resource": "comm.yehat.dialogue",
+      "font_resource": "comm.yehat.font",
+      "original_font": "FONTRES:base/fonts/yehat.fon",
+      "original_max_png_height": 13,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    },
+    {
+      "id": "yehat.rebel",
+      "glossary_ids": [
+        "yehat"
+      ],
+      "dialogue_resource": "comm.yehat.rebel.dialogue",
+      "font_resource": null,
+      "original_font": null,
+      "original_max_png_height": null,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용."
+    },
+    {
+      "id": "zoqfotpik",
+      "glossary_ids": [
+        "zoq_fot_pik"
+      ],
+      "dialogue_resource": "comm.zoqfotpik.dialogue",
+      "font_resource": "comm.zoqfotpik.font",
+      "original_font": "FONTRES:base/fonts/zoqfotpik.fon",
+      "original_max_png_height": 10,
+      "current_korean_font": null,
+      "candidate_font": "Galmuri9",
+      "status": "proposed",
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+    }
+  ]
+}

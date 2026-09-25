@@ -38,3 +38,5 @@ Whenever adding/replacing an external font or other asset, update this source se
 change with author, official source/download, license, local license file, file hash, usage and any
 modifications. Free download alone is not a redistribution license. Keep font attribution/licenses
 with generated assets. Record modifications explicitly; do not claim a modified font is original.
+
+Race/dialogue assignments are tracked in [FONTS.md](translations/FONTS.md) and [fonts.ko.json](translations/fonts.ko.json). Proposed assignments do not mean those fonts have been applied in game. No additional external font files were introduced by this mapping.
