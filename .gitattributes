@@ -2,3 +2,4 @@
 *.ttf binary
 *.png binary
 *.uqm binary
+vendor/** -text
