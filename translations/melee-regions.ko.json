@@ -1,0 +1,233 @@
+{
+  "status": "draft_runtime_pending",
+  "rows": [
+    {
+      "source_path": "base/ui/meleemenu-000.png",
+      "source_sha256": "7ec85607d5390aefe2b25c36358a2a7e5c4b06f83b6e7f82aa8df8e4bf903df9",
+      "size": [
+        318,
+        240
+      ],
+      "regions": [
+        {
+          "box": [
+            55,
+            4,
+            194,
+            14
+          ],
+          "text": "함대 대전",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            248,
+            0,
+            248,
+            255
+          ],
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-025.png",
+      "source_sha256": "1ffe18e11682117c350f162078db841c4ecc95f5a0a92719cec9ea9aca5a309d",
+      "size": [
+        64,
+        67
+      ],
+      "regions": [
+        {
+          "box": [
+            5,
+            54,
+            54,
+            9
+          ],
+          "text": "전투!",
+          "background": [
+            23,
+            23,
+            23,
+            255
+          ],
+          "foreground": [
+            248,
+            0,
+            248,
+            255
+          ],
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-026.png",
+      "source_sha256": "51eeeb203db372a821d6b58877ec291c6d63d9dc439f4b133155ae341c54efb6",
+      "size": [
+        64,
+        67
+      ],
+      "regions": [
+        {
+          "box": [
+            5,
+            54,
+            54,
+            9
+          ],
+          "text": "전투!",
+          "background": [
+            2,
+            4,
+            62,
+            255
+          ],
+          "foreground": [
+            248,
+            0,
+            248,
+            255
+          ],
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-027.png",
+      "source_sha256": "8a4d791807653f826e223cbc7fc6c402e07e074a0734e6fcf051d3f495730bdd",
+      "size": [
+        128,
+        98
+      ],
+      "regions": [
+        {
+          "box": [
+            4,
+            21,
+            10,
+            73
+          ],
+          "text": "함선선택",
+          "background": [
+            87,
+            87,
+            87,
+            255
+          ],
+          "foreground": [
+            138,
+            138,
+            138,
+            255
+          ],
+          "scale": 1,
+          "vertical": true
+        },
+        {
+          "box": [
+            114,
+            21,
+            10,
+            73
+          ],
+          "text": "함선정보",
+          "background": [
+            87,
+            87,
+            87,
+            255
+          ],
+          "foreground": [
+            138,
+            138,
+            138,
+            255
+          ],
+          "scale": 1,
+          "vertical": true
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/meleemenu-028.png",
+      "source_sha256": "529f1af67bde73753fcddf7dbf23e950307e31dd3b4b9beb67f74b0aa124dc2d",
+      "size": [
+        250,
+        177
+      ],
+      "regions": [
+        {
+          "box": [
+            20,
+            162,
+            42,
+            12
+          ],
+          "text": "불러오기",
+          "background": [
+            30,
+            30,
+            93,
+            255
+          ],
+          "foreground": [
+            58,
+            58,
+            145,
+            255
+          ],
+          "scale": 1
+        },
+        {
+          "box": [
+            80,
+            162,
+            61,
+            12
+          ],
+          "text": "취소",
+          "background": [
+            30,
+            30,
+            93,
+            255
+          ],
+          "foreground": [
+            58,
+            58,
+            145,
+            255
+          ],
+          "scale": 1
+        },
+        {
+          "box": [
+            158,
+            162,
+            86,
+            12
+          ],
+          "text": "스크롤",
+          "background": [
+            30,
+            30,
+            93,
+            255
+          ],
+          "foreground": [
+            58,
+            58,
+            145,
+            255
+          ],
+          "scale": 1
+        }
+      ]
+    }
+  ]
+}

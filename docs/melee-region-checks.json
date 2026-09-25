@@ -1,0 +1,9 @@
+{
+  "status": "static_passed_runtime_pending",
+  "sprites": 5,
+  "captions": 8,
+  "preserved": "ANI, grid, A/B/C symbols, scroll arrow, ship art and existing translated buttons",
+  "limitations": [
+    "Input mapping and in-game visibility still require runtime review."
+  ]
+}

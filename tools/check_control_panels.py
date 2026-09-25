@@ -2,17 +2,19 @@ import io,json
 from pathlib import Path
 from PIL import Image,ImageChops,ImageDraw
 from ui_text_panels import load_panels
+from melee_regions import load_regions
 ROOT=Path(__file__).resolve().parents[1]
 
 def verify_control_panels(package,source):
     spec=load_panels();targets={r['source_path']:r for r in spec['panels']};assert len(targets)==34
+    overlays={r['source_path']:r for r in load_regions()['rows']}
     composites={r['source_path']:r for r in spec.get('background_composites',[])}
     ui=json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
     for group in spec['groups']:
         path=group['source_path'];assert source.read(path)==package.read(path.replace('base/','ko/',1))
         for line in source.read(path).decode().splitlines():
             name='base/ui/'+line.split()[0]
-            if name not in targets and name not in composites:assert source.read(name)==package.read(name.replace('base/','ko/',1))
+            if name not in targets and name not in composites and name not in overlays:assert source.read(name)==package.read(name.replace('base/','ko/',1))
     rows=[]
     for name,row in targets.items():
         im=Image.open(io.BytesIO(package.read(name.replace('base/','ko/',1)))).convert('RGBA')
@@ -33,7 +35,9 @@ def verify_control_panels(package,source):
             assert patched.crop(box).tobytes()==panel.tobytes()
             assert all(box[2]<=b[0] or b[2]<=box[0] or box[3]<=b[1] or b[3]<=box[1] for b in boxes)
             boxes.append(box);draw.rectangle((x,y,box[2]-1,box[3]-1),fill=(0,0,0))
-        assert diff.getbbox() is None,'Non-button background pixels changed'
+        for region in overlays.get(name,{}).get('regions',[]):
+            x,y,w,h=region['box'];draw.rectangle((x,y,x+w-1,y+h-1),fill=(0,0,0))
+        assert diff.getbbox() is None,'Non-button/caption background pixels changed'
     ani=[line.split() for line in source.read('base/ui/meleemenu.ani').decode().splitlines()]
     def bottom(index):return -int(ani[index][4])+targets['base/ui/'+ani[index][0]]['size'][1]
     assert bottom(18)<=-int(ani[17][4]) and bottom(17)<=-int(ani[25][4])

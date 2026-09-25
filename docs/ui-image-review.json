@@ -4,13 +4,13 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 31,
+    "embedded_text_pending": 27,
     "existing_replacement_runtime_pending": 10,
     "generated_korean_heading_runtime_pending": 38,
+    "generated_korean_melee_caption_runtime_pending": 5,
     "generated_korean_module_label_runtime_pending": 16,
     "generated_korean_panel_runtime_pending": 34,
     "no_obvious_language_text_in_viewed_image": 267,
-    "partial_button_replacement_other_text_pending": 1,
     "partial_heading_replacement_other_text_pending": 1,
     "preserve_numeric_sprite": 21,
     "preserve_product_logo": 1
@@ -361,8 +361,8 @@
     {
       "source_path": "base/ui/meleemenu-000.png",
       "source_sha256": "7ec85607d5390aefe2b25c36358a2a7e5c4b06f83b6e7f82aa8df8e4bf903df9",
-      "status": "partial_button_replacement_other_text_pending",
-      "notes": "배경에 박힌 기본 상태 버튼 5곳을 교체. SUPER-MELEE 제목은 여전히 번역 대기."
+      "status": "generated_korean_melee_caption_runtime_pending",
+      "notes": "함대 대전 제목/전투 버튼/함선 선택·정보/불러오기·취소·스크롤 안내 생성. 글자 영역 밖 그림과 입력 식별자 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/meleemenu-001.png",
@@ -511,26 +511,26 @@
     {
       "source_path": "base/ui/meleemenu-025.png",
       "source_sha256": "1ffe18e11682117c350f162078db841c4ecc95f5a0a92719cec9ea9aca5a309d",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_melee_caption_runtime_pending",
+      "notes": "함대 대전 제목/전투 버튼/함선 선택·정보/불러오기·취소·스크롤 안내 생성. 글자 영역 밖 그림과 입력 식별자 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/meleemenu-026.png",
       "source_sha256": "51eeeb203db372a821d6b58877ec291c6d63d9dc439f4b133155ae341c54efb6",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_melee_caption_runtime_pending",
+      "notes": "함대 대전 제목/전투 버튼/함선 선택·정보/불러오기·취소·스크롤 안내 생성. 글자 영역 밖 그림과 입력 식별자 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/meleemenu-027.png",
       "source_sha256": "8a4d791807653f826e223cbc7fc6c402e07e074a0734e6fcf051d3f495730bdd",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_melee_caption_runtime_pending",
+      "notes": "함대 대전 제목/전투 버튼/함선 선택·정보/불러오기·취소·스크롤 안내 생성. 글자 영역 밖 그림과 입력 식별자 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/meleemenu-028.png",
       "source_sha256": "529f1af67bde73753fcddf7dbf23e950307e31dd3b4b9beb67f74b0aa124dc2d",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_melee_caption_runtime_pending",
+      "notes": "함대 대전 제목/전투 버튼/함선 선택·정보/불러오기·취소·스크롤 안내 생성. 글자 영역 밖 그림과 입력 식별자 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/meleemenu-029.png",
