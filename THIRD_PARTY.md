@@ -156,3 +156,5 @@ Inspected public source snapshot: [report.c](https://github.com/intgr/uqm-wasm/b
 ## 슬라이드·함선 소개 재생 경로 조사
 
 UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/intro.c), [fmv.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/fmv.c), [shipyard.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/shipyard.c)를 참고했다. 원 저작권 Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). 해시는 docs/shipspin-resource-audit.json 참조. 사용 목적은 리소스 이름·FONT 선택 동작·텍스트 버퍼 한도의 사실 확인이다. 원본 코드를 복제·배포하거나 설치 EXE를 수정하지 않았다.
+
+성도 이름 처리 참고: [starmap.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/starmap.c), [planets/pstarmap.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/pstarmap.c). Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). 파일 해시는 docs/celestial-name-review.json에 기록했다. 이름 연결·UTF-8 검색·버퍼 크기를 확인했으며 원본 코드는 저장소에 포함하지 않는다. 새 폰트나 외부 이미지는 추가하지 않았다.

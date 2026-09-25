@@ -1,0 +1,14 @@
+{
+  "status": "mapping_glyph_buffer_passed_runtime_pending",
+  "mapped_records": 178,
+  "conservative_combinations": 1980,
+  "max_utf8_bytes_with_nul": 35,
+  "max_width_with_spacing": {
+    "starcon": 105,
+    "tiny": 103
+  },
+  "limitations": [
+    "All prefix/name combinations are an upper bound, not an actual star list.",
+    "No proof of IME entry, search success, or screen fit in installed executable."
+  ]
+}

@@ -1,5 +1,6 @@
 """Audit source coverage, immutable glossary terms, dialogue structure and persona links."""
 import argparse,hashlib,json,re,sys
+from functools import lru_cache
 from pathlib import Path
 from zipfile import ZipFile
 ROOT=Path(__file__).resolve().parents[1]
@@ -10,6 +11,10 @@ def records(text):
  p=re.split(r'(?m)^#\(([^\r\n)]*)\)[^\r\n]*\r?\n',text)
  return [(p[i],p[i+1].rstrip('\r\n')) for i in range(1,len(p),2)]
 
+@lru_cache(maxsize=4096)
+def term_pattern(name,case_sensitive):
+ return re.compile(r'(?<![A-Za-z])'+re.escape(name)+r'(?![A-Za-z])',0 if case_sensitive else re.I)
+
 def canonical_terms(source, terms, source_path=None):
  # A full name owns its span; its embedded short name need not be repeated in Korean.
  # A separately occurring short name still has its own terminology requirement.
@@ -18,8 +23,8 @@ def canonical_terms(source, terms, source_path=None):
   if 'audit_source_paths' in term and source_path not in term['audit_source_paths']:
    continue
   if term['ko']:
-   pattern=r'(?<![A-Za-z])'+re.escape(term['source'])+r'(?![A-Za-z])'
-   matches.extend((m.start(),m.end(),term) for m in re.finditer(pattern,source,0 if term.get('case_sensitive',False) else re.I))
+   pattern=term_pattern(term['source'],term.get('case_sensitive',False))
+   matches.extend((m.start(),m.end(),term) for m in pattern.finditer(source))
  for start,end,term in matches:
   if not any(a<=start and end<=b and b-a>end-start for a,b,_ in matches):
    yield term

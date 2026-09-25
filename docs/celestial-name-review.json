@@ -1,0 +1,1088 @@
+{
+  "source_path": "base/gamestrings.txt",
+  "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
+  "status": "translated_draft_runtime_pending",
+  "records": [
+    {
+      "id": "0000",
+      "source": "Vega",
+      "ko": "베가",
+      "glossary_id": "vega"
+    },
+    {
+      "id": "0001",
+      "source": "Antliae",
+      "ko": "안틀리아이",
+      "glossary_id": "map_antliae"
+    },
+    {
+      "id": "0002",
+      "source": "Apodis",
+      "ko": "아포디스",
+      "glossary_id": "apodis"
+    },
+    {
+      "id": "0003",
+      "source": "Aquarii",
+      "ko": "아쿠아리이",
+      "glossary_id": "aquarii"
+    },
+    {
+      "id": "0004",
+      "source": "Aquilae",
+      "ko": "아퀼라이",
+      "glossary_id": "map_aquilae"
+    },
+    {
+      "id": "0005",
+      "source": "Arae",
+      "ko": "아라이",
+      "glossary_id": "map_arae"
+    },
+    {
+      "id": "0006",
+      "source": "Arietis",
+      "ko": "아리에티스",
+      "glossary_id": "map_arietis"
+    },
+    {
+      "id": "0007",
+      "source": "Aurigae",
+      "ko": "아우리기이",
+      "glossary_id": "map_aurigae"
+    },
+    {
+      "id": "0008",
+      "source": "Trianguli",
+      "ko": "트리앙굴리",
+      "glossary_id": "map_trianguli"
+    },
+    {
+      "id": "0009",
+      "source": "Caeli",
+      "ko": "카일리",
+      "glossary_id": "map_caeli"
+    },
+    {
+      "id": "0010",
+      "source": "Camelopardalis",
+      "ko": "카멜로파르달리스",
+      "glossary_id": "camelopardalis"
+    },
+    {
+      "id": "0011",
+      "source": "Cancri",
+      "ko": "칸크리",
+      "glossary_id": "map_cancri"
+    },
+    {
+      "id": "0012",
+      "source": "Brahe",
+      "ko": "브라헤",
+      "glossary_id": "brahe"
+    },
+    {
+      "id": "0013",
+      "source": "Kepler",
+      "ko": "케플러",
+      "glossary_id": "map_kepler"
+    },
+    {
+      "id": "0014",
+      "source": "Copernicus",
+      "ko": "코페르니쿠스",
+      "glossary_id": "copernicus"
+    },
+    {
+      "id": "0015",
+      "source": "Capricorni",
+      "ko": "카프리코르니",
+      "glossary_id": "map_capricorni"
+    },
+    {
+      "id": "0016",
+      "source": "Carinae",
+      "ko": "카리나이",
+      "glossary_id": "map_carinae"
+    },
+    {
+      "id": "0017",
+      "source": "Cassiopeiae",
+      "ko": "카시오페이아이",
+      "glossary_id": "map_cassiopeiae"
+    },
+    {
+      "id": "0018",
+      "source": "Tucanae",
+      "ko": "투카나이",
+      "glossary_id": "tucanae"
+    },
+    {
+      "id": "0019",
+      "source": "Cephei",
+      "ko": "케페이",
+      "glossary_id": "map_cephei"
+    },
+    {
+      "id": "0020",
+      "source": "Ceti",
+      "ko": "케티",
+      "glossary_id": "map_ceti"
+    },
+    {
+      "id": "0021",
+      "source": "Crateris",
+      "ko": "크라테리스",
+      "glossary_id": "crateris"
+    },
+    {
+      "id": "0022",
+      "source": "Circini",
+      "ko": "키르키니",
+      "glossary_id": "circini"
+    },
+    {
+      "id": "0023",
+      "source": "Columbae",
+      "ko": "콜룸바이",
+      "glossary_id": "columbae"
+    },
+    {
+      "id": "0024",
+      "source": "Chandrasekhar",
+      "ko": "찬드라세카르",
+      "glossary_id": "chandrasekhar"
+    },
+    {
+      "id": "0025",
+      "source": "Sagittae",
+      "ko": "사지타이",
+      "glossary_id": "map_sagittae"
+    },
+    {
+      "id": "0026",
+      "source": "Cygnus",
+      "ko": "키그누스",
+      "glossary_id": "map_cygnus"
+    },
+    {
+      "id": "0027",
+      "source": "Corvi",
+      "ko": "코르비",
+      "glossary_id": "corvi"
+    },
+    {
+      "id": "0028",
+      "source": "Chamaeleonis",
+      "ko": "카마일레오니스",
+      "glossary_id": "map_chamaeleonis"
+    },
+    {
+      "id": "0029",
+      "source": "Equulei",
+      "ko": "에퀼레이",
+      "glossary_id": "map_equulei"
+    },
+    {
+      "id": "0030",
+      "source": "Delphini",
+      "ko": "델피니",
+      "glossary_id": "map_delphini"
+    },
+    {
+      "id": "0031",
+      "source": "Doradus",
+      "ko": "도라두스",
+      "glossary_id": "map_doradus"
+    },
+    {
+      "id": "0032",
+      "source": "Monocerotis",
+      "ko": "모노케로티스",
+      "glossary_id": "map_monocerotis"
+    },
+    {
+      "id": "0033",
+      "source": "Crucis",
+      "ko": "크루키스",
+      "glossary_id": "map_crucis"
+    },
+    {
+      "id": "0034",
+      "source": "Eridani",
+      "ko": "에리다니",
+      "glossary_id": "map_eridani"
+    },
+    {
+      "id": "0035",
+      "source": "Fornacis",
+      "ko": "포르나키스",
+      "glossary_id": "map_fornacis"
+    },
+    {
+      "id": "0036",
+      "source": "Geminorum",
+      "ko": "게미노룸",
+      "glossary_id": "map_geminorum"
+    },
+    {
+      "id": "0037",
+      "source": "Altair",
+      "ko": "알타이르",
+      "glossary_id": "map_altair"
+    },
+    {
+      "id": "0038",
+      "source": "Antares",
+      "ko": "안타레스",
+      "glossary_id": "antares"
+    },
+    {
+      "id": "0039",
+      "source": "Horologii",
+      "ko": "호롤로기이",
+      "glossary_id": "horologii"
+    },
+    {
+      "id": "0040",
+      "source": "Hydrae",
+      "ko": "히드라이",
+      "glossary_id": "map_hydrae"
+    },
+    {
+      "id": "0041",
+      "source": "Andromedae",
+      "ko": "안드로메다이",
+      "glossary_id": "map_andromedae"
+    },
+    {
+      "id": "0042",
+      "source": "Groombridge",
+      "ko": "그룸브리지",
+      "glossary_id": "map_groombridge"
+    },
+    {
+      "id": "0043",
+      "source": "Lacertae",
+      "ko": "라케르타이",
+      "glossary_id": "map_lacertae"
+    },
+    {
+      "id": "0044",
+      "source": "Leonis",
+      "ko": "레오니스",
+      "glossary_id": "map_leonis"
+    },
+    {
+      "id": "0045",
+      "source": "Hyades",
+      "ko": "히아데스",
+      "glossary_id": "hyades"
+    },
+    {
+      "id": "0046",
+      "source": "Leporis",
+      "ko": "레포리스",
+      "glossary_id": "leporis"
+    },
+    {
+      "id": "0047",
+      "source": "Librae",
+      "ko": "리브라에",
+      "glossary_id": "librae"
+    },
+    {
+      "id": "0048",
+      "source": "Lipi",
+      "ko": "리피",
+      "glossary_id": "map_lipi"
+    },
+    {
+      "id": "0049",
+      "source": "Lyncis",
+      "ko": "린키스",
+      "glossary_id": "lyncis"
+    },
+    {
+      "id": "0050",
+      "source": "Fomalhaut",
+      "ko": "포말하우트",
+      "glossary_id": "map_fomalhaut"
+    },
+    {
+      "id": "0051",
+      "source": "Menkar",
+      "ko": "멘카르",
+      "glossary_id": "map_menkar"
+    },
+    {
+      "id": "0052",
+      "source": "Microscopii",
+      "ko": "미크로스코피이",
+      "glossary_id": "map_microscopii"
+    },
+    {
+      "id": "0053",
+      "source": "Draconis",
+      "ko": "드라코니스",
+      "glossary_id": "draconis"
+    },
+    {
+      "id": "0054",
+      "source": "Orionis",
+      "ko": "오리오니스",
+      "glossary_id": "orionis"
+    },
+    {
+      "id": "0055",
+      "source": "Normae",
+      "ko": "노르마이",
+      "glossary_id": "map_normae"
+    },
+    {
+      "id": "0056",
+      "source": "Octantis",
+      "ko": "옥탄티스",
+      "glossary_id": "map_octantis"
+    },
+    {
+      "id": "0057",
+      "source": "Ophiuchi",
+      "ko": "오피우키",
+      "glossary_id": "ophiuchi"
+    },
+    {
+      "id": "0058",
+      "source": "Muscae",
+      "ko": "무스카이",
+      "glossary_id": "muscae"
+    },
+    {
+      "id": "0059",
+      "source": "Pavonis",
+      "ko": "파보니스",
+      "glossary_id": "pavonis"
+    },
+    {
+      "id": "0060",
+      "source": "Pegasi",
+      "ko": "페가시",
+      "glossary_id": "map_pegasi"
+    },
+    {
+      "id": "0061",
+      "source": "Persei",
+      "ko": "페르세이",
+      "glossary_id": "persei"
+    },
+    {
+      "id": "0062",
+      "source": "Phoenicis",
+      "ko": "포이니키스",
+      "glossary_id": "map_phoenicis"
+    },
+    {
+      "id": "0063",
+      "source": "Pictoris",
+      "ko": "픽토리스",
+      "glossary_id": "map_pictoris"
+    },
+    {
+      "id": "0064",
+      "source": "Piscium",
+      "ko": "피스키움",
+      "glossary_id": "map_piscium"
+    },
+    {
+      "id": "0065",
+      "source": "Hyginus",
+      "ko": "히기누스",
+      "glossary_id": "map_hyginus"
+    },
+    {
+      "id": "0066",
+      "source": "Puppis",
+      "ko": "푸피스",
+      "glossary_id": "map_puppis"
+    },
+    {
+      "id": "0067",
+      "source": "Pyxidis",
+      "ko": "픽시디스",
+      "glossary_id": "map_pyxidis"
+    },
+    {
+      "id": "0068",
+      "source": "Reticuli",
+      "ko": "레티쿨리",
+      "glossary_id": "map_reticuli"
+    },
+    {
+      "id": "0069",
+      "source": "Arianni",
+      "ko": "아리안니",
+      "glossary_id": "map_arianni"
+    },
+    {
+      "id": "0070",
+      "source": "Sagittarii",
+      "ko": "사지타리이",
+      "glossary_id": "map_sagittarii"
+    },
+    {
+      "id": "0071",
+      "source": "Scorpii",
+      "ko": "스코르피이",
+      "glossary_id": "map_scorpii"
+    },
+    {
+      "id": "0072",
+      "source": "Sculptoris",
+      "ko": "스쿨프토리스",
+      "glossary_id": "map_sculptoris"
+    },
+    {
+      "id": "0073",
+      "source": "Scuti",
+      "ko": "스쿠티",
+      "glossary_id": "map_scuti"
+    },
+    {
+      "id": "0074",
+      "source": "Serpentis",
+      "ko": "세르펜티스",
+      "glossary_id": "serpentis"
+    },
+    {
+      "id": "0075",
+      "source": "Sextantis",
+      "ko": "섹스탄티스",
+      "glossary_id": "sextantis"
+    },
+    {
+      "id": "0076",
+      "source": "Tauri",
+      "ko": "타우리",
+      "glossary_id": "map_tauri"
+    },
+    {
+      "id": "0077",
+      "source": "Telescopii",
+      "ko": "텔레스코피이",
+      "glossary_id": "map_telescopii"
+    },
+    {
+      "id": "0078",
+      "source": "Bootis",
+      "ko": "보오티스",
+      "glossary_id": "map_bootis"
+    },
+    {
+      "id": "0079",
+      "source": "Olber",
+      "ko": "올버",
+      "glossary_id": "map_olber"
+    },
+    {
+      "id": "0080",
+      "source": "Centauri",
+      "ko": "센타우리",
+      "glossary_id": "centauri"
+    },
+    {
+      "id": "0081",
+      "source": "Ptolemae",
+      "ko": "프톨레마이",
+      "glossary_id": "map_ptolemae"
+    },
+    {
+      "id": "0082",
+      "source": "Gorno",
+      "ko": "고르노",
+      "glossary_id": "gorno"
+    },
+    {
+      "id": "0083",
+      "source": "Velorum",
+      "ko": "벨로룸",
+      "glossary_id": "map_velorum"
+    },
+    {
+      "id": "0084",
+      "source": "Virginis",
+      "ko": "비르기니스",
+      "glossary_id": "map_virginis"
+    },
+    {
+      "id": "0085",
+      "source": "Volantis",
+      "ko": "볼란티스",
+      "glossary_id": "map_volantis"
+    },
+    {
+      "id": "0086",
+      "source": "Vulpeculae",
+      "ko": "불페쿨라이",
+      "glossary_id": "vulpeculae"
+    },
+    {
+      "id": "0087",
+      "source": "Lalande",
+      "ko": "랄랑드",
+      "glossary_id": "lalande"
+    },
+    {
+      "id": "0088",
+      "source": "Luyten",
+      "ko": "루이텐",
+      "glossary_id": "luyten"
+    },
+    {
+      "id": "0089",
+      "source": "Indi",
+      "ko": "인디",
+      "glossary_id": "indi"
+    },
+    {
+      "id": "0090",
+      "source": "Lacaille",
+      "ko": "라카유",
+      "glossary_id": "lacaille"
+    },
+    {
+      "id": "0091",
+      "source": "Giclas",
+      "ko": "기클라스",
+      "glossary_id": "giclas"
+    },
+    {
+      "id": "0092",
+      "source": "Krueger",
+      "ko": "크루거",
+      "glossary_id": "krueger"
+    },
+    {
+      "id": "0093",
+      "source": "Lyrae",
+      "ko": "리라이",
+      "glossary_id": "map_lyrae"
+    },
+    {
+      "id": "0094",
+      "source": "Wolf",
+      "ko": "볼프",
+      "glossary_id": "map_wolf"
+    },
+    {
+      "id": "0095",
+      "source": "Saurus",
+      "ko": "사우루스",
+      "glossary_id": "map_saurus"
+    },
+    {
+      "id": "0096",
+      "source": "Raynet",
+      "ko": "레이넷",
+      "glossary_id": "raynet"
+    },
+    {
+      "id": "0097",
+      "source": "Zeeman",
+      "ko": "제이만",
+      "glossary_id": "map_zeeman"
+    },
+    {
+      "id": "0098",
+      "source": "Vela",
+      "ko": "벨라",
+      "glossary_id": "vela"
+    },
+    {
+      "id": "0099",
+      "source": "Mira",
+      "ko": "미라",
+      "glossary_id": "mira"
+    },
+    {
+      "id": "0100",
+      "source": "Cerenkov",
+      "ko": "체렌코프",
+      "glossary_id": "cerenkov"
+    },
+    {
+      "id": "0101",
+      "source": "Mersenne",
+      "ko": "메르센",
+      "glossary_id": "map_mersenne"
+    },
+    {
+      "id": "0102",
+      "source": "Maksutov",
+      "ko": "막수토프",
+      "glossary_id": "map_maksutov"
+    },
+    {
+      "id": "0103",
+      "source": "Klystron",
+      "ko": "클라이스트론",
+      "glossary_id": "map_klystron"
+    },
+    {
+      "id": "0104",
+      "source": "Metis",
+      "ko": "메티스",
+      "glossary_id": "map_metis"
+    },
+    {
+      "id": "0105",
+      "source": "Mensae",
+      "ko": "멘사이",
+      "glossary_id": "map_mensae"
+    },
+    {
+      "id": "0106",
+      "source": "Illuminati",
+      "ko": "일루미나티",
+      "glossary_id": "map_illuminati"
+    },
+    {
+      "id": "0107",
+      "source": "Vitalis",
+      "ko": "비탈리스",
+      "glossary_id": "map_vitalis"
+    },
+    {
+      "id": "0108",
+      "source": "Herculis",
+      "ko": "헤르쿨리스",
+      "glossary_id": "herculis"
+    },
+    {
+      "id": "0109",
+      "source": "Gruis",
+      "ko": "그루이스",
+      "glossary_id": "gruis"
+    },
+    {
+      "id": "0110",
+      "source": "Squidi",
+      "ko": "스퀴디",
+      "glossary_id": "map_squidi"
+    },
+    {
+      "id": "0111",
+      "source": "Almagest",
+      "ko": "알마게스트",
+      "glossary_id": "almagest"
+    },
+    {
+      "id": "0112",
+      "source": "Alcor",
+      "ko": "알코르",
+      "glossary_id": "map_alcor"
+    },
+    {
+      "id": "0113",
+      "source": "Algol",
+      "ko": "알골",
+      "glossary_id": "algol"
+    },
+    {
+      "id": "0114",
+      "source": "Betelgeuse",
+      "ko": "베텔게우스",
+      "glossary_id": "betelgeuse"
+    },
+    {
+      "id": "0115",
+      "source": "Aldebaran",
+      "ko": "알데바란",
+      "glossary_id": "map_aldebaran"
+    },
+    {
+      "id": "0116",
+      "source": "Achernar",
+      "ko": "아케르나르",
+      "glossary_id": "map_achernar"
+    },
+    {
+      "id": "0117",
+      "source": "Procyon",
+      "ko": "프로키온",
+      "glossary_id": "procyon"
+    },
+    {
+      "id": "0118",
+      "source": "Rigel",
+      "ko": "리겔",
+      "glossary_id": "rigel"
+    },
+    {
+      "id": "0119",
+      "source": "Bellatrix",
+      "ko": "벨라트릭스",
+      "glossary_id": "map_bellatrix"
+    },
+    {
+      "id": "0120",
+      "source": "Mizar",
+      "ko": "미자르",
+      "glossary_id": "map_mizar"
+    },
+    {
+      "id": "0121",
+      "source": "Hyperion",
+      "ko": "히페리온",
+      "glossary_id": "map_hyperion"
+    },
+    {
+      "id": "0122",
+      "source": "Regulus",
+      "ko": "레굴루스",
+      "glossary_id": "map_regulus"
+    },
+    {
+      "id": "0123",
+      "source": "Organon",
+      "ko": "오르가논",
+      "glossary_id": "organon"
+    },
+    {
+      "id": "0124",
+      "source": "Pollux",
+      "ko": "폴룩스",
+      "glossary_id": "map_pollux"
+    },
+    {
+      "id": "0125",
+      "source": "Capella",
+      "ko": "카펠라",
+      "glossary_id": "map_capella"
+    },
+    {
+      "id": "0126",
+      "source": "Deneb",
+      "ko": "데네브",
+      "glossary_id": "map_deneb"
+    },
+    {
+      "id": "0127",
+      "source": "Canopus",
+      "ko": "카노푸스",
+      "glossary_id": "map_canopus"
+    },
+    {
+      "id": "0128",
+      "source": "Sirius",
+      "ko": "시리우스",
+      "glossary_id": "map_sirius"
+    },
+    {
+      "id": "0129",
+      "source": "Sol",
+      "ko": "태양",
+      "glossary_id": "sol"
+    },
+    {
+      "id": "0130",
+      "source": "Arcturus",
+      "ko": "아크투루스",
+      "glossary_id": "arcturus"
+    },
+    {
+      "id": "0131",
+      "source": "Lentilis",
+      "ko": "렌틸리스",
+      "glossary_id": "map_lentilis"
+    },
+    {
+      "id": "0361",
+      "source": "Alpha",
+      "ko": "알파",
+      "glossary_id": "map_alpha"
+    },
+    {
+      "id": "0362",
+      "source": "Beta",
+      "ko": "베타",
+      "glossary_id": "map_beta"
+    },
+    {
+      "id": "0363",
+      "source": "Gamma",
+      "ko": "감마",
+      "glossary_id": "map_gamma"
+    },
+    {
+      "id": "0364",
+      "source": "Delta",
+      "ko": "델타",
+      "glossary_id": "map_delta"
+    },
+    {
+      "id": "0365",
+      "source": "Epsilon",
+      "ko": "엡실론",
+      "glossary_id": "map_epsilon"
+    },
+    {
+      "id": "0366",
+      "source": "Zeta",
+      "ko": "제타",
+      "glossary_id": "map_zeta"
+    },
+    {
+      "id": "0367",
+      "source": "Eta",
+      "ko": "에타",
+      "glossary_id": "map_eta"
+    },
+    {
+      "id": "0368",
+      "source": "Theta",
+      "ko": "세타",
+      "glossary_id": "map_theta"
+    },
+    {
+      "id": "0369",
+      "source": "Iota",
+      "ko": "이오타",
+      "glossary_id": "map_iota"
+    },
+    {
+      "id": "0370",
+      "source": "Kappa",
+      "ko": "카파",
+      "glossary_id": "map_kappa"
+    },
+    {
+      "id": "0371",
+      "source": "Lambda",
+      "ko": "람다",
+      "glossary_id": "map_lambda"
+    },
+    {
+      "id": "0372",
+      "source": "Mu",
+      "ko": "뮤",
+      "glossary_id": "map_mu"
+    },
+    {
+      "id": "0373",
+      "source": "Nu",
+      "ko": "뉴",
+      "glossary_id": "map_nu"
+    },
+    {
+      "id": "0374",
+      "source": "Xi",
+      "ko": "크시",
+      "glossary_id": "map_xi"
+    },
+    {
+      "id": "0376",
+      "source": "Venus",
+      "ko": "금성",
+      "glossary_id": "map_venus"
+    },
+    {
+      "id": "0377",
+      "source": "Earth",
+      "ko": "지구",
+      "glossary_id": "earth"
+    },
+    {
+      "id": "0378",
+      "source": "Mars",
+      "ko": "화성",
+      "glossary_id": "mars"
+    },
+    {
+      "id": "0379",
+      "source": "Jupiter",
+      "ko": "목성",
+      "glossary_id": "jupiter"
+    },
+    {
+      "id": "0380",
+      "source": "Saturn",
+      "ko": "토성",
+      "glossary_id": "saturn"
+    },
+    {
+      "id": "0381",
+      "source": "Uranus",
+      "ko": "천왕성",
+      "glossary_id": "uranus"
+    },
+    {
+      "id": "0382",
+      "source": "Neptune",
+      "ko": "해왕성",
+      "glossary_id": "map_neptune"
+    },
+    {
+      "id": "0383",
+      "source": "Pluto",
+      "ko": "명왕성",
+      "glossary_id": "pluto"
+    },
+    {
+      "id": "0384",
+      "source": "Luna",
+      "ko": "달",
+      "glossary_id": "luna"
+    },
+    {
+      "id": "0385",
+      "source": "Io",
+      "ko": "이오",
+      "glossary_id": "map_io"
+    },
+    {
+      "id": "0386",
+      "source": "Europa",
+      "ko": "유로파",
+      "glossary_id": "map_europa"
+    },
+    {
+      "id": "0387",
+      "source": "Ganymede",
+      "ko": "가니메데",
+      "glossary_id": "ganymede"
+    },
+    {
+      "id": "0388",
+      "source": "Callisto",
+      "ko": "칼리스토",
+      "glossary_id": "map_callisto"
+    },
+    {
+      "id": "0389",
+      "source": "Titan",
+      "ko": "타이탄",
+      "glossary_id": "titan"
+    },
+    {
+      "id": "0390",
+      "source": "Triton",
+      "ko": "트리톤",
+      "glossary_id": "map_triton"
+    },
+    {
+      "id": "0391",
+      "source": "Planet I",
+      "ko": "행성 I",
+      "glossary_id": null
+    },
+    {
+      "id": "0392",
+      "source": "Planet II",
+      "ko": "행성 II",
+      "glossary_id": null
+    },
+    {
+      "id": "0393",
+      "source": "Planet III",
+      "ko": "행성 III",
+      "glossary_id": null
+    },
+    {
+      "id": "0394",
+      "source": "Planet IV",
+      "ko": "행성 IV",
+      "glossary_id": null
+    },
+    {
+      "id": "0395",
+      "source": "Planet V",
+      "ko": "행성 V",
+      "glossary_id": null
+    },
+    {
+      "id": "0396",
+      "source": "Planet VI",
+      "ko": "행성 VI",
+      "glossary_id": null
+    },
+    {
+      "id": "0397",
+      "source": "Planet VII",
+      "ko": "행성 VII",
+      "glossary_id": null
+    },
+    {
+      "id": "0398",
+      "source": "Planet VIII",
+      "ko": "행성 VIII",
+      "glossary_id": null
+    },
+    {
+      "id": "0399",
+      "source": "Planet IX",
+      "ko": "행성 IX",
+      "glossary_id": null
+    },
+    {
+      "id": "0400",
+      "source": "Planet X",
+      "ko": "행성 X",
+      "glossary_id": null
+    },
+    {
+      "id": "0401",
+      "source": "Planet XI",
+      "ko": "행성 XI",
+      "glossary_id": null
+    },
+    {
+      "id": "0402",
+      "source": "Planet XII",
+      "ko": "행성 XII",
+      "glossary_id": null
+    },
+    {
+      "id": "0403",
+      "source": "Planet XIII",
+      "ko": "행성 XIII",
+      "glossary_id": null
+    },
+    {
+      "id": "0404",
+      "source": "Planet XIV",
+      "ko": "행성 XIV",
+      "glossary_id": null
+    },
+    {
+      "id": "0405",
+      "source": "Planet XV",
+      "ko": "행성 XV",
+      "glossary_id": null
+    },
+    {
+      "id": "0406",
+      "source": "Planet XVI",
+      "ko": "행성 XVI",
+      "glossary_id": null
+    },
+    {
+      "id": "0407",
+      "source": "Sa-Matra",
+      "ko": "사마트라",
+      "glossary_id": "sa_matra"
+    }
+  ],
+  "exceptions": {
+    "0375": "Mercury remains untranslated until an ordinal-specific override distinguishes planet from element."
+  },
+  "source_evidence": {
+    "starmap.c": {
+      "sha256": "cc4ffcece29cd69eeec4814096efb8117cfbec3c3758758cf05537c714d2068f",
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/starmap.c"
+    },
+    "pstarmap.c": {
+      "sha256": "f45f2abe17c865c8c8ece509043dbb7ddd0fc04d220add45461a0cc9faf18c1e",
+      "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/pstarmap.c"
+    }
+  }
+}

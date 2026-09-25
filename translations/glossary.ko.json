@@ -39,9 +39,11 @@
       "source": "Earth",
       "ko": "지구",
       "category": "place",
-      "status": "proposed",
+      "status": "in_use",
       "notes": "",
-      "ui_keys": []
+      "ui_keys": [
+        "Earth"
+      ]
     },
     {
       "id": "hayes",
@@ -111,9 +113,11 @@
       "source": "Sa-Matra",
       "ko": "사마트라",
       "category": "object",
-      "status": "proposed",
+      "status": "in_use",
       "notes": "",
-      "ui_keys": []
+      "ui_keys": [
+        "Sa-Matra"
+      ]
     },
     {
       "id": "kzer_za",
@@ -356,7 +360,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Vela"
+      ]
     },
     {
       "id": "mercury",
@@ -662,7 +668,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Procyon"
+      ]
     },
     {
       "id": "rigel",
@@ -671,7 +679,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Rigel"
+      ]
     },
     {
       "id": "appendages_dawn",
@@ -843,7 +853,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Tucanae"
+      ]
     },
     {
       "id": "zoq_fot",
@@ -870,7 +882,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Centauri"
+      ]
     },
     {
       "id": "uranus",
@@ -879,7 +893,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Uranus"
+      ]
     },
     {
       "id": "spathiwa",
@@ -951,7 +967,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Giclas"
+      ]
     },
     {
       "id": "draconis",
@@ -960,7 +978,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Draconis"
+      ]
     },
     {
       "id": "gorno",
@@ -969,7 +989,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Gorno"
+      ]
     },
     {
       "id": "glory_device",
@@ -1041,7 +1063,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Vulpeculae"
+      ]
     },
     {
       "id": "far_voyager",
@@ -1068,7 +1092,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 종족·외교 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Mira"
+      ]
     },
     {
       "id": "dogar",
@@ -1095,7 +1121,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Pluto"
+      ]
     },
     {
       "id": "new_orleans",
@@ -1122,7 +1150,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Ophiuchi"
+      ]
     },
     {
       "id": "orionis",
@@ -1131,7 +1161,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Orionis"
+      ]
     },
     {
       "id": "mars",
@@ -1140,7 +1172,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Mars"
+      ]
     },
     {
       "id": "luyten",
@@ -1149,7 +1183,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Luyten"
+      ]
     },
     {
       "id": "brahe",
@@ -1158,7 +1194,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Brahe"
+      ]
     },
     {
       "id": "podship",
@@ -1176,7 +1214,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Indi"
+      ]
     },
     {
       "id": "raynet",
@@ -1185,7 +1225,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Raynet"
+      ]
     },
     {
       "id": "ceres_station",
@@ -1266,7 +1308,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Ganymede"
+      ]
     },
     {
       "id": "jupiter",
@@ -1275,7 +1319,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Jupiter"
+      ]
     },
     {
       "id": "saturn",
@@ -1284,7 +1330,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Saturn"
+      ]
     },
     {
       "id": "titan",
@@ -1293,7 +1341,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Titan"
+      ]
     },
     {
       "id": "luna",
@@ -1302,7 +1352,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Luna"
+      ]
     },
     {
       "id": "winky_happy_night",
@@ -1419,7 +1471,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Circini"
+      ]
     },
     {
       "id": "chandrasekhar",
@@ -1428,7 +1482,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Chandrasekhar"
+      ]
     },
     {
       "id": "safe_ones",
@@ -1464,7 +1520,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
-      "ui_keys": []
+      "ui_keys": [
+        "Herculis"
+      ]
     },
     {
       "id": "fop_dope_bic",
@@ -1563,7 +1621,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "아릴루 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Betelgeuse"
+      ]
     },
     {
       "id": "doctrinal_conflict",
@@ -1590,7 +1650,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "아릴루 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Pavonis"
+      ]
     },
     {
       "id": "project_bluebook",
@@ -1770,7 +1832,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "촘르 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Crateris"
+      ]
     },
     {
       "id": "jubby",
@@ -1952,7 +2016,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Antares"
+      ]
     },
     {
       "id": "horologii",
@@ -1961,7 +2027,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Horologii"
+      ]
     },
     {
       "id": "marauder",
@@ -1997,7 +2065,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Leporis"
+      ]
     },
     {
       "id": "tanaka",
@@ -2079,7 +2149,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Sextantis"
+      ]
     },
     {
       "id": "flubbo",
@@ -2106,7 +2178,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Vega"
+      ]
     },
     {
       "id": "linch_nas_ploh",
@@ -2124,7 +2198,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Lyncis"
+      ]
     },
     {
       "id": "dax",
@@ -2160,7 +2236,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Cerenkov"
+      ]
     },
     {
       "id": "rand",
@@ -2277,7 +2355,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Serpentis"
+      ]
     },
     {
       "id": "zeep_zeep",
@@ -2430,7 +2510,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Lalande"
+      ]
     },
     {
       "id": "dimensional_fatigue",
@@ -2583,7 +2665,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "별 이름의 속격 표기를 음역. 제타 및 행성 번호를 별도로 보존한다.",
-      "ui_keys": []
+      "ui_keys": [
+        "Persei"
+      ]
     },
     {
       "id": "ledger_of_hatred",
@@ -2856,7 +2940,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "깊은 아이들 이식 제안의 목적지 항성. 행성 번호는 별도로 보존한다.",
-      "ui_keys": []
+      "ui_keys": [
+        "Organon"
+      ]
     },
     {
       "id": "solar_manipulator",
@@ -2973,7 +3059,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "별 이름. 베타 접두어는 별도로 보존한다.",
-      "ui_keys": []
+      "ui_keys": [
+        "Librae"
+      ]
     },
     {
       "id": "hyades",
@@ -2982,7 +3070,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "별 이름. 제타와 행성·위성 번호를 별도로 보존한다.",
-      "ui_keys": []
+      "ui_keys": [
+        "Hyades"
+      ]
     },
     {
       "id": "aquarii",
@@ -2991,7 +3081,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "별 이름. 우트위그 모성의 베타 아쿠아리이.",
-      "ui_keys": []
+      "ui_keys": [
+        "Aquarii"
+      ]
     },
     {
       "id": "arcturus",
@@ -3000,7 +3092,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "코르아가 온 방향에 등장하는 항성.",
-      "ui_keys": []
+      "ui_keys": [
+        "Arcturus"
+      ]
     },
     {
       "id": "wumpus",
@@ -3280,7 +3374,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Copernicus"
+      ]
     },
     {
       "id": "camelopardalis",
@@ -3289,7 +3385,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Camelopardalis"
+      ]
     },
     {
       "id": "eden",
@@ -3371,7 +3469,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Krueger"
+      ]
     },
     {
       "id": "franz_ferdinand",
@@ -3840,7 +3940,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "스래대시 후반 대화의 작업 표기. 최종 사용자 승인과 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Apodis"
+      ]
     },
     {
       "id": "chudd",
@@ -4031,7 +4133,9 @@
       "category": "place",
       "status": "in_use",
       "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
-      "ui_keys": []
+      "ui_keys": [
+        "Algol"
+      ]
     },
     {
       "id": "algolites",
@@ -4181,7 +4285,9 @@
       "category": "constellation",
       "status": "in_use",
       "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Columbae"
+      ]
     },
     {
       "id": "corvi",
@@ -4190,7 +4296,9 @@
       "category": "constellation",
       "status": "in_use",
       "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Corvi"
+      ]
     },
     {
       "id": "almagest",
@@ -4199,7 +4307,9 @@
       "category": "star",
       "status": "in_use",
       "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Almagest"
+      ]
     },
     {
       "id": "flup",
@@ -4226,7 +4336,9 @@
       "category": "constellation",
       "status": "in_use",
       "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Lacaille"
+      ]
     },
     {
       "id": "gruis",
@@ -4235,7 +4347,9 @@
       "category": "constellation",
       "status": "in_use",
       "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Gruis"
+      ]
     },
     {
       "id": "gg",
@@ -4413,7 +4527,9 @@
       "category": "constellation",
       "status": "in_use",
       "notes": "조크-포트-피크 탐사선 항로 단서에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Muscae"
+      ]
     },
     {
       "id": "mark_ii",
@@ -4423,6 +4539,1284 @@
       "status": "in_use",
       "notes": "최종 엔딩에서 손주가 언급하는 함선. II 표기를 유지하며 후속 이야기를 덧붙이지 않는다. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "map_antliae",
+      "source": "Antliae",
+      "ko": "안틀리아이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Antliae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_aquilae",
+      "source": "Aquilae",
+      "ko": "아퀼라이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Aquilae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_arae",
+      "source": "Arae",
+      "ko": "아라이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Arae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_arietis",
+      "source": "Arietis",
+      "ko": "아리에티스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Arietis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_aurigae",
+      "source": "Aurigae",
+      "ko": "아우리기이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Aurigae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_trianguli",
+      "source": "Trianguli",
+      "ko": "트리앙굴리",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Trianguli"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_caeli",
+      "source": "Caeli",
+      "ko": "카일리",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Caeli"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_cancri",
+      "source": "Cancri",
+      "ko": "칸크리",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Cancri"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_kepler",
+      "source": "Kepler",
+      "ko": "케플러",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Kepler"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_capricorni",
+      "source": "Capricorni",
+      "ko": "카프리코르니",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Capricorni"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_carinae",
+      "source": "Carinae",
+      "ko": "카리나이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Carinae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_cassiopeiae",
+      "source": "Cassiopeiae",
+      "ko": "카시오페이아이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Cassiopeiae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_cephei",
+      "source": "Cephei",
+      "ko": "케페이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Cephei"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_ceti",
+      "source": "Ceti",
+      "ko": "케티",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Ceti"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_sagittae",
+      "source": "Sagittae",
+      "ko": "사지타이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Sagittae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_cygnus",
+      "source": "Cygnus",
+      "ko": "키그누스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Cygnus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_chamaeleonis",
+      "source": "Chamaeleonis",
+      "ko": "카마일레오니스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Chamaeleonis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_equulei",
+      "source": "Equulei",
+      "ko": "에퀼레이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Equulei"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_delphini",
+      "source": "Delphini",
+      "ko": "델피니",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Delphini"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_doradus",
+      "source": "Doradus",
+      "ko": "도라두스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Doradus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_monocerotis",
+      "source": "Monocerotis",
+      "ko": "모노케로티스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Monocerotis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_crucis",
+      "source": "Crucis",
+      "ko": "크루키스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Crucis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_eridani",
+      "source": "Eridani",
+      "ko": "에리다니",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Eridani"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_fornacis",
+      "source": "Fornacis",
+      "ko": "포르나키스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Fornacis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_geminorum",
+      "source": "Geminorum",
+      "ko": "게미노룸",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Geminorum"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_altair",
+      "source": "Altair",
+      "ko": "알타이르",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Altair"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_hydrae",
+      "source": "Hydrae",
+      "ko": "히드라이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Hydrae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_andromedae",
+      "source": "Andromedae",
+      "ko": "안드로메다이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Andromedae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_groombridge",
+      "source": "Groombridge",
+      "ko": "그룸브리지",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Groombridge"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_lacertae",
+      "source": "Lacertae",
+      "ko": "라케르타이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Lacertae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_leonis",
+      "source": "Leonis",
+      "ko": "레오니스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Leonis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_lipi",
+      "source": "Lipi",
+      "ko": "리피",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Lipi"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_fomalhaut",
+      "source": "Fomalhaut",
+      "ko": "포말하우트",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Fomalhaut"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_menkar",
+      "source": "Menkar",
+      "ko": "멘카르",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Menkar"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_microscopii",
+      "source": "Microscopii",
+      "ko": "미크로스코피이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Microscopii"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_normae",
+      "source": "Normae",
+      "ko": "노르마이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Normae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_octantis",
+      "source": "Octantis",
+      "ko": "옥탄티스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Octantis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_pegasi",
+      "source": "Pegasi",
+      "ko": "페가시",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Pegasi"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_phoenicis",
+      "source": "Phoenicis",
+      "ko": "포이니키스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Phoenicis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_pictoris",
+      "source": "Pictoris",
+      "ko": "픽토리스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Pictoris"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_piscium",
+      "source": "Piscium",
+      "ko": "피스키움",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Piscium"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_hyginus",
+      "source": "Hyginus",
+      "ko": "히기누스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Hyginus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_puppis",
+      "source": "Puppis",
+      "ko": "푸피스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Puppis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_pyxidis",
+      "source": "Pyxidis",
+      "ko": "픽시디스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Pyxidis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_reticuli",
+      "source": "Reticuli",
+      "ko": "레티쿨리",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Reticuli"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_arianni",
+      "source": "Arianni",
+      "ko": "아리안니",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Arianni"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_sagittarii",
+      "source": "Sagittarii",
+      "ko": "사지타리이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Sagittarii"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_scorpii",
+      "source": "Scorpii",
+      "ko": "스코르피이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Scorpii"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_sculptoris",
+      "source": "Sculptoris",
+      "ko": "스쿨프토리스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Sculptoris"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_scuti",
+      "source": "Scuti",
+      "ko": "스쿠티",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Scuti"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_tauri",
+      "source": "Tauri",
+      "ko": "타우리",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Tauri"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_telescopii",
+      "source": "Telescopii",
+      "ko": "텔레스코피이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Telescopii"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_bootis",
+      "source": "Bootis",
+      "ko": "보오티스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Bootis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_olber",
+      "source": "Olber",
+      "ko": "올버",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Olber"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_ptolemae",
+      "source": "Ptolemae",
+      "ko": "프톨레마이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Ptolemae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_velorum",
+      "source": "Velorum",
+      "ko": "벨로룸",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Velorum"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_virginis",
+      "source": "Virginis",
+      "ko": "비르기니스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Virginis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_volantis",
+      "source": "Volantis",
+      "ko": "볼란티스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Volantis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_lyrae",
+      "source": "Lyrae",
+      "ko": "리라이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Lyrae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_wolf",
+      "source": "Wolf",
+      "ko": "볼프",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Wolf"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_saurus",
+      "source": "Saurus",
+      "ko": "사우루스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Saurus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_zeeman",
+      "source": "Zeeman",
+      "ko": "제이만",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Zeeman"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_mersenne",
+      "source": "Mersenne",
+      "ko": "메르센",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Mersenne"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_maksutov",
+      "source": "Maksutov",
+      "ko": "막수토프",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Maksutov"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_klystron",
+      "source": "Klystron",
+      "ko": "클라이스트론",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Klystron"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_metis",
+      "source": "Metis",
+      "ko": "메티스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Metis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_mensae",
+      "source": "Mensae",
+      "ko": "멘사이",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Mensae"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_illuminati",
+      "source": "Illuminati",
+      "ko": "일루미나티",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Illuminati"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_vitalis",
+      "source": "Vitalis",
+      "ko": "비탈리스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Vitalis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_squidi",
+      "source": "Squidi",
+      "ko": "스퀴디",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Squidi"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_alcor",
+      "source": "Alcor",
+      "ko": "알코르",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Alcor"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_aldebaran",
+      "source": "Aldebaran",
+      "ko": "알데바란",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Aldebaran"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_achernar",
+      "source": "Achernar",
+      "ko": "아케르나르",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Achernar"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_bellatrix",
+      "source": "Bellatrix",
+      "ko": "벨라트릭스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Bellatrix"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_mizar",
+      "source": "Mizar",
+      "ko": "미자르",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Mizar"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_hyperion",
+      "source": "Hyperion",
+      "ko": "히페리온",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Hyperion"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_regulus",
+      "source": "Regulus",
+      "ko": "레굴루스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Regulus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_pollux",
+      "source": "Pollux",
+      "ko": "폴룩스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Pollux"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_capella",
+      "source": "Capella",
+      "ko": "카펠라",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Capella"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_deneb",
+      "source": "Deneb",
+      "ko": "데네브",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Deneb"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_canopus",
+      "source": "Canopus",
+      "ko": "카노푸스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Canopus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_sirius",
+      "source": "Sirius",
+      "ko": "시리우스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Sirius"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_lentilis",
+      "source": "Lentilis",
+      "ko": "렌틸리스",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Lentilis"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_alpha",
+      "source": "Alpha",
+      "ko": "알파",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Alpha"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_beta",
+      "source": "Beta",
+      "ko": "베타",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Beta"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_gamma",
+      "source": "Gamma",
+      "ko": "감마",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Gamma"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_delta",
+      "source": "Delta",
+      "ko": "델타",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Delta"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_epsilon",
+      "source": "Epsilon",
+      "ko": "엡실론",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Epsilon"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_zeta",
+      "source": "Zeta",
+      "ko": "제타",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Zeta"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_eta",
+      "source": "Eta",
+      "ko": "에타",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Eta"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_theta",
+      "source": "Theta",
+      "ko": "세타",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Theta"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_iota",
+      "source": "Iota",
+      "ko": "이오타",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Iota"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_kappa",
+      "source": "Kappa",
+      "ko": "카파",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Kappa"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_lambda",
+      "source": "Lambda",
+      "ko": "람다",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Lambda"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_mu",
+      "source": "Mu",
+      "ko": "뮤",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Mu"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_nu",
+      "source": "Nu",
+      "ko": "뉴",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Nu"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_xi",
+      "source": "Xi",
+      "ko": "크시",
+      "category": "star_prefix",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Xi"
+      ],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ]
+    },
+    {
+      "id": "map_venus",
+      "source": "Venus",
+      "ko": "금성",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Venus"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_neptune",
+      "source": "Neptune",
+      "ko": "해왕성",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Neptune"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_io",
+      "source": "Io",
+      "ko": "이오",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Io"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_europa",
+      "source": "Europa",
+      "ko": "유로파",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Europa"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_callisto",
+      "source": "Callisto",
+      "ko": "칼리스토",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Callisto"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "id": "map_triton",
+      "source": "Triton",
+      "ko": "트리톤",
+      "category": "celestial_name",
+      "status": "in_use",
+      "notes": "게임 성도/천체 이름의 한국어 표기 초안. 기존 게임 원문 철자에 대응하며 표준 천문학 명명이나 사용자 최종 승인을 주장하지 않는다.",
+      "ui_keys": [
+        "Triton"
+      ],
+      "case_sensitive": true
     }
   ]
 }

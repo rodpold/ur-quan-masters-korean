@@ -16,6 +16,9 @@ def verify(game, ui_font="compact", report_previews=None):
         (patcher.ROOT/'docs/intro-layout-checks.json').write_text(json.dumps(intro_check,indent=2)+'\n',encoding='utf-8')
         ending_check = verify_ending(z, source)
         (patcher.ROOT/'docs/ending-layout-checks.json').write_text(json.dumps(ending_check,indent=2)+'\n',encoding='utf-8')
+        from check_celestial import verify_celestial
+        celestial_check = verify_celestial(z, source)
+        (patcher.ROOT/'docs/celestial-layout-checks.json').write_text(json.dumps(celestial_check,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')
