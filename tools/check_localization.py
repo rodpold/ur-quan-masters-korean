@@ -38,7 +38,7 @@ def audit(game):
  terms={t['id']:t for t in json.loads((ROOT/'translations/glossary.ko.json').read_text(encoding='utf-8'))['terms']}
  lock=json.loads((ROOT/'translations/glossary.lock.json').read_text(encoding='utf-8'))['terms']
  for id,t in lock.items():assert id in terms and all(terms[id][k]==v for k,v in t.items()),f'Locked term changed: {id}'
- rows=[];other=[];translated_total=0;total=0
+ rows=[];other=[];translated_total=0;total=0;orz_report=None
  reports=patcher.report_translations()
  with ZipFile(Path(game)/patcher.SOURCE) as z:
   patcher.report_assets(z,reports)
@@ -61,6 +61,11 @@ def audit(game):
    for key,text in selected.items():
     if active_src[key]!=src[key] or text!=trans.get(key):
      check_dialogue_record(active_src[key],text,terms.values(),path,f'{id}/{key} [active edition]')
+   if id=='orz':
+    from check_orz_concepts import validate as validate_orz
+    concepts=json.loads((ROOT/'translations/orz-concepts.ko.json').read_text(encoding='utf-8'))
+    orz_report=validate_orz(src,trans,concepts)
+    if active_src!=src:validate_orz(active_src,selected,concepts)
    translated_total+=len(trans);total+=len(src)
    rows.append({'id':id,'source_path':path,'source_sha256':hashlib.sha256(source).hexdigest(),'records':len(src),'translated':len(trans),'untranslated_ids':[k for k in src if k not in trans],'persona':group,'status':'translated_draft' if len(trans)==len(src) else 'partial' if trans else 'not_started','linguistic_review':'pending','in_game_review':'pending'})
   for n in z.namelist():
@@ -75,7 +80,7 @@ def audit(game):
      for term in canonical_terms(original,terms.values(),n):assert term['ko'] in text,f'Report term: {n}/{key}: {term["source"]}'
     status=('translated_draft' if len(report_trans)==len(rr) else 'partial') if report_trans else ('partial_existing_patch' if n in ['base/gamestrings.txt','base/ui/setupmenu.txt'] else 'not_started_or_requires_classification')
     other.append({'source_path':n,'source_sha256':hashlib.sha256(data).hexdigest(),'records':len(rr),'translated':len(report_trans) if n.startswith('base/lander/') else None,'status':status,'linguistic_review':'pending','in_game_review':'pending'})
- return {'goal':'full_game_korean_localization','complete':False,'dialogue_records':total,'translated_report_records':sum(map(len,reports.values())),'report_records':sum(row['records'] for row in other if row['source_path'].startswith('base/lander/')),'translated_dialogue_records':translated_total,'dialogue_coverage_percent':round(translated_total*100/total,2),'locked_terms':len(lock),'persona_groups':len(per['profiles']),'dialogue':rows,'other_text_resources':other,'limitations':['Coverage counts translated records, not meaning/style quality or rendered layout.','Other text includes technical/credit/name fragments; classify before marking preserved/translated.','Numeric check preserves source digit tokens but does not prove dynamic numeral grammar.']}
+ return {'goal':'full_game_korean_localization','complete':False,'orz_concepts':orz_report,'dialogue_records':total,'translated_report_records':sum(map(len,reports.values())),'report_records':sum(row['records'] for row in other if row['source_path'].startswith('base/lander/')),'translated_dialogue_records':translated_total,'dialogue_coverage_percent':round(translated_total*100/total,2),'locked_terms':len(lock),'persona_groups':len(per['profiles']),'dialogue':rows,'other_text_resources':other,'limitations':['Coverage counts translated records, not meaning/style quality or rendered layout.','Other text includes technical/credit/name fragments; classify before marking preserved/translated.','Numeric check preserves source digit tokens but does not prove dynamic numeral grammar.']}
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--game',required=True,type=Path);p.add_argument('--write-report',action='store_true');a=p.parse_args();report=audit(a.game)

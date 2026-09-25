@@ -235,10 +235,23 @@
       "source_path": "base/comm/orz/orz.txt",
       "evidence_record_ids": [
         "INIT_HELLO",
-        "WE_ARE_ORZ"
+        "GENERAL_INFO_ALLY_1",
+        "ABOUT_US_3",
+        "FORGET_ANDRO_2",
+        "FRIENDLY_PLACE",
+        "OUT_TAKES"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "concept_registry": "translations/orz-concepts.ko.json",
+      "record_overrides": {
+        "INIT_HELLO": "함선 컴퓨터의 건조한 시스템 안내. 오르즈의 말투를 적용하지 않는다.",
+        "neutral / allied": "어색한 문법과 반복적인 과장. 우리/나/오르즈의 교대를 원문대로 두며 단일 존재 여부를 해설하지 않는다.",
+        "ABOUT_US_* / GENERAL_INFO_ALLY_1": "손가락·방울·층·시간·공간은 별표 표현 그대로 유지한다. 안드로신스의 운명과 타알로의 소재를 확정하는 설명을 덧붙이지 않는다.",
+        "angry / hostile / Androsynth questions": "프럼플·즙·춤추기·녹이기의 표현을 보존한다. 전투 분기로 이어져도 별표 표현을 평범한 협박 문장으로 바꾸지 않는다.",
+        "Taalo playground": "동맹 여부에 따른 착륙 허가와 거절을 구분하며 놀이터/예쁜 공간/시간 농담들의 모호함을 유지한다.",
+        "OUT_TAKES": "첫 대사는 오르즈, 중간은 대본에 짜증내는 배우의 평범한 해체, 마지막은 다시 오르즈. *한숨*은 여기서 무대 지시다."
+      }
     },
     "pkunk": {
       "persona": "신비주의적이고 수다스러운 낙천가",

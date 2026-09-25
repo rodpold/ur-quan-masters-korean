@@ -1,0 +1,813 @@
+{
+  "schema_version": 1,
+  "status": "draft_pending_linguistic_review",
+  "source_path": "base/comm/orz/orz.txt",
+  "notes": "별표 안 표현만의 대응표. 뜻을 확정하는 해설이 아니다. 대소문자와 끝의 !/.만 정규화한다. sigh는 아웃테이크의 무대 지시다.",
+  "concepts": [
+    {
+      "source": "above",
+      "ko": "위",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "absorbing",
+      "ko": "흡수 중",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "alliance",
+      "ko": "동맹",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "alliance parties",
+      "ko": "동맹 파티들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "anticipating",
+      "ko": "기대하기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "anticipation",
+      "ko": "기대",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "become",
+      "ko": "되어 가다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "below",
+      "ko": "아래",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "better",
+      "ko": "더 나은",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "bright",
+      "ko": "밝은",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "bubbles",
+      "ko": "방울들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "camper",
+      "ko": "야영자",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "camper friends",
+      "ko": "야영자 친구들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "campers",
+      "ko": "야영자들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "camping",
+      "ko": "야영",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "celebration",
+      "ko": "축하",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "chase",
+      "ko": "쫓다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "colors",
+      "ko": "색깔들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "combinations",
+      "ko": "조합들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "conclusions",
+      "ko": "결론들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "connected",
+      "ko": "연결된",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "cousins",
+      "ko": "사촌들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "cows",
+      "ko": "소들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dance",
+      "ko": "춤추다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dancing",
+      "ko": "춤추기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dangerous",
+      "ko": "위험한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dead",
+      "ko": "죽은",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dessert",
+      "ko": "후식",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dissolve",
+      "ko": "녹다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "dissolving",
+      "ko": "녹이기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "enjoy the sauce",
+      "ko": "소스 즐기기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "expanding",
+      "ko": "팽창 중",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "extra sick fish",
+      "ko": "더 아픈 물고기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "fat",
+      "ko": "뚱뚱한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "fingers",
+      "ko": "손가락들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "friendly days",
+      "ko": "다정한 날들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "friends",
+      "ko": "친구들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "frumple",
+      "ko": "프럼플",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "fun",
+      "ko": "재미",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "fun time",
+      "ko": "재미 시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "funny",
+      "ko": "웃긴",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "game",
+      "ko": "놀이",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "games",
+      "ko": "놀이들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "germinate",
+      "ko": "발아",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "good news",
+      "ko": "좋은 소식",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "gravity centers",
+      "ko": "중력 중심들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy",
+      "ko": "행복한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy camper",
+      "ko": "행복한 야영자",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy campers",
+      "ko": "행복한 야영자들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy days",
+      "ko": "행복한 날들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy party",
+      "ko": "행복한 파티",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy spices",
+      "ko": "행복한 향신료들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy time",
+      "ko": "행복한 시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy town",
+      "ko": "행복한 마을",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "happy words",
+      "ko": "행복한 말들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "hard",
+      "ko": "딱딱한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "heavy",
+      "ko": "무거운",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "heavy space",
+      "ko": "무거운 공간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "house",
+      "ko": "집",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "hurt",
+      "ko": "아픔",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "hyuivbhjhg",
+      "ko": "HYUIVBHJHG",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "in between",
+      "ko": "사이",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "inside",
+      "ko": "안쪽",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "joke",
+      "ko": "농담",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "juice",
+      "ko": "즙",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "juice squeezing",
+      "ko": "즙 짜내기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "juicy",
+      "ko": "즙 많은",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "jumping in front",
+      "ko": "앞으로 뛰어들기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "jumping peppers",
+      "ko": "뛰는 고추들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "level",
+      "ko": "층",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "levels",
+      "ko": "층들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "light reflections",
+      "ko": "빛의 반사들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "lonely",
+      "ko": "외로운",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "lumpy",
+      "ko": "울퉁불퉁한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "many bubbles",
+      "ko": "많은 방울들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "new town",
+      "ko": "새 마을",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "nice colors",
+      "ko": "좋은 색깔들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "no function",
+      "ko": "기능 없음",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "not campers",
+      "ko": "야영자들 아님",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "now space",
+      "ko": "지금 공간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "open",
+      "ko": "열기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "orz bubbles",
+      "ko": "오르즈 방울들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "orz puppies",
+      "ko": "오르즈 새끼들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "other",
+      "ko": "다른 자",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "other house",
+      "ko": "다른 집",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "outside",
+      "ko": "바깥",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "parties",
+      "ko": "파티들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "party",
+      "ko": "파티",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "party places",
+      "ko": "파티 장소들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "party time",
+      "ko": "파티 시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "partytime",
+      "ko": "파티시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "people energy",
+      "ko": "사람 에너지",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "peppers",
+      "ko": "고추들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "picnic",
+      "ko": "소풍",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "picnics",
+      "ko": "소풍들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "pieces",
+      "ko": "조각들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "play",
+      "ko": "놀다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "playground",
+      "ko": "놀이터",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "playgrounds",
+      "ko": "놀이터들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "playing",
+      "ko": "놀기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "pleasant combinations",
+      "ko": "즐거운 조합들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "pretty colors",
+      "ko": "예쁜 색깔들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "pretty space",
+      "ko": "예쁜 공간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "pull",
+      "ko": "당기다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "quick babies",
+      "ko": "빠른 아기들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "quick time",
+      "ko": "빠른 시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "relatives",
+      "ko": "친척들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "round",
+      "ko": "둥근",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sad",
+      "ko": "슬픈",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sad animals",
+      "ko": "슬픈 동물들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "secret",
+      "ko": "비밀",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "see",
+      "ko": "보다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sick",
+      "ko": "아픈",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sigh",
+      "ko": "한숨",
+      "kind": "stage_direction"
+    },
+    {
+      "source": "silliest cow",
+      "ko": "가장 어리석은 소",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "silly",
+      "ko": "어리석은",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "silly cow",
+      "ko": "어리석은 소",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "silly cows",
+      "ko": "어리석은 소들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sisters",
+      "ko": "자매들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "slide",
+      "ko": "미끄러지다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "slippery places",
+      "ko": "미끄러운 곳들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "slow time",
+      "ko": "느린 시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "smell",
+      "ko": "냄새 맡다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "smelling",
+      "ko": "냄새 맡기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "smells",
+      "ko": "냄새",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "smooth",
+      "ko": "매끄러운",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "snappy fun",
+      "ko": "톡톡 튀는 재미",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sorry",
+      "ko": "미안한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "space",
+      "ko": "공간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "special",
+      "ko": "특별한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "special sauce",
+      "ko": "특별 소스",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "special things",
+      "ko": "특별한 것들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "special training",
+      "ko": "특별 훈련",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "spicy games",
+      "ko": "매운 놀이들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "spit",
+      "ko": "뱉다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "spitting",
+      "ko": "뱉기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "spread",
+      "ko": "퍼지다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "spread the wax",
+      "ko": "밀랍 바르기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "squeezing",
+      "ko": "짜기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "squeezing the juice",
+      "ko": "즙을 짜기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "squirt",
+      "ko": "뿜기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "squirting",
+      "ko": "뿜기 중",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "squirting nice colors",
+      "ko": "좋은 색깔들 뿜기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "squishy",
+      "ko": "물컹한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "sticky",
+      "ko": "끈적한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "stories",
+      "ko": "이야기들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "strange",
+      "ko": "이상한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "successful",
+      "ko": "성공한",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "take",
+      "ko": "받다",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "tell stories",
+      "ko": "이야기하기",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "terrified",
+      "ko": "겁에 질린",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "the change",
+      "ko": "변화",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "the middle",
+      "ko": "가운데",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "think",
+      "ko": "생각",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "time",
+      "ko": "시간",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "time jokes",
+      "ko": "시간 농담들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "tired",
+      "ko": "지친",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "together",
+      "ko": "함께",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "toys",
+      "ko": "장난감들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "walkers",
+      "ko": "걷는 자들",
+      "kind": "unresolved_translation"
+    },
+    {
+      "source": "words with fluid",
+      "ko": "액체 있는 말들",
+      "kind": "unresolved_translation"
+    }
+  ]
+}
