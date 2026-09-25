@@ -173,3 +173,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 함장명 표시 폭 근거로 같은 고정 UQM 리비전의 status.h와 units.h를 대조했다. docs/ship-text-source-review.json에 URL/해시 추가. 원본 소스는 재배포하지 않는다. 함장 이름은 설치된 원본 데이터에 대한 번역 초안이며 새 외부 폰트/자산 추가 없음.
 
 크레딧 번역: 기존 Galmuri OFL 폰트/라이선스/해시는 그대로 재사용한다. pt13/17/45에 각각 Galmuri11 1배, Galmuri9 2배, Galmuri11 4배 최근접 확대 흑백 한글을 추가하며 원본 영문 PNG와 높이는 유지한다. 출처 파일과 라이선스는 기존 vendor/galmuri 기록 참조. 공개 credits.c의 2048바이트 버퍼·50개 텍스트 슬롯·폰트/열 처리를 대조했다: https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/credits.c (SHA256 8d74a36303d97b9e5c637771458ac0ee1d05fcd83cb6436cf5795e06994ea252). 원본 코드는 재배포하지 않는다.
+
+조선소 이미지 라벨 배치 조사: 같은 고정 UQM 리비전의 shipyard.c DrawRaceStrings를 확인했다. docs/shipyard-label-layout-review.json에 URL/해시/제약을 기록. 소스·게임 이미지 재배포와 신규 폰트 추가 없음.

@@ -1,0 +1,198 @@
+{
+  "complete": false,
+  "reviewed_images": 19,
+  "pending_victory2_frames": 239,
+  "pending_spin_images": 3,
+  "records": [
+    {
+      "source_path": "base/cutscene/credits/credback-000.png",
+      "source_sha256": "987480e8172a854498f40d25ec082925f86ff2873029beebec481e727f1c26da",
+      "size": [
+        320,
+        240
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/ending-001.png",
+      "source_sha256": "31d9574d78c3bae089e43b1b197d9a75a692abd64f78a9e5334d9d96d07e08a2",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/ending-002.png",
+      "source_sha256": "095d1dec424e1f5bcd309348a0fd145f1e431b6dd419481daef24c676cd1cf6c",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/ending-003.png",
+      "source_sha256": "3c8deb56345d6e9d7e36fbfd936162b219c87ec756a5a84e8fbb93c0616cd546",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/ending-004.png",
+      "source_sha256": "b4b8984f42c3cf03556e0c13912656321476690e64d34cfbb0511031418f590f",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/ending-005.png",
+      "source_sha256": "5ec0e9d9323002d9d77936d961dcf36da24d471282bbc841e54eabc755b2342b",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/ending-006.png",
+      "source_sha256": "76439bafbb8ee10011b2b0a288acc69e93403654b2bc986a1374c56677cec69f",
+      "size": [
+        320,
+        200
+      ],
+      "status": "embedded_text_pending",
+      "notes": "THE END + 저작권 이름. 끝 표제는 번역, 저작권 인명은 보존해야 함. 크레딧 문자열 THE END와 별개의 그림."
+    },
+    {
+      "source_path": "base/cutscene/ending/fs_skeleton-000.png",
+      "source_sha256": "d78e3614240158cf7da380042b142be94c8e0af7e2198f6e20679cfd1b1053b7",
+      "size": [
+        243,
+        106
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory1-000.png",
+      "source_sha256": "8c550ec92f0750f9c5c895738bdf82d40a26f9b3743485c4c0e8f2c9c6b6f534",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory1-001.png",
+      "source_sha256": "1891335ea0aa7895b8255e984919d50e23042ef476853bcfd267fc27fffadc4e",
+      "size": [
+        45,
+        38
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/intro/intro-001.png",
+      "source_sha256": "dab597fa457cd805fcc9bd32c0cd9cbf01a4a8356bdde91c791f080fa0bd9c7f",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/intro/intro-002.png",
+      "source_sha256": "d3121524f45e03a639b67d06ab7015d0c6cdd67f473cf83de5187a6818a18083",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/intro/intro-003.png",
+      "source_sha256": "7d0351683e5989733e6765f276fba870f229c51e39639ea174ad46335737d95d",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/intro/intro-004.png",
+      "source_sha256": "d52414485cc6e8c29fb5614746a027991111d08f09674c918eca5a7a0f68db5d",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/intro/intro-005.png",
+      "source_sha256": "516a3a33767ef02cf876edec2f274d61652b7a50be2dbdad2fa78c39b7bb378b",
+      "size": [
+        320,
+        200
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "초기 육안 검토이며 상세 확대/실기 검토를 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/intro/title-001.png",
+      "source_sha256": "648d43c3b9595c4c235b6636e856fbb06468351561eefdb827e21d7bd6c630a9",
+      "size": [
+        320,
+        200
+      ],
+      "status": "embedded_text_pending",
+      "notes": "IFL / INTERSTELLAR FRUNGY LEAGUE 로고 및 PRESENTS. 로고 정체성과 소개 문구를 구분할 것."
+    },
+    {
+      "source_path": "base/cutscene/intro/title-002.png",
+      "source_sha256": "6700749c835cdcca5e1ebbd137043ffd1c647f36cfbc47b87d4d8a9574f832ec",
+      "size": [
+        320,
+        200
+      ],
+      "status": "preserve_product_logo",
+      "notes": "THE UR-QUAN MASTERS 제품 제목 로고."
+    },
+    {
+      "source_path": "base/cutscene/intro/title-003.png",
+      "source_sha256": "3ec1e644ee9ed16d887e374a7207b12742ede4214124b7d75d8bfbee7fbbbac3",
+      "size": [
+        222,
+        7
+      ],
+      "status": "preserve_product_logo",
+      "notes": "THE UR-QUAN MASTERS 제품 제목 로고."
+    },
+    {
+      "source_path": "base/cutscene/intro/title-004.png",
+      "source_sha256": "9645f7ef486eb3e4d238ae97a0a7c723fc702ca93fa7909e543c5ec3d2802fa1",
+      "size": [
+        311,
+        7
+      ],
+      "status": "embedded_text_pending",
+      "notes": "BY PAUL REICHE III AND FRED FORD. 인명을 유지하면서 연결 문구 번역 검토."
+    }
+  ]
+}

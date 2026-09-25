@@ -1,13 +1,13 @@
 {
   "complete": false,
   "review_method": "Visual contact-sheet review of original PNGs; small text is not OCR-verified.",
-  "reviewed_images": 228,
-  "unreviewed_images": 192,
+  "reviewed_images": 420,
+  "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 120,
-    "existing_replacement_runtime_pending": 5,
-    "no_obvious_language_text_in_viewed_image": 82,
-    "preserve_numeric_sprite": 20,
+    "embedded_text_pending": 121,
+    "existing_replacement_runtime_pending": 10,
+    "no_obvious_language_text_in_viewed_image": 267,
+    "preserve_numeric_sprite": 21,
     "preserve_product_logo": 1
   },
   "records": [
@@ -82,6 +82,138 @@
       "source_sha256": "0ce0947d00df1ce615d93cb8b2f6ec2df860fcc36ce8eeb1aa4a7c5696e0b73e",
       "status": "no_obvious_language_text_in_viewed_image",
       "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/blueprints-001.png",
+      "source_sha256": "541b90699a0e85c56bc499ffe9948481984e12c3d34de3b68b66fe9559c2b2c1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-002.png",
+      "source_sha256": "42c426f1880aa8a320962ae9d6fbca784566ff55d861a93ff7555d391a4d2c44",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-003.png",
+      "source_sha256": "54d3327ec644dad3f9c8845626530b1d037af16d2610d58042ca8d683f2aca65",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-004.png",
+      "source_sha256": "40b6f2b4db621b0a7ef6ba625929e4fb39b521f01bf3c543b6200a75df29c006",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-005.png",
+      "source_sha256": "5b1ee4c8d7d96068f95ed72cf8d7f037977f2e2bb234c3760b85dfdb723dbe54",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-006.png",
+      "source_sha256": "498584ea8fa25c2a5384f1673f0adc22afd46ccb712e9c4eee0c87edd520fe3e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-007.png",
+      "source_sha256": "443912bc8a85e295bac2c9fbed98a33bcb8f4606eb7ac3e6dfd4b03ab310edb8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-008.png",
+      "source_sha256": "48721515e1dcb01afebe3786b22fe6e437356adc897cd2a372e56c9c4bed5b6a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-009.png",
+      "source_sha256": "b3efe6072bd46e473866395c707b1eb4e07a92df55cd7d1583d5846c3807cbaf",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-010.png",
+      "source_sha256": "9529950aa8882bb43f03d6b617c6a512480fa5a9d69a51f92a527a52279fd4ea",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-011.png",
+      "source_sha256": "7fd4f8252cc2fcc1f9bd7da38da22518b189ddc1065ecfc788e5d7da2516049a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-012.png",
+      "source_sha256": "d07f81b1aa2a07c8d856e932f3e1e451a4717ed33e4d1907ec6e17cdbd67116f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-013.png",
+      "source_sha256": "f9f6b33e08ccf7a157e4778ee3336cb3fd5396a3de02893f0689673f79e553b9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-014.png",
+      "source_sha256": "5a99beac612913263f8bbfeaecf1027761c4b7e376fef936e958af4d759389a2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-015.png",
+      "source_sha256": "07fa942b4f954dab971680c435d012eff325544b55046456b74e9c36906f12e0",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-016.png",
+      "source_sha256": "0e196f8065b64964d1c5796a9f1833e17aa8a7271ea0ab402c3dbcefdc148476",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-017.png",
+      "source_sha256": "ed21cedd064c1774eae53860a4d82cbd4463c06f3080af5bf648f5b99efcb736",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-018.png",
+      "source_sha256": "bfdbbc4d063a888dd50e771bb06b5044709bd1676454ea9764ed931542a838dd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-019.png",
+      "source_sha256": "ea1ece80fce30ef71d4c9920c4559d1b03d5b06af782e1d6205babf8be75fd70",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-020.png",
+      "source_sha256": "eead72da7ba18a94e85501f0579547d2ea37140195f89849b2a76929e74a7088",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-021.png",
+      "source_sha256": "7fc237ffcccd0fd094ec4af20f3de5155e214d7f2338c60c9c9765245a165b3c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/blueprints-022.png",
+      "source_sha256": "dc7ae20016efc1e0ce91f7d4b98c9a32ac87d57f2e602a25d5ee6c70b3411696",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
     },
     {
       "source_path": "base/ui/flagshipstatus-000.png",
@@ -414,10 +546,646 @@
       "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
     },
     {
+      "source_path": "base/ui/meleepickship-001.png",
+      "source_sha256": "53317968d84bef5ec428441c2a2701f919047cfc38f4ee0964015878e1d99d13",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
       "source_path": "base/ui/miscdata-000.png",
       "source_sha256": "60a0ec744b3f475ff28de91f772dfa8bb8e28435770dce162b312725982c64a0",
       "status": "no_obvious_language_text_in_viewed_image",
       "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/miscdata-001.png",
+      "source_sha256": "0be5bc5aabab046ddf3cf353c61f8ddd716b08fb8fbfaaf58cd965941db129c4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-002.png",
+      "source_sha256": "7b797beaa54b3a6323538636aff08200ad44fe8f41ff4a4407fd014c80a0f080",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-003.png",
+      "source_sha256": "287ed28a47b6bf4f00b9bbaf731c7d2c9481f65ed91f96b0fbc9cc399d577ce4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-004.png",
+      "source_sha256": "492e7727f58e20c54b7834fc8f6eb3131bab6dd1b7239c1cc135a86af1de92a9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-005.png",
+      "source_sha256": "2e798c9ede13a14c08b3b14b9d9aa66db618fe32365e4b07713dd926a025d1e4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-006.png",
+      "source_sha256": "1c2f6f83db55d729471a00fe11804231fff7da5c4a07641ea4737888eba7607b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-007.png",
+      "source_sha256": "2055c85c08221371ba21b1cb74149c65004ddaf0255b2b7f0a153ae8bc5ec21b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-008.png",
+      "source_sha256": "14bbb211ce2dfffba9830322a9661d734da8d5401fe5b6e54eaaa897adce9cb3",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-009.png",
+      "source_sha256": "823e5729ea7ac9792211274e82bfab89fb28032e30429cec8ee41ad173022948",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-010.png",
+      "source_sha256": "14b73654fad69a5650227da41754316bd42ad9356d910e5cf7c559ce4c4adac5",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-011.png",
+      "source_sha256": "e48c6d6426d4f2be4541f6c1b0a83ae8bb9c6bba45fd28fdeef8c0c63d1ccb59",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-012.png",
+      "source_sha256": "fe5bc60f5c196bbb25fa5294352b894f4a50ef94e6622dc3d048d6b8feb3b21b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-013.png",
+      "source_sha256": "d098eb0261d88eb24b8c318edf782846d51caa8e0cce6af6f4345feba9f3dd15",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-014.png",
+      "source_sha256": "17d294d8f9c44489def52626e3475498898a50ceee41c83dd7e120515baf68d2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-015.png",
+      "source_sha256": "ac467521aec92f576b406fc11b4df66286ec1a4bc9380862e5ae48bb2e3874df",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-016.png",
+      "source_sha256": "202a5506e63c7fc85b641d714da3f8085ba0847a4b223ead09af8f3b3c07b55c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-017.png",
+      "source_sha256": "2d9965b9628e12ae215cc4856194f4376235f257ee9842a68fa20bd4e4b2740a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-018.png",
+      "source_sha256": "1bb20b6978991d4c5a6081cd34e173b78b3e0d2d68c0777967f71aea57809188",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-019.png",
+      "source_sha256": "5bc6f03a4fe2b2c473f1814f0284e72e97b670aff25d5fed58cba3a2b6859ead",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-020.png",
+      "source_sha256": "0ce1b07e4181a139d5ef7bedb71ce3f41006f0645d95381653cf809ed9af0d80",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-021.png",
+      "source_sha256": "799f85b479886871304435bfd47273bbcc64f7bb2c3354aaab58af262e96c1b2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-022.png",
+      "source_sha256": "acd1a85d03485e44f2ad70355105e1c2f1874b3a0305c4e5d4b1c0b86b398cbc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-023.png",
+      "source_sha256": "71837362727a4d57592101fecd49d4d7bc70055346da7cee742e6264102fe6d2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-024.png",
+      "source_sha256": "60a39658034428b5f8377757dd98b67073b2a024b7cbfd949fd9687f56e2198b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-025.png",
+      "source_sha256": "4f1f9473fac766ecf431984f9193858f4f83f5d777e1c2e2ffb70d42b944540a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-026.png",
+      "source_sha256": "3fcb308880aa8d05c616b53cbddc1cdd796c26aed4f2b92f58bb7ca8797f8367",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-027.png",
+      "source_sha256": "3f110711c21152d006a2980689f762cba335ad51d8ed74258066c56da544fcf1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-028.png",
+      "source_sha256": "827976c911f2e678429f6300c8951c763fc6f334c156ca141054200d73fdc125",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-029.png",
+      "source_sha256": "4af0ea1fe8e00c3932aa8d2f71e2df1a50305e99f85413be7aedb7e3c5f90d81",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-030.png",
+      "source_sha256": "f0ce4711275c7e813f7a11538e973d1a7be65f0eac1ede42d9ebdd9a8563a6a4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-031.png",
+      "source_sha256": "34729bad3b36731b021b5cbcb19ae80842656b52018937d057c4c3235c7788c5",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-032.png",
+      "source_sha256": "9b001c747b1f96db2d5084a8f5b864bfda119bdf6e5f9e5606c089bcf06342fc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-033.png",
+      "source_sha256": "403c5d0c61435e0bf81908ce4c6b093f257f5e63443dfc0133a7a6667dacd951",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-034.png",
+      "source_sha256": "9d3e0c669802875759c06c61ca1c0c0509b542b10b21c8389d4086c5168f913f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-035.png",
+      "source_sha256": "e34f354a17316787402bbf000361d25a408628cddb5d8bf2ff9f0e71119665f9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-036.png",
+      "source_sha256": "656354df8bf88beb9b7c822b1cc8797f17f039cc37ff41b455c150d2ba31f7a4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-037.png",
+      "source_sha256": "369c74b5a27e95893512c73ce4f07a4410b559071cb9dae392f3e3bba19902dd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-038.png",
+      "source_sha256": "86e16b4fdcd4745f4e70bcd96bf17fa456a753a367ff51aef2dfa61ae7b3d652",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-039.png",
+      "source_sha256": "99e239529e346775e0a6188bb40403bfac93b065caa45a8a3ffa1ab95957201a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-040.png",
+      "source_sha256": "b64aeb0646344c1bb5e2eb95a5ffc4e6707a3d2b3753bf837885656ba2cd5e68",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-041.png",
+      "source_sha256": "21d8bc52c7a9302e398dbb644f861912493b40e908c3107f3a6e2ff23656a3e0",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-042.png",
+      "source_sha256": "e37ba6232eabdb5d5d37f140aad98cf0a437a9f197cc5d820be1aeb5a84c3904",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-043.png",
+      "source_sha256": "e63e613c17e5d748af7788a7e843361932837ca20cfb11bba88f23c57b1bcaa1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-044.png",
+      "source_sha256": "06a0535190b6b3e1ab6992541687b22b67464940b8608102fde9eeef58768b89",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-045.png",
+      "source_sha256": "4de643818c9d272db912811678f147f78524398fbda047f3f9653bff745d0dfd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-046.png",
+      "source_sha256": "7748e7e6c1817ab35ed53ad45391ebd27255a69a89e3c94b8d4d076b56b70056",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-047.png",
+      "source_sha256": "a226fc1dcf5211b6a6ef68b0ef20e4c7abbe883bd6487e78a9df64039468c63b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-048.png",
+      "source_sha256": "4ac44bcb531aeb7197c67897b0964badcc766427f21344ced89a40321f511c95",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-049.png",
+      "source_sha256": "cf8c109862ad93ca1fa171da41cd44d669fb4af2ac20248a83e7e4a23aff7e0c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-050.png",
+      "source_sha256": "96d4117d40dd94c59fda03976980ab4ffa8f9245d4831131018e5dd0c23733c1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-051.png",
+      "source_sha256": "a08c88259cc959224839c5286f129087bc383761a92d2bdd95b67042096a2b00",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-052.png",
+      "source_sha256": "050fca2df570283731d6a6c6c7c71cd9bdbac09089b887ab494369856dac573c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-053.png",
+      "source_sha256": "daffb3ebdb25e32d0c6ba61ba004e4147a084ce0715e24e3b9a8911b6aa19e21",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-054.png",
+      "source_sha256": "31594b2025216a7de1a83abd48e0c726e4e65313e9f0a2765cdada90b2c6801c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-055.png",
+      "source_sha256": "711f43dc5289c1b6d085f4580333f2749f28f8c75f660e054a4a83c80572492b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-056.png",
+      "source_sha256": "f6929d86809142c21bd7a05462d0b249aa1bd45643e6015e24041da76105c94d",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-057.png",
+      "source_sha256": "0722b1e13ff7b8dd2285a1f55d4e6858cb6f632ed9c58ee7ba4421ced5c63685",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-058.png",
+      "source_sha256": "3fdfbffe45b206f046425e235c999507dbdb27965e6a4b22b155fc04ebdfc138",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-059.png",
+      "source_sha256": "1839396005940b3724327a23fea5e38be383927c9f2463dff1ed8cde8cdb0202",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-060.png",
+      "source_sha256": "488698cc259d2aa44810987faaa448d6a29fa7eaf321b837992f033688602c3a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-061.png",
+      "source_sha256": "1515e1fc550a813a5e7145e15704cfcbabd6ceef1a4f9ccc4f708d1b22087d72",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-062.png",
+      "source_sha256": "0fc954d85098211dede6cd47432f8cad638f0567d3db3e654b284850ca7a4c49",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-063.png",
+      "source_sha256": "0e15326b74d8ad17d64a6fa3cfe16ec1ec972d8467a7d3db48b8a2b678251853",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-064.png",
+      "source_sha256": "ac42f44688046fe43e14907c342c71f05eb2a134217156cc416e7db926c57b2c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-065.png",
+      "source_sha256": "20630d26b672dd93fea8bc49941d5044676f213ed17c03cb8d8ac20a33f8936f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-066.png",
+      "source_sha256": "85c1930ee83b8745b2e5f0ca15a6c5735041a63a9ff39d01d4d41b8944733564",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-067.png",
+      "source_sha256": "0c7ca668b9e6e699cd8a3e41ba8c92020103c3b20bd857f3dcc6e6addc1f63d0",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-068.png",
+      "source_sha256": "367bc9f33667574db4120b6001b890a8f2838e9d1d8984fbfce9fc31b719eb89",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-069.png",
+      "source_sha256": "25ecfdc84f8c2bdc97428f6f02cc60cda1bcf9638594ca1015f2922625b1fd33",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-070.png",
+      "source_sha256": "24f7262afd6449da88227963919cb07d69efecb7a5f83a6882589b25217d4500",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-071.png",
+      "source_sha256": "6900955634774cfb71c8ad7be07a0476eef355e31d5670d0136df35d0d9e9b8a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-072.png",
+      "source_sha256": "b41d68f3c9262879186dfd9ad5bdfd45f51dc5fab44d16610be42923f81b5fce",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-073.png",
+      "source_sha256": "6c1a9d708900fcd328c7ee62bff4dbfc9f66af902f569569f808653757851c30",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-074.png",
+      "source_sha256": "c1e752751cc6d6b7a93790b15b7146f1bd2abfdcb5853d1bb186c3e9f52bae48",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-075.png",
+      "source_sha256": "30558cf81b5b7707896e976318eedf59fa4bb52587224d2ea9596b3a4879082b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-076.png",
+      "source_sha256": "8e9aac87647e163144c6143b95392f03295c33009783e10ff47ec38c83acb380",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-077.png",
+      "source_sha256": "7176b5771dd3bbe4ee5ccf856138e58e1e0163862a7eb4b3b8e72ad0a631b4b6",
+      "status": "preserve_numeric_sprite",
+      "notes": "숫자 2 표시. 의미/호출은 별도 확인하며 수치 자체는 보존."
+    },
+    {
+      "source_path": "base/ui/miscdata-078.png",
+      "source_sha256": "1e2270bb4c8033b91a987cc696dbc0f0e0c798c491a7744df86c83f346c93787",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-079.png",
+      "source_sha256": "c91a9227da4484522bb0a34e05e66bfbcf329401efef69614377b187741bd8e2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-080.png",
+      "source_sha256": "8f61070bf0aaab30dda802265e9df843a5e1dd31d238ede03fbc540a9a8fab5c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-081.png",
+      "source_sha256": "0abf2dff57538de139f1d84b0b6d182c83cf7a13833c2d2dad833c4dd0dfe60b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-082.png",
+      "source_sha256": "f72f00bc058346c352a3c14ffd50f6c967f2e2460987ad01f4ee637dfbc8674f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-083.png",
+      "source_sha256": "028c0d361efe93d51309bd122598a82c0fa50a62eff1a6b8c9d51e2936eaffff",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-084.png",
+      "source_sha256": "c53b8e8a70bac1c37f6dad6d32c190bdecc7533b831b62f0c791144205f6bcf5",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-085.png",
+      "source_sha256": "5c68c2f4039be17f1195506d814382f8294e2af296222ec683012e4a6fef48ab",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-086.png",
+      "source_sha256": "53f9470bd4e755b497947ab914be0a6555bcdc1a0da2faf50ae731a60cc71be0",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-087.png",
+      "source_sha256": "7870b80da79a555b24dce9853fab2fbfa35399c70803fa9bf6f06dcc3a4ead49",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-088.png",
+      "source_sha256": "c015aeeca8c4b5795e2643c6ebba1b0a365fdaade9fe64f6e5221adcbfcce6e6",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-089.png",
+      "source_sha256": "6ce708ff05f0a9e550d5a04602fe8e89b8bc8550ecf58fc7e12918aa33a0e524",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-090.png",
+      "source_sha256": "52334e5255dd96c7cbc69511d8b6ac44aff923e5b0c7d58ee14ffce36217a71b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-091.png",
+      "source_sha256": "de70c3730aad6842daa5703e2d9e15822e890d3839f8bb0aff2a1d25318bd90e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-092.png",
+      "source_sha256": "de70c3730aad6842daa5703e2d9e15822e890d3839f8bb0aff2a1d25318bd90e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-093.png",
+      "source_sha256": "de70c3730aad6842daa5703e2d9e15822e890d3839f8bb0aff2a1d25318bd90e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-094.png",
+      "source_sha256": "708d4c657cfdcdf29c477d38a1350556a82d2e0af4c7cfb06c9dd4c1e8bf80ec",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-095.png",
+      "source_sha256": "052c049b539b5c178ca8368c8466dce6dea5baef02c397660c15600b246a1db2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-096.png",
+      "source_sha256": "052c049b539b5c178ca8368c8466dce6dea5baef02c397660c15600b246a1db2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-097.png",
+      "source_sha256": "052c049b539b5c178ca8368c8466dce6dea5baef02c397660c15600b246a1db2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-098.png",
+      "source_sha256": "afa59f840c17a4319df31627f6fcfc5718428dd19017d8d2c706836c767b9c77",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-099.png",
+      "source_sha256": "b721d947dd6c64186cd9cb14fbed147c89158638d50e9faaa7c95187c11dbb50",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-100.png",
+      "source_sha256": "3aaee9bef352b70168f709e00031033eb6a92ebf719281a3ab02bf0a92463493",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-101.png",
+      "source_sha256": "8992b67a254fc204a5d41d203d1d776665f2352bc5f63c53db85c9e4a1729d21",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-102.png",
+      "source_sha256": "55e1164c530543bfc153a5a522cbec0f8abfa4cd2d0840686b60a39b169ab79d",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-103.png",
+      "source_sha256": "ff3aa9d2d094a574f3218b617d48c0b4170439e22125c82947ef88afba10c34c",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-104.png",
+      "source_sha256": "bac32ff6a625977cd15f441a1c250a37f9fd84ebfed9db1af3c87376fcc84220",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/miscdata-105.png",
+      "source_sha256": "57935b5523d31847f2d0863cd3b4cae99d4240fe126b2f743568f14082f62d3f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
     },
     {
       "source_path": "base/ui/modulesmenu-000.png",
@@ -558,6 +1326,36 @@
       "notes": "patcher.menu_assets의 한글 메뉴 교체 대상."
     },
     {
+      "source_path": "base/ui/newgame-001.png",
+      "source_sha256": "52390ffc3a5bc21169e3b82e9b24d2e29f12de5ac54c6a2e26da3d162e9f5966",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.menu_assets가 생성하는 선택 강조 한글 메뉴에 대응."
+    },
+    {
+      "source_path": "base/ui/newgame-002.png",
+      "source_sha256": "f952a3d5f1c9b9655d9e7ce55a00a363207fe2e9197427fc97452358b56b33fc",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.menu_assets가 생성하는 선택 강조 한글 메뉴에 대응."
+    },
+    {
+      "source_path": "base/ui/newgame-003.png",
+      "source_sha256": "329e06b81f06252380ea40a2a5f86eb5e4436c8970e3c7c3f7e4818593bc0fc0",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.menu_assets가 생성하는 선택 강조 한글 메뉴에 대응."
+    },
+    {
+      "source_path": "base/ui/newgame-004.png",
+      "source_sha256": "5cfc4002eeabc9465b9a18be1695bb0aaa382200f957187d7d19190bce98ddf6",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.menu_assets가 생성하는 선택 강조 한글 메뉴에 대응."
+    },
+    {
+      "source_path": "base/ui/newgame-005.png",
+      "source_sha256": "783d8a250b56b41165e368d4ee8f6546cae46e6d98a8a25f82d5df6d66be4225",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.menu_assets가 생성하는 선택 강조 한글 메뉴에 대응."
+    },
+    {
       "source_path": "base/ui/outfit-000.png",
       "source_sha256": "9d996207f7b3661b872b91485297ca8752776bb23118311182a2d38f09d13286",
       "status": "no_obvious_language_text_in_viewed_image",
@@ -570,10 +1368,346 @@
       "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
     },
     {
+      "source_path": "base/ui/outfitmodules-001.png",
+      "source_sha256": "722d78e3e0aade61857376d36924769840ad34061504dfd2a01579dac443404e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-002.png",
+      "source_sha256": "cc01399b3619602ff30c2fae4a7bb50450a180ff242351e289171cc1accfea6a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-003.png",
+      "source_sha256": "30932746a2127419997bb0f7b50f597f1a6458fe6cb7bbfbbaf45976f1ad740e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-004.png",
+      "source_sha256": "eb266f99f07fc2539de1d1df70463832628d48fe61a11b6c965c748300b40a81",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-005.png",
+      "source_sha256": "d170c82805a9118a7ee564bfe9170dd9456ffbe71bcbd97c5e0e7bc9de00b7fc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-006.png",
+      "source_sha256": "41c2d5a8661d676f3b5f2517de07dca4a61cc713dc0f46ac5f1f17d037c8cb82",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-007.png",
+      "source_sha256": "5d30d3509177dbea80e57f1c1f2ea27a1325cca844e6d3bf34cfd8d056d93a5e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-008.png",
+      "source_sha256": "90c54e8f528752e3b4e137ddfc7dbdb9845462ce47395268bd042ee0051c96cc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-009.png",
+      "source_sha256": "be4f6bb87f7398957c6d0f58babca26b906ea520ab7b1359b6ee57645b103d1e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-010.png",
+      "source_sha256": "e2f4a2c79d3d0ac04afd8e618378849868c900684f45056725267dbb5f8d53d7",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-011.png",
+      "source_sha256": "4ca42260e3dc682818d250b77457524a48ef1bfc49956fe32911dd1edb863bea",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-012.png",
+      "source_sha256": "e08797287d27d9baac588b17b644b127772d1d4d90f47fab2dbf6130744622c9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-013.png",
+      "source_sha256": "201d78814949dbbf622e8a5c2585b2bb578b8b3eadd9d3b9d9f5493a575e1f51",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-014.png",
+      "source_sha256": "d5e9050c8e282d0b562c57b964493d21a4f8ba254f03c90f1c28c461e27db897",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-015.png",
+      "source_sha256": "47c0844ea21be72aea1bf921bcbaf3c1522a648f005032599cae3c0efcc85f67",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-016.png",
+      "source_sha256": "15826a2429063db3dcb8529bcf1c5f7ccfcf9f7cee3234b3a97ff529a17525e8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-017.png",
+      "source_sha256": "91b2eea1a60048a7cd2161567a29811a8a54640c3cb1afa023f0d31d104555b8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-018.png",
+      "source_sha256": "f0b39341b2eedff91eb14a8538827ef9d98f711a5a0cd66e86e645d0ac94ceec",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-019.png",
+      "source_sha256": "6c7aa395b1b05f5567caab6560f75a525b7150f6b49c2789800bf50cb3ca04cb",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-020.png",
+      "source_sha256": "9c7c9d1f4633682bfffdb89ff86f6962a4ec044ad483c3f87fbb7393878f5ee6",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-021.png",
+      "source_sha256": "a7f940bfa6ed4e49d893f5c5584dca2adf5896f6290de02cb0f905002ec909d8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-022.png",
+      "source_sha256": "ce084b0bd45b32b74065c79200410b8f5870fde730e7fc1c0aba893cfc9a0622",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-023.png",
+      "source_sha256": "927cbafc62d421610693485a843c2492995e36eebe1aa448ea251e1d9dcb1e32",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-024.png",
+      "source_sha256": "f8c076662fc190ff6e363c7bb9795811da37881280865f4cad2f49ec8d541cc6",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-025.png",
+      "source_sha256": "7d79288e3182f117f5de0d518ac272dbebe1000af2adab1b684dbc4ce729e31e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-026.png",
+      "source_sha256": "19de1b92372090821f2e3fadbe848bd9756ae03d7605b29d4273320fc13537f5",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-027.png",
+      "source_sha256": "a06e630ff02a545a157f40f065b36ba22a1cb173fcb1a391b200b2b3681ec7cb",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-028.png",
+      "source_sha256": "d364b984d9705eed13a7617a0df8f3245497113544e4212e45b51811826171b2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-029.png",
+      "source_sha256": "8c63a63754bdaa3068ede203a6f81f0830f666a5aebe25abc0428e47c20c1434",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-030.png",
+      "source_sha256": "a3db22b6f210281d769803bb1a73f981a4d0ff6d0618b9fa190a54102160375e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-031.png",
+      "source_sha256": "8b9230eb3b9aae0bca998128441dc8c9b98c9dbf83289dda92eabfe7cbd21b3b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-032.png",
+      "source_sha256": "a26d6205a51dcf8a5eb553af874f6d4a8ba4b58130af129a4cec1c15f5282ca8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-033.png",
+      "source_sha256": "bbd3b8327ba4bded88550f9d616015c6b7e600244b14e954fa680d8755f00a0f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-034.png",
+      "source_sha256": "71c18dcf446278190c3844edebd51fdf17c2470bb86af91832859e6bdf8e8ca8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-035.png",
+      "source_sha256": "e7b41cd80d75688364ea81dbce9bd1b53e63a3d3377121cbe831f54df16e3858",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-036.png",
+      "source_sha256": "c5806b696e945c919af49e6e56c0304bfd24db4df7d13ef631a8dbcb92588212",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-037.png",
+      "source_sha256": "d41b615179eea556617293be7e1b1a4900a413717b6e287e7dbcb2d73d5ba396",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-038.png",
+      "source_sha256": "bce7001909b6fdcf6ebbc5702d238bec68afe8b412dea85e223395c7d1d684c6",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-039.png",
+      "source_sha256": "96253b3985ae2bc62491a7938e20d5ddc944e0713c9d1f948c4e5ce3705b07e3",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-040.png",
+      "source_sha256": "47c0844ea21be72aea1bf921bcbaf3c1522a648f005032599cae3c0efcc85f67",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-041.png",
+      "source_sha256": "49c73a1f6e618e99d01aeac49bfd145a941f0a890d95585f0603cc81c39bb4ed",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-042.png",
+      "source_sha256": "37cc033c84f51725bda4759d56a8c832070a364648d5501ca04b524e5e1dc9ba",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-043.png",
+      "source_sha256": "3bec6713bb23a950df4daddf4232255de7370d99daf9058efe0842312e4a0131",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-044.png",
+      "source_sha256": "2ad812426e7628d2d994326c81d9cde17d954ec54b95e3be2b9394a85a6ec733",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-045.png",
+      "source_sha256": "52bb17be8c20e546141fc2ebc4a82fd310e2bf432614c85939d013526f2d2787",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-046.png",
+      "source_sha256": "f9fa39b9a37f829ea49d8c613878ead3255919ea60f70c24c84ab5ae5c634dbc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-047.png",
+      "source_sha256": "31ab720831548bcb6309f6efef2f2f14b3519794cb32ac71499756a4efa0cb31",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-048.png",
+      "source_sha256": "edd5d06e6475e799d5cd8af3536bad9bfee634e3afbee4b4adb1adf131117996",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-049.png",
+      "source_sha256": "7e46df599ab5efc89e6473a44d748978bc0a4b33e9f4c5f59690e91ea8295317",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-050.png",
+      "source_sha256": "f3f3f9d1f2b7fb34e71ac6f637bcf60cb21fd252141cae1507a7896321694e6a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-051.png",
+      "source_sha256": "7ff05d4dae15d76b189137ea3c7a75c40996c20905fb685d2681e21d70922823",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-052.png",
+      "source_sha256": "b8ca815af93757a5955bf16a974bc8e0392b92de52b070fe9f482cc1420739ba",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-053.png",
+      "source_sha256": "889f3ef6f40eed2bf70c9db848cbf586a92e7c5582296cafa242127934ab3b64",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-054.png",
+      "source_sha256": "b6c67fdd97ee7c078851890ea3a49050db71959707f6e95793118d5fbfe7077b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-055.png",
+      "source_sha256": "ff9d7aed513acd7dce4433221a9cddf8b4a520e527bfd0da6fdb57cc20dc43bf",
+      "status": "embedded_text_pending",
+      "notes": "확대 원본에서 NO ROOM FOR LANDERS / ESCAPE POD 확인. playmenu의 비슷한 장치 그림과 별도 자산."
+    },
+    {
       "source_path": "base/ui/pickship-000.png",
       "source_sha256": "c2c9f31e54d98c62e88562850164a9f54ae2e5d829d00e5afa72bc4bae431fbd",
       "status": "no_obvious_language_text_in_viewed_image",
       "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/pickship-001.png",
+      "source_sha256": "c7eeb20adcccc79dfcd4dd060bbd618f451d181073d882514594e5195a9b4bca",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
     },
     {
       "source_path": "base/ui/playmenu-000.png",
@@ -990,6 +2124,24 @@
       "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
     },
     {
+      "source_path": "base/ui/setupmenu-001.png",
+      "source_sha256": "2734e2516537f9288a04077c419d4cfb671087d718f4d15b878457092b95fd23",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/setupmenu-002.png",
+      "source_sha256": "96e15dadda64e4c663594320345c420b68153daed2c23fa0b305d43c6e367f1e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/setupmenu-003.png",
+      "source_sha256": "40751398cd04adc4efe508ebc7c0e21c04e281438c6514a68a689193d6a33309",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "원본 접촉 시트에서 장비/별/기호/배경으로 확인. 실기와 의미 검토는 별도."
+    },
+    {
       "source_path": "base/ui/shipyard-000.png",
       "source_sha256": "d8fa8167afdfdd0e2b5017ad146415d0a5f8c26c57cb9f5ae8b3e6117792ff31",
       "status": "no_obvious_language_text_in_viewed_image",
@@ -1379,5 +2531,10 @@
       "status": "preserve_product_logo",
       "notes": "FREE STARS / THE UR-QUAN MASTERS 제품 로고. 게임 제목의 원형 유지."
     }
+  ],
+  "limitations": [
+    "All 420 base/ui PNGs have had an initial visual pass, not complete translation or runtime QA.",
+    "Small input hints still need detailed enlargement and consumer review.",
+    "Cutscene, communication and ship images are separate scope."
   ]
 }
