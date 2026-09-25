@@ -4172,6 +4172,51 @@
       "status": "in_use",
       "notes": "멜노름 거래 안내 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "columbae",
+      "source": "Columbae",
+      "ko": "콜룸바이",
+      "category": "constellation",
+      "status": "in_use",
+      "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "corvi",
+      "source": "Corvi",
+      "ko": "코르비",
+      "category": "constellation",
+      "status": "in_use",
+      "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "almagest",
+      "source": "Almagest",
+      "ko": "알마게스트",
+      "category": "star",
+      "status": "in_use",
+      "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "flup",
+      "source": "flup",
+      "ko": "플럽",
+      "category": "expression",
+      "status": "in_use",
+      "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "personal_magnifier",
+      "source": "Personal Magnifier",
+      "ko": "개인 증폭기",
+      "category": "device_description",
+      "status": "in_use",
+      "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

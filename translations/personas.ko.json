@@ -199,7 +199,9 @@
         "ONE_LAST_CHANCE",
         "FAIR_JUSTICE",
         "TRADING_INFO",
-        "BUY_INFO_INTRO"
+        "BUY_INFO_INTRO",
+        "OK_BUY_EVENT_6",
+        "OK_BUY_EVENT_8"
       ],
       "status": "source_based_working_profile",
       "human_style_review": "pending",
@@ -211,7 +213,8 @@
         "RESCUE_* / CHARITY": "위험한 표류 상황을 차분하게 설명하고 구조를 거래로 제안한다. 무료 연료도 이타심이 아니라 장기 투자라는 화자의 논리를 유지한다.",
         "HELLO_PISSED_OFF_* / ONE_LAST_CHANCE / FAIR_JUSTICE": "배상 전에는 냉담한 합쇼체와 조롱, 배상 후에는 거래 재개를 인정하되 마지막 빈정거림을 유지한다. 전투 응수에서 상대의 말을 되받아친다.",
         "TRADING_INFO / BUY_* / SOLD_*": "친절하고 정확한 영업 안내. 수량·가격·추가 필요액·환불 불가 조건을 바꾸지 않으며 12,000,000 크레딧의 터무니없는 정보 가격도 그대로 전달한다.",
-        "remaining purchased information / technology": "판매되는 정보와 기술 상세 본문은 아직 미번역이며 후속 묶음에서 문맥을 검토한다."
+        "remaining purchased information / technology": "판매되는 정보와 기술 상세 본문은 아직 미번역이며 후속 묶음에서 문맥을 검토한다.",
+        "OK_BUY_EVENT_*": "유료 정보는 차분한 합쇼체로 설명하되 드루지에 대한 혐오와 경쟁심, 탐사선 책임 회피, 울트론 기능에 대한 회의는 화자의 편견으로 남긴다. 추정과 확정, 가 보지 않은 관문의 정보 한계를 구분한다."
       }
     },
     "mycon": {
