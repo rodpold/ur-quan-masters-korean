@@ -1473,6 +1473,24 @@
       "status": "in_use",
       "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
       "ui_keys": []
+    },
+    {
+      "id": "jaja_pole",
+      "source": "Ja-ja pole",
+      "ko": "자자 기둥",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시와 지도부 후속 대화 초안. 버그 주드는 기존 장문 호칭의 단축형.",
+      "ui_keys": []
+    },
+    {
+      "id": "jud_vug_short",
+      "source": "Jud the Vug",
+      "ko": "버그 주드",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시와 지도부 후속 대화 초안. 버그 주드는 기존 장문 호칭의 단축형.",
+      "ui_keys": []
     }
   ]
 }
