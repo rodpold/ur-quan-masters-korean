@@ -834,13 +834,21 @@
     "DoHyeon"
   ],
   "active_local_trial": {
-    "id": "commander-alpha",
+    "id": "ui7-alpha",
     "font": "DoHyeon",
-    "raster_px": 12,
+    "source_raster_px": 32,
+    "ink_box": [
+      6,
+      7
+    ],
     "render": "alpha",
-    "scope": "commander Hangul only",
-    "tool": "tools/trial_commander_font.py",
+    "scope": [
+      "starcon Hangul",
+      "tiny Hangul"
+    ],
+    "tool": "tools/trial_ui_font.py",
     "default_build_unchanged": true,
+    "dialogue": "baseline Galmuri9 restored",
     "visual_status": "pending"
   }
 }

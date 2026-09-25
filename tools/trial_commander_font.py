@@ -50,10 +50,10 @@ def build_trial(game, mode='alpha'):
     report.update(files=len(entries),font_trial={'species':'commander','font':'DoHyeon','raster_px':12,'render':mode,'png_height':height,'ink_height':bottom-top,'alpha_levels':len(levels),'base_sha256':patcher.sha(baseline),'visual_status':'pending'})
     return output.getvalue(),report
 
-def install_trial(game, mode):
+def install_trial(game, mode, builder=build_trial):
     game=patcher.validate_game(game); current=patcher.status(game)
     if current['state']!='installed': raise ValueError('Install the baseline patch first')
-    data,report=build_trial(game,mode);target=patcher.addon_dir(game)
+    data,report=builder(game,mode);target=patcher.addon_dir(game)
     previous={n:(target/n).read_bytes() for n in ['ko-ui.uqm','manifest.json']}
     backup=ROOT/'artifacts/font-trial-backups'/datetime.now().strftime('%Y%m%d-%H%M%S-%f');backup.mkdir(parents=True)
     for n,b in previous.items(): (backup/n).write_bytes(b)

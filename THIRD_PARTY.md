@@ -98,3 +98,7 @@ Each vendor directory includes METADATA.pb and SHA256.json for all downloaded by
 ## Commander alpha trial
 
 `tools/trial_commander_font.py` rasterizes the already attributed, unmodified Do Hyeon at 12px for commander Hangul only. The generated local addon includes its complete OFL.txt and a source/designer credit under ko/licenses/dohyeon/. Alpha is retained or thresholded for an identical-metrics binary control. No outline modifications. Source, pinned version and original SHA-256 remain as listed above.
+
+## Seven-pixel UI alpha trial
+
+The existing Do Hyeon binary (same pinned source/hash/license above) is rasterized at 32px, then proportionally resampled to a 6x7px ink box within the original 8x8 UI glyph canvas. Only starcon/tiny Hangul is replaced. No font outlines modified. The generated addon includes OFL.txt and CREDIT.txt under ko/licenses/dohyeon/. This supersedes the local commander trial; default builds remain unchanged.
