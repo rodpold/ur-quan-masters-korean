@@ -1,0 +1,508 @@
+{
+  "decoder": {
+    "version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers\nbuilt with gcc 14.2.0 (Rev1, Built by MSYS2 project)\nconfiguration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\nlibavutil      59. 39.100 / 59. 39.100\nlibavcodec     61. 19.100 / 61. 19.100\nlibavformat    61.  7.100 / 61.  7.100\nlibavdevice    61.  3.100 / 61.  3.100\nlibavfilter    10.  4.100 / 10.  4.100\nlibswscale      8.  3.100 /  8.  3.100\nlibswresample   5.  3.100 /  5.  3.100\nlibpostproc    58.  3.100 / 58.  3.100\n",
+    "sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+  },
+  "records": [
+    {
+      "source_path": "base/cutscene/ending/victory1.lpf",
+      "source_sha256": "bb61bb3c17a3bf2d1d7e21351f0729c7b3f30cf85594b3c1ff89c3e589e780d7",
+      "frames": 89,
+      "decoder_exit_code": 0,
+      "decoder_messages": "-vsync is deprecated. Use -fps_mode\nPassing a number to -vsync is deprecated, use a string argument as described in the manual.\n",
+      "decoded_sizes": [
+        [
+          320,
+          200
+        ]
+      ],
+      "frame_png_sha256": [
+        "243af0d0baf60a9e7b121b74ca25fa502ebb50a53130cb130fbbdf8f0e83cc28",
+        "b1b0404318a74cdfaa3f329a6784f0fa2fb8837bcba1b4b92f182193dc0de54a",
+        "2ccde12028ff817b7c7b3a6dde845cf31c6213603737bb56f83da375b6128a88",
+        "f1a4e42b65b40b1b6dab5a99f1a245b0a96564afc67fcf27b21786ba74e4ebfb",
+        "39168792142597482d65061a338998e08ca1426f569127ca3488318d6cbe0d6d",
+        "29f3c6d2d7e46f70ecdaadfafd54b432caedae4820d46072afad690a6df94a30",
+        "0dfe6be3ab3b0223e62571e5acb746bc4e4229d3b8aa129bee95bb5a891cde6b",
+        "37495673397e7fe0dfcbcee4166caa788636671247efacfccdcca5656737d18b",
+        "ecc4826e6a719ae144223a6a1e3e9ac9ded48a8489e3c74706c0d6d1ad7ea359",
+        "c9019a2621f34b9f31369143a0d235216c5544d9d2783b9563b4c5f85b7bf56d",
+        "ee4e8230aabcb59b4d02ffb7bf47bd2c5133575f9b3f64790c918492bd6aefe8",
+        "42168213ac9ed2bd3981ff7627088c532b885955ac93abd9b2b7da7f0e3c2b00",
+        "ae85a9a25f7fd0a2f3a6f781bc73090c10b9a5fc057e7e1399ab6a4128b6d26a",
+        "481e6aa6744be943e7ea92c4b8d9e8bc967a02a120eeb2f8d4c21260d9f44baf",
+        "100a3fc3550df11d45c25c50b3fece3affdaa4856e7de4c346c692a41ebc501f",
+        "42cce9cd33e4f989b575ae2e808381a3a96c127d305c7f4a47c62f316043e69b",
+        "2e24d2ac79224fce38e3404433f1fe36c7aa55544e9a943f388e559739b224f6",
+        "0302a636a00313657a48aa75585a250d902fa8b003203d319e1fa7503d772f78",
+        "ada68dc62f389672383f842a68c7846c7c9f7cfb25c885b25baa9b21a486777b",
+        "f9803b45db1f5332066a9e0dbaae4f79c03002d674d42e40b7bf26cbd88b7211",
+        "b2e9a7ff66e94e7a565a3d4fca1aaa9e35038e15ee5d374ca66658a11db600e4",
+        "49282a361e6c806a3a4acff953e25cbb8ab0b48a519c5ab238bc10dbb1c7b501",
+        "a8b22be7b389039aab7cd82d3cb53737861a7585b98bc114f798a8e12c11fe44",
+        "2216576984121a3bb30f0c6f46b1417fce6ae5fee014c3356a26ec728ed5fc05",
+        "65d2645f4149faef3afc5355fc68933af9f4bfb90a1eb79d82a7b604d59a523b",
+        "65d2645f4149faef3afc5355fc68933af9f4bfb90a1eb79d82a7b604d59a523b",
+        "7f36fe05eec28c5470a201201cc51379eefbfff5e446bc315bc6ad44114875e1",
+        "7f36fe05eec28c5470a201201cc51379eefbfff5e446bc315bc6ad44114875e1",
+        "ed10e41e17ab0f503eda7f6fa8b171bc49b62631da9b56fce9de1785eb0830ad",
+        "b4ae4a7c246931473cd005343d473b438a056f8f33cf90ce40d43a779fe4ddb0",
+        "82c7c6f33cbb9dde211a5b570c97cd5a45bed4262a0bc3e3150f46edc1afa587",
+        "626baa04447a51e284c03fdafeaa790613a7a73209b834b21bc4e1acbcd17955",
+        "5146735f311174258b828312ee8fa01e8e8c85f718f37a59c7dec44f866987a7",
+        "7dc0ab239981de4851baa41b7a2a6dcee5bc5372d8880baba957276932536ba6",
+        "645b0febf44519ff72354a03fe5d878fb6f7216f31643f3aa869f500bcb82450",
+        "d9b11e7a867878d7a0ea75514a96baf7ddfe9b10f93e786af376c91074944cc8",
+        "f58be5b843894b17769e0db7eab05faa8d1e74ee91e20e53c2ff5f5571379f81",
+        "f8c1922d803b3fb550ba712dd30a1238db68768273027fe48d39b282c4281a09",
+        "ed91ecb26b02b6f4132b31ea263ece26dbe42a458d3edd4f435031e2a08d9eb7",
+        "ac8c276bbf5555d5b3ce4adfde64bb273144f05d807511e979b663644dfc3393",
+        "8d026f74ebca0b5dbadcbddd733346c3166b30142d8bbdf97968c843dd84a18e",
+        "9e4ca8acd8e2c858dcc60e72fcfa5eb9184c02566f58a4d25851819a566ca2ab",
+        "25ace6381505d6248617978944023f74c5eaebab96c61a3066b487113e98a483",
+        "b63a9c28b2e0ffef293b107b2d624b15f3734cb9494583534b5d585bd0aab878",
+        "f27976f31f15ccae8bc2c50c1f6c1afe5a0de5194b71c92b38d8322738562c54",
+        "dc3bd6070a23b0981b7a592c8f830edb9243ec02289b14ba49b9712a2bf6a668",
+        "fefbf19211d8d792d94a2faef94bda7ce1d0ffd691cd6cc0a88532e0a0a23a80",
+        "90c5284566f5251169d7d3cb967bbaa70486614b677cf4fe070d52cc5c754b34",
+        "5931acca50afec5aca3a1327083c2619b66633f67eed00f4f37d40d91bf46bef",
+        "533e1bc99c380aa09b1f4f5ae5a2e66ab93556cbc468a50dd939876f86cdf9fa",
+        "6cccca2ce1b12e14876cd796cddd1a9365e3fbb4283941b7fc7e1b2e285a9210",
+        "fb67b3903c87c3a104b7bbb664ba4d873b38c9eafb40e78c11c4c921a86b6791",
+        "ea8906322bb0e8bf890dc7edbbeb592c4e766822bf0f2b2733b05c358afabcaf",
+        "75f00c8eecf069839bbb827186237c095424751fd79ebca942eb1589e54c1cb7",
+        "21a5f586d093257e76e8b71041bf5021d1b3cdb045b9862bc530710d0514be6c",
+        "f5b4156db33c8a853acf1662b9e19c84b9cde5ad28e32fb19768cf810891be2a",
+        "15e184afb34d3d9f18598b260dac5b41b3d8226f357c204e9193d00e4b2a8f68",
+        "ba9338ec0b4c107dd2c1e16d9cdf8a31ab3368307d89e93d86ce54b53aab3894",
+        "ba9338ec0b4c107dd2c1e16d9cdf8a31ab3368307d89e93d86ce54b53aab3894",
+        "ba9338ec0b4c107dd2c1e16d9cdf8a31ab3368307d89e93d86ce54b53aab3894",
+        "4fed21381f24522653d9146873f6b3f363e25278ccedd65b77dce5bc011f3d98",
+        "4fed21381f24522653d9146873f6b3f363e25278ccedd65b77dce5bc011f3d98",
+        "36201455880d998f2bbe6bdd63b69a8476ea63f2219a95702c2cfdebaa72a5d5",
+        "36201455880d998f2bbe6bdd63b69a8476ea63f2219a95702c2cfdebaa72a5d5",
+        "684d3ce67e01781f13deaa9b5577ce2d95f2276120bea888660091846787cad1",
+        "684d3ce67e01781f13deaa9b5577ce2d95f2276120bea888660091846787cad1",
+        "49b228c8f3bd3bbd180fe814b96013648e42063892a2f33d6f56bd5043ad0a8e",
+        "395bef64b248cb8c42ee3eb9aacbe6643ec948ed0692a450c3067a1501e006a1",
+        "395bef64b248cb8c42ee3eb9aacbe6643ec948ed0692a450c3067a1501e006a1",
+        "6117b0ddb6980db726c649fde37a0306ec1bfbcce3eb591689bab6ad4d9dc896",
+        "a47ed0fdc14c245528046c8a8c3b93a7cea87558f602ead90582743434deaacc",
+        "a0dd9a6a475199fae80367079954e2bce17f929e39aea759a90591cb9654085a",
+        "128e8170c5d310ee57ef726ff3892b9d91bccb286534c8f1693e93beab14bf45",
+        "7fe18838de838e006b9124ebbbeedb571e1705fab7be515f222eea63f3b8ab43",
+        "18b18ce03192d88c4fe43aef60e1b9162e15d2e1f7622b1f8aad5f3f190b33bf",
+        "7816a4b737cfe63b65514c6d45a7f776b3b7719494e2110628db9b68393f8458",
+        "b33ea09f1344b964cd990bbbd522bcd7843c7f114dcb577f2de14815667c8c65",
+        "ca34f276cf7642ea1cea731ec70a2a052f0203c5306e95b25f4d1b77ab143a86",
+        "3bfb2f39cc584250ef17a4ddee3209275541aa47e6d199419b88a30ba3ce892f",
+        "9e420164ec35e360a2cdb9e14796a2d331202c3d6d8724a276bfa339ac5acd6b",
+        "9c29d711676b2b44ce29990b40bea87e547c00d2cf2ffc560fabfc94f4831a2e",
+        "1f2fde302ac365fc11985c76c1ad31b5e2775eb3eee7f2e4245a0f2584aaa094",
+        "25fd58386e1b4ee931d1551b8163d7b386c0bac27b27c665f77ebf8dd8631a1c",
+        "19f99ec51caa81948e6913a88a810c75c73627535861e030cc464d824f4a0729",
+        "957dfd00338a4fc2f1fd47847a3fa902eb3790eb60de7cd0b82a60955592ec7c",
+        "2670f0ad7c4ba7fd4c5907ea3a9ca0cb433299f52b5897ac9c639e74adf218ed",
+        "a4b4df0648179952cf4c68660b91f83877a83848b9d968efd513708cfbc95bff",
+        "15e184afb34d3d9f18598b260dac5b41b3d8226f357c204e9193d00e4b2a8f68",
+        "243af0d0baf60a9e7b121b74ca25fa502ebb50a53130cb130fbbdf8f0e83cc28"
+      ],
+      "record_table_audit": {
+        "file": "victory1.lpf",
+        "header_records": 101,
+        "header_frames": 101,
+        "has_last_delta": 1,
+        "last_delta_valid": 1,
+        "pages": [
+          {
+            "base": 20,
+            "records": 15,
+            "size": 63731,
+            "end": 66585,
+            "file_size": 197774
+          },
+          {
+            "base": 35,
+            "records": 66,
+            "size": 30494,
+            "end": 98986,
+            "file_size": 197774
+          },
+          {
+            "base": 0,
+            "records": 20,
+            "size": 63837,
+            "end": 197773,
+            "file_size": 197774
+          }
+        ],
+        "empty": [
+          {
+            "id": 60,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 61,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 62,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 63,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 64,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 65,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 66,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 67,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 68,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 1,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 2,
+            "size": 0,
+            "prefix": ""
+          },
+          {
+            "id": 3,
+            "size": 0,
+            "prefix": ""
+          }
+        ],
+        "short": [
+          {
+            "id": 28,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 30,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 70,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 71,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 73,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 75,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 77,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 80,
+            "size": 7,
+            "prefix": "42000100800000"
+          }
+        ],
+        "record_count": 101,
+        "nonempty": 89
+      },
+      "status": "art_and_numeric_animation_no_language_text_observed",
+      "action": "preserve_original_bytes",
+      "review_method": "All decoded frames inspected in contact sheets; victory2 loop frame inspected separately at native size.",
+      "count_explanation": "101 records - 12 zero-byte records = 89 outputs; final loop record shares the previous page and is included by this decoder."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2.lpf",
+      "source_sha256": "599aba8ac053d6b5791b17ecc93c937df1626e0c0a087dea1b7acba639d6c413",
+      "frames": 131,
+      "decoder_exit_code": 0,
+      "decoder_messages": "-vsync is deprecated. Use -fps_mode\nPassing a number to -vsync is deprecated, use a string argument as described in the manual.\n",
+      "decoded_sizes": [
+        [
+          320,
+          200
+        ]
+      ],
+      "frame_png_sha256": [
+        "e0c5a3fb13775e101b568e59e4c31c4cd78a0c609429a28925e0ee1f3e4ddb51",
+        "5f2ece308d4af886b99e4184834faaa037ce4edb67eefe191e0a4631d33fdbc2",
+        "bd0eaac8f9a8ea60515aa85e6b7a2c29d83880a27a22167e06379aa1645eac93",
+        "e678f7531845cc670f127ecb997b797826e4cc2847b760f418a4e5eb6ad88af9",
+        "075546288b22ddb34c16a7bb6fd6d1ac55241fb3daf1483f9f876204f50cdf39",
+        "77d9cb8d06ba3832487a50622079e5b16db1f247cbe340555b9a739a219817d8",
+        "342d0ca9ed4aa2523de239487756a217eb379d2bff29c0d68b9cdd4a28a365c3",
+        "db7ff9e95617b10e4aa05c9c701b9be2a08dac4cad1424df5cf4c0669bcb449b",
+        "8b4e9f5966ad64caa5771c19436e9fad7b728cb9239682afb63a47783ee3fa2e",
+        "bb2999eacc2015380d9f5c4ca3b1d23695720869b1f50dc5aaf15c666f46ade2",
+        "392395082b4fa2247cbce35bd14d67e4702b6cbff1fa92d5dbd73fb919847671",
+        "4987067f6ee23a7c7414f7fa6c180b002e950756dd0d786de8163bc09d932c80",
+        "c293f89bfc649284dc752a1f23eb3c164e8bb1368fe067c2506e9b04595845cc",
+        "41647bdc2f46db93618e1de474eaeaa794b8501f8402b6df07f384ffe8b72edb",
+        "8c065f345f41d611add8a994bc65d3f8cf8ab740beaa4c99a5a8f9c5171cd414",
+        "d2b5a761d7b3d67d24fb2a31657b07758e0041a51954849ba38c7d3bc2142124",
+        "2b17c4d968e65642a836b3b34df51aab5c7a9cd1595b186de6e5eb2c0ccb9fef",
+        "09a998949ea8f02ac49c2618030621b1ab5d5f57842a4ddb6c4cbd43421aa3f5",
+        "f9687ca0e6a124dc45bf354fc3fe37b615bf650bbf73e16d6e59aa61ac3270f8",
+        "e29add151212de21ee3102b0e21393357c5da8af26a5f530d2db7ec71901612d",
+        "9604ddd48d1d7663a0773ec3943012943afe54f386c5030d743aea5cc48af79b",
+        "bf6d71a4cf571ffdd7fca78684f714ff4b4122ce1e4bec6464457c9d1e9ad1c1",
+        "82e8571d4de687fbc91cd4a90451750a1fcac95ad63d7a368d4942238e757c1f",
+        "e37ddd569eca6a70f970ca3f0c4a2a7c29250fae680fff69b441b373c460a9b8",
+        "dda13f0e4ce45f4feeea6c6f6d193499fd532d35dedf439ab7753518b0d5999d",
+        "e7c0ee36988c30a83904438afadba98661e4f044e5ddd4c997788e3d71031aff",
+        "9c815a9927509cd7f36ad580c53dc149f1968fc4a3c3aba8458a91f47c4ff3de",
+        "9f48543ee5b528e7d8298c394ae550281eacf90738a136f5372cc95e27b0db64",
+        "52393fe407510e1ea7f10d1889dcb453f9796dfd4ebc767dcb5e4c5b86f34ac0",
+        "89c5e115c7caccb68ad1a6dff66c22f9d9e386b23aee9c480efdd249364b3d29",
+        "ace4a5fa1d11ceab00da0d3a1c60e6a1683172ad0e61a3510fc2724b8b90bc1b",
+        "87c6be44c4cea8a65ffa5a91556f590139b365857177862e94ed6a4fbf480782",
+        "874de4f717575056c77b34cfb4db09dd596e920e0f4e46f30c04758ac365c0c5",
+        "28dd467462e7fae72e2a3230b2f34baf77cb63906743d13fdef48be91f964e6b",
+        "9a823b5e27a282ae700af12af71b72f9afcaddd58857357203fda534dcba7834",
+        "e8429f4104bf3e2ee1b0400a728da21960a6f28a83c424a6a200a4d3d055e866",
+        "81bacdaea9ef82e492a310b7efd8c404f236e235dde2e6a816140385c3289879",
+        "e35c51b6505d91b828f28a1f26f3f2210c79534fd221f5efb863e4b4e81e86f6",
+        "0deaffd4f7b635e957578d428d42776998fc6efe94ac306535138050d357e709",
+        "1532c81feb04c285144b04f98678982c95cefa6754c8b5554cabe9974b07db68",
+        "ec91de527a7525942ec619b28508458667b726e8bb0124bb82ffd0e808f67fe2",
+        "db5b17047c4a6ff546fbaef42e64158e4bb9afe341301ce945f2eb7497d80edb",
+        "670c8dc844e6b7d325179d03b6fef25d0c101674dd3e79dbfc43788a3474f2f3",
+        "ddb6a72a02007e5578ba56c223081f28dd6d1607d196795a6d19008819aa48e3",
+        "99105036712952c0ed76860b88c2b9196d22828dd552e29a244c6a5c7a258bf8",
+        "97ee3098e5ddc86a017dc951b79f72158d3be00307c9c31cfb54c342fd7f31bc",
+        "b3fff4b701c205f1490859985c4446e1986094dc35ad22cd6b67f130f21f325f",
+        "8410c069a84976b0306c8d02ea6466a3cb1337d23dc782197f021288d7e17737",
+        "f4817d3b8a7e85144bc2b38cb11861d402c9ba32b8b39d93b844cf66f3378f5e",
+        "940d350b9db9900260f7c622eb4bd4d80bd05b27630bf2e839ab58ab9ceb6243",
+        "5b721ade6f2281f15950c168afdf975b6b7bae221a35bde11108af3c5b92729d",
+        "31e38d0deb9633b12d19e1f070a05d2aee22121a8c62303e35c67092113073cc",
+        "e1209b2d438d06df95b51556b79ac9a273458aa37694640a6a8623210eed0e7e",
+        "02f413c2d19f50b89c40ecc157f0177b8b36264624fc048716dca0f0144ad4ed",
+        "6e3696b24c963ae8dabdbfd77edf341c6e03ad8392fd6faca39021ec4bd698db",
+        "ca553d5a0da031fddd61f353866639314babe5197498016604b6eb8c5bcb7742",
+        "a9bfc57913f38e4eb7c6a1ac3b7d8faaa6726fe7875f6d0b2c455b1aa51447b5",
+        "361afd350a02c66ace0352a9b4898785f6147471a016076ae59e8321e4760057",
+        "04dc4fe804009cb1a98dae78d1566448f7ccc6af47d885932743c238e6504961",
+        "14939e6e78eaca5e3e65eb4b5f7b0293d0198d220cb7f85c76ca3e99aa325610",
+        "0b968cdf6d17ada36115913c6dfeaf9eb068e613f2e8d071a2c171440891620a",
+        "c45476676c3735922b4d88e7dd4a9ff0e7e71070254c2e83908b64530d59e27b",
+        "7a478950ddf93156162c19262885350d57bcacb89440a368cb59d72652891d47",
+        "3fd9361116067aea7f9759e9379548176295f30215f954af969c9a75aca120e8",
+        "860299a4665a36361d5303e35f73c2c5dccd74b46a80dace6aed32a8cd6e0cfe",
+        "b819366997ae48f43ccd095af0f4c8751192ccb13c38af5aae39e3cba455bc49",
+        "bc0af41e00b1978f43e8e8d8b396449da465399df9a0ffb88321f8fbb33844eb",
+        "37aa233a67add6c3aba0b131b4b77bce71a20a411e70c4409c1995ed2f5d4414",
+        "4d396a6d75e76502233f1bd12b2a0262094234f1678beb3948be5b9035f8722a",
+        "7b7c89312bce35c8ae2c97440424a99c40d6383dd36f01bcc859280642d80326",
+        "a17aa88a03dd943b4b77cda82bdf555ee78c8167dedd4f2b70b6c8e21923f5c0",
+        "c1bdd9f8a74de2cc15b074b31b1ded21e51932eac41a5647234988371335e29d",
+        "81c0cf425701aec41f1600fb57df471262aa7b5a9144ae99ec830f5ce2809aa0",
+        "266c70961bd26cea7455d43e9e63ff9b3cfd1f739153983644207a3033595d49",
+        "4353cace7edefc6f33373cc1e4846ed47dacaaf755fcc047b77e2e77f7220535",
+        "2adedba07deca48681821a6db8de1aaada8e3143282ba12424f3a8a86faa3569",
+        "ff66095bc8fb40c7ff1cbae6d080b62dbd3dcf33c60f7c80dfce592b67fd4979",
+        "6195d7625c09833bbcb97a1988a88a6da11731216fb053c5c94cd57d79494c6b",
+        "b0641f952ca6c8a7e6826ab839d8c7215ea5c137e8fd0ba3bf0093aea934d63c",
+        "d2448ab813f73217c96da5ef8374b8d3c274667fa99daf8e834e95e217a03572",
+        "367fe323aa150e5f16d9c2bab529946060d270efb915a43eaf73c21b80fc5b77",
+        "e1cfa7049de782cedf136a0bef1b86203f2282f4a250a70dd7bbd01247f171be",
+        "9a4082a3e41a09e9b5347977f01d5cf19c612d10a2364c46f8db7030bddc0ffd",
+        "d746f495ca1af70dd751b1f806fde060b7d27750bdd3dcd8583de3b29ad7fdb4",
+        "8b6e66df5b215fc7396b3a7659e6f0319f627501a5fea36c366df40e39a5f35c",
+        "006953daa8c8f16ed6f4371c55537850abfcf96387e752453c84019e7969e835",
+        "8130150f5c0b1140f67b2e6b5fd8692402034845516f5212ceff6c5cc9a32227",
+        "85e80189c762cabf6cb803e7147da507bcd1846ac48a2c249773fe6467fe1913",
+        "76720cb907d50a25817979468bb731609340fb664e01ed148c1b7477a2b4bd65",
+        "28bab99dc956190f4a4f8c8763d3384c4e2e1309141fb0c048b7058d7b7eda67",
+        "c082c707a94c326e56a4dde8c70a7ab656c4d94bdd0de51c32dd7b392d636a25",
+        "769cc188635885af163099024ba449eafe1c1016378c43461a5829a04982d463",
+        "473c921ebc23f2015ec426982cd0ea9d78b4d27f8af54fe7d7939f7bb7ab36be",
+        "054be621aad11c55607adf80e394c8cabe28335a39801554c20f3be5845e5404",
+        "371bd3fddd8fd8482e736f3f0fb5324a3aa6e03db1b9ae000fc3d8d75d7caa36",
+        "e367268b780d7e9b7fe0821af25af03e072ef85fe870b8335325c66ae0c91758",
+        "08585fd31268bf2076b6a6543a89e3c17e5244da4858d3f47a4801a77f785f4d",
+        "8c288418630001bb96fe6fac8252f64a6caa6ad56e6a22c22a0a23ca57bd82d3",
+        "68058538efa4d6ea24a39cddcb2bec0da284220a46f4c01c95d0f2ee9d3d2f35",
+        "f4a48e8617a75aa7ce39fe49bbf5ab887cab559e01b97d9e5e2f67fdcfcc625a",
+        "f18b797ba78ae4763026e168f43ad1191ec1ba7f9367354eab2cf2a0b0d41b25",
+        "07b4131635b6dd0c4b684fc21d995f37334ab141bb34aa025dadf531e932d180",
+        "db7bd5427a4554fb9ad94e3e6b1c75f5d13829777e6449e34aa2ca2e66e30a59",
+        "9838af28ab609b6b8704ba040beb56ca40a6340269fb96c60f8d88fbd5f713a6",
+        "6bb81379b4e314688ddb13d1a211bf017e5d206ff3aa7916e5c270e60d16f645",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "d50986326db1f6c05b572074d110632dc66c8a25777f34348486c0f8968a9fc6",
+        "fef860e74a2783786501dc8832f0244954252ad9134f0f1ffef5513a1c0d4cce",
+        "e6cfc5a24b68069122cd1c9edb44e63ebed21953eeebf4fbccf7050ce0df97e5",
+        "f68f678413495ac2e0cd060cc6916426d77d17d06480b36b23fd302a8d4fa77d",
+        "4a2b757b17aff355ac95fd8674d1821db52b0940de603e1da827c866430ef635",
+        "537f7e723d7438dba8e26e64c6b4ae076f41d20e22ab66bea2a2c1b1998b43fc",
+        "89cb2ff7d052a90060bd66311722ad6318407b0543ef9346022928ef8b64f7f2",
+        "9e557c5d00cbdb61e8a83be57d2aefa2b54f04951323dccc63bac33ee39649da",
+        "626e8e60b4a062d5004614a74b376184816b3df419ea5ab14d26cdd76aae559e",
+        "ad9851c8c9d8c70b491a921ea34ffe546af398fe026f72b557585990df705402",
+        "e1bf2a3162f59446bd2f297cc3cc38220c505349952f8a18d51949335371a2e1",
+        "06294ecee0fc1f5acbd19ac532127078610e54d6c86c16993eeae461b9a86007",
+        "c22570fc909052eb5d63c4e4bf469a69fcae795f5b26297d13dd471c4f207be9",
+        "34b9606e1e20e01b4db7644cda20b619682d7b1c6a054e3c17a2683484970bc7",
+        "387b3515c889c3d17d775f10e6cc664029f7fabda111dbc9d554b1e23a2ff52a",
+        "b386064465d5936f14718791ee88eed8f1c3354b92e8e5cd6144fa5f0de08f6f",
+        "eb94c6ccf86e63acacb08a52c393ab3c36b7137c56f43bf9a2fd5014fa60a050"
+      ],
+      "record_table_audit": {
+        "file": "victory2.lpf",
+        "header_records": 133,
+        "header_frames": 133,
+        "has_last_delta": 1,
+        "last_delta_valid": 1,
+        "pages": [
+          {
+            "base": 3,
+            "records": 52,
+            "size": 64843,
+            "end": 67771,
+            "file_size": 250494
+          },
+          {
+            "base": 132,
+            "records": 1,
+            "size": 34960,
+            "end": 103322,
+            "file_size": 250494
+          },
+          {
+            "base": 0,
+            "records": 3,
+            "size": 59122,
+            "end": 193024,
+            "file_size": 250494
+          },
+          {
+            "base": 55,
+            "records": 77,
+            "size": 50908,
+            "end": 250494,
+            "file_size": 250494
+          }
+        ],
+        "empty": [
+          {
+            "id": 120,
+            "size": 0,
+            "prefix": ""
+          }
+        ],
+        "short": [
+          {
+            "id": 106,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 107,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 108,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 109,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 110,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 111,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 112,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 113,
+            "size": 7,
+            "prefix": "42000100800000"
+          },
+          {
+            "id": 114,
+            "size": 7,
+            "prefix": "42000100800000"
+          }
+        ],
+        "record_count": 133,
+        "nonempty": 132
+      },
+      "status": "art_and_numeric_animation_no_language_text_observed",
+      "action": "preserve_original_bytes",
+      "review_method": "All decoded frames inspected in contact sheets; victory2 loop frame inspected separately at native size.",
+      "count_explanation": "133 records - 1 zero-byte record - 1 final loop record = 131 outputs; loop record starts its own page and is excluded by this decoder."
+    }
+  ],
+  "complete": false,
+  "scope": "Two base-package LPF files only; visual inspection of all 220 default decoded images plus the separately decoded victory2 loop image. No runtime certification.",
+  "review_date": "2026-09-26",
+  "demuxer_source": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n7.1/libavformat/anm.c",
+  "demuxer_source_sha256": "915fd03161c630daca20bb3c8404ad79e5df4c41fdba1656bfcf508b43794f58",
+  "loop_supplement": {
+    "source_path": "base/cutscene/ending/victory2.lpf",
+    "temporary_copy_only": true,
+    "change": "Header byte 26 (has_last_delta) set to zero in a temporary copy to include the final loop record; game/package unchanged.",
+    "decoded_output_index_zero_based": 131,
+    "image_sha256": "e0c5a3fb13775e101b568e59e4c31c4cd78a0c609429a28925e0ee1f3e4ddb51",
+    "observation": "Returns to opening ship/window/countdown image; no language text observed."
+  }
+}

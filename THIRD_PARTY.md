@@ -197,3 +197,11 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 기존 Galmuri7(동일 공식 출처·저자·라이선스·vendor 해시)을 조선소 이름 그림 21개에도 사용한다. 원본 shipyard.c/units.h의 배치 근거는 기존 shipyard-label-layout-review.json 및 아래 해시로 추적한다. 원본 C나 게임 PNG는 재배포하지 않는다. units.h SHA-256 `55061f177ecd8d8b408adc5bc09f7f6bfe013f4df13c1a241bf5e49ebf603a99`. 원본 ANI/PNG별 해시는 translations/shipyard-labels.ko.json, 아이콘 ANI 근거는 docs/shipyard-label-checks.json 참조.
 
 기존 Galmuri7(동일 출처·저자·라이선스·vendor 해시)을 미참조 SAFEX=16 UI 변형의 문구 8개에도 사용한다. 일반 이미지와 다른 하단 실행/취소 문구를 포함하며 원본 입력 식별자·숫자·테두리는 유지한다. 원본 게임 PNG는 저장소에 포함하지 않는다.
+
+
+## LPF animation inspection tools (development only)
+
+- [imageio-ffmpeg 0.6.0](https://pypi.org/project/imageio-ffmpeg/0.6.0/), imageio contributors: BSD-2-Clause wrapper, local license `LICENSES/imageio-ffmpeg-BSD-2-Clause.txt`. Windows x86-64 wheel SHA-256 `02fa47c83703c37df6bfe4896aab339013f62bf02c5ebf2dce6da56af04ffc0a` (PyPI published hash).
+- Bundled [FFmpeg](https://ffmpeg.org/) 7.1 essentials build by [Gyan](https://www.gyan.dev/ffmpeg/builds/): executable `-L` reports GPL-3.0-or-later, distinct from the wrapper license. Executable SHA-256 `2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3`; exact build configuration in `docs/lpf-image-review.json`.
+- [Official n7.1 ANM demuxer source](https://raw.githubusercontent.com/FFmpeg/FFmpeg/n7.1/libavformat/anm.c), Peter Ross/FFmpeg, LGPL-2.1-or-later source header: read to explain zero-length records and loop/page handling. Source hash recorded in the review; source code was not copied into this project.
+- Installed only in a temporary investigation directory. Neither Python wrapper nor FFmpeg binary is redistributed or required by the patcher. No FFmpeg modifications. Original game animations and extracted screenshots are not committed. The supplemental inspection changes one flag in a temporary LPF copy only; installed game assets remain untouched.
