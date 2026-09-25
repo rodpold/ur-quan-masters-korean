@@ -3606,6 +3606,177 @@
       "status": "in_use",
       "notes": "프쿤크 대화 초안의 작업 표기. 최종 사용자 승인과 구분. 아릴룰랄릴레이를 잘못 부르는 표현으로, 정상 종족명으로 교정하지 않는다.",
       "ui_keys": []
+    },
+    {
+      "id": "korgk",
+      "source": "Korgk",
+      "ko": "코르그크",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "jugkah",
+      "source": "Jugkah",
+      "ko": "주그카",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "gnusko",
+      "source": "Gnusko",
+      "ko": "그누스코",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "muuhd",
+      "source": "Muuhd",
+      "ko": "무드",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "pudt",
+      "source": "Pudt",
+      "ko": "푸트",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "yajag",
+      "source": "Yajag",
+      "ko": "야자그",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "reeunk",
+      "source": "Reeunk",
+      "ko": "리웅크",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "farg",
+      "source": "farg",
+      "ko": "파그",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "lead_tatoo",
+      "source": "Lead Tatoo",
+      "ko": "납 문신",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "reeunk_afterburners",
+      "source": "Reeunk Afterburners",
+      "ko": "리웅크 애프터버너",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_2",
+      "source": "Culture Two",
+      "ko": "제2문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_3",
+      "source": "Culture Three",
+      "ko": "제3문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_12",
+      "source": "Culture Twelve",
+      "ko": "제12문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_13",
+      "source": "Culture Thirteen",
+      "ko": "제13문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_14",
+      "source": "Culture Fourteen",
+      "ko": "제14문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_15",
+      "source": "Culture Fifteen",
+      "ko": "제15문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_18",
+      "source": "Culture Eighteen",
+      "ko": "제18문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_19",
+      "source": "Culture Nineteen",
+      "ko": "제19문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "thraddash_culture_19_ordinal",
+      "source": "Nineteenth Culture",
+      "ko": "제19문화",
+      "category": "era",
+      "status": "in_use",
+      "notes": "스래대시 초기 적대·원정 대화의 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
     }
   ]
 }

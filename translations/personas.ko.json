@@ -490,10 +490,23 @@
       "source_path": "base/comm/thraddash/thraddash.txt",
       "evidence_record_ids": [
         "HOSTILE_SPACE_HELLO_1",
-        "HOSTILE_SPACE_HELLO_2"
+        "HOSTILE_HOMEWORLD_HELLO_1",
+        "GENERAL_INFO_HOSTILE_1",
+        "GENERAL_INFO_HOSTILE_2",
+        "ABOUT_US_1",
+        "ABOUT_URQUAN_2",
+        "GOOD_IDEA",
+        "IMPRESSED_LIKE_SO_1"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "HOSTILE_* / GENERAL_INFO_HOSTILE_*": "힘을 자랑하는 해라체. SNORT는 흥!, HARG는 하르!로 구분한다. 공격성과 잔혹함을 부정하면서 살해를 예고하는 모순을 유지한다.",
+        "GENERAL_INFO_HOSTILE_1 / GENERAL_INFO_HOSTILE_2 / ABOUT_US_*": "문화별 폭력과 퇴보의 역사를 배움과 발전이라고 자랑한다. 제3문화를 멍청하다고 인정하는 반전, 제14문화의 평화를 실패라고 결론짓는 논리를 고쳐 쓰지 않는다.",
+        "ABOUT_URQUAN_*": "우르콴의 노예임을 자랑하지만 전투 참가에서 배제된 데는 실망한다. 비밀을 말하지 않겠다며 누설하는 순서와 부하들끼리 싸워 제지당한 경험을 유지한다.",
+        "GOOD_IDEA / WE_GO_TO_IMPRESS_* / WE_IMPRESSING_* / WE_IMPRESSED_* / IMPRESSED_LIKE_SO_*": "플레이어의 제안을 자신의 생각으로 가로챈다. 출정·교전·귀환의 자랑과 큰 손실을 구분한다. 우르콴에게도 공격받았다는 사실을 승리 선전으로 지우지 않는다.",
+        "untranslated later culture states": "새 문화 채택·언어 선택·우호·유물·일라스 분기는 아직 미번역이며 다음 묶음에서 원문과 소스 분기를 확인할 것."
+      }
     },
     "umgah": {
       "persona": "잔혹한 장난을 즐기는 생명공학자",
