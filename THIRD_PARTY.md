@@ -40,3 +40,19 @@ modifications. Free download alone is not a redistribution license. Keep font at
 with generated assets. Record modifications explicitly; do not claim a modified font is original.
 
 Race/dialogue assignments are tracked in [FONTS.md](translations/FONTS.md) and [fonts.ko.json](translations/fonts.ko.json). Proposed assignments do not mean those fonts have been applied in game. No additional external font files were introduced by this mapping.
+
+## Race-font selection specimens (2026-09-25)
+
+Added unmodified Galmuri11-Bold.ttf and Galmuri11-Condensed.ttf by Lee Minseo (quiple), SIL OFL 1.1.
+Official downloads:
+- https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11-Bold.ttf
+- https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11-Condensed.ttf
+
+Local files: vendor/galmuri/. License: vendor/galmuri/OFL.txt.
+Hashes: vendor/galmuri/SHA256.json and translations/fonts.ko.json.
+Render at 12px (11px ink). These are design specimens, not yet installed race-font replacements.
+docs/font-selection.png is a generated Galmuri font specimen, uses no game artwork and retains this attribution/OFL reference.
+Generator: tools/render_font_selection.py. No font outlines were modified.
+
+Also researched but not bundled or applied: NeoDunggeunmo by Eunbin Jeong (Dalgona),
+https://github.com/neodgm/neodgm (SIL OFL 1.1). It is not a selected font for this trial.

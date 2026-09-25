@@ -108,3 +108,7 @@ python patcher.py build --game "$game" --output artifacts/ko-ui.uqm
 자동 검사는 통과했으며 실제 자막 타이밍, 긴 어절 줄바꿈 및 선택지 스크롤은 실기 확인 대상입니다.
 
 종족/대화별 폰트는 [배정표](translations/FONTS.md)와 [JSON](translations/fonts.ko.json)에 용어집 ID로 연결합니다. 적용 중인 글꼴과 시험 후보를 구분합니다.
+
+[종족별 폰트 선정안](translations/FONTS.md)은 소형/기본형/굵은형/좁은형 네 계열로 정리했습니다.
+[비교 표본](docs/font-selection.png)은 `python tools/render_font_selection.py`로 재생성합니다.
+선정안은 다음 적용 목표이며 설치된 게임의 글꼴 변경을 의미하지 않습니다.

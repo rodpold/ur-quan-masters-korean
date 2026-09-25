@@ -33,6 +33,28 @@
       "source": "https://github.com/quiple/galmuri",
       "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf",
       "sha256": "e24256f42e43713d2ea086a1e1669d78b968f5b3cc547e5c157f0606ffa5def1"
+    },
+    "Galmuri11-Bold": {
+      "file": "vendor/galmuri/Galmuri11-Bold.ttf",
+      "raster_px": 12,
+      "ink_height_px": 11,
+      "author": "Lee Minseo (quiple)",
+      "license": "OFL-1.1",
+      "license_file": "vendor/galmuri/OFL.txt",
+      "source": "https://github.com/quiple/galmuri",
+      "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11-Bold.ttf",
+      "sha256": "45d901e379138dd91873af157640f60aa4cf6beaa885c3efd2a8c279e039a237"
+    },
+    "Galmuri11-Condensed": {
+      "file": "vendor/galmuri/Galmuri11-Condensed.ttf",
+      "raster_px": 12,
+      "ink_height_px": 11,
+      "author": "Lee Minseo (quiple)",
+      "license": "OFL-1.1",
+      "license_file": "vendor/galmuri/OFL.txt",
+      "source": "https://github.com/quiple/galmuri",
+      "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11-Condensed.ttf",
+      "sha256": "613d5de93abdbfca203be1bb05c756d792ba8c141ae831607feeba62279d07b9"
     }
   },
   "shared_surfaces": [
@@ -66,9 +88,13 @@
       "original_font": "FONTRES:base/fonts/arilou.fon",
       "original_max_png_height": 10,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "chmmr",
@@ -80,9 +106,13 @@
       "original_font": "FONTRES:base/fonts/chmmr.fon",
       "original_max_png_height": 12,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Bold",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Bold",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "굵은형: 원작의 두꺼운 획/강한 존재감을 한글의 굵기로 옮긴다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "commander",
@@ -96,7 +126,11 @@
       "current_korean_font": "Galmuri9",
       "candidate_font": "Galmuri9",
       "status": "trial_applied",
-      "notes": "일부 대사에 적용 중. 실기 줄바꿈·음성 동기 검증 필요."
+      "notes": "일부 대사에 적용 중. 실기 줄바꿈·음성 동기 검증 필요. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri9",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "소형: 짧은 자막 영역과 촘촘한 문장의 가독성을 우선한다.",
+      "fallback_font": null
     },
     {
       "id": "druuge",
@@ -108,9 +142,13 @@
       "original_font": "FONTRES:base/fonts/micro.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Bold",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Bold",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "굵은형: 원작의 두꺼운 획/강한 존재감을 한글의 굵기로 옮긴다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "ilwrath",
@@ -122,9 +160,13 @@
       "original_font": "FONTRES:base/fonts/ilwrath.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "kohrah",
@@ -136,9 +178,13 @@
       "original_font": "FONTRES:base/fonts/kohrah.fon",
       "original_max_png_height": 15,
       "current_korean_font": null,
-      "candidate_font": "Galmuri11",
+      "candidate_font": "Galmuri11-Bold",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Bold",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "굵은형: 원작의 두꺼운 획/강한 존재감을 한글의 굵기로 옮긴다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "melnorme",
@@ -152,7 +198,11 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri9",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri9",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "소형: 짧은 자막 영역과 촘촘한 문장의 가독성을 우선한다.",
+      "fallback_font": null
     },
     {
       "id": "mycon",
@@ -164,9 +214,13 @@
       "original_font": "FONTRES:base/fonts/mycon.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "orz",
@@ -178,9 +232,13 @@
       "original_font": "FONTRES:base/fonts/orz.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "pkunk",
@@ -192,9 +250,13 @@
       "original_font": "FONTRES:base/fonts/pkunk.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "probe",
@@ -209,7 +271,11 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri9",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri9",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "소형: 짧은 자막 영역과 촘촘한 문장의 가독성을 우선한다.",
+      "fallback_font": null
     },
     {
       "id": "safeones",
@@ -221,9 +287,13 @@
       "original_font": null,
       "original_max_png_height": null,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용."
+      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "shofixti",
@@ -235,9 +305,13 @@
       "original_font": "FONTRES:base/fonts/shofixti.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "slylandro",
@@ -249,9 +323,13 @@
       "original_font": "FONTRES:base/fonts/slylandro.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "spathi",
@@ -265,7 +343,11 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "starbase",
@@ -279,7 +361,11 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri9",
       "status": "proposed",
-      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용."
+      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri9",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "소형: 짧은 자막 영역과 촘촘한 문장의 가독성을 우선한다.",
+      "fallback_font": null
     },
     {
       "id": "supox",
@@ -291,9 +377,13 @@
       "original_font": "FONTRES:base/fonts/supox.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "syreen",
@@ -307,7 +397,11 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "talkingpet",
@@ -319,9 +413,13 @@
       "original_font": "FONTRES:base/fonts/talkingpet.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Bold",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Bold",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "굵은형: 원작의 두꺼운 획/강한 존재감을 한글의 굵기로 옮긴다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "thraddash",
@@ -333,9 +431,13 @@
       "original_font": "FONTRES:base/fonts/thraddash.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Bold",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Bold",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "굵은형: 원작의 두꺼운 획/강한 존재감을 한글의 굵기로 옮긴다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "umgah",
@@ -349,7 +451,11 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri9",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri9",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "소형: 짧은 자막 영역과 촘촘한 문장의 가독성을 우선한다.",
+      "fallback_font": null
     },
     {
       "id": "urquan",
@@ -362,9 +468,13 @@
       "original_font": "FONTRES:base/fonts/urquan.fon",
       "original_max_png_height": 15,
       "current_korean_font": "Galmuri9",
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Bold",
       "status": "trial_applied",
-      "notes": "일부 대사에 적용 중. 실기 줄바꿈·음성 동기 검증 필요."
+      "notes": "일부 대사에 적용 중. 실기 줄바꿈·음성 동기 검증 필요. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Bold",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "굵은형: 원작의 두꺼운 획/강한 존재감을 한글의 굵기로 옮긴다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "utwig",
@@ -376,9 +486,13 @@
       "original_font": "FONTRES:base/fonts/utwig.fon",
       "original_max_png_height": 14,
       "current_korean_font": null,
-      "candidate_font": "Galmuri11",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "vux",
@@ -390,9 +504,13 @@
       "original_font": "FONTRES:base/fonts/vux.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "yehat",
@@ -404,9 +522,13 @@
       "original_font": "FONTRES:base/fonts/yehat.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "yehat.rebel",
@@ -418,9 +540,13 @@
       "original_font": null,
       "original_max_png_height": null,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11",
       "status": "proposed",
-      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용."
+      "notes": "독립 FONTRES 선언이 없어 공유 폰트 관계를 소스에서 확인한 뒤 적용. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "기본형: 넉넉한 한글 내부 공간과 안정적인 문장 가독성을 사용한다.",
+      "fallback_font": "Galmuri9"
     },
     {
       "id": "zoqfotpik",
@@ -432,9 +558,13 @@
       "original_font": "FONTRES:base/fonts/zoqfotpik.fon",
       "original_max_png_height": 10,
       "current_korean_font": null,
-      "candidate_font": "Galmuri9",
+      "candidate_font": "Galmuri11-Condensed",
       "status": "proposed",
-      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정."
+      "notes": "원본 PNG 높이를 참고한 첫 시험 후보. 종족 분위기를 살린 최종 글꼴은 미확정. 원작 스타일의 일대일 복제는 아니며, 크기/기준선/긴 대사 검증 전에는 현재 적용 폰트를 교체하지 않는다.",
+      "selected_font": "Galmuri11-Condensed",
+      "selection_status": "selected_for_trial",
+      "selection_reason": "좁은형: 가는 인상과 독특한 리듬을 폭의 차이로 표현한다.",
+      "fallback_font": "Galmuri9"
     }
   ]
 }
