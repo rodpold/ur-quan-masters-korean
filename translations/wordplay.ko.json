@@ -57,6 +57,13 @@
         "딜쥐"
       ],
       "notes": "강제로 바꾼 이름. 용어집 dill_rats와 연계."
+    },
+    {
+      "species": "druuge",
+      "record": "GENERAL_INFO_IN_SPACE_1",
+      "source_wordplay": "Dribble-Down effect / trickle-down economics",
+      "ko_wordplay": "찔끔 낙수 효과",
+      "notes": "낙수 효과를 비트는 표현. 혜택이 아래로 거의 내려오지 않는 어감을 보존하는 초안이며 언어 검토 대기."
     }
   ],
   "jokes": [

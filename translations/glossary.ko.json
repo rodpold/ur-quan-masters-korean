@@ -2555,6 +2555,87 @@
       "status": "in_use",
       "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "crimson_corporation",
+      "source": "Crimson Corporation",
+      "ko": "크림슨 회사",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "드루지 사회 전체를 구성하는 회사. 회사의 주장을 객관적 사실로 보충하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "mauler",
+      "source": "Mauler",
+      "ko": "몰러",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "드루지 함선. 기존 마로더(Marauder)와 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "persei",
+      "source": "Persei",
+      "ko": "페르세이",
+      "category": "place",
+      "status": "in_use",
+      "notes": "별 이름의 속격 표기를 음역. 제타 및 행성 번호를 별도로 보존한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "ledger_of_hatred",
+      "source": "Ledger of Hatred",
+      "ko": "증오의 장부",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "드루지의 위협에 등장하는 장부.",
+      "ui_keys": []
+    },
+    {
+      "id": "vortex_spawner",
+      "source": "Vortex Spawner",
+      "ko": "소용돌이 생성기",
+      "category": "device",
+      "status": "in_use",
+      "notes": "Portal Spawner(차원문 생성기)의 별칭. 원문의 호칭 차이를 유지한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "vortex_spawners",
+      "source": "Vortex Spawners",
+      "ko": "소용돌이 생성기",
+      "category": "device",
+      "status": "in_use",
+      "notes": "복수형 별칭. 장치 실물의 개수를 임의로 추가하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "trident_of_wimbli",
+      "source": "Trident of Wimbli",
+      "ko": "윔블리의 삼지창",
+      "category": "device",
+      "status": "in_use",
+      "notes": "Wimbli's Trident와 같은 유물의 어순 변형.",
+      "ui_keys": []
+    },
+    {
+      "id": "deep_child",
+      "source": "Deep Child",
+      "ko": "깊은 아이",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "Deep Children(깊은 아이들)의 단수형.",
+      "ui_keys": []
+    },
+    {
+      "id": "high_proctor",
+      "source": "High Proctor",
+      "ko": "최고 감독관",
+      "category": "title",
+      "status": "in_use",
+      "notes": "드루지가 회상하는 우트위그 여성 지도자. 감독관과 직급을 구분한다.",
+      "ui_keys": []
     }
   ]
 }

@@ -112,11 +112,22 @@
       "font_group": "druuge",
       "source_path": "base/comm/druuge/druuge.txt",
       "evidence_record_ids": [
-        "AMBUSH_IS_FIRST_HELLO",
-        "INIT_BOMB_WORLD_HELLO"
+        "WE_SELL_FOR_CREW",
+        "YOUR_LOSS",
+        "GEN_INFO_AT_TRADE_WORLD_4",
+        "FIGHT_FOR_BOMB",
+        "HIDEOUS_DEAL",
+        "FINE_DEAL"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "trade / GEN_INFO_AT_TRADE_WORLD_4": "기본은 정중한 합쇼체. 소유권·계약·인양법으로 착취를 정당화한다. 신과의 계약 본문은 조항식 한다체이며 서명 간주 조항까지 유지한다.",
+        "GEN_INFO_AT_BOMB_PLANET / NOT_GET_BOMB": "드루지의 회상 속 우트위그 감독관은 정중한 해요체. 장치를 쓸모없다고 판단하는 것은 드루지의 주장이다. 울트론의 실제 기능을 해설로 확정하지 않는다.",
+        "FIGHT_FOR_BOMB / HOSTILE_* / HSTL_TRADE_WORLD_HELLO_1": "협박은 격식에서 해라체로 무너진다. 자기 탐욕은 인정하면서 함장의 위선을 비난한다.",
+        "HIDEOUS_DEAL / BAD_DEAL / FAIR_DEAL / GOOD_DEAL / FINE_DEAL": "받아 간 연료량에 따른 파멸의 공포·원망·안도·비웃음·승진의 환희를 구분한다. 화자의 용광로 배치 공포를 완화하지 않는다.",
+        "OUT_TAKES": "후속작 배우의 계약 협상. 주연임을 알자 인세 요구를 거두고 제작자 승진을 꿈꾸는 아첨조 합쇼체."
+      }
     },
     "ilwrath": {
       "persona": "잔혹한 신을 숭배하는 광신자",
