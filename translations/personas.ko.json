@@ -295,7 +295,14 @@
         "HOSTILE_KATANA_2"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "HOSTILE_KATANA_* / HOSTILE_TANAKA_*": "각 화자의 관계와 적 오인을 구분. 적에게는 해라체와 원문 수준의 모욕. 같은 종족이라는 이유로 카타나를 타나카로 바꾸지 않는다.",
+        "DGRUNTI / SO_SORRY / MUST_UNDERSTAND / NICE_BUT_WHAT_IS_DONKEY": "모욕을 듣고 우르콴이 아님을 깨닫는 순간부터 하오체로 전환. 무지한 농담 질문과 중단된 말도 유지.",
+        "VERY_SAD_KILL_SELF / YES_I_DO_IT / ON_SECOND_THOUGHT": "패전 소식의 절망과 다시 임무를 찾는 희망을 구분. 원문의 분기와 정보만 옮긴다.",
+        "LEAPING_HAPPINESS": "보상이라 말했다가 임무로 고치는 웃음, 번식과 재건에 대한 흥분, 상대 동의 조건을 모두 보존.",
+        "OUT_TAKES": "앞선 모욕을 인용하고 재건의 피로를 호소하는 후일담. 원문의 Dgrunti/Ogrunti 표기 차이는 별도 유지."
+      }
     },
     "slylandro": {
       "persona": "호기심 많고 방문객을 반기는 공중 생명체",

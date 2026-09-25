@@ -1996,6 +1996,87 @@
       "status": "in_use",
       "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "tanaka",
+      "source": "Tanaka",
+      "ko": "타나카",
+      "category": "person",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "katana",
+      "source": "Katana",
+      "ko": "카타나",
+      "category": "person",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "daikon",
+      "source": "Daikon",
+      "ko": "다이콘",
+      "category": "person",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "kyabetsu",
+      "source": "Kyabetsu",
+      "ko": "캬베츠",
+      "category": "place",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dhrang",
+      "source": "Dhrang",
+      "ko": "드랑",
+      "category": "species",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dgrunti",
+      "source": "Dgrunti",
+      "ko": "드그룬티",
+      "category": "species",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님. 일반 대사와 아웃테이크의 원문 표기가 다르므로 임의로 통일하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "ogrunti",
+      "source": "Ogrunti",
+      "ko": "오그룬티",
+      "category": "species",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님. 일반 대사와 아웃테이크의 원문 표기가 다르므로 임의로 통일하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "intruder",
+      "source": "Intruder",
+      "ko": "인트루더",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "sextantis",
+      "source": "Sextantis",
+      "ko": "섹스탄티스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

@@ -51,3 +51,9 @@ WE_KILL_ALL_1, KILL_BECAUSE_2, THEN_DIE와 OUT_TAKES는 코르아의 교리를 P
 Root는 루트 항성, root는 뿌리다. 해당 고유명사만 대소문자를 구분해 검사한다. 모성의 Earth/Vlik 설명은 지구/흙의 중의성을 유지하며 블리크 표기를 별도 등록했다. 안타레스와 호롤로기이는 서로 다른 원문 구간에 등장하므로 임의로 통일하지 않는다. 울트론 수리 단계별 응답을 구분한다.
 
 [supoxc.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/supox/supoxc.c)의 자기소개/함선명/동맹명 조합과 [commglue.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/commglue.c)의 GetAllianceName을 확인했다. name_40은 공백, name_41은 ' 제국 '으로 두어 실제 함장명 뒤에 제국을 붙인다. 고정 동맹명 세 가지와 사용자 이름으로 만든 제국명을 모두 검토해야 한다. 원본 실행 파일·세이브의 이름은 바꾸지 않는다. 이 공개 포트의 코드는 구조 참고이며 실제 화면 검증을 대체하지 않는다.
+
+## 쇼픽스티
+
+[shofixt.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/shofixt/shofixt.c)의 construct_response를 확인했다. 자기소개는 함장명→동맹명→함선명 순서이고, look/why_here/report/bye는 상태에 따른 타나카 또는 카타나 이름을 넣는다. 고정 bye 레코드의 Tanaka는 원문 그대로 타나카로 유지한다. 제국명은 수폭스와 같은 앞 공백+실제 함장명+제국 구조를 쓴다. 공개 포트의 코드는 구조 참고이며 실기 검증을 대체하지 않는다.
+
+일반 대사의 Dgrunti와 아웃테이크의 Ogrunti는 원문 표기 차이를 보존한다. 쇼픽스티 처녀들의 동의를 언급하는 구간을 생략하지 않는다. 마이콘 실험 장치와 제타 섹스탄티스 행성의 위치 단서, 영광 장치의 스위치 고장은 화자가 아는 정보대로 유지한다. 긴 자기소개 선택지와 전사 함성 자막은 실기 검토 대상이다.
