@@ -129,7 +129,13 @@
         "OK_WARSHIP"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "NEVER_ENOUGH / OK_* wordplay / GODS_RETURN_* / WE_WORSHIP_* / ILWRATH_BELIEVE / GOODBYE_GODS": "신으로 믿는 상대에게는 하옵니다·하겠나이다·주소서 계열. 경배 대사의 간교함과 잔혹함을 순화하지 않는다.",
+        "WE_WORSHIP_2 / ON_WAY / OK_KILL_THRADDASH": "신께 올리는 말 도중 부하를 꾸짖거나 자기들끼리 의논하는 부분은 해라체로 전환. 문장마다 실제 청자를 따른다.",
+        "DONT_CONFUSE_US": "자신들의 악이 사회 질서와 일치한다는 역설에 잠시 머뭇거리다가 분노한다. 논리적 모순을 해설하거나 해결하지 않는다.",
+        "say_* / worship_us / go_kill_thraddash / bye_gods / enough_orders / other_divine_orders": "플레이어가 신을 사칭하는 선택지는 위엄 있는 명령조. 일반 플레이어의 말투와 구분."
+      }
     },
     "kohrah": {
       "persona": "절멸을 숙명으로 여기는 냉정한 집행자",

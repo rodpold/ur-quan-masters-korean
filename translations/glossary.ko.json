@@ -1770,6 +1770,114 @@
       "status": "in_use",
       "notes": "촘르 대화 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "jubby",
+      "source": "Jubby",
+      "ko": "주비",
+      "category": "species",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jubbies",
+      "source": "Jubbies",
+      "ko": "주비",
+      "category": "species",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님. Jubby의 복수형.",
+      "ui_keys": []
+    },
+    {
+      "id": "grah",
+      "source": "Grah",
+      "ko": "그라",
+      "category": "species",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "zith",
+      "source": "Zith",
+      "ko": "지스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "awk",
+      "source": "Awk",
+      "ko": "오크",
+      "category": "person",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "seds",
+      "source": "Seds",
+      "ko": "세즈",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "captain_satellite",
+      "source": "Captain Satellite",
+      "ko": "캡틴 새틀라이트",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dill_rats",
+      "source": "Dill-Rats",
+      "ko": "딜쥐",
+      "category": "species",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님. 일부러 틀리게 부르는 이름이며 정상 이름으로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "doggone",
+      "source": "Doggone",
+      "ko": "도가온",
+      "category": "person",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님. 일부러 틀리게 부르는 이름이며 정상 이름으로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "dayglo",
+      "source": "Dayglo",
+      "ko": "데이글로",
+      "category": "person",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님. 일부러 틀리게 부르는 이름이며 정상 이름으로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "crayon",
+      "source": "Crayon",
+      "ko": "크레용",
+      "category": "person",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님. 일부러 틀리게 부르는 이름이며 정상 이름으로 교정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "excruciators_people",
+      "source": "Excruciators",
+      "ko": "고문 집행자들",
+      "category": "title",
+      "status": "in_use",
+      "notes": "일라스 대화 초안. 최종 승인 아님. 여기서는 인물 집단. 우르콴의 장치 Excruciator(고통 유발기)와 구분.",
+      "ui_keys": []
     }
   ]
 }

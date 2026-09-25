@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "draft_pending_linguistic_review",
+  "pairs": [
+    {
+      "species": "ilwrath",
+      "request": "say_warship",
+      "response": "OK_WARSHIP",
+      "source_pair": [
+        "worship",
+        "warship"
+      ],
+      "ko_pair": [
+        "숭배",
+        "전함"
+      ],
+      "notes": "사전 의미와 응답의 엉뚱한 사용을 유지. 원문의 유사 발음은 재현되지 않아 한국어 말장난 개선 검토 필요."
+    },
+    {
+      "species": "ilwrath",
+      "request": "say_dwe",
+      "response": "OK_DWE",
+      "source_pair": [
+        "we",
+        "dwe"
+      ],
+      "ko_pair": [
+        "우리",
+        "두리"
+      ],
+      "notes": "지정한 잘못된 대명사를 응답에서도 반복."
+    },
+    {
+      "species": "ilwrath",
+      "request": "say_youboo",
+      "response": "OK_YOUBOO",
+      "source_pair": [
+        "you",
+        "yuubuu"
+      ],
+      "ko_pair": [
+        "그대",
+        "그대부"
+      ],
+      "notes": "신을 향한 호칭의 변형과 반복을 유지."
+    },
+    {
+      "species": "ilwrath",
+      "request": "say_dillrat",
+      "response": "OK_DILRAT",
+      "source_pair": [
+        "Ilwrath",
+        "Dill-Rats"
+      ],
+      "ko_pair": [
+        "일라스",
+        "딜쥐"
+      ],
+      "notes": "강제로 바꾼 이름. 용어집 dill_rats와 연계."
+    }
+  ]
+}
