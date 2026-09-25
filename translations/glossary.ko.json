@@ -814,8 +814,9 @@
       "ko": "스팅어",
       "category": "ship_class",
       "status": "in_use",
-      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
-      "ui_keys": []
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분. 대문자 함급명만 자동 검사하며 일반적인 stinger tongue의 침과 구분한다.",
+      "ui_keys": [],
+      "case_sensitive": true
     },
     {
       "id": "nemesis",
@@ -4279,6 +4280,24 @@
       "category": "species",
       "status": "in_use",
       "notes": "조크-포트-피크 구성 종족. 화자 대응은 별도 콜백 표로 관리하며 포트 정체 농담을 번역에 해설하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "grand_high_poobah",
+      "source": "Grand-High Poobah",
+      "ko": "지고하신 대푸바",
+      "category": "mock_title",
+      "status": "in_use",
+      "notes": "플레이어가 동맹 결정을 미루며 내세운 과장된 직함. 실제 지구 지도자나 설정으로 확정하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "poobah",
+      "source": "Poobah",
+      "ko": "푸바",
+      "category": "mock_title",
+      "status": "in_use",
+      "notes": "플레이어가 동맹 결정을 미루며 내세운 과장된 직함. 실제 지구 지도자나 설정으로 확정하지 않는다.",
       "ui_keys": []
     }
   ]

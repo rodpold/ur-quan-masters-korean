@@ -706,7 +706,12 @@
         "HE_IS6",
         "WE_GLAD4",
         "YEARS_AGO13",
-        "UNDER_ATTACK11"
+        "UNDER_ATTACK11",
+        "NOT_HELPFUL2",
+        "ALLY_WITH_US1",
+        "EMMISSARIES5",
+        "WE_ENEMIES0",
+        "HOSTILE_HELLO_23"
       ],
       "status": "source_based_working_profile",
       "human_style_review": "pending",
@@ -716,7 +721,13 @@
         "FOT": "현재 확인한 발화 콜백에는 없음. 포트를 둘러싼 논쟁을 실제 정체 설명으로 교정하지 않는다.",
         "player": "자기소개는 합쇼체. 모욕과 지배 선언은 원문대로 해라체."
       },
-      "speaker_reference": "translations/zoqfotpik-speakers.ko.json"
+      "speaker_reference": "translations/zoqfotpik-speakers.ko.json",
+      "record_overrides": {
+        "NOT_HELPFUL* / SEE_TOLD_YOU*": "조크는 이해하려다 당황하고 피크는 상대를 의심했다며 비난한다. 동료에게 해체, 함장에게 설명하는 조크의 해요체를 구분한다.",
+        "ALLY_WITH_US* / EMMISSARIES* / WE_ALLY*": "조크의 공식 설명과 피크의 거친 요약·과장을 교차한다. 피크가 지도자의 권위를 깎는 농담을 유지한다.",
+        "WE_ENEMIES* / HOSTILE_HELLO*": "조크의 분노를 약화하지 않는다. 직접 전투 명령에는 해라체, 함장에게 적대를 설명할 때는 냉담한 해요체. 피크는 짧은 독설과 반박을 유지한다.",
+        "NEUTRAL_HOME_HELLO*": "동맹 전의 설명과 경계. 우호적 접근을 이미 동맹이 된 상태처럼 번역하지 않는다."
+      }
     }
   },
   "report_profiles": {
