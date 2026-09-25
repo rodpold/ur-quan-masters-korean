@@ -408,10 +408,24 @@
       "source_path": "base/comm/syreen/syreen.txt",
       "evidence_record_ids": [
         "HELLO_BEFORE_AMBUSH_1",
-        "HELLO_BEFORE_AMBUSH_2"
+        "CANT_GIVE_HELP",
+        "NEED_PROOF",
+        "HORRIBLE_TRUTH",
+        "OUR_NEW_WORLD",
+        "HELLO_AFTER_AMBUSH_1",
+        "SEX_GOODBYE",
+        "OUT_TAKES"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "HELLO_BEFORE_AMBUSH_1": "표준 경고 방송은 합쇼체. 인간 함장을 알아보고 놀라는 지점부터 해요체로 전환한다.",
+        "NO_NEED_HELP / CANT_GIVE_HELP / WONT_HELP": "호감과 정치적 협력 거절을 구분한다. 가이아 상실을 두려워하는 책임감과 동맹에 버림받은 기억을 유지한다.",
+        "NEED_PROOF / HORRIBLE_TRUTH / MUST_ACT": "증거 전에는 고통스러운 주제를 멈춰 달라고 요구한다. 증거를 본 뒤 분노와 조건부 협력으로 전환하며 처음부터 마이콘 범행을 아는 화자로 만들지 않는다.",
+        "OPEN_VAULT / GIVE_SHUTTLE / OK_FOUND_VAULT / HELLO_AFTER_AMBUSH_1": "해요체의 분명한 작전 설명. 복수의 격앙, 장교 분리 배치의 암시, 성공 뒤 지원을 원문 수준에서 유지한다.",
+        "ABOUT_US / MORE_COMFORTABLE / private scene / SEX_GOODBYE": "관계가 진전된 사적 대화의 친밀한 해요체. 반복되는 이것/이렇게의 암시를 구체적인 신체 행위로 확장하지 않는다. 마지막에는 각자의 임무 때문에 헤어진다.",
+        "OUT_TAKES": "배우가 제작진과 속편을 이야기하는 밝은 해요체. 본편의 군사 보고로 바꾸지 않는다."
+      }
     },
     "talkingpet": {
       "persona": "온순함을 가장하는 교활한 존재",

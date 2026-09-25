@@ -99,6 +99,34 @@
       "source_wordplay": "orange furry air breathes tender yawns / eaten / hugged / improved",
       "ko_wordplay": "주황색 털북숭이 공기가 부드러운 하품 / 먹다 / 안다 / 개량하다",
       "notes": "신호 해석의 난해함과 연속된 오독을 유지. 뜻이 통하도록 해설하지 않는다."
+    },
+    {
+      "species": "syreen",
+      "request": "we_are_impressed",
+      "response": "SO_AM_I_CAPTAIN",
+      "source_pair": [
+        "Earthlings",
+        "earthy"
+      ],
+      "ko_pair": [
+        "지구인",
+        "원초적"
+      ],
+      "notes": "감각적인 중의성은 원초적으로 전달했으나 Earth 어근의 언어유희는 재현되지 않음. 언어 검토 대기."
+    },
+    {
+      "species": "syreen",
+      "request": "get_lonely",
+      "response": "MAKE_OUT_ALL_RIGHT",
+      "source_pair": [
+        "lonely",
+        "make out all right"
+      ],
+      "ko_pair": [
+        "외롭다",
+        "잘 즐기고 살다"
+      ],
+      "notes": "잘 지낸다는 뜻과 친밀한 암시를 함께 전달하는 초안. 한국어 말장난 검토 대기."
     }
   ],
   "jokes": [

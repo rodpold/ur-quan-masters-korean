@@ -3179,6 +3179,133 @@
       "status": "in_use",
       "notes": "울트론을 되찾아 준 함장에게 부여한 칭호.",
       "ui_keys": []
+    },
+    {
+      "id": "talana",
+      "source": "Talana",
+      "ko": "탈라나",
+      "category": "person",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "gaia",
+      "source": "Gaia",
+      "ko": "가이아",
+      "category": "place",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "syra",
+      "source": "Syra",
+      "ko": "시라",
+      "category": "place",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "diani",
+      "source": "Diani",
+      "ko": "디아니",
+      "category": "person",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "habitat_thirty_one",
+      "source": "Habitat Thirty-One",
+      "ko": "제31 거주선",
+      "category": "place",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "master_nine",
+      "source": "Master Nine",
+      "ko": "마스터 나인",
+      "category": "person",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "space_patrol",
+      "source": "Space Patrol",
+      "ko": "우주순찰대",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분. 대문자 조직명만 검사하며 deep-space patrol의 일반 순찰과 구분한다.",
+      "ui_keys": [],
+      "case_sensitive": true
+    },
+    {
+      "id": "spears_of_light",
+      "source": "Spears of Light",
+      "ko": "빛의 창",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "touch_o_vision",
+      "source": "Touch-o-Vision",
+      "ko": "터치오비전",
+      "category": "object",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "yma",
+      "source": "Yma",
+      "ko": "이마",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "copernicus",
+      "source": "Copernicus",
+      "ko": "코페르니쿠스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "camelopardalis",
+      "source": "Camelopardalis",
+      "ko": "카멜로파르달리스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "eden",
+      "source": "Eden",
+      "ko": "에덴",
+      "category": "place",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "plasmoids",
+      "source": "Plasmoids",
+      "ko": "플라스모이드",
+      "category": "weapon",
+      "status": "in_use",
+      "notes": "시린 대화 초안에서 도입한 작업 표기. 최종 사용자 승인과 구분.",
+      "ui_keys": []
     }
   ]
 }
