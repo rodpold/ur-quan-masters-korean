@@ -57,3 +57,9 @@ Root는 루트 항성, root는 뿌리다. 해당 고유명사만 대소문자를
 [shofixt.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/shofixt/shofixt.c)의 construct_response를 확인했다. 자기소개는 함장명→동맹명→함선명 순서이고, look/why_here/report/bye는 상태에 따른 타나카 또는 카타나 이름을 넣는다. 고정 bye 레코드의 Tanaka는 원문 그대로 타나카로 유지한다. 제국명은 수폭스와 같은 앞 공백+실제 함장명+제국 구조를 쓴다. 공개 포트의 코드는 구조 참고이며 실기 검증을 대체하지 않는다.
 
 일반 대사의 Dgrunti와 아웃테이크의 Ogrunti는 원문 표기 차이를 보존한다. 쇼픽스티 처녀들의 동의를 언급하는 구간을 생략하지 않는다. 마이콘 실험 장치와 제타 섹스탄티스 행성의 위치 단서, 영광 장치의 스위치 고장은 화자가 아는 정보대로 유지한다. 긴 자기소개 선택지와 전사 함성 자막은 실기 검토 대상이다.
+
+## 움가
+
+GOODBYE_UNKNOWN의 NO. LEAVE.는 떠나면 공격할지 묻는 질문의 답이므로 아니다. 떠나라.로 옮겼다. 말하는 애완동물이 죽었다는 주장은 움가의 믿음이며 실제 상태에 맞춰 교정하지 않는다. 플러보와 움가 드론 함선은 별도 용어로 등록했다.
+
+HOSTILE_HELLO_2의 arms 중의성과 JOKE_2의 KHAN FUSION/confusion은 한국어에서 약해지거나 사라져 wordplay.ko.json에 개선 대상으로 남겼다. 긴 생명공학 설명, 동적 이름이 들어가는 자기소개와 선택지 배치는 실기 검토 대기다.

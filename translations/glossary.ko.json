@@ -2077,6 +2077,24 @@
       "status": "in_use",
       "notes": "쇼픽스티 대화 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "flubbo",
+      "source": "Flubbo",
+      "ko": "플러보",
+      "category": "person",
+      "status": "in_use",
+      "notes": "움가 대화 초안에서 도입한 장교 이름. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "umgah_drone_ships",
+      "source": "Drone ships",
+      "ko": "드론 함선",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "움가 대화 초안에서 도입. 최종 승인 아님. Drone ships는 움가 함선 문맥이며 일반 무인선과 구분.",
+      "ui_keys": []
     }
   ]
 }

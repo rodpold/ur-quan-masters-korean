@@ -416,7 +416,13 @@
         "HWLD_PRE_ZOMBIE_HELLO_2"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "UNKNOWN_ZOMBIE_HELLO_* / REVEALED_ZOMBIE_HELLO_* / DESTROY_INTERFERER_*": "정신 지배 상태. 어절 사이 마침표와 기계적인 하. 하. 하.를 유지한다. 평소의 익살스러운 해체와 구분한다.",
+        "GOODBYE_UNKNOWN": "떠나면 공격할지 묻는 질문에 대한 부정과 퇴거 명령이다. 아니다. 떠나라.를 떠나지 말라는 뜻으로 바꾸지 않는다.",
+        "POST_ZOMBIE_HWLD_HELLO / GIVE_LIFEDATA / FUNNY_IDEA / HOSTILE_HELLO_*": "해방 직후의 과장된 감사가 지루함 때문에 적대 장난으로 바뀐다. 모순을 해소하지 않는다. 애완동물이 죽었다는 주장은 화자의 믿음이다.",
+        "DO_THIS_NOW / TRICK_URQUAN": "생명공학 설명에도 가벼운 해체와 잔혹한 장난 태도를 유지한다. 원문 밖의 윤리적 해설을 추가하지 않는다."
+      }
     },
     "urquan": {
       "persona": "지배를 보호라고 여기는 권위적 지배자",

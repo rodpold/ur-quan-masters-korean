@@ -58,5 +58,21 @@
       ],
       "notes": "강제로 바꾼 이름. 용어집 dill_rats와 연계."
     }
+  ],
+  "jokes": [
+    {
+      "species": "umgah",
+      "record": "HOSTILE_HELLO_2",
+      "source_wordplay": "To arms / arms",
+      "ko_wordplay": "팔을 들어라 / 팔이 없다",
+      "notes": "전투 구호에서 신체의 팔로 넘어가는 장난. 무기라는 중의성은 약해져 언어 검토 대기."
+    },
+    {
+      "species": "umgah",
+      "record": "JOKE_2",
+      "source_wordplay": "KHAN FUSION / confusion",
+      "ko_wordplay": "칸. 퓨전.",
+      "notes": "중수소·레이저·초원 지도자라는 구성 요소를 유지했다. confusion과의 발음 장난은 재현되지 않아 현지화 개선 필요."
+    }
   ]
 }
