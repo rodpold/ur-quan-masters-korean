@@ -1,0 +1,1383 @@
+{
+  "complete": false,
+  "review_method": "Visual contact-sheet review of original PNGs; small text is not OCR-verified.",
+  "reviewed_images": 228,
+  "unreviewed_images": 192,
+  "counts": {
+    "embedded_text_pending": 120,
+    "existing_replacement_runtime_pending": 5,
+    "no_obvious_language_text_in_viewed_image": 82,
+    "preserve_numeric_sprite": 20,
+    "preserve_product_logo": 1
+  },
+  "records": [
+    {
+      "source_path": "base/ui/activity-000.png",
+      "source_sha256": "df01e310c8c8e1cffd05408dc8bc8bac58dd4e0e47cb2cb5f8fa9ddadfe7ab4a",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/activity-001.png",
+      "source_sha256": "d3705f7ecdcdd8eaaf0686379f62a227bd42b570215df9c1c2310640cc2be304",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/activity-002.png",
+      "source_sha256": "05d0a0545929f5cdcb58958fc76b713679567ceab46aa011037c024efa53c33b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-003.png",
+      "source_sha256": "b8b1244b9a8a63e8ec9ed463820091e36d1e1b9541ad86e3304aa2710240af99",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-004.png",
+      "source_sha256": "23ede3a9be25a76cf9ed82facc6a9ef25b5f3157baf7c8c9b71729abbf14bd02",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-005-SAFEX=16.png",
+      "source_sha256": "bb9b6466e020aa250906fea70bb815526249db82295ebb72d00fd0f4428a0805",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-005.png",
+      "source_sha256": "c8858dac4bbdf4ed32f421e108b2bd29fecd1eb77cfff662cb7e85b59ae247a8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-006.png",
+      "source_sha256": "4dcc22ebd53270c8775aecc9cb447da7ef42bae408fc527fe1c44fcf7d7c4080",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-007.png",
+      "source_sha256": "900ebb7d1e81b114376dad55ad57907b1f7826582a9be8d0a348c43da69c9246",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-008.png",
+      "source_sha256": "8f6e943cda0518fbf3b1363bc9b536f4b51b09c170ade8c287940e53f32e04bd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/activity-009.png",
+      "source_sha256": "f11a0f01356b1520bdd553799f305e43be6215fd90a5d579431ca6f348e9ac70",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/blueprints-000.png",
+      "source_sha256": "0ce0947d00df1ce615d93cb8b2f6ec2df860fcc36ce8eeb1aa4a7c5696e0b73e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-000.png",
+      "source_sha256": "7122dd654de13ba682e4e44c2377dadeebec783a7fd2d0ea9bc63164853575bd",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-001.png",
+      "source_sha256": "1bbcd213bfadbb16ec8b16b64e5ec42306a0e7052e1be6ad6d0681ef56530042",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-002.png",
+      "source_sha256": "2b76031374a1bff83039e413d1bf09758117ed3a6786f34a805cab974f2f615a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-003.png",
+      "source_sha256": "2490ddde870e08f64834d80c96fb9f90aa9a9bb26a2f29bee8c34f731540543e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-004.png",
+      "source_sha256": "ee0f8d9cc3a51c6775898d19a13eac8635467159f384918fa74dfd82780654f9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-005.png",
+      "source_sha256": "6004dc4e29ea4b7191821ed5001fd6d32137f3e687a0ba03602985464229bad6",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-006.png",
+      "source_sha256": "35b484a886980a5b8d8ea62491da232ab91006e31d1eec4901a3fe27c7558350",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-007.png",
+      "source_sha256": "7a749fdbf9c7358d04c26c0756b0b1dac000ec4a860fc7997569cd3fef706081",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-008.png",
+      "source_sha256": "94d5ad8cb68711f184c8518cba1a6008b233cca13754a34598e2ddd0009973cd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-009.png",
+      "source_sha256": "1253cd4a56f9e7cff770f10a13ffa133de775e80d53e2a6975178c94497497c1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-010.png",
+      "source_sha256": "74ba6a7592829619132f4273ee868525a23b5e22f9400216a696f93b4b7021de",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-011.png",
+      "source_sha256": "51c099721915e1ec4d0bb0ac8155c873cd24b0b7538892ddcd355bd62d7a86ad",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-012.png",
+      "source_sha256": "11aeb898b298d6cd75c358e98b6e772de668d29ca9efd0ac0103603f1f4b83ef",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-013.png",
+      "source_sha256": "a1a856cb9035df6f1c70e413a2b3f201335bd16accbc98196fb1f3517fcd17f1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-014.png",
+      "source_sha256": "d09a09556d17aa1c3e23a4bb2ace8e601349ec9b7fd828c0e8b43aaa4110f2e9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-015.png",
+      "source_sha256": "fdc4e92b6c198cb326f2e3d9f1cc84974b9cc900a3ffb59a5e647718771c4b8a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-016.png",
+      "source_sha256": "150c469e6849ee3ed50e52eab2af994a4361e9f44422658f4e0c9a4de6de79f0",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-017.png",
+      "source_sha256": "c231e2573dc969311e3d9e365f99d9e15949b6a0127ed6f033f507b23e00da12",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-018.png",
+      "source_sha256": "00e5fae4f34084efb8be4c9f8f7fbc0bb1150e6798a81e4a14673bae2257d3fc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-019.png",
+      "source_sha256": "ef05bf36cfa0e294ae2cb54505fe4ee6f65813446eeb42657484c6e86499fd30",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-020.png",
+      "source_sha256": "b055dccce3de184614f99184f814db47ca025d6d80f94ef219759c7a7f7f80a3",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-021.png",
+      "source_sha256": "154a9553dbdcc8e4e3d465ecd5058c4ad34ce4942107c7ad2b32a93c7d0ade81",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-022.png",
+      "source_sha256": "09eb6470abfa5656ee48e4a8e2c36bb2f966a9d9a49a9a4e20c51aa9d8881bbe",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/meleemenu-000.png",
+      "source_sha256": "7ec85607d5390aefe2b25c36358a2a7e5c4b06f83b6e7f82aa8df8e4bf903df9",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-001.png",
+      "source_sha256": "ca2ffb7e679c4ac0793ec0301fcd2cfdec3d3e037e244dc12d03df7100c3f96a",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-002.png",
+      "source_sha256": "6a944f721a368eb90f49122e7f85c7f51acba0563970953e8c1831d6caff8884",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-003.png",
+      "source_sha256": "8c9bd8173c0841f697e194028401ecff54e48739888bf8250d4d6d614c3e2b51",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-004.png",
+      "source_sha256": "927ff56c96ed51afe350f6a543d0bbd4b221fd3f312b4d73b33ba3881ea4a083",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-005.png",
+      "source_sha256": "aa9a51f09732d8ab3ccb59e06be8abe8a139528b83938c80ea00befeef68c979",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-006.png",
+      "source_sha256": "8c616456f537e2b6759d77500757207c390aa5248331f7f8a1ac117bb0a5cd7b",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-007.png",
+      "source_sha256": "681ce1fe695acbd0533909c413421ee4c47e5e6a421a880da8a4857b2506d817",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-008.png",
+      "source_sha256": "9e2d69bbcbae1d47649beaaeb225838c5e99c0bc8d16a132127f5c0c0f54a5c5",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-009.png",
+      "source_sha256": "ca2ffb7e679c4ac0793ec0301fcd2cfdec3d3e037e244dc12d03df7100c3f96a",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-010.png",
+      "source_sha256": "6a944f721a368eb90f49122e7f85c7f51acba0563970953e8c1831d6caff8884",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-011.png",
+      "source_sha256": "8c9bd8173c0841f697e194028401ecff54e48739888bf8250d4d6d614c3e2b51",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-012.png",
+      "source_sha256": "927ff56c96ed51afe350f6a543d0bbd4b221fd3f312b4d73b33ba3881ea4a083",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-013.png",
+      "source_sha256": "31c97b8ea23efbfb8d853d1cd1a8af8b85b549c44a2fbefa4733d2888bccac83",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-014.png",
+      "source_sha256": "d36d07946809102f4b7e739e33af7c955c99ce42377931eec662d333bdf1438c",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-015.png",
+      "source_sha256": "67254fdaf5a1c822398b4f5707eee30a2b727f0a508cf67c1523e3bb7d7a3adc",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-016.png",
+      "source_sha256": "a5dafa7d7150ea496f4bf6f4dc319b48e0fd27dcc9db345d52e828e52aae5c24",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-017.png",
+      "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-018.png",
+      "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-019.png",
+      "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-020.png",
+      "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-021.png",
+      "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-022.png",
+      "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-023.png",
+      "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-024.png",
+      "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-025.png",
+      "source_sha256": "1ffe18e11682117c350f162078db841c4ecc95f5a0a92719cec9ea9aca5a309d",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-026.png",
+      "source_sha256": "51eeeb203db372a821d6b58877ec291c6d63d9dc439f4b133155ae341c54efb6",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-027.png",
+      "source_sha256": "8a4d791807653f826e223cbc7fc6c402e07e074a0734e6fcf051d3f495730bdd",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-028.png",
+      "source_sha256": "529f1af67bde73753fcddf7dbf23e950307e31dd3b4b9beb67f74b0aa124dc2d",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-029.png",
+      "source_sha256": "66790803e4a8bfd2ba33b19e13ee4451e8901d6ed64d4481e878e15acd286e63",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleemenu-030.png",
+      "source_sha256": "c802d81f8f39311d6ee2e5fe1c4c0bab0b96d8fab012430fcc32a2d723b305e6",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/meleepickship-000.png",
+      "source_sha256": "53317968d84bef5ec428441c2a2701f919047cfc38f4ee0964015878e1d99d13",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/miscdata-000.png",
+      "source_sha256": "60a0ec744b3f475ff28de91f772dfa8bb8e28435770dce162b312725982c64a0",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-000.png",
+      "source_sha256": "40ac893a9a1cfe379f7edccfc8e7c49e5f54bbd555e6296ea1597052b0ad98b1",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-001.png",
+      "source_sha256": "991dd6cd8716d00c291a8d5d64ce7848014f8585cd7bd24126e4ba3cceb80f35",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-002.png",
+      "source_sha256": "0b3fa9222861e977b471ed2083abbd0d5c0a2a504eddb859475895710d50b08d",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-003.png",
+      "source_sha256": "8ac61bf411973a40ce35b1fc9733d5d79a49ce8ecf30979d577f9da8a83676bb",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-004.png",
+      "source_sha256": "ca90c48d5ff847c655cc0b69f558cb6ef63ee618b982fd30a0955c0eb75e4a2c",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-005.png",
+      "source_sha256": "252cae0f1a8eb1ea1fb7bbb7e69f6802eec57eba3e0943c6fe43a56ae798100a",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-006.png",
+      "source_sha256": "b1514a8bc685da629b53e0cdd701caad425ed19831b26cdf18f0a3f60755c381",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-007.png",
+      "source_sha256": "9858b7633abda0f373799b2ed3f4f9e9371172a5bc0b26ddca3fe35ad60c889c",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-008.png",
+      "source_sha256": "99f6a582e1650089100296a3d78ed21a9d770f17d03f2e23290cd15569bb3df8",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-009.png",
+      "source_sha256": "4ac7b5eec299581fa173e90c584062a936144eacfc743764dd4561f026d249b2",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-010.png",
+      "source_sha256": "9b8b0bd8e054cca79ec796dc3218b96601d62d4a24a2daedb744f18e77abcd00",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-011.png",
+      "source_sha256": "f543aabc2ca0f15c47f59c8821983e33e0cd0bef5acd80f6206ad9dfb1dfb154",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-012.png",
+      "source_sha256": "2411def0c92c88dea0278bb1c8e5857f4dd6d696f53728160d3b5ad1fa35f2e4",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-013.png",
+      "source_sha256": "f810c6f57bfafdc6ad5711b4d009da0891887668a4c66dda130244cf62160982",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-014.png",
+      "source_sha256": "da7597829dd7cbc6c80cafe0540459b84e2a5f3234bea82a9c16cec494eb4ae0",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/modulesmenu-015.png",
+      "source_sha256": "9a26b6e61562876ab788c3ef444bd1a2eb79842a60959e44c0e9887926506d3a",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/netplay-000.png",
+      "source_sha256": "d0865df408dac949c5aaa8ba52ce4067a0d671c7d06ddfce4a8023afc9ad2696",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/netplay-001.png",
+      "source_sha256": "b3b7565808942cce43888363a60ac229a3fd5a14f22dd5b0fe3662362e51462b",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/netplay-002.png",
+      "source_sha256": "d0865df408dac949c5aaa8ba52ce4067a0d671c7d06ddfce4a8023afc9ad2696",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/netplay-003.png",
+      "source_sha256": "b345699c8657ea9676d5d53b77c1e0b992ffe2a1fd72b22b48b7a65935b7f63c",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/netplay-004.png",
+      "source_sha256": "82dfce601e1853b55f352fbc5cae880307b902136c5b74f74c1db79bef9fa25e",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/netplay-005.png",
+      "source_sha256": "c910e767f385ec42defd7fef20e2f0309868fe493b887f691f4fde496e7f2af0",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/newgame-000.png",
+      "source_sha256": "2aab7adfab6a5526230656ceaf2f890d054411d0e50f63637c00229db1f772cb",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.menu_assets의 한글 메뉴 교체 대상."
+    },
+    {
+      "source_path": "base/ui/outfit-000.png",
+      "source_sha256": "9d996207f7b3661b872b91485297ca8752776bb23118311182a2d38f09d13286",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/outfitmodules-000.png",
+      "source_sha256": "8a8985efa97806fd971a920b9478a4293efa7ccdf343ac17379dafef9156caa8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/pickship-000.png",
+      "source_sha256": "c2c9f31e54d98c62e88562850164a9f54ae2e5d829d00e5afa72bc4bae431fbd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/playmenu-000.png",
+      "source_sha256": "8540af89d83795426b9025cfccb275dc8bbda97a0afb729c9265dfff60cc67bc",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-001.png",
+      "source_sha256": "5d56eea833c26bddec6b2bd77cdf47be9d5b4efe1a5f46de61eacea51886d671",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-002.png",
+      "source_sha256": "3fdb96e87a4e55779426cfffdb602e1e4e53a32d2fcaa1c39bbf3020c91b1b1a",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-003.png",
+      "source_sha256": "6fb339eb4c1f8981fe35ecd8e124c19e856de14e95b9efcbbef58b7784dd5850",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-004.png",
+      "source_sha256": "b0501cd176d67bb16c8f8881b738c9833d30019da5cc30196ccf3a1ba4965387",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-005.png",
+      "source_sha256": "aa40285a3699a8f75c17d8173a1c73dd580a882bb5c90a3eee76656a98696340",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-006.png",
+      "source_sha256": "ea5acbddc4e4fad1489005bbccdb0de2ce5c08a66eee28d56adf83020e1c4cec",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-007.png",
+      "source_sha256": "c49e3f81c4b3ecfb4324f31815e63cc77d73e927cc6413be13471de86451bbb9",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-008.png",
+      "source_sha256": "bd650a9cecda89ee27ad0fe19d731f72ec406548810b75b2faf823641881263f",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-009.png",
+      "source_sha256": "444b21faac87108718a533b511a776bc02cef15352d663809b74849319711e00",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-010.png",
+      "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-011.png",
+      "source_sha256": "97780a704da93753e7b205c38db2ecb84610dd1e258144d628383c64672927de",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-012.png",
+      "source_sha256": "3167f0af5b1186179c40718f57ce5d29eaa71b9cfb6fdf1a9d9e7c32cf4258b6",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-013.png",
+      "source_sha256": "145320dba14403b3aea81fee8cbb68be55a39d7397c493dd6e21748d06e8f8f3",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-014.png",
+      "source_sha256": "8cb73fefeb1d666aec79a8836d51c94a41d77516a691a9c9171185821f468fff",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-015.png",
+      "source_sha256": "54d5429d5d596ee320b4904721410478c551163b5ac1db2df3f226293d712e96",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-016.png",
+      "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-017.png",
+      "source_sha256": "7d198a7991416509ac413e530b45b5593b9fedf2a7286ded2fba1c1f6139f28e",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-018.png",
+      "source_sha256": "d55851371621bb12345e424b78545a5f1baa0b51fdf987ee25fd425f1a8c620b",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-019.png",
+      "source_sha256": "aa40285a3699a8f75c17d8173a1c73dd580a882bb5c90a3eee76656a98696340",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-020.png",
+      "source_sha256": "411c17ae51c18127e8ddd5f95fbb71ce00c6eee466de420bb130c9e9b0005f3c",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-021.png",
+      "source_sha256": "27b3c7ed6f4d075953d340e1bbcc01151d14b98a0c3e957df552aa884edbedce",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-022.png",
+      "source_sha256": "aa40285a3699a8f75c17d8173a1c73dd580a882bb5c90a3eee76656a98696340",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-023.png",
+      "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-024.png",
+      "source_sha256": "9c5e33db94592b6b8aacfbbff0829c0d39b722c244a62d8cbca1d51731900526",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-025.png",
+      "source_sha256": "ad76dd3488be63105da2061714a081ba8606f99afa1176a4568aa528ccc392b3",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-026.png",
+      "source_sha256": "0b4842e970dcb7763708a7c6ec080c301099ecf1bb1ea09649abf20a6a451336",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-027.png",
+      "source_sha256": "f8922a4d5c291c8ffc880a8631286206b94c0ed0ffd64d446efe1b10ba0dbcb0",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-028.png",
+      "source_sha256": "e8dc41e7d3b4d5594c2300d7cb4ca60bd60b4c46cd1087e90744bfcb70cc9af3",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-029.png",
+      "source_sha256": "3b870e5913a212a03ddb6362583591ae3503465abe46fa339bbe356d58f3e2f6",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-030.png",
+      "source_sha256": "4c6e6e16a60758546d4472ca2ddbbd0a9f8f488d87f3e2ad9c88f40e954b1a03",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-031.png",
+      "source_sha256": "20afaf4d7d4ebfcbd063f0e078515b82fe3bb9f414ab97d5548adb18b9948c73",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-032.png",
+      "source_sha256": "ede3fe04ca5788ba6b24e6c8c41fba7cbd5017a2b04c186e29195c24d9d95cc3",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-033.png",
+      "source_sha256": "019c9fe79981304462faa38271502c921b51ea359305b3ca88a3b3031ed88dbc",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-034.png",
+      "source_sha256": "9f1abf3175d8838d380f91a0598f1463f300cc133e2358b81225f9774b6bd8ee",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-035.png",
+      "source_sha256": "1374f882d87a552b11a2e95057a4fe351e6ebb2acf01d0ec1f6473edba2f5d39",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-036.png",
+      "source_sha256": "870cf78c23f092cae2ab7eb6938763b7451d784de46df74f26e0346c2d5edfea",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-037.png",
+      "source_sha256": "6e113826f6a0844e312c6358754725afeb5149b7a984b018ad656275e38b5b60",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-038.png",
+      "source_sha256": "0c2369a54459ba229f5a88027ed10e4ff96f49fd09b939c6781c2c32c10a7cce",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-039.png",
+      "source_sha256": "f48ef84c3b7a87ba97559e46c80bf077f35a1116ad1b172523fae597e46e2382",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-040.png",
+      "source_sha256": "fd68aea1bc2d4cbdc8dc1a37e9be1e9df97ebe8d097403e6381657fb1cf6cff2",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-041.png",
+      "source_sha256": "3964ce758cb78a17d5b8fc161c62582dc24095fe206e0273a22543d1777baf15",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-042.png",
+      "source_sha256": "743e0bdd27471b06d82ad0bc785a610357e9e9009d3b729aae399e048e2ef41a",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-043.png",
+      "source_sha256": "43ac3901df06a668b4d7cd9fa0f65f0f57d80376ab8e13605aee3011acf96516",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-044.png",
+      "source_sha256": "dbef8bbf8b6b268b0a7da754009387fc6290a71d2859734a22c528392db00553",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-045.png",
+      "source_sha256": "3538b70fcf345a58d190be595a0b389b5d885c6b152b0833f6afbeed16416999",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-046.png",
+      "source_sha256": "abbf877dd96337670a299e2b610dc4f8c0b61dd2501694814f3f6c4ac175d828",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-047.png",
+      "source_sha256": "5716ea3ca282d602777bce26c7ae6934c0cdccfb74c94b42da367c3c633b7aa3",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-048.png",
+      "source_sha256": "c71a140bab2b9906f705b2d4bfcb3cdd575e76aa71d06758953780caad711667",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-049.png",
+      "source_sha256": "b440a0e46c9d743e1f4fb9ec49793e8944d675b5586819dce91b012dfb1d2485",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-050.png",
+      "source_sha256": "039f84542266a6b3b4ca29007a3f93c04f20b9f3380f7faffa21cb4c72eead35",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-051.png",
+      "source_sha256": "b240b6292edcc023604602b9758b60b0729a7a59719969823eb0751b8b4fd158",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-052.png",
+      "source_sha256": "ab78021ca1e23a1dcff2e42fbf9151bd48a3e50804759610ef95f93e9877902d",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-053.png",
+      "source_sha256": "3d6a2df8f304ac9763561d8f474a2945dcdc76283360d387311199bd433b2a9f",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-054.png",
+      "source_sha256": "be83db476facda676260aa433afa9ffe102ccd1d17129c09a8a2edb5185b8c75",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-055.png",
+      "source_sha256": "a4e8d44154516af9e82ba2bb5ecc113b45fa8f4e54a82b9e2ed339275a0a3d2e",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-056.png",
+      "source_sha256": "df3190c37260820716162599d6aeebf70a2bf8a4aeb632ef40477850da0eb6b3",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-057.png",
+      "source_sha256": "59b244ebf063dc994f205b09f1507bb011a1173bcd8174761af3e6dec1c6c099",
+      "status": "preserve_numeric_sprite",
+      "notes": "1–10 숫자 및 선택 색상. 수치 보존."
+    },
+    {
+      "source_path": "base/ui/playmenu-058.png",
+      "source_sha256": "9df58f208507160971d95393d880866f082312880454196a69bd0c6fd2e1f1cd",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-059.png",
+      "source_sha256": "a96292275ed0da2e8698503b6dab73254aae06d6504f68bfa5fd6b347fcc268f",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-060-SAFEX=16.png",
+      "source_sha256": "90f373a156731b64ea3855f67a7065cf74a4ee3fa4d745fff42563bb0760ee2b",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-060.png",
+      "source_sha256": "051f197b90c315ada2e1867f8244aea3d88d7c71218c8a5a0771829291798a5c",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.panel_assets의 교체 대상. 실기와 세부 이미지 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/playmenu-061.png",
+      "source_sha256": "a6fae6c358587947488fdc1a98c7738d44653a75a3814fcd349eab0a88eab959",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.panel_assets의 교체 대상. 실기와 세부 이미지 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/playmenu-062.png",
+      "source_sha256": "6e6ed8f4f54a4536ba853cf88eee334bd3f55767669e924f364901edeb212074",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.panel_assets의 교체 대상. 실기와 세부 이미지 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/playmenu-063-SAFEX=16.png",
+      "source_sha256": "0437429bf540684408b14e39d6df2eed5cd5b6aba697bf547ac825a7d38cb700",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/playmenu-063.png",
+      "source_sha256": "340ffd7c3aff922bb68e73a4d4c9bf1cbd78e8edb9fe2471f0bbeb9a60bf2e06",
+      "status": "existing_replacement_runtime_pending",
+      "notes": "patcher.panel_assets의 교체 대상. 실기와 세부 이미지 검토는 별도."
+    },
+    {
+      "source_path": "base/ui/playmenu-064.png",
+      "source_sha256": "fb80f01ba5bdc56eb102305b2d4c097217c0e4aa47e15c5210663d56076c1935",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/segue-000.png",
+      "source_sha256": "670b9c1f62817f22051a1a1b18bde0a73e915ab502b83ad121c79504f44eac98",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/setupmenu-000.png",
+      "source_sha256": "c4add78ac6c5f64575639017dd0ec97ac9942a6241128fbb8c8356db5aa1447b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/shipyard-000.png",
+      "source_sha256": "d8fa8167afdfdd0e2b5017ad146415d0a5f8c26c57cb9f5ae8b3e6117792ff31",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/shipyard-001.png",
+      "source_sha256": "29e0d4be53756f37db6ca1bf1689434d7b7cba71f80ff682c24d3f6a77efe0ca",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/shipyard-002.png",
+      "source_sha256": "810b69bc3201f8ba359c361e5aa2386d22181ecec6880b6a4aabd24c118b0cd4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/shipyard-003.png",
+      "source_sha256": "a9b0e4b13b3fa373e07365d93e72f8639e7442230ca98afc891bcbed2ec0b5ab",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-004.png",
+      "source_sha256": "ed0ecff666dbaa3b264b8c70cfb3d20c1edddf2c1b3d95e36d7a3f863176f285",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-005.png",
+      "source_sha256": "0e09efc1b308a2d4167f8877e32e62e41de9693d6a5fbee20115ccb098827bfe",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-006.png",
+      "source_sha256": "20a0497ab08f784b53881a8b86975e1e54d2665c025dd87da797148e91281f79",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-007.png",
+      "source_sha256": "8dd1aa762e3dd35b9e57aa01fc36610743c4f5cc8e9e2cccfd3294483a044244",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-008.png",
+      "source_sha256": "ddf02b84f9ab2721dcaacb4993dc2d779b7d62ef3fcc47bec240118a33df73dd",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-009.png",
+      "source_sha256": "f2b8173e19d3a61e4208621283cca68bbd991bfb5b2615257822d68008204b06",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-010.png",
+      "source_sha256": "202c06157b746ee4be0f78a242b096933345b7258b989a582f6d87c867eab031",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-011.png",
+      "source_sha256": "03b62ffc903e4753ff54532e595f5dba98829d0e9f9183cdf0ce7df90c6d04f7",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-012.png",
+      "source_sha256": "42eb433601efc5fe2462e3654f6534ca1b89a74b186e7b470b777f79c04cbd46",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-013.png",
+      "source_sha256": "ef3c32db30eaa8f270c080d6d630d6bc152b348e694a1120dcda007759ffa662",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-014.png",
+      "source_sha256": "cf6c35a57170231f095bbf73c77b38f1e499516afd729778eabe085b3a059ddb",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-015.png",
+      "source_sha256": "3db037c34b0d8f2d6f6e33c688df2931bfeffd9c3e27d1e06d4d36556598ea98",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-016.png",
+      "source_sha256": "f45e3f9ffe011f8fac25612afd3308aedb398b4ad3e8d51ef5906c01f98cd0e7",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-017.png",
+      "source_sha256": "3cdafd7c148a1140cfad8239d1fc50ef0f70b9fa837eaddea321d50d26e1f4db",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-018.png",
+      "source_sha256": "9de45f1f50b88dc9a55ba20d941798c91612c95abd85afdbe1b00fd1797c3a26",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-019.png",
+      "source_sha256": "5294d66d20e4ca37359d48d5f478cdae52a09e611e6db64fbfc9071fa41cd5c3",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-020.png",
+      "source_sha256": "000ffc80e892435193c866b5cab0f6e537e6e065cef2a46ce9df076944711a80",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-021.png",
+      "source_sha256": "30e079dbdf42115bf78d0d7b4567cee6bb58c66e2c9c4063ca00743464565f32",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-022.png",
+      "source_sha256": "5e92b472b0079d6fb28971093215d4a43823c0f55d85385d9764dcebb0159581",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-023.png",
+      "source_sha256": "5956d40f966f48716bb2c32df83c6de2cadbc821fd85ddaef7de193faec69cfd",
+      "status": "embedded_text_pending",
+      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+    },
+    {
+      "source_path": "base/ui/shipyard-024.png",
+      "source_sha256": "ded8ff6fa626386093fff57fe94c03f6ec85edb48f78416678ccf8f75042a9d4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-000.png",
+      "source_sha256": "0bae130196f8ccefeb3707a1d0b92016bd6dcfa3e9a2ad098c2c377774ee3cb6",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-001.png",
+      "source_sha256": "ecc18efbf42fcab39e15bd141aee5bcf8c17137545f6710a6b781dc3f4a981ea",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-002.png",
+      "source_sha256": "0c3ea404da67f540ed40adbaa99f976af79056f91230ecbd56ca64275c938336",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-003.png",
+      "source_sha256": "ebed2816bb2d4f0113ccd8ec8c0fdcf33fde6c417a5d59e410cf079d3d892d2b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-004.png",
+      "source_sha256": "5d5b642f5b85a05eb1dfac1bfb1880725d2affe38b404c07d973698c3508b481",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-005.png",
+      "source_sha256": "e893fbef84c1bb547bcc7c9e951ffa3978f7e3d3b26d72b091919c18b22e9328",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-006.png",
+      "source_sha256": "4bc68ca503ab1c4b7f1216c0d0ec49a579d917c84888cb1917b1142232491685",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-007.png",
+      "source_sha256": "10f60f23627232b57e90e943befa82fcd684a3da8cef76467aeac6e65427a35f",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-008.png",
+      "source_sha256": "3d2a410c396cf3a32cc1cb7feb885bb5b72ec66180ab44d9b36cb2157851d938",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-009.png",
+      "source_sha256": "7e329443bb24c4f065b6e845f49c4c37cf0dd808a9766a330166de794b44dbfd",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-010.png",
+      "source_sha256": "e15a26902d246b30170c2f360f326d031ca22f46b788cdb9f8842030da34a455",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-011.png",
+      "source_sha256": "193b73b413de8282740568852aa83e7766235bffd43915778bfca6f0058db8db",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-012.png",
+      "source_sha256": "c050b4c432b87478cd3bf559827894ac3436093939155df242b7ed67a9acb69a",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-013.png",
+      "source_sha256": "94a37e1f5533ea65ca194ce2dcde89b1b2f265349eddec951bceaa76d4f33e1b",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-014.png",
+      "source_sha256": "4fe6cee6a0b11b692336a128d65f2d427bf8e794993410f420d517e57b23fff4",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-015.png",
+      "source_sha256": "298e768d0b07d49f0871307c6e8bc179ddfc2eed74bd49602bdf9b0c0bbbb5d1",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-016.png",
+      "source_sha256": "f5c3fceaf22320b038ee838e422a4d680d3778933db61659772d5a2e9353cdb9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-017.png",
+      "source_sha256": "eb917d460855a78d5dcd29b815f02d382e79c860e904767b4cfcada13bf513a5",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-018.png",
+      "source_sha256": "2e543ddcb97846db80e6c467a9221e4fbfcc6c8a26da78fb80ecb45c5e3cb8a2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-019.png",
+      "source_sha256": "c8da6bde2dcc760c4b0f82e62a4c004ff0d9dcc28650de132fd3b954694b7b82",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-020.png",
+      "source_sha256": "94474e339e5ad912e238fb6fccd679141271eb33adf72e9bbd5fd2a7cc0f126e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-021.png",
+      "source_sha256": "503dbed451ef0f863e6b276943600df25e0f5b55bc67bc4ee069ce967c3bef05",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-022.png",
+      "source_sha256": "963f4251d26266f81c820ae2d952e2fc167c9d4fd34cd80d11ea20f019358132",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-023.png",
+      "source_sha256": "3da7911a57434657b88c161f1bef8ced19fa9a289f9bb620b7df279b12c35c89",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-024.png",
+      "source_sha256": "b9cf5d1058eeeba48befd6ac78b66d03bb3bba6ed38d98e6cb58b3ce5e88d500",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-025.png",
+      "source_sha256": "dfbcf588d31bd9eba4b18691b9751d2287b42253cf6e44190b601344c4d00ece",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-026.png",
+      "source_sha256": "9b907ee04b93e3b4f2b81be8e624125b097252672f04764dcc1075b36a6f2d0e",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-027.png",
+      "source_sha256": "3cfe5f8c82b82c3570c7b2693c38307a0fff269e37567c8eb0fc1d24471949dc",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-028.png",
+      "source_sha256": "4b611995ec2993ca631d1b62c67331912ddd6da587b991bb0259185e9433beee",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-029.png",
+      "source_sha256": "c2e8a36d5fcf055b1a529d3684944a3b98294445ee775ecfed1fd4a16b40a9a8",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-030.png",
+      "source_sha256": "8413a44d2c5c77f6da18e69a2ec73e10b43f7bdc90d42a3d6684debd4c040de2",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-031.png",
+      "source_sha256": "846946e6848bcb97e6b9df2795e8df28d7f9a73b4b8b4114969f7f0c77755524",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/starbase-032.png",
+      "source_sha256": "6f1f715b17436e1495d274747665853f970e417b6889deeede739a996827e736",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/status-000.png",
+      "source_sha256": "1d57e786b5a136882438e0f94eb67eca5fab6640ed5396939870d7bc31d4b5c7",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/status-001.png",
+      "source_sha256": "32eb66531e68e8d85f241bcd58ad69076649851df9811cbe09445cd1c690ceb9",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/status-002.png",
+      "source_sha256": "131eff78571fe7c9a4c92b5783e1cf9b0ea66ca288b46c14fbab13afe6c1a043",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/status-003.png",
+      "source_sha256": "2b2d1cd08e44c65e59191a16f10f4628e3d421b72afbbb8e290ca7af4ba661a7",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/status-004.png",
+      "source_sha256": "e23c487bd4e2e8b23e645483e52f97a1677cdf0eceeab39707c55de173663e04",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/status-005.png",
+      "source_sha256": "6ad0bb5d664cce0c180094b634234e7497260f35ead01e593b3d30a901fc4641",
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "전체 그룹의 다른 프레임까지 자동 확장하지 않는 육안 검토 결과."
+    },
+    {
+      "source_path": "base/ui/title.png",
+      "source_sha256": "4fc0c551d3edb5b7c79d62621804b091dfca8712fab2cf4764376de6b6e78f2d",
+      "status": "preserve_product_logo",
+      "notes": "FREE STARS / THE UR-QUAN MASTERS 제품 로고. 게임 제목의 원형 유지."
+    }
+  ]
+}
