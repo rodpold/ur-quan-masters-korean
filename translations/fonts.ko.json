@@ -21,7 +21,8 @@
       "license_file": "vendor/galmuri/OFL.txt",
       "source": "https://github.com/quiple/galmuri",
       "download": "https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf",
-      "sha256": "e84e821b18be15b9e3a907ceb83cfba25fabf51c80b7edf0d2921cf8f8e1a11d"
+      "sha256": "e84e821b18be15b9e3a907ceb83cfba25fabf51c80b7edf0d2921cf8f8e1a11d",
+      "design_family": "Galmuri9"
     },
     "Galmuri11": {
       "file": "vendor/galmuri/Galmuri11.ttf",
@@ -76,7 +77,8 @@
         "vendor/mona/LICENSE/mplus.txt",
         "vendor/mona/LICENSE/noto-emoji.txt"
       ],
-      "archive_sha256": "c3929ec9c05fe6ea143ef9b399ed2caee96b6f96a575c7a6e6b064e836803490"
+      "archive_sha256": "c3929ec9c05fe6ea143ef9b399ed2caee96b6f96a575c7a6e6b064e836803490",
+      "design_family": "Mona10"
     },
     "Mulmaru": {
       "file": "vendor/mulmaru/Mulmaru.ttf",
@@ -92,7 +94,8 @@
       "sha256": "02545e10374c0797be32df8670e18663c6ab73eea6966bb98f4ffd0283138810",
       "status": "downloaded_candidate",
       "modifications": "none",
-      "archive_sha256": "fff80e46f59f9ed72d9b2160ba2cc1a624a149fcf99cc39760769e3eb9685ad5"
+      "archive_sha256": "fff80e46f59f9ed72d9b2160ba2cc1a624a149fcf99cc39760769e3eb9685ad5",
+      "design_family": "Mulmaru"
     },
     "DenkiChipHangul": {
       "file": "vendor/denkichip/DenkiChipHangul.ttf",
@@ -108,7 +111,8 @@
       "sha256": "b5542bd17b9966396fd9f6e95c23f6191aad399b8938fd8faad63c171892652e",
       "status": "downloaded_candidate",
       "modifications": "none",
-      "authors_file": "vendor/denkichip/AUTHORS.txt"
+      "authors_file": "vendor/denkichip/AUTHORS.txt",
+      "design_family": "DenkiChipHangul"
     },
     "Dalmoori": {
       "file": "vendor/dalmoori/dalmoori.ttf",
@@ -124,7 +128,8 @@
       "sha256": "ba40b8f9ada002005d1f5f3676a82b7bff07ddbd186a923073101099131999e6",
       "status": "downloaded_candidate",
       "modifications": "none",
-      "archive_sha256": "52020d777bc1e8da264b90416c6f69f7fee2198e9ee4962e4c2c9dfc2a161681"
+      "archive_sha256": "52020d777bc1e8da264b90416c6f69f7fee2198e9ee4962e4c2c9dfc2a161681",
+      "design_family": "Dalmoori"
     },
     "NanumPenScript": {
       "file": "vendor/nanumpenscript/NanumPenScript-Regular.ttf",
@@ -143,7 +148,8 @@
         12,
         16,
         24
-      ]
+      ],
+      "binary_review_status": "deferred_thin_stroke_loss"
     },
     "NanumBrushScript": {
       "file": "vendor/nanumbrushscript/NanumBrushScript-Regular.ttf",
@@ -162,7 +168,8 @@
         12,
         16,
         24
-      ]
+      ],
+      "binary_review_status": "deferred_thin_stroke_loss"
     },
     "Gaegu": {
       "file": "vendor/gaegu/Gaegu-Regular.ttf",
@@ -181,11 +188,12 @@
         12,
         16,
         24
-      ]
+      ],
+      "binary_review_status": "deferred_thin_stroke_loss"
     },
     "EastSeaDokdo": {
       "file": "vendor/eastseadokdo/EastSeaDokdo-Regular.ttf",
-      "raster_px": 16,
+      "raster_px": 20,
       "author": "YoonDesign Inc",
       "license": "OFL-1.1",
       "license_file": "vendor/eastseadokdo/OFL.txt",
@@ -200,7 +208,8 @@
         12,
         16,
         24
-      ]
+      ],
+      "design_family": "EastSeaDokdo"
     },
     "KirangHaerang": {
       "file": "vendor/kiranghaerang/KirangHaerang-Regular.ttf",
@@ -219,7 +228,8 @@
         12,
         16,
         24
-      ]
+      ],
+      "design_family": "KirangHaerang"
     },
     "Gugi": {
       "file": "vendor/gugi/Gugi-Regular.ttf",
@@ -238,7 +248,8 @@
         12,
         16,
         24
-      ]
+      ],
+      "design_family": "Gugi"
     },
     "SongMyung": {
       "file": "vendor/songmyung/SongMyung-Regular.ttf",
@@ -257,7 +268,8 @@
         12,
         16,
         24
-      ]
+      ],
+      "design_family": "SongMyung"
     },
     "DoHyeon": {
       "file": "vendor/dohyeon/DoHyeon-Regular.ttf",
@@ -276,7 +288,292 @@
         12,
         16,
         24
+      ],
+      "design_family": "DoHyeon"
+    },
+    "BlackHanSans": {
+      "file": "vendor/blackhansans/BlackHanSans-Regular.ttf",
+      "raster_px": 20,
+      "author": "Zess Type",
+      "license": "OFL-1.1",
+      "license_file": "vendor/blackhansans/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/blackhansans",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/blackhansans/BlackHanSans-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "31960809284026681774a8e52dc19ebcad26cf69b0ad9d560f288296fbb52739",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "BlackHanSans"
+    },
+    "Jua": {
+      "file": "vendor/jua/Jua-Regular.ttf",
+      "raster_px": 16,
+      "author": "Woowahan Brothers",
+      "license": "OFL-1.1",
+      "license_file": "vendor/jua/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/jua",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/jua/Jua-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "769677aef240bfc3b9965f2b50748075bff885e6c6992fc591a3fb268279f898",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "Jua"
+    },
+    "Sunflower": {
+      "file": "vendor/sunflower/Sunflower-Bold.ttf",
+      "raster_px": 16,
+      "author": "JIKJISOFT",
+      "license": "OFL-1.1",
+      "license_file": "vendor/sunflower/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/sunflower",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/sunflower/Sunflower-Bold.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "6b033627817f6619433afe82028013dc45a78ff82406b1dbe5b16e1bbc370e0a",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "Sunflower"
+    },
+    "Dokdo": {
+      "file": "vendor/dokdo/Dokdo-Regular.ttf",
+      "raster_px": 20,
+      "author": "FONTRIX",
+      "license": "OFL-1.1",
+      "license_file": "vendor/dokdo/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/dokdo",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/dokdo/Dokdo-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "5b3a3d8d28af31fa9adec3fc5da81a88b52e1ff39ed3930c1db787aa4e79c36d",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "Dokdo"
+    },
+    "YeonSung": {
+      "file": "vendor/yeonsung/YeonSung-Regular.ttf",
+      "raster_px": 16,
+      "author": "Woowahan brothers",
+      "license": "OFL-1.1",
+      "license_file": "vendor/yeonsung/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/yeonsung",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/yeonsung/YeonSung-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "49ac2a11009f5f58307d377911eb45d210cf4c1d379d9eca38fb4cdad5491ef6",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "YeonSung"
+    },
+    "Stylish": {
+      "file": "vendor/stylish/Stylish-Regular.ttf",
+      "raster_px": 16,
+      "author": "AsiaSoft Inc",
+      "license": "OFL-1.1",
+      "license_file": "vendor/stylish/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/stylish",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/stylish/Stylish-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "3ea2e4c9d0183fdcc1362039305ef30fa8bb5154f030b303a029059a44a8516c",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "Stylish"
+    },
+    "PoorStory": {
+      "file": "vendor/poorstory/PoorStory-Regular.ttf",
+      "raster_px": 16,
+      "author": "Yoon Design",
+      "license": "OFL-1.1",
+      "license_file": "vendor/poorstory/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/poorstory",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/poorstory/PoorStory-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "831ab87f7b5463f9cd83ac249bf386816f3a478f1d226427c88cac907adb7ee2",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "PoorStory"
+    },
+    "HiMelody": {
+      "file": "vendor/himelody/HiMelody-Regular.ttf",
+      "raster_px": 20,
+      "author": "YoonDesign Inc",
+      "license": "OFL-1.1",
+      "license_file": "vendor/himelody/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/himelody",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/himelody/HiMelody-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "360d2c0a880918aa48328d1d9219f5390788d09a1c9353e12b471de018673ae6",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "HiMelody"
+    },
+    "SingleDay": {
+      "file": "vendor/singleday/SingleDay-Regular.ttf",
+      "raster_px": 16,
+      "author": "DXKorea Inc",
+      "license": "OFL-1.1",
+      "license_file": "vendor/singleday/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/singleday",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/singleday/SingleDay-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "716ff67a4b0675b35c26d60a4bb83173f7d153ab754474ed36c3369593ca1ca8",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "SingleDay"
+    },
+    "GamjaFlower": {
+      "file": "vendor/gamjaflower/GamjaFlower-Regular.ttf",
+      "raster_px": 16,
+      "author": "YoonDesign Inc",
+      "license": "OFL-1.1",
+      "license_file": "vendor/gamjaflower/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/gamjaflower",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/gamjaflower/GamjaFlower-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "ece32819ed58536355a49a095b0cdfdd3b8ef9081c5ed9ca1cef8f5d999ae1ac",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "GamjaFlower"
+    },
+    "CuteFont": {
+      "file": "vendor/cutefont/CuteFont-Regular.ttf",
+      "raster_px": 20,
+      "author": "TypoDesign Lab. Inc",
+      "license": "OFL-1.1",
+      "license_file": "vendor/cutefont/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/cutefont",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/cutefont/CuteFont-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "c403227fe6288a8c1423ca48e93fd7efc81e3b81053f7d17adcf659bd95fa4c3",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "CuteFont"
+    },
+    "GowunBatang": {
+      "file": "vendor/gowunbatang/GowunBatang-Regular.ttf",
+      "raster_px": 16,
+      "author": "Yanghee Ryu",
+      "license": "OFL-1.1",
+      "license_file": "vendor/gowunbatang/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/gowunbatang",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/gowunbatang/GowunBatang-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "466c593e7147412e748af4856d5ad14709b5a860bdf62b9c2546f2c5874e9849",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "GowunBatang"
+    },
+    "GowunDodum": {
+      "file": "vendor/gowundodum/GowunDodum-Regular.ttf",
+      "raster_px": 16,
+      "author": "Yanghee Ryu",
+      "license": "OFL-1.1",
+      "license_file": "vendor/gowundodum/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/gowundodum",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/gowundodum/GowunDodum-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "a6e457933227483a11758fd0947bc74422a106d46f0bf057fdaa5af94a30067d",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
       ]
+    },
+    "Dongle": {
+      "file": "vendor/dongle/Dongle-Bold.ttf",
+      "raster_px": 24,
+      "author": "Yanghee Ryu",
+      "license": "OFL-1.1",
+      "license_file": "vendor/dongle/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/dongle",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/dongle/Dongle-Bold.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "944c498c0d1a1832ab36f173b1b3aa5ae77b2a914e00c4d79e05338fae36472d",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "Dongle"
+    },
+    "BlackAndWhitePicture": {
+      "file": "vendor/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf",
+      "raster_px": 16,
+      "author": "AsiaSoft Inc.",
+      "license": "OFL-1.1",
+      "license_file": "vendor/blackandwhitepicture/OFL.txt",
+      "source": "https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/blackandwhitepicture",
+      "download": "https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf",
+      "version": "23e54b51ddffbc7713c583748e3bd86f62b1fa4a",
+      "sha256": "4d72cd6de1f210b446c86f06b4e13d7641cbcfb1b375c6927341388aa8e08056",
+      "status": "binary_review_candidate",
+      "modifications": "Unmodified font; binary raster specimens only.",
+      "raster_kind": "outline",
+      "review_sizes_px": [
+        12,
+        16
+      ],
+      "design_family": "BlackAndWhitePicture"
     }
   },
   "shared_surfaces": [
@@ -310,14 +607,18 @@
       "original_font": "FONTRES:base/fonts/arilou.fon",
       "original_max_png_height": 10,
       "current_korean_font": null,
-      "candidate_font": "NanumPenScript",
+      "candidate_font": "Mona10",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "가느다란 원본의 가벼운 인상을 펜 손글씨로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "가느다란 원본에 간결한 소형 픽셀 획 대응",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 10,
+      "font_group": "arilou",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "chmmr",
@@ -331,12 +632,16 @@
       "current_korean_font": null,
       "candidate_font": "Gugi",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "각진 원본에 기하학적이고 기계적인 한글 구조 대응",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "기하학적 내부 공간과 각진 획으로 기계적인 인상",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Bold",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "chmmr",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "commander",
@@ -350,12 +655,16 @@
       "current_korean_font": "Galmuri9",
       "candidate_font": "Galmuri9",
       "status": "trial_applied",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "사람/기지 대화는 현재 검증 중인 중립 글꼴 유지.",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "현재 시험된 사람 대화의 중립적 기준",
       "fallback_font": null,
       "previous_selection": "Galmuri9",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 10,
+      "font_group": "commander",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "druuge",
@@ -367,14 +676,18 @@
       "original_font": "FONTRES:base/fonts/micro.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "DoHyeon",
+      "candidate_font": "DenkiChipHangul",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "넓고 단단한 원본에 간판 같은 굵은 획 대응",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "원본의 넓은 기하학 구조를 굵고 각진 픽셀로 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Bold",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 12,
+      "font_group": "druuge",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "ilwrath",
@@ -388,12 +701,16 @@
       "current_korean_font": null,
       "candidate_font": "SongMyung",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "원본의 뾰족한 세리프를 명조의 부리로 대응",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "뾰족한 영문 세리프와 한글 명조의 부리 대응",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "ilwrath",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "kohrah",
@@ -405,14 +722,18 @@
       "original_font": "FONTRES:base/fonts/kohrah.fon",
       "original_max_png_height": 15,
       "current_korean_font": null,
-      "candidate_font": "DoHyeon",
+      "candidate_font": "BlackHanSans",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "무거운 각진 원본에 굵은 구조 대응",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "극도로 굵고 무거운 획; 작은 크기에서는 속공간이 뭉쳐 확대 필요",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Bold",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 20,
+      "font_group": "kohrah",
+      "review_caveat": "큰 크기에서만 검토; 실제 자막 영역/행 수 재검증 필요",
+      "binary_review": "large_size_layout_check"
     },
     {
       "id": "melnorme",
@@ -424,14 +745,18 @@
       "original_font": "FONTRES:base/fonts/micro.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "DenkiChipHangul",
+      "candidate_font": "Sunflower",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "넓은 기하학 원본을 작은 픽셀 가독성으로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "굵은 획과 날카로운 끝 모양으로 상인의 독특한 인상",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri9",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "melnorme",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "mycon",
@@ -445,12 +770,16 @@
       "current_korean_font": null,
       "candidate_font": "KirangHaerang",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "정방형 원본과 닮기보다는 불규칙한 유기적 인상 우선",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "불규칙한 외곽과 두께로 유기적인 인상 강조",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "mycon",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "orz",
@@ -462,14 +791,18 @@
       "original_font": "FONTRES:base/fonts/orz.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "KirangHaerang",
+      "candidate_font": "Dokdo",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "불규칙한 글자 형태로 이질적 개성 부여",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "거칠고 흔들리는 필체로 이질적인 개성; 원본 유사성보다 차별화",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 20,
+      "font_group": "orz",
+      "review_caveat": "큰 크기에서만 검토; 실제 자막 영역/행 수 재검증 필요",
+      "binary_review": "large_size_layout_check"
     },
     {
       "id": "pkunk",
@@ -481,14 +814,18 @@
       "original_font": "FONTRES:base/fonts/pkunk.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "NanumBrushScript",
+      "candidate_font": "SingleDay",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "흘려쓴 영문에 붓 손글씨의 흐름 대응",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "흐르는 손글씨로 원본의 장식적인 느낌 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "pkunk",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "probe",
@@ -501,14 +838,18 @@
       "original_font": "FONTRES:base/fonts/probe.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Gugi",
+      "candidate_font": "Dalmoori",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "기하학적 구조로 기계 통신 표현",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "작고 규칙적인 픽셀로 기계 통신 구분",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri9",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 8,
+      "font_group": "probe",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "safeones",
@@ -520,14 +861,18 @@
       "original_font": null,
       "original_max_png_height": null,
       "current_korean_font": null,
-      "candidate_font": "Gaegu",
+      "candidate_font": "PoorStory",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "스파시와 동일한 검토 후보",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "서툰 손글씨와 불규칙한 획으로 개성 구분",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "spathi",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "shofixti",
@@ -541,12 +886,16 @@
       "current_korean_font": null,
       "candidate_font": "EastSeaDokdo",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "기울어진 원본의 속도감을 거친 붓 획으로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "빠르고 강한 붓 획으로 원본의 기울기와 운동감 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 20,
+      "font_group": "shofixti",
+      "review_caveat": "큰 크기에서만 검토; 실제 자막 영역/행 수 재검증 필요",
+      "binary_review": "large_size_layout_check"
     },
     {
       "id": "slylandro",
@@ -558,14 +907,18 @@
       "original_font": "FONTRES:base/fonts/slylandro.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "Mulmaru",
+      "candidate_font": "Dongle",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "굵은 원본의 양감 유지, 기울기는 재현하지 않음",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "둥글고 굵은 구조; em 대비 글자가 작아 24px에서 비교",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 24,
+      "font_group": "slylandro",
+      "review_caveat": "큰 크기에서만 검토; 실제 자막 영역/행 수 재검증 필요",
+      "binary_review": "large_size_layout_check"
     },
     {
       "id": "spathi",
@@ -577,14 +930,18 @@
       "original_font": "FONTRES:base/fonts/spathi.fon",
       "original_max_png_height": 14,
       "current_korean_font": null,
-      "candidate_font": "Gaegu",
+      "candidate_font": "PoorStory",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "좁은 원본과의 유사성보다 소심하고 익살스러운 손글씨 인상 우선",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "서툰 손글씨와 불규칙한 획으로 개성 구분",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "spathi",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "starbase",
@@ -598,12 +955,16 @@
       "current_korean_font": null,
       "candidate_font": "Galmuri9",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "사람/기지 대화는 현재 검증 중인 중립 글꼴 유지.",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "현재 시험된 사람 대화의 중립적 기준",
       "fallback_font": null,
       "previous_selection": "Galmuri9",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 10,
+      "font_group": "commander",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "supox",
@@ -615,14 +976,18 @@
       "original_font": "FONTRES:base/fonts/supox.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "NanumPenScript",
+      "candidate_font": "GamjaFlower",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "가늘고 뾰족한 원본을 가벼운 펜 획으로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "가는 손글씨와 유기적인 곡선",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "supox",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "syreen",
@@ -634,14 +999,18 @@
       "original_font": "FONTRES:base/fonts/syreen.fon",
       "original_max_png_height": 14,
       "current_korean_font": null,
-      "candidate_font": "SongMyung",
+      "candidate_font": "GowunBatang",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "장식적인 원본의 세리프를 명조 부리로 대응",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "정돈된 부리와 곡선으로 장식적인 원본 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "syreen",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "talkingpet",
@@ -653,14 +1022,18 @@
       "original_font": "FONTRES:base/fonts/talkingpet.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "Gugi",
+      "candidate_font": "BlackAndWhitePicture",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "넓은 기하학 원본과 기하학 한글의 구조 비교",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "불균일한 잉크 질감; 직접적인 원본 유사성보다 차별화",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Bold",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "talkingpet",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "thraddash",
@@ -672,14 +1045,18 @@
       "original_font": "FONTRES:base/fonts/thraddash.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "EastSeaDokdo",
+      "candidate_font": "DoHyeon",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "원본 모양의 유사성보다 거친 붓 질감 우선",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "묵직하고 단단한 간판체",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Bold",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "thraddash",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "umgah",
@@ -691,14 +1068,18 @@
       "original_font": "FONTRES:base/fonts/umgah.fon",
       "original_max_png_height": 8,
       "current_korean_font": null,
-      "candidate_font": "KirangHaerang",
+      "candidate_font": "Jua",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "괴상하고 울퉁불퉁한 장식체로 개성 우선",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "둥글고 부풀어 오른 굵은 획",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri9",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "umgah",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "urquan",
@@ -711,14 +1092,18 @@
       "original_font": "FONTRES:base/fonts/urquan.fon",
       "original_max_png_height": 15,
       "current_korean_font": "Galmuri9",
-      "candidate_font": "DoHyeon",
+      "candidate_font": "Mulmaru",
       "status": "trial_applied",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "원본의 굵고 단단한 인상을 유지하는 후보",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "둥근 모서리와 굵은 수직 획을 가진 독립 픽셀 서체",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Bold",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 12,
+      "font_group": "urquan",
+      "review_caveat": "짧은 표본 확인; 실제 긴 대사/줄바꿈/색상별 가독성 미검증",
+      "binary_review": "short_sample_readable"
     },
     {
       "id": "utwig",
@@ -730,14 +1115,18 @@
       "original_font": "FONTRES:base/fonts/utwig.fon",
       "original_max_png_height": 14,
       "current_korean_font": null,
-      "candidate_font": "SongMyung",
+      "candidate_font": "CuteFont",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "원본의 세로감과 의식적인 분위기 재해석; 폭은 다름",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "세로로 좁고 길쭉한 모양으로 원본의 좁은 폭 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 20,
+      "font_group": "utwig",
+      "review_caveat": "큰 크기에서만 검토; 실제 자막 영역/행 수 재검증 필요",
+      "binary_review": "large_size_layout_check"
     },
     {
       "id": "vux",
@@ -749,14 +1138,18 @@
       "original_font": "FONTRES:base/fonts/vux.fon",
       "original_max_png_height": 11,
       "current_korean_font": null,
-      "candidate_font": "NanumBrushScript",
+      "candidate_font": "Stylish",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "흘림과 기울기가 있는 원본을 붓글씨로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "비대칭적이고 날카로운 획으로 원본의 장식성 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "vux",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "yehat",
@@ -768,14 +1161,18 @@
       "original_font": "FONTRES:base/fonts/yehat.fon",
       "original_max_png_height": 13,
       "current_korean_font": null,
-      "candidate_font": "EastSeaDokdo",
+      "candidate_font": "YeonSung",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "강한 기울기의 원본을 빠르고 굵은 붓 획으로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "부리가 있는 손글씨로 원본의 기울어진 리듬 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "yehat",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "yehat.rebel",
@@ -787,14 +1184,18 @@
       "original_font": null,
       "original_max_png_height": null,
       "current_korean_font": null,
-      "candidate_font": "EastSeaDokdo",
+      "candidate_font": "YeonSung",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "예하트와 동일한 검토 후보",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "부리가 있는 손글씨로 원본의 기울어진 리듬 재해석",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 16,
+      "font_group": "yehat",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     },
     {
       "id": "zoqfotpik",
@@ -806,14 +1207,18 @@
       "original_font": "FONTRES:base/fonts/zoqfotpik.fon",
       "original_max_png_height": 10,
       "current_korean_font": null,
-      "candidate_font": "Gaegu",
+      "candidate_font": "HiMelody",
       "status": "proposed",
-      "notes": "미확정 비교안. 현재 한글 적용은 current_korean_font 참조. 아웃라인 서체는 12/16px 이진화와 24px AA 비교만 수행; 게임 내 긴 대사/기준선/음성 타이밍 미검증.",
-      "selection_status": "expressive_comparison_proposal",
-      "selection_reason": "가느다란 원본을 편안한 손글씨로 재해석",
+      "notes": "흑백 표본의 종족별 독립 파일 배정안. 사용자 최종 승인 및 전체 종족 실기 적용 전. 크기/행간/장문 재검증 필요.",
+      "selection_status": "binary_unique_proposal",
+      "selection_reason": "가는 장난스러운 손글씨; 작은 크기 획 손실 주의",
       "fallback_font": "Galmuri9",
       "previous_selection": "Galmuri11-Condensed",
-      "selected_font": null
+      "selected_font": null,
+      "candidate_raster_px": 20,
+      "font_group": "zoqfotpik",
+      "review_caveat": "얇은 획/장식 일부 손실; 긴 대사 판독 및 레이아웃 재검증 필요",
+      "binary_review": "stroke_readability_check"
     }
   ],
   "specimen_order": [
@@ -844,5 +1249,41 @@
   "trial_results": {
     "commander-alpha": "rejected_by_user",
     "ui7-alpha": "rejected_by_user"
+  },
+  "binary_specimen_order": [
+    "Mona10",
+    "Gugi",
+    "Galmuri9",
+    "DenkiChipHangul",
+    "SongMyung",
+    "BlackHanSans",
+    "Sunflower",
+    "KirangHaerang",
+    "Dokdo",
+    "SingleDay",
+    "Dalmoori",
+    "EastSeaDokdo",
+    "Dongle",
+    "PoorStory",
+    "GamjaFlower",
+    "GowunBatang",
+    "BlackAndWhitePicture",
+    "DoHyeon",
+    "Jua",
+    "Mulmaru",
+    "CuteFont",
+    "Stylish",
+    "YeonSung",
+    "HiMelody"
+  ],
+  "font_groups": {
+    "count": 24,
+    "shared_dialogue_ids": {
+      "safeones": "spathi",
+      "starbase": "commander",
+      "yehat.rebel": "yehat"
+    },
+    "uniqueness": "distinct font file and family per group",
+    "status": "proposal_not_user_approved"
   }
 }

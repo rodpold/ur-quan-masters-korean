@@ -1,0 +1,412 @@
+{
+  "groups": 24,
+  "dialogue_ids": 27,
+  "distinct_files": 24,
+  "results": {
+    "arilou": {
+      "font": "Mona10",
+      "group": "arilou",
+      "raster_px": 10,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 9,
+      "shared_baseline_box_height": 9,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "chmmr": {
+      "font": "Gugi",
+      "group": "chmmr",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 16,
+      "shared_baseline_box_height": 18,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "commander": {
+      "font": "Galmuri9",
+      "group": "commander",
+      "raster_px": 10,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 9,
+      "shared_baseline_box_height": 9,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "druuge": {
+      "font": "DenkiChipHangul",
+      "group": "druuge",
+      "raster_px": 12,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 11,
+      "shared_baseline_box_height": 11,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "ilwrath": {
+      "font": "SongMyung",
+      "group": "ilwrath",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 14,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "kohrah": {
+      "font": "BlackHanSans",
+      "group": "kohrah",
+      "raster_px": 20,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 16,
+      "shared_baseline_box_height": 18,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "melnorme": {
+      "font": "Sunflower",
+      "group": "melnorme",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 16,
+      "shared_baseline_box_height": 18,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "mycon": {
+      "font": "KirangHaerang",
+      "group": "mycon",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 14,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "orz": {
+      "font": "Dokdo",
+      "group": "orz",
+      "raster_px": 20,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 19,
+      "shared_baseline_box_height": 22,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "pkunk": {
+      "font": "SingleDay",
+      "group": "pkunk",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 16,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "probe": {
+      "font": "Dalmoori",
+      "group": "probe",
+      "raster_px": 8,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 8,
+      "shared_baseline_box_height": 9,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "safeones": {
+      "font": "PoorStory",
+      "group": "spathi",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 15,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "shofixti": {
+      "font": "EastSeaDokdo",
+      "group": "shofixti",
+      "raster_px": 20,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 18,
+      "shared_baseline_box_height": 21,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "slylandro": {
+      "font": "Dongle",
+      "group": "slylandro",
+      "raster_px": 24,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 23,
+      "shared_baseline_box_height": 23,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "spathi": {
+      "font": "PoorStory",
+      "group": "spathi",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 15,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "starbase": {
+      "font": "Galmuri9",
+      "group": "commander",
+      "raster_px": 10,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 9,
+      "shared_baseline_box_height": 9,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "supox": {
+      "font": "GamjaFlower",
+      "group": "supox",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 14,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "syreen": {
+      "font": "GowunBatang",
+      "group": "syreen",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 16,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "talkingpet": {
+      "font": "BlackAndWhitePicture",
+      "group": "talkingpet",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 15,
+      "shared_baseline_box_height": 16,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "thraddash": {
+      "font": "DoHyeon",
+      "group": "thraddash",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 13,
+      "shared_baseline_box_height": 14,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "umgah": {
+      "font": "Jua",
+      "group": "umgah",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 14,
+      "shared_baseline_box_height": 16,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "urquan": {
+      "font": "Mulmaru",
+      "group": "urquan",
+      "raster_px": 12,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 11,
+      "shared_baseline_box_height": 12,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "utwig": {
+      "font": "CuteFont",
+      "group": "utwig",
+      "raster_px": 20,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 18,
+      "shared_baseline_box_height": 20,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "vux": {
+      "font": "Stylish",
+      "group": "vux",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 15,
+      "shared_baseline_box_height": 17,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "yehat": {
+      "font": "YeonSung",
+      "group": "yehat",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 15,
+      "shared_baseline_box_height": 19,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "yehat.rebel": {
+      "font": "YeonSung",
+      "group": "yehat",
+      "raster_px": 16,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 15,
+      "shared_baseline_box_height": 19,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    },
+    "zoqfotpik": {
+      "font": "HiMelody",
+      "group": "zoqfotpik",
+      "raster_px": 20,
+      "checked_characters": 318,
+      "missing": [],
+      "blank_binary": [],
+      "sample_ink_height": 18,
+      "shared_baseline_box_height": 20,
+      "alpha_levels": [
+        0,
+        255
+      ],
+      "game_layout_verified": false
+    }
+  }
+}

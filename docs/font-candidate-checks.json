@@ -42,7 +42,7 @@
   "EastSeaDokdo": {
     "checked_characters": 318,
     "missing": 0,
-    "max_bbox_height": 17
+    "max_bbox_height": 20
   },
   "KirangHaerang": {
     "checked_characters": 318,
@@ -63,5 +63,75 @@
     "checked_characters": 318,
     "missing": 0,
     "max_bbox_height": 14
+  },
+  "BlackHanSans": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "Sunflower": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 18
+  },
+  "Dokdo": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 21
+  },
+  "SingleDay": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 16
+  },
+  "Dongle": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 23
+  },
+  "PoorStory": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "GamjaFlower": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "GowunBatang": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "BlackAndWhitePicture": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 16
+  },
+  "Jua": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 16
+  },
+  "CuteFont": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 20
+  },
+  "Stylish": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "YeonSung": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 18
+  },
+  "HiMelody": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 20
   }
 }

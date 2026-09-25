@@ -17,7 +17,7 @@ def check():
         texts.extend(json.loads(path.read_text(encoding='utf-8')).values())
     chars = sorted({c for text in texts for c in text if ord(c)>127})
     results = {}
-    for name in registry['specimen_order'] + registry.get('expressive_specimen_order', []):
+    for name in dict.fromkeys(registry['specimen_order'] + registry.get('expressive_specimen_order', []) + registry.get('binary_specimen_order', [])):
         info = registry['fonts'][name]
         file = ROOT/info['file']
         if hashlib.sha256(file.read_bytes()).hexdigest() != info['sha256']:

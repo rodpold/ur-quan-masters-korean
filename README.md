@@ -113,3 +113,7 @@ python patcher.py build --game "$game" --output artifacts/ko-ui.uqm
 이전 갈무리 변형 중심 배정은 보류했습니다. [비교 표본](docs/font-selection.png)은
 `python tools/render_font_selection.py`로 재생성하며, `python tools/check_font_candidates.py`로 검사합니다.
 후보 수집/검토 단계이며 설치된 게임에는 아직 적용하지 않았습니다.
+
+## 종족별 흑백 폰트 배정안
+
+27개 대화 ID / 24개 그룹에 독립 폰트 파일 24종을 제안했습니다. 같은 종족의 별도 대화만 공유합니다. [배정표와 제약](translations/FONTS.md), [표본 1](docs/binary-race-fonts-1.png), [표본 2](docs/binary-race-fonts-2.png)를 참조하세요. 반투명은 사용하지 않습니다. 현재 설치 패치는 기존 픽셀 글꼴이며, 후보 전부를 게임에 적용한 상태가 아닙니다. 원본 영문 비교는 `tools/review_binary_fonts.py --game "게임 경로"`로 로컬 생성합니다.
