@@ -1,9 +1,9 @@
 {
   "source_path": "base/gamestrings.txt",
   "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
-  "translated_records": 366,
+  "translated_records": 394,
   "total_records": 594,
-  "pending_records": 215,
+  "pending_records": 187,
   "status": "structure_passed_linguistic_and_runtime_review_pending",
   "known_context_collision": {
     "Mercury": [
@@ -689,142 +689,142 @@
     {
       "id": "0134",
       "source_text_sha256": "e424a864e8795e905ad58407402e39256a3f28c4028fa68421fb0b09ddfa6b7a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0135",
       "source_text_sha256": "6f23e0adbc7deb27c6b3e59785d669f69cb3bfcef4d14a4517c3f94d29dc6796",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0136",
       "source_text_sha256": "81edc434232ace55318629bcef5b1bd6ac5ad23f90c859b7523c8fa964d7231c",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0137",
       "source_text_sha256": "6c14cdd044f1f6a5477adfe01fce932d808055addd9910d42be50bc4369ee9c2",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0138",
       "source_text_sha256": "1f5589d371eab76677bb9b8b126e1c4763afadd766342be96afe8033fe45b16a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0139",
       "source_text_sha256": "f3297b056a548215d92a9bf99230e8cad1620c8c9e6712f8cf3e5348e67009cc",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0140",
       "source_text_sha256": "5ab2a113593fca3d2ed0f77da5be0acf551ea7c233a25abe59bf179b154711a4",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0141",
       "source_text_sha256": "2612a18aaf6ad2875f811c34fac9d22761ff4f73d286ff856b604033a3bc3c05",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0142",
       "source_text_sha256": "2612a18aaf6ad2875f811c34fac9d22761ff4f73d286ff856b604033a3bc3c05",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0143",
       "source_text_sha256": "2612a18aaf6ad2875f811c34fac9d22761ff4f73d286ff856b604033a3bc3c05",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0144",
       "source_text_sha256": "a0213eceb37b822340f47764023c6f432a93cb90d07027bd4441e054f071fb62",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0145",
       "source_text_sha256": "dc4c5c2ac5329b13f255af234de3bc02f9bd60d2f1e7ed291cf80b0b47c9685d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0146",
       "source_text_sha256": "b61de0380cdf26e592a0235c5d32f570354562c8927db387a63f14d97925950d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0147",
       "source_text_sha256": "d2ad7831cb631cff392e031b3d2a6b08636492a399b658717921a035188f1a11",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0148",
       "source_text_sha256": "f1fd51cef29c60d3390e1297e9890101ab38d39d7f2c9ab1ae35f6a4b4e2272a",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0149",
       "source_text_sha256": "d79de0cff8b049ebaa98a1a1cecc420b842ea3ed4fcf849ca43ad3d5776f4a97",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0150",
       "source_text_sha256": "079c4f4931d5fe5493ec390a9c45e1beb47071d9ca2be0efff49d45925fb3eb1",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0151",
       "source_text_sha256": "196eb7ce3e9c32c6c5e15a0e7304e86e7ee8b3576f46c31848bbac9463b19b87",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0152",
       "source_text_sha256": "e11517f02ddb08cb2651bf9e8e5dc044a14851aed670a96faa3449f3e1b8ad8d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0153",
       "source_text_sha256": "e11517f02ddb08cb2651bf9e8e5dc044a14851aed670a96faa3449f3e1b8ad8d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0154",
       "source_text_sha256": "e11517f02ddb08cb2651bf9e8e5dc044a14851aed670a96faa3449f3e1b8ad8d",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0155",
       "source_text_sha256": "1af9e0d0c46e542587a9d87967e43696fe995b748e18542415a1f4e37ac02cc4",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0156",
       "source_text_sha256": "dd8818726a6a464fca0e365ee23c259986df91568aa6cf22316740d41f9e6d68",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0157",
       "source_text_sha256": "9f1d9e9a60f3b3d1d04417665b0d5444487e2f67b6b4fb68e8ffc854e815df3e",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0158",
       "source_text_sha256": "43eaaeb70ad644168c101484dc837aed8eb125393584c54d037315c9bf30c941",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0159",
       "source_text_sha256": "5995d8e6a9096a1c83a3dba4c00c932838988093f91df27030f9dfd9aba04ae8",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0160",
       "source_text_sha256": "f4926e3230ca5635c877da74c8c5ec2e8e6ea8cb64b0e0e116b02cf85625b95b",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0161",
       "source_text_sha256": "470e178af6ed79bed66e7849d043a16df100eefbdb188a9d30f67ef8179becf6",
-      "status": "translation_pending"
+      "status": "translated_draft"
     },
     {
       "id": "0162",

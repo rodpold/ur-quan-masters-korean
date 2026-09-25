@@ -340,9 +340,11 @@
       "source": "Talking Pet",
       "ko": "말하는 애완동물",
       "category": "character",
-      "status": "proposed",
+      "status": "in_use",
       "notes": "대화 폰트 배정표 참조용 잠정 표기.",
-      "ui_keys": []
+      "ui_keys": [
+        "Talking Pet"
+      ]
     },
     {
       "id": "slylandro_probe",
@@ -596,7 +598,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Utwig Bomb"
+      ]
     },
     {
       "id": "jugger",
@@ -614,7 +618,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Sun Device"
+      ]
     },
     {
       "id": "shofixti_maidens",
@@ -623,7 +629,9 @@
       "category": "concept",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Shofixti Maidens"
+      ]
     },
     {
       "id": "rosy_sphere",
@@ -632,7 +640,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Rosy Sphere"
+      ]
     },
     {
       "id": "aqua_helix",
@@ -641,7 +651,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Aqua Helix"
+      ]
     },
     {
       "id": "clear_spindle",
@@ -650,7 +662,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Clear Spindle"
+      ]
     },
     {
       "id": "ultron",
@@ -780,7 +794,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Warp Pod"
+      ]
     },
     {
       "id": "wimbli",
@@ -798,7 +814,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Wimbli's Trident"
+      ]
     },
     {
       "id": "glowing_rod",
@@ -807,7 +825,9 @@
       "category": "equipment",
       "status": "in_use",
       "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
-      "ui_keys": []
+      "ui_keys": [
+        "Glowing Rod"
+      ]
     },
     {
       "id": "arilou_full",
@@ -5817,6 +5837,202 @@
         "Triton"
       ],
       "case_sensitive": true
+    },
+    {
+      "id": "device_ui_quasi_portal",
+      "source": "Quasi Portal",
+      "ko": "준공간 차원문",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Quasi Portal"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_broken_ultron",
+      "source": "Broken Ultron",
+      "ko": "망가진 울트론",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Broken Ultron"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_perfect_ultron",
+      "source": "Perfect Ultron",
+      "ko": "완전한 울트론",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Perfect Ultron"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_umgah_caster",
+      "source": "Umgah Caster",
+      "ko": "움가 송신기",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Umgah Caster"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_burvix_caster",
+      "source": "Burvix Caster",
+      "ko": "버빅스 송신기",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Burvix Caster"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다. Burvix는 원문 목록의 축약형으로 버빅스로 표기한다."
+    },
+    {
+      "id": "device_ui_1_dataplate",
+      "source": "1 DataPlate",
+      "ko": "1 자료판",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "1 DataPlate"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_2_dataplate",
+      "source": "2 DataPlate",
+      "ko": "2 자료판",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "2 DataPlate"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_3_dataplate",
+      "source": "3 DataPlate",
+      "ko": "3 자료판",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "3 DataPlate"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_taalo_shield",
+      "source": "Taalo Shield",
+      "ko": "타알로 방어막",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Taalo Shield"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_egg_case",
+      "source": "Egg Case",
+      "ko": "알 껍데기",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Egg Case"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_syreen_shuttle",
+      "source": "Syreen Shuttle",
+      "ko": "시린 수송정",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Syreen Shuttle"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_vux_beast",
+      "source": "VUX Beast",
+      "ko": "VUX 괴수",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "VUX Beast"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_destruct_code",
+      "source": "Destruct Code",
+      "ko": "자폭 코드",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Destruct Code"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "device_ui_moon_base",
+      "source": "Moon Base",
+      "ko": "달 기지",
+      "category": "device_ui_label",
+      "status": "in_use",
+      "ui_keys": [
+        "Moon Base"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
     }
   ]
 }

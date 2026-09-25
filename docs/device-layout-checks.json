@@ -1,0 +1,346 @@
+{
+  "status": "static_passed_runtime_pending",
+  "records": 28,
+  "labels": [
+    {
+      "id": "0134",
+      "lines": [
+        "준공간",
+        "차원문"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0135",
+      "lines": [
+        "말하는",
+        "애완동물"
+      ],
+      "widths": [
+        27,
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0136",
+      "lines": [
+        "우트위그",
+        "폭탄"
+      ],
+      "widths": [
+        36,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0137",
+      "lines": [
+        "태양",
+        "장치"
+      ],
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0138",
+      "lines": [
+        "장밋빛",
+        "구체"
+      ],
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0139",
+      "lines": [
+        "물빛",
+        "나선"
+      ],
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0140",
+      "lines": [
+        "투명한",
+        "방추"
+      ],
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0141",
+      "lines": [
+        "망가진",
+        "울트론"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0142",
+      "lines": [
+        "망가진",
+        "울트론"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0143",
+      "lines": [
+        "망가진",
+        "울트론"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0144",
+      "lines": [
+        "완전한",
+        "울트론"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0145",
+      "lines": [
+        "쇼픽스티",
+        "처녀들"
+      ],
+      "widths": [
+        36,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0146",
+      "lines": [
+        "움가",
+        "송신기"
+      ],
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0147",
+      "lines": [
+        "버빅스",
+        "송신기"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0148",
+      "lines": [
+        "1",
+        "자료판"
+      ],
+      "widths": [
+        5,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0149",
+      "lines": [
+        "2",
+        "자료판"
+      ],
+      "widths": [
+        5,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0150",
+      "lines": [
+        "3",
+        "자료판"
+      ],
+      "widths": [
+        5,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0151",
+      "lines": [
+        "타알로",
+        "방어막"
+      ],
+      "widths": [
+        27,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0152",
+      "lines": [
+        "알",
+        "껍데기"
+      ],
+      "widths": [
+        9,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0153",
+      "lines": [
+        "알",
+        "껍데기"
+      ],
+      "widths": [
+        9,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0154",
+      "lines": [
+        "알",
+        "껍데기"
+      ],
+      "widths": [
+        9,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0155",
+      "lines": [
+        "시린",
+        "수송정"
+      ],
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0156",
+      "lines": [
+        "VUX",
+        "괴수"
+      ],
+      "widths": [
+        17,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0157",
+      "lines": [
+        "자폭",
+        "코드"
+      ],
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0158",
+      "lines": [
+        "워프",
+        "포드"
+      ],
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0159",
+      "lines": [
+        "윔블리의",
+        "삼지창"
+      ],
+      "widths": [
+        36,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0160",
+      "lines": [
+        "빛나는",
+        "막대"
+      ],
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0161",
+      "lines": [
+        "달",
+        "기지"
+      ],
+      "widths": [
+        9,
+        18
+      ],
+      "max_ink_height": 7
+    }
+  ],
+  "limitations": [
+    "Spacing uses a conservative extra pixel per glyph.",
+    "No proof of selection background, icons, or scrolling in installed executable."
+  ]
+}

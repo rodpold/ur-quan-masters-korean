@@ -1,0 +1,44 @@
+{
+  "source_path": "base/gamestrings.txt",
+  "first_ordinal": 134,
+  "last_ordinal": 161,
+  "status": "translated_draft_runtime_pending",
+  "source_evidence": {
+    "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/devices.c",
+    "sha256": "0689e396b66fdad4b3fecdee6b9583de4f910aecb452bc08390e89b685b6ca51"
+  },
+  "labels": {
+    "Quasi Portal": "준공간 차원문",
+    "Talking Pet": "말하는 애완동물",
+    "Utwig Bomb": "우트위그 폭탄",
+    "Sun Device": "태양 장치",
+    "Rosy Sphere": "장밋빛 구체",
+    "Aqua Helix": "물빛 나선",
+    "Clear Spindle": "투명한 방추",
+    "Broken Ultron": "망가진 울트론",
+    "Perfect Ultron": "완전한 울트론",
+    "Shofixti Maidens": "쇼픽스티 처녀들",
+    "Umgah Caster": "움가 송신기",
+    "Burvix Caster": "버빅스 송신기",
+    "1 DataPlate": "1 자료판",
+    "2 DataPlate": "2 자료판",
+    "3 DataPlate": "3 자료판",
+    "Taalo Shield": "타알로 방어막",
+    "Egg Case": "알 껍데기",
+    "Syreen Shuttle": "시린 수송정",
+    "VUX Beast": "VUX 괴수",
+    "Destruct Code": "자폭 코드",
+    "Warp Pod": "워프 포드",
+    "Wimbli's Trident": "윔블리의 삼지창",
+    "Glowing Rod": "빛나는 막대",
+    "Moon Base": "달 기지"
+  },
+  "constraints": {
+    "split": "first ASCII space",
+    "font": "tiny",
+    "center_x": 40,
+    "safe_line_width": 40,
+    "line_spacing": 7,
+    "max_ink_height": 7
+  }
+}
