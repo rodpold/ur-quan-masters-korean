@@ -331,7 +331,13 @@
         "NEUTRAL_SPACE_HELLO_2"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "WE_ARE_SUPOX / OUR_SHIP / FROM_SUPOX / YEAH_SORRY": "첫 자기소개에서 플레이어 문형을 반영한다. Earth를 함께 쓰는 오해와 흙의 의미는 설명 대사 안에서 유지.",
+        "HOSTILE_SPACE_HELLO_* / HIDEOUS_MONSTERS": "식물 비유를 쓴 분노와 위협. 해요체 기반은 유지하되 공손한 환대로 오해되지 않게 한다.",
+        "ABOUT_BATTLE / HELLO_AFTER_KOHRAH_SPACE_* / GENERAL_INFO_AFTER_SPACE_*": "전투 뒤 피로·손실과 우르콴의 오인 공격을 구분한다. 지원 의지와 한계를 모두 유지.",
+        "OUT_TAKES": "우트위그 들러리 역할을 마친 배우의 불평과 육식 농담. 일반 식물 인사말로 평준화하지 않는다."
+      }
     },
     "syreen": {
       "persona": "자신감 있고 경계심도 갖춘 지휘관",

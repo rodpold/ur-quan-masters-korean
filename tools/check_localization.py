@@ -17,7 +17,7 @@ def canonical_terms(source, terms):
  for term in terms:
   if term['ko']:
    pattern=r'(?<![A-Za-z])'+re.escape(term['source'])+r'(?![A-Za-z])'
-   matches.extend((m.start(),m.end(),term) for m in re.finditer(pattern,source,re.I))
+   matches.extend((m.start(),m.end(),term) for m in re.finditer(pattern,source,0 if term.get('case_sensitive',False) else re.I))
  for start,end,term in matches:
   if not any(a<=start and end<=b and b-a>end-start for a,b,_ in matches):
    yield term

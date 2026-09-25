@@ -45,3 +45,9 @@ WE_KILL_ALL_1, KILL_BECAUSE_2, THEN_DIE와 OUT_TAKES는 코르아의 교리를 P
 일반 교신과 신 사칭 통신을 구분하며 원문의 잔혹 묘사를 추가하거나 완화하지 않는다. 명령 채널 44, 좌표 022.9, 366.6, 승무원 42/44와 29년 전 설명을 유지한다. 프쿤크 사냥에서 스래대시 공격으로 넘어가는 분기의 지시와 상태 보고를 보존한다.
 
 단어 변경 장난은 translations/wordplay.ko.json의 선택지·응답 쌍으로 관리한다. worship/warship은 현재 숭배/전함으로 의미를 유지하지만 소리의 유사성은 없어 현지화 개선이 남아 있다. 두리·그대부·딜쥐와 신 이름의 오칭을 정상 표현으로 교정하지 않는다. Excruciators는 일라스의 고문 집행자들이며 우르콴의 장치 Excruciator와 구분한다. 긴 기도문과 선택지는 실기 배치·타이밍 검토 대상이다.
+
+## 수폭스
+
+Root는 루트 항성, root는 뿌리다. 해당 고유명사만 대소문자를 구분해 검사한다. 모성의 Earth/Vlik 설명은 지구/흙의 중의성을 유지하며 블리크 표기를 별도 등록했다. 안타레스와 호롤로기이는 서로 다른 원문 구간에 등장하므로 임의로 통일하지 않는다. 울트론 수리 단계별 응답을 구분한다.
+
+[supoxc.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/supox/supoxc.c)의 자기소개/함선명/동맹명 조합과 [commglue.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/commglue.c)의 GetAllianceName을 확인했다. name_40은 공백, name_41은 ' 제국 '으로 두어 실제 함장명 뒤에 제국을 붙인다. 고정 동맹명 세 가지와 사용자 이름으로 만든 제국명을 모두 검토해야 한다. 원본 실행 파일·세이브의 이름은 바꾸지 않는다. 이 공개 포트의 코드는 구조 참고이며 실제 화면 검증을 대체하지 않는다.

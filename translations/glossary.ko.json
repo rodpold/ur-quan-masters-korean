@@ -1878,6 +1878,124 @@
       "status": "in_use",
       "notes": "일라스 대화 초안. 최종 승인 아님. 여기서는 인물 집단. 우르콴의 장치 Excruciator(고통 유발기)와 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "ala_lala",
+      "source": "Ala-la'la",
+      "ko": "알라-랄라",
+      "category": "person",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "tender_shoot",
+      "source": "Tender Shoot",
+      "ko": "여린 새싹",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "supox_full",
+      "source": "Supox Utricularia",
+      "ko": "수폭스 우트리쿨라리아",
+      "category": "species",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "vlik",
+      "source": "Vlik",
+      "ko": "블리크",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "root_star",
+      "source": "Root",
+      "ko": "루트",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님. 대문자 Root는 항성 이름. 일반 명사 root(뿌리)와 구분.",
+      "ui_keys": [],
+      "case_sensitive": true
+    },
+    {
+      "id": "proctor",
+      "source": "Proctor",
+      "ko": "감독관",
+      "category": "title",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "proctors",
+      "source": "Proctors",
+      "ko": "감독관들",
+      "category": "title",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "antares",
+      "source": "Antares",
+      "ko": "안타레스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "horologii",
+      "source": "Horologii",
+      "ko": "호롤로기이",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "marauder",
+      "source": "Marauder",
+      "ko": "마로더",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "nalnar",
+      "source": "Nalnar",
+      "ko": "날나르",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mali",
+      "source": "Mali",
+      "ko": "말리",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "leporis",
+      "source": "Leporis",
+      "ko": "레포리스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "수폭스 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

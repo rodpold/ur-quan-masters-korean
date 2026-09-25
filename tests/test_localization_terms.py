@@ -21,3 +21,9 @@ class CanonicalTermTests(unittest.TestCase):
     def test_case_and_word_boundaries(self):
         self.assertEqual(self.names("ARILOU Ariloulaleelay"), {"Arilou"})
         self.assertEqual(self.names("Ariloulaleelay"), set())
+
+    def test_proper_star_name_is_not_common_noun(self):
+        term = {"source": "Root", "ko": "루트", "case_sensitive": True}
+        self.assertEqual(list(canonical_terms("the star, Root.", [term])), [term])
+        self.assertEqual(list(canonical_terms("the same root.", [term])), [])
+        self.assertEqual(list(canonical_terms("your roots", [term])), [])
