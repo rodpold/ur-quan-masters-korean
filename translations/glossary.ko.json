@@ -1194,6 +1194,141 @@
       "status": "in_use",
       "notes": "우주기지 역사 설명 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "fwiffo",
+      "source": "Fwiffo",
+      "ko": "프위포",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "starrunner",
+      "source": "StarRunner",
+      "ko": "스타러너",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "spathi_cipher",
+      "source": "Huffi-Muffi-Guffi",
+      "ko": "허피-머피-거피",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "earthguard",
+      "source": "Earthguard",
+      "ko": "지구감시대",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "wezzy_wezzah",
+      "source": "Wezzy-Wezzah",
+      "ko": "웨지-웨자",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "yuffo",
+      "source": "Yuffo",
+      "ko": "유포",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "bugsquirt",
+      "source": "BugSquirt",
+      "ko": "벅스쿼트",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "ganymede",
+      "source": "Ganymede",
+      "ko": "가니메데",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jupiter",
+      "source": "Jupiter",
+      "ko": "목성",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "saturn",
+      "source": "Saturn",
+      "ko": "토성",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "titan",
+      "source": "Titan",
+      "ko": "타이탄",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "luna",
+      "source": "Luna",
+      "ko": "달",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "winky_happy_night",
+      "source": "Winky's Happy Night",
+      "ko": "윙키의 즐거운 밤",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "funrom",
+      "source": "FunRom",
+      "ko": "펀롬",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "ultimate_evil",
+      "source": "Ultimate Evil",
+      "ko": "궁극의 악",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "스파시 첫 교신 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
