@@ -6,7 +6,7 @@ from PIL import Image
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import patcher
 
-def verify(game, ui_font="compact"):
+def verify(game, ui_font="compact", report_previews=None):
     data,report=patcher.build(game, ui_font)
     assert patcher.build(game, ui_font)[0]==data,'Non-deterministic build'
     with ZipFile(io.BytesIO(data)) as z, ZipFile(Path(game)/patcher.SOURCE) as source:
@@ -50,6 +50,31 @@ def verify(game, ui_font="compact"):
         required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
         for p in (patcher.ROOT/'translations/dialogue-voice').glob('*.ko.json'):
             required.update(c for value in json.loads(p.read_text(encoding='utf-8')).values() for c in value if ord(c)>127)
+        reports = patcher.report_translations()
+        if reports:
+            assert any(line.startswith('font.lander = FONTRES:') for line in z.read('ko-ui.rmp').decode().splitlines()), 'Report font.lander override missing; fixed 6px cell rendering is not yet supported'
+        for rows in reports.values():
+            required.update(c for text in rows.values() for c in text if ord(c)>127)
+        for path, rows in reports.items():
+            target = path.replace('base/', 'ko/', 1)
+            before = source.read(path).decode('utf-8')
+            after = z.read(target).decode('utf-8')
+            split = lambda t: re.split(r'(?m)(^#\([^\r\n]*\)[^\r\n]*\r?\n)', t)
+            aa, bb = split(before), split(after)
+            assert aa[1::2] == bb[1::2], 'Report headers changed'
+            expected_key = next(line.split('=',1)[0].strip() for line in source.read('uqm.rmp').decode().splitlines()
+                                if '=' in line and line.split('=',1)[1].strip() == 'STRTAB:'+path)
+            assert f'{expected_key} = STRTAB:addons/{patcher.ADDON}/{target}' in z.read('ko-ui.rmp').decode().splitlines()
+            for header, old, new in zip(aa[1::2], aa[2::2], bb[2::2]):
+                key = re.match(r'#\(([^)]*)\)', header)[1]
+                if key in rows:
+                    from report_layout import compile_body
+                    assert new.rstrip('\r\n') == compile_body(rows[key]).replace('\n', '\r\n' if '\r\n' in before else '\n')
+                else:
+                    assert old == new, 'Untranslated report changed'
+        if reports:
+            from check_report_layout import verify_reports
+            report['report_layout'] = verify_reports(source, z, reports, report_previews)
         registry=json.loads((patcher.ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
         groups=[row for row in registry['dialogue_fonts'] if row['id']==row['font_group']]
         assert len(groups)==24
@@ -94,4 +119,11 @@ def verify(game, ui_font="compact"):
             assert Image.open(io.BytesIO(z.read('ko/ui/'+n))).size==Image.open(io.BytesIO(source.read('base/ui/'+n))).size
     print(json.dumps({'checks':'passed',**report},indent=2))
 
-if __name__=='__main__':verify(Path(sys.argv[1]), sys.argv[2] if len(sys.argv)>2 else "compact")
+if __name__=='__main__':
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument('game', type=Path)
+    parser.add_argument('ui_font', nargs='?', default='compact')
+    parser.add_argument('--report-previews', type=Path)
+    args=parser.parse_args()
+    verify(args.game, args.ui_font, args.report_previews)

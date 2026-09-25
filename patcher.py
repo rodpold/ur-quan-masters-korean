@@ -187,6 +187,40 @@ def edition_translations(species, base, active, translations):
     return {**translations, **{k:overrides[k] for k in changed if k in overrides}}
 
 
+def report_translations():
+    path = ROOT/'translations/reports.ko.json'
+    return json.loads(path.read_text(encoding='utf-8')) if path.is_file() else {}
+
+
+def report_assets(archive, translations):
+    """Override only mapped lander text resources; keep record/paragraph structure."""
+    mappings = {}
+    for line in archive.read('uqm.rmp').decode('utf-8').splitlines():
+        if '=' in line:
+            key, value = line.split('=', 1)
+            mappings.setdefault(value.strip(), []).append(key.strip())
+    entries, overrides = {}, []
+    for source, records in sorted(translations.items()):
+        if not re.fullmatch(r'base/lander/(?:bio|energy)/[a-z_]+\.txt', source):
+            raise ValueError(f'Unexpected report path: {source}')
+        keys = mappings.get('STRTAB:' + source, [])
+        if len(keys) != 1:
+            raise ValueError(f'Unexpected report mapping: {source}')
+        target = source.replace('base/', 'ko/', 1)
+        before = archive.read(source).decode('utf-8')
+        after = translate_dialogue(before, records)
+        if [bool(line.strip()) for line in before.splitlines()] != [bool(line.strip()) for line in after.splitlines()]:
+            raise ValueError(f'Report paragraph structure changed: {source}')
+        from report_layout import compile_table
+        entries[target] = compile_table(before, records).encode('utf-8')
+        overrides.append(f'{keys[0]} = STRTAB:{target}')
+    if translations:
+        from report_layout import font_assets
+        entries.update(font_assets(archive, [v for rows in translations.values() for v in rows.values()] + ['(다음)'], ROOT))
+        overrides.append('font.lander = FONTRES:ko/fonts/lander.fon')
+    return entries, overrides
+
+
 def build(game, ui_font="compact"):
     if ui_font not in {"compact", "larger"}:
         raise ValueError("Unknown UI font preset")
@@ -206,7 +240,8 @@ def build(game, ui_font="compact"):
     dialogue = {p.name.removesuffix('.ko.json'): json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'translations/dialogue').glob('*.ko.json'))}
     registry = json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
     dialogue_rows = {row['id']: row for row in registry['dialogue_fonts']}
-    dialogue_values = [v for records in dialogue.values() for v in records.values()]
+    reports = report_translations()
+    dialogue_values = [v for records in [*dialogue.values(), *reports.values()] for v in records.values()]
     for p in (ROOT/'translations/dialogue-voice').glob('*.ko.json'):
         dialogue_values.extend(json.loads(p.read_text(encoding='utf-8')).values())
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
@@ -216,7 +251,13 @@ def build(game, ui_font="compact"):
            'graphics.playmenu = GFXRES:ko/ui/playmenu.ani',
            'text.setupmenu = STRTAB:ko/setupmenu.txt']
     with ZipFile(game/SOURCE) as z:
+        report_entries, report_rmp = report_assets(z, reports)
+        entries.update(report_entries)
+        rmp.extend(report_rmp)
         original = z.read('base/gamestrings.txt').decode('utf-8')
+        if reports:
+            from report_layout import spaced
+            translations = {**translations, '(MORE)': spaced(translations.get('(MORE)', '(다음)'))}
         translated, counts = translate_table(original, translations)
         entries['ko/gamestrings.txt'] = translated.encode('utf-8')
         entries.update(menu_assets(z))
@@ -263,7 +304,7 @@ def build(game, ui_font="compact"):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'dialogue_records':sum(map(len,dialogue.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)

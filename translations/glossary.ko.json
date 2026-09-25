@@ -2330,6 +2330,132 @@
       "status": "in_use",
       "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "kilgore",
+      "source": "Kilgore",
+      "ko": "킬고어",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "bukowski",
+      "source": "Bukowski",
+      "ko": "부코프스키",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hawthorne",
+      "source": "Hawthorne",
+      "ko": "호손",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "kowalski",
+      "source": "Kowalski",
+      "ko": "코왈스키",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "fritz",
+      "source": "Fritz",
+      "ko": "프리츠",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "chin",
+      "source": "Chin",
+      "ko": "친",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "odonnell",
+      "source": "O'Donnell",
+      "ko": "오도널",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "luigi",
+      "source": "Luigi",
+      "ko": "루이지",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "liebermann",
+      "source": "Liebermann",
+      "ko": "리버만",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rigby",
+      "source": "Rigby",
+      "ko": "릭비",
+      "category": "person",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "lalande",
+      "source": "Lalande",
+      "ko": "랄랑드",
+      "category": "place",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dimensional_fatigue",
+      "source": "Dimensional Fatigue",
+      "ko": "차원 피로",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "mosquito_mange",
+      "source": "Mosquito Mange",
+      "ko": "모기 옴",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hyperdrive",
+      "source": "Hyperdrive",
+      "ko": "초공간 구동",
+      "category": "technology",
+      "status": "in_use",
+      "notes": "행성 탐사 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

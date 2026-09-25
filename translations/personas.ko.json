@@ -549,5 +549,24 @@
         "other": "분기와 화자 전환 확인 후 지정"
       }
     }
+  },
+  "report_profiles": {
+    "default": {
+      "register": "착륙대의 합쇼체 보고. 보고 머리말·끝말과 빈 문단을 보존한다.",
+      "constraints": "관측, 추측, 미확인을 구분하고 미리 알고 있는 게임 설정으로 보충하지 않는다.",
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "ANDRUINS 1/2": {
+      "speakers": "킬고어(외계 역사학자), 부코프스키(과학 장교)",
+      "register": "초기 파괴 현장과 과학 기록에 대한 분석적 합쇼체. 잘 모르는 현상의 이름과 설명을 구분한다."
+    },
+    "ANDRUINS 3": {
+      "speaker": "호손 소위",
+      "register": "부코프스키 대신 보고. 머뭇거림과 불안을 점차 드러내고 마지막 복귀 요청은 절박하게 한다. 상처가 늘어나는 원인을 단정하지 않는다."
+    },
+    "SPAPLUTO 1": {
+      "register": "공격받은 착륙대의 다급한 구조 요청. 사망자 이름과 인원을 생략하지 않는다."
+    }
   }
 }

@@ -24,7 +24,7 @@ Local license: [OFL.txt](vendor/galmuri/OFL.txt). License: SIL OFL 1.1.
 | File | Official download | Raster size | Current use |
 |---|---|---|---|
 | Galmuri7.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri7.ttf | 8px (7px ink) | Compact UI and log/tiny glyphs |
-| Galmuri9.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf | 10px (9px ink) | Player choices, commander/Ur-Quan subtitle trial; larger UI trial |
+| Galmuri9.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf | 10px (9px ink) | Player choices, commander subtitles, historical larger UI trial, and fixed-cell lander reports |
 | Galmuri11.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf | 12px (11px ink), 24px | Micro font and start-menu artwork |
 
 The official project offers web fonts too. This patch uses vendored TTFs to generate PNGs locally;
@@ -132,3 +132,11 @@ Local vendor directories also retain METADATA.pb and SHA256.json. No font outlin
 The 24 selected families listed in translations/fonts.ko.json are now rasterized as binary Hangul glyphs by race_fonts.py. Original font binaries are unmodified. The generated addon ships the relevant complete license notices, additional dependency notices and author files plus individual source/designer credits under ko/licenses/. Original English glyphs come from the user installation and remain excluded from Git.
 
 Shared font references inspected in the public source port: https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/spahome/spahome.c , https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/starbas/starbas.c , https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/rebel/rebel.c . These confirm Spathi, Commander and Yehat font sharing respectively.
+
+## Report font and rendering audit
+
+Lander reports use the existing Galmuri9.ttf by Lee Minseo (quiple), OFL-1.1, rasterized at 10px into binary 10x9 ink inside 10x12 PNGs. Display spacing occupies two original cells and alternate rows; TTF outlines are unchanged. Source, SHA-256, and license are listed above and in vendor/galmuri/SHA256.json. Original lander Latin glyphs are read only from the user's game and are not committed.
+
+`tools/check_report_layout.py` adapts the pagination/control-flow of UQM's MakeReport and UniChar_isGraph for an offline audit. This tool is **GPL-2.0-or-later**, an exception to the repository's default MIT license. Original copyright: Paul Reiche, Fred Ford, 1992-2002; Python adaptation: 2026 ur-quan-masters-korean contributors. License: [LICENSES/UQM-GPL.txt](LICENSES/UQM-GPL.txt), SHA-256 `560aff43d87dd0a1c1281e48a72152d854001209f76962b2fbe47cc38b97c958`.
+
+Inspected public source snapshot: [report.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/report.c), [unicode.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/libs/strings/unicode.c), [gfxload.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/libs/graphics/gfxload.c), and [getstr.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/libs/strings/getstr.c). Full C source and game assets are not bundled. The audit excludes timing, input handling, and PC font effects; it does not establish executable equivalence or replace runtime testing.

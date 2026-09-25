@@ -1288,5 +1288,27 @@
     },
     "uniqueness": "distinct font file and family per group",
     "status": "user_authorized_installed_pending_visual_review"
+  },
+  "report_font": {
+    "resource": "font.lander",
+    "font": "Galmuri9",
+    "raster_px": 10,
+    "ink_size": [
+      10,
+      9
+    ],
+    "png_size": [
+      10,
+      12
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "cell_px": 6,
+    "horizontal_cells": 2,
+    "content_rows_per_page": 5,
+    "original_latin_glyphs": "preserved",
+    "status": "installed_trial_pending_in_game_review"
   }
 }

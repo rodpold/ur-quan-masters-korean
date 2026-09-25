@@ -1,0 +1,73 @@
+{
+  "status": "static_passed_in_game_pending",
+  "reports": [
+    {
+      "id": "VUXBEAST 1",
+      "pages": 5,
+      "nonspace_characters": 269,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "ANDRUINS 1",
+      "pages": 7,
+      "nonspace_characters": 415,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "ANDRUINS 2",
+      "pages": 8,
+      "nonspace_characters": 481,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "ANDRUINS 3",
+      "pages": 10,
+      "nonspace_characters": 624,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "EGGCASE 1",
+      "pages": 3,
+      "nonspace_characters": 139,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "SPAPLUTO 1",
+      "pages": 3,
+      "nonspace_characters": 143,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "MAIDENS 1",
+      "pages": 3,
+      "nonspace_characters": 137,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "MOONBASE 1",
+      "pages": 5,
+      "nonspace_characters": 284,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    },
+    {
+      "id": "RUINS 1",
+      "pages": 2,
+      "nonspace_characters": 50,
+      "static_ink_check": "passed",
+      "in_game_review": "pending"
+    }
+  ],
+  "pages": 46,
+  "limitations": [
+    "Public-port model, not live Steam executable testing.",
+    "PC font effects and input/timing are not simulated."
+  ]
+}
