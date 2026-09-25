@@ -27,7 +27,12 @@
     },
     "yehat.rebel": {
       "base": "yehat",
-      "override": "반란군의 동맹 환대와 혁명에 대한 확신."
+      "override": "반란군의 동맹 환대와 혁명에 대한 확신.",
+      "record_overrides": {
+        "REBEL_REVOLUTION_*": "승전의 낙관 속에도 동족과 용감한 승무원을 죽인 슬픔을 드러낸다. 다음 전투면 끝나리라는 반복적 기대를 확정적 예언으로 바꾸지 않는다.",
+        "ABOUT_ROYALTY / ABOUT_WAR / ABOUT_URQUAN": "여왕과 왕조의 공적, 현재 여왕에 대한 비난, 쇼픽스티를 버린 죄책감을 구분한다. 영웅적 희생의 설명 중 추측은 추측으로 유지한다.",
+        "PKUNK_ABSORBED_REBEL / HATE_PKUNK_REBEL / YEHAT_CAVALRY": "초기 프쿤크 배척과 흡수 설명을 결말 지식으로 고치지 않는다. 기병대 등장에서는 프쿤크 여왕 수용과 자기인식 변화를 기쁘게 전한다."
+      }
     }
   },
   "profiles": {
@@ -513,7 +518,13 @@
         "HOMEWORLD_HELLO_2"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "HOMEWORLD_HELLO_* / GENERAL_INFO_HOMEWORLD_* / ROYALIST_*": "궁정 귀족과 왕당파는 엄격한 하오체. 여왕의 권위를 옹호하고 플레이어를 반역자로 지칭한다. 왕당파의 씨족 말살 위협을 완화하지 않는다.",
+        "SPACE_HELLO_* / GENERAL_INFO_SPACE_* / WE_CANNOT_*": "우주선 씨족은 옛 동맹을 벗으로 대하면서도 여왕에게 복종해야 하는 갈등을 드러낸다. 부리·날개·깃털·횃대 비유와 비통한 울음을 유지한다.",
+        "WE_REVOLT": "쇼픽스티 함선에 대한 의심과 영광 장치 경계에서 실제 생존 확인의 기쁨, 자기혐오, 여왕의 명예를 부정하는 결의로 전환한다.",
+        "OUT_TAKES": "각본을 쓰는 배우의 해요체. 영화감독 이름과 영화계에 날개를 들이미는 비유를 유지한다."
+      }
     },
     "zoqfotpik": {
       "persona": "서로 끼어들고 티격태격하는 복수 화자",

@@ -1678,7 +1678,7 @@
       "ko": "프리마트",
       "category": "title",
       "status": "in_use",
-      "notes": "코르아 지도자의 직함. 이 대사에서는 여성으로 지칭. 우르콴 번역 초안; 최종 승인 아님.",
+      "notes": "지도자 직함. 우르콴 대사에서는 코르아 지도자(여성)를, 예하트 반란군 ABOUT_VUX에서는 VUX 지도부를 가리킨다. 표기는 유지하되 동일 인물로 간주하지 않는다. 최종 승인 아님.",
       "ui_keys": []
     },
     {
@@ -1813,8 +1813,9 @@
       "ko": "오크",
       "category": "person",
       "status": "in_use",
-      "notes": "일라스 대화 초안. 최종 승인 아님.",
-      "ui_keys": []
+      "notes": "일라스 대사에서 세즈의 인물 Awk는 오크. 예하트의 AWK!/awk!는 새 울음 감탄사로 구분한다. 최종 승인 아님.",
+      "ui_keys": [],
+      "case_sensitive": true
     },
     {
       "id": "seds",
@@ -2166,6 +2167,168 @@
       "category": "person",
       "status": "in_use",
       "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "cheep_guava",
+      "source": "Cheep-Guava",
+      "ko": "칩-구아바",
+      "category": "person",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "veep_kreep",
+      "source": "Veep-Kreep",
+      "ko": "빕-크립",
+      "category": "clan",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "veep_neep",
+      "source": "Veep-Neep",
+      "ko": "빕-닙",
+      "category": "dynasty",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "caer_zeep_reep",
+      "source": "Caer Zeep-Reep",
+      "ko": "케어 집-립",
+      "category": "place",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "terminator",
+      "source": "Terminator",
+      "ko": "터미네이터",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "terminators",
+      "source": "Terminators",
+      "ko": "터미네이터",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "fortress_square",
+      "source": "Fortress Square",
+      "ko": "요새 사각진",
+      "category": "tactic",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dynamic_triangle",
+      "source": "Dynamic Triangle",
+      "ko": "기동 삼각진",
+      "category": "tactic",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "braky_girdy",
+      "source": "Braky Girdy",
+      "ko": "브레이키 거디",
+      "category": "person",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "furies",
+      "source": "Furies",
+      "ko": "퓨리",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "breegs",
+      "source": "breegs",
+      "ko": "브리그",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "예하트 반란군 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "serpentis",
+      "source": "Serpentis",
+      "ko": "세르펜티스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "zeep_zeep",
+      "source": "Zeep-Zeep",
+      "ko": "집-집",
+      "category": "clan",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "feep_eeep",
+      "source": "Feep-Eeep",
+      "ko": "피프-이프",
+      "category": "clan",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "breeg",
+      "source": "breeg",
+      "ko": "브리그",
+      "category": "creature",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "woody_allen",
+      "source": "Woody Allen",
+      "ko": "우디 앨런",
+      "category": "person",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "tobe_hooper",
+      "source": "Tobe Hooper",
+      "ko": "토브 후퍼",
+      "category": "person",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "wars_ascension",
+      "source": "Wars of Ascension",
+      "ko": "왕위 쟁탈 전쟁",
+      "category": "event",
+      "status": "in_use",
+      "notes": "예하트 대화 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
     }
   ]
