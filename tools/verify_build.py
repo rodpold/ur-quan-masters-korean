@@ -27,6 +27,9 @@ def verify(game, ui_font="compact", report_previews=None):
         (patcher.ROOT/'docs/element-layout-checks.json').write_text(json.dumps(element_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         material_check = verify_materials(z, source)
         (patcher.ROOT/'docs/material-layout-checks.json').write_text(json.dumps(material_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_world_types import verify_world_types
+        world_check = verify_world_types(z, source)
+        (patcher.ROOT/'docs/world-type-layout-checks.json').write_text(json.dumps(world_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')

@@ -1,0 +1,278 @@
+{
+  "source_path": "base/gamestrings.txt",
+  "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
+  "status": "translated_draft_runtime_pending",
+  "records": [
+    {
+      "id": "0309",
+      "source": "Oolite",
+      "ko": "어란암"
+    },
+    {
+      "id": "0310",
+      "source": "Yttric",
+      "ko": "이트륨"
+    },
+    {
+      "id": "0311",
+      "source": "Quasi-Degenerate",
+      "ko": "준축퇴"
+    },
+    {
+      "id": "0312",
+      "source": "Lanthanide",
+      "ko": "란타넘족"
+    },
+    {
+      "id": "0313",
+      "source": "Treasure",
+      "ko": "보물"
+    },
+    {
+      "id": "0314",
+      "source": "Urea",
+      "ko": "요소"
+    },
+    {
+      "id": "0315",
+      "source": "Metal",
+      "ko": "금속"
+    },
+    {
+      "id": "0316",
+      "source": "Radioactive",
+      "ko": "방사성"
+    },
+    {
+      "id": "0317",
+      "source": "Opalescent",
+      "ko": "유백광"
+    },
+    {
+      "id": "0318",
+      "source": "Cyanic",
+      "ko": "사이안계"
+    },
+    {
+      "id": "0319",
+      "source": "Acid",
+      "ko": "산성"
+    },
+    {
+      "id": "0320",
+      "source": "Alkali",
+      "ko": "알칼리"
+    },
+    {
+      "id": "0321",
+      "source": "Halide",
+      "ko": "할로젠화물"
+    },
+    {
+      "id": "0322",
+      "source": "Green",
+      "ko": "녹색"
+    },
+    {
+      "id": "0323",
+      "source": "Copper",
+      "ko": "구리"
+    },
+    {
+      "id": "0324",
+      "source": "Carbide",
+      "ko": "탄화물"
+    },
+    {
+      "id": "0325",
+      "source": "Ultramarine",
+      "ko": "군청색"
+    },
+    {
+      "id": "0326",
+      "source": "Noble",
+      "ko": "희가스"
+    },
+    {
+      "id": "0327",
+      "source": "Azure",
+      "ko": "하늘색"
+    },
+    {
+      "id": "0328",
+      "source": "Chondrite",
+      "ko": "콘드라이트"
+    },
+    {
+      "id": "0329",
+      "source": "Purple",
+      "ko": "보라색"
+    },
+    {
+      "id": "0330",
+      "source": "Super-Dense",
+      "ko": "초고밀도"
+    },
+    {
+      "id": "0331",
+      "source": "Pellucid",
+      "ko": "투명"
+    },
+    {
+      "id": "0332",
+      "source": "Dust",
+      "ko": "먼지"
+    },
+    {
+      "id": "0333",
+      "source": "Crimson",
+      "ko": "진홍색"
+    },
+    {
+      "id": "0334",
+      "source": "Cimmerian",
+      "ko": "암흑"
+    },
+    {
+      "id": "0335",
+      "source": "Infrared",
+      "ko": "적외선"
+    },
+    {
+      "id": "0336",
+      "source": "Selenic",
+      "ko": "달형"
+    },
+    {
+      "id": "0337",
+      "source": "Auric",
+      "ko": "황금"
+    },
+    {
+      "id": "0338",
+      "source": "Fluorescent",
+      "ko": "형광"
+    },
+    {
+      "id": "0339",
+      "source": "Ultraviolet",
+      "ko": "자외선"
+    },
+    {
+      "id": "0340",
+      "source": "Plutonic",
+      "ko": "심성암"
+    },
+    {
+      "id": "0341",
+      "source": "Rainbow",
+      "ko": "무지개"
+    },
+    {
+      "id": "0342",
+      "source": "Shattered",
+      "ko": "산산이 부서진"
+    },
+    {
+      "id": "0343",
+      "source": "Sapphire",
+      "ko": "사파이어"
+    },
+    {
+      "id": "0344",
+      "source": "Organic",
+      "ko": "유기물"
+    },
+    {
+      "id": "0345",
+      "source": "Xenolithic",
+      "ko": "포획암"
+    },
+    {
+      "id": "0346",
+      "source": "Redux",
+      "ko": "리덕스"
+    },
+    {
+      "id": "0347",
+      "source": "Primordial",
+      "ko": "원시"
+    },
+    {
+      "id": "0348",
+      "source": "Emerald",
+      "ko": "에메랄드"
+    },
+    {
+      "id": "0349",
+      "source": "Chlorine",
+      "ko": "염소"
+    },
+    {
+      "id": "0350",
+      "source": "Magnetic",
+      "ko": "자성"
+    },
+    {
+      "id": "0351",
+      "source": "Water",
+      "ko": "물"
+    },
+    {
+      "id": "0352",
+      "source": "Telluric",
+      "ko": "텔루릭"
+    },
+    {
+      "id": "0353",
+      "source": "Hydrocarbon",
+      "ko": "탄화수소"
+    },
+    {
+      "id": "0354",
+      "source": "Iodine",
+      "ko": "아이오딘"
+    },
+    {
+      "id": "0355",
+      "source": "Vinylogous",
+      "ko": "비닐로그"
+    },
+    {
+      "id": "0356",
+      "source": "Ruby",
+      "ko": "루비"
+    },
+    {
+      "id": "0357",
+      "source": "Magma",
+      "ko": "마그마"
+    },
+    {
+      "id": "0358",
+      "source": "Maroon",
+      "ko": "적갈색"
+    },
+    {
+      "id": "0359",
+      "source": "World",
+      "ko": "행성"
+    },
+    {
+      "id": "0360",
+      "source": "Gas Giant",
+      "ko": "가스 거성"
+    }
+  ],
+  "source_evidence": {
+    "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/plandata.c",
+    "sha256": "09bcdc468f525f862334054377a5cdb12a1bb697d2f07baac90f0639970da338"
+  },
+  "provisional_interpretations": [
+    "Selenic: 달형, not selenium; source deposits iron/aluminum/calcium.",
+    "Noble: 희가스; source deposits noble gases.",
+    "Cyanic: 사이안계; source contains cyanoacetylene.",
+    "Redux/Telluric/Vinylogous: transliterated labels pending linguistic review.",
+    "Names describe game categories; do not infer exact real-world geochemistry from them."
+  ]
+}

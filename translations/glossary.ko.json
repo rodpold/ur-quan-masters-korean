@@ -6103,6 +6103,34 @@
         "base/gamestrings.txt"
       ],
       "notes": "수집 자원 표시용 이름. Tzo는 기존 츠오를 유지한다. 신규 음역은 최종 승인 전 초안이며 게임의 가상 물질을 실제 과학적 사실로 해설하지 않는다."
+    },
+    {
+      "id": "team_behemoth_zenith",
+      "source": "Behemoth Zenith",
+      "ko": "베헤모스 제니스",
+      "category": "preset_team",
+      "status": "in_use",
+      "ui_keys": [
+        "Behemoth Zenith"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "게임 기본 문자열에 포함된 팀 이름 초안. 사용자 저장 팀이나 함장/기함 이름을 변경하지 않는다."
+    },
+    {
+      "id": "team_the_peeled_eyes",
+      "source": "The Peeled Eyes",
+      "ko": "부릅뜬 눈들",
+      "category": "preset_team",
+      "status": "in_use",
+      "ui_keys": [
+        "The Peeled Eyes"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "게임 기본 문자열에 포함된 팀 이름 초안. 사용자 저장 팀이나 함장/기함 이름을 변경하지 않는다."
     }
   ]
 }

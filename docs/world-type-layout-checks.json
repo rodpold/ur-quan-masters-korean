@@ -1,0 +1,724 @@
+{
+  "status": "static_passed_runtime_pending",
+  "source_records": 52,
+  "composed_labels": [
+    {
+      "id": "0309",
+      "ko": "어란암 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0310",
+      "ko": "이트륨 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0311",
+      "ko": "준축퇴 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0312",
+      "ko": "란타넘족 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0313",
+      "ko": "보물 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0314",
+      "ko": "요소 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0315",
+      "ko": "금속 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0316",
+      "ko": "방사성 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0317",
+      "ko": "유백광 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0318",
+      "ko": "사이안계 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0319",
+      "ko": "산성 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0320",
+      "ko": "알칼리 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0321",
+      "ko": "할로젠화물 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 67,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 98,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0322",
+      "ko": "녹색 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0323",
+      "ko": "구리 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0324",
+      "ko": "탄화물 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0325",
+      "ko": "군청색 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0326",
+      "ko": "희가스 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0327",
+      "ko": "하늘색 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0328",
+      "ko": "콘드라이트 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 67,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 98,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0329",
+      "ko": "보라색 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0330",
+      "ko": "초고밀도 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0331",
+      "ko": "투명 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0332",
+      "ko": "먼지 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0333",
+      "ko": "진홍색 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0334",
+      "ko": "암흑 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0335",
+      "ko": "적외선 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0336",
+      "ko": "달형 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0337",
+      "ko": "황금 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0338",
+      "ko": "형광 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0339",
+      "ko": "자외선 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0340",
+      "ko": "심성암 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0341",
+      "ko": "무지개 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0342",
+      "ko": "산산이 부서진 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 80,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 118,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0343",
+      "ko": "사파이어 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0344",
+      "ko": "유기물 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0345",
+      "ko": "포획암 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0346",
+      "ko": "리덕스 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0347",
+      "ko": "원시 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0348",
+      "ko": "에메랄드 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0349",
+      "ko": "염소 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0350",
+      "ko": "자성 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0351",
+      "ko": "물 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 31,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 46,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0352",
+      "ko": "텔루릭 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0353",
+      "ko": "탄화수소 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0354",
+      "ko": "아이오딘 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0355",
+      "ko": "비닐로그 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 58,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 85,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0356",
+      "ko": "루비 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0357",
+      "ko": "마그마 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0358",
+      "ko": "적갈색 행성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 49,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 72,
+          "ink_height": 11
+        }
+      }
+    },
+    {
+      "id": "0360",
+      "ko": "가스 거성",
+      "fonts": {
+        "tiny": {
+          "conservative_width": 40,
+          "ink_height": 7
+        },
+        "micro": {
+          "conservative_width": 59,
+          "ink_height": 11
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Widths include a conservative one-pixel advance per glyph; no universal screen-fit limit is asserted.",
+    "PC and 3DO scan layouts and ambiguous type meanings require runtime and linguistic review."
+  ]
+}

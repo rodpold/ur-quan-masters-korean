@@ -165,3 +165,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 
 - 원소 표기: [2022 개정 교육과정에 따른 교과용도서 개발을 위한 편수자료 III 기초과학·정보 편](https://www.goe.go.kr/resource/old/BBSMSTR_000000030136/BBS_202304060600195200.pdf), 경기교육청 공개본, 본문 213–214쪽. 원소명 사실 대조에만 사용했으며 문서·표 이미지는 배포하지 않는다. 일반 화학 명칭을 직접 입력했고 재배포 라이선스를 주장하지 않는다.
 - 표시 방식: [planets/lander.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/lander.c), Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). pickupMineralNode와 DrawPlanetSide의 첫 공백 분리/7픽셀 간격을 확인했다. 원본 코드·그림은 배포하지 않는다. 기존 Galmuri7 흑백 폰트를 재사용한다.
+
+행성 유형 참고: [plandata.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/plandata.c), Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). 원본 해시는 translations/world-types.ko.json에 기록했다. 유형과 자원 성분의 사실 관계만 참조했으며 원본 코드·이미지는 배포하지 않는다. 신규 폰트는 없다.
