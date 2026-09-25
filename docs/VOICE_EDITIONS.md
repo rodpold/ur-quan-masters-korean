@@ -10,3 +10,5 @@
 원작 연결 확인: [starbas.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/starbas/starbas.c). 설치된 원본 콘텐츠와 음성 패키지가 실제 데이터 기준이다. 원본 대사·음성 파일은 저장소에 복제하지 않는다.
 
 자동 검사는 대사 ID/구간 수와 RMP 음성/타임스탬프 경로 보존, 미검토 판본 차이 차단을 확인한다. 자막이 실제 음성과 맞물리는 시점, 이름 삽입 후의 화면 배치와 문법은 별도의 실기 검토 대상이다.
+
+아릴루 `BAD_NEWS_ABOUT_TPET` 첫 구간은 일반판의 psychically coercive와 음성판 자막 원문의 physically coercive가 다르다. 각각 정신적 강제력/물리적 강제력으로 번역해 판본 차이를 유지한다. 실제 녹음과의 일치는 별도 청취 검토 대상이다.

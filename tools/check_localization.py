@@ -10,6 +10,18 @@ def records(text):
  p=re.split(r'(?m)^#\(([^\r\n)]*)\)[^\r\n]*\r?\n',text)
  return [(p[i],p[i+1].rstrip('\r\n')) for i in range(1,len(p),2)]
 
+def canonical_terms(source, terms):
+ # A full name owns its span; its embedded short name need not be repeated in Korean.
+ # A separately occurring short name still has its own terminology requirement.
+ matches=[]
+ for term in terms:
+  if term['ko']:
+   pattern=r'(?<![A-Za-z])'+re.escape(term['source'])+r'(?![A-Za-z])'
+   matches.extend((m.start(),m.end(),term) for m in re.finditer(pattern,source,re.I))
+ for start,end,term in matches:
+  if not any(a<=start and end<=b and b-a>end-start for a,b,_ in matches):
+   yield term
+
 def audit(game):
  reg=json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
  per=json.loads((ROOT/'translations/personas.ko.json').read_text(encoding='utf-8'))
@@ -36,9 +48,8 @@ def audit(game):
     assert re.findall(r'%[-+0-9.]*[sduf]',src[key])==re.findall(r'%[-+0-9.]*[sduf]',text),f'Placeholder: {id}/{key}'
     for token in re.findall(r'\d+(?:[.,]\d+)*',src[key]):assert token in text,f'Number lost: {id}/{key}: {token}'
     if src[key].endswith(' '):assert text.endswith(' '),f'Dynamic suffix space: {id}/{key}'
-    for term in terms.values():
-     if term['ko'] and re.search(r'(?<![A-Za-z])'+re.escape(term['source'])+r'(?![A-Za-z])',src[key],re.I):
-      assert term['ko'] in text,f'Canonical term missing: {id}/{key}: {term["source"]} -> {term["ko"]}'
+    for term in canonical_terms(src[key],terms.values()):
+     assert term['ko'] in text,f'Canonical term missing: {id}/{key}: {term["source"]} -> {term["ko"]}'
    translated_total+=len(trans);total+=len(src)
    rows.append({'id':id,'source_path':path,'source_sha256':hashlib.sha256(source).hexdigest(),'records':len(src),'translated':len(trans),'untranslated_ids':[k for k in src if k not in trans],'persona':group,'status':'translated_draft' if len(trans)==len(src) else 'partial' if trans else 'not_started','linguistic_review':'pending','in_game_review':'pending'})
   for n in z.namelist():
