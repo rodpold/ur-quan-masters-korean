@@ -262,12 +262,15 @@ def build(game, ui_font="compact"):
     dialogue_rows = {row['id']: row for row in registry['dialogue_fonts']}
     reports = report_translations()
     from cutscene_text import load_intro, add_intro, load_ending, add_ending
+    from ship_text import load_ships, add_ships
+    ships = load_ships()
     intro = load_intro()
     ending = load_ending()
     dialogue_values = [v for records in [*dialogue.values(), *reports.values()] for v in records.values()]
     for p in (ROOT/'translations/dialogue-voice').glob('*.ko.json'):
         dialogue_values.extend(json.loads(p.read_text(encoding='utf-8')).values())
     dialogue_values.extend(row['ko'] for row in load_ui_overrides()['records'].values())
+    dialogue_values.extend(row['ko'] for resource in ships['resources'] for row in resource['records'])
     dialogue_values.extend(intro['records'].values())
     dialogue_values.extend(ending['records'].values())
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
@@ -277,6 +280,9 @@ def build(game, ui_font="compact"):
            'graphics.playmenu = GFXRES:ko/ui/playmenu.ani',
            'text.setupmenu = STRTAB:ko/setupmenu.txt']
     with ZipFile(game/SOURCE) as z:
+        ship_entries, ship_rmp = add_ships(z, ships)
+        entries.update(ship_entries)
+        rmp.extend(ship_rmp)
         report_entries, report_rmp = report_assets(z, reports)
         entries.update(report_entries)
         rmp.extend(report_rmp)
@@ -332,7 +338,7 @@ def build(game, ui_font="compact"):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'intro_records':len(intro['records']), 'ending_records':len(ending['records']), 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'ship_label_records':sum(len(r['records']) for r in ships['resources']),'intro_records':len(intro['records']), 'ending_records':len(ending['records']), 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)

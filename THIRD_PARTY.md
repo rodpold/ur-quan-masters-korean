@@ -167,3 +167,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 - 표시 방식: [planets/lander.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/lander.c), Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). pickupMineralNode와 DrawPlanetSide의 첫 공백 분리/7픽셀 간격을 확인했다. 원본 코드·그림은 배포하지 않는다. 기존 Galmuri7 흑백 폰트를 재사용한다.
 
 행성 유형 참고: [plandata.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/plandata.c), Paul Reiche / Fred Ford, GPL-2.0-or-later([사본](licenses/UQM-GPL.txt)). 원본 해시는 translations/world-types.ko.json에 기록했다. 유형과 자원 성분의 사실 관계만 참조했으며 원본 코드·이미지는 배포하지 않는다. 신규 폰트는 없다.
+
+함선 이름/저장 구조 조사: UQM 공개 소스 shipstat.c, save.c, load.c (intgr/uqm-wasm 고정 리비전 daadbb540a8c46f09dcdb0080b4212fb33e6cb94). 원저작자는 각 파일 헤더, GPL 고지는 기존 UQM 출처를 따른다. `docs/ship-text-source-review.json`에 URL/해시를 기록했다. 원본 소스·게임 리소스는 새로 배포하지 않으며 표시명 번역과 검증 메타데이터만 포함한다. 폰트 변경 없음.

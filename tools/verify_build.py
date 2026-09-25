@@ -33,6 +33,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_setup import audit_setup
         setup_check = audit_setup(source.read('base/ui/setupmenu.txt'),json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8')))
         (patcher.ROOT/'docs/setup-progress.json').write_text(json.dumps(setup_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_ships import verify_ships
+        ship_check = verify_ships(z, source)
+        (patcher.ROOT/'docs/ship-label-checks.json').write_text(json.dumps(ship_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')
@@ -73,6 +76,8 @@ def verify(game, ui_font="compact", report_previews=None):
         required.update(c for row in patcher.load_ui_overrides()['records'].values() for c in row['ko'] if ord(c)>127)
         for p in (patcher.ROOT/'translations/dialogue-voice').glob('*.ko.json'):
             required.update(c for value in json.loads(p.read_text(encoding='utf-8')).values() for c in value if ord(c)>127)
+        from ship_text import load_ships
+        required.update(c for resource in load_ships()['resources'] for row in resource['records'] for c in row['ko'] if ord(c)>127)
         from cutscene_text import load_intro, load_ending
         required.update(c for text in load_intro()['records'].values() for c in text if ord(c)>127)
         required.update(c for text in load_ending()['records'].values() for c in text if ord(c)>127)

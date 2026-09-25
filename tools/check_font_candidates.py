@@ -21,6 +21,7 @@ def check():
     texts.extend(json.loads((ROOT/'translations/intro.ko.json').read_text(encoding='utf-8'))['records'].values())
     texts.extend(json.loads((ROOT/'translations/ending.ko.json').read_text(encoding='utf-8'))['records'].values())
     texts.extend(v['ko'] for v in json.loads((ROOT/'translations/ui-overrides.ko.json').read_text(encoding='utf-8'))['records'].values())
+    texts.extend(row['ko'] for resource in json.loads((ROOT/'translations/ships.ko.json').read_text(encoding='utf-8'))['resources'] for row in resource['records'])
     chars = sorted({c for text in texts for c in text if ord(c)>127})
     results = {}
     for name in dict.fromkeys(registry['specimen_order'] + registry.get('expressive_specimen_order', []) + registry.get('binary_specimen_order', [])):

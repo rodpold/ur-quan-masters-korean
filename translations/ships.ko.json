@@ -1,0 +1,1383 @@
+{
+  "status": "partial_draft_captain_names_pending",
+  "resources": [
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "source_sha256": "80aaf9fa83aba9ac570a903bf6ac6c988683ed188a0107cd8389b54ed64b8746",
+      "resource_key": "ship.androsynth.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Androsynth",
+          "ko": "안드로신스",
+          "glossary_id": "androsynth"
+        },
+        {
+          "id": "0001",
+          "source": "Androsyn",
+          "ko": "안드로신스",
+          "glossary_id": "androsynth"
+        },
+        {
+          "id": "0002",
+          "source": "Andro.",
+          "ko": "안드로신스",
+          "glossary_id": "androsynth"
+        },
+        {
+          "id": "0003",
+          "source": "Guardian",
+          "ko": "가디언",
+          "glossary_id": "guardian"
+        },
+        {
+          "id": "0004",
+          "source": "Guard.",
+          "ko": "가디언",
+          "glossary_id": "guardian"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "source_sha256": "78c62298cdbd5abc8299c5de61516861d2dfc70bc716f03a4499ac18c6fbcd5e",
+      "resource_key": "ship.arilou.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Ariloulaleelay",
+          "ko": "아릴룰랄릴레이",
+          "glossary_id": "arilou_full"
+        },
+        {
+          "id": "0001",
+          "source": "Arilou",
+          "ko": "아릴루",
+          "glossary_id": "arilou"
+        },
+        {
+          "id": "0002",
+          "source": "Arilou",
+          "ko": "아릴루",
+          "glossary_id": "arilou"
+        },
+        {
+          "id": "0003",
+          "source": "Skiff",
+          "ko": "스키프",
+          "glossary_id": "skiff"
+        },
+        {
+          "id": "0004",
+          "source": "Skiff",
+          "ko": "스키프",
+          "glossary_id": "skiff"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "source_sha256": "b7cd34bfb8ff1988feba030f5b2e7eebe70b3e0cf51f9b3784e6d31089374cc4",
+      "resource_key": "ship.chenjesu.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Chenjesu",
+          "ko": "첸제수",
+          "glossary_id": "chenjesu"
+        },
+        {
+          "id": "0001",
+          "source": "Chenjesu",
+          "ko": "첸제수",
+          "glossary_id": "chenjesu"
+        },
+        {
+          "id": "0002",
+          "source": "Chenje.",
+          "ko": "첸제수",
+          "glossary_id": "chenjesu"
+        },
+        {
+          "id": "0003",
+          "source": "Broodhome",
+          "ko": "브루드홈",
+          "glossary_id": "broodhome"
+        },
+        {
+          "id": "0004",
+          "source": "Brood.",
+          "ko": "브루드홈",
+          "glossary_id": "broodhome"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "source_sha256": "525e01277406851f082c1ef416aaa4f5f0e28dde5b69d66b47ad8c99b03fd9ea",
+      "resource_key": "ship.chmmr.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Chmmr Hybrid",
+          "ko": "촘르 혼종",
+          "glossary_id": "chmmr_hybrid"
+        },
+        {
+          "id": "0001",
+          "source": "Chmmr",
+          "ko": "촘르",
+          "glossary_id": "chmmr"
+        },
+        {
+          "id": "0002",
+          "source": "Chmmr",
+          "ko": "촘르",
+          "glossary_id": "chmmr"
+        },
+        {
+          "id": "0003",
+          "source": "Avatar",
+          "ko": "아바타",
+          "glossary_id": "avatar"
+        },
+        {
+          "id": "0004",
+          "source": "Avatar",
+          "ko": "아바타",
+          "glossary_id": "avatar"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "source_sha256": "67995cc3ffad2d5fa11132ecc447cf10b7c8d734b63fab6d15a475b96ae718ba",
+      "resource_key": "ship.druuge.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Druuge",
+          "ko": "드루지",
+          "glossary_id": "druuge"
+        },
+        {
+          "id": "0001",
+          "source": "Druuge",
+          "ko": "드루지",
+          "glossary_id": "druuge"
+        },
+        {
+          "id": "0002",
+          "source": "Druuge",
+          "ko": "드루지",
+          "glossary_id": "druuge"
+        },
+        {
+          "id": "0003",
+          "source": "Mauler",
+          "ko": "몰러",
+          "glossary_id": "mauler"
+        },
+        {
+          "id": "0004",
+          "source": "Mauler",
+          "ko": "몰러",
+          "glossary_id": "mauler"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "source_sha256": "d09e602cc55e49527d5ccbda81d4ecd25d3d7e6c51da31272b536b54465e7721",
+      "resource_key": "ship.earthling.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Earthling",
+          "ko": "지구인",
+          "glossary_id": "earthling"
+        },
+        {
+          "id": "0001",
+          "source": "Earthling",
+          "ko": "지구인",
+          "glossary_id": "earthling"
+        },
+        {
+          "id": "0002",
+          "source": "Earth.",
+          "ko": "지구인",
+          "glossary_id": "earthling"
+        },
+        {
+          "id": "0003",
+          "source": "Cruiser",
+          "ko": "순양함",
+          "glossary_id": "cruiser"
+        },
+        {
+          "id": "0004",
+          "source": "Cruiser",
+          "ko": "순양함",
+          "glossary_id": "cruiser"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "source_sha256": "6363f5062119260e32afb82c2d98181cbeee78713768db2a102d5579b99f3b75",
+      "resource_key": "ship.ilwrath.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Ilwrath",
+          "ko": "일라스",
+          "glossary_id": "ilwrath"
+        },
+        {
+          "id": "0001",
+          "source": "Ilwrath",
+          "ko": "일라스",
+          "glossary_id": "ilwrath"
+        },
+        {
+          "id": "0002",
+          "source": "Ilwrath",
+          "ko": "일라스",
+          "glossary_id": "ilwrath"
+        },
+        {
+          "id": "0003",
+          "source": "Avenger",
+          "ko": "어벤저",
+          "glossary_id": "avenger"
+        },
+        {
+          "id": "0004",
+          "source": "Avenger",
+          "ko": "어벤저",
+          "glossary_id": "avenger"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "source_sha256": "7cf4b2477f923a2bf0e4e47a6557fe8840bf168f94d678ba16428a8b9d05d704",
+      "resource_key": "ship.kohrah.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Kohr-Ah",
+          "ko": "코르아",
+          "glossary_id": "kohr_ah"
+        },
+        {
+          "id": "0001",
+          "source": "Kohr-Ah",
+          "ko": "코르아",
+          "glossary_id": "kohr_ah"
+        },
+        {
+          "id": "0002",
+          "source": "Kohr-Ah",
+          "ko": "코르아",
+          "glossary_id": "kohr_ah"
+        },
+        {
+          "id": "0003",
+          "source": "Marauder",
+          "ko": "마로더",
+          "glossary_id": "marauder"
+        },
+        {
+          "id": "0004",
+          "source": "Marauder",
+          "ko": "마로더",
+          "glossary_id": "marauder"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "source_sha256": "88b0e918d49c3724984a020c09fd7fd52760c2b7076dc222c091eaafe0abf6be",
+      "resource_key": "ship.melnorme.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Melnorme",
+          "ko": "멜노름",
+          "glossary_id": "melnorme"
+        },
+        {
+          "id": "0001",
+          "source": "Melnorme",
+          "ko": "멜노름",
+          "glossary_id": "melnorme"
+        },
+        {
+          "id": "0002",
+          "source": "Melnorme",
+          "ko": "멜노름",
+          "glossary_id": "melnorme"
+        },
+        {
+          "id": "0003",
+          "source": "Trader",
+          "ko": "트레이더",
+          "glossary_id": "trader_ship"
+        },
+        {
+          "id": "0004",
+          "source": "Trader",
+          "ko": "트레이더",
+          "glossary_id": "trader_ship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "source_sha256": "9e5bc331d5b9a8be903b89fb115754cac2e7a51b4e04ff01f254622777489929",
+      "resource_key": "ship.mmrnmhrm.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Mmrnmhrm",
+          "ko": "므른므흐름",
+          "glossary_id": "mmrnmhrm"
+        },
+        {
+          "id": "0001",
+          "source": "Mmrnmhrm",
+          "ko": "므른므흐름",
+          "glossary_id": "mmrnmhrm"
+        },
+        {
+          "id": "0002",
+          "source": "Mmrn.",
+          "ko": "므른므흐름",
+          "glossary_id": "mmrnmhrm"
+        },
+        {
+          "id": "0003",
+          "source": "X-Form",
+          "ko": "엑스폼",
+          "glossary_id": "x_form"
+        },
+        {
+          "id": "0004",
+          "source": "X-Form",
+          "ko": "엑스폼",
+          "glossary_id": "x_form"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "source_sha256": "bd379d48fecb12ab36ea25b590b71cab6bff47a30e59b98d7d56a2c08bee2230",
+      "resource_key": "ship.mycon.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Mycon",
+          "ko": "마이콘",
+          "glossary_id": "mycon"
+        },
+        {
+          "id": "0001",
+          "source": "Mycon",
+          "ko": "마이콘",
+          "glossary_id": "mycon"
+        },
+        {
+          "id": "0002",
+          "source": "Mycon",
+          "ko": "마이콘",
+          "glossary_id": "mycon"
+        },
+        {
+          "id": "0003",
+          "source": "Podship",
+          "ko": "포드십",
+          "glossary_id": "podship"
+        },
+        {
+          "id": "0004",
+          "source": "Podship",
+          "ko": "포드십",
+          "glossary_id": "podship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "source_sha256": "e13f6790df470e152ded117b7c91159d5a50964b8c41a4550de66ea7b1b10bd3",
+      "resource_key": "ship.orz.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Orz",
+          "ko": "오르즈",
+          "glossary_id": "orz"
+        },
+        {
+          "id": "0001",
+          "source": "Orz",
+          "ko": "오르즈",
+          "glossary_id": "orz"
+        },
+        {
+          "id": "0002",
+          "source": "Orz",
+          "ko": "오르즈",
+          "glossary_id": "orz"
+        },
+        {
+          "id": "0003",
+          "source": "Nemesis",
+          "ko": "네메시스",
+          "glossary_id": "nemesis"
+        },
+        {
+          "id": "0004",
+          "source": "Nemesis",
+          "ko": "네메시스",
+          "glossary_id": "nemesis"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "source_sha256": "d8a5a06963a9935e1afdf0bb9c67d964e23efa74621033ff0e9efe1bc13bf979",
+      "resource_key": "ship.pkunk.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Pkunk",
+          "ko": "프쿤크",
+          "glossary_id": "pkunk"
+        },
+        {
+          "id": "0001",
+          "source": "Pkunk",
+          "ko": "프쿤크",
+          "glossary_id": "pkunk"
+        },
+        {
+          "id": "0002",
+          "source": "Pkunk",
+          "ko": "프쿤크",
+          "glossary_id": "pkunk"
+        },
+        {
+          "id": "0003",
+          "source": "Fury",
+          "ko": "퓨리",
+          "glossary_id": "fury"
+        },
+        {
+          "id": "0004",
+          "source": "Fury",
+          "ko": "퓨리",
+          "glossary_id": "fury"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "source_sha256": "4edf3c9157390c3225b42ee41132730633f0d07cf7e7f92292b1a67964d856de",
+      "resource_key": "ship.shofixti.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Shofixti",
+          "ko": "쇼픽스티",
+          "glossary_id": "shofixti"
+        },
+        {
+          "id": "0001",
+          "source": "Shofixti",
+          "ko": "쇼픽스티",
+          "glossary_id": "shofixti"
+        },
+        {
+          "id": "0002",
+          "source": "Shofix.",
+          "ko": "쇼픽스티",
+          "glossary_id": "shofixti"
+        },
+        {
+          "id": "0003",
+          "source": "Scout",
+          "ko": "정찰선",
+          "glossary_id": "scout_ship"
+        },
+        {
+          "id": "0004",
+          "source": "Scout",
+          "ko": "정찰선",
+          "glossary_id": "scout_ship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020",
+        "0021",
+        "0022"
+      ]
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "source_sha256": "4bc996b4923284d35e4e0e35f027d1c5d4e282c1559f8456e5bf2c7d4e974ebb",
+      "resource_key": "ship.slylandro.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Slylandro",
+          "ko": "슬라이랜드로",
+          "glossary_id": "slylandro"
+        },
+        {
+          "id": "0001",
+          "source": "Slylandro",
+          "ko": "슬라이랜드로",
+          "glossary_id": "slylandro"
+        },
+        {
+          "id": "0002",
+          "source": "Slylan.",
+          "ko": "슬라이랜드로",
+          "glossary_id": "slylandro"
+        },
+        {
+          "id": "0003",
+          "source": "Probe",
+          "ko": "탐사선",
+          "glossary_id": "probe_ship"
+        },
+        {
+          "id": "0004",
+          "source": "Probe",
+          "ko": "탐사선",
+          "glossary_id": "probe_ship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "source_sha256": "64568767ee09a2a0d3ed301525aff5792baf9a7156ab8273138c91b7c4310f76",
+      "resource_key": "ship.spathi.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Spathi",
+          "ko": "스파시",
+          "glossary_id": "spathi"
+        },
+        {
+          "id": "0001",
+          "source": "Spathi",
+          "ko": "스파시",
+          "glossary_id": "spathi"
+        },
+        {
+          "id": "0002",
+          "source": "Spathi",
+          "ko": "스파시",
+          "glossary_id": "spathi"
+        },
+        {
+          "id": "0003",
+          "source": "Eluder",
+          "ko": "일루더",
+          "glossary_id": "eluder"
+        },
+        {
+          "id": "0004",
+          "source": "Eluder",
+          "ko": "일루더",
+          "glossary_id": "eluder"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020",
+        "0021"
+      ]
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "source_sha256": "05431d47f3e0b74281e9f35e206e472408822ee9522ae41e0504c8319103f43d",
+      "resource_key": "ship.supox.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Supox",
+          "ko": "수폭스",
+          "glossary_id": "supox"
+        },
+        {
+          "id": "0001",
+          "source": "Supox",
+          "ko": "수폭스",
+          "glossary_id": "supox"
+        },
+        {
+          "id": "0002",
+          "source": "Supox",
+          "ko": "수폭스",
+          "glossary_id": "supox"
+        },
+        {
+          "id": "0003",
+          "source": "Blade",
+          "ko": "블레이드",
+          "glossary_id": "blade_ship"
+        },
+        {
+          "id": "0004",
+          "source": "Blade",
+          "ko": "블레이드",
+          "glossary_id": "blade_ship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "source_sha256": "a6375c691b839780d4c516d0fb2f817ea570ee2a63ab627b3fd6e7556e821a0d",
+      "resource_key": "ship.syreen.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Syreen",
+          "ko": "시린",
+          "glossary_id": "syreen"
+        },
+        {
+          "id": "0001",
+          "source": "Syreen",
+          "ko": "시린",
+          "glossary_id": "syreen"
+        },
+        {
+          "id": "0002",
+          "source": "Syreen",
+          "ko": "시린",
+          "glossary_id": "syreen"
+        },
+        {
+          "id": "0003",
+          "source": "Penetrator",
+          "ko": "페너트레이터",
+          "glossary_id": "penetrator"
+        },
+        {
+          "id": "0004",
+          "source": "Penetr.",
+          "ko": "페너트레이터",
+          "glossary_id": "penetrator"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "source_sha256": "aad9b7f791a5b7da591e06f6c1548a37880962e15df84e3dec7f8114e0aac3fe",
+      "resource_key": "ship.thraddash.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Thraddash",
+          "ko": "스래대시",
+          "glossary_id": "thraddash"
+        },
+        {
+          "id": "0001",
+          "source": "Thraddash",
+          "ko": "스래대시",
+          "glossary_id": "thraddash"
+        },
+        {
+          "id": "0002",
+          "source": "Thradd.",
+          "ko": "스래대시",
+          "glossary_id": "thraddash"
+        },
+        {
+          "id": "0003",
+          "source": "Torch",
+          "ko": "토치",
+          "glossary_id": "torch_ship"
+        },
+        {
+          "id": "0004",
+          "source": "Torch",
+          "ko": "토치",
+          "glossary_id": "torch_ship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "source_sha256": "46d1b8b556ac159f93f80cd0075e198ee729266c75cf8e955d92ffaac1aa8924",
+      "resource_key": "ship.umgah.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Umgah",
+          "ko": "움가",
+          "glossary_id": "umgah"
+        },
+        {
+          "id": "0001",
+          "source": "Umgah",
+          "ko": "움가",
+          "glossary_id": "umgah"
+        },
+        {
+          "id": "0002",
+          "source": "Umgah",
+          "ko": "움가",
+          "glossary_id": "umgah"
+        },
+        {
+          "id": "0003",
+          "source": "Drone",
+          "ko": "드론",
+          "glossary_id": "drone_ship"
+        },
+        {
+          "id": "0004",
+          "source": "Drone",
+          "ko": "드론",
+          "glossary_id": "drone_ship"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "source_sha256": "8a3905720e55986a664a882af96e41baa0f58b50df56f498a3ff609b902fef7f",
+      "resource_key": "ship.urquan.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Ur-Quan",
+          "ko": "우르콴",
+          "glossary_id": "ur_quan"
+        },
+        {
+          "id": "0001",
+          "source": "Ur-Quan",
+          "ko": "우르콴",
+          "glossary_id": "ur_quan"
+        },
+        {
+          "id": "0002",
+          "source": "Ur-Quan",
+          "ko": "우르콴",
+          "glossary_id": "ur_quan"
+        },
+        {
+          "id": "0003",
+          "source": "Dreadnought",
+          "ko": "드레드노트",
+          "glossary_id": "dreadnought"
+        },
+        {
+          "id": "0004",
+          "source": "Dreadnt.",
+          "ko": "드레드노트",
+          "glossary_id": "dreadnought"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "source_sha256": "6b1eccaf5df225aefbc1be165c8a0c598e87305b04d28d487307473bd8f36334",
+      "resource_key": "ship.utwig.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Utwig",
+          "ko": "우트위그",
+          "glossary_id": "utwig"
+        },
+        {
+          "id": "0001",
+          "source": "Utwig",
+          "ko": "우트위그",
+          "glossary_id": "utwig"
+        },
+        {
+          "id": "0002",
+          "source": "Utwig",
+          "ko": "우트위그",
+          "glossary_id": "utwig"
+        },
+        {
+          "id": "0003",
+          "source": "Jugger",
+          "ko": "저거",
+          "glossary_id": "jugger"
+        },
+        {
+          "id": "0004",
+          "source": "Jugger",
+          "ko": "저거",
+          "glossary_id": "jugger"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "source_sha256": "9172e8fe2147df628d245cccad86d75b17d2663608e739980665cc69b9403c41",
+      "resource_key": "ship.vux.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "VUX",
+          "ko": "VUX",
+          "glossary_id": "vux"
+        },
+        {
+          "id": "0001",
+          "source": "VUX",
+          "ko": "VUX",
+          "glossary_id": "vux"
+        },
+        {
+          "id": "0002",
+          "source": "VUX",
+          "ko": "VUX",
+          "glossary_id": "vux"
+        },
+        {
+          "id": "0003",
+          "source": "Intruder",
+          "ko": "인트루더",
+          "glossary_id": "intruder"
+        },
+        {
+          "id": "0004",
+          "source": "Intrud.",
+          "ko": "인트루더",
+          "glossary_id": "intruder"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "source_sha256": "a2e87c0353e0a86b3cd7e2b025e6fb618ceb4e3fb6535d05831df8f3378afe2d",
+      "resource_key": "ship.yehat.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "Yehat",
+          "ko": "예하트",
+          "glossary_id": "yehat"
+        },
+        {
+          "id": "0001",
+          "source": "Yehat",
+          "ko": "예하트",
+          "glossary_id": "yehat"
+        },
+        {
+          "id": "0002",
+          "source": "Yehat",
+          "ko": "예하트",
+          "glossary_id": "yehat"
+        },
+        {
+          "id": "0003",
+          "source": "Terminator",
+          "ko": "터미네이터",
+          "glossary_id": "terminator"
+        },
+        {
+          "id": "0004",
+          "source": "Termin.",
+          "ko": "터미네이터",
+          "glossary_id": "terminator"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "source_sha256": "0bf7284dfb95ac0dc2b185d62df7ff74be8383a3ce0f5e40a2ca3fe73c90f079",
+      "resource_key": "ship.zoqfotpik.text",
+      "records": [
+        {
+          "id": "0000",
+          "source": "ZoqFotPik",
+          "ko": "조크-포트-피크",
+          "glossary_id": "zoq_fot_pik"
+        },
+        {
+          "id": "0001",
+          "source": "ZoqFot",
+          "ko": "조크-포트",
+          "glossary_id": "zoq_fot"
+        },
+        {
+          "id": "0002",
+          "source": "ZoqFot",
+          "ko": "조크-포트",
+          "glossary_id": "zoq_fot"
+        },
+        {
+          "id": "0003",
+          "source": "Stinger",
+          "ko": "스팅어",
+          "glossary_id": "stinger"
+        },
+        {
+          "id": "0004",
+          "source": "Stinger",
+          "ko": "스팅어",
+          "glossary_id": "stinger"
+        }
+      ],
+      "pending_captain_ids": [
+        "0005",
+        "0006",
+        "0007",
+        "0008",
+        "0009",
+        "0010",
+        "0011",
+        "0012",
+        "0013",
+        "0014",
+        "0015",
+        "0016",
+        "0017",
+        "0018",
+        "0019",
+        "0020"
+      ]
+    }
+  ]
+}

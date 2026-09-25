@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/shipstat.c",
+      "sha256": "d50cb88987caf0106b3b957be7c070c20849c635095221f4d56f3771a899ef4f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/save.c",
+      "sha256": "9f7ef3face4096796eeedcc5abda3c5fdd7d103e4eabc827f67e27248aa44f82"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/load.c",
+      "sha256": "82272b486a4ce5779ad24c3182035799ae68bc219ba7eb5e64ca835bff267a16"
+    }
+  ],
+  "status": "source_review_runtime_pending"
+}
