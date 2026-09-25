@@ -1,8 +1,8 @@
 {
   "complete": false,
-  "reviewed_images": 19,
-  "pending_victory2_frames": 239,
-  "pending_spin_images": 3,
+  "reviewed_images": 261,
+  "pending_victory2_frames": 0,
+  "pending_spin_images": 0,
   "records": [
     {
       "source_path": "base/cutscene/credits/credback-000.png",
@@ -193,6 +193,2432 @@
       ],
       "status": "embedded_text_pending",
       "notes": "BY PAUL REICHE III AND FRED FORD. 인명을 유지하면서 연결 문구 번역 검토."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-000.png",
+      "source_sha256": "e665ed3d378cabc7e0cf12d5beca9ee342f211dc8f172aa8f47d85cfc2ce65d2",
+      "size": [
+        320,
+        200
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-001.png",
+      "source_sha256": "f23d24619c6d979acc11531efa621249f1aa9ba3d1458733ec3d30f2b3319fd0",
+      "size": [
+        159,
+        165
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-002.png",
+      "source_sha256": "79887c9a014adaa942f8f294fffd5d435f8439ab354282cab6567dbde37de1f8",
+      "size": [
+        157,
+        151
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-003.png",
+      "source_sha256": "0d53c1a048b2d4e83f348934c668768113f22ac65b3ebdd2924c506659187241",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-004.png",
+      "source_sha256": "4c80d1ac121248ae16ca92d0c557a9c0b1333df43ac6ba41a1410f8af301e15d",
+      "size": [
+        148,
+        143
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-005.png",
+      "source_sha256": "a1348602a50527021df8e2c9fcfc7d0bc309bac97a0be3fc4680adc278b3c8bd",
+      "size": [
+        13,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-006.png",
+      "source_sha256": "2b357fddd5fd208984317c54c648ca789a71a63fadcfa2b0bee31d34ca4dcda8",
+      "size": [
+        136,
+        131
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-007.png",
+      "source_sha256": "5b9c241cd86d6049f3fd0a56ba8d725e7a43d03fa64388acb706d5510d5e7c75",
+      "size": [
+        13,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-008.png",
+      "source_sha256": "99b1dec9cfa0b8736c072f03f847676d241946e09248ef37429234a87219a9b8",
+      "size": [
+        122,
+        117
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-009.png",
+      "source_sha256": "cae7fcb30d00fa27eb227480943ece31ebfee0c3942122a8fabf0dcd156af141",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-010.png",
+      "source_sha256": "ddaf740e2a8fdaba90c72c904bb03f2b3b6afe8314d15b5b965c2c469d8247a0",
+      "size": [
+        108,
+        104
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-011.png",
+      "source_sha256": "7b7f24d7507094a7ad379f8a4e1a6d65ca8ca65c0d86ff5992ccff46150535e2",
+      "size": [
+        13,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-012.png",
+      "source_sha256": "26e4409e1ff8764f172cc81b92b24c99d65bce51e644c7225c13a0200554d893",
+      "size": [
+        12,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-013.png",
+      "source_sha256": "b3334d9081fac10d998df92feeb63cce4d13991962224e88dfee92522ab190d0",
+      "size": [
+        94,
+        91
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-014.png",
+      "source_sha256": "e2bf02dfe0a8ec5ee9c3a4943799b8c105dbfeea9134f7d0301f00cc0567e29b",
+      "size": [
+        13,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-015.png",
+      "source_sha256": "b5b87f403c71707425e0f32ed3abc078e21f4f522abda0dd68f2527e55313543",
+      "size": [
+        12,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-016.png",
+      "source_sha256": "b5c9691ce92bd8faa8d7ddc002c07d72326858fd0213adcadc5bfbc631c4c78f",
+      "size": [
+        64,
+        79
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-017.png",
+      "source_sha256": "3490ec010c8deaa6a64394ac3a7e3163bc3296b699aa8eb019024443990e4c3a",
+      "size": [
+        15,
+        71
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-018.png",
+      "source_sha256": "19260f9148fc384e9c3da4ccd19cc7054045c442b818888a7cfc68e28ead94b5",
+      "size": [
+        3,
+        65
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-019.png",
+      "source_sha256": "b340f5ee59054b3bd098cb3b628f64c5b3864ceb7bca9d29b96563bdf7ee37cd",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-020.png",
+      "source_sha256": "5009620b53553bcca41128308012f522ee60e88fc0f20f9e7ca5a398dbcece48",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-021.png",
+      "source_sha256": "ad78c416ca488b80226c917f0f9fb6970c4aaef267f6c9ba8d5648903d92f7cf",
+      "size": [
+        63,
+        70
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-022.png",
+      "source_sha256": "8b4bf2242129558030b449b7a11a4c1b58e432442734964d2a4b12c9f56a1fba",
+      "size": [
+        9,
+        65
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-023.png",
+      "source_sha256": "9a584084cd2988a92f81c0d7fb3f6ce1bf5881ba683d08d1f8bbd5c6580f96c1",
+      "size": [
+        12,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-024.png",
+      "source_sha256": "d8595a15515b35be05aeb786f20f481b10730958f65760897922e53a6a40e394",
+      "size": [
+        13,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-025.png",
+      "source_sha256": "1d891ddfc2a33756436b396dcc51f4c2ca8c13bee0eba628dd232e08a12534b7",
+      "size": [
+        63,
+        61
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-026.png",
+      "source_sha256": "79056739c42a6af6dae96dc2fb1b4ae28c5e607fd5c797a71fcab61d628a900a",
+      "size": [
+        13,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-027.png",
+      "source_sha256": "56c139d1a86f3a07f614001fbcb2a72a08d19414cd10c49b9a12cd4b32515486",
+      "size": [
+        54,
+        53
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-028.png",
+      "source_sha256": "9fe8fb28db7bcbdf46f664b2ee197f7d7a86b66ec937228afc43f9e3dbad8127",
+      "size": [
+        6,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-029.png",
+      "source_sha256": "5e28f382f2616bd3d746ac21f808357b85653bff77c2e5bb2d6aa290a7192f6e",
+      "size": [
+        12,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-030.png",
+      "source_sha256": "7c3fc28b4209e0232ce1096d89ea8d9ff8e06888a877addf33c6e2424abab60d",
+      "size": [
+        48,
+        47
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-031.png",
+      "source_sha256": "0d53c1a048b2d4e83f348934c668768113f22ac65b3ebdd2924c506659187241",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-032.png",
+      "source_sha256": "4254745dce6a2b78ebc38ab7e774d5efe4e842dfda26398b9d5217b16c0bba72",
+      "size": [
+        43,
+        41
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-033.png",
+      "source_sha256": "a1348602a50527021df8e2c9fcfc7d0bc309bac97a0be3fc4680adc278b3c8bd",
+      "size": [
+        13,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-034.png",
+      "source_sha256": "0fae805601b840dbfe30bad0cec9814174b96a1cee1e36cc1863abdde522285a",
+      "size": [
+        38,
+        37
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-035.png",
+      "source_sha256": "5b9c241cd86d6049f3fd0a56ba8d725e7a43d03fa64388acb706d5510d5e7c75",
+      "size": [
+        13,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-036.png",
+      "source_sha256": "d60e1501364c679afa58d8a747d585197fdb4bd3bbd1fade928d76da252d87d8",
+      "size": [
+        33,
+        33
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-037.png",
+      "source_sha256": "cae7fcb30d00fa27eb227480943ece31ebfee0c3942122a8fabf0dcd156af141",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-038.png",
+      "source_sha256": "c483fc7a249418554de92c83854236318d7588841a6d962027436b37b5e42815",
+      "size": [
+        31,
+        30
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-039.png",
+      "source_sha256": "3befc07fc59838024a8720e8f66d8e3e1f6ba24f1933467683ecf73690141639",
+      "size": [
+        11,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-040.png",
+      "source_sha256": "9e5d95c4749635b83d98636c209dcbe1e8fd3c4cc6077926f764cf2a8d130010",
+      "size": [
+        10,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-041.png",
+      "source_sha256": "165843e6242468d040aba5c441edda379ad68d66ae9152ca9c1974f56eb4a6a5",
+      "size": [
+        28,
+        27
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-042.png",
+      "source_sha256": "1f0adb50f018b269bc7f6f9516e0151ab0be86ee52b36c73e712e0f59b041ccd",
+      "size": [
+        11,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-043.png",
+      "source_sha256": "611e83d5788d0dea51b3f3295bc3f071a794040fcb6798b66f71aea29c33a59c",
+      "size": [
+        10,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-044.png",
+      "source_sha256": "a26a9c037345d9ea858548c610d2c3a59d8aa6ea43e391bfb2015de2e3ea77d0",
+      "size": [
+        24,
+        24
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-045.png",
+      "source_sha256": "b340f5ee59054b3bd098cb3b628f64c5b3864ceb7bca9d29b96563bdf7ee37cd",
+      "size": [
+        6,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-046.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-047.png",
+      "source_sha256": "a91c61d576c7a1607f3739b219ff0709627c2bfd930bfa7b3b135f81b93ea6ad",
+      "size": [
+        25,
+        22
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-048.png",
+      "source_sha256": "a8eb9f27bff8c51644697d68ce701e06851ad101a4bf45a977146024c8b821d1",
+      "size": [
+        10,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-049.png",
+      "source_sha256": "94f947b3a79b8c8c179a5d40f068453591a3ac6f8190cef7267b323fea3af7f7",
+      "size": [
+        11,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-050.png",
+      "source_sha256": "70212f40722cf4d7026f53e7dd00bbc6a8e5429e16c9bf877b4429398091fc45",
+      "size": [
+        23,
+        20
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-051.png",
+      "source_sha256": "89e43537cadfd98b65ce2abe0ea8c1479ed50f93982bd6240a242dc1c840829c",
+      "size": [
+        11,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-052.png",
+      "source_sha256": "422d33440d83651b80e86dad0c152011b7c0c4af51298417b73fde1ac3c840d8",
+      "size": [
+        21,
+        18
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-053.png",
+      "source_sha256": "2ceddf86dc7156ca7b515adbc4f7d345f61315ae6ab4aa5207eae3c0d2b83566",
+      "size": [
+        13,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-054.png",
+      "source_sha256": "1ebf1185f28abe3b3f372c9a4996b631a72347dbfbab161f1de4a62d8ab858f1",
+      "size": [
+        10,
+        11
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-055.png",
+      "source_sha256": "4e48650c8d3305e4390310ca7803ff1885eee4f05fa325916f4f305c0d69ed01",
+      "size": [
+        17,
+        17
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-056.png",
+      "source_sha256": "e1646704026da9a3f7244a4397544196ee4a3573e9682e83ad9948f3136e6863",
+      "size": [
+        4,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-057.png",
+      "source_sha256": "9a198dd1353499ca40815af35629ca1a416cb958efd7d7f43b939fae62cdc9a2",
+      "size": [
+        18,
+        15
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-058.png",
+      "source_sha256": "0cb16e9b3d036a1042c2e59a14602979949ae25c6152c8f5d06883764ae10439",
+      "size": [
+        11,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-059.png",
+      "source_sha256": "339be6529884badcbcbc2d28201c0f720cdabe06dc8e92d7a432c1c166f7fdc7",
+      "size": [
+        17,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-060.png",
+      "source_sha256": "136a722bc8f3a76fd4ba344f0262f10754f5363e41a5debd58db76d589b1e75a",
+      "size": [
+        11,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-061.png",
+      "source_sha256": "0896e8ba5fffc9e86c4128c911611a6ea8e6b09186d758f4de2f602ec0802c44",
+      "size": [
+        14,
+        13
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-062.png",
+      "source_sha256": "d35d3185d339d2c9f3b3ae42a11313d4eb1946025305e216f4702665388ddae3",
+      "size": [
+        4,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-063.png",
+      "source_sha256": "7b9e5f7c43628543290e2635954773eed13fa89c418d22dec69dcb5e3b7efe39",
+      "size": [
+        14,
+        12
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-064.png",
+      "source_sha256": "3befc07fc59838024a8720e8f66d8e3e1f6ba24f1933467683ecf73690141639",
+      "size": [
+        11,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-065.png",
+      "source_sha256": "9e5d95c4749635b83d98636c209dcbe1e8fd3c4cc6077926f764cf2a8d130010",
+      "size": [
+        10,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-066.png",
+      "source_sha256": "748f31ed8fdfe297ea42a6d2b6f2a5ca1f0d914faffec88419e018f67c7d0671",
+      "size": [
+        13,
+        12
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-067.png",
+      "source_sha256": "1f0adb50f018b269bc7f6f9516e0151ab0be86ee52b36c73e712e0f59b041ccd",
+      "size": [
+        11,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-068.png",
+      "source_sha256": "611e83d5788d0dea51b3f3295bc3f071a794040fcb6798b66f71aea29c33a59c",
+      "size": [
+        10,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-069.png",
+      "source_sha256": "004d172cea5caddc67f5b15d0aedc04c4af356e6d02abbeace9718ebe225f383",
+      "size": [
+        13,
+        11
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-070.png",
+      "source_sha256": "7ee71ff0a0e0af4dd483e3aad76de91851270e0b8c939ce77109622da3deefea",
+      "size": [
+        4,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-071.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-072.png",
+      "source_sha256": "49573a98f56d88c1d822fda74808b2a07523c4b6de7c36c02197af549d20d4c8",
+      "size": [
+        12,
+        10
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-073.png",
+      "source_sha256": "a8eb9f27bff8c51644697d68ce701e06851ad101a4bf45a977146024c8b821d1",
+      "size": [
+        10,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-074.png",
+      "source_sha256": "94f947b3a79b8c8c179a5d40f068453591a3ac6f8190cef7267b323fea3af7f7",
+      "size": [
+        11,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-075.png",
+      "source_sha256": "90c037aa9d4b671fad7a7453f9d7faf8600ec4a2047c68f44afa891441dfa9dc",
+      "size": [
+        11,
+        10
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-076.png",
+      "source_sha256": "89e43537cadfd98b65ce2abe0ea8c1479ed50f93982bd6240a242dc1c840829c",
+      "size": [
+        11,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-077.png",
+      "source_sha256": "00d646b13c58915266a7f443b695eb16f2a3e6b459d17c7a6994e8a50543ac4e",
+      "size": [
+        13,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-078.png",
+      "source_sha256": "0058ac97cf67b750c4e244cf6ac158dbdfebc48d75fe03a327acb0b08efd54e8",
+      "size": [
+        11,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-079.png",
+      "source_sha256": "1ebf1185f28abe3b3f372c9a4996b631a72347dbfbab161f1de4a62d8ab858f1",
+      "size": [
+        10,
+        11
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-080.png",
+      "source_sha256": "46468b26290cfaae9ed5a1418e0ee81039bd118503e65f1439463afdaf6eed0f",
+      "size": [
+        11,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-081.png",
+      "source_sha256": "e1646704026da9a3f7244a4397544196ee4a3573e9682e83ad9948f3136e6863",
+      "size": [
+        4,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-082.png",
+      "source_sha256": "ca4ca6ea0dfea9aea20ba8cc0e8810817d249d9f0f59b89cc71dc3ca77c54ca7",
+      "size": [
+        10,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-083.png",
+      "source_sha256": "0cb16e9b3d036a1042c2e59a14602979949ae25c6152c8f5d06883764ae10439",
+      "size": [
+        11,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-084.png",
+      "source_sha256": "d990a019a7edf0d3a4869fa6db4894242665158ea0c71d2f5086f2e7220ceb78",
+      "size": [
+        7,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-085.png",
+      "source_sha256": "4892f08dafe1b3c495235928a33f225612332e6a646ec5aa3b11200ba7f3b6fe",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-086.png",
+      "source_sha256": "f965c6ca096ff5eac646be30853a54f4b3602d6d26d977fb70772c80f218d225",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-087.png",
+      "source_sha256": "ca662c36aac4e75a7d0f1f742c65232ef41144401fdbc0c782807ccf3ade8389",
+      "size": [
+        7,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-088.png",
+      "source_sha256": "bf4be11c114ce6a270c2a4ef8d9d7e4af4f4c0e4d6e76f6e9bb73bed27f9ffdb",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-089.png",
+      "source_sha256": "c59c81347b978f2f296cc53ab8f945dc76991e052f8266fcd1e792fea283f75c",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-090.png",
+      "source_sha256": "e0c5c16d03d7350bc84ebb7db0897909dd2fbfab58fc3f525b1c4a21d02133ce",
+      "size": [
+        6,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-091.png",
+      "source_sha256": "e2884a487e56f7467d95ce3b8d9cff28232d01aae86d7fb14fdbbf5405f228d1",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-092.png",
+      "source_sha256": "175a8453bd547e9e35717576bf4becd2414f7d0054d9d54a69b8388c48e717c4",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-093.png",
+      "source_sha256": "fcd2bce7a1c4bf8838447bcedfdf9e227964cb00d10d05761adc7393412d9c0e",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-094.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-095.png",
+      "source_sha256": "e521a673839073062727ceb50a30969d8ae500a9bfa81de154c27fede50279cd",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-096.png",
+      "source_sha256": "bbaeabffae6a1ca76d504fc89a81a073e0fd04c6986c9dffda41b7452e5db4dd",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-097.png",
+      "source_sha256": "a48968f6259bc2409f2d0cc14a4bfc0f88cfabc705ddda82b7c5373e7e9c195c",
+      "size": [
+        6,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-098.png",
+      "source_sha256": "6c5bf0ff5833f7e2c8c837ae046c6031a4fa8636594063cf445b001dd5903fdd",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-099.png",
+      "source_sha256": "36b55c7f0b0d615fc5fa7060c74485b5f61692a1531375367530c9dfcbb94dd1",
+      "size": [
+        2,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-100.png",
+      "source_sha256": "778085a131113e483f924621e3f41af49db94359a6a5c73b3bd45836c14cea0d",
+      "size": [
+        8,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-101.png",
+      "source_sha256": "40fd0df5720e109a45d167b170f8f62f5144cc9d7a42f594d32dc1c29c89b839",
+      "size": [
+        5,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-102.png",
+      "source_sha256": "f81c1e59ce3c21f485f084b9c8918ae97135dd9b136819cd1f7732c96d54748b",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-103.png",
+      "source_sha256": "937d29ea755e7315ff193ce44a25d7c0afc6e8d88df38b2519fe14aa98e02b3d",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-104.png",
+      "source_sha256": "94034c18958137f1a0de49bf6f6d1aa833a3617d2afc622b2018267ebbc5f073",
+      "size": [
+        5,
+        5
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-105.png",
+      "source_sha256": "4892f08dafe1b3c495235928a33f225612332e6a646ec5aa3b11200ba7f3b6fe",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-106.png",
+      "source_sha256": "676316775fae49985b3290b86a2d7331f779028c1cc897d92dfce2a5a96257fd",
+      "size": [
+        5,
+        5
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-107.png",
+      "source_sha256": "f965c6ca096ff5eac646be30853a54f4b3602d6d26d977fb70772c80f218d225",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-108.png",
+      "source_sha256": "bf4be11c114ce6a270c2a4ef8d9d7e4af4f4c0e4d6e76f6e9bb73bed27f9ffdb",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-109.png",
+      "source_sha256": "c59c81347b978f2f296cc53ab8f945dc76991e052f8266fcd1e792fea283f75c",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-110.png",
+      "source_sha256": "e2884a487e56f7467d95ce3b8d9cff28232d01aae86d7fb14fdbbf5405f228d1",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-111.png",
+      "source_sha256": "175a8453bd547e9e35717576bf4becd2414f7d0054d9d54a69b8388c48e717c4",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-112.png",
+      "source_sha256": "fcd2bce7a1c4bf8838447bcedfdf9e227964cb00d10d05761adc7393412d9c0e",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-113.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-114.png",
+      "source_sha256": "c113a09588ce95b1905611e18dc89145f865ae1a2eece345a691069373ec522e",
+      "size": [
+        4,
+        5
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-115.png",
+      "source_sha256": "e521a673839073062727ceb50a30969d8ae500a9bfa81de154c27fede50279cd",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-116.png",
+      "source_sha256": "bbaeabffae6a1ca76d504fc89a81a073e0fd04c6986c9dffda41b7452e5db4dd",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-117.png",
+      "source_sha256": "6c5bf0ff5833f7e2c8c837ae046c6031a4fa8636594063cf445b001dd5903fdd",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-118.png",
+      "source_sha256": "ebd4a38cc23bfb20ce98d7cad6a1c20cec4deae5f7351f76bd7ace4324e807dc",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-119.png",
+      "source_sha256": "c85a2e07bda7f89af28686bc42520168d7477a9b93175df0ce73e38c26effb98",
+      "size": [
+        8,
+        11
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-120.png",
+      "source_sha256": "cd7592144e3c4047559ab3b247a3a538a1012c221402a1a18c398192c2fdfba4",
+      "size": [
+        4,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-121.png",
+      "source_sha256": "f81c1e59ce3c21f485f084b9c8918ae97135dd9b136819cd1f7732c96d54748b",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-122.png",
+      "source_sha256": "8a32a8b7ef4ca7fc6b3c9c60ec8d522fe233a9aadde5d760d45ce16415f5b438",
+      "size": [
+        3,
+        5
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-123.png",
+      "source_sha256": "937d29ea755e7315ff193ce44a25d7c0afc6e8d88df38b2519fe14aa98e02b3d",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-124.png",
+      "source_sha256": "4892f08dafe1b3c495235928a33f225612332e6a646ec5aa3b11200ba7f3b6fe",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-125.png",
+      "source_sha256": "f965c6ca096ff5eac646be30853a54f4b3602d6d26d977fb70772c80f218d225",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-126.png",
+      "source_sha256": "bf4be11c114ce6a270c2a4ef8d9d7e4af4f4c0e4d6e76f6e9bb73bed27f9ffdb",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-127.png",
+      "source_sha256": "c59c81347b978f2f296cc53ab8f945dc76991e052f8266fcd1e792fea283f75c",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-128.png",
+      "source_sha256": "e2884a487e56f7467d95ce3b8d9cff28232d01aae86d7fb14fdbbf5405f228d1",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-129.png",
+      "source_sha256": "175a8453bd547e9e35717576bf4becd2414f7d0054d9d54a69b8388c48e717c4",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-130.png",
+      "source_sha256": "9e775d41cb3bc15a7d042d2b19988f81789e09af91e5847e34379abcf93c4a34",
+      "size": [
+        4,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-131.png",
+      "source_sha256": "fcd2bce7a1c4bf8838447bcedfdf9e227964cb00d10d05761adc7393412d9c0e",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-132.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-133.png",
+      "source_sha256": "0ed09bb33bd32bf31f8ad01951709bb9173aef54a4c7d80fc4f0a7563f008578",
+      "size": [
+        3,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-134.png",
+      "source_sha256": "e521a673839073062727ceb50a30969d8ae500a9bfa81de154c27fede50279cd",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-135.png",
+      "source_sha256": "bbaeabffae6a1ca76d504fc89a81a073e0fd04c6986c9dffda41b7452e5db4dd",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-136.png",
+      "source_sha256": "6c5bf0ff5833f7e2c8c837ae046c6031a4fa8636594063cf445b001dd5903fdd",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-137.png",
+      "source_sha256": "d6bf7bc12301c1414cfdf19d274d12e337bf2a2cea4d6b1ade3735f925593bde",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-138.png",
+      "source_sha256": "c85a2e07bda7f89af28686bc42520168d7477a9b93175df0ce73e38c26effb98",
+      "size": [
+        8,
+        11
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-139.png",
+      "source_sha256": "12fdbd30d80e6b784113c7753e8eadb8696759ee09bd81473471e7319eb09f60",
+      "size": [
+        9,
+        5
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-140.png",
+      "source_sha256": "f81c1e59ce3c21f485f084b9c8918ae97135dd9b136819cd1f7732c96d54748b",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-141.png",
+      "source_sha256": "937d29ea755e7315ff193ce44a25d7c0afc6e8d88df38b2519fe14aa98e02b3d",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-142.png",
+      "source_sha256": "2df342a46190184a5d1216734d1114ed6e04042a54c56296a93f0296d069b603",
+      "size": [
+        3,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-143.png",
+      "source_sha256": "4892f08dafe1b3c495235928a33f225612332e6a646ec5aa3b11200ba7f3b6fe",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-144.png",
+      "source_sha256": "f965c6ca096ff5eac646be30853a54f4b3602d6d26d977fb70772c80f218d225",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-145.png",
+      "source_sha256": "bf4be11c114ce6a270c2a4ef8d9d7e4af4f4c0e4d6e76f6e9bb73bed27f9ffdb",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-146.png",
+      "source_sha256": "c59c81347b978f2f296cc53ab8f945dc76991e052f8266fcd1e792fea283f75c",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-147.png",
+      "source_sha256": "e2884a487e56f7467d95ce3b8d9cff28232d01aae86d7fb14fdbbf5405f228d1",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-148.png",
+      "source_sha256": "175a8453bd547e9e35717576bf4becd2414f7d0054d9d54a69b8388c48e717c4",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-149.png",
+      "source_sha256": "fcd2bce7a1c4bf8838447bcedfdf9e227964cb00d10d05761adc7393412d9c0e",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-150.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-151.png",
+      "source_sha256": "e521a673839073062727ceb50a30969d8ae500a9bfa81de154c27fede50279cd",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-152.png",
+      "source_sha256": "bbaeabffae6a1ca76d504fc89a81a073e0fd04c6986c9dffda41b7452e5db4dd",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-153.png",
+      "source_sha256": "6c5bf0ff5833f7e2c8c837ae046c6031a4fa8636594063cf445b001dd5903fdd",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-154.png",
+      "source_sha256": "0d4d007d69eaec33107c32887395922e275f62bf6bd0f36014c5e5845e2f0203",
+      "size": [
+        2,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-155.png",
+      "source_sha256": "709ebc5d2be7ce3138052c9f3b3ffc01bd60bd852edad2a9be2db328cd96adb8",
+      "size": [
+        2,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-156.png",
+      "source_sha256": "778085a131113e483f924621e3f41af49db94359a6a5c73b3bd45836c14cea0d",
+      "size": [
+        8,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-157.png",
+      "source_sha256": "f81c1e59ce3c21f485f084b9c8918ae97135dd9b136819cd1f7732c96d54748b",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-158.png",
+      "source_sha256": "937d29ea755e7315ff193ce44a25d7c0afc6e8d88df38b2519fe14aa98e02b3d",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-159.png",
+      "source_sha256": "4892f08dafe1b3c495235928a33f225612332e6a646ec5aa3b11200ba7f3b6fe",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-160.png",
+      "source_sha256": "f965c6ca096ff5eac646be30853a54f4b3602d6d26d977fb70772c80f218d225",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-161.png",
+      "source_sha256": "bf4be11c114ce6a270c2a4ef8d9d7e4af4f4c0e4d6e76f6e9bb73bed27f9ffdb",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-162.png",
+      "source_sha256": "c59c81347b978f2f296cc53ab8f945dc76991e052f8266fcd1e792fea283f75c",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-163.png",
+      "source_sha256": "e2884a487e56f7467d95ce3b8d9cff28232d01aae86d7fb14fdbbf5405f228d1",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-164.png",
+      "source_sha256": "175a8453bd547e9e35717576bf4becd2414f7d0054d9d54a69b8388c48e717c4",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-165.png",
+      "source_sha256": "fc67bbee1fe9bac813604bbbbbf8f1bca1c5b936a35c1de0d2483e9f12c07a83",
+      "size": [
+        2,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-166.png",
+      "source_sha256": "fcd2bce7a1c4bf8838447bcedfdf9e227964cb00d10d05761adc7393412d9c0e",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-167.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-168.png",
+      "source_sha256": "e521a673839073062727ceb50a30969d8ae500a9bfa81de154c27fede50279cd",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-169.png",
+      "source_sha256": "bbaeabffae6a1ca76d504fc89a81a073e0fd04c6986c9dffda41b7452e5db4dd",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-170.png",
+      "source_sha256": "6c5bf0ff5833f7e2c8c837ae046c6031a4fa8636594063cf445b001dd5903fdd",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-171.png",
+      "source_sha256": "4b9800fa7c0e56b911284a09082510529f1294ad36d3c6d6fdfa49704ec980af",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-172.png",
+      "source_sha256": "6b22946a92f3e10167fbcce708f67ae8efeba569b8420732ad719a45ed11802c",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-173.png",
+      "source_sha256": "778085a131113e483f924621e3f41af49db94359a6a5c73b3bd45836c14cea0d",
+      "size": [
+        8,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-174.png",
+      "source_sha256": "f81c1e59ce3c21f485f084b9c8918ae97135dd9b136819cd1f7732c96d54748b",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-175.png",
+      "source_sha256": "937d29ea755e7315ff193ce44a25d7c0afc6e8d88df38b2519fe14aa98e02b3d",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-176.png",
+      "source_sha256": "ed961ac061fa8b35290ce6b2a2c753408eeffbdda76f3883d0f9a4412a7c5dc2",
+      "size": [
+        2,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-177.png",
+      "source_sha256": "4892f08dafe1b3c495235928a33f225612332e6a646ec5aa3b11200ba7f3b6fe",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-178.png",
+      "source_sha256": "f965c6ca096ff5eac646be30853a54f4b3602d6d26d977fb70772c80f218d225",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-179.png",
+      "source_sha256": "5742cb7bb3290048e645e91b1b42760f55a715353b0d937883ea6eeb2aebd82e",
+      "size": [
+        1,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-180.png",
+      "source_sha256": "bf4be11c114ce6a270c2a4ef8d9d7e4af4f4c0e4d6e76f6e9bb73bed27f9ffdb",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-181.png",
+      "source_sha256": "c59c81347b978f2f296cc53ab8f945dc76991e052f8266fcd1e792fea283f75c",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-182.png",
+      "source_sha256": "e2884a487e56f7467d95ce3b8d9cff28232d01aae86d7fb14fdbbf5405f228d1",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-183.png",
+      "source_sha256": "175a8453bd547e9e35717576bf4becd2414f7d0054d9d54a69b8388c48e717c4",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-184.png",
+      "source_sha256": "fcd2bce7a1c4bf8838447bcedfdf9e227964cb00d10d05761adc7393412d9c0e",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-185.png",
+      "source_sha256": "da174b693438a84944f71d258aa0fa9c7aa99b50e425cc31a9da9c586d40b1c0",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-186.png",
+      "source_sha256": "e521a673839073062727ceb50a30969d8ae500a9bfa81de154c27fede50279cd",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-187.png",
+      "source_sha256": "bbaeabffae6a1ca76d504fc89a81a073e0fd04c6986c9dffda41b7452e5db4dd",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-188.png",
+      "source_sha256": "f3b562f1b5f75f7a2817b15bd26852acbc9cb6bbda54260cbb95244308ae5ebb",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-189.png",
+      "source_sha256": "14d19cbec2e52f16c4203a499d5dba83bfd23351169f06da303bdd2949defcdb",
+      "size": [
+        5,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-190.png",
+      "source_sha256": "6ccac41c26a83ed095fead95d6d323ef362cae1eb4434ca7dbc7f4bc3eb35532",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-191.png",
+      "source_sha256": "b9ad43fa1c52ff9751bd0d25107ecaa8ba089e0813162714c59987e02b520008",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-192.png",
+      "source_sha256": "f9a2457cda5464495b6247bff173a72a8c353d67747c5ae23c0689d978b2fda1",
+      "size": [
+        8,
+        11
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-193.png",
+      "source_sha256": "9864d5c08843cd60e823f955337380a1c80bf2ab38037da03bb2163b7445f52a",
+      "size": [
+        1,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-194.png",
+      "source_sha256": "effc4ff2716a2ca736560cfed77393640c5eaf144756b495d900dfe36a06cae2",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-195.png",
+      "source_sha256": "06f22ed881e739d06d16eb9b6ed90b5ebec7f514346e15ec33d6e86268d06d38",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-196.png",
+      "source_sha256": "60a011b025399faf38f52d4f5704125dd4c41e27b1087c6e2076fa772bc0c8e0",
+      "size": [
+        2,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-197.png",
+      "source_sha256": "b37acc5d6954dd378a9e2277dbe24e2c6c5f1960c28c34e6c878a5c312dc94e0",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-198.png",
+      "source_sha256": "4be8ce4c7055d6e10df1de22837c87c2419a82e38da14f49cd598273d00b4e4d",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-199.png",
+      "source_sha256": "9ac89a0e91f637aa90837dbe2fb1c62a8209b54ffe2246f8f25a02a378c742ad",
+      "size": [
+        9,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-200.png",
+      "source_sha256": "d4185d55f587e7fb133bba399175b9547b8af29386258ddd4db4f274ad2e1173",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-201.png",
+      "source_sha256": "db741cd9099c56423a9ecc948706f13feb300a7e4081f7b81f26a0dd89e9bbff",
+      "size": [
+        9,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-202.png",
+      "source_sha256": "3a6e22ec0f8d820729aab87c7f8756062bf01eab578e21a13ad5fef85968cbce",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-203.png",
+      "source_sha256": "dad1377b19195244f6b91b8caa4a5cf43873ee4829b03b5fcf07638984f0106f",
+      "size": [
+        1,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-204.png",
+      "source_sha256": "f335a047326e8d108a438ec19d0365632693dd86ea7fff74c64f3d91418decac",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-205.png",
+      "source_sha256": "cae84aaecc1d4f5d7e23c1de6e78bddb8f43a235beb115f89184708639d0a1fd",
+      "size": [
+        2,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-206.png",
+      "source_sha256": "df5c3dff1d8bf8c86d442e50990c05d1c9b71649bbe621a6ef425d7fc96f1b12",
+      "size": [
+        1,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-207.png",
+      "source_sha256": "9e81f476dc6724fb23e7681bab516605c5e55bab543a4e1add7009b781b32e5d",
+      "size": [
+        9,
+        3
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-208.png",
+      "source_sha256": "c135cac2c8d55d531987aa2054b1a7c7d7c7db26d308c39fa81768574d22b545",
+      "size": [
+        9,
+        9
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-209.png",
+      "source_sha256": "24b5ae1199cbcd17f37354022f5d6af7c4293b7cfda9659232ee92c005f1958d",
+      "size": [
+        3,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-210.png",
+      "source_sha256": "6ccac41c26a83ed095fead95d6d323ef362cae1eb4434ca7dbc7f4bc3eb35532",
+      "size": [
+        9,
+        14
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-211.png",
+      "source_sha256": "454cf7ea0573b44dd4a98aaa5b3585ebc8417c8ec69049e1f7c1659c982c5f1c",
+      "size": [
+        5,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-212.png",
+      "source_sha256": "98bca4fc6b5fbbd831c1138059f8eb95be40be04ebfe5f1fa623d6e8105c23eb",
+      "size": [
+        5,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-213.png",
+      "source_sha256": "72144ac20ae5c58a78a56c05935c5f244d6421f9f1b26be11072b9f09f74b78f",
+      "size": [
+        7,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-214.png",
+      "source_sha256": "531d0d1f07d842c013178a4f1e25654ec15dd7afec36bd4ca33926db935a0cd3",
+      "size": [
+        7,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-215.png",
+      "source_sha256": "f549f84ff00581c464d559a82f4d84e16397a27fffa8e153bfd79bd727781d46",
+      "size": [
+        7,
+        8
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-216.png",
+      "source_sha256": "8acde4022480235dc4812e58f2a6bf217bd6aebffaa9b91e4daf0d4ef6d1eb21",
+      "size": [
+        1,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-217.png",
+      "source_sha256": "d6f5961850081e4cf8a3fe53253399d6a77bbf0ee26abc20bf7cdbe1b0f25e94",
+      "size": [
+        1,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-218.png",
+      "source_sha256": "eef61cae2244db38180a6c592bddda06fe9104e8e48f3e30cbb7f0b547506344",
+      "size": [
+        1,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-219.png",
+      "source_sha256": "847bcf5f9f2bbd402b55c4a8fb8fc3cb95c8135bced3994f907ad0ffc449ebed",
+      "size": [
+        1,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-220.png",
+      "source_sha256": "d4beb2414593945114e2bcc985382f55cc7f58e187328bf691738ae848672b92",
+      "size": [
+        3,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-221.png",
+      "source_sha256": "ed36177ed7d903e7978639b5cdb4e4cd6284fc11b984c2f128b19909dc1c3355",
+      "size": [
+        3,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-222.png",
+      "source_sha256": "78bcdd1793e7521b541046fb44776a18a469c14bbd7696cc71d33f6578d80a93",
+      "size": [
+        3,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-223.png",
+      "source_sha256": "b4da038d6be50bee02ad0b0b9a42e2413b7102ef3fc93353d3a81778bf3d9584",
+      "size": [
+        5,
+        4
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-224.png",
+      "source_sha256": "b9a67080388ac9b3e879e9299d3f4838962b6fd74062a6afbab7d3134db64ebd",
+      "size": [
+        7,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-225.png",
+      "source_sha256": "8eec7a91bb895bb5de5b7cc55c6358a4d8a42805db16f1436b8d8939165285de",
+      "size": [
+        8,
+        10
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-226.png",
+      "source_sha256": "c99734a78862996caeeb9b439215c5d7e1df1ebbb92e2e093c24a6cc97e02a9b",
+      "size": [
+        35,
+        36
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-227.png",
+      "source_sha256": "0b41c6f0ccf6f2da80199107eea8b922a91e0efab023db27985243ddbbc0242e",
+      "size": [
+        64,
+        97
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-228.png",
+      "source_sha256": "da0cf5f4281dabdcca21d005c75f71ae0c66ed2485fa931c01b29d9807e2c3ae",
+      "size": [
+        20,
+        84
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-229.png",
+      "source_sha256": "40081ac65f4ad79b23d9646012d7250ac5f09a69be0887fcc377f374d3ab536f",
+      "size": [
+        18,
+        84
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-230.png",
+      "source_sha256": "833eb69a398e79992ca9e7b9c83d295864df2a42fc555903df081591690afd43",
+      "size": [
+        238,
+        185
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-231.png",
+      "source_sha256": "51bd0d0b860c350a02c3fcb07edbe27ccc9955ea5a59f0c89676c8d09c218d80",
+      "size": [
+        113,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-232.png",
+      "source_sha256": "2f76f1928f4ce2f3c6cbf32c48536a945a64d6cac2bc9eb111e30ffa33bdef5b",
+      "size": [
+        275,
+        175
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-233.png",
+      "source_sha256": "c627af718ea46d52ad5aab5c4f9003f3d6d050cb982163730693f7c5370fb910",
+      "size": [
+        5,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-234.png",
+      "source_sha256": "517086d204f9e9efda78ee108db324b7c4b2365f04c949702958744720692c01",
+      "size": [
+        8,
+        6
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-235.png",
+      "source_sha256": "daea1bfd7555484a2e37e1acb5e71d28cfe3b57d38835f9e99bdefa4a8545820",
+      "size": [
+        4,
+        7
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-236.png",
+      "source_sha256": "1be6a48b425a287540164d7e1556c24f4acd8d340ab68a5261b86f34e5862012",
+      "size": [
+        5,
+        2
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-237.png",
+      "source_sha256": "90e30e066e12545e6ee4ca33ba8442dcabde5ba2e106ac597bfd7eb03d144a0d",
+      "size": [
+        320,
+        200
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/ending/victory2-238.png",
+      "source_sha256": "cfbc5e44fa590a7a14ff2ffd792bccb8f882c8944b4b518cfb86f077cc313717",
+      "size": [
+        320,
+        200
+      ],
+      "status": "art_or_numeric_animation_no_language_text_observed",
+      "notes": "victory2 전체 239개를 접촉 시트로 검토하고 작은 조각은 최근접 최대 12배 확대. 함선/폭발/계기 숫자 및 부분 갱신 그림이며 번역 문구 발견 없음. 합성 재생 검증을 대신하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/spins/androsynsheet.png",
+      "source_sha256": "c448cfb7c46ee7f867bcda99fc27735e77051195e3d2423a8f16e6a4f54e8927",
+      "size": [
+        320,
+        240
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "함선/우주 배경 3개를 접촉 시트와 개별 확대 이미지로 육안 검토. 글자 발견 없음. 스크립트 TEXT 12개와 설치 리소스 미연결 문제는 별도이며 기능을 활성화하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/spins/druugesheet.png",
+      "source_sha256": "db36c97344ff10a87e9b87e757db8474e39af8dd715455429187b10e975510ab",
+      "size": [
+        320,
+        240
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "함선/우주 배경 3개를 접촉 시트와 개별 확대 이미지로 육안 검토. 글자 발견 없음. 스크립트 TEXT 12개와 설치 리소스 미연결 문제는 별도이며 기능을 활성화하지 않음."
+    },
+    {
+      "source_path": "base/cutscene/spins/myconsheet.png",
+      "source_sha256": "5484cd68c59ed1ebd06aac822681d5d6dd6c900427d636744f6dc078bdabaff9",
+      "size": [
+        320,
+        240
+      ],
+      "status": "no_obvious_language_text_in_viewed_image",
+      "notes": "함선/우주 배경 3개를 접촉 시트와 개별 확대 이미지로 육안 검토. 글자 발견 없음. 스크립트 TEXT 12개와 설치 리소스 미연결 문제는 별도이며 기능을 활성화하지 않음."
     }
+  ],
+  "review_method": "Human visual inspection of source PNG contact sheets; small victory fragments enlarged with nearest-neighbor scaling up to 12x; spin pictures also inspected individually. No OCR or playback claim.",
+  "remaining_scope": [
+    "Two intro title images still contain unlocalized connector text.",
+    "LPF containers, other asset groups and runtime/composited playback are not certified by this PNG review.",
+    "Linked translated images still require in-game review."
   ]
 }

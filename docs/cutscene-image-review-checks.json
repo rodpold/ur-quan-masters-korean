@@ -1,0 +1,17 @@
+{
+  "status": "inventory_binding_passed_visual_and_runtime_limits_apply",
+  "cutscene_pngs": 261,
+  "victory2_pngs": 239,
+  "spin_pngs": 3,
+  "review_states": {
+    "art_or_numeric_animation_no_language_text_observed": 239,
+    "embedded_text_pending": 2,
+    "generated_korean_title_runtime_pending": 1,
+    "no_obvious_language_text_in_viewed_image": 17,
+    "preserve_product_logo": 2
+  },
+  "limitations": [
+    "Hashes and dimensions verify source identity and coverage, not human review accuracy.",
+    "No composited playback, LPF, other asset groups or runtime certification."
+  ]
+}
