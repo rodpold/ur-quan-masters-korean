@@ -1,0 +1,241 @@
+{
+  "status": "static_passed_runtime_pending",
+  "labels": 21,
+  "radar_size": [
+    56,
+    53
+  ],
+  "minimum_icon_top": 10,
+  "records": [
+    {
+      "frame": 3,
+      "lines": [
+        "아릴루",
+        "스키프"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 20,
+      "icon_ani": "base/ships/arilou/skiff-meleeicons.ani",
+      "icon_ani_sha256": "cc24f53341f8a5afa93683e8ceec3ed2664fbac6bab8b8d661cf26e961335c45"
+    },
+    {
+      "frame": 4,
+      "lines": [
+        "촘르",
+        "아바타"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 11,
+      "icon_ani": "base/ships/chmmr/avatar-meleeicons.ani",
+      "icon_ani_sha256": "a09367547a657e9b3710ee2f44b78af072bfcbe50b5caae9f15e0e51a5472baa"
+    },
+    {
+      "frame": 5,
+      "lines": [
+        "지구인",
+        "순양함"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 10,
+      "icon_ani": "base/ships/human/cruiser-meleeicons.ani",
+      "icon_ani_sha256": "82a2c7e9d9f067b0b1de7ade659629447325ea95ed590e2c335b58fae9d5d8c9"
+    },
+    {
+      "frame": 6,
+      "lines": [
+        "오르즈",
+        "네메시스"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 15,
+      "icon_ani": "base/ships/orz/nemesis-meleeicons.ani",
+      "icon_ani_sha256": "a6ab1fd32aa5b490dc32d70e6ca96112d2e40fa993aa47aaf981acb4e0bd0d03"
+    },
+    {
+      "frame": 7,
+      "lines": [
+        "프쿤크",
+        "퓨리"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 16,
+      "icon_ani": "base/ships/pkunk/fury-meleeicons.ani",
+      "icon_ani_sha256": "12f23584fe33a3a1a9eb7950f64dbd6972988404a7b5136b8130916d61ba193f"
+    },
+    {
+      "frame": 8,
+      "lines": [
+        "쇼픽스티",
+        "정찰선"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 20,
+      "icon_ani": "base/ships/shofixti/scout-meleeicons.ani",
+      "icon_ani_sha256": "57248c0338eeb8fff4a4c87adbb53826afd79c00ceb3c1bea30ccd02945f6f81"
+    },
+    {
+      "frame": 9,
+      "lines": [
+        "스파시",
+        "일루더"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 15,
+      "icon_ani": "base/ships/spathi/eluder-meleeicons.ani",
+      "icon_ani_sha256": "1af7bceea34e1316acea0b13e10af2c0f202f7de820cafbfb73d4adf90f9a87b"
+    },
+    {
+      "frame": 10,
+      "lines": [
+        "수폭스",
+        "블레이드"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 11,
+      "icon_ani": "base/ships/supox/blade-meleeicons.ani",
+      "icon_ani_sha256": "5eb2dc5bb023c8c6dbb573c91041364b7209292605b6565e927f794744730621"
+    },
+    {
+      "frame": 11,
+      "lines": [
+        "스래대시",
+        "토치"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 16,
+      "icon_ani": "base/ships/thraddash/torch-meleeicons.ani",
+      "icon_ani_sha256": "a88451dadfffb1c670200d258dfa5a03e340f970885f2cf2915023130144c898"
+    },
+    {
+      "frame": 12,
+      "lines": [
+        "우트위그",
+        "저거"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 10,
+      "icon_ani": "base/ships/utwig/jugger-meleeicons.ani",
+      "icon_ani_sha256": "c3588cc86e47527c36f7ae636984ce287d853270b2c2763f9b16574ff6831b7b"
+    },
+    {
+      "frame": 13,
+      "lines": [
+        "VUX"
+      ],
+      "caption_bottom_relative_to_radar": 0,
+      "earliest_icon_top": 17,
+      "icon_ani": "base/ships/vux/intruder-meleeicons.ani",
+      "icon_ani_sha256": "39770d8029bd93fab5ba72297526891eb0ce5c21ea81188d5f457b887686c339"
+    },
+    {
+      "frame": 14,
+      "lines": [
+        "예하트",
+        "터미네이터"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 20,
+      "icon_ani": "base/ships/yehat/terminator-meleeicons.ani",
+      "icon_ani_sha256": "3f20f0724c1a2bd1ceedb35b25498b767290bdd92d839ea29f18c8f6c6cfbf15"
+    },
+    {
+      "frame": 15,
+      "lines": [
+        "멜노름",
+        "트레이더"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 11,
+      "icon_ani": "base/ships/melnorme/trader-meleeicons.ani",
+      "icon_ani_sha256": "077f39d8238714607424ebd58f50e8b8826f384c94364916866cb35feeaaf47d"
+    },
+    {
+      "frame": 16,
+      "lines": [
+        "드루지",
+        "몰러"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 12,
+      "icon_ani": "base/ships/druuge/mauler-meleeicons.ani",
+      "icon_ani_sha256": "392b975e2a64cd02a5e5f72ac3c1843e20cefff4a3be49e78cfe91fea0d833d6"
+    },
+    {
+      "frame": 17,
+      "lines": [
+        "일라스"
+      ],
+      "caption_bottom_relative_to_radar": 0,
+      "earliest_icon_top": 11,
+      "icon_ani": "base/ships/ilwrath/avenger-meleeicons.ani",
+      "icon_ani_sha256": "6881286ecf1be48773129d8798cefd91b6d6458ce0f03cfa6168cec2d1ce007c"
+    },
+    {
+      "frame": 18,
+      "lines": [
+        "마이콘"
+      ],
+      "caption_bottom_relative_to_radar": 0,
+      "earliest_icon_top": 13,
+      "icon_ani": "base/ships/mycon/podship-meleeicons.ani",
+      "icon_ani_sha256": "2b37603ddc0b8d76735ba21f7f9c237b2bae9f66a9c70712d1633d8a1985482e"
+    },
+    {
+      "frame": 19,
+      "lines": [
+        "슬라이랜드로"
+      ],
+      "caption_bottom_relative_to_radar": 0,
+      "earliest_icon_top": 10,
+      "icon_ani": "base/ships/slylandro/probe-meleeicons.ani",
+      "icon_ani_sha256": "a69b22d0ec36ddae3ea4fadc8e120271cc6685005cf54a071154389b6dec2dab"
+    },
+    {
+      "frame": 20,
+      "lines": [
+        "움가",
+        "드론"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 20,
+      "icon_ani": "base/ships/umgah/drone-meleeicons.ani",
+      "icon_ani_sha256": "60d038600e5835e90333925fc9120a96f00d093de3c084d7b79e2f4f84dd235b"
+    },
+    {
+      "frame": 21,
+      "lines": [
+        "우르콴"
+      ],
+      "caption_bottom_relative_to_radar": 0,
+      "earliest_icon_top": 10,
+      "icon_ani": "base/ships/urquan/dreadnought-meleeicons.ani",
+      "icon_ani_sha256": "52e155dddc328d262a3d9a01cc20cf1a5b1b3e1311ede982ceeacf7243d16f42"
+    },
+    {
+      "frame": 22,
+      "lines": [
+        "조크-포트",
+        "스팅어"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 14,
+      "icon_ani": "base/ships/zoqfotpik/stinger-meleeicons.ani",
+      "icon_ani_sha256": "cd2863c0f27390454b6a73eee6761a63777e1bbd6383037b562997b4bf2fd524"
+    },
+    {
+      "frame": 23,
+      "lines": [
+        "시린",
+        "페너트레이터"
+      ],
+      "caption_bottom_relative_to_radar": 4,
+      "earliest_icon_top": 11,
+      "icon_ani": "base/ships/syreen/penetrator-meleeicons.ani",
+      "icon_ani_sha256": "2ee045689da605f22bed69dbaa77852945152d46145443993eaf17b100c1d59c"
+    }
+  ],
+  "limitations": [
+    "Based on fixed public shipyard.c/units.h draw and clear geometry; installed executable behavior still needs runtime review.",
+    "One-row original placeholders retain one row; race names are expanded using existing ship text translations."
+  ]
+}

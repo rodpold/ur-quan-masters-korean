@@ -1,5 +1,5 @@
 {
-  "status": "source_review_layout_solution_pending",
+  "status": "implemented_static_checked_runtime_pending",
   "source_url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/shipyard.c",
   "source_sha256": "d28caace03efa0e8841e8d9135c67d098f44a38f9ef96eb049275082456bc8fd",
   "function": "DrawRaceStrings",
@@ -13,7 +13,8 @@
     "Two rows of native seven-pixel Korean ink do not fit in the original 11px strip.",
     "Increasing sprite height upward without changing the cleared region risks stale pixels.",
     "Extending downward needs per-ship icon overlap checks; it is not approved by this source review alone.",
-    "Do not drop either race or ship-class identity solely to pass a width check."
+    "Do not drop either race or ship-class identity solely to pass a width check.",
+    "Actual selection/redraw is still pending in the installed game."
   ],
-  "implementation": "pending"
+  "implementation": "56px wide; hotspot (0,11); two 7px ink rows with 1px gap in 15px height. Caption extends into cleared radar to exclusive y=4, while all icon frames begin at y>=10. Single-row originals use 11px height. Names bind to existing ship records 0001/0003."
 }

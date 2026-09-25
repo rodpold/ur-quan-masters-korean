@@ -193,3 +193,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 기존 Galmuri11(동일 저자·공식 출처·라이선스·vendor 해시)을 엔딩 THE END → 끝 제목에 사용한다. native raster 12 마스크를 최근접 정수 2배 확대하며 이진 알파를 유지한다. 원본 저작권 행·제작자 이름은 보존한다. PNG/ANI 원본 해시는 translations/ending-card.ko.json 참조. 원본 게임 그림은 Git에 포함하지 않는다.
 
 소개 연결 문구에 기존 Galmuri11(native raster 12, 제공)과 Galmuri7(native raster 8, 제작/·)을 사용한다. 기존 공식 출처·저자·라이선스·vendor 해시가 적용된다. IFL 회사 로고, 게임 로고, Paul Reiche III/Fred Ford의 원본 이름 픽셀은 보존한다. 미연결 title-004는 새 재생 연결을 만들지 않는다. 원본 PNG/ANI 해시는 translations/intro-titles.ko.json 참조.
+
+기존 Galmuri7(동일 공식 출처·저자·라이선스·vendor 해시)을 조선소 이름 그림 21개에도 사용한다. 원본 shipyard.c/units.h의 배치 근거는 기존 shipyard-label-layout-review.json 및 아래 해시로 추적한다. 원본 C나 게임 PNG는 재배포하지 않는다. units.h SHA-256 `55061f177ecd8d8b408adc5bc09f7f6bfe013f4df13c1a241bf5e49ebf603a99`. 원본 ANI/PNG별 해시는 translations/shipyard-labels.ko.json, 아이콘 ANI 근거는 docs/shipyard-label-checks.json 참조.

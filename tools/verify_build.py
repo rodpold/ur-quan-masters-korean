@@ -51,6 +51,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_ending_card import verify_ending_card
         card_check=verify_ending_card(z, source)
         (patcher.ROOT/'docs/ending-card-checks.json').write_text(json.dumps(card_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_shipyard_labels import verify_shipyard
+        shipyard_check=verify_shipyard(z, source)
+        (patcher.ROOT/'docs/shipyard-label-checks.json').write_text(json.dumps(shipyard_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         from check_special_labels import verify_special_labels
         special_check=verify_special_labels(z, source)
         (patcher.ROOT/'docs/special-label-checks.json').write_text(json.dumps(special_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
