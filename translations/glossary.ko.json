@@ -4136,6 +4136,42 @@
       "status": "in_use",
       "notes": "멜노름 첫 거래·사과·구조 대화의 작업 표기. 최종 사용자 승인과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "dramya",
+      "source": "Dramya",
+      "ko": "드라먀",
+      "category": "species",
+      "status": "in_use",
+      "notes": "멜노름 거래 안내 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rainbow_worlds",
+      "source": "Rainbow worlds",
+      "ko": "무지개 행성",
+      "category": "world_type",
+      "status": "in_use",
+      "notes": "멜노름 거래 안내 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rainbow_world",
+      "source": "Rainbow world",
+      "ko": "무지개 행성",
+      "category": "world_type",
+      "status": "in_use",
+      "notes": "멜노름 거래 안내 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "interstar_credits",
+      "source": "Interstar Credits",
+      "ko": "성간 크레딧",
+      "category": "currency",
+      "status": "in_use",
+      "notes": "멜노름 거래 안내 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
