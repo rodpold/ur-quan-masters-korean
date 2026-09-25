@@ -573,6 +573,375 @@
       "status": "in_use",
       "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "portal_spawner",
+      "source": "Portal Spawner",
+      "ko": "차원문 생성기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "utwig_bomb",
+      "source": "Utwig Bomb",
+      "ko": "우트위그 폭탄",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "jugger",
+      "source": "Jugger",
+      "ko": "저거",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "sun_device",
+      "source": "Sun Device",
+      "ko": "태양 장치",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "shofixti_maidens",
+      "source": "Shofixti Maidens",
+      "ko": "쇼픽스티 처녀들",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rosy_sphere",
+      "source": "Rosy Sphere",
+      "ko": "장밋빛 구체",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "aqua_helix",
+      "source": "Aqua Helix",
+      "ko": "물빛 나선",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "clear_spindle",
+      "source": "Clear Spindle",
+      "ko": "투명한 방추",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "ultron",
+      "source": "Ultron",
+      "ko": "울트론",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "procyon",
+      "source": "Procyon",
+      "ko": "프로키온",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rigel",
+      "source": "Rigel",
+      "ko": "리겔",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "appendages_dawn",
+      "source": "Appendages of Dawn",
+      "ko": "새벽의 지체",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "empties",
+      "source": "Empties",
+      "ko": "빈것들",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "singing_hoops",
+      "source": "Singing Hoops",
+      "ko": "노래하는 고리들",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "big_dud",
+      "source": "Big Dud",
+      "ko": "거대한 불발품",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hyperwave_broadcaster",
+      "source": "HyperWave Broadcaster",
+      "ko": "초파장 송신기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "taalo",
+      "source": "Taalo",
+      "ko": "타알로",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "hawkins",
+      "source": "Hawkins",
+      "ko": "호킨스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dr_chu",
+      "source": "Dr. Chu",
+      "ko": "추 박사",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "xenoteratomorph",
+      "source": "Xenoteratomorph",
+      "ko": "제노테라토모프",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rolling_phung",
+      "source": "Rolling-Phung",
+      "ko": "롤링퐁",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "warp_pod",
+      "source": "Warp Pod",
+      "ko": "워프 포드",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "wimbli",
+      "source": "Wimbli",
+      "ko": "윔블리",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "wimbli_trident",
+      "source": "Wimbli's Trident",
+      "ko": "윔블리의 삼지창",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "glowing_rod",
+      "source": "Glowing Rod",
+      "ko": "빛나는 막대",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 장비 분석 보고 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "arilou_full",
+      "source": "Ariloulaleelay",
+      "ko": "아릴룰랄릴레이",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "stinger",
+      "source": "Stinger",
+      "ko": "스팅어",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "nemesis",
+      "source": "Nemesis",
+      "ko": "네메시스",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "skiff",
+      "source": "Skiff",
+      "ko": "스키프",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "tucanae",
+      "source": "Tucanae",
+      "ko": "투카나이",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "zoq_fot",
+      "source": "Zoq-Fot",
+      "ko": "조크-포트",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "zebranky",
+      "source": "Zebranky",
+      "ko": "제브랭키",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "centauri",
+      "source": "Centauri",
+      "ko": "센타우리",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "uranus",
+      "source": "Uranus",
+      "ko": "천왕성",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "spathiwa",
+      "source": "Spathiwa",
+      "ko": "스파시와",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "interspace",
+      "source": "InterSpace",
+      "ko": "차원간 공간",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "truespace",
+      "source": "TrueSpace",
+      "ko": "정상 공간",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "hyperwarp",
+      "source": "HyperWarp",
+      "ko": "초공간 워프",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "unzervalt",
+      "source": "Unzervalt",
+      "ko": "운제르발트",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "tobermoon",
+      "source": "Tobermoon",
+      "ko": "토버문",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "burton",
+      "source": "Burton",
+      "ko": "버턴",
+      "category": "person",
+      "status": "in_use",
+      "notes": "우주기지 상황 보고 초안에서 도입. 원문 약칭·정식 명칭은 구분.",
+      "ui_keys": []
     }
   ]
 }

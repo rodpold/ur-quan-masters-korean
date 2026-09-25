@@ -18,7 +18,12 @@
     },
     "starbase": {
       "base": "commander",
-      "override": "동맹 이후의 헤이스. 합쇼체로 군사·역사 브리핑."
+      "override": "동맹 이후의 헤이스. 합쇼체로 군사·역사 브리핑.",
+      "record_overrides": {
+        "ABOUT_* device reports": "DEVICE_HEAD 뒤 과학자 보고서는 대상/자료/요약의 한다체. 헤이스의 직접 설명 ABOUT_FUEL 등에는 적용하지 않는다.",
+        "ABOUT_VUXBEAST1": "신임 초급 연구원 호킨스. 어색한 보고체와 당황한 해요체, 망설임을 유지.",
+        "ABOUT_TALKPET": "보고 도중 정신 조작으로 꽃 이야기와 지나친 안심으로 돌변. 모순을 바로잡거나 암시를 해설하지 않는다."
+      }
     },
     "yehat.rebel": {
       "base": "yehat",
