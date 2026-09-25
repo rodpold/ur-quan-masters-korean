@@ -207,3 +207,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 - Installed only in a temporary investigation directory. Neither Python wrapper nor FFmpeg binary is redistributed or required by the patcher. No FFmpeg modifications. Original game animations and extracted screenshots are not committed. The supplemental inspection changes one flag in a temporary LPF copy only; installed game assets remain untouched.
 
 궤도 진입 안내에도 기존 Galmuri7(동일 저자·공식 출처·OFL 라이선스·vendor 해시)을 사용한다. native 7픽셀 이진 글리프이며 두 글자 영역의 배경만 양옆 원본 색으로 보간한다. 행성 그림과 영역 밖 픽셀은 보존하고 원본 PNG/ANI는 Git에 포함하지 않는다. 원본별 해시와 영역은 translations/special-labels.ko.json 참조.
+
+착륙정 MIN/DAT 라벨에도 기존 Galmuri7(동일 저자·공식 출처·OFL 라이선스·vendor 해시)을 사용한다. 광물/생물 표기는 기존 ui.ko.json을 따른다. native 7픽셀 이진 글리프이며 원본 PNG/ANI 해시는 special-labels.ko.json, 기존 공개 lander.c의 레이아웃 조사 해시·함수 근거는 docs/lander-label-layout-review.json 참조. 원본 코드와 게임 그림은 재배포하지 않는다.

@@ -10,6 +10,11 @@
       "source_path": "base/nav/orbitenter.ani",
       "source_sha256": "fc330c591759b69d2f6dfec36d9c8e740cfa68a5f214bd08d94ea65b3af4c994",
       "resource_key": "graphics.orbitenter"
+    },
+    {
+      "source_path": "base/lander/lander.ani",
+      "source_sha256": "a8ab48d8f38f0e07e9519eab8bfaf8e495ca1f70db1f5e15903ecdc5d238a8c6",
+      "resource_key": "graphics.lander"
     }
   ],
   "rows": [
@@ -411,6 +416,59 @@
             255
           ],
           "background_from_sides": true
+        }
+      ]
+    },
+    {
+      "source_path": "base/lander/lander-032.png",
+      "source_sha256": "2ece6be8808dcd94fd10244ce07edce8c86f06deea24f94c0700f48e99dfaf62",
+      "size": [
+        54,
+        51
+      ],
+      "source_text": "MIN / DAT",
+      "regions": [
+        {
+          "box": [
+            4,
+            43,
+            21,
+            8
+          ],
+          "text": "광물",
+          "background": [
+            14,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            186,
+            0,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            28,
+            43,
+            21,
+            8
+          ],
+          "text": "생물",
+          "background": [
+            14,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            64,
+            64,
+            255,
+            255
+          ]
         }
       ]
     }

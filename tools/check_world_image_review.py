@@ -5,7 +5,7 @@ from collections import Counter
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 GROUPS={'battle':117,'lander':331,'nav':294,'planets':177}
-PENDING={'base/lander/lander-032.png'}
+PENDING=set()
 
 def verify(game):
     review=json.loads((ROOT/'docs/world-image-review.json').read_text(encoding='utf-8'))

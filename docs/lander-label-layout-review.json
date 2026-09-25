@@ -1,0 +1,52 @@
+{
+  "status": "source_layout_review_runtime_pending",
+  "source_url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/planets/lander.c",
+  "source_sha256": "570a3e1a8d069307da58dce347b94ba78f5dde532297273da7d7ae3ef8f93773",
+  "functions": [
+    "InitLander",
+    "AnimateLanderWarmup",
+    "FillLanderHold",
+    "DeltaLanderCrew"
+  ],
+  "meaning": {
+    "MIN": "mineral hold; MINERAL_SCAN / ElementLevel",
+    "DAT": "biological data hold; BIOLOGICAL_SCAN / BiologicalLevel"
+  },
+  "source_panel_size": [
+    54,
+    51
+  ],
+  "source_hotspot": [
+    -1,
+    -1
+  ],
+  "radar_size": [
+    56,
+    53
+  ],
+  "caption_radar_boxes": [
+    [
+      5,
+      44,
+      21,
+      8
+    ],
+    [
+      29,
+      44,
+      21,
+      8
+    ]
+  ],
+  "preserved": "ANI unchanged; all 59 other lander frames byte-identical. No change to retrieval amounts, capacity or crew logic.",
+  "checks": [
+    "Equipment frame rectangles do not intersect captions.",
+    "Hold-bar frame x ranges do not intersect captions regardless of their upward motion.",
+    "Both crew frames at all twelve source positions do not intersect captions.",
+    "Storage-capacity mask x=1..4 does not intersect captions."
+  ],
+  "limitations": [
+    "Pinned public source is evidence of intended layout, not proof that installed EXE is identical.",
+    "Real landing, pickup, damage and upgrade animations remain runtime checks."
+  ]
+}

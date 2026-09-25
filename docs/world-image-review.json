@@ -9,7 +9,7 @@
     "nav": 294,
     "planets": 177
   },
-  "pending_image_translations": 1,
+  "pending_image_translations": 0,
   "limitations": [
     "Does not verify rendered animation, dynamic strings, sprites in other groups, or runtime playback.",
     "Preserve original assets until replacement regions and call sites have been validated."
@@ -3582,9 +3582,9 @@
         54,
         51
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_nearest_neighbor_enlargement",
-      "notes": "MIN / DAT. Original 54x51 image; abbreviations have 5px-high ink near bottom. Confirm mineral/data meaning and source drawing bounds before choosing compact Korean labels."
+      "notes": "MIN / DAT -> 광물 / 생물, using existing UI terminology. Two native 7px label regions; radar/crew/equipment/hold-bar bounds checked against source. Runtime review pending."
     },
     {
       "source_path": "base/lander/lander-033.png",
