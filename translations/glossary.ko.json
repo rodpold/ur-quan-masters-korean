@@ -4217,6 +4217,42 @@
       "status": "in_use",
       "notes": "멜노름 유료 최근 소식 초안. 화자의 표현이며 설정의 진실을 보증하지 않음. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "lacaille",
+      "source": "Lacaille",
+      "ko": "라카유",
+      "category": "constellation",
+      "status": "in_use",
+      "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "gruis",
+      "source": "Gruis",
+      "ko": "그루이스",
+      "category": "constellation",
+      "status": "in_use",
+      "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "gg",
+      "source": "Gg",
+      "ko": "그그",
+      "category": "species",
+      "status": "in_use",
+      "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "inter_dimensional_fatigue",
+      "source": "Inter-Dimensional Fatigue",
+      "ko": "차원 피로",
+      "category": "technology",
+      "status": "in_use",
+      "notes": "멜노름 종족 정보 초안. 차원 피로는 기존 Dimensional Fatigue 표기를 유지한다. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
