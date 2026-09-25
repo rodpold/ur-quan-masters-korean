@@ -17,7 +17,7 @@ def check():
         texts.extend(json.loads(path.read_text(encoding='utf-8')).values())
     chars = sorted({c for text in texts for c in text if ord(c)>127})
     results = {}
-    for name in registry['specimen_order']:
+    for name in registry['specimen_order'] + registry.get('expressive_specimen_order', []):
         info = registry['fonts'][name]
         file = ROOT/info['file']
         if hashlib.sha256(file.read_bytes()).hexdigest() != info['sha256']:
@@ -35,7 +35,7 @@ def check():
     for row in registry['dialogue_fonts']:
         if not set(row['glossary_ids']) <= ids or row['candidate_font'] not in registry['fonts']:
             raise ValueError(f'Invalid mapping: {row["id"]}')
-    for family in ['mona','mulmaru','denkichip','dalmoori']:
+    for family in sorted({Path(info['file']).parts[1] for info in registry['fonts'].values()}):
         base = ROOT/'vendor'/family
         for relative, digest in json.loads((base/'SHA256.json').read_text()).items():
             if hashlib.sha256((base/relative).read_bytes()).hexdigest() != digest:

@@ -1,26 +1,67 @@
 {
+  "Galmuri9": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 9
+  },
   "Mona10": {
-    "tested_hangul": 318,
-    "missing": [],
-    "max_bbox_height": 9,
-    "raster_px": 10
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 9
   },
   "Mulmaru": {
-    "tested_hangul": 318,
-    "missing": [],
-    "max_bbox_height": 12,
-    "raster_px": 12
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 12
   },
   "DenkiChipHangul": {
-    "tested_hangul": 318,
-    "missing": [],
-    "max_bbox_height": 11,
-    "raster_px": 12
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 11
   },
   "Dalmoori": {
-    "tested_hangul": 318,
-    "missing": [],
-    "max_bbox_height": 9,
-    "raster_px": 8
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 9
+  },
+  "NanumPenScript": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 18
+  },
+  "NanumBrushScript": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 18
+  },
+  "Gaegu": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "EastSeaDokdo": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "KirangHaerang": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 16
+  },
+  "Gugi": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 17
+  },
+  "SongMyung": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 16
+  },
+  "DoHyeon": {
+    "checked_characters": 318,
+    "missing": 0,
+    "max_bbox_height": 14
   }
 }
