@@ -487,6 +487,14 @@
       "variants": {
         "ZEX_*": "과도하게 환대하는 ZEX",
         "default": "인간 혐오를 보이는 일반 함대"
+      },
+      "record_overrides": {
+        "ZEX_HELLO_* / MY_MENAGERIE / NEED_NEW_CREATURE / ABOUT_CREATURE / LIKE_* / CALL_ME_WHAT_YOU_WISH": "젝스는 함장에게 과장된 환대와 탐미적인 하오체. 그의 욕망과 동족의 편견을 원문 수준에서 유지하며 현실 집단에 대한 해설을 추가하지 않는다.",
+        "PRECURSOR_DEVICE / YUP_LIED / FIGHT_AGAIN": "다정한 겉치레 속 군사적 협박. 워프 무효화장 주장을 미리 거짓말로 설명하지 않고 YUP_LIED에서 인정하는 순서를 보존한다.",
+        "FOOL_AIEE0 / FOOL_AIEE1": "함장에게 하오체, 부하에게 하게체와 명령형. 짐승 탈출 뒤에는 다급한 명령과 끊긴 말로 바뀐다.",
+        "HOMEWORLD_HELLO_* / SPACE_HELLO_*": "서비스 안내문을 흉내 내는 냉소적 하오체. SPACE_HELLO_3 마지막 직접 모욕은 해라체로 전환한다.",
+        "NOT_ACCEPTED_* / TRUTH": "사과를 거절하는 해라체. 진정성을 핑계로 버티다가 굴복한 뒤 실제 외모 혐오를 고백한다. 자칭 합리적이라는 모순을 지우지 않는다.",
+        "OUT_TAKES": "동료에게 다급히 외치는 해체. VUX의 단안과 인간의 입·혀를 낯설게 묘사하는 시점을 유지한다."
       }
     },
     "yehat": {

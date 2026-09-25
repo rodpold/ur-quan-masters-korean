@@ -2095,6 +2095,78 @@
       "status": "in_use",
       "notes": "움가 대화 초안에서 도입. 최종 승인 아님. Drone ships는 움가 함선 문맥이며 일반 무인선과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "vega",
+      "source": "Vega",
+      "ko": "베가",
+      "category": "place",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "linch_nas_ploh",
+      "source": "Linch-Nas-Ploh",
+      "ko": "린치-나스-플로",
+      "category": "place",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "lyncis",
+      "source": "Lyncis",
+      "ko": "린키스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "dax",
+      "source": "DAX",
+      "ko": "닥스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "yax",
+      "source": "YAX",
+      "ko": "약스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "zen_dux",
+      "source": "ZEN DUX",
+      "ko": "젠 덕스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "cerenkov",
+      "source": "Cerenkov",
+      "ko": "체렌코프",
+      "category": "place",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
+    },
+    {
+      "id": "rand",
+      "source": "Rand",
+      "ko": "랜드",
+      "category": "person",
+      "status": "in_use",
+      "notes": "VUX 대화 초안에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

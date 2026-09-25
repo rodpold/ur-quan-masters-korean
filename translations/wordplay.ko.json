@@ -73,6 +73,20 @@
       "source_wordplay": "KHAN FUSION / confusion",
       "ko_wordplay": "칸. 퓨전.",
       "notes": "중수소·레이저·초원 지도자라는 구성 요소를 유지했다. confusion과의 발음 장난은 재현되지 않아 현지화 개선 필요."
+    },
+    {
+      "species": "vux",
+      "record": "HOMEWORLD_HELLO_3",
+      "source_wordplay": "once is silatious, twice is phlagrant melons",
+      "ko_wordplay": "첫 번째는 실레이셔스, 두 번째는 플래그런트 멜론",
+      "notes": "기이한 외계 속담의 소리를 임시 음역. 원문에 없는 뜻풀이를 넣지 않았으며 자연스러운 현지화 검토 대기."
+    },
+    {
+      "species": "vux",
+      "record": "whats_up_hostile",
+      "source_wordplay": "see eye to... eyes",
+      "ko_wordplay": "눈을... 아니, 눈들을 맞추고 이해하다",
+      "notes": "의견 일치 관용구와 단안/쌍안 말장난. 눈 개수 차이는 남겼으나 한국어 자연스러움 검토 대기."
     }
   ]
 }
