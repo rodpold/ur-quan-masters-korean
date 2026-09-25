@@ -4405,6 +4405,15 @@
       "case_sensitive": true,
       "notes": "조크-포트-피크 전쟁 보고에서 희생된 정찰대원/요원 이름. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "muscae",
+      "source": "Muscae",
+      "ko": "무스카이",
+      "category": "constellation",
+      "status": "in_use",
+      "notes": "조크-포트-피크 탐사선 항로 단서에서 도입. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }
