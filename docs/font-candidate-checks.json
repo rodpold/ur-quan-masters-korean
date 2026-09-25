@@ -1,0 +1,26 @@
+{
+  "Mona10": {
+    "tested_hangul": 318,
+    "missing": [],
+    "max_bbox_height": 9,
+    "raster_px": 10
+  },
+  "Mulmaru": {
+    "tested_hangul": 318,
+    "missing": [],
+    "max_bbox_height": 12,
+    "raster_px": 12
+  },
+  "DenkiChipHangul": {
+    "tested_hangul": 318,
+    "missing": [],
+    "max_bbox_height": 11,
+    "raster_px": 12
+  },
+  "Dalmoori": {
+    "tested_hangul": 318,
+    "missing": [],
+    "max_bbox_height": 9,
+    "raster_px": 8
+  }
+}

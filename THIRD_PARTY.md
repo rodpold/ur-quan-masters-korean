@@ -51,8 +51,29 @@ Official downloads:
 Local files: vendor/galmuri/. License: vendor/galmuri/OFL.txt.
 Hashes: vendor/galmuri/SHA256.json and translations/fonts.ko.json.
 Render at 12px (11px ink). These are design specimens, not yet installed race-font replacements.
-docs/font-selection.png is a generated Galmuri font specimen, uses no game artwork and retains this attribution/OFL reference.
+The earlier Galmuri specimen has been superseded by the independent-family specimen described below; the current image uses no game artwork.
 Generator: tools/render_font_selection.py. No font outlines were modified.
 
 Also researched but not bundled or applied: NeoDunggeunmo by Eunbin Jeong (Dalgona),
 https://github.com/neodgm/neodgm (SIL OFL 1.1). It is not a selected font for this trial.
+
+## Independent-family candidates (2026-09-25)
+
+These four fonts are downloaded for specimens and future dialogue trials only. They are **not yet
+included in generated game addons**. Fonts are unmodified. docs/font-selection.png now renders these
+candidates and the existing Galmuri9 baseline; see each license and attribution below.
+On future game integration, ship the relevant complete license/credit files with the addon too.
+
+| Font/version | Author | Official source/download | License / local notices |
+|---|---|---|---|
+| Mona10 / 2026.08.16 | Monad ABXY | https://github.com/MonadABXY/mona-font ; https://github.com/MonadABXY/mona-font/releases/download/2026.08.16/MonaFont-ttf.zip | OFL 1.1; vendor/mona/LICENSE/ (all upstream bundled notices) |
+| Mulmaru / v1.0 | Mushsooni | https://github.com/mushsooni/mulmaru ; https://github.com/mushsooni/mulmaru/releases/download/v1.0/Mulmaru.zip | OFL 1.1; vendor/mulmaru/LICENSE.txt |
+| x10y12pxDenkiChipHangul / v1.213 | Lee Minseo; hicc and x8y12pxDenkiChip Project Authors | https://github.com/quiple/x10y12pxDenkiChipHangul ; https://raw.githubusercontent.com/quiple/x10y12pxDenkiChipHangul/v1.213/fonts/ttf/x10y12pxDenkiChipHangul.ttf | OFL 1.1; vendor/denkichip/OFL.txt and AUTHORS.txt |
+| Dalmoori / v0.200 | RanolP and contributors | https://github.com/RanolP/dalmoori-font ; https://github.com/RanolP/dalmoori-font/releases/download/v0.200/dalmoori-font.zip | Apache 2.0; vendor/dalmoori/LICENSE |
+
+Exact chosen archive members, font SHA-256 and archive SHA-256 are recorded in translations/fonts.ko.json.
+Each vendor/<family>/SHA256.json also pins all bundled font/license bytes. No upstream commit is inferred
+from a download date. Mona retains all supplied notices for Ark Pixel, M+ Fonts, k8x12 and Noto Emoji
+alongside its own OFL even though this trial renders only Korean text. DenkiChip is an extension of
+x8y12pxDenkiChip, not a Galmuri weight variant. Mulmaru and Dalmoori list design references in their
+upstream READMEs; distinct font projects do not imply every glyph has unrelated origins.
