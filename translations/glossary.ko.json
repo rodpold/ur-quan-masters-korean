@@ -1428,6 +1428,51 @@
       "status": "in_use",
       "notes": "스파시 후속 교신 초안에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "safe_ones",
+      "source": "Safe Ones",
+      "ko": "안전한 자들",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
+      "ui_keys": []
+    },
+    {
+      "id": "evil_ones",
+      "source": "Evil Ones",
+      "ko": "사악한 자들",
+      "category": "species",
+      "status": "in_use",
+      "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
+      "ui_keys": []
+    },
+    {
+      "id": "zex",
+      "source": "ZEX",
+      "ko": "젝스",
+      "category": "person",
+      "status": "in_use",
+      "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
+      "ui_keys": []
+    },
+    {
+      "id": "herculis",
+      "source": "Herculis",
+      "ko": "헤르쿨리스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
+      "ui_keys": []
+    },
+    {
+      "id": "fop_dope_bic",
+      "source": "Fop-Dope-Bic",
+      "ko": "포프-도프-빅",
+      "category": "species",
+      "status": "in_use",
+      "notes": "스파시와 지도부 초안. Evil Ones는 Ultimate Evil과 다른 명칭이며 Fop-Dope-Bic은 원문의 잘못 기억한 이름을 유지.",
+      "ui_keys": []
     }
   ]
 }

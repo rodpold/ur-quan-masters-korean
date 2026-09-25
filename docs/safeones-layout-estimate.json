@@ -1,0 +1,15 @@
+{
+  "species": "safeones",
+  "mode": "static_estimate_pending_in_game",
+  "subtitle_width": 224,
+  "slider_y": 107,
+  "leading": 22,
+  "segments": 125,
+  "max_estimated_bottom": 69,
+  "near_or_below_slider": [],
+  "limitations": [
+    "Assumes one original text line per voice subtitle segment.",
+    "Word wrapping and glyph spacing are conservative approximations; compare with engine.",
+    "Does not cover no-speech pagination, speaker animation overlap, or player options."
+  ]
+}

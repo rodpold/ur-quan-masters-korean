@@ -13,3 +13,7 @@
 겁을 먹고 실제 좌표를 먼저 밝힌 뒤, 다른 분기에서는 거짓 좌표를 주는 원문의 모순을 유지한다. 프위포의 긴 자기합리화와 변명은 해요체로, 플레이어의 협박·친선 선택은 서로 구분한다.
 
 `tools/check_spathi_layout.py`는 실제 패키지 PNG 크기와 224px 폭으로 음성 구간별 단어 줄바꿈을 추정한다. [spathic.c](https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/spathi/spathic.c)의 폭/기준점, comm.h의 SLIDER_Y=107, units.h의 기본 320px 화면 산식에 근거한다. 이는 검토 우선순위를 정하기 위한 추정이며 엔진 렌더링과 같음을 증명하지 않는다. 음성 미사용 페이지 분할, 얼굴 가림, 실제 자막 타이밍과 선택지는 여전히 확인해야 한다.
+
+## 스파시와 지도부 첫 교신
+
+Evil Ones(사악한 자들)는 Ultimate Evil(궁극의 악)과 별개 명칭이다. 이름을 잘못 기억한 Fop-Dope-Bic은 포프-도프-빅으로 남긴다. 동적 이름은 원본의 함장 이름→함선 이름 삽입 순서를 유지한다. spahome.c의 자막 폭과 기준점은 일반 스파시와 같아서 `check_spathi_layout.py --species safeones`로 동일한 정적 추정을 수행한다. 실기 검증을 대체하지 않는다.
