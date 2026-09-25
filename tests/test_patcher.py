@@ -29,6 +29,30 @@ class PatcherTests(unittest.TestCase):
                 patcher.uninstall(game)
                 self.assertEqual(keep.read_bytes(),b'original')
                 self.assertEqual(patcher.status(game)['state'],'not_installed')
+    def test_uninstall_recovers_after_manifest_delete_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            game=Path(tmp)
+            with patch.object(patcher,'validate_game',return_value=game), patch.object(patcher,'build',return_value=(b'fixture',{})):
+                original=patcher.install(game)
+            real_unlink=Path.unlink
+            def fail_manifest(path,*args,**kwargs):
+                if path.name=='manifest.json':raise PermissionError('simulated sharing violation')
+                return real_unlink(path,*args,**kwargs)
+            with patch.object(Path,'unlink',fail_manifest):
+                with self.assertRaises(PermissionError):patcher.uninstall(game)
+            self.assertEqual(patcher.status(game),original)
+            self.assertEqual((patcher.addon_dir(game)/'ko-ui.uqm').read_bytes(),b'fixture')
+            self.assertEqual(patcher.uninstall(game),{'state':'not_installed'})
+
+    def test_uninstall_recovers_after_directory_removal_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            game=Path(tmp)
+            with patch.object(patcher,'validate_game',return_value=game), patch.object(patcher,'build',return_value=(b'fixture',{})):
+                original=patcher.install(game)
+            with patch.object(Path,'rmdir',side_effect=PermissionError('simulated directory lock')):
+                with self.assertRaises(PermissionError):patcher.uninstall(game)
+            self.assertEqual(patcher.status(game),original)
+
     def test_foreign_directory_is_preserved(self):
         with tempfile.TemporaryDirectory() as tmp:
             game=Path(tmp); target=patcher.addon_dir(game);target.mkdir(parents=True)

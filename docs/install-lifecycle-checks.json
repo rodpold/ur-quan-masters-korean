@@ -1,0 +1,45 @@
+{
+  "status": "isolated_real_build_lifecycle_passed",
+  "stages": [
+    {
+      "stage": "fresh_install",
+      "sha256": "606c943335c5a21b26e552d00ac4cdefcfb6c370346a06544c9dd5e764dce89d",
+      "result": "passed"
+    },
+    {
+      "stage": "idempotent_reinstall",
+      "result": "passed_no_owned_files_rewritten"
+    },
+    {
+      "stage": "update_larger_fixture_only",
+      "sha256": "87de6c9acc1b4aae1fde8890a533df13d8f7798ca1ede400ec49f9ebfa650fe1",
+      "result": "passed"
+    },
+    {
+      "stage": "uninstall_and_repeat",
+      "result": "passed_baseline_files_identical"
+    }
+  ],
+  "baseline_file_hashes": {
+    "audit-user-profile/uqm.cfg": "8939ea8ba41f449dcc54eab0f53b7df674f73002bbda8ed493e7bb55fd8e200f",
+    "audit-user-profile/uqmsave.00": "f1142d53c3ae7d4e283e2554560415266336386f9b2d93ebcdf8ac95f615da05",
+    "content/addons/audit-other-addon/keep.txt": "805e6b898378f645b0e7241781871c5b17e3384d8bde2fc83da9220cbb5cd316",
+    "content/addons/uqm-0.8.0-3domusic.uqm": "9191e843d959af54e3e14a3e3cabb7334176070bfbcd51822b6b39bd2d79b493",
+    "content/addons/uqm-0.8.0-voice.uqm": "9edbf51d77d8b533399c5f3afb549314a8210d7aab71ca2c51b4f24832337a45",
+    "content/packages/uqm-0.8.0-content.uqm": "ee730116f1a3d3f77689e7cbdfb26f43a1773d236db986dc0d47abf93b14e7d6",
+    "uqm.exe": "947ba59ce466175024125bfa57e3f4bbaf90cf3f57fc550968d53f83db7a1673"
+  },
+  "real_game_source_hashes": {
+    "uqm.exe": "947ba59ce466175024125bfa57e3f4bbaf90cf3f57fc550968d53f83db7a1673",
+    "content/packages/uqm-0.8.0-content.uqm": "ee730116f1a3d3f77689e7cbdfb26f43a1773d236db986dc0d47abf93b14e7d6",
+    "content/addons/uqm-0.8.0-voice.uqm": "9edbf51d77d8b533399c5f3afb549314a8210d7aab71ca2c51b4f24832337a45",
+    "content/addons/uqm-0.8.0-3domusic.uqm": "9191e843d959af54e3e14a3e3cabb7334176070bfbcd51822b6b39bd2d79b493"
+  },
+  "real_installed_addon_unchanged": true,
+  "limitations": [
+    "No game executable was launched.",
+    "Save/config preservation uses inert fixture files, not real user saves.",
+    "Does not certify cross-version migration, process-crash/power-loss recovery, or linguistic/runtime quality.",
+    "Larger UI is an existing experimental option used only to exercise a differing update package; it was not installed in the real game."
+  ]
+}

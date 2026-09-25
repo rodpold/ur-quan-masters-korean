@@ -424,9 +424,18 @@ def uninstall(game):
     if current['state'] == 'not_installed':
         return current
     target = addon_dir(game)
-    (target/'ko-ui.uqm').unlink()
-    (target/'manifest.json').unlink()
-    target.rmdir()
+    previous = [(target/name, (target/name).read_bytes()) for name in ['ko-ui.uqm','manifest.json']]
+    try:
+        for path, _ in previous:
+            path.unlink()
+        target.rmdir()
+    except OSError:
+        # A sharing/permission error must not strand a half-removed installation.
+        # Restore only missing owned files; never overwrite a newly present file.
+        for path, data in previous:
+            if not path.exists():
+                atomic_write(path, data)
+        raise
     return {'state':'not_installed'}
 
 def launch(game, test_config=None):
