@@ -6033,6 +6033,76 @@
         "base/gamestrings.txt"
       ],
       "notes": "장치 목록의 두 줄 표시용 명칭. 첫 공백에서 줄이 나뉜다. 기존 핵심 고유명사는 유지하며 대화의 문장형 설명을 강제로 치환하지 않는다."
+    },
+    {
+      "id": "material_aguuti_nodules",
+      "source": "Aguuti Nodules",
+      "ko": "아구티 결절",
+      "category": "resource_material",
+      "status": "in_use",
+      "ui_keys": [
+        "Aguuti Nodules"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "수집 자원 표시용 이름. Tzo는 기존 츠오를 유지한다. 신규 음역은 최종 승인 전 초안이며 게임의 가상 물질을 실제 과학적 사실로 해설하지 않는다."
+    },
+    {
+      "id": "material_charon_dust",
+      "source": "Charon Dust",
+      "ko": "카론 먼지",
+      "category": "resource_material",
+      "status": "in_use",
+      "ui_keys": [
+        "Charon Dust"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "수집 자원 표시용 이름. Tzo는 기존 츠오를 유지한다. 신규 음역은 최종 승인 전 초안이며 게임의 가상 물질을 실제 과학적 사실로 해설하지 않는다."
+    },
+    {
+      "id": "material_reisburg_helices",
+      "source": "Reisburg Helices",
+      "ko": "라이스버그 나선",
+      "category": "resource_material",
+      "status": "in_use",
+      "ui_keys": [
+        "Reisburg Helices"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "수집 자원 표시용 이름. Tzo는 기존 츠오를 유지한다. 신규 음역은 최종 승인 전 초안이며 게임의 가상 물질을 실제 과학적 사실로 해설하지 않는다."
+    },
+    {
+      "id": "material_tzo_crystals",
+      "source": "Tzo Crystals",
+      "ko": "츠오 결정",
+      "category": "resource_material",
+      "status": "in_use",
+      "ui_keys": [
+        "Tzo Crystals"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "수집 자원 표시용 이름. Tzo는 기존 츠오를 유지한다. 신규 음역은 최종 승인 전 초안이며 게임의 가상 물질을 실제 과학적 사실로 해설하지 않는다."
+    },
+    {
+      "id": "material_neutronium",
+      "source": "Neutronium",
+      "ko": "뉴트로늄",
+      "category": "resource_material",
+      "status": "in_use",
+      "ui_keys": [
+        "Neutronium"
+      ],
+      "audit_source_paths": [
+        "base/gamestrings.txt"
+      ],
+      "notes": "수집 자원 표시용 이름. Tzo는 기존 츠오를 유지한다. 신규 음역은 최종 승인 전 초안이며 게임의 가상 물질을 실제 과학적 사실로 해설하지 않는다."
     }
   ]
 }

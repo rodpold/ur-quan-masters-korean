@@ -5,8 +5,8 @@ from PIL import Image
 from inventory_text import blocks
 ROOT=Path(__file__).resolve().parents[1]
 
-def verify_elements(package,source):
-    spec=json.loads((ROOT/'translations/elements.ko.json').read_text(encoding='utf-8'))
+def verify_elements(package,source,spec_name='elements',expected_count=94):
+    spec=json.loads((ROOT/f'translations/{spec_name}.ko.json').read_text(encoding='utf-8'))
     raw=source.read(spec['source_path']);assert hashlib.sha256(raw).hexdigest()==spec['source_sha256']
     before=list(blocks(raw.decode()));after=list(blocks(package.read('ko/gamestrings.txt').decode()));rows=[]
     for i in range(spec['first_ordinal'],spec['last_ordinal']+1):
@@ -22,6 +22,10 @@ def verify_elements(package,source):
             widths.append(width)
         assert height<=7,(i,height)
         rows.append({'id':f'{i:04d}','ko':value,'widths':widths,'max_ink_height':height})
-    assert len(rows)==94
+    assert len(rows)==expected_count
     assert after[251][2]=='수은' and after[375][2]=='수성'
     return {'status':'static_passed_runtime_pending','records':len(rows),'labels':rows,'limitations':['Pickup location moves with lander; edge clipping requires runtime review.','No changes to pickup quantities or resource values.']}
+
+
+def verify_materials(package,source):
+    return verify_elements(package,source,'materials',39)

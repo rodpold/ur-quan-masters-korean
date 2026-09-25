@@ -1,0 +1,344 @@
+{
+  "status": "static_passed_runtime_pending",
+  "records": 39,
+  "labels": [
+    {
+      "id": "0266",
+      "ko": "오존",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0267",
+      "ko": "자유 라디칼",
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0268",
+      "ko": "이산화 탄소",
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0269",
+      "ko": "일산화 탄소",
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0270",
+      "ko": "암모니아",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0271",
+      "ko": "메테인",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0272",
+      "ko": "황산",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0273",
+      "ko": "염산",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0274",
+      "ko": "사이안화 수소산",
+      "widths": [
+        36,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0275",
+      "ko": "폼산",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0276",
+      "ko": "인산",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0277",
+      "ko": "폼알데하이드",
+      "widths": [
+        54
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0278",
+      "ko": "사이아노아세틸렌",
+      "widths": [
+        72
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0279",
+      "ko": "메탄올",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0280",
+      "ko": "에탄올",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0281",
+      "ko": "일산화 규소",
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0282",
+      "ko": "산화 타이타늄",
+      "widths": [
+        18,
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0283",
+      "ko": "산화 지르코늄",
+      "widths": [
+        18,
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0284",
+      "ko": "물",
+      "widths": [
+        9
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0285",
+      "ko": "규소 화합물",
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0286",
+      "ko": "금속 산화물",
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0287",
+      "ko": "양자 블랙홀",
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0288",
+      "ko": "뉴트로늄",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0289",
+      "ko": "자기 홀극",
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0290",
+      "ko": "축퇴 물질",
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0291",
+      "ko": "초유체",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0292",
+      "ko": "아구티 결절",
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0293",
+      "ko": "철 화합물",
+      "widths": [
+        9,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0294",
+      "ko": "알루미늄 화합물",
+      "widths": [
+        36,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0295",
+      "ko": "아산화 질소",
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0296",
+      "ko": "방사성 물질",
+      "widths": [
+        27,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0297",
+      "ko": "탄화수소",
+      "widths": [
+        36
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0298",
+      "ko": "탄소 화합물",
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0299",
+      "ko": "반물질",
+      "widths": [
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0300",
+      "ko": "카론 먼지",
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0301",
+      "ko": "라이스버그 나선",
+      "widths": [
+        45,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0302",
+      "ko": "츠오 결정",
+      "widths": [
+        18,
+        18
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0303",
+      "ko": "칼슘 화합물",
+      "widths": [
+        18,
+        27
+      ],
+      "max_ink_height": 7
+    },
+    {
+      "id": "0304",
+      "ko": "질산",
+      "widths": [
+        18
+      ],
+      "max_ink_height": 7
+    }
+  ],
+  "limitations": [
+    "Pickup location moves with lander; edge clipping requires runtime review.",
+    "No changes to pickup quantities or resource values."
+  ]
+}

@@ -22,9 +22,11 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_devices import verify_devices
         device_check = verify_devices(z, source)
         (patcher.ROOT/'docs/device-layout-checks.json').write_text(json.dumps(device_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-        from check_elements import verify_elements
+        from check_elements import verify_elements, verify_materials
         element_check = verify_elements(z, source)
         (patcher.ROOT/'docs/element-layout-checks.json').write_text(json.dumps(element_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        material_check = verify_materials(z, source)
+        (patcher.ROOT/'docs/material-layout-checks.json').write_text(json.dumps(material_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')
