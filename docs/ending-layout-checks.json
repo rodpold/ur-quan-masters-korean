@@ -1,0 +1,344 @@
+{
+  "status": "static_passed_runtime_pending",
+  "subtitles": [
+    {
+      "id": "0020",
+      "font": "slides",
+      "widths": [
+        104,
+        98
+      ]
+    },
+    {
+      "id": "0025",
+      "font": "slides",
+      "widths": [
+        149
+      ]
+    },
+    {
+      "id": "0030",
+      "font": "slides",
+      "widths": [
+        141,
+        115
+      ]
+    },
+    {
+      "id": "0035",
+      "font": "slides",
+      "widths": [
+        137,
+        131
+      ]
+    },
+    {
+      "id": "0040",
+      "font": "slides",
+      "widths": [
+        86,
+        95
+      ]
+    },
+    {
+      "id": "0045",
+      "font": "slides",
+      "widths": [
+        117,
+        171
+      ]
+    },
+    {
+      "id": "0050",
+      "font": "slides",
+      "widths": [
+        146,
+        98
+      ]
+    },
+    {
+      "id": "0055",
+      "font": "slides",
+      "widths": [
+        115,
+        126
+      ]
+    },
+    {
+      "id": "0060",
+      "font": "slides",
+      "widths": [
+        95,
+        89
+      ]
+    },
+    {
+      "id": "0065",
+      "font": "slides",
+      "widths": [
+        86,
+        75,
+        42
+      ]
+    },
+    {
+      "id": "0070",
+      "font": "slides",
+      "widths": [
+        139,
+        47
+      ]
+    },
+    {
+      "id": "0075",
+      "font": "slides",
+      "widths": [
+        128,
+        53
+      ]
+    },
+    {
+      "id": "0080",
+      "font": "slides",
+      "widths": [
+        106,
+        33,
+        84
+      ]
+    },
+    {
+      "id": "0085",
+      "font": "slides",
+      "widths": [
+        84,
+        86,
+        47
+      ]
+    },
+    {
+      "id": "0090",
+      "font": "slides",
+      "widths": [
+        195
+      ]
+    },
+    {
+      "id": "0095",
+      "font": "slides",
+      "widths": [
+        166,
+        53
+      ]
+    },
+    {
+      "id": "0105",
+      "font": "slides",
+      "widths": [
+        95,
+        106
+      ]
+    },
+    {
+      "id": "0110",
+      "font": "slides",
+      "widths": [
+        104,
+        97,
+        100
+      ]
+    },
+    {
+      "id": "0115",
+      "font": "slides",
+      "widths": [
+        159,
+        191
+      ]
+    },
+    {
+      "id": "0120",
+      "font": "slides",
+      "widths": [
+        117,
+        93
+      ]
+    },
+    {
+      "id": "0125",
+      "font": "slides",
+      "widths": [
+        137,
+        135
+      ]
+    },
+    {
+      "id": "0130",
+      "font": "slides",
+      "widths": [
+        159,
+        98
+      ]
+    },
+    {
+      "id": "0140",
+      "font": "slides",
+      "widths": [
+        106,
+        64,
+        53
+      ]
+    },
+    {
+      "id": "0145",
+      "font": "slides",
+      "widths": [
+        95,
+        106,
+        42
+      ]
+    },
+    {
+      "id": "0150",
+      "font": "slides",
+      "widths": [
+        135,
+        100
+      ]
+    },
+    {
+      "id": "0155",
+      "font": "slides",
+      "widths": [
+        128,
+        139,
+        100
+      ]
+    },
+    {
+      "id": "0160",
+      "font": "slides",
+      "widths": [
+        201,
+        131
+      ]
+    },
+    {
+      "id": "0165",
+      "font": "slides",
+      "widths": [
+        75,
+        146
+      ]
+    },
+    {
+      "id": "0170",
+      "font": "slides",
+      "widths": [
+        168,
+        191
+      ]
+    },
+    {
+      "id": "0175",
+      "font": "slides",
+      "widths": [
+        104,
+        115
+      ]
+    },
+    {
+      "id": "0180",
+      "font": "slides",
+      "widths": [
+        82
+      ]
+    },
+    {
+      "id": "0185",
+      "font": "slides",
+      "widths": [
+        188,
+        117,
+        84
+      ]
+    },
+    {
+      "id": "0190",
+      "font": "slides",
+      "widths": [
+        171,
+        53
+      ]
+    },
+    {
+      "id": "0201",
+      "font": "slides",
+      "widths": [
+        154,
+        85
+      ]
+    },
+    {
+      "id": "0206",
+      "font": "slides",
+      "widths": [
+        194
+      ]
+    },
+    {
+      "id": "0211",
+      "font": "slides",
+      "widths": [
+        161,
+        96
+      ]
+    },
+    {
+      "id": "0221",
+      "font": "slides",
+      "widths": [
+        99,
+        117
+      ]
+    },
+    {
+      "id": "0226",
+      "font": "slides",
+      "widths": [
+        158
+      ]
+    },
+    {
+      "id": "0231",
+      "font": "slides",
+      "widths": [
+        181,
+        95,
+        129
+      ]
+    },
+    {
+      "id": "0236",
+      "font": "slides",
+      "widths": [
+        214,
+        85
+      ]
+    },
+    {
+      "id": "0241",
+      "font": "slides",
+      "widths": [
+        195
+      ]
+    },
+    {
+      "id": "0251",
+      "font": "slides",
+      "widths": [
+        99,
+        89
+      ]
+    }
+  ]
+}

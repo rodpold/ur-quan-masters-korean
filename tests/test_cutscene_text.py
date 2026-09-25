@@ -1,6 +1,6 @@
 import hashlib
 import unittest
-from cutscene_text import compile_script
+from cutscene_text import compile_script, compile_ending_wrapper
 
 class CutsceneTests(unittest.TestCase):
     raw=b'#(time)\r\nSYNC 2000\r\n#(text)\r\nTFI First\r\nSecond\r\n\r\n#(end)\r\nWAIT 100\r\n'
@@ -18,5 +18,13 @@ class CutsceneTests(unittest.TestCase):
         for data in [{},{'0001':'첫째\n둘째','0002':'잘못'}]:
             spec=self.spec();spec['records']=data
             with self.assertRaises(ValueError):compile_script(self.raw,spec)
+
+class EndingWrapperTests(unittest.TestCase):
+    def test_only_final_call_is_redirected(self):
+        raw=b'#(a)\r\nCALL base/cutscene/ending/victory1.txt\r\n#(b)\r\nCALL base/cutscene/ending/final.txt\r\n'
+        spec={'wrapper_sha256':hashlib.sha256(raw).hexdigest()}
+        expected=raw.replace(b'CALL base/cutscene/ending/final.txt',b'CALL addons/test/ko/cutscene/ending/final.txt')
+        self.assertEqual(compile_ending_wrapper(raw,spec,'test'),expected)
+        with self.assertRaises(ValueError):compile_ending_wrapper(raw+b' ',spec,'test')
 
 if __name__=='__main__':unittest.main()

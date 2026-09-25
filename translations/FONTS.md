@@ -77,3 +77,5 @@ python tools/review_binary_fonts.py --game "게임 설치 디렉터리"
 font.lander에 Galmuri9 10px(10x9 잉크, 10x12 PNG)을 별도 연결했습니다. 한글은 가로 두 칸을 쓰고 첫 행·교대 행·페이지 안내 행을 확보합니다. 원본 영문 글리프는 보존합니다. 종족별 24종 배정 수에는 포함하지 않는 공통 보고용 글꼴입니다. [배치 원리와 검증 한계](../docs/REPORT_LAYOUT.md). 실기 검토 대기입니다.
 
 소개 슬라이드: 원본 starcon/slides ASCII를 보존하고 애드온의 starcon에는 기존 Galmuri7, slides에는 player 글꼴과 같은 Galmuri9 10px 래스터(9px 잉크/12px PNG)의 이진 알파 한글을 연결한다. 24개 종족 폰트 배정은 그대로다. 정적 폭 검사 및 실제 소개 재생 확인은 구분한다.
+
+최종 엔딩도 소개의 slides 글꼴을 공유한다. Galmuri9 흑백 한글과 원본 영문 글리프를 유지하며 새 외부 폰트는 추가하지 않는다.

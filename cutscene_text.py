@@ -44,3 +44,23 @@ def add_intro(entries,rmp,archive,spec,addon):
         if name.startswith('ko/fonts/player.fon/') and name.endswith('.png') and int(Path(name).stem,16)>127:
             entries[name.replace('/player.fon/','/slides.fon/')]=data
     rmp.append('slides.intro = STRTAB:ko/cutscene/intro/intro.txt')
+
+
+def load_ending():
+    return json.loads((ROOT/'translations/ending.ko.json').read_text(encoding='utf-8'))
+
+
+def compile_ending_wrapper(raw,spec,addon):
+    if hashlib.sha256(raw).hexdigest()!=spec['wrapper_sha256']:
+        raise ValueError('Ending wrapper hash mismatch')
+    old=b'CALL base/cutscene/ending/final.txt'
+    if raw.count(old)!=1:raise ValueError('Ending final CALL mismatch')
+    return raw.replace(old,f'CALL addons/{addon}/ko/cutscene/ending/final.txt'.encode())
+
+
+def add_ending(entries,rmp,archive,spec,addon):
+    # The shared slides glyphs are prepared by add_intro before this call.
+    entries['ko/cutscene/ending/final.txt']=compile_script(archive.read(spec['source_path']),spec,
+        {'FONT 0 base/fonts/slides.fon':f'FONT 0 addons/{addon}/ko/fonts/slides.fon'})
+    entries['ko/cutscene/ending/ending.txt']=compile_ending_wrapper(archive.read(spec['wrapper_path']),spec,addon)
+    rmp.append('slides.ending = STRTAB:ko/cutscene/ending/ending.txt')

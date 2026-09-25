@@ -4414,6 +4414,15 @@
       "status": "in_use",
       "notes": "조크-포트-피크 탐사선 항로 단서에서 도입. 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "mark_ii",
+      "source": "Mark II",
+      "ko": "마크 II",
+      "category": "ship",
+      "status": "in_use",
+      "notes": "최종 엔딩에서 손주가 언급하는 함선. II 표기를 유지하며 후속 이야기를 덧붙이지 않는다. 최종 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

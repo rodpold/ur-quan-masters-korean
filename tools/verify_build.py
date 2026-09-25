@@ -11,9 +11,11 @@ def verify(game, ui_font="compact", report_previews=None):
     assert patcher.build(game, ui_font)[0]==data,'Non-deterministic build'
     with ZipFile(io.BytesIO(data)) as z, ZipFile(Path(game)/patcher.SOURCE) as source:
         assert z.testzip() is None
-        from check_intro import verify_intro
+        from check_intro import verify_intro, verify_ending
         intro_check = verify_intro(z, source)
         (patcher.ROOT/'docs/intro-layout-checks.json').write_text(json.dumps(intro_check,indent=2)+'\n',encoding='utf-8')
+        ending_check = verify_ending(z, source)
+        (patcher.ROOT/'docs/ending-layout-checks.json').write_text(json.dumps(ending_check,indent=2)+'\n',encoding='utf-8')
         names=set(z.namelist())
         if ui_font == 'larger':
             table=z.read('ko/setupmenu.txt').decode('utf-8')
@@ -53,8 +55,9 @@ def verify(game, ui_font="compact", report_previews=None):
         required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
         for p in (patcher.ROOT/'translations/dialogue-voice').glob('*.ko.json'):
             required.update(c for value in json.loads(p.read_text(encoding='utf-8')).values() for c in value if ord(c)>127)
-        from cutscene_text import load_intro
+        from cutscene_text import load_intro, load_ending
         required.update(c for text in load_intro()['records'].values() for c in text if ord(c)>127)
+        required.update(c for text in load_ending()['records'].values() for c in text if ord(c)>127)
         reports = patcher.report_translations()
         if reports:
             assert any(line.startswith('font.lander = FONTRES:') for line in z.read('ko-ui.rmp').decode().splitlines()), 'Report font.lander override missing; fixed 6px cell rendering is not yet supported'
