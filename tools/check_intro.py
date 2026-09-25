@@ -49,7 +49,9 @@ def verify_slides(package,source,spec,expected_count,resource_remaps=None):
 
 def verify_intro(package,source):
     from cutscene_text import load_intro
-    return verify_slides(package,source,load_intro(),32)
+    from check_intro_titles import verify_intro_titles
+    verify_intro_titles(package,source)
+    return verify_slides(package,source,load_intro(),32,{'ANI base/cutscene/intro/title.ani':'ANI addons/uqm-korean-ui-poc/ko/cutscene/intro/title.ani'})
 
 
 def verify_ending(package,source):

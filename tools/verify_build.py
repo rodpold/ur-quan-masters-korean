@@ -45,6 +45,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_playmenu_headings import verify_playmenu_headings
         heading_check=verify_playmenu_headings(z, source)
         (patcher.ROOT/'docs/playmenu-heading-checks.json').write_text(json.dumps(heading_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_intro_titles import verify_intro_titles
+        titles_check=verify_intro_titles(z, source)
+        (patcher.ROOT/'docs/intro-title-checks.json').write_text(json.dumps(titles_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         from check_ending_card import verify_ending_card
         card_check=verify_ending_card(z, source)
         (patcher.ROOT/'docs/ending-card-checks.json').write_text(json.dumps(card_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

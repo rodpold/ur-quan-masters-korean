@@ -1,0 +1,60 @@
+{
+  "status": "draft_runtime_pending_with_unreferenced_asset",
+  "source_ani": "base/cutscene/intro/title.ani",
+  "ani_sha256": "747514f6a7f2dea8231fed97aaca9cd6bb2314d1dbb9f3647231a6295dbfb77a",
+  "rows": [
+    {
+      "source_path": "base/cutscene/intro/title-001.png",
+      "source_sha256": "648d43c3b9595c4c235b6636e856fbb06468351561eefdb827e21d7bd6c630a9",
+      "size": [
+        320,
+        200
+      ],
+      "font": "Galmuri11",
+      "raster_px": 12,
+      "regions": [
+        {
+          "box": [
+            110,
+            142,
+            102,
+            17
+          ],
+          "text": "제공"
+        }
+      ],
+      "usage": "active_intro_frame"
+    },
+    {
+      "source_path": "base/cutscene/intro/title-004.png",
+      "source_sha256": "9645f7ef486eb3e4d238ae97a0a7c723fc702ca93fa7909e543c5ec3d2802fa1",
+      "size": [
+        311,
+        7
+      ],
+      "font": "Galmuri7",
+      "raster_px": 8,
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            22,
+            7
+          ],
+          "text": "제작"
+        },
+        {
+          "box": [
+            172,
+            0,
+            36,
+            7
+          ],
+          "text": "·"
+        }
+      ],
+      "usage": "unreferenced_asset_prepared_only"
+    }
+  ]
+}

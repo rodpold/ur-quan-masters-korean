@@ -35,6 +35,8 @@ def compile_script(raw,spec,font_paths=None):
 def add_intro(entries,rmp,archive,spec,addon):
     paths={'FONT 0 base/fonts/starcon.fon':f'FONT 0 addons/{addon}/ko/fonts/starcon.fon',
            'FONT 1 base/fonts/slides.fon':f'FONT 1 addons/{addon}/ko/fonts/slides.fon'}
+    from intro_titles import add_titles
+    paths.update(add_titles(entries,archive,addon))
     entries['ko/cutscene/intro/intro.txt']=compile_script(archive.read(spec['source_path']),spec,paths)
     prefix='base/fonts/slides.fon/'
     for name in archive.namelist():

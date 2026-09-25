@@ -5,10 +5,11 @@
   "spin_pngs": 3,
   "review_states": {
     "art_or_numeric_animation_no_language_text_observed": 239,
-    "embedded_text_pending": 2,
+    "generated_korean_connector_logo_preserved_runtime_pending": 1,
     "generated_korean_title_runtime_pending": 1,
     "no_obvious_language_text_in_viewed_image": 17,
-    "preserve_product_logo": 2
+    "preserve_product_logo": 2,
+    "unreferenced_creator_asset_translated_not_activated": 1
   },
   "limitations": [
     "Hashes and dimensions verify source identity and coverage, not human review accuracy.",

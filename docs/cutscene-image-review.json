@@ -161,8 +161,8 @@
         320,
         200
       ],
-      "status": "embedded_text_pending",
-      "notes": "IFL / INTERSTELLAR FRUNGY LEAGUE 로고 및 PRESENTS. 로고 정체성과 소개 문구를 구분할 것."
+      "status": "generated_korean_connector_logo_preserved_runtime_pending",
+      "notes": "PRESENTS를 제공으로 번역. IFL/INTERSTELLAR FRUNGY LEAGUE 회사 정체성 로고는 원본 그림 보존."
     },
     {
       "source_path": "base/cutscene/intro/title-002.png",
@@ -191,8 +191,8 @@
         311,
         7
       ],
-      "status": "embedded_text_pending",
-      "notes": "BY PAUL REICHE III AND FRED FORD. 인명을 유지하면서 연결 문구 번역 검토."
+      "status": "unreferenced_creator_asset_translated_not_activated",
+      "notes": "BY/AND를 제작/·로 번역하고 제작자 이름 픽셀 보존. 기본 패키지 ANI/TXT/RMP 어디에도 이 파일 참조를 발견하지 못해 새 연결을 만들지 않음."
     },
     {
       "source_path": "base/cutscene/ending/victory2-000.png",
@@ -2617,7 +2617,6 @@
   ],
   "review_method": "Human visual inspection of source PNG contact sheets; small victory fragments enlarged with nearest-neighbor scaling up to 12x; spin pictures also inspected individually. No OCR or playback claim.",
   "remaining_scope": [
-    "Two intro title images still contain unlocalized connector text.",
     "LPF containers, other asset groups and runtime/composited playback are not certified by this PNG review.",
     "Linked translated images still require in-game review."
   ]

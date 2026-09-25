@@ -1,0 +1,10 @@
+{
+  "status": "static_passed_runtime_pending",
+  "active_image_captions": 1,
+  "unreferenced_creator_asset_prepared": 1,
+  "preserved": "IFL identity/logo, product logo, original creator name pixels, ANI order and script timing",
+  "limitations": [
+    "title-004 has no discovered installed source reference; the patch does not activate it.",
+    "Actual intro playback needs runtime review."
+  ]
+}
