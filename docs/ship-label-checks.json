@@ -1,7 +1,9 @@
 {
-  "status": "partial_draft_static_passed_runtime_pending",
+  "status": "draft_static_passed_runtime_pending",
   "translated_labels": 125,
-  "pending_captain_names": 403,
+  "translated_captain_names": 371,
+  "preserved_captain_identifiers": 32,
+  "pending_captain_names": 0,
   "records": [
     {
       "source_path": "base/ships/androsynth/guardian.txt",
@@ -50,6 +52,166 @@
       "widths": {
         "starcon": 27,
         "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0005",
+      "ko": "BOOJI-1",
+      "widths": {
+        "starcon": 42,
+        "tiny": 32,
+        "micro": 51
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0006",
+      "ko": "DORN-3",
+      "widths": {
+        "starcon": 44,
+        "tiny": 28,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0007",
+      "ko": "BIM-XT",
+      "widths": {
+        "starcon": 42,
+        "tiny": 30,
+        "micro": 50
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0008",
+      "ko": "JOR-15",
+      "widths": {
+        "starcon": 38,
+        "tiny": 28,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0009",
+      "ko": "976-KILL",
+      "widths": {
+        "starcon": 48,
+        "tiny": 37,
+        "micro": 59
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0010",
+      "ko": "KORB-7B",
+      "widths": {
+        "starcon": 53,
+        "tiny": 33,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0011",
+      "ko": "XR4-TI",
+      "widths": {
+        "starcon": 39,
+        "tiny": 29,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0012",
+      "ko": "CRC-16",
+      "widths": {
+        "starcon": 39,
+        "tiny": 28,
+        "micro": 48
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0013",
+      "ko": "BHS-79",
+      "widths": {
+        "starcon": 42,
+        "tiny": 28,
+        "micro": 51
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0014",
+      "ko": "DOS-1.0",
+      "widths": {
+        "starcon": 41,
+        "tiny": 30,
+        "micro": 50
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0015",
+      "ko": "ME-262",
+      "widths": {
+        "starcon": 40,
+        "tiny": 29,
+        "micro": 53
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0016",
+      "ko": "AK-47",
+      "widths": {
+        "starcon": 32,
+        "tiny": 23,
+        "micro": 44
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0017",
+      "ko": "1040-EZ",
+      "widths": {
+        "starcon": 43,
+        "tiny": 33,
+        "micro": 54
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0018",
+      "ko": "NECRO-99",
+      "widths": {
+        "starcon": 56,
+        "tiny": 38,
+        "micro": 69
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0019",
+      "ko": "HAL-2001",
+      "widths": {
+        "starcon": 49,
+        "tiny": 38,
+        "micro": 66
+      }
+    },
+    {
+      "source_path": "base/ships/androsynth/guardian.txt",
+      "id": "0020",
+      "ko": "SR-71",
+      "widths": {
+        "starcon": 33,
+        "tiny": 23,
         "micro": 39
       }
     },
@@ -104,6 +266,166 @@
       }
     },
     {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0005",
+      "ko": "페팔루",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0006",
+      "ko": "베자부",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0007",
+      "ko": "팁투시",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0008",
+      "ko": "메리펍",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0009",
+      "ko": "팅카포",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0010",
+      "ko": "파투티",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0011",
+      "ko": "티피윌로",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0012",
+      "ko": "롤릴루",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0013",
+      "ko": "루이푸이",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0014",
+      "ko": "피니위니",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0015",
+      "ko": "우베이브",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0016",
+      "ko": "딩덥",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0017",
+      "ko": "웨왈리아",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0018",
+      "ko": "입야피",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0019",
+      "ko": "로필럽",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/arilou/skiff.txt",
+      "id": "0020",
+      "ko": "월왈리",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
       "source_path": "base/ships/chenjesu/broodhome.txt",
       "id": "0000",
       "ko": "첸제수",
@@ -151,6 +473,166 @@
         "starcon": 36,
         "tiny": 36,
         "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0005",
+      "ko": "크자크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0006",
+      "ko": "츠로우",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0007",
+      "ko": "즈므즘",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0008",
+      "ko": "브지지즈",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0009",
+      "ko": "흠흠",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0010",
+      "ko": "브즈라크",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0011",
+      "ko": "크르츠즈",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0012",
+      "ko": "즈즈즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0013",
+      "ko": "즈크자크즈",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0014",
+      "ko": "브르잡",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0015",
+      "ko": "차프라크",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0016",
+      "ko": "프즈크라크즈",
+      "widths": {
+        "starcon": 54,
+        "tiny": 54,
+        "micro": 78
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0017",
+      "ko": "프즈즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0018",
+      "ko": "브로우",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0019",
+      "ko": "즈나즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chenjesu/broodhome.txt",
+      "id": "0020",
+      "ko": "즈즈흠",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
       }
     },
     {
@@ -204,6 +686,166 @@
       }
     },
     {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0005",
+      "ko": "므느즈그크",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0006",
+      "ko": "츠즈르믄",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0007",
+      "ko": "브즈트름",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0008",
+      "ko": "즈른즈르크",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0009",
+      "ko": "츠즈크른",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0010",
+      "ko": "크즈른",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0011",
+      "ko": "브즈르즌",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0012",
+      "ko": "크른츠",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0013",
+      "ko": "르믄즈크",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0014",
+      "ko": "스즈므른즈",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0015",
+      "ko": "즈브즌",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0016",
+      "ko": "프른크즈크",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0017",
+      "ko": "프름츠즈",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0018",
+      "ko": "츠르츠즌",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0019",
+      "ko": "크즈츠츠",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/chmmr/avatar.txt",
+      "id": "0020",
+      "ko": "므른크즈트",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
       "source_path": "base/ships/druuge/mauler.txt",
       "id": "0000",
       "ko": "드루지",
@@ -247,6 +889,166 @@
       "source_path": "base/ships/druuge/mauler.txt",
       "id": "0004",
       "ko": "몰러",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0005",
+      "ko": "투가",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0006",
+      "ko": "시누르",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0007",
+      "ko": "카포",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0008",
+      "ko": "주글",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0009",
+      "ko": "파토",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0010",
+      "ko": "피조",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0011",
+      "ko": "마드",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0012",
+      "ko": "물라",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0013",
+      "ko": "쿨리",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0014",
+      "ko": "파주르",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0015",
+      "ko": "주토",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0016",
+      "ko": "비투르",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0017",
+      "ko": "둘라드",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0018",
+      "ko": "피니",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0019",
+      "ko": "수피",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/druuge/mauler.txt",
+      "id": "0020",
+      "ko": "피루",
       "widths": {
         "starcon": 18,
         "tiny": 18,
@@ -304,6 +1106,166 @@
       }
     },
     {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0005",
+      "ko": "데커",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0006",
+      "ko": "트렌트",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0007",
+      "ko": "아다마",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0008",
+      "ko": "스피프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0009",
+      "ko": "그레임",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0010",
+      "ko": "커크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0011",
+      "ko": "파이크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0012",
+      "ko": "할렉",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0013",
+      "ko": "터프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0014",
+      "ko": "피륵스",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0015",
+      "ko": "우",
+      "widths": {
+        "starcon": 9,
+        "tiny": 9,
+        "micro": 13
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0016",
+      "ko": "반레인",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0017",
+      "ko": "엔더",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0018",
+      "ko": "버크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0019",
+      "ko": "솔로",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/human/cruiser.txt",
+      "id": "0020",
+      "ko": "벨트",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
       "source_path": "base/ships/ilwrath/avenger.txt",
       "id": "0000",
       "ko": "일라스",
@@ -347,6 +1309,166 @@
       "source_path": "base/ships/ilwrath/avenger.txt",
       "id": "0004",
       "ko": "어벤저",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0005",
+      "ko": "고르곤",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0006",
+      "ko": "타라곤",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0007",
+      "ko": "칼곤",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0008",
+      "ko": "보르고",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0009",
+      "ko": "디르가",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0010",
+      "ko": "슬라이고르",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0011",
+      "ko": "로가시",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0012",
+      "ko": "아르가라크",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0013",
+      "ko": "케이자르",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0014",
+      "ko": "베일러",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0015",
+      "ko": "조가크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0016",
+      "ko": "타르가",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0017",
+      "ko": "보가르",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0018",
+      "ko": "루르고",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0019",
+      "ko": "레고르조",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/ilwrath/avenger.txt",
+      "id": "0020",
+      "ko": "맹글러",
       "widths": {
         "starcon": 27,
         "tiny": 27,
@@ -404,6 +1526,166 @@
       }
     },
     {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0005",
+      "ko": "죽음 11",
+      "widths": {
+        "starcon": 32,
+        "tiny": 32,
+        "micro": 43
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0006",
+      "ko": "죽음 17",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0007",
+      "ko": "죽음 37",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0008",
+      "ko": "죽음 23",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0009",
+      "ko": "죽음 7",
+      "widths": {
+        "starcon": 30,
+        "tiny": 27,
+        "micro": 41
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0010",
+      "ko": "죽음 13",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0011",
+      "ko": "죽음 19",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0012",
+      "ko": "죽음 29",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0013",
+      "ko": "죽음 31",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0014",
+      "ko": "죽음 41",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0015",
+      "ko": "죽음 43",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0016",
+      "ko": "죽음 3",
+      "widths": {
+        "starcon": 30,
+        "tiny": 27,
+        "micro": 41
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0017",
+      "ko": "죽음 5",
+      "widths": {
+        "starcon": 30,
+        "tiny": 27,
+        "micro": 41
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0018",
+      "ko": "죽음 47",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0019",
+      "ko": "죽음 53",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/kohrah/marauder.txt",
+      "id": "0020",
+      "ko": "죽음 83",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
       "source_path": "base/ships/melnorme/trader.txt",
       "id": "0000",
       "ko": "멜노름",
@@ -451,6 +1733,166 @@
         "starcon": 36,
         "tiny": 36,
         "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0005",
+      "ko": "레디시",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0006",
+      "ko": "오렌지",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0007",
+      "ko": "아쿠아",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0008",
+      "ko": "크림슨",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0009",
+      "ko": "마젠타",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0010",
+      "ko": "체루즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0011",
+      "ko": "베이지",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0012",
+      "ko": "푸크시아",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0013",
+      "ko": "엄버",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0014",
+      "ko": "세리즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0015",
+      "ko": "모브",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0016",
+      "ko": "그레이시",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0017",
+      "ko": "옐로",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0018",
+      "ko": "블랙",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0019",
+      "ko": "블루이시",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/melnorme/trader.txt",
+      "id": "0020",
+      "ko": "퍼플",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
       }
     },
     {
@@ -504,6 +1946,166 @@
       }
     },
     {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0005",
+      "ko": "키르-느하",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0006",
+      "ko": "제-키르",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0007",
+      "ko": "콰-르나",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0008",
+      "ko": "믄-콰",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0009",
+      "ko": "느르나-므하",
+      "widths": {
+        "starcon": 51,
+        "tiny": 48,
+        "micro": 73
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0010",
+      "ko": "움-흐르",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0011",
+      "ko": "흐므-느허",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0012",
+      "ko": "르마-흐른",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0013",
+      "ko": "즈라-느르",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0014",
+      "ko": "우르-므프르스",
+      "widths": {
+        "starcon": 60,
+        "tiny": 57,
+        "micro": 86
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0015",
+      "ko": "콰-키르",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0016",
+      "ko": "므름-나",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0017",
+      "ko": "제-므흐르",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0018",
+      "ko": "흐므르-훈",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0019",
+      "ko": "느허-나",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/mmrnmhrm/xform.txt",
+      "id": "0020",
+      "ko": "흐른므-흠",
+      "widths": {
+        "starcon": 42,
+        "tiny": 39,
+        "micro": 60
+      }
+    },
+    {
       "source_path": "base/ships/mycon/podship.txt",
       "id": "0000",
       "ko": "마이콘",
@@ -547,6 +2149,166 @@
       "source_path": "base/ships/mycon/podship.txt",
       "id": "0004",
       "ko": "포드십",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0005",
+      "ko": "블로트",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0006",
+      "ko": "처프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0007",
+      "ko": "플루스",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0008",
+      "ko": "글리시",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0009",
+      "ko": "글롭",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0010",
+      "ko": "글러시",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0011",
+      "ko": "플로크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0012",
+      "ko": "슐리시",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0013",
+      "ko": "슐러프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0014",
+      "ko": "슬링기",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0015",
+      "ko": "스플루조",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0016",
+      "ko": "스포크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0017",
+      "ko": "우포",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0018",
+      "ko": "유시",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0019",
+      "ko": "잘루프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/mycon/podship.txt",
+      "id": "0020",
+      "ko": "즈너프",
       "widths": {
         "starcon": 27,
         "tiny": 27,
@@ -604,6 +2366,166 @@
       }
     },
     {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0005",
+      "ko": "*젖은*",
+      "widths": {
+        "starcon": 30,
+        "tiny": 26,
+        "micro": 42
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0006",
+      "ko": "*행복한*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0007",
+      "ko": "*프럼플*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0008",
+      "ko": "*야영자*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0009",
+      "ko": "*외톨이*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0010",
+      "ko": "*춤꾼*",
+      "widths": {
+        "starcon": 30,
+        "tiny": 26,
+        "micro": 42
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0011",
+      "ko": "*노래꾼*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0012",
+      "ko": "*무거운*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0013",
+      "ko": "*새 소년*",
+      "widths": {
+        "starcon": 45,
+        "tiny": 39,
+        "micro": 62
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0014",
+      "ko": "*뚱뚱한 재미*",
+      "widths": {
+        "starcon": 63,
+        "tiny": 57,
+        "micro": 88
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0015",
+      "ko": "*고추*",
+      "widths": {
+        "starcon": 30,
+        "tiny": 26,
+        "micro": 42
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0016",
+      "ko": "*배고픈*",
+      "widths": {
+        "starcon": 39,
+        "tiny": 35,
+        "micro": 55
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0017",
+      "ko": "*깊은*",
+      "widths": {
+        "starcon": 30,
+        "tiny": 26,
+        "micro": 42
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0018",
+      "ko": "*냄새 맡다*",
+      "widths": {
+        "starcon": 54,
+        "tiny": 48,
+        "micro": 75
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0019",
+      "ko": "*즙*",
+      "widths": {
+        "starcon": 21,
+        "tiny": 17,
+        "micro": 29
+      }
+    },
+    {
+      "source_path": "base/ships/orz/nemesis.txt",
+      "id": "0020",
+      "ko": "*뿜기*",
+      "widths": {
+        "starcon": 30,
+        "tiny": 26,
+        "micro": 42
+      }
+    },
+    {
       "source_path": "base/ships/pkunk/fury.txt",
       "id": "0000",
       "ko": "프쿤크",
@@ -654,6 +2576,166 @@
       }
     },
     {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0005",
+      "ko": "오키",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0006",
+      "ko": "트위티",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0007",
+      "ko": "우드스톡",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0008",
+      "ko": "포피",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0009",
+      "ko": "브라키",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0010",
+      "ko": "후터",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0011",
+      "ko": "버저드",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0012",
+      "ko": "폴리",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0013",
+      "ko": "어니",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0014",
+      "ko": "욤핀",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0015",
+      "ko": "퍼지",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0016",
+      "ko": "레이븐",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0017",
+      "ko": "크로",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0018",
+      "ko": "제이",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0019",
+      "ko": "스크리치",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/pkunk/fury.txt",
+      "id": "0020",
+      "ko": "트위터",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
       "source_path": "base/ships/shofixti/scout.txt",
       "id": "0000",
       "ko": "쇼픽스티",
@@ -697,6 +2779,186 @@
       "source_path": "base/ships/shofixti/scout.txt",
       "id": "0004",
       "ko": "정찰선",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0005",
+      "ko": "히야타",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0006",
+      "ko": "와사베",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0007",
+      "ko": "쿠즈",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0008",
+      "ko": "이치반",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0009",
+      "ko": "본사이!",
+      "widths": {
+        "starcon": 30,
+        "tiny": 29,
+        "micro": 42
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0010",
+      "ko": "겐지로",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0011",
+      "ko": "긴즈",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0012",
+      "ko": "부스",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0013",
+      "ko": "가이진",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0014",
+      "ko": "다이콘",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0015",
+      "ko": "스시",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0016",
+      "ko": "나니나니",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0017",
+      "ko": "침침",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0018",
+      "ko": "토라-3",
+      "widths": {
+        "starcon": 30,
+        "tiny": 26,
+        "micro": 42
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0019",
+      "ko": "두부",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0020",
+      "ko": "킴바",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0021",
+      "ko": "타나카",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/shofixti/scout.txt",
+      "id": "0022",
+      "ko": "카타나",
       "widths": {
         "starcon": 27,
         "tiny": 27,
@@ -754,6 +3016,166 @@
       }
     },
     {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0005",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0006",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0007",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0008",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0009",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0010",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0011",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0012",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0013",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0014",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0015",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0016",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0017",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0018",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0019",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/slylandro/probe.txt",
+      "id": "0020",
+      "ko": "2418-B",
+      "widths": {
+        "starcon": 37,
+        "tiny": 28,
+        "micro": 46
+      }
+    },
+    {
       "source_path": "base/ships/spathi/eluder.txt",
       "id": "0000",
       "ko": "스파시",
@@ -797,6 +3219,176 @@
       "source_path": "base/ships/spathi/eluder.txt",
       "id": "0004",
       "ko": "일루더",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0005",
+      "ko": "스윌",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0006",
+      "ko": "프와피",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0007",
+      "ko": "프위프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0008",
+      "ko": "위피",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0009",
+      "ko": "플리브니크",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0010",
+      "ko": "스너펠",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0011",
+      "ko": "크윔프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0012",
+      "ko": "프쿤키",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0013",
+      "ko": "진키즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0014",
+      "ko": "신토",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0015",
+      "ko": "루파텁",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0016",
+      "ko": "나글",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0017",
+      "ko": "플렌도",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0018",
+      "ko": "스넬로피",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0019",
+      "ko": "브윙킨",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0020",
+      "ko": "워프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/spathi/eluder.txt",
+      "id": "0021",
+      "ko": "프위포",
       "widths": {
         "starcon": 27,
         "tiny": 27,
@@ -854,6 +3446,166 @@
       }
     },
     {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0005",
+      "ko": "트리피드",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0006",
+      "ko": "크리노이드",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0007",
+      "ko": "파리지옥",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0008",
+      "ko": "엉겅퀴",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0009",
+      "ko": "담쟁이",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0010",
+      "ko": "새싹",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0011",
+      "ko": "잔가지",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0012",
+      "ko": "뿌리",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0013",
+      "ko": "가지",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0014",
+      "ko": "가시",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0015",
+      "ko": "나무껍질",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0016",
+      "ko": "꽃봉오리",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0017",
+      "ko": "견과",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0018",
+      "ko": "줄기",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0019",
+      "ko": "가시덤불",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/supox/blade.txt",
+      "id": "0020",
+      "ko": "덤불",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
       "source_path": "base/ships/syreen/penetrator.txt",
       "id": "0000",
       "ko": "시린",
@@ -901,6 +3653,166 @@
         "starcon": 54,
         "tiny": 54,
         "micro": 78
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0005",
+      "ko": "틸라",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0006",
+      "ko": "데자",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0007",
+      "ko": "페니",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0008",
+      "ko": "알리아",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0009",
+      "ko": "벨리트",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0010",
+      "ko": "리플리",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0011",
+      "ko": "야르",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0012",
+      "ko": "아르달라",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0013",
+      "ko": "스파르타",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0014",
+      "ko": "먼로",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0015",
+      "ko": "대닝",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0016",
+      "ko": "브론",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0017",
+      "ko": "마야",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0018",
+      "ko": "아엘리타",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0019",
+      "ko": "알루라",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/syreen/penetrator.txt",
+      "id": "0020",
+      "ko": "데일",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
       }
     },
     {
@@ -954,6 +3866,166 @@
       }
     },
     {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0005",
+      "ko": "드퉁크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0006",
+      "ko": "바르다트",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0007",
+      "ko": "즈농크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0008",
+      "ko": "므넘프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0009",
+      "ko": "브롱크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0010",
+      "ko": "스멉",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0011",
+      "ko": "그룰크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0012",
+      "ko": "호른크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0013",
+      "ko": "크나르그",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0014",
+      "ko": "드룰그",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0015",
+      "ko": "드가코",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0016",
+      "ko": "즈노크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0017",
+      "ko": "크왐프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0018",
+      "ko": "프캉크",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0019",
+      "ko": "프덤프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/thraddash/torch.txt",
+      "id": "0020",
+      "ko": "웜프스",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
       "source_path": "base/ships/umgah/drone.txt",
       "id": "0000",
       "ko": "움가",
@@ -1001,6 +4073,166 @@
         "starcon": 18,
         "tiny": 18,
         "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0005",
+      "ko": "줄그카",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0006",
+      "ko": "기브조",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0007",
+      "ko": "바구키",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0008",
+      "ko": "오구케",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0009",
+      "ko": "그와페",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0010",
+      "ko": "체제프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0011",
+      "ko": "즈노르키",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0012",
+      "ko": "밥",
+      "widths": {
+        "starcon": 9,
+        "tiny": 9,
+        "micro": 13
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0013",
+      "ko": "크위코",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0014",
+      "ko": "에이에이오",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0015",
+      "ko": "브루즈크",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0016",
+      "ko": "프루쿠",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0017",
+      "ko": "오바르기",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0018",
+      "ko": "크테르비아",
+      "widths": {
+        "starcon": 45,
+        "tiny": 45,
+        "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0019",
+      "ko": "추페",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/umgah/drone.txt",
+      "id": "0020",
+      "ko": "이부바",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
       }
     },
     {
@@ -1054,6 +4286,166 @@
       }
     },
     {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0005",
+      "ko": "군주 999",
+      "widths": {
+        "starcon": 42,
+        "tiny": 37,
+        "micro": 57
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0006",
+      "ko": "군주 342",
+      "widths": {
+        "starcon": 42,
+        "tiny": 37,
+        "micro": 57
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0007",
+      "ko": "군주 88",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0008",
+      "ko": "군주 156",
+      "widths": {
+        "starcon": 40,
+        "tiny": 37,
+        "micro": 54
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0009",
+      "ko": "군주 43",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0010",
+      "ko": "군주 412",
+      "widths": {
+        "starcon": 40,
+        "tiny": 37,
+        "micro": 54
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0011",
+      "ko": "군주 666",
+      "widths": {
+        "starcon": 42,
+        "tiny": 37,
+        "micro": 57
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0012",
+      "ko": "군주 18",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0013",
+      "ko": "군주 237",
+      "widths": {
+        "starcon": 42,
+        "tiny": 37,
+        "micro": 57
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0014",
+      "ko": "군주 89",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0015",
+      "ko": "군주 3",
+      "widths": {
+        "starcon": 30,
+        "tiny": 27,
+        "micro": 41
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0016",
+      "ko": "군주 476",
+      "widths": {
+        "starcon": 42,
+        "tiny": 37,
+        "micro": 57
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0017",
+      "ko": "군주 103",
+      "widths": {
+        "starcon": 40,
+        "tiny": 37,
+        "micro": 54
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0018",
+      "ko": "군주 783",
+      "widths": {
+        "starcon": 42,
+        "tiny": 37,
+        "micro": 57
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0019",
+      "ko": "군주 52",
+      "widths": {
+        "starcon": 36,
+        "tiny": 32,
+        "micro": 49
+      }
+    },
+    {
+      "source_path": "base/ships/urquan/dreadnought.txt",
+      "id": "0020",
+      "ko": "군주 21",
+      "widths": {
+        "starcon": 34,
+        "tiny": 32,
+        "micro": 46
+      }
+    },
+    {
       "source_path": "base/ships/utwig/jugger.txt",
       "id": "0000",
       "ko": "우트위그",
@@ -1101,6 +4493,166 @@
         "starcon": 18,
         "tiny": 18,
         "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0005",
+      "ko": "엔도",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0006",
+      "ko": "베르미",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0007",
+      "ko": "매니",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0008",
+      "ko": "우테르",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0009",
+      "ko": "네르고",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0010",
+      "ko": "사미",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0011",
+      "ko": "두나",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0012",
+      "ko": "프란",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0013",
+      "ko": "크리스크",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0014",
+      "ko": "로로로",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0015",
+      "ko": "스눈",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0016",
+      "ko": "네스토르",
+      "widths": {
+        "starcon": 36,
+        "tiny": 36,
+        "micro": 52
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0017",
+      "ko": "러그",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0018",
+      "ko": "토리",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0019",
+      "ko": "주주비",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/utwig/jugger.txt",
+      "id": "0020",
+      "ko": "에로그",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
       }
     },
     {
@@ -1154,6 +4706,166 @@
       }
     },
     {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0005",
+      "ko": "지크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0006",
+      "ko": "푸즈",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0007",
+      "ko": "주크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0008",
+      "ko": "비프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0009",
+      "ko": "지트",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0010",
+      "ko": "유크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0011",
+      "ko": "다크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0012",
+      "ko": "즈른",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0013",
+      "ko": "피프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0014",
+      "ko": "피즈",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0015",
+      "ko": "퍼프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0016",
+      "ko": "주프",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0017",
+      "ko": "느르프",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0018",
+      "ko": "조그",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0019",
+      "ko": "오르즈",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/vux/intruder.txt",
+      "id": "0020",
+      "ko": "제크",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
       "source_path": "base/ships/yehat/terminator.txt",
       "id": "0000",
       "ko": "예하트",
@@ -1201,6 +4913,166 @@
         "starcon": 45,
         "tiny": 45,
         "micro": 65
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0005",
+      "ko": "힙-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0006",
+      "ko": "피프-입",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0007",
+      "ko": "립-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0008",
+      "ko": "입-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0009",
+      "ko": "빕-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0010",
+      "ko": "이입-입",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0011",
+      "ko": "밉-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0012",
+      "ko": "팁-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0013",
+      "ko": "집-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0014",
+      "ko": "립-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0015",
+      "ko": "핍-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0016",
+      "ko": "윕-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0017",
+      "ko": "비프-입",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0018",
+      "ko": "깁-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0019",
+      "ko": "지프-입",
+      "widths": {
+        "starcon": 33,
+        "tiny": 30,
+        "micro": 47
+      }
+    },
+    {
+      "source_path": "base/ships/yehat/terminator.txt",
+      "id": "0020",
+      "ko": "닙-입",
+      "widths": {
+        "starcon": 24,
+        "tiny": 21,
+        "micro": 34
       }
     },
     {
@@ -1252,11 +5124,171 @@
         "tiny": 27,
         "micro": 39
       }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0005",
+      "ko": "닉낙",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0006",
+      "ko": "핍팟",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0007",
+      "ko": "딥팍",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0008",
+      "ko": "팻폿",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0009",
+      "ko": "직팻",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0010",
+      "ko": "푹요르",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0011",
+      "ko": "톱닉",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0012",
+      "ko": "포르쿠",
+      "widths": {
+        "starcon": 27,
+        "tiny": 27,
+        "micro": 39
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0013",
+      "ko": "틱탁",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0014",
+      "ko": "린틴",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0015",
+      "ko": "핏팹",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0016",
+      "ko": "톳토",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0017",
+      "ko": "집작",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0018",
+      "ko": "틱톡",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0019",
+      "ko": "믹목",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
+    },
+    {
+      "source_path": "base/ships/zoqfotpik/stinger.txt",
+      "id": "0020",
+      "ko": "식속",
+      "widths": {
+        "starcon": 18,
+        "tiny": 18,
+        "micro": 26
+      }
     }
   ],
   "limitations": [
     "Index 1 uses the project conservative 54px sidebar budget; other contexts require runtime review.",
-    "Original captain names are still untranslated, not exempted from the full goal.",
+    "Captain name widths use a 60px budget within the source 64px status area; linguistic and runtime review remain.",
     "Source saves store captain indices; save compatibility still needs in-game verification."
   ]
 }

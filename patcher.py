@@ -338,7 +338,7 @@ def build(game, ui_font="compact"):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'ship_label_records':sum(len(r['records']) for r in ships['resources']),'intro_records':len(intro['records']), 'ending_records':len(ending['records']), 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'ship_label_records':125,'captain_records':sum(len(r['records'])-5 for r in ships['resources']),'intro_records':len(intro['records']), 'ending_records':len(ending['records']), 'dialogue_records':sum(map(len,dialogue.values())), 'report_records':sum(map(len,reports.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)

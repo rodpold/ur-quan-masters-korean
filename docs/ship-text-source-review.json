@@ -11,6 +11,14 @@
     {
       "url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/load.c",
       "sha256": "82272b486a4ce5779ad24c3182035799ae68bc219ba7eb5e64ca835bff267a16"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/status.h",
+      "sha256": "0256f474e68797642e3d8206a3213f95b1dd4f5b988646b0259a28a49ca494b0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/units.h",
+      "sha256": "55061f177ecd8d8b408adc5bc09f7f6bfe013f4df13c1a241bf5e49ebf603a99"
     }
   ],
   "status": "source_review_runtime_pending"

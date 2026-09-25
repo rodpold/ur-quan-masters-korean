@@ -1,5 +1,5 @@
 {
-  "status": "partial_draft_captain_names_pending",
+  "status": "draft_with_explicit_preserved_identifiers_runtime_pending",
   "resources": [
     {
       "source_path": "base/ships/androsynth/guardian.txt",
@@ -35,26 +35,121 @@
           "source": "Guard.",
           "ko": "가디언",
           "glossary_id": "guardian"
+        },
+        {
+          "id": "0005",
+          "source": "BOOJI-1",
+          "ko": "BOOJI-1",
+          "captain_id": "androsynth.0005",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0006",
+          "source": "DORN-3",
+          "ko": "DORN-3",
+          "captain_id": "androsynth.0006",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0007",
+          "source": "BIM-XT",
+          "ko": "BIM-XT",
+          "captain_id": "androsynth.0007",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0008",
+          "source": "JOR-15",
+          "ko": "JOR-15",
+          "captain_id": "androsynth.0008",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0009",
+          "source": "976-KILL",
+          "ko": "976-KILL",
+          "captain_id": "androsynth.0009",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0010",
+          "source": "KORB-7B",
+          "ko": "KORB-7B",
+          "captain_id": "androsynth.0010",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0011",
+          "source": "XR4-TI",
+          "ko": "XR4-TI",
+          "captain_id": "androsynth.0011",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0012",
+          "source": "CRC-16",
+          "ko": "CRC-16",
+          "captain_id": "androsynth.0012",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0013",
+          "source": "BHS-79",
+          "ko": "BHS-79",
+          "captain_id": "androsynth.0013",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0014",
+          "source": "DOS-1.0",
+          "ko": "DOS-1.0",
+          "captain_id": "androsynth.0014",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0015",
+          "source": "ME-262",
+          "ko": "ME-262",
+          "captain_id": "androsynth.0015",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0016",
+          "source": "AK-47",
+          "ko": "AK-47",
+          "captain_id": "androsynth.0016",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0017",
+          "source": "1040-EZ",
+          "ko": "1040-EZ",
+          "captain_id": "androsynth.0017",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0018",
+          "source": "NECRO-99",
+          "ko": "NECRO-99",
+          "captain_id": "androsynth.0018",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0019",
+          "source": "HAL-2001",
+          "ko": "HAL-2001",
+          "captain_id": "androsynth.0019",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0020",
+          "source": "SR-71",
+          "ko": "SR-71",
+          "captain_id": "androsynth.0020",
+          "decision": "preserve_alphanumeric_identifier"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/arilou/skiff.txt",
@@ -90,26 +185,121 @@
           "source": "Skiff",
           "ko": "스키프",
           "glossary_id": "skiff"
+        },
+        {
+          "id": "0005",
+          "source": "Fefaloo",
+          "ko": "페팔루",
+          "captain_id": "arilou.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Bezabu",
+          "ko": "베자부",
+          "captain_id": "arilou.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Tiptushi",
+          "ko": "팁투시",
+          "captain_id": "arilou.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Marypup",
+          "ko": "메리펍",
+          "captain_id": "arilou.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Tinkafo",
+          "ko": "팅카포",
+          "captain_id": "arilou.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Patooti",
+          "ko": "파투티",
+          "captain_id": "arilou.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Tifiwilo",
+          "ko": "티피윌로",
+          "captain_id": "arilou.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Loleelu",
+          "ko": "롤릴루",
+          "captain_id": "arilou.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Louifoui",
+          "ko": "루이푸이",
+          "captain_id": "arilou.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Pinywiny",
+          "ko": "피니위니",
+          "captain_id": "arilou.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Oowbabe",
+          "ko": "우베이브",
+          "captain_id": "arilou.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Dingdup",
+          "ko": "딩덥",
+          "captain_id": "arilou.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Wewalia",
+          "ko": "웨왈리아",
+          "captain_id": "arilou.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Yipyapi",
+          "ko": "입야피",
+          "captain_id": "arilou.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Ropilup",
+          "ko": "로필럽",
+          "captain_id": "arilou.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Wolwali",
+          "ko": "월왈리",
+          "captain_id": "arilou.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/chenjesu/broodhome.txt",
@@ -145,26 +335,121 @@
           "source": "Brood.",
           "ko": "브루드홈",
           "glossary_id": "broodhome"
+        },
+        {
+          "id": "0005",
+          "source": "Kzzakk",
+          "ko": "크자크",
+          "captain_id": "chenjesu.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Tzrrow",
+          "ko": "츠로우",
+          "captain_id": "chenjesu.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Zzmzmm",
+          "ko": "즈므즘",
+          "captain_id": "chenjesu.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Vziziz",
+          "ko": "브지지즈",
+          "captain_id": "chenjesu.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Hmmhmm",
+          "ko": "흠흠",
+          "captain_id": "chenjesu.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Bzrak",
+          "ko": "브즈라크",
+          "captain_id": "chenjesu.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Krrtzz",
+          "ko": "크르츠즈",
+          "captain_id": "chenjesu.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Zzzzz",
+          "ko": "즈즈즈",
+          "captain_id": "chenjesu.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Zxzakz",
+          "ko": "즈크자크즈",
+          "captain_id": "chenjesu.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Brrzap",
+          "ko": "브르잡",
+          "captain_id": "chenjesu.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Tzaprak",
+          "ko": "차프라크",
+          "captain_id": "chenjesu.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Pzkrakz",
+          "ko": "프즈크라크즈",
+          "captain_id": "chenjesu.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Fzzzz",
+          "ko": "프즈즈",
+          "captain_id": "chenjesu.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Vrroww",
+          "ko": "브로우",
+          "captain_id": "chenjesu.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Zznaz",
+          "ko": "즈나즈",
+          "captain_id": "chenjesu.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Zzzhmm",
+          "ko": "즈즈흠",
+          "captain_id": "chenjesu.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/chmmr/avatar.txt",
@@ -200,26 +485,121 @@
           "source": "Avatar",
           "ko": "아바타",
           "glossary_id": "avatar"
+        },
+        {
+          "id": "0005",
+          "source": "Mnzgk",
+          "ko": "므느즈그크",
+          "captain_id": "chmmr.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Chzrmn",
+          "ko": "츠즈르믄",
+          "captain_id": "chmmr.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Bzztrm",
+          "ko": "브즈트름",
+          "captain_id": "chmmr.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Zrnzrk",
+          "ko": "즈른즈르크",
+          "captain_id": "chmmr.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Tzzqrn",
+          "ko": "츠즈크른",
+          "captain_id": "chmmr.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Kzzrn",
+          "ko": "크즈른",
+          "captain_id": "chmmr.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Vzrzn",
+          "ko": "브즈르즌",
+          "captain_id": "chmmr.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Qrntz",
+          "ko": "크른츠",
+          "captain_id": "chmmr.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Rmnzk",
+          "ko": "르믄즈크",
+          "captain_id": "chmmr.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Szmrnz",
+          "ko": "스즈므른즈",
+          "captain_id": "chmmr.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Zbzzn",
+          "ko": "즈브즌",
+          "captain_id": "chmmr.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Frnkzk",
+          "ko": "프른크즈크",
+          "captain_id": "chmmr.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Prmtzz",
+          "ko": "프름츠즈",
+          "captain_id": "chmmr.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Tzrtzn",
+          "ko": "츠르츠즌",
+          "captain_id": "chmmr.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Kztztz",
+          "ko": "크즈츠츠",
+          "captain_id": "chmmr.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Mrnkzt",
+          "ko": "므른크즈트",
+          "captain_id": "chmmr.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/druuge/mauler.txt",
@@ -255,26 +635,121 @@
           "source": "Mauler",
           "ko": "몰러",
           "glossary_id": "mauler"
+        },
+        {
+          "id": "0005",
+          "source": "Tuuga",
+          "ko": "투가",
+          "captain_id": "druuge.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Siinur",
+          "ko": "시누르",
+          "captain_id": "druuge.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Kaapo",
+          "ko": "카포",
+          "captain_id": "druuge.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Juugl",
+          "ko": "주글",
+          "captain_id": "druuge.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Paato",
+          "ko": "파토",
+          "captain_id": "druuge.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Feezo",
+          "ko": "피조",
+          "captain_id": "druuge.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Maad",
+          "ko": "마드",
+          "captain_id": "druuge.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Moola",
+          "ko": "물라",
+          "captain_id": "druuge.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Kooli",
+          "ko": "쿨리",
+          "captain_id": "druuge.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Faazur",
+          "ko": "파주르",
+          "captain_id": "druuge.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Zooto",
+          "ko": "주토",
+          "captain_id": "druuge.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Biitur",
+          "ko": "비투르",
+          "captain_id": "druuge.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Duulard",
+          "ko": "둘라드",
+          "captain_id": "druuge.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Piini",
+          "ko": "피니",
+          "captain_id": "druuge.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Soopi",
+          "ko": "수피",
+          "captain_id": "druuge.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Peeru",
+          "ko": "피루",
+          "captain_id": "druuge.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/human/cruiser.txt",
@@ -310,26 +785,121 @@
           "source": "Cruiser",
           "ko": "순양함",
           "glossary_id": "cruiser"
+        },
+        {
+          "id": "0005",
+          "source": "Decker",
+          "ko": "데커",
+          "captain_id": "human.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Trent",
+          "ko": "트렌트",
+          "captain_id": "human.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Adama",
+          "ko": "아다마",
+          "captain_id": "human.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Spiff",
+          "ko": "스피프",
+          "captain_id": "human.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Graeme",
+          "ko": "그레임",
+          "captain_id": "human.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Kirk",
+          "ko": "커크",
+          "captain_id": "human.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Pike",
+          "ko": "파이크",
+          "captain_id": "human.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Halleck",
+          "ko": "할렉",
+          "captain_id": "human.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Tuf",
+          "ko": "터프",
+          "captain_id": "human.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Pirx",
+          "ko": "피륵스",
+          "captain_id": "human.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Wu",
+          "ko": "우",
+          "captain_id": "human.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "VanRijn",
+          "ko": "반레인",
+          "captain_id": "human.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Ender",
+          "ko": "엔더",
+          "captain_id": "human.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Buck",
+          "ko": "버크",
+          "captain_id": "human.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Solo",
+          "ko": "솔로",
+          "captain_id": "human.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Belt",
+          "ko": "벨트",
+          "captain_id": "human.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/ilwrath/avenger.txt",
@@ -365,26 +935,121 @@
           "source": "Avenger",
           "ko": "어벤저",
           "glossary_id": "avenger"
+        },
+        {
+          "id": "0005",
+          "source": "Gorgon",
+          "ko": "고르곤",
+          "captain_id": "ilwrath.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Taragon",
+          "ko": "타라곤",
+          "captain_id": "ilwrath.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Kalgon",
+          "ko": "칼곤",
+          "captain_id": "ilwrath.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Borgo",
+          "ko": "보르고",
+          "captain_id": "ilwrath.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Dirga",
+          "ko": "디르가",
+          "captain_id": "ilwrath.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Slygor",
+          "ko": "슬라이고르",
+          "captain_id": "ilwrath.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Rogash",
+          "ko": "로가시",
+          "captain_id": "ilwrath.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Argarak",
+          "ko": "아르가라크",
+          "captain_id": "ilwrath.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Kayzar",
+          "ko": "케이자르",
+          "captain_id": "ilwrath.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Baylor",
+          "ko": "베일러",
+          "captain_id": "ilwrath.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Zoggak",
+          "ko": "조가크",
+          "captain_id": "ilwrath.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Targa",
+          "ko": "타르가",
+          "captain_id": "ilwrath.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Vogar",
+          "ko": "보가르",
+          "captain_id": "ilwrath.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Lurgo",
+          "ko": "루르고",
+          "captain_id": "ilwrath.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Regorjo",
+          "ko": "레고르조",
+          "captain_id": "ilwrath.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Manglor",
+          "ko": "맹글러",
+          "captain_id": "ilwrath.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/kohrah/marauder.txt",
@@ -420,26 +1085,121 @@
           "source": "Marauder",
           "ko": "마로더",
           "glossary_id": "marauder"
+        },
+        {
+          "id": "0005",
+          "source": "Death 11",
+          "ko": "죽음 11",
+          "captain_id": "kohrah.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Death 17",
+          "ko": "죽음 17",
+          "captain_id": "kohrah.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Death 37",
+          "ko": "죽음 37",
+          "captain_id": "kohrah.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Death 23",
+          "ko": "죽음 23",
+          "captain_id": "kohrah.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Death 7",
+          "ko": "죽음 7",
+          "captain_id": "kohrah.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Death 13",
+          "ko": "죽음 13",
+          "captain_id": "kohrah.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Death 19",
+          "ko": "죽음 19",
+          "captain_id": "kohrah.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Death 29",
+          "ko": "죽음 29",
+          "captain_id": "kohrah.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Death 31",
+          "ko": "죽음 31",
+          "captain_id": "kohrah.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Death 41",
+          "ko": "죽음 41",
+          "captain_id": "kohrah.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Death 43",
+          "ko": "죽음 43",
+          "captain_id": "kohrah.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Death 3",
+          "ko": "죽음 3",
+          "captain_id": "kohrah.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Death 5",
+          "ko": "죽음 5",
+          "captain_id": "kohrah.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Death 47",
+          "ko": "죽음 47",
+          "captain_id": "kohrah.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Death 53",
+          "ko": "죽음 53",
+          "captain_id": "kohrah.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Death 83",
+          "ko": "죽음 83",
+          "captain_id": "kohrah.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/melnorme/trader.txt",
@@ -475,26 +1235,121 @@
           "source": "Trader",
           "ko": "트레이더",
           "glossary_id": "trader_ship"
+        },
+        {
+          "id": "0005",
+          "source": "Reddish",
+          "ko": "레디시",
+          "captain_id": "melnorme.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Orangy",
+          "ko": "오렌지",
+          "captain_id": "melnorme.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Aqua",
+          "ko": "아쿠아",
+          "captain_id": "melnorme.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Crimson",
+          "ko": "크림슨",
+          "captain_id": "melnorme.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Magenta",
+          "ko": "마젠타",
+          "captain_id": "melnorme.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Cheruse",
+          "ko": "체루즈",
+          "captain_id": "melnorme.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Beige",
+          "ko": "베이지",
+          "captain_id": "melnorme.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Fuchsia",
+          "ko": "푸크시아",
+          "captain_id": "melnorme.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Umber",
+          "ko": "엄버",
+          "captain_id": "melnorme.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Cerise",
+          "ko": "세리즈",
+          "captain_id": "melnorme.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Mauve",
+          "ko": "모브",
+          "captain_id": "melnorme.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Grayish",
+          "ko": "그레이시",
+          "captain_id": "melnorme.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Yellow",
+          "ko": "옐로",
+          "captain_id": "melnorme.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Black",
+          "ko": "블랙",
+          "captain_id": "melnorme.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Bluish",
+          "ko": "블루이시",
+          "captain_id": "melnorme.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Purple",
+          "ko": "퍼플",
+          "captain_id": "melnorme.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/mmrnmhrm/xform.txt",
@@ -530,26 +1385,121 @@
           "source": "X-Form",
           "ko": "엑스폼",
           "glossary_id": "x_form"
+        },
+        {
+          "id": "0005",
+          "source": "Qir-nha",
+          "ko": "키르-느하",
+          "captain_id": "mmrnmhrm.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Jhe-qir",
+          "ko": "제-키르",
+          "captain_id": "mmrnmhrm.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Qua-rhna",
+          "ko": "콰-르나",
+          "captain_id": "mmrnmhrm.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Mn-quah",
+          "ko": "믄-콰",
+          "captain_id": "mmrnmhrm.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Nrna-mha",
+          "ko": "느르나-므하",
+          "captain_id": "mmrnmhrm.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Um-hrh",
+          "ko": "움-흐르",
+          "captain_id": "mmrnmhrm.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Hm-nhuh",
+          "ko": "흐므-느허",
+          "captain_id": "mmrnmhrm.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Rrma-hrn",
+          "ko": "르마-흐른",
+          "captain_id": "mmrnmhrm.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Jra-nr",
+          "ko": "즈라-느르",
+          "captain_id": "mmrnmhrm.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Ur-mfrs",
+          "ko": "우르-므프르스",
+          "captain_id": "mmrnmhrm.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Qua-qir",
+          "ko": "콰-키르",
+          "captain_id": "mmrnmhrm.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Mrm-na",
+          "ko": "므름-나",
+          "captain_id": "mmrnmhrm.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Jhe-mhr",
+          "ko": "제-므흐르",
+          "captain_id": "mmrnmhrm.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Hmr-hun",
+          "ko": "흐므르-훈",
+          "captain_id": "mmrnmhrm.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Nhuh-na",
+          "ko": "느허-나",
+          "captain_id": "mmrnmhrm.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Hrnm-hm",
+          "ko": "흐른므-흠",
+          "captain_id": "mmrnmhrm.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/mycon/podship.txt",
@@ -585,26 +1535,121 @@
           "source": "Podship",
           "ko": "포드십",
           "glossary_id": "podship"
+        },
+        {
+          "id": "0005",
+          "source": "Blort",
+          "ko": "블로트",
+          "captain_id": "mycon.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Chupp",
+          "ko": "처프",
+          "captain_id": "mycon.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Floos",
+          "ko": "플루스",
+          "captain_id": "mycon.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Glish",
+          "ko": "글리시",
+          "captain_id": "mycon.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Glob",
+          "ko": "글롭",
+          "captain_id": "mycon.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Glush",
+          "ko": "글러시",
+          "captain_id": "mycon.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Plork",
+          "ko": "플로크",
+          "captain_id": "mycon.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Shlish",
+          "ko": "슐리시",
+          "captain_id": "mycon.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Shlupp",
+          "ko": "슐러프",
+          "captain_id": "mycon.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Slingy",
+          "ko": "슬링기",
+          "captain_id": "mycon.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Sploozo",
+          "ko": "스플루조",
+          "captain_id": "mycon.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Spork",
+          "ko": "스포크",
+          "captain_id": "mycon.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Uffo",
+          "ko": "우포",
+          "captain_id": "mycon.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Yush",
+          "ko": "유시",
+          "captain_id": "mycon.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Zaloop",
+          "ko": "잘루프",
+          "captain_id": "mycon.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Znuff",
+          "ko": "즈너프",
+          "captain_id": "mycon.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/orz/nemesis.txt",
@@ -640,26 +1685,121 @@
           "source": "Nemesis",
           "ko": "네메시스",
           "glossary_id": "nemesis"
+        },
+        {
+          "id": "0005",
+          "source": "*Wet*",
+          "ko": "*젖은*",
+          "captain_id": "orz.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "*Happy*",
+          "ko": "*행복한*",
+          "captain_id": "orz.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "*Frumple*",
+          "ko": "*프럼플*",
+          "captain_id": "orz.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "*Camper*",
+          "ko": "*야영자*",
+          "captain_id": "orz.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "*Loner*",
+          "ko": "*외톨이*",
+          "captain_id": "orz.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "*Dancer*",
+          "ko": "*춤꾼*",
+          "captain_id": "orz.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "*Singer*",
+          "ko": "*노래꾼*",
+          "captain_id": "orz.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "*Heavy*",
+          "ko": "*무거운*",
+          "captain_id": "orz.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "*NewBoy*",
+          "ko": "*새 소년*",
+          "captain_id": "orz.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "*FatFun*",
+          "ko": "*뚱뚱한 재미*",
+          "captain_id": "orz.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "*Pepper*",
+          "ko": "*고추*",
+          "captain_id": "orz.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "*Hungry*",
+          "ko": "*배고픈*",
+          "captain_id": "orz.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "*Deep*",
+          "ko": "*깊은*",
+          "captain_id": "orz.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "*Smell*",
+          "ko": "*냄새 맡다*",
+          "captain_id": "orz.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "*Juice*",
+          "ko": "*즙*",
+          "captain_id": "orz.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "*Squirt*",
+          "ko": "*뿜기*",
+          "captain_id": "orz.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/pkunk/fury.txt",
@@ -695,26 +1835,121 @@
           "source": "Fury",
           "ko": "퓨리",
           "glossary_id": "fury"
+        },
+        {
+          "id": "0005",
+          "source": "Awwky",
+          "ko": "오키",
+          "captain_id": "pkunk.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Tweety",
+          "ko": "트위티",
+          "captain_id": "pkunk.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "WudStok",
+          "ko": "우드스톡",
+          "captain_id": "pkunk.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Poppy",
+          "ko": "포피",
+          "captain_id": "pkunk.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Brakky",
+          "ko": "브라키",
+          "captain_id": "pkunk.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Hooter",
+          "ko": "후터",
+          "captain_id": "pkunk.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Buzzard",
+          "ko": "버저드",
+          "captain_id": "pkunk.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Polly",
+          "ko": "폴리",
+          "captain_id": "pkunk.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Ernie",
+          "ko": "어니",
+          "captain_id": "pkunk.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Yompin",
+          "ko": "욤핀",
+          "captain_id": "pkunk.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Fuzzy",
+          "ko": "퍼지",
+          "captain_id": "pkunk.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Raven",
+          "ko": "레이븐",
+          "captain_id": "pkunk.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Crow",
+          "ko": "크로",
+          "captain_id": "pkunk.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Jay",
+          "ko": "제이",
+          "captain_id": "pkunk.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Screech",
+          "ko": "스크리치",
+          "captain_id": "pkunk.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Twitter",
+          "ko": "트위터",
+          "captain_id": "pkunk.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/shofixti/scout.txt",
@@ -750,28 +1985,135 @@
           "source": "Scout",
           "ko": "정찰선",
           "glossary_id": "scout_ship"
+        },
+        {
+          "id": "0005",
+          "source": "Hiyata",
+          "ko": "히야타",
+          "captain_id": "shofixti.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Wasabe",
+          "ko": "와사베",
+          "captain_id": "shofixti.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Kudzu",
+          "ko": "쿠즈",
+          "captain_id": "shofixti.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Ichiban",
+          "ko": "이치반",
+          "captain_id": "shofixti.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Bonsai!",
+          "ko": "본사이!",
+          "captain_id": "shofixti.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Genjiro",
+          "ko": "겐지로",
+          "captain_id": "shofixti.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Ginzu",
+          "ko": "긴즈",
+          "captain_id": "shofixti.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Busu",
+          "ko": "부스",
+          "captain_id": "shofixti.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Gaijin",
+          "ko": "가이진",
+          "captain_id": "shofixti.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Daikon",
+          "ko": "다이콘",
+          "captain_id": "shofixti.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Sushi",
+          "ko": "스시",
+          "captain_id": "shofixti.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Naninani",
+          "ko": "나니나니",
+          "captain_id": "shofixti.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Chimchim",
+          "ko": "침침",
+          "captain_id": "shofixti.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Tora-3",
+          "ko": "토라-3",
+          "captain_id": "shofixti.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Tofu",
+          "ko": "두부",
+          "captain_id": "shofixti.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Kimba",
+          "ko": "킴바",
+          "captain_id": "shofixti.0020",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0021",
+          "source": "Tanaka",
+          "ko": "타나카",
+          "captain_id": "shofixti.0021",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0022",
+          "source": "Katana",
+          "ko": "카타나",
+          "captain_id": "shofixti.0022",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020",
-        "0021",
-        "0022"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/slylandro/probe.txt",
@@ -807,26 +2149,121 @@
           "source": "Probe",
           "ko": "탐사선",
           "glossary_id": "probe_ship"
+        },
+        {
+          "id": "0005",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0005",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0006",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0006",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0007",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0007",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0008",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0008",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0009",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0009",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0010",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0010",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0011",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0011",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0012",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0012",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0013",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0013",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0014",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0014",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0015",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0015",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0016",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0016",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0017",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0017",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0018",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0018",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0019",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0019",
+          "decision": "preserve_alphanumeric_identifier"
+        },
+        {
+          "id": "0020",
+          "source": "2418-B",
+          "ko": "2418-B",
+          "captain_id": "slylandro.0020",
+          "decision": "preserve_alphanumeric_identifier"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/spathi/eluder.txt",
@@ -862,27 +2299,128 @@
           "source": "Eluder",
           "ko": "일루더",
           "glossary_id": "eluder"
+        },
+        {
+          "id": "0005",
+          "source": "Thwil",
+          "ko": "스윌",
+          "captain_id": "spathi.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Pwappy",
+          "ko": "프와피",
+          "captain_id": "spathi.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Phwiff",
+          "ko": "프위프",
+          "captain_id": "spathi.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Wiffy",
+          "ko": "위피",
+          "captain_id": "spathi.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Plibnik",
+          "ko": "플리브니크",
+          "captain_id": "spathi.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Snurfel",
+          "ko": "스너펠",
+          "captain_id": "spathi.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Kwimp",
+          "ko": "크윔프",
+          "captain_id": "spathi.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Pkunky",
+          "ko": "프쿤키",
+          "captain_id": "spathi.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Jinkeze",
+          "ko": "진키즈",
+          "captain_id": "spathi.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Thintho",
+          "ko": "신토",
+          "captain_id": "spathi.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Rupatup",
+          "ko": "루파텁",
+          "captain_id": "spathi.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Nargle",
+          "ko": "나글",
+          "captain_id": "spathi.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Phlendo",
+          "ko": "플렌도",
+          "captain_id": "spathi.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Snelopy",
+          "ko": "스넬로피",
+          "captain_id": "spathi.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Bwinkin",
+          "ko": "브윙킨",
+          "captain_id": "spathi.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Whuff",
+          "ko": "워프",
+          "captain_id": "spathi.0020",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0021",
+          "source": "Fwiffo",
+          "ko": "프위포",
+          "captain_id": "spathi.0021",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020",
-        "0021"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/supox/blade.txt",
@@ -918,26 +2456,121 @@
           "source": "Blade",
           "ko": "블레이드",
           "glossary_id": "blade_ship"
+        },
+        {
+          "id": "0005",
+          "source": "Trifid",
+          "ko": "트리피드",
+          "captain_id": "supox.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Crinoid",
+          "ko": "크리노이드",
+          "captain_id": "supox.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "FlyTrap",
+          "ko": "파리지옥",
+          "captain_id": "supox.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Thistle",
+          "ko": "엉겅퀴",
+          "captain_id": "supox.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Ivy",
+          "ko": "담쟁이",
+          "captain_id": "supox.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Sprout",
+          "ko": "새싹",
+          "captain_id": "supox.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Twig",
+          "ko": "잔가지",
+          "captain_id": "supox.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Root",
+          "ko": "뿌리",
+          "captain_id": "supox.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Branch",
+          "ko": "가지",
+          "captain_id": "supox.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Thorn",
+          "ko": "가시",
+          "captain_id": "supox.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Bark",
+          "ko": "나무껍질",
+          "captain_id": "supox.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Bud",
+          "ko": "꽃봉오리",
+          "captain_id": "supox.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Nut",
+          "ko": "견과",
+          "captain_id": "supox.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Stem",
+          "ko": "줄기",
+          "captain_id": "supox.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Bramble",
+          "ko": "가시덤불",
+          "captain_id": "supox.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Thicket",
+          "ko": "덤불",
+          "captain_id": "supox.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/syreen/penetrator.txt",
@@ -973,26 +2606,121 @@
           "source": "Penetr.",
           "ko": "페너트레이터",
           "glossary_id": "penetrator"
+        },
+        {
+          "id": "0005",
+          "source": "Teela",
+          "ko": "틸라",
+          "captain_id": "syreen.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Dejah",
+          "ko": "데자",
+          "captain_id": "syreen.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Penny",
+          "ko": "페니",
+          "captain_id": "syreen.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Alia",
+          "ko": "알리아",
+          "captain_id": "syreen.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Be'lit",
+          "ko": "벨리트",
+          "captain_id": "syreen.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Ripley",
+          "ko": "리플리",
+          "captain_id": "syreen.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Yarr",
+          "ko": "야르",
+          "captain_id": "syreen.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Ardala",
+          "ko": "아르달라",
+          "captain_id": "syreen.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Sparta",
+          "ko": "스파르타",
+          "captain_id": "syreen.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Munro",
+          "ko": "먼로",
+          "captain_id": "syreen.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Danning",
+          "ko": "대닝",
+          "captain_id": "syreen.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Brawne",
+          "ko": "브론",
+          "captain_id": "syreen.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Maya",
+          "ko": "마야",
+          "captain_id": "syreen.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Aelita",
+          "ko": "아엘리타",
+          "captain_id": "syreen.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Alura",
+          "ko": "알루라",
+          "captain_id": "syreen.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Dale",
+          "ko": "데일",
+          "captain_id": "syreen.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/thraddash/torch.txt",
@@ -1028,26 +2756,121 @@
           "source": "Torch",
           "ko": "토치",
           "glossary_id": "torch_ship"
+        },
+        {
+          "id": "0005",
+          "source": "Dthunk",
+          "ko": "드퉁크",
+          "captain_id": "thraddash.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Bardat",
+          "ko": "바르다트",
+          "captain_id": "thraddash.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Znonk",
+          "ko": "즈농크",
+          "captain_id": "thraddash.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Mnump",
+          "ko": "므넘프",
+          "captain_id": "thraddash.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Bronk",
+          "ko": "브롱크",
+          "captain_id": "thraddash.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Smup",
+          "ko": "스멉",
+          "captain_id": "thraddash.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Grulk",
+          "ko": "그룰크",
+          "captain_id": "thraddash.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Hornk",
+          "ko": "호른크",
+          "captain_id": "thraddash.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Knarg",
+          "ko": "크나르그",
+          "captain_id": "thraddash.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Drulg",
+          "ko": "드룰그",
+          "captain_id": "thraddash.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Dgako",
+          "ko": "드가코",
+          "captain_id": "thraddash.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Znork",
+          "ko": "즈노크",
+          "captain_id": "thraddash.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Kwamp",
+          "ko": "크왐프",
+          "captain_id": "thraddash.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Fkank",
+          "ko": "프캉크",
+          "captain_id": "thraddash.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Pdump",
+          "ko": "프덤프",
+          "captain_id": "thraddash.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Whumps",
+          "ko": "웜프스",
+          "captain_id": "thraddash.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/umgah/drone.txt",
@@ -1083,26 +2906,121 @@
           "source": "Drone",
           "ko": "드론",
           "glossary_id": "drone_ship"
+        },
+        {
+          "id": "0005",
+          "source": "Julg'ka",
+          "ko": "줄그카",
+          "captain_id": "umgah.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Gibj'o",
+          "ko": "기브조",
+          "captain_id": "umgah.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Baguk'i",
+          "ko": "바구키",
+          "captain_id": "umgah.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "O'guk'e",
+          "ko": "오구케",
+          "captain_id": "umgah.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Gwap'he",
+          "ko": "그와페",
+          "captain_id": "umgah.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Chez'ef",
+          "ko": "체제프",
+          "captain_id": "umgah.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Znork'i",
+          "ko": "즈노르키",
+          "captain_id": "umgah.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Bob",
+          "ko": "밥",
+          "captain_id": "umgah.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Kwik'ow",
+          "ko": "크위코",
+          "captain_id": "umgah.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Ei'Ei'o",
+          "ko": "에이에이오",
+          "captain_id": "umgah.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Brewz'k",
+          "ko": "브루즈크",
+          "captain_id": "umgah.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Pruk'u",
+          "ko": "프루쿠",
+          "captain_id": "umgah.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "O'bargy",
+          "ko": "오바르기",
+          "captain_id": "umgah.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Kterbi'a",
+          "ko": "크테르비아",
+          "captain_id": "umgah.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Chup'he",
+          "ko": "추페",
+          "captain_id": "umgah.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "I'buba",
+          "ko": "이부바",
+          "captain_id": "umgah.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/urquan/dreadnought.txt",
@@ -1138,26 +3056,121 @@
           "source": "Dreadnt.",
           "ko": "드레드노트",
           "glossary_id": "dreadnought"
+        },
+        {
+          "id": "0005",
+          "source": "Lord 999",
+          "ko": "군주 999",
+          "captain_id": "urquan.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Lord 342",
+          "ko": "군주 342",
+          "captain_id": "urquan.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Lord 88",
+          "ko": "군주 88",
+          "captain_id": "urquan.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Lord 156",
+          "ko": "군주 156",
+          "captain_id": "urquan.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Lord 43",
+          "ko": "군주 43",
+          "captain_id": "urquan.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Lord 412",
+          "ko": "군주 412",
+          "captain_id": "urquan.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Lord 666",
+          "ko": "군주 666",
+          "captain_id": "urquan.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Lord 18",
+          "ko": "군주 18",
+          "captain_id": "urquan.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Lord 237",
+          "ko": "군주 237",
+          "captain_id": "urquan.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Lord 89",
+          "ko": "군주 89",
+          "captain_id": "urquan.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Lord 3",
+          "ko": "군주 3",
+          "captain_id": "urquan.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Lord 476",
+          "ko": "군주 476",
+          "captain_id": "urquan.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Lord 103",
+          "ko": "군주 103",
+          "captain_id": "urquan.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Lord 783",
+          "ko": "군주 783",
+          "captain_id": "urquan.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Lord 52",
+          "ko": "군주 52",
+          "captain_id": "urquan.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Lord 21",
+          "ko": "군주 21",
+          "captain_id": "urquan.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/utwig/jugger.txt",
@@ -1193,26 +3206,121 @@
           "source": "Jugger",
           "ko": "저거",
           "glossary_id": "jugger"
+        },
+        {
+          "id": "0005",
+          "source": "Endo",
+          "ko": "엔도",
+          "captain_id": "utwig.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Vermi",
+          "ko": "베르미",
+          "captain_id": "utwig.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Manny",
+          "ko": "매니",
+          "captain_id": "utwig.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Uuter",
+          "ko": "우테르",
+          "captain_id": "utwig.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Nergo",
+          "ko": "네르고",
+          "captain_id": "utwig.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Sami",
+          "ko": "사미",
+          "captain_id": "utwig.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Duna",
+          "ko": "두나",
+          "captain_id": "utwig.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Frann",
+          "ko": "프란",
+          "captain_id": "utwig.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Krisk",
+          "ko": "크리스크",
+          "captain_id": "utwig.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Lololo",
+          "ko": "로로로",
+          "captain_id": "utwig.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Snoon",
+          "ko": "스눈",
+          "captain_id": "utwig.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Nestor",
+          "ko": "네스토르",
+          "captain_id": "utwig.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Lurg",
+          "ko": "러그",
+          "captain_id": "utwig.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Thory",
+          "ko": "토리",
+          "captain_id": "utwig.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Jujuby",
+          "ko": "주주비",
+          "captain_id": "utwig.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Erog",
+          "ko": "에로그",
+          "captain_id": "utwig.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/vux/intruder.txt",
@@ -1248,26 +3356,121 @@
           "source": "Intrud.",
           "ko": "인트루더",
           "glossary_id": "intruder"
+        },
+        {
+          "id": "0005",
+          "source": "ZIK",
+          "ko": "지크",
+          "captain_id": "vux.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "PUZ",
+          "ko": "푸즈",
+          "captain_id": "vux.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "ZUK",
+          "ko": "주크",
+          "captain_id": "vux.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "VIP",
+          "ko": "비프",
+          "captain_id": "vux.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "ZIT",
+          "ko": "지트",
+          "captain_id": "vux.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "YUK",
+          "ko": "유크",
+          "captain_id": "vux.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "DAK",
+          "ko": "다크",
+          "captain_id": "vux.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "ZRN",
+          "ko": "즈른",
+          "captain_id": "vux.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "PIF",
+          "ko": "피프",
+          "captain_id": "vux.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "FIZ",
+          "ko": "피즈",
+          "captain_id": "vux.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "FUP",
+          "ko": "퍼프",
+          "captain_id": "vux.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "ZUP",
+          "ko": "주프",
+          "captain_id": "vux.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "NRF",
+          "ko": "느르프",
+          "captain_id": "vux.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "ZOG",
+          "ko": "조그",
+          "captain_id": "vux.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "ORZ",
+          "ko": "오르즈",
+          "captain_id": "vux.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "ZEK",
+          "ko": "제크",
+          "captain_id": "vux.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/yehat/terminator.txt",
@@ -1303,26 +3506,121 @@
           "source": "Termin.",
           "ko": "터미네이터",
           "glossary_id": "terminator"
+        },
+        {
+          "id": "0005",
+          "source": "Heep-eep",
+          "ko": "힙-입",
+          "captain_id": "yehat.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "Feep-eep",
+          "ko": "피프-입",
+          "captain_id": "yehat.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "Reep-eep",
+          "ko": "립-입",
+          "captain_id": "yehat.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "Yeep-eep",
+          "ko": "입-입",
+          "captain_id": "yehat.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "Beep-eep",
+          "ko": "빕-입",
+          "captain_id": "yehat.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "Eeep-eep",
+          "ko": "이입-입",
+          "captain_id": "yehat.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "Meep-eep",
+          "ko": "밉-입",
+          "captain_id": "yehat.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "Teep-eep",
+          "ko": "팁-입",
+          "captain_id": "yehat.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "Jeep-eep",
+          "ko": "집-입",
+          "captain_id": "yehat.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "Leep-eep",
+          "ko": "립-입",
+          "captain_id": "yehat.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "Peep-eep",
+          "ko": "핍-입",
+          "captain_id": "yehat.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "Weep-eep",
+          "ko": "윕-입",
+          "captain_id": "yehat.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "Veep-eep",
+          "ko": "비프-입",
+          "captain_id": "yehat.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "Geep-eep",
+          "ko": "깁-입",
+          "captain_id": "yehat.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "Zeep-eep",
+          "ko": "지프-입",
+          "captain_id": "yehat.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "Neep-eep",
+          "ko": "닙-입",
+          "captain_id": "yehat.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     },
     {
       "source_path": "base/ships/zoqfotpik/stinger.txt",
@@ -1358,26 +3656,121 @@
           "source": "Stinger",
           "ko": "스팅어",
           "glossary_id": "stinger"
+        },
+        {
+          "id": "0005",
+          "source": "NikNak",
+          "ko": "닉낙",
+          "captain_id": "zoqfotpik.0005",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0006",
+          "source": "FipPat",
+          "ko": "핍팟",
+          "captain_id": "zoqfotpik.0006",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0007",
+          "source": "DipPak",
+          "ko": "딥팍",
+          "captain_id": "zoqfotpik.0007",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0008",
+          "source": "FatPot",
+          "ko": "팻폿",
+          "captain_id": "zoqfotpik.0008",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0009",
+          "source": "ZikFat",
+          "ko": "직팻",
+          "captain_id": "zoqfotpik.0009",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0010",
+          "source": "PukYor",
+          "ko": "푹요르",
+          "captain_id": "zoqfotpik.0010",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0011",
+          "source": "TopNik",
+          "ko": "톱닉",
+          "captain_id": "zoqfotpik.0011",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0012",
+          "source": "PorKoo",
+          "ko": "포르쿠",
+          "captain_id": "zoqfotpik.0012",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0013",
+          "source": "TikTak",
+          "ko": "틱탁",
+          "captain_id": "zoqfotpik.0013",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0014",
+          "source": "RinTin",
+          "ko": "린틴",
+          "captain_id": "zoqfotpik.0014",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0015",
+          "source": "FitFap",
+          "ko": "핏팹",
+          "captain_id": "zoqfotpik.0015",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0016",
+          "source": "TotToe",
+          "ko": "톳토",
+          "captain_id": "zoqfotpik.0016",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0017",
+          "source": "ZipZak",
+          "ko": "집작",
+          "captain_id": "zoqfotpik.0017",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0018",
+          "source": "TikTok",
+          "ko": "틱톡",
+          "captain_id": "zoqfotpik.0018",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0019",
+          "source": "MikMok",
+          "ko": "믹목",
+          "captain_id": "zoqfotpik.0019",
+          "decision": "translated_draft"
+        },
+        {
+          "id": "0020",
+          "source": "SikSok",
+          "ko": "식속",
+          "captain_id": "zoqfotpik.0020",
+          "decision": "translated_draft"
         }
       ],
-      "pending_captain_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ]
+      "pending_captain_ids": []
     }
   ]
 }
