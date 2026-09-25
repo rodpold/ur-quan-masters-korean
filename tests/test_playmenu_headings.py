@@ -20,3 +20,11 @@ class HeadingTests(unittest.TestCase):
     def test_rejects_out_of_bounds(self):
         self.row['box']=[0,60,56,8]
         with self.assertRaises(ValueError):render_heading(self.raw,self.row,self.font)
+
+    def test_embedded_caption_keeps_art_below(self):
+        self.row['extra_labels']=[{'box':[7,17,42,8],'text':'사이보그','background':[2,4,62,255],'foreground':[186,0,0,255]}]
+        im=Image.open(io.BytesIO(render_heading(self.raw,self.row,self.font))).convert('RGBA')
+        self.assertEqual(im.getpixel((7,17)),(2,4,62,255))
+        self.assertEqual(im.getpixel((7,25)),(12,34,56,255))
+        self.assertEqual(im.getpixel((6,20)),(12,34,56,255))
+        self.assertIn((186,0,0,255),set(im.crop((7,17,49,25)).getdata()))

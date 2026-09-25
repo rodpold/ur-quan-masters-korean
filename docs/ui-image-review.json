@@ -6,11 +6,11 @@
   "counts": {
     "embedded_text_pending": 47,
     "existing_replacement_runtime_pending": 10,
-    "generated_korean_heading_runtime_pending": 34,
+    "generated_korean_heading_runtime_pending": 38,
     "generated_korean_panel_runtime_pending": 34,
     "no_obvious_language_text_in_viewed_image": 267,
     "partial_button_replacement_other_text_pending": 1,
-    "partial_heading_replacement_other_text_pending": 5,
+    "partial_heading_replacement_other_text_pending": 1,
     "preserve_numeric_sprite": 21,
     "preserve_product_logo": 1
   },
@@ -1902,26 +1902,26 @@
     {
       "source_path": "base/ui/playmenu-031.png",
       "source_sha256": "20afaf4d7d4ebfcbd063f0e078515b82fe3bb9f414ab97d5548adb18b9948c73",
-      "status": "partial_heading_replacement_other_text_pending",
-      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 전투 제목과 내부 사람/사이보그 라벨 번역. 내부 글자 영역은 짙은 파랑, 원본 빨강 글자 색을 사용. 손/로봇/난이도 그림·ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-032.png",
       "source_sha256": "ede3fe04ca5788ba6b24e6c8c41fba7cbd5017a2b04c186e29195c24d9d95cc3",
-      "status": "partial_heading_replacement_other_text_pending",
-      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 전투 제목과 내부 사람/사이보그 라벨 번역. 내부 글자 영역은 짙은 파랑, 원본 빨강 글자 색을 사용. 손/로봇/난이도 그림·ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-033.png",
       "source_sha256": "019c9fe79981304462faa38271502c921b51ea359305b3ca88a3b3031ed88dbc",
-      "status": "partial_heading_replacement_other_text_pending",
-      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 전투 제목과 내부 사람/사이보그 라벨 번역. 내부 글자 영역은 짙은 파랑, 원본 빨강 글자 색을 사용. 손/로봇/난이도 그림·ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-034.png",
       "source_sha256": "9f1abf3175d8838d380f91a0598f1463f300cc133e2358b81225f9774b6bd8ee",
-      "status": "partial_heading_replacement_other_text_pending",
-      "notes": "상단 제목만 Galmuri7 7픽셀로 생성. 원본 크기·ANI·제목 밖 픽셀 보존. 실기 검토 대기."
+      "status": "generated_korean_heading_runtime_pending",
+      "notes": "상단 전투 제목과 내부 사람/사이보그 라벨 번역. 내부 글자 영역은 짙은 파랑, 원본 빨강 글자 색을 사용. 손/로봇/난이도 그림·ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-035.png",

@@ -181,3 +181,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 함대 대전 작은 버튼: 기존 Galmuri7/OFL을 재사용하며 추가 이미지 다운로드 없음. 고정 UQM 리비전의 supermelee/melee.c(출처/해시: docs/melee-button-source-review.json)로 프레임 호출·배경 복구를 확인했다. 버튼 주변 아트는 보존하고 빌드할 때만 기본 상태 한글 버튼을 배경에 합성한다. 원본/생성 PNG는 Git에 배포하지 않는다.
 
 기존 Galmuri7(동일 vendor 파일·출처·라이선스·해시)을 그림 메뉴 제목 39개에도 사용한다. 원본 UQM 그림은 설치 시 읽고 제목 영역만 생성하며 재배포 저장소에는 포함하지 않는다. 세부 변환과 원본별 해시는 translations/playmenu-headings.ko.json 참조.
+
+같은 Galmuri7을 playmenu 31–34의 내부 조작 라벨 4개(사람/사이보그)에도 사용한다. 글자 영역만 단색 배경으로 치환하고 원본 아이콘 그림은 유지한다. 기존 Galmuri 출처·라이선스·해시가 적용된다.

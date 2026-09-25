@@ -9,15 +9,19 @@ def render_heading(raw,row,font):
     if hashlib.sha256(raw).hexdigest()!=row['source_sha256']:raise ValueError('Heading source changed')
     im=Image.open(io.BytesIO(raw)).convert('RGBA')
     if list(im.size)!=row['size']:raise ValueError('Heading dimensions changed')
+    for label in [row]+row.get('extra_labels',[]):
+        paint_label(im,label,font)
+    out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
+def paint_label(im,row,font):
     x,y,w,h=row['box']
     if x<0 or y<0 or w<=0 or h<=0 or x+w>im.width or y+h>im.height:raise ValueError('Heading box outside image')
     b=font.getbbox(row['text']);mask=Image.new('L',(b[2]-b[0],b[3]-b[1]))
     ImageDraw.Draw(mask).text((-b[0],-b[1]),row['text'],font=font,fill=255)
     mask=mask.point(lambda p:255 if p>=128 else 0)
     if not mask.getbbox() or mask.width>w-2 or mask.height>7 or mask.height>h:raise ValueError('Heading does not fit')
-    im.paste((23,23,23,0),(x,y,x+w,y+h))
-    im.paste((116,116,116,255),(x+(w-mask.width)//2,y+(h-mask.height)//2),mask)
-    out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
+    im.paste(tuple(row.get('background',[23,23,23,0])),(x,y,x+w,y+h))
+    im.paste(tuple(row.get('foreground',[116,116,116,255])),(x+(w-mask.width)//2,y+(h-mask.height)//2),mask)
+
 def add_headings(entries,source):
     spec=load_headings();ani=source.read('base/ui/playmenu.ani')
     if hashlib.sha256(ani).hexdigest()!=spec['ani_sha256']:raise ValueError('Playmenu ANI changed')

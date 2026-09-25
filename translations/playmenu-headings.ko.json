@@ -508,7 +508,32 @@
         56,
         8
       ],
-      "text": "전투"
+      "text": "전투",
+      "extra_labels": [
+        {
+          "source_text": "HUMAN",
+          "text": "사람",
+          "box": [
+            7,
+            17,
+            42,
+            8
+          ],
+          "background": [
+            2,
+            4,
+            62,
+            255
+          ],
+          "foreground": [
+            186,
+            0,
+            0,
+            255
+          ],
+          "notes": "Preserve hand/robot/difficulty art outside the 8px caption strip."
+        }
+      ]
     },
     {
       "source_path": "base/ui/playmenu-032.png",
@@ -523,7 +548,32 @@
         56,
         8
       ],
-      "text": "전투"
+      "text": "전투",
+      "extra_labels": [
+        {
+          "source_text": "CYBORG",
+          "text": "사이보그",
+          "box": [
+            7,
+            17,
+            42,
+            8
+          ],
+          "background": [
+            2,
+            4,
+            62,
+            255
+          ],
+          "foreground": [
+            186,
+            0,
+            0,
+            255
+          ],
+          "notes": "Preserve hand/robot/difficulty art outside the 8px caption strip."
+        }
+      ]
     },
     {
       "source_path": "base/ui/playmenu-033.png",
@@ -538,7 +588,32 @@
         56,
         8
       ],
-      "text": "전투"
+      "text": "전투",
+      "extra_labels": [
+        {
+          "source_text": "CYBORG",
+          "text": "사이보그",
+          "box": [
+            7,
+            17,
+            42,
+            8
+          ],
+          "background": [
+            2,
+            4,
+            62,
+            255
+          ],
+          "foreground": [
+            186,
+            0,
+            0,
+            255
+          ],
+          "notes": "Preserve hand/robot/difficulty art outside the 8px caption strip."
+        }
+      ]
     },
     {
       "source_path": "base/ui/playmenu-034.png",
@@ -553,7 +628,32 @@
         56,
         8
       ],
-      "text": "전투"
+      "text": "전투",
+      "extra_labels": [
+        {
+          "source_text": "CYBORG",
+          "text": "사이보그",
+          "box": [
+            7,
+            17,
+            42,
+            8
+          ],
+          "background": [
+            2,
+            4,
+            62,
+            255
+          ],
+          "foreground": [
+            186,
+            0,
+            0,
+            255
+          ],
+          "notes": "Preserve hand/robot/difficulty art outside the 8px caption strip."
+        }
+      ]
     },
     {
       "source_path": "base/ui/playmenu-035.png",
