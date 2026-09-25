@@ -348,6 +348,132 @@
       "status": "proposed",
       "notes": "대화 폰트 배정표 참조용 잠정 표기.",
       "ui_keys": []
+    },
+    {
+      "id": "vela",
+      "source": "Vela",
+      "ko": "벨라",
+      "category": "place",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "mercury",
+      "source": "Mercury",
+      "ko": "수성",
+      "category": "place",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "androsynth",
+      "source": "Androsynth",
+      "ko": "안드로신스",
+      "category": "species",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "corridor_nine",
+      "source": "Corridor Nine",
+      "ko": "코리더 나인",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "coreward_front",
+      "source": "Coreward Front",
+      "ko": "은하 중심 방면 전선",
+      "category": "place",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "draco",
+      "source": "Draco",
+      "ko": "드라코",
+      "category": "place",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "concordance_alien_nations",
+      "source": "Concordance of Alien Nations",
+      "ko": "외계 국가 협약체",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "united_federation_worlds",
+      "source": "United Federation of Worlds",
+      "ko": "행성 연합 연방",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "eluder",
+      "source": "Eluder",
+      "ko": "일루더",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "avenger",
+      "source": "Avenger",
+      "ko": "어벤저",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "dreadnought",
+      "source": "Dreadnought",
+      "ko": "드레드노트",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "oath_fealty",
+      "source": "Oath of Fealty",
+      "ko": "충성 서약",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "battle_thralls",
+      "source": "Battle Thralls",
+      "ko": "전투 노예",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "slave_shield",
+      "source": "slave shield",
+      "ko": "노예 장벽",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
+      "ui_keys": []
     }
   ]
 }

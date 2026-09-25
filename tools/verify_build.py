@@ -41,11 +41,25 @@ def verify(game, ui_font="compact"):
         for n in names:
             if '/fonts/' in n and 0xAC00 <= int(Path(n).stem,16) <= 0xD7A3:
                 im=Image.open(io.BytesIO(z.read(n)))
-                assert im.getchannel('A').getbbox(),n
+                alpha=im.getchannel('A')
+                assert alpha.getbbox(),n
+                assert set(alpha.getdata()) <= {0,255},f'Semitransparent Korean glyph: {n}'
         translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         dialogue = {p.stem:json.loads(p.read_text(encoding='utf-8')) for p in (patcher.ROOT/'translations/dialogue').glob('*.json')}
         required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
+        registry=json.loads((patcher.ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
+        groups=[row for row in registry['dialogue_fonts'] if row['id']==row['font_group']]
+        assert len(groups)==24
+        assert len({registry['fonts'][row['candidate_font']]['sha256'] for row in groups})==24
+        for row in groups:
+            old=row['original_font'].removeprefix('FONTRES:')+'/'
+            new=f"ko/fonts/races/{row['id']}.fon/"
+            for name in source.namelist():
+                if name.startswith(old) and name.endswith('.png'):
+                    assert source.read(name)==z.read(new+Path(name).name),f'Original race glyph changed: {name}'
+            for char in required:
+                assert new+f'{ord(char):05x}.png' in names,f'Missing race glyph: {row["id"]}/{char}'
         for species in sorted(p.name.removesuffix('.ko.json') for p in (patcher.ROOT/'translations/dialogue').glob('*.ko.json')):
             source_species='yehatrebels' if species=='yehat.rebel' else species
             a=source.read(f'base/comm/{source_species}/{source_species}.txt').decode('utf-8')
