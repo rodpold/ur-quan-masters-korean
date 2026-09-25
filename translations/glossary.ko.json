@@ -2882,6 +2882,303 @@
       "status": "in_use",
       "notes": "행성 변환 지시의 대상. 인공 생명체라는 해설을 대사에 추가하지 않는다.",
       "ui_keys": []
+    },
+    {
+      "id": "proctorate",
+      "source": "Proctorate",
+      "ko": "감독관회",
+      "category": "organization",
+      "status": "in_use",
+      "notes": "우트위그의 통치 조직. 개별 감독관과 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "grand_proctor",
+      "source": "Grand Proctor",
+      "ko": "대감독관",
+      "category": "title",
+      "status": "in_use",
+      "notes": "울트론을 건네는 인물의 직함. High Proctor의 기존 최고 감독관 표기와 원문 차이를 유지한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "chief_groo",
+      "source": "Chief Groo",
+      "ko": "수석 그루",
+      "category": "title",
+      "status": "in_use",
+      "notes": "울트론을 건네받는 인물의 원문 직함. 울트론의 무게와 미끄러움을 몰랐다는 것은 전언이다.",
+      "ui_keys": []
+    },
+    {
+      "id": "splib",
+      "source": "Splib",
+      "ko": "스플리브",
+      "category": "person",
+      "status": "in_use",
+      "notes": "플레이어가 언급하는 반려견 이름. 실제 함장명과 달리 고정 대사 이름이다.",
+      "ui_keys": []
+    },
+    {
+      "id": "chimt",
+      "source": "Chimt",
+      "ko": "침트",
+      "category": "lifeform",
+      "status": "in_use",
+      "notes": "우트위그 기원 설화의 존재.",
+      "ui_keys": []
+    },
+    {
+      "id": "murky_bog",
+      "source": "Murky Bog",
+      "ko": "혼탁한 늪",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우트위그 기원 설화에 등장하는 장소.",
+      "ui_keys": []
+    },
+    {
+      "id": "fahz",
+      "source": "Fahz",
+      "ko": "파흐즈",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우트위그의 세계 이름. 공동체 종족 Faz(파즈)와 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "drells",
+      "source": "drells",
+      "ko": "드렐",
+      "category": "lifeform",
+      "status": "in_use",
+      "notes": "초기 얼굴 가리개에 사용한 살아 있는 생물들. 구체적인 생김새를 보충하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "chinz_rahl",
+      "source": "Chinz-Rahl",
+      "ko": "친즈-랄",
+      "category": "event",
+      "status": "in_use",
+      "notes": "울트론 파손을 목격한 축제.",
+      "ui_keys": []
+    },
+    {
+      "id": "librae",
+      "source": "Librae",
+      "ko": "리브라에",
+      "category": "place",
+      "status": "in_use",
+      "notes": "별 이름. 베타 접두어는 별도로 보존한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "hyades",
+      "source": "Hyades",
+      "ko": "히아데스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "별 이름. 제타와 행성·위성 번호를 별도로 보존한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "aquarii",
+      "source": "Aquarii",
+      "ko": "아쿠아리이",
+      "category": "place",
+      "status": "in_use",
+      "notes": "별 이름. 우트위그 모성의 베타 아쿠아리이.",
+      "ui_keys": []
+    },
+    {
+      "id": "arcturus",
+      "source": "Arcturus",
+      "ko": "아크투루스",
+      "category": "place",
+      "status": "in_use",
+      "notes": "코르아가 온 방향에 등장하는 항성.",
+      "ui_keys": []
+    },
+    {
+      "id": "wumpus",
+      "source": "wumpus",
+      "ko": "웜퍼스",
+      "category": "lifeform",
+      "status": "in_use",
+      "notes": "울트론의 낙하 충격을 막았을 수 있다는 복슬복슬한 생물.",
+      "ui_keys": []
+    },
+    {
+      "id": "trooba_fern",
+      "source": "Trooba Fern",
+      "ko": "트루바 고사리",
+      "category": "lifeform",
+      "status": "in_use",
+      "notes": "가면 바탕의 재료.",
+      "ui_keys": []
+    },
+    {
+      "id": "morality_riots",
+      "source": "Morality Riots",
+      "ko": "도덕 폭동",
+      "category": "event",
+      "status": "in_use",
+      "notes": "가면 규정 정비에 앞선 사건.",
+      "ui_keys": []
+    },
+    {
+      "id": "great_sin",
+      "source": "Great Sin",
+      "ko": "대죄",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "울트론 파손에 대한 우트위그의 죄책감 표현.",
+      "ui_keys": []
+    },
+    {
+      "id": "mask_gruelling",
+      "source": "Mask of Gruelling but Neccessary Activity",
+      "ko": "고되지만 필요한 활동의 가면",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "원문 철자 Neccessary를 검색 키로 보존한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "countenance_stellar",
+      "source": "Countenance of Stellar Representation",
+      "ko": "항성 대표의 얼굴",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "가장 화려한 의례용 안면 장구.",
+      "ui_keys": []
+    },
+    {
+      "id": "mask_embarrassment",
+      "source": "Ultimate Embarrassment and Shame",
+      "ko": "궁극의 당혹과 수치",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "울트론 파손 뒤 영원히 쓰기로 맹세한 가면.",
+      "ui_keys": []
+    },
+    {
+      "id": "visage_orations",
+      "source": "Visage of Ceremonial Orations",
+      "ko": "의례 연설의 얼굴",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "모든 용도와 개정판이 소각된 가면.",
+      "ui_keys": []
+    },
+    {
+      "id": "veil_prancing",
+      "source": "Veil of Flirtatious Prancing",
+      "ko": "유혹의 깡충걸음 장막",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "구애용 가면.",
+      "ui_keys": []
+    },
+    {
+      "id": "lewd_monacle",
+      "source": "Lewd Monacle",
+      "ko": "음란한 외알 가리개",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "원문 철자 Monacle을 키로 보존한 구애용 장구.",
+      "ui_keys": []
+    },
+    {
+      "id": "mask_excretions",
+      "source": "Mask of Natural Bodily Excretions",
+      "ko": "자연스러운 신체 배설의 가면",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "화장실 비품과 일회용 가면 배급기의 맥락.",
+      "ui_keys": []
+    },
+    {
+      "id": "remorse_comrades",
+      "source": "Remorse For Lost Comrades",
+      "ko": "잃은 전우를 향한 회한",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "전투 사상자를 애도하는 얼굴 장구.",
+      "ui_keys": []
+    },
+    {
+      "id": "confident_posture",
+      "source": "Confident and Lofty Posture",
+      "ko": "자신만만하고 고결한 자태",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "소각된 가면을 다시 쓰고 싶어 하는 대사.",
+      "ui_keys": []
+    },
+    {
+      "id": "rampant_jubilation",
+      "source": "Rampant Jubilation and Jumping With Ecstatic Glee",
+      "ko": "넘치는 환희와 황홀한 기쁨의 뜀박질",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "드물게 사용하는 복잡한 의례 가면.",
+      "ui_keys": []
+    },
+    {
+      "id": "ultimate_gratitude",
+      "source": "Expression of Ultimate Gratitude",
+      "ko": "궁극의 감사의 표정",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "딱정벌레 분비물과 트루바 고사리로 제작하는 장구.",
+      "ui_keys": []
+    },
+    {
+      "id": "saintly_facade",
+      "source": "Saintly Facade",
+      "ko": "성스러운 외관",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "함장을 위한 안면 장구 제작 사업.",
+      "ui_keys": []
+    },
+    {
+      "id": "valor_derring_do",
+      "source": "Valor and Derring-Do",
+      "ko": "용맹과 대담한 모험",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "전투 후 귀환 인사에 등장하는 가면.",
+      "ui_keys": []
+    },
+    {
+      "id": "domino_merriment",
+      "source": "Domino of Unrivaled Merriment",
+      "ko": "비할 데 없는 유쾌함의 반가면",
+      "category": "mask",
+      "status": "in_use",
+      "notes": "아웃테이크에서 고른 첫 가면.",
+      "ui_keys": []
+    },
+    {
+      "id": "exultant_caper",
+      "source": "Exultant Caper of Revelation",
+      "ko": "계시의 환희에 찬 도약",
+      "category": "ritual",
+      "status": "in_use",
+      "notes": "최고 감독관의 춤 동작.",
+      "ui_keys": []
+    },
+    {
+      "id": "ultron_saint",
+      "source": "Ultron Saint",
+      "ko": "울트론의 성인",
+      "category": "title",
+      "status": "in_use",
+      "notes": "울트론을 되찾아 준 함장에게 부여한 칭호.",
+      "ui_keys": []
     }
   ]
 }

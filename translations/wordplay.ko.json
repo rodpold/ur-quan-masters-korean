@@ -85,6 +85,20 @@
       "source_wordplay": "fried in butter / relatives between toes / Absorbine Junior",
       "ko_wordplay": "버터에 볶다 / 발가락 사이의 친척 / 앱소빈 주니어",
       "notes": "버섯 음식과 발가락의 균류를 연결하는 조롱. 제품명의 문화적 인지도는 재현되지 않아 추가 현지화 검토 대기. 원문에 없는 제품 설명은 대사에 넣지 않았다."
+    },
+    {
+      "species": "utwig",
+      "record": "MOCK_OUR_PAIN",
+      "source_wordplay": "hopping mad / Hop hop hop",
+      "ko_wordplay": "펄쩍펄쩍 뛸 만큼 화가 났소 / 펄쩍, 펄쩍, 펄쩍",
+      "notes": "분노 관용구를 실제 동작으로 잇는 말장난 유지."
+    },
+    {
+      "species": "utwig",
+      "record": "DO_THIS_BEFORE_SPACE",
+      "source_wordplay": "orange furry air breathes tender yawns / eaten / hugged / improved",
+      "ko_wordplay": "주황색 털북숭이 공기가 부드러운 하품 / 먹다 / 안다 / 개량하다",
+      "notes": "신호 해석의 난해함과 연속된 오독을 유지. 뜻이 통하도록 해설하지 않는다."
     }
   ],
   "jokes": [

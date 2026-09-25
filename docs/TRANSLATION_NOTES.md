@@ -109,3 +109,11 @@ reports.ko.json은 원본 base/lander 경로→레코드 ID→번역 본문 구�
 공개 소스 [myconc.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/mycon/myconc.c)의 DoRamble, TrickMycon, NormalMycon에서 기억 순서 및 AMBUSH_TAIL/RAMBLE_TAIL 연결을 확인했다. 두 빈 꼬리 레코드는 공백 그대로 둔다. 사망 연도 57,283/343, 바이오트 94-18, 기본판 좌표 629.1, 220.8과 오르가논 1을 보존했다. 태양 장치와 태양 조작기는 같은 유물의 원문 별칭으로 관리한다.
 
 음성판 다섯 레코드의 차이는 별도 파일로 번역했다. 모성 좌표·근원 설명이 없는 음성판에 기본판 문장을 억지로 추가하지 않는다. 자막과 녹음의 시점, 기본판만의 정보가 게임 진행에 미치는 영향은 실기 검토 대상으로 남긴다.
+
+## 우트위그
+
+공개 소스 [utwigc.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/utwig/utwigc.c)의 NeutralUtwig에서 자기소개는 함장명 뒤에 GetAllianceName의 동맹명이 들어간다. 함선명이 아니다. name_40/name_41은 기존 방식대로 실제 함장명 뒤 제국이 붙도록 공백과 순서를 보존한다.
+
+수리 전 장치를 보여 주는 모욕 분기와 수리된 장치를 인식하는 분기를 구분한다. 울트론이 사기라는 드루지 관점으로 우트위그의 확신을 교정하지 않는다. 반대로 복원 뒤에도 NO_NEW_INFO 등에서 미숙함과 정보의 한계를 인정한다. 코르아만 공격하도록 정정하는 순서, 저거 네 척 지원, 623가지 구조 가능성, 이십사 년 두 달 사흘 예언을 유지했다. Grand Proctor/High Proctor와 Fahz/Faz는 원문 표기의 차이를 용어집에서 구분했다.
+
+기본판 ABOUT_US_3의 수폭스·베타 리브라에 정보는 음성판에 없으며, 음성판에만 폭탄 좌표 850.3, 937.2가 있다. TOO_LATE는 음성판에서 단 한 문장이다. 그 차이를 별도 번역 파일로 보존했다. 아주 긴 가면 명칭과 회상 자막, 동맹명 삽입 뒤 선택지의 표시·타이밍은 실기 검토 대기다.
