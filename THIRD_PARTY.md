@@ -126,3 +126,9 @@ Fifteen additional independent design families from official Google Fonts, unmod
 | BlackAndWhitePicture | AsiaSoft Inc. | [source](https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/blackandwhitepicture) / [TTF](https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/blackandwhitepicture/BlackAndWhitePicture-Regular.ttf) | vendor/blackandwhitepicture/OFL.txt | `4d72cd6de1f210b446c86f06b4e13d7641cbcfb1b375c6927341388aa8e08056` |
 
 Local vendor directories also retain METADATA.pb and SHA256.json. No font outlines modified. docs/binary-race-fonts-*.png contain only new font renders, not game graphics. Original-English comparisons are generated under ignored artifacts/binary-font-review/. GowunDodum is retained as an alternate, not assigned in the unique-family proposal.
+
+## Race fonts integrated into local addon
+
+The 24 selected families listed in translations/fonts.ko.json are now rasterized as binary Hangul glyphs by race_fonts.py. Original font binaries are unmodified. The generated addon ships the relevant complete license notices, additional dependency notices and author files plus individual source/designer credits under ko/licenses/. Original English glyphs come from the user installation and remain excluded from Git.
+
+Shared font references inspected in the public source port: https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/spahome/spahome.c , https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/starbas/starbas.c , https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/rebel/rebel.c . These confirm Spathi, Commander and Yehat font sharing respectively.

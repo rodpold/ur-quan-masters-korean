@@ -162,7 +162,9 @@ def build(game, ui_font="compact"):
         subtitles[0] = setup['TITLE']
         setup['SUBTITLES'] = '\n'.join(subtitles)
         setup['TITLE'] = ' '
-    dialogue = {species: json.loads((ROOT/'translations/dialogue'/f'{species}.ko.json').read_text(encoding='utf-8')) for species in ['commander','urquan']}
+    dialogue = {p.name.removesuffix('.ko.json'): json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'translations/dialogue').glob('*.ko.json'))}
+    registry = json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
+    dialogue_rows = {row['id']: row for row in registry['dialogue_fonts']}
     dialogue_values = [v for records in dialogue.values() for v in records.values()]
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
     entries = {}
@@ -188,10 +190,11 @@ def build(game, ui_font="compact"):
                                 key, value = line.split('=', 1)
                                 voice_paths[key.strip()] = value.strip()
         for species, records in dialogue.items():
-            source = f'base/comm/{species}/{species}.txt'
+            source_species = 'yehatrebels' if species == 'yehat.rebel' else species
+            source = f'base/comm/{source_species}/{source_species}.txt'
             target = f'ko/comm/{species}/{species}.txt'
             entries[target] = translate_dialogue(z.read(source).decode('utf-8'), records).encode('utf-8')
-            key = f'comm.{species}.dialogue'
+            key = dialogue_rows[species]['dialogue_resource']
             original_mapping = voice_paths.get(key, f'CONVERSATION:{source}')
             parts = original_mapping.split(':', 2)
             if parts[:2] != ['CONVERSATION', source]:
@@ -218,6 +221,8 @@ def build(game, ui_font="compact"):
             resource = 'comm.urquan.font' if family == 'urquan' else f'font.{family}'
             rmp.append(f'{resource} = FONTRES:ko/fonts/{family}.fon')
         rmp.append('comm.commander.font = FONTRES:ko/fonts/player.fon')
+        from race_fonts import add_race_fonts
+        race_font_report = add_race_fonts(entries, rmp, z, chars)
         entries['ko-ui.rmp'] = ('\n'.join(line.replace(':ko/', f':addons/{ADDON}/ko/') for line in rmp)+'\n').encode()
     entries['ko/OFL.txt'] = (ROOT/'vendor/galmuri/OFL.txt').read_bytes()
     data = io.BytesIO()
@@ -227,7 +232,7 @@ def build(game, ui_font="compact"):
             item = ZipInfo(name, date_time=(2026,1,1,0,0,0))
             item.compress_type = ZIP_DEFLATED
             archive.writestr(item, value)
-    return data.getvalue(), {'ui_font':ui_font, 'dialogue_records':sum(map(len,dialogue.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
+    return data.getvalue(), {'ui_font':ui_font, 'race_fonts':race_font_report, 'dialogue_records':sum(map(len,dialogue.values())), 'glyphs_per_font':len(chars), 'translated_records':sum(counts.values()), 'setup_records':len(setup), 'files':len(entries)}
 
 def addon_dir(game):
     game = Path(game).resolve(strict=True)

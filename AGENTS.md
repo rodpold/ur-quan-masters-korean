@@ -13,3 +13,5 @@
 - Keep translations/fonts.ko.json and FONTS.md aligned with glossary IDs and actual font assignments. Distinguish proposed fonts from applied trials; update attribution for new fonts.
 
 - User decision (2026-09-25): no semitransparent Korean font glyphs, including small UI and dialogue. Use binary alpha (0/255). Retained AA tools/specimens are historical experiments, not approved deployment candidates.
+
+- Full localization goal: before each dialogue batch, read translations/personas.ko.json and the relevant source conversation/context. Preserve state/speaker variants and keep player responses separate. Enforce translations/glossary.lock.json; add new terms explicitly without rewriting locked names. Never mark untranslated or unreviewed records complete.

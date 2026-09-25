@@ -117,3 +117,7 @@ python patcher.py build --game "$game" --output artifacts/ko-ui.uqm
 ## 종족별 흑백 폰트 배정안
 
 27개 대화 ID / 24개 그룹에 독립 폰트 파일 24종을 제안했습니다. 같은 종족의 별도 대화만 공유합니다. [배정표와 제약](translations/FONTS.md), [표본 1](docs/binary-race-fonts-1.png), [표본 2](docs/binary-race-fonts-2.png)를 참조하세요. 반투명은 사용하지 않습니다. 현재 설치 패치는 기존 픽셀 글꼴이며, 후보 전부를 게임에 적용한 상태가 아닙니다. 원본 영문 비교는 `tools/review_binary_fonts.py --game "게임 경로"`로 로컬 생성합니다.
+
+## 전체 번역 진행
+
+전체 번역 목표를 진행 중입니다. 24종 종족 폰트는 실제 빌드에 연결됐으며, 모든 대사가 번역된 것은 아닙니다. [진행률과 완료 기준](docs/LOCALIZATION_GOAL.md), [페르소나](translations/PERSONAS.md), [용어집](translations/GLOSSARY.md)을 기준으로 작업합니다. `tools/check_localization.py --game "게임 경로" --write-report`로 누락을 추적합니다.

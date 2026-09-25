@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "default_player_persona": {
+    "register": "플레이어 선택지는 상대 종족 말투를 복사하지 않는다. 원문의 공손함·위협·농담 선택지를 각각 유지. 기본은 간결한 중립 문장.",
+    "dynamic_names": "실제 함장/함선 이름을 삽입하는 레코드 경계와 앞뒤 공백을 보존."
+  },
+  "global_rules": [
+    "원문의 정보·강도·불확실성·농담·의도적인 모순을 보존",
+    "기존 용어집 잠금 표기를 변경하지 않는다",
+    "말투를 맞추기 위해 없는 정보나 욕설·유행어를 추가하지 않는다",
+    "원문 발화 줄 수·레코드 경계·음성 구간을 유지",
+    "진행 상태와 개별 화자 차이를 종족 기본 페르소나보다 우선한다"
+  ],
+  "shared_profiles": {
+    "safeones": {
+      "base": "spathi",
+      "override": "집단 지도부는 개인 프위포보다 격식 있는 합쇼체. 의심과 안전 우선 논리는 유지."
+    },
+    "starbase": {
+      "base": "commander",
+      "override": "동맹 이후의 헤이스. 합쇼체로 군사·역사 브리핑."
+    },
+    "yehat.rebel": {
+      "base": "yehat",
+      "override": "반란군의 동맹 환대와 혁명에 대한 확신."
+    }
+  },
+  "profiles": {
+    "arilou": {
+      "persona": "다정하지만 속내를 감추는 보호자",
+      "register": "너/작은 아이, 나/우리. 온화한 해라체와 짧은 수수께끼.",
+      "constraints": "독자를 대신해 비밀을 설명하지 않는다. 무조건 유아어로 만들지 않는다.",
+      "illustrative_style_sample": "잘 왔구나, 작은 아이야. 네가 여기까지 온 것을 보니 기쁘구나.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "arilou"
+      ],
+      "font_group": "arilou",
+      "source_path": "base/comm/arilou/arilou.txt",
+      "evidence_record_ids": [
+        "INIT_HELLO",
+        "CONFUSED_RESPONSE"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "chmmr": {
+      "persona": "집단적이고 논리적인 합성 지성",
+      "register": "우리. 감정 절제한 한다체, 논리적 진술과 명령.",
+      "constraints": "합일 전 첸제수/므른므흐름과 합일 후의 정체를 섞지 않는다.",
+      "illustrative_style_sample": "우리는 그대의 요청을 검토했다. 필요한 조치를 실행하겠다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "chmmr"
+      ],
+      "font_group": "chmmr",
+      "source_path": "base/comm/chmmr/chmmr.txt",
+      "evidence_record_ids": [
+        "WHY_YOU_HERE_1",
+        "WHY_YOU_HERE_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "commander": {
+      "persona": "현실적이고 책임감 있는 군 지휘관",
+      "register": "함장님. 기본 합쇼체, 긴급 무전은 짧은 보고와 명령.",
+      "constraints": "첫 정체불명 교신의 경계심과 신뢰 이후의 존중을 구분. 기존 첫 무전의 한다체 유지.",
+      "illustrative_style_sample": "함장님, 상황을 보고드리겠습니다. 지금은 승무원의 안전이 우선입니다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "hayes"
+      ],
+      "font_group": "commander",
+      "source_path": "base/comm/commander/commander.txt",
+      "evidence_record_ids": [
+        "GLAD_WHEN_YOU_COME_BACK",
+        "GIVE_FUEL"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "druuge": {
+      "persona": "계약으로 착취를 정당화하는 상인",
+      "register": "당신/우리. 정중한 합쇼체에 소유권·대가·조건을 강조.",
+      "constraints": "노예 거래의 잔혹함을 미화하지 않으며 장난스러운 장사꾼으로 바꾸지 않는다.",
+      "illustrative_style_sample": "조건은 명확합니다. 대가를 지불하시면 소유권을 넘겨드리겠습니다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "druuge"
+      ],
+      "font_group": "druuge",
+      "source_path": "base/comm/druuge/druuge.txt",
+      "evidence_record_ids": [
+        "AMBUSH_IS_FIRST_HELLO",
+        "INIT_BOMB_WORLD_HELLO"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "ilwrath": {
+      "persona": "잔혹한 신을 숭배하는 광신자",
+      "register": "일반 상대에는 해라체. 신으로 믿는 상대에는 하옵니다/주소서 계열.",
+      "constraints": "영문 단어별 대문자를 한글 띄어쓰기 파괴로 흉내 내지 않는다. 원문 이상의 잔혹 묘사를 추가하지 않는다.",
+      "illustrative_style_sample": "위대하신 주인이시여, 다음 명령을 내려주소서!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "ilwrath"
+      ],
+      "font_group": "ilwrath",
+      "source_path": "base/comm/ilwrath/ilwrath.txt",
+      "evidence_record_ids": [
+        "NEVER_ENOUGH",
+        "OK_WARSHIP"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "kohrah": {
+      "persona": "절멸을 숙명으로 여기는 냉정한 집행자",
+      "register": "우리/너희. 짧고 단정적인 한다체.",
+      "constraints": "우르콴 크저자의 복종 논리와 혼동하지 않는다. 공포 회상은 해당 원문에서만 드러낸다.",
+      "illustrative_style_sample": "우리는 운명을 정화한다. 너희는 곧 죽는다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "kohr_ah"
+      ],
+      "font_group": "kohrah",
+      "source_path": "base/comm/kohrah/kohrah.txt",
+      "evidence_record_ids": [
+        "SENSE_EVIL",
+        "HELLO_AND_DIE_1"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "melnorme": {
+      "persona": "친절하고 계산이 빠른 정보 상인",
+      "register": "함장님/고객. 유창한 합쇼체와 거래 제안.",
+      "constraints": "드루지처럼 노골적인 협박조로 통일하지 않는다. 가격과 조건은 정확히 유지.",
+      "illustrative_style_sample": "반갑습니다, 함장님. 서로에게 이익이 되는 거래를 기대하겠습니다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "melnorme"
+      ],
+      "font_group": "melnorme",
+      "source_path": "base/comm/melnorme/melnorme.txt",
+      "evidence_record_ids": [
+        "HELLO_NOW_DOWN_TO_BUSINESS_1",
+        "HELLO_NOW_DOWN_TO_BUSINESS_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "mycon": {
+      "persona": "집단 기억과 신념이 뒤섞인 생명체",
+      "register": "우리. 짧은 선언형, 의식적인 반복과 갑작스러운 기억 전환.",
+      "constraints": "원문의 모순·화자 기억 전환을 임의로 설명하거나 논리적으로 정리하지 않는다.",
+      "illustrative_style_sample": "우리는 퍼져 나간다. 흐름을 가로막는 것은 사라져야 한다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "mycon"
+      ],
+      "font_group": "mycon",
+      "source_path": "base/comm/mycon/mycon.txt",
+      "evidence_record_ids": [
+        "TELL_US_ABOUT_WORLD",
+        "BYE_AND_DIE_HOMEWORLD"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "orz": {
+      "persona": "번역기가 온전히 해석하지 못하는 이질적 존재",
+      "register": "오르즈/우리. 어색한 문법, 반복, *표시된 개념*을 보존.",
+      "constraints": "별표 용어를 자연스러운 동의어로 통일하지 않는다. 시스템 경고는 건조한 시스템체로 분리.",
+      "illustrative_style_sample": "오르즈는 즐겁다! 함께 *파티*를 하는가?",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "orz"
+      ],
+      "font_group": "orz",
+      "source_path": "base/comm/orz/orz.txt",
+      "evidence_record_ids": [
+        "INIT_HELLO",
+        "WE_ARE_ORZ"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "pkunk": {
+      "persona": "신비주의적이고 수다스러운 낙천가",
+      "register": "그대/함장. 하오체 중심의 과장된 예언, 갑작스러운 일상적 반전.",
+      "constraints": "영적인 장황함과 코미디의 반전을 유지. 대사에 없는 예언을 추가하지 않는다.",
+      "illustrative_style_sample": "영혼의 목소리가 들리는구려! 잠깐, 정확히 무엇을 주라는 것이오?",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "pkunk"
+      ],
+      "font_group": "pkunk",
+      "source_path": "base/comm/pkunk/pkunk.txt",
+      "evidence_record_ids": [
+        "GIVE_SPINDLE",
+        "NEUTRAL_SPACE_HELLO_1"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "probe": {
+      "persona": "고장 난 우선순위를 따르는 자동 탐사선",
+      "register": "본 탐사선. 합니다/되었습니다 또는 명사형 상태 보고.",
+      "constraints": "호의적인 선언과 공격 행동의 모순을 고치지 않는다. 식별번호·우선순위·수치 보존.",
+      "illustrative_style_sample": "적대 행위 감지. 방어 체계가 활성화되었습니다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "slylandro_probe",
+        "slylandro"
+      ],
+      "font_group": "probe",
+      "source_path": "base/comm/probe/probe.txt",
+      "evidence_record_ids": [
+        "WE_COME_IN_PEACE_1",
+        "WE_COME_IN_PEACE_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending",
+      "machine_checks": {
+        "required_id": "2418-B",
+        "register": "machine",
+        "numeral_fragments": "숫자 레코드 순서를 유지; 좌표 조립과 발음은 별도 실기 검증"
+      }
+    },
+    "spathi": {
+      "persona": "겁이 많고 변명이 빠른 생존주의자",
+      "register": "함장님/저희. 공손한 해요체, 긴 변명과 주저.",
+      "constraints": "무작정 말더듬을 추가하지 않는다. 비겁함 속 영리함과 논리를 보존.",
+      "illustrative_style_sample": "그, 오해하지 마세요. 저희는 그저 무사히 돌아가고 싶을 뿐이에요!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "spathi"
+      ],
+      "font_group": "spathi",
+      "source_path": "base/comm/spathi/spathi.txt",
+      "evidence_record_ids": [
+        "SORRY_ABOUT_THAT",
+        "I_FWIFFO"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "shofixti": {
+      "persona": "명예와 전투에 충실한 전사",
+      "register": "나/그대. 단호한 하오체, 적에게 해라체.",
+      "constraints": "타나카·카타나 및 동맹/적 오인 상태를 구분. 일본풍 가짜 말끝을 추가하지 않는다.",
+      "illustrative_style_sample": "전사의 명예를 걸고 맹세하오. 물러서지 않겠소!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "shofixti"
+      ],
+      "font_group": "shofixti",
+      "source_path": "base/comm/shofixti/shofixti.txt",
+      "evidence_record_ids": [
+        "HOSTILE_KATANA_1",
+        "HOSTILE_KATANA_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "slylandro": {
+      "persona": "호기심 많고 방문객을 반기는 공중 생명체",
+      "register": "우리/방문객. 밝은 해요체와 감탄.",
+      "constraints": "탐사선의 기계 말투와 섞지 않는다. 여러 대변인의 이름과 발화 구간을 보존.",
+      "illustrative_style_sample": "방문객이군요! 정말 반가워요. 잠시 머물며 이야기를 나눠요.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "slylandro"
+      ],
+      "font_group": "slylandro",
+      "source_path": "base/comm/slylandro/slylandro.txt",
+      "evidence_record_ids": [
+        "HELLO_1",
+        "HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "supox": {
+      "persona": "상대의 표현을 반영하는 식물 지성",
+      "register": "당신/우리. 부드러운 해요체, 식물 은유와 원문 되받기.",
+      "constraints": "뿌리·잎·빛 은유와 상대 말의 반복을 임의로 평범하게 바꾸지 않는다.",
+      "illustrative_style_sample": "당신의 뿌리에 언제나 물이 넉넉하기를 바라요.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "supox"
+      ],
+      "font_group": "supox",
+      "source_path": "base/comm/supox/supox.txt",
+      "evidence_record_ids": [
+        "NEUTRAL_SPACE_HELLO_1",
+        "NEUTRAL_SPACE_HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "syreen": {
+      "persona": "자신감 있고 경계심도 갖춘 지휘관",
+      "register": "함장/당신. 공적 상황은 합쇼체, 친밀한 상황은 해요체.",
+      "constraints": "종족 전체를 유혹조로 평준화하지 않는다. 탈라나의 신뢰·분노·친밀도 변화는 원문 근거로만.",
+      "illustrative_style_sample": "신원을 밝히십시오. 잠깐, 저 함선을 지휘하는 분이 인간인가요?",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "syreen"
+      ],
+      "font_group": "syreen",
+      "source_path": "base/comm/syreen/syreen.txt",
+      "evidence_record_ids": [
+        "HELLO_BEFORE_AMBUSH_1",
+        "HELLO_BEFORE_AMBUSH_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "talkingpet": {
+      "persona": "온순함을 가장하는 교활한 존재",
+      "register": "초반 정중한 해요체, 정체·태도 변화 시 냉소적 해라체.",
+      "constraints": "초반에 정체를 미리 폭로하지 않는다. 정신 지배 상황과 해방 후를 구분.",
+      "illustrative_style_sample": "저는 그저 평화로운 생명체일 뿐이에요. 걱정하실 필요 없어요.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "talking_pet"
+      ],
+      "font_group": "talkingpet",
+      "source_path": "base/comm/talkingpet/talkingpet.txt",
+      "evidence_record_ids": [
+        "HELLO_AT_UMGAH",
+        "JUST_TALKING_PET"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "thraddash": {
+      "persona": "힘과 승리를 숭배하는 거친 전사",
+      "register": "우리/너희. 거친 해라체, 원문 SNORT는 흥! 계열.",
+      "constraints": "문화 번호와 패배 후 학습·새 문화 변화를 유지. 욕설 강도를 원문 이상으로 높이지 않는다.",
+      "illustrative_style_sample": "흥! 싸울 상대가 또 생겼군. 힘으로 증명해 봐라!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "thraddash"
+      ],
+      "font_group": "thraddash",
+      "source_path": "base/comm/thraddash/thraddash.txt",
+      "evidence_record_ids": [
+        "HOSTILE_SPACE_HELLO_1",
+        "HOSTILE_SPACE_HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "umgah": {
+      "persona": "잔혹한 장난을 즐기는 생명공학자",
+      "register": "우리/너희. 익살스러운 해체/해라체, Har!는 하! 반복.",
+      "constraints": "정신 지배 상태는 별도. 개그의 잔혹함을 삭제하거나 새로운 유행어를 넣지 않는다.",
+      "illustrative_style_sample": "하! 하! 하! 다들 봐! 인간이 또 돌아왔어!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "umgah"
+      ],
+      "font_group": "umgah",
+      "source_path": "base/comm/umgah/umgah.txt",
+      "evidence_record_ids": [
+        "HWLD_PRE_ZOMBIE_HELLO_1",
+        "HWLD_PRE_ZOMBIE_HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "urquan": {
+      "persona": "지배를 보호라고 여기는 권위적 지배자",
+      "register": "우리/너희. 엄숙한 한다체와 복종 명령.",
+      "constraints": "크저자의 노예화 논리와 코르아의 절멸 논리를 구분. 단순 악당 고함으로 평준화하지 않는다.",
+      "illustrative_style_sample": "너희는 우리의 법을 어겼다. 복종하라. 이것이 마지막 경고다.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "ur_quan",
+        "kzer_za"
+      ],
+      "font_group": "urquan",
+      "source_path": "base/comm/urquan/urquan.txt",
+      "evidence_record_ids": [
+        "HELLO_SAMATRA",
+        "SENSE_EVIL"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "utwig": {
+      "persona": "의식과 상실에 몰두하는 비탄의 종족",
+      "register": "우리/그대. 격식 있는 하오체, 침울한 장문과 탄식.",
+      "constraints": "유물 회복 전의 비탄과 회복 후의 확신을 구분. 계속 우울하게만 번역하지 않는다.",
+      "illustrative_style_sample": "우리의 슬픔을 헤아릴 수 있겠소? 오늘도 무거운 하루가 지나가는구려.",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "utwig"
+      ],
+      "font_group": "utwig",
+      "source_path": "base/comm/utwig/utwig.txt",
+      "evidence_record_ids": [
+        "NEUTRAL_SPACE_HELLO_1",
+        "NEUTRAL_SPACE_HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "vux": {
+      "persona": "인간의 외모를 혐오하는 냉소적 종족",
+      "register": "일반 VUX는 차가운 하오체/해라체. ZEX는 과하게 친절한 하오체.",
+      "constraints": "ZEX와 일반 함대의 태도는 반대. 말투만으로 실존 집단을 흉내 내지 않는다.",
+      "illustrative_style_sample": "일반: 더는 그 흉한 모습을 보고 싶지 않다. / ZEX: 인간 손님이라니, 이 얼마나 기쁜 일이오!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "vux"
+      ],
+      "font_group": "vux",
+      "source_path": "base/comm/vux/vux.txt",
+      "evidence_record_ids": [
+        "ZEX_HELLO_1",
+        "ZEX_HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending",
+      "variants": {
+        "ZEX_*": "과도하게 환대하는 ZEX",
+        "default": "인간 혐오를 보이는 일반 함대"
+      }
+    },
+    "yehat": {
+      "persona": "명예와 충성 사이에서 갈등하는 씨족 전사",
+      "register": "우리/벗. 격식 있는 하오체와 힘찬 감탄.",
+      "constraints": "왕당파·반란군을 구분하고 원문의 방언은 한국 지역 방언 대신 문장 리듬으로 표현.",
+      "illustrative_style_sample": "어서 오시오, 인간의 벗이여! 씨족들이 우리의 뜻에 모이고 있소!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "yehat"
+      ],
+      "font_group": "yehat",
+      "source_path": "base/comm/yehat/yehat.txt",
+      "evidence_record_ids": [
+        "HOMEWORLD_HELLO_1",
+        "HOMEWORLD_HELLO_2"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending"
+    },
+    "zoqfotpik": {
+      "persona": "서로 끼어들고 티격태격하는 복수 화자",
+      "register": "차분한 설명자는 해요체, 성급한 반박자는 해체/짧은 명령.",
+      "constraints": "레코드 번호만으로 항상 같은 화자로 단정하지 않는다. 실제 대화 연쇄와 소스 발화 전환을 확인.",
+      "illustrative_style_sample": "설명자: 동료가 조금 긴장했어요. / 반박자: 아니거든!",
+      "sample_is_translation": false,
+      "glossary_ids": [
+        "zoq_fot_pik"
+      ],
+      "font_group": "zoqfotpik",
+      "source_path": "base/comm/zoqfotpik/zoqfotpik.txt",
+      "evidence_record_ids": [
+        "WE_ARE0",
+        "WE_ARE1"
+      ],
+      "status": "source_based_working_profile",
+      "human_style_review": "pending",
+      "variants": {
+        "WE_ARE0,WE_ARE2,WE_ARE4,WE_ARE6": "차분한 설명자",
+        "WE_ARE1,WE_ARE3,WE_ARE5,WE_ARE7": "공격적 반박자",
+        "other": "분기와 화자 전환 확인 후 지정"
+      }
+    }
+  }
+}

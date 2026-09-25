@@ -46,8 +46,9 @@ def verify(game, ui_font="compact"):
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         dialogue = {p.stem:json.loads(p.read_text(encoding='utf-8')) for p in (patcher.ROOT/'translations/dialogue').glob('*.json')}
         required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
-        for species in ['commander','urquan']:
-            a=source.read(f'base/comm/{species}/{species}.txt').decode('utf-8')
+        for species in sorted(p.name.removesuffix('.ko.json') for p in (patcher.ROOT/'translations/dialogue').glob('*.ko.json')):
+            source_species='yehatrebels' if species=='yehat.rebel' else species
+            a=source.read(f'base/comm/{source_species}/{source_species}.txt').decode('utf-8')
             b=z.read(f'ko/comm/{species}/{species}.txt').decode('utf-8')
             split=lambda t: re.split(r'(?m)(^#\([^\r\n]*\)[^\r\n]*\r?\n)',t)
             aa,bb=split(a),split(b)

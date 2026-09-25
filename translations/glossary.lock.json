@@ -1,0 +1,157 @@
+{
+  "reason": "사용자가 기존 고유명사 유지 요청. 새 용어 추가는 가능하나 이 표기는 자동 변경 금지.",
+  "terms": {
+    "sol": {
+      "source": "Sol",
+      "ko": "태양"
+    },
+    "hyperspace": {
+      "source": "HyperSpace",
+      "ko": "초공간"
+    },
+    "quasispace": {
+      "source": "QuasiSpace",
+      "ko": "준공간"
+    },
+    "earth": {
+      "source": "Earth",
+      "ko": "지구"
+    },
+    "hayes": {
+      "source": "Hayes",
+      "ko": "헤이스"
+    },
+    "ur_quan": {
+      "source": "Ur-Quan",
+      "ko": "우르콴"
+    },
+    "hierarchy": {
+      "source": "Hierarchy",
+      "ko": "지배 계층"
+    },
+    "star_control": {
+      "source": "Star Control",
+      "ko": "스타 컨트롤"
+    },
+    "alliance_free_stars": {
+      "source": "Alliance of Free Stars",
+      "ko": "자유 항성 동맹"
+    },
+    "new_alliance_free_stars": {
+      "source": "New Alliance of Free Stars",
+      "ko": "신 자유 항성 동맹"
+    },
+    "precursors": {
+      "source": "Precursors",
+      "ko": "선구자"
+    },
+    "sa_matra": {
+      "source": "Sa-Matra",
+      "ko": "사마트라"
+    },
+    "kzer_za": {
+      "source": "Kzer-Za",
+      "ko": "크저자"
+    },
+    "kohr_ah": {
+      "source": "Kohr-Ah",
+      "ko": "코르아"
+    },
+    "arilou": {
+      "source": "Arilou",
+      "ko": "아릴루"
+    },
+    "chmmr": {
+      "source": "Chmmr",
+      "ko": "촘르"
+    },
+    "druuge": {
+      "source": "Druuge",
+      "ko": "드루지"
+    },
+    "ilwrath": {
+      "source": "Ilwrath",
+      "ko": "일라스"
+    },
+    "melnorme": {
+      "source": "Melnorme",
+      "ko": "멜노름"
+    },
+    "mycon": {
+      "source": "Mycon",
+      "ko": "마이콘"
+    },
+    "orz": {
+      "source": "Orz",
+      "ko": "오르즈"
+    },
+    "pkunk": {
+      "source": "Pkunk",
+      "ko": "프쿤크"
+    },
+    "shofixti": {
+      "source": "Shofixti",
+      "ko": "쇼픽스티"
+    },
+    "slylandro": {
+      "source": "Slylandro",
+      "ko": "슬라이랜드로"
+    },
+    "spathi": {
+      "source": "Spathi",
+      "ko": "스파시"
+    },
+    "supox": {
+      "source": "Supox",
+      "ko": "수폭스"
+    },
+    "syreen": {
+      "source": "Syreen",
+      "ko": "시린"
+    },
+    "thraddash": {
+      "source": "Thraddash",
+      "ko": "스래대시"
+    },
+    "umgah": {
+      "source": "Umgah",
+      "ko": "움가"
+    },
+    "utwig": {
+      "source": "Utwig",
+      "ko": "우트위그"
+    },
+    "vux": {
+      "source": "VUX",
+      "ko": "VUX"
+    },
+    "yehat": {
+      "source": "Yehat",
+      "ko": "예하트"
+    },
+    "zoq_fot_pik": {
+      "source": "Zoq-Fot-Pik",
+      "ko": "조크-포트-피크"
+    },
+    "captain_name": {
+      "source": "Zelnick",
+      "ko": null
+    },
+    "ship_name": {
+      "source": "Vindicator",
+      "ko": null
+    },
+    "hyperwave": {
+      "source": "HyperWave",
+      "ko": "초파장"
+    },
+    "talking_pet": {
+      "source": "Talking Pet",
+      "ko": "말하는 애완동물"
+    },
+    "slylandro_probe": {
+      "source": "Slylandro Probe",
+      "ko": "슬라이랜드로 탐사선"
+    }
+  }
+}
