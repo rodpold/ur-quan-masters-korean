@@ -4,12 +4,13 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 27,
+    "embedded_text_pending": 24,
     "existing_replacement_runtime_pending": 10,
     "generated_korean_heading_runtime_pending": 38,
     "generated_korean_melee_caption_runtime_pending": 5,
     "generated_korean_module_label_runtime_pending": 16,
     "generated_korean_panel_runtime_pending": 34,
+    "generated_korean_special_label_runtime_pending": 3,
     "no_obvious_language_text_in_viewed_image": 267,
     "partial_heading_replacement_other_text_pending": 1,
     "preserve_numeric_sprite": 21,
@@ -1699,8 +1700,8 @@
     {
       "source_path": "base/ui/outfitmodules-055.png",
       "source_sha256": "ff9d7aed513acd7dce4433221a9cddf8b4a520e527bfd0da6fdb57cc20dc43bf",
-      "status": "embedded_text_pending",
-      "notes": "확대 원본에서 NO ROOM FOR LANDERS / ESCAPE POD 확인. playmenu의 비슷한 장치 그림과 별도 자산."
+      "status": "generated_korean_special_label_runtime_pending",
+      "notes": "폭탄/탈출정/착륙정 공간 없음/무제한 문구 생성. 문구 영역 밖 그림과 ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/pickship-000.png",
@@ -2065,14 +2066,14 @@
     {
       "source_path": "base/ui/playmenu-058.png",
       "source_sha256": "9df58f208507160971d95393d880866f082312880454196a69bd0c6fd2e1f1cd",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_special_label_runtime_pending",
+      "notes": "폭탄/탈출정/착륙정 공간 없음/무제한 문구 생성. 문구 영역 밖 그림과 ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-059.png",
       "source_sha256": "a96292275ed0da2e8698503b6dab73254aae06d6504f68bfa5fd6b347fcc268f",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_special_label_runtime_pending",
+      "notes": "폭탄/탈출정/착륙정 공간 없음/무제한 문구 생성. 문구 영역 밖 그림과 ANI 보존. 실기 검토 대기."
     },
     {
       "source_path": "base/ui/playmenu-060-SAFEX=16.png",

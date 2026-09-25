@@ -187,3 +187,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 장비 메뉴 라벨 16개에도 기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)을 사용한다. 기존 UQM 그림은 설치 시 읽고 글자 영역만 변경하며 저장소에 재배포하지 않는다. 배치 근거: [고정 버전 outfit.c / DrawModuleStrings](https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/outfit.c), SHA-256 `d23e4755f6facda80322ad59577633cac7bd9ac54a55540183a9f95e9c105a0f`. 소스는 레이아웃 조사용으로만 읽었으며 코드를 복제하지 않았다.
 
 같은 Galmuri7(기존 저자·공식 출처·라이선스·vendor 해시)을 함대 대전 안내 8개에도 사용한다. 제목은 최근접 정수 2배, 기타 글자는 native 7픽셀 잉크이며 반투명 없이 생성한다. 원본 그림은 설치 시 읽고 글자 영역만 합성하며 Git에는 포함하지 않는다.
+
+기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)로 특수 장치/무제한/착륙정 안내 3개 이미지의 6개 글자 영역을 생성한다. native 7픽셀 이진 알파이며 원본 장치 그림은 설치 시 복사한다. 원본 PNG/ANI 해시는 translations/special-labels.ko.json에 기록한다.

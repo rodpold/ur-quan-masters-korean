@@ -1,0 +1,168 @@
+{
+  "status": "draft_runtime_pending",
+  "groups": [
+    {
+      "source_path": "base/ui/outfitmodules.ani",
+      "source_sha256": "8b595b14f549bcf53a5dbf4bbd4f941c98bc20fa4ec6723ef009f8a548cfc271",
+      "resource_key": "graphics.outfitmodules"
+    }
+  ],
+  "rows": [
+    {
+      "source_path": "base/ui/playmenu-058.png",
+      "source_sha256": "9df58f208507160971d95393d880866f082312880454196a69bd0c6fd2e1f1cd",
+      "size": [
+        70,
+        125
+      ],
+      "regions": [
+        {
+          "box": [
+            0,
+            33,
+            70,
+            8
+          ],
+          "text": "증폭된",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            248,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            0,
+            41,
+            70,
+            9
+          ],
+          "text": "선구자 폭탄",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            248,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            16,
+            110,
+            40,
+            14
+          ],
+          "text": "탈출정",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            248,
+            0,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/playmenu-059.png",
+      "source_sha256": "a96292275ed0da2e8698503b6dab73254aae06d6504f68bfa5fd6b347fcc268f",
+      "size": [
+        73,
+        17
+      ],
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            73,
+            17
+          ],
+          "text": "무제한",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            0,
+            248,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/outfitmodules-055.png",
+      "source_sha256": "ff9d7aed513acd7dce4433221a9cddf8b4a520e527bfd0da6fdb57cc20dc43bf",
+      "size": [
+        207,
+        50
+      ],
+      "regions": [
+        {
+          "box": [
+            0,
+            9,
+            162,
+            20
+          ],
+          "text": "착륙정 공간 없음",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            248,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            170,
+            38,
+            37,
+            12
+          ],
+          "text": "탈출정",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            248,
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ]
+}

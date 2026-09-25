@@ -45,6 +45,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_playmenu_headings import verify_playmenu_headings
         heading_check=verify_playmenu_headings(z, source)
         (patcher.ROOT/'docs/playmenu-heading-checks.json').write_text(json.dumps(heading_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_special_labels import verify_special_labels
+        special_check=verify_special_labels(z, source)
+        (patcher.ROOT/'docs/special-label-checks.json').write_text(json.dumps(special_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         from check_melee_regions import verify_melee_regions
         melee_check=verify_melee_regions(z, source)
         (patcher.ROOT/'docs/melee-region-checks.json').write_text(json.dumps(melee_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

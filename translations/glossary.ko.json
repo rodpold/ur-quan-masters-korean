@@ -6528,6 +6528,15 @@
       "status": "in_use",
       "notes": "장비 그림 메뉴 원문 표기를 위한 작업 번역. 다른 대화의 융합 추진기 등 기존 표현을 변경하지 않는다. 사용자 최종 승인 아님.",
       "ui_keys": []
+    },
+    {
+      "id": "escape_pod",
+      "source": "Escape Pod",
+      "ko": "탈출정",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "말하는 애완동물 최종 전투 대화의 기존 표기. 특수 장비 그림과 엔딩도 같은 표기로 통일. 최종 사용자 승인 아님.",
+      "ui_keys": []
     }
   ]
 }

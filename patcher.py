@@ -302,6 +302,8 @@ def build(game, ui_font="compact"):
         add_panels(entries, rmp, z, load_panels())
         from melee_regions import add_regions
         add_regions(entries, z)
+        from special_labels import add_special
+        add_special(entries, rmp, z)
         entries['ko/setupmenu.txt'] = translate_setup(z.read('base/ui/setupmenu.txt').decode('utf-8'),setup).encode('utf-8')
         for species, records in dialogue.items():
             source_species = 'yehatrebels' if species == 'yehat.rebel' else species

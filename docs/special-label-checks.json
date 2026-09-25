@@ -1,0 +1,9 @@
+{
+  "status": "static_passed_runtime_pending",
+  "sprites": 3,
+  "caption_regions": 6,
+  "unchanged_outfit_sprites": 55,
+  "limitations": [
+    "Bomb/escape-pod art and ANI positions are preserved; actual outfitting screen and status visibility still need runtime review."
+  ]
+}
