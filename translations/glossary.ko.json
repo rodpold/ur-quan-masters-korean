@@ -474,6 +474,105 @@
       "status": "in_use",
       "notes": "헤이스 초반 대화 번역에서 도입. 사용자 최종 승인과 구분.",
       "ui_keys": []
+    },
+    {
+      "id": "chenjesu",
+      "source": "Chenjesu",
+      "ko": "첸제수",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "mmrnmhrm",
+      "source": "Mmrnmhrm",
+      "ko": "므른므흐름",
+      "category": "species",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "earthling_cruiser",
+      "source": "Earthling Cruiser",
+      "ko": "지구인 순양함",
+      "category": "ship_class",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "detroit",
+      "source": "Detroit",
+      "ko": "디트로이트",
+      "category": "place",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "storage_bay",
+      "source": "Storage Bays",
+      "ko": "화물칸",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "attitude_jets",
+      "source": "Attitude Jets",
+      "ko": "자세 제어 분사기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "crew_pods",
+      "source": "Crew Pods",
+      "ko": "승무원실",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "fuel_tanks",
+      "source": "Fuel Tanks",
+      "ko": "연료 탱크",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "dynamos",
+      "source": "Dynamos",
+      "ko": "발전기",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "ion_bolt_guns",
+      "source": "Ion-Bolt Guns",
+      "ko": "이온탄 포",
+      "category": "equipment",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
+    },
+    {
+      "id": "resource_units",
+      "source": "Resource Units",
+      "ko": "자원 단위",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "우주기지 기능·역사 선택지 초안에서 도입. 최종 사용자 승인과 구분.",
+      "ui_keys": []
     }
   ]
 }

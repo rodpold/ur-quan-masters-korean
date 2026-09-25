@@ -43,11 +43,13 @@ def verify(game, ui_font="compact"):
                 im=Image.open(io.BytesIO(z.read(n)))
                 alpha=im.getchannel('A')
                 assert alpha.getbbox(),n
-                assert set(alpha.getdata()) <= {0,255},f'Semitransparent Korean glyph: {n}'
+                assert set(alpha.tobytes()) <= {0,255},f'Semitransparent Korean glyph: {n}'
         translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         dialogue = {p.stem:json.loads(p.read_text(encoding='utf-8')) for p in (patcher.ROOT/'translations/dialogue').glob('*.json')}
         required={c for value in [*translations.values(),*setup.values(),*[v for records in dialogue.values() for v in records.values()]] for c in value if ord(c)>127}
+        for p in (patcher.ROOT/'translations/dialogue-voice').glob('*.ko.json'):
+            required.update(c for value in json.loads(p.read_text(encoding='utf-8')).values() for c in value if ord(c)>127)
         registry=json.loads((patcher.ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
         groups=[row for row in registry['dialogue_fonts'] if row['id']==row['font_group']]
         assert len(groups)==24
@@ -62,7 +64,12 @@ def verify(game, ui_font="compact"):
                 assert new+f'{ord(char):05x}.png' in names,f'Missing race glyph: {row["id"]}/{char}'
         for species in sorted(p.name.removesuffix('.ko.json') for p in (patcher.ROOT/'translations/dialogue').glob('*.ko.json')):
             source_species='yehatrebels' if species=='yehat.rebel' else species
-            a=source.read(f'base/comm/{source_species}/{source_species}.txt').decode('utf-8')
+            source_path=f'base/comm/{source_species}/{source_species}.txt'
+            row=next(row for row in registry['dialogue_fonts'] if row['id']==species)
+            original,suffix=patcher.dialogue_source(game, source_path, row['dialogue_resource'], source.read(source_path))
+            a=original.decode('utf-8')
+            mapping=next(line for line in z.read('ko-ui.rmp').decode().splitlines() if line.startswith(row['dialogue_resource']+' ='))
+            assert mapping.endswith(f'ko/comm/{species}/{species}.txt'+suffix), 'Audio/timing suffix changed'
             b=z.read(f'ko/comm/{species}/{species}.txt').decode('utf-8')
             split=lambda t: re.split(r'(?m)(^#\([^\r\n]*\)[^\r\n]*\r?\n)',t)
             aa,bb=split(a),split(b)

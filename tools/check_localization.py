@@ -28,6 +28,9 @@ def audit(game):
    assert set(profile['evidence_record_ids'])<=evidence.keys()
    p=ROOT/'translations/dialogue'/f'{id}.ko.json';trans=json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
    assert set(trans)<=src.keys(),f'Unknown IDs: {id}'
+   active,suffix=patcher.dialogue_source(game,path,row['dialogue_resource'],source)
+   selected=patcher.edition_translations(id,source.decode('utf-8'),active.decode('utf-8'),trans)
+   patcher.translate_dialogue(active.decode('utf-8'),selected)
    for key,text in trans.items():
     assert len(src[key].splitlines())==len(text.splitlines()),f'Voice segmentation: {id}/{key}'
     assert re.findall(r'%[-+0-9.]*[sduf]',src[key])==re.findall(r'%[-+0-9.]*[sduf]',text),f'Placeholder: {id}/{key}'

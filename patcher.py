@@ -146,6 +146,47 @@ def translate_dialogue(text, translations):
         raise ValueError(f'Missing dialogue IDs: {set(translations)-seen}')
     return ''.join(chunks)
 
+def dialogue_source(game, source, key, base_bytes):
+    """Resolve the installed voice edition while retaining its audio/timing suffix."""
+    voice = Path(game)/'content/addons/uqm-0.8.0-voice.uqm'
+    if not voice.is_file():
+        return base_bytes, ''
+    with ZipFile(voice) as archive:
+        mappings = {}
+        for name in archive.namelist():
+            if name.endswith('.rmp'):
+                for line in archive.read(name).decode('utf-8').splitlines():
+                    if '=' in line:
+                        k, value = line.split('=', 1)
+                        mappings[k.strip()] = value.strip()
+        if key not in mappings:
+            return base_bytes, ''
+        parts = mappings[key].split(':', 2)
+        alternate = 'addons/3dovoice/' + source.removeprefix('base/comm/')
+        if len(parts) < 2 or parts[0] != 'CONVERSATION' or parts[1] not in (source, alternate):
+            raise ValueError(f'Unexpected voice mapping: {key}')
+        data = base_bytes if parts[1] == source else archive.read(parts[1].removeprefix('addons/'))
+        return data, ':' + parts[2] if len(parts) == 3 else ''
+
+
+def edition_translations(species, base, active, translations):
+    """Changed voice-edition records require an explicit, reviewed translation."""
+    def bodies(text):
+        parts = re.split(r'(?m)^#\(([^\r\n)]*)\)[^\r\n]*\r?\n', text)
+        return {parts[i]:parts[i+1].rstrip('\r\n') for i in range(1,len(parts),2)}
+    before, after = bodies(base), bodies(active)
+    if before.keys() != after.keys():
+        raise ValueError(f'Voice edition IDs changed: {species}')
+    changed = {k for k in before if before[k] != after[k]}
+    path = ROOT/'translations/dialogue-voice'/f'{species}.ko.json'
+    overrides = json.loads(path.read_text(encoding='utf-8')) if path.is_file() else {}
+    if not set(overrides) <= before.keys():
+        raise ValueError(f'Unknown voice translation ID: {species}')
+    if changed and not changed.intersection(translations) <= overrides.keys():
+        raise ValueError(f'Unreviewed voice-edition translation: {species}: {sorted(changed.intersection(translations)-overrides.keys())}')
+    return {**translations, **{k:overrides[k] for k in changed if k in overrides}}
+
+
 def build(game, ui_font="compact"):
     if ui_font not in {"compact", "larger"}:
         raise ValueError("Unknown UI font preset")
@@ -166,6 +207,8 @@ def build(game, ui_font="compact"):
     registry = json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
     dialogue_rows = {row['id']: row for row in registry['dialogue_fonts']}
     dialogue_values = [v for records in dialogue.values() for v in records.values()]
+    for p in (ROOT/'translations/dialogue-voice').glob('*.ko.json'):
+        dialogue_values.extend(json.loads(p.read_text(encoding='utf-8')).values())
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
     entries = {}
     rmp = ['text.starcon = STRTAB:ko/gamestrings.txt',
@@ -179,27 +222,15 @@ def build(game, ui_font="compact"):
         entries.update(menu_assets(z))
         entries.update(panel_assets(z))
         entries['ko/setupmenu.txt'] = translate_setup(z.read('base/ui/setupmenu.txt').decode('utf-8'),setup).encode('utf-8')
-        voice_paths = {}
-        voice = game/'content/addons/uqm-0.8.0-voice.uqm'
-        if voice.is_file():
-            with ZipFile(voice) as vz:
-                for name in vz.namelist():
-                    if name.endswith('.rmp'):
-                        for line in vz.read(name).decode('utf-8').splitlines():
-                            if '=' in line:
-                                key, value = line.split('=', 1)
-                                voice_paths[key.strip()] = value.strip()
         for species, records in dialogue.items():
             source_species = 'yehatrebels' if species == 'yehat.rebel' else species
             source = f'base/comm/{source_species}/{source_species}.txt'
             target = f'ko/comm/{species}/{species}.txt'
-            entries[target] = translate_dialogue(z.read(source).decode('utf-8'), records).encode('utf-8')
             key = dialogue_rows[species]['dialogue_resource']
-            original_mapping = voice_paths.get(key, f'CONVERSATION:{source}')
-            parts = original_mapping.split(':', 2)
-            if parts[:2] != ['CONVERSATION', source]:
-                raise ValueError(f'Unexpected voice mapping: {key}')
-            suffix = ':' + parts[2] if len(parts) == 3 else ''
+            base = z.read(source)
+            active, suffix = dialogue_source(game, source, key, base)
+            selected = edition_translations(species, base.decode('utf-8'), active.decode('utf-8'), records)
+            entries[target] = translate_dialogue(active.decode('utf-8'), selected).encode('utf-8')
             rmp.append(f'{key} = CONVERSATION:{target}{suffix}')
         for family in ['starcon','tiny','micro','player','urquan']:
             prefix = f'base/fonts/{family}.fon/'

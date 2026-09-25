@@ -37,6 +37,32 @@ class PatcherTests(unittest.TestCase):
             self.assertEqual(foreign.read_text(),'user notes')
 
 
+class VoiceEditionTests(unittest.TestCase):
+    def test_voice_source_and_audio_paths_are_preserved(self):
+        from zipfile import ZipFile
+        with tempfile.TemporaryDirectory() as tmp:
+            game=Path(tmp);folder=game/'content/addons';folder.mkdir(parents=True)
+            original=b'#(a) a.ogg\nBase.\n'
+            active=b'#(a) a.ogg\nVoice.\n'
+            with ZipFile(folder/'uqm-0.8.0-voice.uqm','w') as archive:
+                archive.writestr('3dovoice/3dovoice.rmp','comm.starbase.dialogue = CONVERSATION:addons/3dovoice/starbase/starbase.txt:addons/3dovoice/starbase/:addons/3dovoice/starbase/starbase.ts')
+                archive.writestr('3dovoice/starbase/starbase.txt',active)
+            result,suffix=patcher.dialogue_source(game,'base/comm/starbase/starbase.txt','comm.starbase.dialogue',original)
+            self.assertEqual(result,active)
+            self.assertEqual(suffix,':addons/3dovoice/starbase/:addons/3dovoice/starbase/starbase.ts')
+            self.assertEqual(patcher.dialogue_source(game,'base/comm/probe/probe.txt','comm.probe.dialogue',original),(original,''))
+
+    def test_changed_voice_record_requires_explicit_override(self):
+        base='#(a) a.ogg\nOriginal.\n';active='#(a) a.ogg\nDifferent.\n'
+        with tempfile.TemporaryDirectory() as tmp, patch.object(patcher,'ROOT',Path(tmp)):
+            with self.assertRaisesRegex(ValueError,'Unreviewed voice-edition'):
+                patcher.edition_translations('example',base,active,{'a':'원본.'})
+            folder=Path(tmp)/'translations/dialogue-voice';folder.mkdir(parents=True)
+            (folder/'example.ko.json').write_text(json.dumps({'a':'음성판.'}),encoding='utf-8')
+            self.assertEqual(patcher.edition_translations('example',base,active,{'a':'원본.'}),{'a':'음성판.'})
+            self.assertEqual(patcher.edition_translations('example',base,base,{'a':'원본.'}),{'a':'원본.'})
+
+
 class RegressionTests(unittest.TestCase):
     def test_dialogue_preserves_voice_headers_and_untouched_records(self):
         source='#(a) a.ogg\nOne\nTwo\n\n#(b) b.ogg\nUnchanged\n'
