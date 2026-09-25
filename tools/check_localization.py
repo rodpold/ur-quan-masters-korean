@@ -24,6 +24,14 @@ def canonical_terms(source, terms, source_path=None):
   if not any(a<=start and end<=b and b-a>end-start for a,b,_ in matches):
    yield term
 
+def check_dialogue_record(original, translated, terms, source_path, label):
+ assert len(original.splitlines())==len(translated.splitlines()),f'Voice segmentation: {label}'
+ assert re.findall(r'%[-+0-9.]*[sduf]',original)==re.findall(r'%[-+0-9.]*[sduf]',translated),f'Placeholder: {label}'
+ for token in re.findall(r'\d+(?:[.,]\d+)*',original):assert token in translated,f'Number lost: {label}: {token}'
+ if original.endswith(' '):assert translated.endswith(' '),f'Dynamic suffix space: {label}'
+ for term in canonical_terms(original,terms,source_path):
+  assert term['ko'] in translated,f'Canonical term missing: {label}: {term["source"]} -> {term["ko"]}'
+
 def audit(game):
  reg=json.loads((ROOT/'translations/fonts.ko.json').read_text(encoding='utf-8'))
  per=json.loads((ROOT/'translations/personas.ko.json').read_text(encoding='utf-8'))
@@ -48,12 +56,11 @@ def audit(game):
    selected=patcher.edition_translations(id,source.decode('utf-8'),active.decode('utf-8'),trans)
    patcher.translate_dialogue(active.decode('utf-8'),selected)
    for key,text in trans.items():
-    assert len(src[key].splitlines())==len(text.splitlines()),f'Voice segmentation: {id}/{key}'
-    assert re.findall(r'%[-+0-9.]*[sduf]',src[key])==re.findall(r'%[-+0-9.]*[sduf]',text),f'Placeholder: {id}/{key}'
-    for token in re.findall(r'\d+(?:[.,]\d+)*',src[key]):assert token in text,f'Number lost: {id}/{key}: {token}'
-    if src[key].endswith(' '):assert text.endswith(' '),f'Dynamic suffix space: {id}/{key}'
-    for term in canonical_terms(src[key],terms.values(),path):
-     assert term['ko'] in text,f'Canonical term missing: {id}/{key}: {term["source"]} -> {term["ko"]}'
+    check_dialogue_record(src[key],text,terms.values(),path,f'{id}/{key} [base]')
+   active_src=dict(records(active.decode('utf-8-sig')))
+   for key,text in selected.items():
+    if active_src[key]!=src[key] or text!=trans.get(key):
+     check_dialogue_record(active_src[key],text,terms.values(),path,f'{id}/{key} [active edition]')
    translated_total+=len(trans);total+=len(src)
    rows.append({'id':id,'source_path':path,'source_sha256':hashlib.sha256(source).hexdigest(),'records':len(src),'translated':len(trans),'untranslated_ids':[k for k in src if k not in trans],'persona':group,'status':'translated_draft' if len(trans)==len(src) else 'partial' if trans else 'not_started','linguistic_review':'pending','in_game_review':'pending'})
   for n in z.namelist():

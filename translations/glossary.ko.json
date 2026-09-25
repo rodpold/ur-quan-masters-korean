@@ -2757,6 +2757,131 @@
       "status": "in_use",
       "notes": "상품명. 2418과 귀환 송신기가 달린 2419의 차이를 보존한다.",
       "ui_keys": []
+    },
+    {
+      "id": "juffo_wup",
+      "source": "Juffo-Wup",
+      "ko": "주포-우프",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "마이콘의 신념과 확장의 핵심 개념. 설명으로 치환하지 않는 작업 음역.",
+      "ui_keys": []
+    },
+    {
+      "id": "mycon_non",
+      "source": "Non",
+      "ko": "비주포",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "주포-우프가 아닌 대상을 가리키는 축약 개념. 살아 있는 대상도 포함하므로 비존재로 옮기지 않는다. 비주포-우프와 같은 개념이며 사용자 확정 전 작업 표기.",
+      "ui_keys": [],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/comm/mycon/mycon.txt"
+      ]
+    },
+    {
+      "id": "non_juffo_wup",
+      "source": "Non-Juffo-Wup",
+      "ko": "비주포-우프",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "Non의 풀어 쓴 형태. 원문의 길이 차이를 유지하는 작업 표기.",
+      "ui_keys": []
+    },
+    {
+      "id": "mycon_void",
+      "source": "Void",
+      "ko": "공허",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "마이콘이 주포-우프로 채우거나 비주포를 파괴해 만드는 상태. 문맥상 우주 공간도 가리킨다.",
+      "ui_keys": [],
+      "case_sensitive": true,
+      "audit_source_paths": [
+        "base/comm/mycon/mycon.txt"
+      ]
+    },
+    {
+      "id": "dugee",
+      "source": "Dugee",
+      "ko": "두기",
+      "category": "person",
+      "status": "in_use",
+      "notes": "57,283년 전에 죽은 순수성 감시자의 기억.",
+      "ui_keys": []
+    },
+    {
+      "id": "shloosh",
+      "source": "Shloosh",
+      "ko": "슐루시",
+      "category": "person",
+      "status": "in_use",
+      "notes": "지구 시간으로 일만 사천 년 전에 소각된 인격의 기억.",
+      "ui_keys": []
+    },
+    {
+      "id": "gussh",
+      "source": "Gussh",
+      "ko": "거시",
+      "category": "person",
+      "status": "in_use",
+      "notes": "탄생 결절을 돌보던 인격. 자신의 죽음 원인은 모른다.",
+      "ui_keys": []
+    },
+    {
+      "id": "mohorovichic",
+      "source": "Mohorovichic",
+      "ko": "모호로비치치",
+      "category": "place",
+      "status": "in_use",
+      "notes": "마이콘의 지질학적 거주 층 지칭. 원문에 없는 설정 해설을 추가하지 않는다.",
+      "ui_keys": []
+    },
+    {
+      "id": "absorbine_junior",
+      "source": "Absorbine Junior",
+      "ko": "앱소빈 주니어",
+      "category": "brand",
+      "status": "in_use",
+      "notes": "플레이어의 균류 조롱에 등장하는 제품명. 현지화와 말장난 검토 대기.",
+      "ui_keys": []
+    },
+    {
+      "id": "organon",
+      "source": "Organon",
+      "ko": "오르가논",
+      "category": "place",
+      "status": "in_use",
+      "notes": "깊은 아이들 이식 제안의 목적지 항성. 행성 번호는 별도로 보존한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "solar_manipulator",
+      "source": "Solar Manipulator",
+      "ko": "태양 조작기",
+      "category": "device",
+      "status": "in_use",
+      "notes": "Sun Device(태양 장치)를 가리키는 별칭. 원문의 다른 호칭을 구분한다.",
+      "ui_keys": []
+    },
+    {
+      "id": "shattered_worlds",
+      "source": "Shattered Worlds",
+      "ko": "산산이 부서진 행성들",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "깊은 아이들이 자리 잡은 행성들에 관한 플레이어의 표현.",
+      "ui_keys": []
+    },
+    {
+      "id": "biot",
+      "source": "biot",
+      "ko": "바이오트",
+      "category": "concept",
+      "status": "in_use",
+      "notes": "행성 변환 지시의 대상. 인공 생명체라는 해설을 대사에 추가하지 않는다.",
+      "ui_keys": []
     }
   ]
 }

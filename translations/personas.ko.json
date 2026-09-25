@@ -206,11 +206,21 @@
       "font_group": "mycon",
       "source_path": "base/comm/mycon/mycon.txt",
       "evidence_record_ids": [
-        "TELL_US_ABOUT_WORLD",
-        "BYE_AND_DIE_HOMEWORLD"
+        "RAMBLE_3",
+        "RAMBLE_5",
+        "RAMBLE_13",
+        "RAMBLE_22",
+        "WE_GO_TO_IMPLANT"
       ],
       "status": "source_based_working_profile",
-      "human_style_review": "pending"
+      "human_style_review": "pending",
+      "record_overrides": {
+        "RAMBLE_3 / RAMBLE_5 / RAMBLE_15 / RAMBLE_28": "집단의 우리에서 개별 기억의 나로 전환한다. 두기·슐루시·거시의 사망 시점과 모르는 죽음 원인을 그대로 유지한다.",
+        "RAMBLE_13 / RAMBLE_16 / RAMBLE_19 / RAMBLE_21 / RAMBLE_26 / RAMBLE_31": "따옴표 안의 단편은 건조한 기술 지시·명령형. 발화자 정체를 해설하거나 정상 대화로 재구성하지 않는다.",
+        "Juffo-Wup / Non / Void": "주포-우프의 선언은 한다체, 제거 명령은 해라체. 비주포와 공허의 구분 및 흡수·배척·파괴의 논리를 일관되게 유지한다.",
+        "WE_GO_TO_IMPLANT": "기여를 인정하는 말과 뇌에 포자낭을 심겠다는 제안이 같은 담담한 선언형이다. 호의적 제안처럼 말하는 원문의 섬뜩함을 유지한다.",
+        "questions / repeated greetings": "질문을 무시하는 반복 응답을 줄이지 않는다. 같은 원문은 같은 번역으로 유지한다."
+      }
     },
     "orz": {
       "persona": "번역기가 온전히 해석하지 못하는 이질적 존재",

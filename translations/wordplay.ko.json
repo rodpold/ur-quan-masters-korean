@@ -78,6 +78,13 @@
       "source_wordplay": "gas bags / fluid sack",
       "ko_wordplay": "가스 주머니들 / 액체 주머니",
       "notes": "플레이어의 신체 묘사를 같은 방식으로 되돌려 주는 인사. 적대적인 욕설로 강화하지 않는다."
+    },
+    {
+      "species": "mycon",
+      "record": "insult_1 / insult_2 / insult_7",
+      "source_wordplay": "fried in butter / relatives between toes / Absorbine Junior",
+      "ko_wordplay": "버터에 볶다 / 발가락 사이의 친척 / 앱소빈 주니어",
+      "notes": "버섯 음식과 발가락의 균류를 연결하는 조롱. 제품명의 문화적 인지도는 재현되지 않아 추가 현지화 검토 대기. 원문에 없는 제품 설명은 대사에 넣지 않았다."
     }
   ],
   "jokes": [

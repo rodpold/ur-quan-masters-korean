@@ -49,3 +49,24 @@ class CanonicalTermTests(unittest.TestCase):
                     "ui_keys": [], "audit_source_paths": paths}
             with self.subTest(paths=paths), self.assertRaises(ValueError):
                 validate({"schema_version": 1, "terms": [term]}, {})
+
+    def test_active_edition_checks_its_own_numbers_terms_and_placeholders(self):
+        from check_localization import check_dialogue_record
+        terms = [{"source": "Juffo-Wup", "ko": "주포-우프"}]
+        original = "Juffo-Wup at 629.1: %s "
+        for translation in ["주포-우프는 629.2: %s ", "그것은 629.1: %s ",
+                            "주포-우프는 629.1: %d ", "주포-우프는 629.1: %s"]:
+            with self.subTest(translation=translation), self.assertRaises(AssertionError):
+                check_dialogue_record(original, translation, terms,
+                                      "base/comm/mycon/mycon.txt", "voice")
+        check_dialogue_record(original, "주포-우프는 629.1: %s ", terms,
+                              "base/comm/mycon/mycon.txt", "voice")
+
+    def test_voice_edition_without_coordinates_does_not_require_base_coordinates(self):
+        from check_localization import check_dialogue_record
+        terms = [{"source": "Juffo-Wup", "ko": "주포-우프"}]
+        check_dialogue_record("This place has Juffo-Wup.", "이곳에는 주포-우프가 있다.",
+                              terms, "base/comm/mycon/mycon.txt", "voice")
+        with self.assertRaises(AssertionError):
+            check_dialogue_record("This place has Juffo-Wup.", "이곳에는 주포-우프가 있다.\n좌표가 있다.",
+                                  terms, "base/comm/mycon/mycon.txt", "voice")
