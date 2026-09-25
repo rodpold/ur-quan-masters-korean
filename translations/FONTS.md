@@ -61,3 +61,9 @@ python tools/render_expressive_fonts.py --game "게임 설치 디렉터리"
 | yehat | EastSeaDokdo | 미적용 | 강한 기울기의 원본을 빠르고 굵은 붓 획으로 재해석 |
 | yehat.rebel | EastSeaDokdo | 미적용 | 예하트와 동일한 검토 후보 |
 | zoqfotpik | Gaegu | 미적용 | 가느다란 원본을 편안한 손글씨로 재해석 |
+
+## 헤이스 반투명 시험 설치 (2026-09-25)
+
+기본 빌드는 유지하고 `tools/trial_commander_font.py install --game "게임 경로" --render alpha`로 헤이스 한글 자막만 도현 12px로 바꾸는 별도 시험입니다. 실제 잉크 최대 11px, PNG 높이 14px이며 256단계 알파를 포함합니다. 같은 명령의 `--render binary`는 동일한 글꼴/치수에서 알파만 0/255로 바꾸는 비교군입니다. 플레이어 선택지, 우르콴, 공통 UI, 원문/음성 매핑은 기존과 같습니다. 원본 특수문자도 보존합니다.
+
+설치 전 게임을 종료해야 합니다. 이전 패키지/manifest는 artifacts/font-trial-backups에 자동 백업합니다. `python patcher.py install --game "게임 경로" --ui-font compact`로 기본 패치로 복귀합니다. 현재 상태는 시험 설치이며 실기 가독성·겹침 검증 대기입니다.

@@ -832,5 +832,15 @@
     "Gugi",
     "SongMyung",
     "DoHyeon"
-  ]
+  ],
+  "active_local_trial": {
+    "id": "commander-alpha",
+    "font": "DoHyeon",
+    "raster_px": 12,
+    "render": "alpha",
+    "scope": "commander Hangul only",
+    "tool": "tools/trial_commander_font.py",
+    "default_build_unchanged": true,
+    "visual_status": "pending"
+  }
 }

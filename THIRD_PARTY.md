@@ -94,3 +94,7 @@ Eight unmodified official Google Fonts TTF files are bundled for comparison only
 | DoHyeon | Woowahan Brothers | [source](https://github.com/google/fonts/tree/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/dohyeon) / [TTF](https://raw.githubusercontent.com/google/fonts/23e54b51ddffbc7713c583748e3bd86f62b1fa4a/ofl/dohyeon/DoHyeon-Regular.ttf) | vendor/dohyeon/OFL.txt | `35644be7f28e0a68a447b1f7af351dcde5674b870f24f7b5f43e26d00b4ab653` |
 
 Each vendor directory includes METADATA.pb and SHA256.json for all downloaded bytes. docs/expressive-fonts.png contains only newly rendered font specimens. Original-game glyph comparisons are generated locally under ignored artifacts/font-review; they are not redistributed in Git.
+
+## Commander alpha trial
+
+`tools/trial_commander_font.py` rasterizes the already attributed, unmodified Do Hyeon at 12px for commander Hangul only. The generated local addon includes its complete OFL.txt and a source/designer credit under ko/licenses/dohyeon/. Alpha is retained or thresholded for an identical-metrics binary control. No outline modifications. Source, pinned version and original SHA-256 remain as listed above.
