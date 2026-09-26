@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-26",
+  "source_revision": "a3b0831",
+  "installed_package_sha256": "faa6b7080523368eba2d4d366fbd95e67e540ad689c14c6faa41c6ab9e308b85",
+  "decision": "User requested original English first-screen menu artwork; internal settings and gameplay remain Korean.",
+  "runtime_result": "User confirmed restored English title menu displays correctly.",
+  "verification_source": "user_report",
+  "scope": [
+    "New Game",
+    "Load Game",
+    "Super Melee!",
+    "Setup",
+    "Quit"
+  ],
+  "complete_for_this_change": true,
+  "does_not_establish": "Full-game runtime QA or all-race font review"
+}
