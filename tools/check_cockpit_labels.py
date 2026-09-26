@@ -8,17 +8,24 @@ def verify_cockpit(package,source):
     missing=bytes(font.getmask(chr(0x10ffff)))
     terms=json.loads((ROOT/'translations/glossary.ko.json').read_text(encoding='utf-8'))['terms']
     term=next(t['ko'] for t in terms if t['source']=='Sa-Matra')
-    assert len(spec['rows'])==12
+    assert len(spec['rows'])==19
     for group in spec['groups']:
         p=group['source_path'];target=p.replace('base/','ko/',1)
-        assert source.read(p)==package.read(target)
+        original=source.read(p).decode().splitlines();updated=package.read(target).decode().splitlines();assert len(original)==len(updated)
+        for i,(old,new) in enumerate(zip(original,updated)):
+            a=old.split();b=new.split();assert a[:3]==b[:3]
+            assert b[3:]==list(map(str,group.get('hotspots',{}).get(str(i),a[3:])))
         assert group['resource_key']+' = GFXRES:addons/uqm-korean-ui-poc/'+target in package.read('ko-ui.rmp').decode().splitlines()
     for row in spec['rows']:
         p=row['source_path'];a=Image.open(io.BytesIO(source.read(p))).convert('RGBA');b=Image.open(io.BytesIO(package.read(p.replace('base/','ko/',1))))
-        assert list(a.size)==list(b.size)==row['size'];diff=ImageChops.difference(a,b)
+        assert list(a.size)==row['size'];assert list(b.size)==row.get('output_size',row['size'])
+        if a.size!=b.size:
+            assert '/flagship/' in p and a.size==(34,5) and b.size==(34,7)
+            padded=Image.new('RGBA',b.size);padded.paste(a,(0,0));a=padded
+        diff=ImageChops.difference(a,b)
         assert any(c.getbbox() for c in diff.split()),'Caption unchanged'
         for region in row['regions']:
-            assert region['text']==(term if '/samatra/' in p else '자폭')
+            assert region['text'] in ({term} if '/samatra/' in p else {'무장','방어','정지','작동'} if '/flagship/' in p else {'자폭'})
             x,y,w,h=region['box'];assert 0<=x<x+w<=b.width and 0<=y<y+h<=b.height
             assert set(b.crop((x,y,x+w,y+h)).getchannel('A').getdata())=={255}
             for char in region['text']:assert bytes(font.getmask(char))!=missing and any(bytes(font.getmask(char)))
@@ -43,4 +50,12 @@ def verify_cockpit(package,source):
     for i in range(12,20):
         region=rows[f'base/ships/shofixti/scout-cap-{i:03}.png']['regions'][0]
         assert region['foreground']==([252,84,84,255] if i>=18 else [252,252,84,255] if i>=16 else [168,168,168,255])
-    return dict(status='static_passed_runtime_pending',images=12,active_images=11,prepared_unlinked_images=1,limitations=['Runtime animation and palette behavior remain unverified.'])
+    ani='base/ships/flagship/flagship-cap.ani';lines=package.read(ani.replace('base/','ko/',1)).decode().splitlines();assert len(lines)==15
+    # Base hotspot (1,1) makes overlay positions relative to its image one pixel larger.
+    for i,line in enumerate(lines[1:],1):
+        f=line.split();name='base/ships/flagship/'+f[0];im=Image.open(io.BytesIO(package.read(name.replace('base/','ko/',1))))
+        if i<9:assert source.read(name)==package.read(name.replace('base/','ko/',1))
+        else:
+            x,y=1-int(f[3]),1-int(f[4]);assert (x,y,im.width,im.height)==(21,11 if i<12 else 18,34,7)
+            assert y>=11 and y+im.height<=25,'Status overlaps meter rows'
+    return dict(status='static_passed_runtime_pending',images=19,active_images=18,prepared_unlinked_images=1,limitations=['Runtime animation and palette behavior remain unverified.'])

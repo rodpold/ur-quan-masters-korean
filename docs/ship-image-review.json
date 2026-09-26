@@ -1,11 +1,11 @@
 {
   "complete": false,
   "review_date": "2026-09-26",
-  "scope": "All 3903 installed base/ships PNGs visually surveyed for embedded text; translation and runtime verification remain incomplete.",
+  "scope": "All 3903 installed base/ships PNGs visually surveyed; all 19 identified caption images generated in Korean, including one unlinked prepared variant. Runtime verification remains incomplete.",
   "total_images": 3903,
   "reviewed_images": 3903,
   "pending_visual_review": 0,
-  "pending_image_translations": 7,
+  "pending_image_translations": 0,
   "records": [
     {
       "source_path": "base/ships/androsynth/blazer-big-000.png",
@@ -7704,12 +7704,14 @@
         58,
         32
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ARM:OFFLINE",
         "DEF:OFFLINE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "무장/정지/방어"
     },
     {
       "source_path": "base/ships/flagship/flagship-cap-001.png",
@@ -7798,11 +7800,13 @@
         34,
         5
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ACTIVE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "작동"
     },
     {
       "source_path": "base/ships/flagship/flagship-cap-010.png",
@@ -7811,11 +7815,13 @@
         34,
         5
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ACTIVE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "작동"
     },
     {
       "source_path": "base/ships/flagship/flagship-cap-011.png",
@@ -7824,11 +7830,13 @@
         34,
         5
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ACTIVE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "작동"
     },
     {
       "source_path": "base/ships/flagship/flagship-cap-012.png",
@@ -7837,11 +7845,13 @@
         34,
         5
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ACTIVE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "작동"
     },
     {
       "source_path": "base/ships/flagship/flagship-cap-013.png",
@@ -7850,11 +7860,13 @@
         34,
         5
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ACTIVE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "작동"
     },
     {
       "source_path": "base/ships/flagship/flagship-cap-014.png",
@@ -7863,11 +7875,13 @@
         34,
         5
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "ACTIVE"
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "작동"
     },
     {
       "source_path": "base/ships/flagship/flagship-icons-000.png",
@@ -39205,8 +39219,8 @@
         "DEF:OFFLINE",
         "ACTIVE"
       ],
-      "status": "translation_and_layout_pending",
-      "notes": "58x32 base panel contains two 5px text rows. Six 34x5 ACTIVE overlays have ANI offsets -20,-11 and -20,-18. Seven-pixel Korean requires coordinated panel/overlay layout work; do not simply resize the glyph inside a 5px row."
+      "status": "generated_korean_caption_runtime_pending",
+      "notes": "Base panel remains 58x32. Six ACTIVE overlays expand from 34x5 to 34x7 and move upward one pixel, placing rows at y=11..17 and y=18..24 between unchanged meter rows. All 16 static status combinations visually inspected; runtime palette/animation behavior pending."
     },
     {
       "resource": "base/ships/samatra/samatra-cap.ani",

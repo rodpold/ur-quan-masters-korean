@@ -15,6 +15,37 @@
       "source_path": "base/ships/shofixti/oldscout-cap.ani",
       "source_sha256": "937602a8ecf2ccf95a2e26890801a01b08eaaea92187646bb42dc706560ef8f8",
       "resource_key": "ship.shofixti.graphics.oldcaptain"
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap.ani",
+      "source_sha256": "ba9a058fdeb9a20a359265958430bbdf27d42ab37a695d597b717c73626f3ee1",
+      "resource_key": "ship.flagship.graphics.captain",
+      "hotspots": {
+        "9": [
+          -20,
+          -10
+        ],
+        "10": [
+          -20,
+          -10
+        ],
+        "11": [
+          -20,
+          -10
+        ],
+        "12": [
+          -20,
+          -17
+        ],
+        "13": [
+          -20,
+          -17
+        ],
+        "14": [
+          -20,
+          -17
+        ]
+      }
     }
   ],
   "rows": [
@@ -400,6 +431,317 @@
             255
           ]
         }
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-000.png",
+      "source_sha256": "8466247f80061cd27c1ef6c7d1b2abbbb3f219fbb6027e62dad6bbc02640c80a",
+      "size": [
+        58,
+        32
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            2,
+            11,
+            19,
+            7
+          ],
+          "text": "무장",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            132,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            21,
+            11,
+            34,
+            7
+          ],
+          "text": "정지",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            156,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            2,
+            18,
+            19,
+            7
+          ],
+          "text": "방어",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            132,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            21,
+            18,
+            34,
+            7
+          ],
+          "text": "정지",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            156,
+            0,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-009.png",
+      "source_sha256": "dea1783e2b840142af000feabbb249b1ea880ab9e7d53a7d5a899f4dcc224d19",
+      "size": [
+        34,
+        5
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            34,
+            7
+          ],
+          "text": "작동",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            108,
+            0,
+            255
+          ]
+        }
+      ],
+      "output_size": [
+        34,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-010.png",
+      "source_sha256": "333e6717f3e7495ef874a04d106e1de2b27b070655833e28661236804a196233",
+      "size": [
+        34,
+        5
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            34,
+            7
+          ],
+          "text": "작동",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            204,
+            0,
+            255
+          ]
+        }
+      ],
+      "output_size": [
+        34,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-011.png",
+      "source_sha256": "3557619359a8a3e5785dfd1247ffec3a13d2ccf615ce25ef873b8fb38406f74e",
+      "size": [
+        34,
+        5
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            34,
+            7
+          ],
+          "text": "작동",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            168,
+            252,
+            164,
+            255
+          ]
+        }
+      ],
+      "output_size": [
+        34,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-012.png",
+      "source_sha256": "dea1783e2b840142af000feabbb249b1ea880ab9e7d53a7d5a899f4dcc224d19",
+      "size": [
+        34,
+        5
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            34,
+            7
+          ],
+          "text": "작동",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            108,
+            0,
+            255
+          ]
+        }
+      ],
+      "output_size": [
+        34,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-013.png",
+      "source_sha256": "333e6717f3e7495ef874a04d106e1de2b27b070655833e28661236804a196233",
+      "size": [
+        34,
+        5
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            34,
+            7
+          ],
+          "text": "작동",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            204,
+            0,
+            255
+          ]
+        }
+      ],
+      "output_size": [
+        34,
+        7
+      ]
+    },
+    {
+      "source_path": "base/ships/flagship/flagship-cap-014.png",
+      "source_sha256": "3557619359a8a3e5785dfd1247ffec3a13d2ccf615ce25ef873b8fb38406f74e",
+      "size": [
+        34,
+        5
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            34,
+            7
+          ],
+          "text": "작동",
+          "background": [
+            0,
+            84,
+            0,
+            255
+          ],
+          "foreground": [
+            168,
+            252,
+            164,
+            255
+          ]
+        }
+      ],
+      "output_size": [
+        34,
+        7
       ]
     }
   ]
