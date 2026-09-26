@@ -15,7 +15,7 @@ def build(output,allow_dirty=False):
     included={}
     for name in tracked:
         p=Path(name);parts=p.parts
-        allowed=(len(parts)==1 and (p.suffix=='.py' or name in {'README.md','THIRD_PARTY.md','LICENSE','requirements.txt'}))
+        allowed=(len(parts)==1 and (p.suffix=='.py' or name in {'README.md','THIRD_PARTY.md','LICENSE','requirements.txt','requirements-build.txt','CHANGELOG.md'}))
         allowed|=parts[0] in {'translations','tools','tests','docs'} and p.suffix in {'.py','.json','.md'}
         allowed|=parts[0] in {'vendor','LICENSES'}
         if not allowed:continue
@@ -25,7 +25,7 @@ def build(output,allow_dirty=False):
         included[name]=path.read_bytes()
     for required in ('patcher.py','requirements.txt','LICENSE','THIRD_PARTY.md','vendor/galmuri/OFL.txt','LICENSES/UQM-GPL.txt'):
         if required not in included:raise ValueError('Missing bundle requirement: '+required)
-    manifest={'kind':'development_source_not_standalone_executable','source_revision':revision,'dirty_worktree':dirty,'files':{n:hashlib.sha256(b).hexdigest() for n,b in sorted(included.items())},'excluded':['Original game assets','Generated ko-ui.uqm','User saves/settings','Images in developer preview documentation','Python interpreter and installed dependencies']}
+    manifest={'kind':'release_source_not_standalone_executable','source_revision':revision,'dirty_worktree':dirty,'files':{n:hashlib.sha256(b).hexdigest() for n,b in sorted(included.items())},'excluded':['Original game assets','Generated ko-ui.uqm','User saves/settings','Images in developer preview documentation','Python interpreter and installed dependencies']}
     included['SOURCE-BUNDLE.json']=(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode()
     output.parent.mkdir(parents=True,exist_ok=True)
     with ZipFile(output,'w') as z:

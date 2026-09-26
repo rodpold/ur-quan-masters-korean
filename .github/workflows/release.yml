@@ -1,0 +1,50 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+env:
+  PYTHONUTF8: 1
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Install build dependencies
+        run: python -m pip install -r requirements-build.txt
+      - name: Check release tag and tests
+        shell: pwsh
+        run: |
+          $version = python patcher.py --version
+          if ($env:GITHUB_REF_NAME -ne "v$version") { throw 'Tag and patcher version differ' }
+          python -m unittest discover -s tests
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Build Windows distribution
+        run: python tools/build_windows_release.py
+      - name: Build source archive and checksums
+        shell: pwsh
+        run: |
+          $version = python patcher.py --version
+          python tools/build_source_release.py --output "artifacts/uqm-korean-$version-source.zip"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $lines = Get-ChildItem artifacts/*.zip | Sort-Object Name | ForEach-Object { "$( (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower() )  $($_.Name)" }
+          $lines | Set-Content artifacts/SHA256SUMS.txt -Encoding utf8NoBOM
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          $version = python patcher.py --version
+          $assets = @(Get-ChildItem artifacts/*.zip | ForEach-Object FullName) + @('artifacts/SHA256SUMS.txt')
+          gh release create $env:GITHUB_REF_NAME @assets --verify-tag --draft --title "한국어 패치 $version" --notes-file "docs/releases/$version.md"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          gh release edit $env:GITHUB_REF_NAME --draft=false --latest
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

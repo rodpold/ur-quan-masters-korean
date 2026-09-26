@@ -6,3 +6,6 @@ dist/
 artifacts/
 .pytest_cache/
 *.log
+
+.venv-release/
+*.spec

@@ -25,7 +25,7 @@ Local license: [OFL.txt](vendor/galmuri/OFL.txt). License: SIL OFL 1.1.
 |---|---|---|---|
 | Galmuri7.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri7.ttf | 8px (7px ink) | Compact UI and log/tiny glyphs |
 | Galmuri9.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri9.ttf | 10px (9px ink) | Player choices, commander subtitles, historical larger UI trial, and fixed-cell lander reports |
-| Galmuri11.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf | 12px (11px ink), 24px | Micro font and start-menu artwork |
+| Galmuri11.ttf | https://raw.githubusercontent.com/quiple/galmuri/main/dist/Galmuri11.ttf | 12px (11px ink), 24px | Micro font; historical start-menu artwork experiment (not active in 1.0.0) |
 
 The official project offers web fonts too. This patch uses vendored TTFs to generate PNGs locally;
 playing does not require a CDN or network connection. Never shrink a larger pixel face to an
@@ -224,3 +224,15 @@ The same Galmuri7 renderer also supplies the Shofixti self-destruct cockpit labe
 HUD의 함장/연료/승무원 그림에 기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)을 사용한다. 7픽셀 이진 마스크와 TinyFont 간격을 적용한다. 배치 조사: [고정 버전 sis.c](https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/sis.c), SHA-256 `67ee200db11ca93cdeda24d8aa9bf7bb41ab825cdda7611dc5715b04d02dfb05`, 원작 Paul Reiche/Fred Ford, GPL-2.0-or-later(기존 LICENSES/UQM-GPL.txt). 코드를 복제하지 않고 위치 근거만 기록했으며 게임 원본 PNG는 배포하지 않는다.
 
 TinyFont padding correction (2026-09-26): existing Galmuri7 font file, attribution, hash and OFL license unchanged. Generated TinyFont PNGs retain native seven-pixel binary ink and 8x8 dimensions; one transparent row is moved from bottom to top. HUD captions receive the matching one-pixel vertical offset. No new font or source asset is distributed.
+
+## Windows release runtime and packaging
+
+Windows releases bundle Python and Pillow using PyInstaller. These are unmodified upstream runtime/build components; no game executable or original game packages are shipped.
+
+| Component | Author / source | License / bundled notice | Use |
+|---|---|---|---|
+| Python 3.12 | Python Software Foundation, https://www.python.org/ | PSF license and included notices; `LICENSES/runtime/Python-LICENSE.txt` in Windows ZIP | Bundled interpreter |
+| Pillow 12.3.0 | Pillow contributors, https://github.com/python-pillow/Pillow | MIT-CMU and bundled dependency notices; `LICENSES/runtime/Pillow/` in Windows ZIP | Local glyph/image generation; includes notices for its bundled libraries |
+| PyInstaller 6.22.0 | PyInstaller development team, https://github.com/pyinstaller/pyinstaller | GPL-2.0-or-later with bootloader exception; `LICENSES/runtime/pyinstaller/` in Windows ZIP | Build tool and executable bootloader |
+
+The source build requirements pin Pillow and PyInstaller. Additional build dependency versions and the exact SHA-256 of collected license files are recorded in `BUILD-INFO.json` inside each Windows ZIP; their upstream notices are collected under `LICENSES/runtime/`. The archive hashes are published in the release's `SHA256SUMS.txt`. Original font file hashes and licenses remain under `vendor/` (Windows ZIP: `_internal/vendor/`). Python sources are published alongside each executable release.

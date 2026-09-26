@@ -14,7 +14,7 @@ from steam_discovery import discover_games, select_game
 
 ROOT = Path(__file__).resolve().parent
 ADDON = 'uqm-korean-ui-poc'
-VERSION = '0.1.0'
+VERSION = '1.0.0'
 SOURCE = Path('content/packages/uqm-0.8.0-content.uqm')
 SUPPORTED_HASH = 'ee730116f1a3d3f77689e7cbdfb26f43a1773d236db986dc0d47abf93b14e7d6'
 
@@ -26,7 +26,7 @@ def validate_game(game):
     if not (game / 'uqm.exe').is_file():
         raise ValueError('uqm.exe가 있는 게임 설치 폴더를 선택하세요.')
     if sha((game / SOURCE).read_bytes()) != SUPPORTED_HASH:
-        raise ValueError('검증되지 않은 게임 데이터입니다. 이 테스트는 확인된 Steam 0.8.0 데이터만 지원합니다.')
+        raise ValueError('검증되지 않은 게임 데이터입니다. 이 패치는 확인된 Steam 0.8.0 데이터만 지원합니다.')
     return game
 
 def load_ui_overrides():
@@ -381,7 +381,7 @@ def install(game, ui_font="compact"):
     validate_game(game)
     current = status(game)
     data, report = build(game, ui_font)
-    if current['state'] == 'installed' and current['sha256'] == sha(data):
+    if current['state'] == 'installed' and current['sha256'] == sha(data) and current.get('version') == VERSION:
         return current
     target = addon_dir(game)
     previous = None
@@ -437,6 +437,7 @@ def launch(game, test_config=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version', action='version', version=VERSION)
     parser.add_argument('command',choices=['inspect','build','install','status','uninstall','launch','discover'])
     parser.add_argument('--game',type=Path,help='Omit to detect a single Steam installation.')
     parser.add_argument('--output',type=Path,default=ROOT/'artifacts/ko-ui.uqm')
