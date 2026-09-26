@@ -1,0 +1,140 @@
+{
+  "status": "draft_prepared_only_not_installed",
+  "activation": "No RMP binding is added and no game feature is enabled.",
+  "limitations": [
+    "Original scripts have no resource binding in the inspected installation.",
+    "Korean fonts, text widths and callout alignment are not runtime validated.",
+    "Do not merge these counts into active dialogue or deployed localization coverage."
+  ],
+  "resources": [
+    {
+      "source_path": "base/cutscene/spins/ship00.txt",
+      "source_sha256": "0a2ac923abef68f7b48983a5eb87fecf15ec947dcdbeb62c9575822fc935ac3a",
+      "records": [
+        {
+          "line": 38,
+          "x": 160,
+          "y": 20,
+          "source": "ANDROSYNTH GUARDIAN",
+          "ko": "안드로신스 가디언",
+          "glossary_ids": [
+            "androsynth",
+            "guardian"
+          ]
+        },
+        {
+          "line": 47,
+          "x": 60,
+          "y": 60,
+          "source": "Semi-Homing",
+          "ko": "반유도식",
+          "glossary_ids": []
+        },
+        {
+          "line": 50,
+          "x": 60,
+          "y": 70,
+          "source": "Acid Bubble",
+          "ko": "산성 거품",
+          "glossary_ids": []
+        },
+        {
+          "line": 56,
+          "x": 180,
+          "y": 210,
+          "source": "\"Blazer\" Conversion System",
+          "ko": "블레이저 전환 장치",
+          "glossary_ids": [
+            "blazer"
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/cutscene/spins/ship04.txt",
+      "source_sha256": "ad1da986d73ba71a1dae3dacff333f62f0301c5a3eb4fc019d8c2f2153c7668d",
+      "records": [
+        {
+          "line": 32,
+          "x": 160,
+          "y": 20,
+          "source": "DRUUGE MAULER",
+          "ko": "드루지 몰러",
+          "glossary_ids": [
+            "druuge",
+            "mauler"
+          ]
+        },
+        {
+          "line": 41,
+          "x": 250,
+          "y": 70,
+          "source": "Megaton Cannon",
+          "ko": "메가톤 포",
+          "glossary_ids": []
+        },
+        {
+          "line": 47,
+          "x": 255,
+          "y": 143,
+          "source": "Crew Quarters",
+          "ko": "승무원실",
+          "glossary_ids": [
+            "crew_pods"
+          ]
+        },
+        {
+          "line": 53,
+          "x": 150,
+          "y": 200,
+          "source": "Atomic Converter",
+          "ko": "원자 변환기",
+          "glossary_ids": []
+        }
+      ]
+    },
+    {
+      "source_path": "base/cutscene/spins/ship10.txt",
+      "source_sha256": "09619195fbefe704956c9fa79501f2efd264b33d2d9fc0d94c3ec1d2f3510831",
+      "records": [
+        {
+          "line": 32,
+          "x": 160,
+          "y": 20,
+          "source": "MYCON PODSHIP",
+          "ko": "마이콘 포드십",
+          "glossary_ids": [
+            "mycon",
+            "podship"
+          ]
+        },
+        {
+          "line": 47,
+          "x": 260,
+          "y": 40,
+          "source": "Homing Plasmoid",
+          "ko": "유도 플라스모이드",
+          "glossary_ids": [
+            "plasmoids"
+          ]
+        },
+        {
+          "line": 53,
+          "x": 45,
+          "y": 180,
+          "source": "Regeneration",
+          "ko": "재생",
+          "glossary_ids": []
+        },
+        {
+          "line": 56,
+          "x": 45,
+          "y": 190,
+          "source": "Chambers",
+          "ko": "격실",
+          "glossary_ids": []
+        }
+      ]
+    }
+  ]
+}
