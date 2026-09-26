@@ -4,7 +4,7 @@
   "source_path": "base/gamestrings.txt",
   "source_sha256": "38a9d9dfaabbb3a3e08a85ba8eba8a97b355beeb0b8adc9c125b5e1eec6f321b",
   "translation_path": "translations/ui.ko.json",
-  "translation_sha256": "7f3a5ac4d215e9486aea2c1a6bfa51ef90cdfdebc4016c5d1462cd8417fa3503",
+  "translation_sha256": "4871beea0fe761272b70475a9e8f052dd83fcc1effb1e1ca1d547322312626a3",
   "reviewed_record_ids": [
     "0000",
     "0001",
@@ -623,7 +623,7 @@
   ],
   "translation_dependencies": {
     "translations/ui-overrides.ko.json": "b7c07bf709cce07042431e11e0c1614fea910e3544f54d1bfdb4b5d67f78ed98",
-    "translations/glossary.ko.json": "c61b688ea04b7f033fcc1e530be60f5e474361fb668457284a3c7f0774fb1194",
+    "translations/glossary.ko.json": "88fb4efe8b5cc08b1472429c1d8784777e4526b65ce6e937a385bc1b8ba1acbb",
     "translations/elements.ko.json": "b67ad28cc34a44f34de183d6e5e909f2f84e19e23ba41239265ace3de7e48fb6",
     "translations/materials.ko.json": "185f6cde89f45d85bf6ff9bae51c0f029e77c325bdf79207e618ef1c3cd80cad",
     "translations/world-types.ko.json": "3013691b0023710fddb7b168b0b4fbdc814e62464dff181f46f93c5d7d43df51"
@@ -637,6 +637,16 @@
     {
       "url": "https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/plandata.c",
       "sha256": "09bcdc468f525f862334054377a5cdb12a1bb697d2f07baac90f0639970da338"
+    }
+  ],
+  "followup_reviews": [
+    {
+      "date": "2026-09-26",
+      "key": "starmap",
+      "before": "성도",
+      "after": "우주 지도",
+      "basis": "Explicit user request; JSON semantic diff confirms this is the only changed UI value. Existing review retained for unchanged records.",
+      "runtime": "pending"
     }
   ]
 }

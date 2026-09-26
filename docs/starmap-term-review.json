@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-26",
+  "user_approved": "Starmap UI: 성도 → 우주 지도",
+  "ui_key": "starmap",
+  "scope": [
+    "right-side text menu",
+    "linked image-menu heading"
+  ],
+  "old_glossary_sha256": "18a7855d0399e536743ee35f1e043403f8a1bcdb92de56eab2897b6a59bc5fc4",
+  "new_glossary_sha256": "88fb4efe8b5cc08b1472429c1d8784777e4526b65ce6e937a385bc1b8ba1acbb",
+  "dependency_review": "Verified every pre-existing glossary term is identical; only a new gamestrings-scoped UI term was appended. Existing translation reviews retain their semantic scope.",
+  "dependency_reports_refreshed": [
+    "ships-language-review.json",
+    "ui-language-review.json"
+  ],
+  "menu_text_width_px": 41,
+  "runtime": "pending",
+  "prior_glossary_hashes_lf_crlf": [
+    "18a7855d0399e536743ee35f1e043403f8a1bcdb92de56eab2897b6a59bc5fc4",
+    "c61b688ea04b7f033fcc1e530be60f5e474361fb668457284a3c7f0774fb1194"
+  ]
+}
