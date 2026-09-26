@@ -1,7 +1,8 @@
 {
   "status": "static_passed_runtime_pending",
-  "sprites": 7,
-  "caption_regions": 18,
+  "sprites": 8,
+  "caption_regions": 21,
+  "hud_caption_regions": 3,
   "prepared_only_safex_variants": 2,
   "unchanged_outfit_sprites": 55,
   "orbit_entry_captions": 2,

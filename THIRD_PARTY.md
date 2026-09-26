@@ -220,3 +220,5 @@ The same Galmuri7 renderer also supplies the Shofixti self-destruct cockpit labe
 기함 상태 문구 7개 이미지에도 기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)을 사용한다. 무장/방어/정지/작동을 native 7픽셀 이진 마스크로 생성한다. 상태 오버레이 여섯 개만 높이 5→7픽셀 및 ANI 위치를 위로 1픽셀 조정하며 원본 계기 그림·밝기 단계는 유지한다. 원본 PNG/ANI는 설치 시 읽으며 Git에 포함하지 않는다. 해시·영역은 translations/cockpit-labels.ko.json 참조.
 
 기본 함대 이름 조사에 [고정 버전 loadmele.c](https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/supermelee/loadmele.c)를 읽었다. 원본 헤더: Paul Reiche/Fred Ford, GPL-2.0-or-later(기존 LICENSES/UQM-GPL.txt). SHA-256 `a63a5ad481a7e91e9b01b1e64986617ae75718afb99220b664a98760beceb294`. 코드를 복제하거나 게임 EXE를 수정하지 않았으며 조사 결과만 docs/prebuilt-team-name-audit.json에 기록했다.
+
+HUD의 함장/연료/승무원 그림에 기존 Galmuri7(동일 저자·공식 출처·라이선스·vendor 해시)을 사용한다. 7픽셀 이진 마스크와 TinyFont 간격을 적용한다. 배치 조사: [고정 버전 sis.c](https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/sis.c), SHA-256 `67ee200db11ca93cdeda24d8aa9bf7bb41ab825cdda7611dc5715b04d02dfb05`, 원작 Paul Reiche/Fred Ford, GPL-2.0-or-later(기존 LICENSES/UQM-GPL.txt). 코드를 복제하지 않고 위치 근거만 기록했으며 게임 원본 PNG는 배포하지 않는다.

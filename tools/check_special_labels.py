@@ -3,7 +3,7 @@ import io,json
 from PIL import Image,ImageChops,ImageDraw,ImageFont
 from special_labels import ROOT,load_special,render_regions
 def verify_special_labels(package,source):
-    spec=load_special();assert len(spec['rows'])==7
+    spec=load_special();assert len(spec['rows'])==8
     font=ImageFont.truetype(str(ROOT/'vendor/galmuri/Galmuri7.ttf'),8);missing=bytes(font.getmask(chr(0x10ffff)))
     targets={r['source_path'] for r in spec['rows']}
     for group in spec['groups']:
@@ -54,4 +54,20 @@ def verify_special_labels(package,source):
             x=11+6*(crew%6)-int(f[3]);y=35-6*(crew//6)-int(f[4])
             assert all(separated(b,(x,y,x+w,y+h)) for b in boxes)
     assert all(b[0]>=5 and b[2]<=51 and b[3]<=53 for b in boxes),'Radar bounds / storage-mask overlap'
-    return {'status':'static_passed_runtime_pending','sprites':7,'caption_regions':18,'prepared_only_safex_variants':2,'unchanged_outfit_sprites':55,'orbit_entry_captions':2,'lander_caption_regions':2,'unchanged_lander_sprites':59,'limitations':['Two SAFEX=16 variants have no base-package reference; translated assets are prepared but not activated.','Bomb/escape-pod art and ANI positions are preserved; actual outfitting screen and status visibility still need runtime review.']}
+    hud=next(r for r in spec['rows'] if r['source_path']=='base/ui/flagshipstatus-000.png')
+    assert [r['text'] for r in hud['regions']]==[ui['CAPTAIN'],ui['FUEL'],ui['CREW']]
+    assert [r['box'] for r in hud['regions']]==[[2,1,58,7],[18,29,26,7],[18,108,26,7]]
+    assert source.read('base/ui/flagshipstatus.ani').decode().splitlines()[0].split()[3:]==['-1','-1']
+    hud_image=Image.open(io.BytesIO(package.read('ko/ui/flagshipstatus-000.png'))).convert('RGBA')
+    for region in hud['regions']:
+        start=31-((9*len(region['text'])-1)//2)
+        for i,c in enumerate(region['text']):
+            glyph=Image.open(io.BytesIO(package.read(f'ko/fonts/tiny.fon/{ord(c):05x}.png'))).convert('RGBA')
+            alpha=glyph.getchannel('A').crop((0,0,8,7))
+            expected=Image.new('RGBA',(8,7),tuple(region['background']))
+            expected.paste(tuple(region['foreground']),(0,0),alpha)
+            assert hud_image.crop((start+i*9,region['box'][1],start+i*9+8,region['box'][1]+7)).tobytes()==expected.tobytes(),'HUD does not match dynamic TinyFont'
+    # Image origin is status (1,1). Caption bottoms precede dynamic name/fuel/crew clears.
+    for region,clear_y in zip(hud['regions'],[10,38,117]):
+        assert region['box'][1]+1+region['box'][3]<=clear_y
+    return {'status':'static_passed_runtime_pending','sprites':8,'caption_regions':21,'hud_caption_regions':3,'prepared_only_safex_variants':2,'unchanged_outfit_sprites':55,'orbit_entry_captions':2,'lander_caption_regions':2,'unchanged_lander_sprites':59,'limitations':['Two SAFEX=16 variants have no base-package reference; translated assets are prepared but not activated.','Bomb/escape-pod art and ANI positions are preserved; actual outfitting screen and status visibility still need runtime review.']}

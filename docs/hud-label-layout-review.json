@@ -1,0 +1,38 @@
+{
+  "status": "source_and_static_layout_review_runtime_pending",
+  "source_url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/sis.c",
+  "source_sha256": "67ee200db11ca93cdeda24d8aa9bf7bb41ab825cdda7611dc5715b04d02dfb05",
+  "frame_origin": [
+    1,
+    1
+  ],
+  "caption_baselines": [
+    9,
+    37,
+    116
+  ],
+  "caption_screen_tops": [
+    2,
+    30,
+    109
+  ],
+  "dynamic_clear_y": [
+    10,
+    38,
+    117
+  ],
+  "tiny_glyph_size": [
+    8,
+    8
+  ],
+  "tiny_ink_height": 7,
+  "tiny_hotspot_y": 7,
+  "tiny_advance": 9,
+  "notes": [
+    "TextRect removes final spacing pixel before center alignment. Static labels use the same glyph pixels/advance as dynamic PC text.",
+    "Frame dimensions, ANI hotspots, equipment frames, names and numerical areas are preserved."
+  ],
+  "limitations": [
+    "Runtime palette, PC/3DO switching and dynamic equipment redraw remain unverified."
+  ]
+}

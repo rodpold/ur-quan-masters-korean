@@ -93,3 +93,6 @@ SAFEX=16 변형 060/063에는 각각 빈 슬롯과 화물·장치·착륙선·�
 고정 버전 공개 소스의 InitPreBuilt는 기본 함대 15개를 생성한다. 처음 5개 이름은 MELEE_STRING_BASE+4..8에서 읽으며 설치된 한글 패키지에도 균형 팀 1/2, 200점, 베헤모스 제니스, 부릅뜬 눈들이 들어 있다. 나머지 10개는 C 문자열 리터럴이고 현재 uqm.exe에서도 같은 영문을 발견했다. docs/prebuilt-team-name-audit.json에 소스·실행 파일 해시와 문자열 위치를 기록했다.
 
 Ford's Fighters, Leyland's Lashers, The Gregorizers 200, 300 point Armada!, Little Dudes with Attitudes, New Alliance Ships, Old Alliance Ships, Old Hierarchy Ships, Star Control 1/2는 현재 리소스 패치가 교체하지 못하는 항목이다. 전체 번역 완료로 처리하지 않는다. 실행 파일 수정 금지 제약을 유지하며 사용자 팀/설정 파일을 덮어쓰거나 별도 팀을 추가해 기존 이름의 번역을 대신하지 않는다. 공개 포트의 코드 경로와 설치 EXE의 실제 동작이 같다는 실행 검증은 아직 없다.
+
+
+2026-09-26 HUD 갱신: flagshipstatus-000의 CAPTAIN/FUEL/CREW를 7픽셀 한글 그림으로 생성했다. 동일 TinyFont 마스크·간격·기준선으로 PC 글자 재그리기와 맞추고 주변 픽셀과 동적 숫자 영역을 보존한다. 소스 및 정적 검사 통과와 실제 모드 전환·장비 갱신 검증은 구분하며 실기는 대기 중이다.

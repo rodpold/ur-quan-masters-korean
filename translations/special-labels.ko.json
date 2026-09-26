@@ -15,6 +15,11 @@
       "source_path": "base/lander/lander.ani",
       "source_sha256": "a8ab48d8f38f0e07e9519eab8bfaf8e495ca1f70db1f5e15903ecdc5d238a8c6",
       "resource_key": "graphics.lander"
+    },
+    {
+      "source_path": "base/ui/flagshipstatus.ani",
+      "source_sha256": "e9f1168abdfffb413a25049965c797a12fdc68fd44a27ab9072c68e376dad113",
+      "resource_key": "graphics.flagshipstatus"
     }
   ],
   "rows": [
@@ -467,6 +472,79 @@
             64,
             64,
             255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ui/flagshipstatus-000.png",
+      "source_sha256": "7122dd654de13ba682e4e44c2377dadeebec783a7fd2d0ea9bc63164853575bd",
+      "size": [
+        63,
+        137
+      ],
+      "regions": [
+        {
+          "box": [
+            2,
+            1,
+            58,
+            7
+          ],
+          "text": "함장",
+          "background": [
+            0,
+            0,
+            174,
+            255
+          ],
+          "foreground": [
+            72,
+            152,
+            192,
+            255
+          ]
+        },
+        {
+          "box": [
+            18,
+            29,
+            26,
+            7
+          ],
+          "text": "연료",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            248,
+            48,
+            0,
+            255
+          ]
+        },
+        {
+          "box": [
+            18,
+            108,
+            26,
+            7
+          ],
+          "text": "승무원",
+          "background": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "foreground": [
+            60,
+            186,
+            60,
             255
           ]
         }

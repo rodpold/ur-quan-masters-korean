@@ -1,8 +1,26 @@
 """Compile special equipment captions without changing sprites or positions."""
-import hashlib,json
+import hashlib,json,io
 from pathlib import Path
-from PIL import ImageFont
-from melee_regions import ROOT,render_regions
+from PIL import Image,ImageDraw,ImageFont
+from melee_regions import ROOT,render_regions as render_base_regions
+def render_regions(raw,row,font):
+    result=render_base_regions(raw,row,font)
+    if row['source_path']!='base/ui/flagshipstatus-000.png':return result
+    # Match TinyFont's 8px glyph + 1px advance and TextRect's final -1 width.
+    # DrawPC_SIS redraws these same pixels; its 5px clears must not leave ghosts.
+    im=Image.open(io.BytesIO(result)).convert('RGBA')
+    for region in row['regions']:
+        x,y,w,h=region['box'];im.paste(tuple(region['background']),(x,y,x+w,y+h))
+        start=31-((9*len(region['text'])-1)//2)
+        for i,char in enumerate(region['text']):
+            b=font.getbbox(char);mask=Image.new('L',(b[2]-b[0],b[3]-b[1]))
+            ImageDraw.Draw(mask).text((-b[0],-b[1]),char,font=font,fill=255)
+            mask=mask.point(lambda p:255 if p>=128 else 0)
+            assert mask.size==(8,7) and x<=start+i*9 and start+i*9+8<=x+w
+            im.paste(tuple(region['foreground']),(start+i*9,y),mask)
+    out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
+
+
 def load_special():
     return json.loads((ROOT/'translations/special-labels.ko.json').read_text(encoding='utf-8'))
 def add_special(entries,rmp,source):

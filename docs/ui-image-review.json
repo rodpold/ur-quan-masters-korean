@@ -4,19 +4,19 @@
   "reviewed_images": 420,
   "unreviewed_images": 0,
   "counts": {
-    "embedded_text_pending": 1,
-    "existing_replacement_runtime_pending": 10,
-    "generated_korean_heading_runtime_pending": 38,
-    "generated_korean_melee_caption_runtime_pending": 5,
-    "generated_korean_module_label_runtime_pending": 16,
     "generated_korean_panel_runtime_pending": 34,
-    "generated_korean_shipyard_label_runtime_pending": 21,
-    "generated_korean_special_label_runtime_pending": 3,
     "no_obvious_language_text_in_viewed_image": 267,
-    "partial_heading_replacement_other_text_pending": 1,
+    "generated_korean_caption_runtime_pending": 1,
+    "generated_korean_melee_caption_runtime_pending": 5,
     "preserve_numeric_sprite": 21,
-    "preserve_product_logo": 1,
-    "unreferenced_safex_variant_translated_not_activated": 2
+    "generated_korean_module_label_runtime_pending": 16,
+    "existing_replacement_runtime_pending": 10,
+    "generated_korean_special_label_runtime_pending": 3,
+    "generated_korean_heading_runtime_pending": 38,
+    "partial_heading_replacement_other_text_pending": 1,
+    "unreferenced_safex_variant_translated_not_activated": 2,
+    "generated_korean_shipyard_label_runtime_pending": 21,
+    "preserve_product_logo": 1
   },
   "records": [
     {
@@ -226,8 +226,9 @@
     {
       "source_path": "base/ui/flagshipstatus-000.png",
       "source_sha256": "7122dd654de13ba682e4e44c2377dadeebec783a7fd2d0ea9bc63164853575bd",
-      "status": "embedded_text_pending",
-      "notes": "영문 라벨/약칭 확인. 일부 아주 작은 안내는 원본 크기 확대 재검토 필요."
+      "status": "generated_korean_caption_runtime_pending",
+      "notes": "함장/연료/승무원 7픽셀, 실제 TinyFont 간격/중앙 정렬과 일치. 숫자 영역·장비 프레임 보존. PC/3DO 전환 실기 대기.",
+      "translation_spec": "translations/special-labels.ko.json"
     },
     {
       "source_path": "base/ui/flagshipstatus-001.png",
