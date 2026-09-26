@@ -1,6 +1,6 @@
 import io,json
 from PIL import Image,ImageDraw,ImageChops,ImageFont
-from module_labels import load_modules
+from module_labels import load_modules,render_module
 from playmenu_headings import ROOT,render_heading
 def verify_module_labels(package,source):
     spec=load_modules();assert len(spec['rows'])==16
@@ -11,7 +11,11 @@ def verify_module_labels(package,source):
     missing=bytes(font.getmask(chr(0x10ffff)))
     for i,row in enumerate(spec['rows']):
         p=row['source_path'];old=source.read(p);raw=package.read(p.replace('base/','ko/',1))
-        assert raw==render_heading(old,row,font)
+        assert raw==render_module(old,row,font)
+        indexed=Image.open(io.BytesIO(raw));original=Image.open(io.BytesIO(old))
+        assert indexed.mode==original.mode=='P'
+        assert indexed.getpalette()==original.getpalette()
+        assert indexed.info.get('transparency')==original.info.get('transparency')
         a=Image.open(io.BytesIO(old)).convert('RGBA');b=Image.open(io.BytesIO(raw)).convert('RGBA');assert a.size==b.size
         assert row['box']==[0,0,a.width,11 if i<14 else 10]
         if i<14:assert a.crop((0,11,a.width,a.height)).tobytes()==b.crop((0,11,b.width,b.height)).tobytes(),'Equipment art changed'

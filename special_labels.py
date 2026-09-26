@@ -47,6 +47,8 @@ def preserve_indexed_colors(raw,rendered):
         for x in range(new.width):
             color=new.getpixel((x,y))
             if color==before.getpixel((x,y)):continue
+            if color[3]==0 and isinstance(original.info.get('transparency'),int):
+                result.putpixel((x,y),original.info['transparency']);continue
             choices=colors.get(color,[])
             if len(choices)!=1:raise ValueError('Edited color has no unique source palette index')
             result.putpixel((x,y),choices[0])

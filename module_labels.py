@@ -2,8 +2,12 @@
 import hashlib,json
 from playmenu_headings import ROOT,render_heading
 from PIL import ImageFont
+from special_labels import preserve_indexed_colors
 def load_modules():
     return json.loads((ROOT/'translations/module-labels.ko.json').read_text(encoding='utf-8'))
+def render_module(raw,row,font):
+    return preserve_indexed_colors(raw,render_heading(raw,row,font))
+
 def add_modules(entries,rmp,source):
     spec=load_modules();ani=source.read(spec['source_ani'])
     if hashlib.sha256(ani).hexdigest()!=spec['ani_sha256']:raise ValueError('Module ANI changed')
@@ -13,4 +17,4 @@ def add_modules(entries,rmp,source):
     rmp.append(spec['resource_key']+' = GFXRES:'+target)
     font=ImageFont.truetype(str(ROOT/'vendor/galmuri/Galmuri7.ttf'),8)
     for row in spec['rows']:
-        p=row['source_path'];entries[p.replace('base/','ko/',1)]=render_heading(source.read(p),row,font)
+        p=row['source_path'];entries[p.replace('base/','ko/',1)]=render_module(source.read(p),row,font)
