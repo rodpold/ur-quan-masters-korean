@@ -1,13 +1,14 @@
 {
   "date": "2026-09-26",
   "package_sha256": "faa6b7080523368eba2d4d366fbd95e67e540ad689c14c6faa41c6ab9e308b85",
-  "status": "need_info_branch_choices_observed_reply_and_history_pending",
+  "status": "need_info_branch_and_short_history_runtime_confirmed",
   "observed": [
     "User reached an established starbase conversation; this is a later save state than the initial Hayes encounter.",
     "Two visible responses match need_info and goodbye_commander; first wraps to two lines, second one line, white selected and cyan unselected.",
     "Top labels 기지 사령관 and 우주기지 display all strokes within the header.",
     "HUD shows fuel 7, crew 43 and 3224 RU without label overlap; changed numeric values are visible, but the redraw transition was not observed.",
-    "After the user selected need_info, all four expected response choices appeared: starbase_functions, history, our_mission, no_need_info. First and third wrap to two lines; second and fourth fit on one line. White/cyan selection rendering and vertical separation are intact."
+    "After the user selected need_info, all four expected response choices appeared: starbase_functions, history, our_mission, no_need_info. First and third wrap to two lines; second and fourth fit on one line. White/cyan selection rendering and vertical separation are intact.",
+    "User opened post-padding history: WHAT_KIND_OF_INFO appears as 물론입니다, 함장님. 무엇이 궁금하십니까? on one green line without clipping. Lower panel shows (당신의 말에 대한 응답) and the selected need_info text in two centered yellow lines without overlap."
   ],
   "expected_next_branch": {
     "source_sha256": "43eca52577fcfb58e0ce92ee1f650dbb585c3c277ddb3dd50649aadae537a786",
@@ -21,11 +22,10 @@
       "our_mission",
       "no_need_info"
     ],
-    "status": "four_next_choices_runtime_confirmed_npc_reply_not_observed"
+    "status": "npc_reply_and_four_next_choices_runtime_confirmed"
   },
   "pending": [
-    "Confirm preceding WHAT_KIND_OF_INFO NPC reply via history; four subsequent choices observed",
-    "Observe post-padding conversation history and page transitions",
+    "Post-padding long conversation-history page transitions",
     "Audio synchronization",
     "Other races and endings"
   ],

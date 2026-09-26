@@ -17,5 +17,8 @@
     "Other TinyFont screens after baseline shift"
   ],
   "complete": false,
-  "user_feedback": "User confirmed the reported clipping issue is resolved after installing the seven-pixel padding correction."
+  "user_feedback": "User confirmed the reported clipping issue is resolved after installing the seven-pixel padding correction.",
+  "runtime_observed_after_fix": [
+    "Agent observed one-line Hayes WHAT_KIND_OF_INFO history without clipped strokes; associated player response and response heading also fit."
+  ]
 }
