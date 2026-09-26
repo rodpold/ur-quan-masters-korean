@@ -1,0 +1,83 @@
+{
+  "status": "agent_semantic_review_pass_human_and_runtime_pending",
+  "source_path": "base/comm/yehatrebels/yehatrebels.txt",
+  "source_sha256": "9ed97c1805f52d112e8d8a06a24783d7fb47da9e2673cec4a3772e5112fac7dd",
+  "translation_path": "translations/dialogue/yehat.rebel.ko.json",
+  "translation_sha256": "631b20009a610293409fd17b0cf532e92ba951076258f36a3791e5f05925181f",
+  "reviewed_record_ids": [
+    "REBEL_HELLO_1",
+    "REBEL_HELLO_2",
+    "REBEL_HELLO_3",
+    "REBEL_HELLO_4",
+    "how_goes_revolution",
+    "REBEL_REVOLUTION_1",
+    "REBEL_REVOLUTION_2",
+    "REBEL_REVOLUTION_3",
+    "REBEL_REVOLUTION_4",
+    "any_ships",
+    "NO_ROOM",
+    "HAVE_ALL_SHIPS",
+    "HAVE_FEW_SHIPS",
+    "NO_SHIPS_YET",
+    "give_info_rebels",
+    "WHAT_INFO",
+    "what_about_royalty",
+    "ABOUT_ROYALTY",
+    "what_about_war",
+    "ABOUT_WAR",
+    "what_about_urquan",
+    "ABOUT_URQUAN",
+    "what_about_vux",
+    "ABOUT_VUX",
+    "what_about_clue",
+    "ABOUT_CLUE",
+    "enough_info",
+    "OK_ENOUGH_INFO",
+    "bye_rebel",
+    "GOODBYE_REBEL",
+    "YEHAT_CAVALRY",
+    "what_about_pkunk_rebel",
+    "PKUNK_ABSORBED_REBEL",
+    "HATE_PKUNK_REBEL"
+  ],
+  "changes": [
+    {
+      "id": "REBEL_HELLO_1",
+      "before": "어서 오시오, 인간의 벗이자 동맹이여!\n혁명이 시작되었고 씨족들이 우리의 대의 아래 모여들고 있소!",
+      "after": "어서 오시오, 인간 친구이자 동맹이여!\n혁명이 시작되었고 씨족들이 우리의 대의 아래 모여들고 있소!",
+      "reason": "Human friend addresses the human ally, not a friend of humanity."
+    },
+    {
+      "id": "REBEL_HELLO_4",
+      "before": "반갑소, 함장. 오늘은 우리에게 무엇이 필요하오?",
+      "after": "반갑소, 함장. 오늘은 우리가 무엇을 도와주면 되겠소?",
+      "reason": "What are you needing from us offers aid to the captain, rather than asking what the rebels need."
+    },
+    {
+      "id": "ABOUT_CLUE",
+      "before": "용감한 인간이여, 나라면 우르콴의 힘이 집중된 곳을 찾고,\n그것을 파괴하는 데 필요한 일이라면 무엇이든 하겠소.\n그 약점이 무엇인지 짐작할 단서가 있소.\n우리가 지배 계층의 전투 노예였을 때,\n우르콴이 일종의 초병기를 갖고 있다는 사실을 알았소.\n함대 전체를 파괴할 화력을 지닌 '사마트라'라는 거대한 전함이었소.\n무슨 이유에서인지 우르콴은 그 함선을 쓰기를 꺼렸소.\n대함대가 마침내 은하 중심 방면 전선에서 저지되고 나서야,\n사마트라의 위력을 동맹에 쏟아부었소.\n함장, 내 충고를 들으시오... 브리그가 집에 돌아올 때까지 드레드노트를 부술 수는 있겠지만,\n사마트라를 없애지 않는 한 우르콴 지배 계층을 결코 물리칠 수 없소.",
+      "after": "용감한 인간이여, 나라면 우르콴의 힘이 집중된 곳을 찾고,\n그것을 파괴하는 데 필요한 일이라면 무엇이든 하겠소.\n그 약점이 무엇인지 짐작할 단서가 있을지도 모르오.\n우리가 지배 계층의 전투 노예였을 때,\n우르콴이 일종의 초병기를 갖고 있다는 사실을 알았소.\n함대 전체를 파괴할 화력을 지닌 '사마트라'라는 거대한 전함이었소.\n무슨 이유에서인지 우르콴은 그 함선을 쓰기를 꺼렸소.\n대함대가 마침내 은하 중심 방면 전선에서 저지되고 나서야,\n사마트라의 위력을 동맹에 쏟아부었소.\n함장, 내 충고를 들으시오... 브리그가 집에 돌아올 때까지 드레드노트를 부술 수는 있겠지만,\n사마트라를 없애지 않는 한 우르콴 지배 계층을 결코 물리칠 수 없소.",
+      "reason": "Preserve may have a hint instead of asserting certainty."
+    },
+    {
+      "id": "YEHAT_CAVALRY",
+      "before": "반갑소, 인간의 벗이여! 곧 사마트라를 공격하리라는 것을 알고 있소.\n방해받고 싶지 않겠지만, 중요한 소식이 있소!...\n반란이 성공했소! 우리가 승리했소!\n빕-닙의 사악한 여왕과 측근들을 높은 횃대에서 끌어내렸소!\n더 좋은 소식은... 새 여왕을 찾았다는 것이오!...\n...이전 어느 때보다 평화롭고 조화롭게 씨족들을 하나로 묶을 여왕이오!\n누군지 결코 짐작하지 못할 거요, 함장!\n프쿤크요! 그렇소! 사실이오!\n그들은 우리 문화에 흡수되고도 살아남았고,\n이제는 꿈에도 몰랐던 우리 자신의 모습을 깨닫게 해 주고 있소!\n우리는 행복한 맹금이라고 생각했을 뿐이오! 스스로를 속이고 있었소!\n새 여왕의 이름은 브레이키 거디 1세요!... 첫 명령은,\n이곳으로 달려와 그대에게 이 함선들을 전하라는 것이었소... 예하트 터미네이터와 프쿤크 퓨리 말이오.\n자, 함장. 함께 사마트라를 공격합시다!",
+      "after": "반갑소, 인간 친구여! 곧 사마트라를 공격하리라는 것을 알고 있소.\n방해받고 싶지 않겠지만, 중요한 소식이 있소!...\n반란이 성공했소! 우리가 승리했소!\n빕-닙의 사악한 여왕과 측근들을 높은 횃대에서 끌어내렸소!\n더 좋은 소식은... 새 여왕을 찾았다는 것이오!...\n...이전 어느 때보다 평화롭고 조화롭게 씨족들을 하나로 묶을 여왕이오!\n누군지 결코 짐작하지 못할 거요, 함장!\n프쿤크요! 그렇소! 사실이오!\n그들은 우리 문화에 흡수되고도 살아남았고,\n이제는 꿈에도 몰랐던 우리 자신의 모습을 깨닫게 해 주고 있소!\n우리는 행복한 맹금이라고 생각했을 뿐이오! 스스로를 속이고 있었소!\n새 여왕의 이름은 브레이키 거디 1세요!... 첫 명령은,\n이곳으로 달려와 그대에게 이 함선들을 전하라는 것이었소... 예하트 터미네이터와 프쿤크 퓨리 말이오.\n자, 함장. 함께 사마트라를 공격합시다!",
+      "reason": "Retain the human captain as the addressee of the friendly greeting."
+    }
+  ],
+  "preserved": [
+    "Rebel enthusiasm and grief for brave Royalist crews coexist; next-battle victory remains tentative.",
+    "Five systems, three destroyed Royalist ships, four gifted Terminators, over twenty centuries and almost thirty percent remain distinct quantities.",
+    "Full/few/no ship grants and lack of fleet capacity remain distinct records; no unconditional support is invented.",
+    "Past queens accomplishments and current queen condemnation remain separate. Uncertainty about replacing the dynasty remains prior to the cavalry resolution.",
+    "Yehat obey the retreat order and feel guilt; the stellar device explanation retains must-have inference and miniature-supernova analogy.",
+    "Pkunk hatred/absorption statements are not rewritten using ending knowledge. Cavalry accepts Braky Girdy and admits previous self-deception.",
+    "ZEX tactical respect and reports of retirement preserve the limits of what the speaker knows.",
+    "Proper names, record order, line boundaries and original voice connections remain unchanged."
+  ],
+  "limitations": [
+    "Agent semantic review is not user approval.",
+    "Fleet grants, rebellion state changes, cavalry appearance, voice synchronization and rendered font/scrolling still require runtime checks."
+  ]
+}
