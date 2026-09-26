@@ -1,10 +1,17 @@
 name: Release
 on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag (for example v1.0.0)
+        required: true
+        type: string
   push:
     tags:
       - 'v*'
 env:
   PYTHONUTF8: '1'
+  RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
 permissions:
   contents: read
 jobs:
@@ -14,6 +21,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -24,7 +33,7 @@ jobs:
         shell: pwsh
         run: |
           $version = python patcher.py --version
-          if ($env:GITHUB_REF_NAME -ne "v$version") { throw 'Tag and patcher version differ' }
+          if ($env:RELEASE_TAG -ne "v$version") { throw 'Tag and patcher version differ' }
           python -m unittest discover -s tests
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Build Windows distribution
@@ -44,7 +53,7 @@ jobs:
         run: |
           $version = python patcher.py --version
           $assets = @(Get-ChildItem artifacts/*.zip | ForEach-Object FullName) + @('artifacts/SHA256SUMS.txt')
-          gh release create $env:GITHUB_REF_NAME @assets --verify-tag --draft --title "한국어 패치 $version" --notes-file "docs/releases/$version.md"
+          gh release create $env:RELEASE_TAG @assets --verify-tag --draft --title "한국어 패치 $version" --notes-file "docs/releases/$version.md"
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          gh release edit $env:GITHUB_REF_NAME --draft=false --latest
+          gh release edit $env:RELEASE_TAG --draft=false --latest
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

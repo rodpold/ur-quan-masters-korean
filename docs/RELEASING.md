@@ -24,3 +24,5 @@ CLI `build` 결과와 Python 빌드 결과를 비교하고 원본·음성·사�
 실제 게임 플레이는 사용자 피드백으로 검수하며 자동으로 게임을 실행하지 않습니다.
 
 패키징 형식은 [PyInstaller 문서](https://pyinstaller.org/en/stable/usage.html), 릴리스 게시 명령은 [GitHub CLI 문서](https://cli.github.com/manual/gh_release_create)를 참고하세요.
+
+태그 push로 실행되지 않으면 Actions → Release → Run workflow에서 main과 기존 태그(예: v1.0.0)를 지정할 수 있습니다. 수동 실행도 지정한 태그의 소스를 checkout하며 태그를 변경하거나 새로 만들지 않습니다.
