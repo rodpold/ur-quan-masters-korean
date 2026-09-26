@@ -1,3 +1,4 @@
+from indexed_menus import finalize_menu
 import io
 from PIL import Image,ImageFont,ImageChops,ImageDraw
 from melee_regions import load_regions,render_regions,ROOT
@@ -14,7 +15,7 @@ def verify_melee_regions(package,source):
                 panel=Image.open(io.BytesIO(render_panel(panel_rows[placement['panel']],font))).convert('RGBA')
                 before.paste(panel,tuple(placement['origin']))
         b=io.BytesIO();before.save(b,format='PNG');actual=package.read(p.replace('base/','ko/',1))
-        assert actual==render_regions(b.getvalue(),row,font)
+        assert actual==finalize_menu(p.replace('base/','ko/',1),source.read(p),render_regions(b.getvalue(),row,font))
         after=Image.open(io.BytesIO(actual)).convert('RGBA');diff=ImageChops.difference(before,after)
         for region in row['regions']:
             x,y,w,h=region['box'];ImageDraw.Draw(diff).rectangle((x,y,x+w-1,y+h-1),fill=(0,0,0,0))

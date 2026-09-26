@@ -1,3 +1,4 @@
+from indexed_menus import finalize_menu
 import io,json
 from PIL import Image,ImageChops,ImageDraw,ImageFont
 from playmenu_headings import ROOT,load_headings,render_heading
@@ -8,7 +9,7 @@ def verify_playmenu_headings(package,source):
     font=ImageFont.truetype(str(ROOT/'vendor/galmuri/Galmuri7.ttf'),8)
     for row in spec['rows']:
         p=row['source_path'];raw=package.read(p.replace('base/','ko/',1))
-        assert raw==render_heading(source.read(p),row,font)
+        assert raw==finalize_menu(p.replace('base/','ko/',1),source.read(p),render_heading(source.read(p),row,font))
         original=Image.open(io.BytesIO(source.read(p))).convert('RGBA');patched=Image.open(io.BytesIO(raw)).convert('RGBA')
         assert original.size==patched.size
         diff=ImageChops.difference(original,patched)

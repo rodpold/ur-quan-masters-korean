@@ -309,6 +309,8 @@ def build(game, ui_font="compact"):
         add_shipyard(entries, rmp, z)
         from cockpit_labels import add_cockpit
         add_cockpit(entries, rmp, z)
+        from indexed_menus import add_indexed_menus
+        add_indexed_menus(entries, z)
         entries['ko/setupmenu.txt'] = translate_setup(z.read('base/ui/setupmenu.txt').decode('utf-8'),setup).encode('utf-8')
         for species, records in dialogue.items():
             source_species = 'yehatrebels' if species == 'yehat.rebel' else species
