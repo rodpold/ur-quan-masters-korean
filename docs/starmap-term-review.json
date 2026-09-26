@@ -14,9 +14,10 @@
     "ui-language-review.json"
   ],
   "menu_text_width_px": 41,
-  "runtime": "pending",
+  "runtime": "user_confirmed_right_side_label_not_clipped",
   "prior_glossary_hashes_lf_crlf": [
     "18a7855d0399e536743ee35f1e043403f8a1bcdb92de56eab2897b6a59bc5fc4",
     "c61b688ea04b7f033fcc1e530be60f5e474361fb668457284a3c7f0774fb1194"
-  ]
+  ],
+  "runtime_scope": "User confirmed 우주 지도 appears without clipping in the right-side UI. Image-menu heading remains statically checked only."
 }
