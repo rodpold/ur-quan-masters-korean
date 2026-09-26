@@ -1,0 +1,158 @@
+{
+  "status": "agent_semantic_review_pass_human_and_runtime_pending",
+  "source_path": "base/comm/yehat/yehat.txt",
+  "source_sha256": "a3755ecdc74bd57a78291fe8f163e0908948ef989bbd9cb59e8d218c6fff4d65",
+  "translation_path": "translations/dialogue/yehat.ko.json",
+  "translation_sha256": "8c7e71edeeb73bcfb187cca9a5f64c049dc5048b861cda6ab0d98c16e36978e9",
+  "reviewed_record_ids": [
+    "HOMEWORLD_HELLO_1",
+    "HOMEWORLD_HELLO_2",
+    "whats_up_homeworld",
+    "GENERAL_INFO_HOMEWORLD_1",
+    "GENERAL_INFO_HOMEWORLD_2",
+    "i_demand_you_ally_homeworld0",
+    "i_demand_you_ally_homeworld1",
+    "i_demand_you_ally_homeworld2",
+    "i_demand_you_ally_homeworld3",
+    "ENEMY_MUST_DIE",
+    "at_least_help_us_homeworld",
+    "NO_HELP_ENEMY",
+    "give_info",
+    "NO_INFO_FOR_ENEMY",
+    "what_about_pkunk_royalist",
+    "PKUNK_ABSORBED_ROYALIST",
+    "HATE_PKUNK_ROYALIST",
+    "bye_homeworld",
+    "GOODBYE_AND_DIE_HOMEWORLD",
+    "SPACE_HELLO_1",
+    "SPACE_HELLO_2",
+    "SPACE_HELLO_3",
+    "SPACE_HELLO_4",
+    "whats_up_space_1",
+    "GENERAL_INFO_SPACE_1",
+    "whats_up_space_2",
+    "GENERAL_INFO_SPACE_2",
+    "whats_up_space_3",
+    "GENERAL_INFO_SPACE_3",
+    "whats_up_space_4",
+    "GENERAL_INFO_SPACE_4",
+    "i_demand_you_ally_space0",
+    "i_demand_you_ally_space1",
+    "i_demand_you_ally_space2",
+    "i_demand_you_ally_space3",
+    "WE_CANNOT_1",
+    "obligation",
+    "WE_CANNOT_2",
+    "at_least_help_us_space",
+    "SORRY_CANNOT",
+    "dishonor",
+    "HERES_A_HINT",
+    "what_about_pkunk_space",
+    "PKUNK_ABSORBED_SPACE",
+    "HATE_PKUNK_SPACE",
+    "bye_space",
+    "GO_IN_PEACE",
+    "GOODBYE_AND_DIE_SPACE",
+    "shofixti_alive_1",
+    "shofixti_alive_2",
+    "SEND_HIM_OVER_1",
+    "SEND_HIM_OVER_2",
+    "not_here",
+    "not_send",
+    "JUST_A_TRICK_1",
+    "JUST_A_TRICK_2",
+    "ok_send",
+    "WE_REVOLT",
+    "ROYALIST_SPACE_HELLO_1",
+    "ROYALIST_SPACE_HELLO_2",
+    "ROYALIST_HOMEWORLD_HELLO_1",
+    "ROYALIST_HOMEWORLD_HELLO_2",
+    "how_is_rebellion",
+    "ROYALIST_REBELLION_1",
+    "ROYALIST_REBELLION_2",
+    "sorry_about_revolution",
+    "ALL_YOUR_FAULT",
+    "bye_royalist",
+    "GOODBYE_AND_DIE_ROYALIST",
+    "name_1",
+    "name_2",
+    "name_3",
+    "name_40",
+    "name_41",
+    "OUT_TAKES"
+  ],
+  "changes": [
+    {
+      "id": "SEND_HIM_OVER_1",
+      "before": "사실이라면 많은 것이 바뀔 것이오.\n하지만 우리는 오랫동안 속임수를 겪어 온 종족이오.\n그 말을 증명해야 하오, 함장.\n증거로 쇼픽스티를 우리에게 보내 주시오.",
+      "after": "사실이라면 많은 것이 바뀔 것이오.\n하지만 우리는 오래전부터 속임수의 수법에 밝은 종족이오.\n그 말을 증명해야 하오, 함장.\n증거로 쇼픽스티를 우리에게 보내 주시오.",
+      "reason": "Wise in the ways of deceit is knowledge, not specifically a history of being deceived."
+    },
+    {
+      "id": "i_demand_you_ally_homeworld0",
+      "before": "나, ",
+      "after": "저는 ",
+      "reason": "Begin a complete polite player introduction."
+    },
+    {
+      "id": "i_demand_you_ally_homeworld1",
+      "before": ", 소속은 ",
+      "after": ", ",
+      "reason": "Captain then alliance insertion order remains unchanged."
+    },
+    {
+      "id": "i_demand_you_ally_homeworld2",
+      "before": ", 지휘하는 함선은 ",
+      "after": " 소속이며 ",
+      "reason": "Connect alliance membership to the ship command clause without a sentence fragment."
+    },
+    {
+      "id": "i_demand_you_ally_homeworld3",
+      "before": ". 인간 종족의 동맹으로서 의무를 다할 것을 요구합니다!",
+      "after": "의 지휘관입니다. 인간 종족의 동맹으로서 의무를 다할 것을 요구합니다!",
+      "reason": "Finish arbitrary ship names with a stable suffix and retain the demand."
+    },
+    {
+      "id": "i_demand_you_ally_space0",
+      "before": "예하트 함장이여, 그대의 명예에 걸고 요청합니다. 나, ",
+      "after": "예하트 함장이여, 그대의 명예에 걸고 요청합니다. 저는 ",
+      "reason": "Keep the honor appeal in the player register, followed by captain name."
+    },
+    {
+      "id": "i_demand_you_ally_space1",
+      "before": ", 지휘하는 함선은 ",
+      "after": ", ",
+      "reason": "Captain then ship insertion order remains unchanged."
+    },
+    {
+      "id": "i_demand_you_ally_space2",
+      "before": ". 다음 동맹의 이름으로, ",
+      "after": "의 지휘관으로서 ",
+      "reason": "Complete the command relationship before the alliance name."
+    },
+    {
+      "id": "i_demand_you_ally_space3",
+      "before": ", 우주선 씨족들이 약속을 지키고 우리의 대의를 위해 싸울 것을 촉구합니다!",
+      "after": "의 이름으로 우주선 씨족들이 약속을 지키고 우리의 대의를 위해 싸울 것을 촉구합니다!",
+      "reason": "Attach the alliance name naturally to the appeal without changing the dynamic value."
+    }
+  ],
+  "assembled_examples": {
+    "homeworld": "저는 Zelnick, 신 자유 항성 동맹 소속이며 Vindicator의 지휘관입니다. 인간 종족의 동맹으로서 의무를 다할 것을 요구합니다!",
+    "space": "예하트 함장이여, 그대의 명예에 걸고 요청합니다. 저는 Zelnick, Vindicator의 지휘관으로서 신 자유 항성 동맹의 이름으로 우주선 씨족들이 약속을 지키고 우리의 대의를 위해 싸울 것을 촉구합니다!"
+  },
+  "preserved": [
+    "Court nobles refuse aid; pre-revolt Starship Clans struggle between old friendship and royal orders. Royalist threats remain distinct from rebel welcome.",
+    "The never-defeated claim remains a rationalization of alliance with Ur-Quan; not-slaves then battle-thralls self-correction is preserved.",
+    "Material aid refusal and covert information sharing remain separate. Mycon clue retains 639.5 : 231.2 and the first planet, without naming the hidden object.",
+    "Show us a living Shofixti requires evidence; scout docking, Glory Device suspicion, recognition, shame and revolutionary resolve retain their sequence.",
+    "Twenty years, two thousand years, one thousand ships, one thousand years and one hundred generations retain their contexts.",
+    "Pkunk hatred/absorption lines remain unchanged by knowledge of the cavalry ending.",
+    "Royalist Zeep-Zeep/Feep-Eeep conflict and the actors wing-in-the-door screenplay joke retain their different voices.",
+    "Record IDs, line boundaries, name placeholder positions and audio connections remain unchanged."
+  ],
+  "limitations": [
+    "Agent semantic review is not user approval.",
+    "Assembled examples are text checks only, not execution of callbacks. Dynamic-name widths, story-state branches, audio synchronization and rendered glyphs remain runtime checks."
+  ]
+}
