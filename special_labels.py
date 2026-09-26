@@ -32,12 +32,14 @@ def render_regions(raw,row,font):
     out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
 
 
-def preserve_indexed_colors(raw,rendered):
+def preserve_indexed_colors(raw,rendered,output_size=None):
     """Keep index identity outside edits; edited colors must exist in the palette."""
     original=Image.open(io.BytesIO(raw));original.load()
     new=Image.open(io.BytesIO(rendered)).convert('RGBA')
-    if original.mode!='P' or original.size!=new.size:raise ValueError('Indexed caption source mismatch')
-    palette=original.getpalette();before=original.convert('RGBA');result=original.copy()
+    expected=tuple(output_size) if output_size is not None else original.size
+    if original.mode!='P' or new.size!=expected or new.width<original.width or new.height<original.height:raise ValueError('Indexed caption source mismatch')
+    palette=original.getpalette();before=original.convert('RGBA')
+    result=Image.new('P',new.size);result.putpalette(palette);result.info=dict(original.info);result.paste(original,(0,0))
     colors={}
     for i in range(len(palette)//3):
         if i==original.info.get('transparency'):continue
@@ -46,7 +48,7 @@ def preserve_indexed_colors(raw,rendered):
     for y in range(new.height):
         for x in range(new.width):
             color=new.getpixel((x,y))
-            if color==before.getpixel((x,y)):continue
+            if x<before.width and y<before.height and color==before.getpixel((x,y)):continue
             if color[3]==0 and isinstance(original.info.get('transparency'),int):
                 result.putpixel((x,y),original.info['transparency']);continue
             choices=colors.get(color,[])

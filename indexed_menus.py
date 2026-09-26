@@ -11,7 +11,7 @@ def finalize_menu(target,raw,rendered):
     row=next((r for r in load_indexed_menus() if r['target']==target),None)
     if row is None:return rendered
     if hashlib.sha256(raw).hexdigest()!=row['source_sha256']:raise ValueError('Menu palette source changed')
-    return preserve_indexed_colors(raw,rendered)
+    return preserve_indexed_colors(raw,rendered,row.get('output_size'))
 
 def add_indexed_menus(entries,source):
     for row in load_indexed_menus():

@@ -320,6 +320,78 @@
       "target": "ko/ui/playmenu-037.png",
       "source": "base/ui/playmenu-037.png",
       "source_sha256": "6e113826f6a0844e312c6358754725afeb5149b7a984b018ad656275e38b5b60"
+    },
+    {
+      "target": "ko/ui/meleemenu-017.png",
+      "source": "base/ui/meleemenu-017.png",
+      "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-018.png",
+      "source": "base/ui/meleemenu-018.png",
+      "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-019.png",
+      "source": "base/ui/meleemenu-019.png",
+      "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-020.png",
+      "source": "base/ui/meleemenu-020.png",
+      "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-021.png",
+      "source": "base/ui/meleemenu-021.png",
+      "source_sha256": "daa7e05f27901816f172ec4cb7ac477f9f13dbbcd4f325f261861dab84edf76e",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-022.png",
+      "source": "base/ui/meleemenu-022.png",
+      "source_sha256": "128ed982337d449f6490a938748d6ffe3adf3175031226083b8e9f5d371653f6",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-023.png",
+      "source": "base/ui/meleemenu-023.png",
+      "source_sha256": "c72e37fcd8bb348399dfa188535201d8b2c2c71c6e4244c8f045a04be5401365",
+      "output_size": [
+        36,
+        7
+      ]
+    },
+    {
+      "target": "ko/ui/meleemenu-024.png",
+      "source": "base/ui/meleemenu-024.png",
+      "source_sha256": "172d0b70d5e7c43410cd22893eb12cbadeb63f9bd21d4df10f4a9cac31f22e95",
+      "output_size": [
+        36,
+        7
+      ]
     }
   ]
 }

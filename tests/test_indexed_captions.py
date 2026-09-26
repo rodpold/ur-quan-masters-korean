@@ -35,3 +35,13 @@ class IndexedCaptionTests(unittest.TestCase):
         result=Image.open(io.BytesIO(preserve_indexed_colors(png(original),png(changed))))
         self.assertEqual(result.getpixel((0,0)),0)
         self.assertEqual(result.info['transparency'],0)
+
+    def test_expansion_requires_exact_declared_size(self):
+        original=Image.new('P',(1,1),1);palette=[0]*768;palette[3:6]=[100,100,100]
+        original.putpalette(palette);original.info['transparency']=0
+        changed=Image.new('RGBA',(1,2),(100,100,100,255))
+        with self.assertRaises(ValueError):preserve_indexed_colors(png(original),png(changed))
+        with self.assertRaises(ValueError):preserve_indexed_colors(png(original),png(changed),[2,2])
+        result=Image.open(io.BytesIO(preserve_indexed_colors(png(original),png(changed),[1,2])))
+        self.assertEqual(result.size,(1,2));self.assertEqual(list(result.getdata()),[1,1])
+        self.assertEqual(result.getpalette(),palette)
