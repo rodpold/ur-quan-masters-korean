@@ -16,12 +16,18 @@
       "total_records": 74,
       "current_agent_review_records": 74,
       "pending_records": 0
+    },
+    "surface_reports": {
+      "total_records": 29,
+      "current_agent_review_records": 29,
+      "pending_records": 0
     }
   },
   "issues": [],
   "resources": [
     {
       "translation_path": "translations/dialogue/arilou.ko.json",
+      "source_path": "base/comm/arilou/arilou.txt",
       "category": "base_dialogue",
       "total_records": 97,
       "current_agent_review_records": 97,
@@ -32,6 +38,7 @@
     },
     {
       "translation_path": "translations/dialogue/chmmr.ko.json",
+      "source_path": "base/comm/chmmr/chmmr.txt",
       "category": "base_dialogue",
       "total_records": 78,
       "current_agent_review_records": 78,
@@ -42,6 +49,7 @@
     },
     {
       "translation_path": "translations/dialogue/commander.ko.json",
+      "source_path": "base/comm/commander/commander.txt",
       "category": "base_dialogue",
       "total_records": 99,
       "current_agent_review_records": 99,
@@ -52,6 +60,7 @@
     },
     {
       "translation_path": "translations/dialogue/druuge.ko.json",
+      "source_path": "base/comm/druuge/druuge.txt",
       "category": "base_dialogue",
       "total_records": 105,
       "current_agent_review_records": 105,
@@ -62,6 +71,7 @@
     },
     {
       "translation_path": "translations/dialogue/ilwrath.ko.json",
+      "source_path": "base/comm/ilwrath/ilwrath.txt",
       "category": "base_dialogue",
       "total_records": 108,
       "current_agent_review_records": 108,
@@ -72,6 +82,7 @@
     },
     {
       "translation_path": "translations/dialogue/kohrah.ko.json",
+      "source_path": "base/comm/kohrah/kohrah.txt",
       "category": "base_dialogue",
       "total_records": 76,
       "current_agent_review_records": 76,
@@ -82,6 +93,7 @@
     },
     {
       "translation_path": "translations/dialogue/melnorme.ko.json",
+      "source_path": "base/comm/melnorme/melnorme.txt",
       "category": "base_dialogue",
       "total_records": 282,
       "current_agent_review_records": 282,
@@ -92,6 +104,7 @@
     },
     {
       "translation_path": "translations/dialogue/mycon.ko.json",
+      "source_path": "base/comm/mycon/mycon.txt",
       "category": "base_dialogue",
       "total_records": 109,
       "current_agent_review_records": 109,
@@ -102,6 +115,7 @@
     },
     {
       "translation_path": "translations/dialogue/orz.ko.json",
+      "source_path": "base/comm/orz/orz.txt",
       "category": "base_dialogue",
       "total_records": 116,
       "current_agent_review_records": 116,
@@ -112,6 +126,7 @@
     },
     {
       "translation_path": "translations/dialogue/pkunk.ko.json",
+      "source_path": "base/comm/pkunk/pkunk.txt",
       "category": "base_dialogue",
       "total_records": 182,
       "current_agent_review_records": 182,
@@ -122,6 +137,7 @@
     },
     {
       "translation_path": "translations/dialogue/probe.ko.json",
+      "source_path": "base/comm/probe/probe.txt",
       "category": "base_dialogue",
       "total_records": 86,
       "current_agent_review_records": 86,
@@ -132,6 +148,7 @@
     },
     {
       "translation_path": "translations/dialogue/safeones.ko.json",
+      "source_path": "base/comm/safeones/safeones.txt",
       "category": "base_dialogue",
       "total_records": 145,
       "current_agent_review_records": 145,
@@ -142,6 +159,7 @@
     },
     {
       "translation_path": "translations/dialogue/shofixti.ko.json",
+      "source_path": "base/comm/shofixti/shofixti.txt",
       "category": "base_dialogue",
       "total_records": 95,
       "current_agent_review_records": 95,
@@ -152,6 +170,7 @@
     },
     {
       "translation_path": "translations/dialogue/slylandro.ko.json",
+      "source_path": "base/comm/slylandro/slylandro.txt",
       "category": "base_dialogue",
       "total_records": 116,
       "current_agent_review_records": 116,
@@ -162,6 +181,7 @@
     },
     {
       "translation_path": "translations/dialogue/spathi.ko.json",
+      "source_path": "base/comm/spathi/spathi.txt",
       "category": "base_dialogue",
       "total_records": 134,
       "current_agent_review_records": 134,
@@ -172,6 +192,7 @@
     },
     {
       "translation_path": "translations/dialogue/starbase.ko.json",
+      "source_path": "base/comm/starbase/starbase.txt",
       "category": "base_dialogue",
       "total_records": 300,
       "current_agent_review_records": 300,
@@ -182,6 +203,7 @@
     },
     {
       "translation_path": "translations/dialogue/supox.ko.json",
+      "source_path": "base/comm/supox/supox.txt",
       "category": "base_dialogue",
       "total_records": 97,
       "current_agent_review_records": 97,
@@ -192,6 +214,7 @@
     },
     {
       "translation_path": "translations/dialogue/syreen.ko.json",
+      "source_path": "base/comm/syreen/syreen.txt",
       "category": "base_dialogue",
       "total_records": 131,
       "current_agent_review_records": 131,
@@ -202,6 +225,7 @@
     },
     {
       "translation_path": "translations/dialogue/talkingpet.ko.json",
+      "source_path": "base/comm/talkingpet/talkingpet.txt",
       "category": "base_dialogue",
       "total_records": 113,
       "current_agent_review_records": 113,
@@ -212,6 +236,7 @@
     },
     {
       "translation_path": "translations/dialogue/thraddash.ko.json",
+      "source_path": "base/comm/thraddash/thraddash.txt",
       "category": "base_dialogue",
       "total_records": 154,
       "current_agent_review_records": 154,
@@ -222,6 +247,7 @@
     },
     {
       "translation_path": "translations/dialogue/umgah.ko.json",
+      "source_path": "base/comm/umgah/umgah.txt",
       "category": "base_dialogue",
       "total_records": 87,
       "current_agent_review_records": 87,
@@ -232,6 +258,7 @@
     },
     {
       "translation_path": "translations/dialogue/urquan.ko.json",
+      "source_path": "base/comm/urquan/urquan.txt",
       "category": "base_dialogue",
       "total_records": 76,
       "current_agent_review_records": 76,
@@ -242,6 +269,7 @@
     },
     {
       "translation_path": "translations/dialogue/utwig.ko.json",
+      "source_path": "base/comm/utwig/utwig.txt",
       "category": "base_dialogue",
       "total_records": 117,
       "current_agent_review_records": 117,
@@ -252,6 +280,7 @@
     },
     {
       "translation_path": "translations/dialogue/vux.ko.json",
+      "source_path": "base/comm/vux/vux.txt",
       "category": "base_dialogue",
       "total_records": 102,
       "current_agent_review_records": 102,
@@ -262,6 +291,7 @@
     },
     {
       "translation_path": "translations/dialogue/yehat.ko.json",
+      "source_path": "base/comm/yehat/yehat.txt",
       "category": "base_dialogue",
       "total_records": 75,
       "current_agent_review_records": 75,
@@ -272,6 +302,7 @@
     },
     {
       "translation_path": "translations/dialogue/yehat.rebel.ko.json",
+      "source_path": "base/comm/yehatrebels/yehatrebels.txt",
       "category": "base_dialogue",
       "total_records": 34,
       "current_agent_review_records": 34,
@@ -282,6 +313,7 @@
     },
     {
       "translation_path": "translations/dialogue/zoqfotpik.ko.json",
+      "source_path": "base/comm/zoqfotpik/zoqfotpik.txt",
       "category": "base_dialogue",
       "total_records": 337,
       "current_agent_review_records": 337,
@@ -292,6 +324,7 @@
     },
     {
       "translation_path": "translations/dialogue-voice/arilou.ko.json",
+      "source_path": "3dovoice/arilou/arilou.txt",
       "category": "voice_overrides",
       "total_records": 1,
       "current_agent_review_records": 1,
@@ -302,6 +335,7 @@
     },
     {
       "translation_path": "translations/dialogue-voice/melnorme.ko.json",
+      "source_path": "3dovoice/melnorme/melnorme.txt",
       "category": "voice_overrides",
       "total_records": 1,
       "current_agent_review_records": 1,
@@ -312,6 +346,7 @@
     },
     {
       "translation_path": "translations/dialogue-voice/mycon.ko.json",
+      "source_path": "3dovoice/mycon/mycon.txt",
       "category": "voice_overrides",
       "total_records": 5,
       "current_agent_review_records": 5,
@@ -322,6 +357,7 @@
     },
     {
       "translation_path": "translations/dialogue-voice/starbase.ko.json",
+      "source_path": "3dovoice/starbase/starbase.txt",
       "category": "voice_overrides",
       "total_records": 2,
       "current_agent_review_records": 2,
@@ -332,6 +368,7 @@
     },
     {
       "translation_path": "translations/dialogue-voice/syreen.ko.json",
+      "source_path": "3dovoice/syreen/syreen.txt",
       "category": "voice_overrides",
       "total_records": 2,
       "current_agent_review_records": 2,
@@ -342,6 +379,7 @@
     },
     {
       "translation_path": "translations/dialogue-voice/utwig.ko.json",
+      "source_path": "3dovoice/utwig/utwig.txt",
       "category": "voice_overrides",
       "total_records": 4,
       "current_agent_review_records": 4,
@@ -352,6 +390,7 @@
     },
     {
       "translation_path": "translations/intro.ko.json",
+      "source_path": "base/cutscene/intro/intro.txt",
       "category": "cutscene_subtitles",
       "total_records": 32,
       "current_agent_review_records": 32,
@@ -362,6 +401,7 @@
     },
     {
       "translation_path": "translations/ending.ko.json",
+      "source_path": "base/cutscene/ending/final.txt",
       "category": "cutscene_subtitles",
       "total_records": 42,
       "current_agent_review_records": 42,
@@ -369,11 +409,231 @@
       "reports": [
         "cutscene-language-review.json"
       ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/bio/vuxbeast.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/androsynth_ruins.txt",
+      "category": "surface_reports",
+      "total_records": 3,
+      "current_agent_review_records": 3,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/eggcase.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/fwiffo.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/maidens.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/moonbase.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/ruins.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/aquahelix.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/burvixcaster.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/burvixeseruins.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/chmmrbase.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/sphere.txt",
+      "category": "surface_reports",
+      "total_records": 2,
+      "current_agent_review_records": 2,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/spindle.txt",
+      "category": "surface_reports",
+      "total_records": 2,
+      "current_agent_review_records": 2,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/sundevice.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/syreenvault.txt",
+      "category": "surface_reports",
+      "total_records": 3,
+      "current_agent_review_records": 3,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/taalodevice.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/ultron.txt",
+      "category": "surface_reports",
+      "total_records": 2,
+      "current_agent_review_records": 2,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/umgahcaster.txt",
+      "category": "surface_reports",
+      "total_records": 2,
+      "current_agent_review_records": 2,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/urquanwreck.txt",
+      "category": "surface_reports",
+      "total_records": 2,
+      "current_agent_review_records": 2,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
+    },
+    {
+      "translation_path": "translations/reports.ko.json",
+      "source_path": "base/lander/energy/utwigbomb.txt",
+      "category": "surface_reports",
+      "total_records": 1,
+      "current_agent_review_records": 1,
+      "pending_ids": [],
+      "reports": [
+        "reports-language-review.json"
+      ]
     }
   ],
   "limitations": [
     "Counts attest current source/translation bytes and recorded review IDs, not semantic correctness or human approval.",
-    "Dialogue, voice overrides and cutscenes are counted separately; other UI, reports, credits and image text are outside this report.",
+    "Dialogue, voice overrides, cutscenes and surface reports are counted separately; other UI, credits and image text are outside this report.",
     "All runtime and human review remains a separate requirement."
   ]
 }

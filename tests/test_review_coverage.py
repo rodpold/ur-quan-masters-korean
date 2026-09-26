@@ -44,8 +44,13 @@ class CoverageIntegrationTests(unittest.TestCase):
             for name in ['intro', 'ending']:
                 (root/f'translations/{name}.ko.json').write_text(json.dumps(
                     {'source_path': name, 'records': {}}), encoding='utf-8')
+            report_ko = json.dumps({'first-report': {'SAME 1': 'one'}, 'second-report': {'SAME 1': 'two'}}).encode()
+            (root/'translations/reports.ko.json').write_bytes(report_ko)
+            report_source = b'#(SAME 1)\nText\n'
             with ZipFile(game/'content/packages/uqm-0.8.0-content.uqm', 'w') as archive:
                 archive.writestr('base/comm/probe/probe.txt', source)
+                archive.writestr('first-report', report_source)
+                archive.writestr('second-report', report_source)
                 archive.writestr('intro', b'')
                 archive.writestr('ending', b'')
             with ZipFile(game/'content/addons/uqm-0.8.0-voice.uqm', 'w'):
@@ -60,10 +65,18 @@ class CoverageIntegrationTests(unittest.TestCase):
                 (root/f'docs/{name}-language-review.json').write_text(json.dumps(report))
             stale = dict(report, reviewed_record_ids=['B'], translation_sha256='stale')
             (root/'docs/stale-language-review.json').write_text(json.dumps(stale))
+            surface = dict(report, translation_path='translations/reports.ko.json', source_path='first-report',
+                           source_sha256=hashlib.sha256(report_source).hexdigest(),
+                           translation_sha256=hashlib.sha256(report_ko).hexdigest(), reviewed_record_ids=['SAME 1'])
+            (root/'docs/surface-language-review.json').write_text(json.dumps(surface))
             result = audit(root, game)
             self.assertEqual(result['totals']['base_dialogue'], {
                 'total_records': 2, 'current_agent_review_records': 1, 'pending_records': 1})
             self.assertEqual(result['resources'][0]['pending_ids'], ['B'])
             self.assertEqual(len(result['issues']), 1)
             self.assertIn('translation_changed_since_review', result['issues'][0]['errors'])
+            self.assertEqual(result['totals']['surface_reports'], dict(total_records=2, current_agent_review_records=1, pending_records=1))
+            surface_rows = [row for row in result['resources'] if row['category']=='surface_reports']
+            self.assertEqual(surface_rows[1]['source_path'], 'second-report')
+            self.assertEqual(surface_rows[1]['pending_ids'], ['SAME 1'])
             self.assertFalse(result['complete'])

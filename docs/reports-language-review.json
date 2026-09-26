@@ -1,0 +1,216 @@
+{
+  "status": "agent_semantic_review_pass_human_and_runtime_pending",
+  "review_date": "2026-09-26",
+  "resources": [
+    {
+      "source_path": "base/lander/bio/vuxbeast.txt",
+      "source_sha256": "ba88a24548c84ce6ccec12659f72340ae8462c1d42a43cea9a6818c34836d9d0",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "VUXBEAST 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/androsynth_ruins.txt",
+      "source_sha256": "f1711f5de0886d8be2c2d1b5104e9adf90f9b3f476fced55c5440ae138faf85f",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "ANDRUINS 1",
+        "ANDRUINS 2",
+        "ANDRUINS 3"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/eggcase.txt",
+      "source_sha256": "6e9c5c9bcfc88f50f598b7443707dc876082f8526fa97e74bca06a2e09279e9a",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "EGGCASE 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/fwiffo.txt",
+      "source_sha256": "48a8bc36dea787101d4be1895aa059a71bdfb1640c7a175f170cb2245c26f97e",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "SPAPLUTO 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/maidens.txt",
+      "source_sha256": "a0a3733c1431538b7b780cf4db0736549d8fa4739ea4ec2cce1e727f7fcce90d",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "MAIDENS 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/moonbase.txt",
+      "source_sha256": "ae6de585c1d0243b42af51f2bc5841a1e5852239dc70ea91f48597c2b91dc8cb",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "MOONBASE 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/ruins.txt",
+      "source_sha256": "8203da6a9102751b848af4aef7e670ee0843c73687e172f3e2c07ecb31e546eb",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "RUINS 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/aquahelix.txt",
+      "source_sha256": "45e8f9c4eae4b53bf1b39234fad48c5422d77745903d8c5c901b3f7bc46f5ee9",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "AQUHELIX 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/burvixcaster.txt",
+      "source_sha256": "d665cec3b88d294f73ae0ef250a5d737a244b46b1dd24812a042729c8ac47386",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "DRUTRANS 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/burvixeseruins.txt",
+      "source_sha256": "634f1ede88460bdb5cd1a5747ec000471d842e54db75ce588f244185da217241",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "BURRUINS 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/chmmrbase.txt",
+      "source_sha256": "d8078505d37331762e318ee3b44ddf9de03a08494972c1095b3127c694f85db1",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "CHMMRBAS 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/sphere.txt",
+      "source_sha256": "6adc2c8ee6d813195aa0fba5021419acc103479f131629fec486e8f7456ea52e",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "SPHERE 1",
+        "SPHERE 2"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/spindle.txt",
+      "source_sha256": "598526e1d3bae15ea7c6ea741ad02fce7a3f7c0c41bdf69493ea553b5416c34e",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "SPINDLE 1",
+        "SPINDLE 2"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/sundevice.txt",
+      "source_sha256": "274de23db27a865dc0c8800d7d2937bcb05fbe05d1d5a6cf5c0d1eb4413585e2",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "SUNDEVIC 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/syreenvault.txt",
+      "source_sha256": "30b70236cfa46926f39f17f865ca5c420bfeb60fbe58c9ffe7f3a7b9c41bb8ff",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "SYRVAULT 1",
+        "SYRVAULT 2",
+        "SYRVAULT 3"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/taalodevice.txt",
+      "source_sha256": "cbe48d783137b4a3a9e24e41b6167681e125b0c88dc2451317d976c34f18cf9c",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "TAADEVIC 1"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/ultron.txt",
+      "source_sha256": "f424c3af50af91ba359557ba92e1365318e5c6dde12d5f40d08f54b924a1ddcd",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "ULTRON 1",
+        "ULTRON 2"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/umgahcaster.txt",
+      "source_sha256": "52dbd7ec9282e897d5e4def30967ee3cbcd608efaa2927a8e44f08f1e3e0e472",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "UMGTRANS 1",
+        "UMGTRANS 2"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/urquanwreck.txt",
+      "source_sha256": "189882140d5019c1390fd0ec3f218ca9a2fc1f62c108abffe32a4ce9ea3f7135",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "URQWRECK 1",
+        "URQWRECK 2"
+      ]
+    },
+    {
+      "source_path": "base/lander/energy/utwigbomb.txt",
+      "source_sha256": "a20b4c0bb3c62e1c86b33fc971462db19e5ea9ec097df11cc5d236411873cb17",
+      "translation_path": "translations/reports.ko.json",
+      "translation_sha256": "5b256587de2ba8f03aff69665a6f8dc59facff08e13568dbe39c18fbb659687e",
+      "reviewed_record_ids": [
+        "UTWBOMB 1"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "source_path": "base/lander/energy/sundevice.txt",
+      "record_id": "SUNDEVIC 1",
+      "before": "마이콘이 이곳에 숨긴 물건을 찾았습니다.",
+      "after": "마이콘이 이곳에 숨긴 물건을 찾고 있었습니다.",
+      "reason": "were looking for의 진행 중 탐색과 뒤따르는 발견 추정을 구분한다."
+    }
+  ],
+  "preserved_facts": [
+    "안드로신스 보고의 5년/7년/10년 초과/10시간, 킬고어→부코프스키→호손의 화자 교대와 지식만으로 들킨다는 공포",
+    "명왕성 사망자 다섯 명과 리버만 세쌍둥이, 냉동 쇼픽스티 열두 명, 경보와 철수",
+    "스래대시 2000년/19개 문화/최소 세 차례, 버빅시즈 8–12년, 타알로 20,000년 초과와 일부 인원의 증상",
+    "유물 회수 전후의 별도 레코드, 시린 함선 회수 뒤 베텔게우스 합류, 워프 포드 우현 추정",
+    "수폭스 유서의 해요체, 스파시 의회 편지의 격식과 휴남 오칭, 동맹 여부가 다른 송신기 보고 두 판본",
+    "폭탄 경고와 에너지 출력, 달 기지의 위장 작동과 해독되지 않은 방송, 보고자의 추정과 불확실성"
+  ],
+  "limitations": [
+    "원문 및 한국어 원고의 에이전트 대조 검수이며 사용자 승인이나 실제 게임 검증이 아니다.",
+    "탐사 보고의 페이지 전환, 타이핑/음향 및 색상은 실제 실행 검토 대기."
+  ]
+}
