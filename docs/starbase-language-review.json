@@ -1,0 +1,780 @@
+{
+  "status": "agent_semantic_review_pass_human_and_runtime_pending",
+  "translation_path": "translations/dialogue/starbase.ko.json",
+  "source_path": "base/comm/starbase/starbase.txt",
+  "source_sha256": "5244948b4f64c45f8b022a26be190e5c39dbd592390493fcf4d727985ee7148e",
+  "translation_sha256": "b873e109b82175f86f8e5a251c1f1d802a571b1fb5bd5df6fdc819800d28d324",
+  "reviewed_record_ids": [
+    "BEFORE_WE_GO_ON_1",
+    "BEFORE_WE_GO_ON_2",
+    "BEFORE_WE_GO_ON_3",
+    "BEFORE_WE_GO_ON_4",
+    "BEFORE_WE_GO_ON_5",
+    "BEFORE_WE_GO_ON_6",
+    "BEFORE_WE_GO_ON_7",
+    "NORMAL_HELLO_A0",
+    "NORMAL_HELLO_A1",
+    "NORMAL_HELLO_B0",
+    "NORMAL_HELLO_B1",
+    "NORMAL_HELLO_C0",
+    "NORMAL_HELLO_C1",
+    "NORMAL_HELLO_D0",
+    "NORMAL_HELLO_D1",
+    "NORMAL_HELLO_E0",
+    "NORMAL_HELLO_E1",
+    "NORMAL_HELLO_F0",
+    "NORMAL_HELLO_F1",
+    "NORMAL_HELLO_G0",
+    "NORMAL_HELLO_G1",
+    "NORMAL_HELLO_H0",
+    "NORMAL_HELLO_H1",
+    "RETURN_HELLO",
+    "NORMAL_HELLO_TAIL",
+    "NORMAL_GOODBYE_A0",
+    "NORMAL_GOODBYE_A1",
+    "NORMAL_GOODBYE_B0",
+    "NORMAL_GOODBYE_B1",
+    "NORMAL_GOODBYE_C0",
+    "NORMAL_GOODBYE_C1",
+    "NORMAL_GOODBYE_D0",
+    "NORMAL_GOODBYE_D1",
+    "NORMAL_GOODBYE_E0",
+    "NORMAL_GOODBYE_E1",
+    "NORMAL_GOODBYE_F0",
+    "NORMAL_GOODBYE_F1",
+    "NORMAL_GOODBYE_G0",
+    "NORMAL_GOODBYE_G1",
+    "NORMAL_GOODBYE_H0",
+    "NORMAL_GOODBYE_H1",
+    "LIGHT_LOAD_A0",
+    "LIGHT_LOAD_A1",
+    "LIGHT_LOAD_B0",
+    "LIGHT_LOAD_B1",
+    "LIGHT_LOAD_C0",
+    "LIGHT_LOAD_C1",
+    "LIGHT_LOAD_D0",
+    "LIGHT_LOAD_D1",
+    "LIGHT_LOAD_E0",
+    "LIGHT_LOAD_E1",
+    "LIGHT_LOAD_F0",
+    "LIGHT_LOAD_F1",
+    "LIGHT_LOAD_G0",
+    "LIGHT_LOAD_G1",
+    "MEDIUM_LOAD_A0",
+    "MEDIUM_LOAD_A1",
+    "MEDIUM_LOAD_B0",
+    "MEDIUM_LOAD_B1",
+    "MEDIUM_LOAD_C0",
+    "MEDIUM_LOAD_C1",
+    "MEDIUM_LOAD_D0",
+    "MEDIUM_LOAD_D1",
+    "MEDIUM_LOAD_E0",
+    "MEDIUM_LOAD_E1",
+    "MEDIUM_LOAD_F0",
+    "MEDIUM_LOAD_F1",
+    "MEDIUM_LOAD_G0",
+    "MEDIUM_LOAD_G1",
+    "HEAVY_LOAD_A0",
+    "HEAVY_LOAD_A1",
+    "HEAVY_LOAD_B0",
+    "HEAVY_LOAD_B1",
+    "HEAVY_LOAD_C0",
+    "HEAVY_LOAD_C1",
+    "HEAVY_LOAD_D0",
+    "HEAVY_LOAD_D1",
+    "HEAVY_LOAD_E0",
+    "HEAVY_LOAD_E1",
+    "HEAVY_LOAD_F0",
+    "HEAVY_LOAD_F1",
+    "HEAVY_LOAD_G0",
+    "HEAVY_LOAD_G1",
+    "STARBASE_IS_READY_A",
+    "STARBASE_IS_READY_B",
+    "STARBASE_IS_READY_C",
+    "WHAT_KIND_OF_INFO",
+    "WHICH_FUNCTION",
+    "WHICH_HISTORY",
+    "WHICH_MISSION",
+    "OK_NO_NEED_INFO",
+    "ABOUT_FUEL",
+    "ABOUT_MODULES",
+    "ABOUT_CREW0",
+    "ABOUT_CREW1",
+    "ABOUT_SHIPS",
+    "ABOUT_RU",
+    "ABOUT_MINERALS",
+    "ABOUT_LIFE",
+    "OK_ENOUGH_STARBASE",
+    "OK_ENOUGH_MISSION",
+    "GET_MINERALS",
+    "ABOUT_ALIENS",
+    "MUST_DEFEAT",
+    "DEFEAT_LIKE_SO",
+    "FIND_URQUAN",
+    "FIGHT_URQUAN",
+    "ALLY_LIKE_SO",
+    "STRONG_LIKE_SO",
+    "OK_ENOUGH_DEFEAT",
+    "WHICH_ALIEN",
+    "WHICH_WAR",
+    "WHICH_ANCIENT",
+    "OK_ENOUGH_HISTORY",
+    "WHICH_ALLIANCE",
+    "WHICH_HIERARCHY",
+    "ABOUT_OTHER",
+    "OK_ENOUGH_ALIENS",
+    "ABOUT_SHOFIXTI",
+    "ABOUT_YEHAT",
+    "ABOUT_ARILOU",
+    "ABOUT_CHENJESU",
+    "ABOUT_MMRNMHRM",
+    "ABOUT_SYREEN",
+    "OK_ENOUGH_ALLIANCE",
+    "ABOUT_URQUAN",
+    "ABOUT_MYCON",
+    "ABOUT_SPATHI",
+    "ABOUT_UMGAH",
+    "ABOUT_ANDROSYNTH",
+    "ABOUT_VUX",
+    "ABOUT_ILWRATH",
+    "OK_ENOUGH_HIERARCHY",
+    "ABOUT_PRECURSORS",
+    "ABOUT_OLD_RACES",
+    "ABOUT_ALIENS_ON_EARTH",
+    "OK_ENOUGH_ANCIENT",
+    "URQUAN_STARTED_WAR",
+    "WAR_WAS_LIKE_SO",
+    "LOST_WAR_BECAUSE",
+    "AFTER_WAR",
+    "OK_ENOUGH_WAR",
+    "STARBASE_BULLETIN_TAIL",
+    "BETWEEN_BULLETINS",
+    "STARBASE_BULLETIN_1",
+    "STARBASE_BULLETIN_2",
+    "STARBASE_BULLETIN_3",
+    "STARBASE_BULLETIN_4",
+    "STARBASE_BULLETIN_5",
+    "STARBASE_BULLETIN_6",
+    "STARBASE_BULLETIN_7",
+    "STARBASE_BULLETIN_8",
+    "STARBASE_BULLETIN_9",
+    "STARBASE_BULLETIN_10",
+    "STARBASE_BULLETIN_11",
+    "STARBASE_BULLETIN_12",
+    "STARBASE_BULLETIN_13",
+    "STARBASE_BULLETIN_14",
+    "STARBASE_BULLETIN_15",
+    "STARBASE_BULLETIN_16",
+    "STARBASE_BULLETIN_18",
+    "STARBASE_BULLETIN_19",
+    "STARBASE_BULLETIN_22",
+    "STARBASE_BULLETIN_27",
+    "STARBASE_BULLETIN_28",
+    "STARBASE_BULLETIN_29",
+    "STARBASE_BULLETIN_30",
+    "DEVICE_HEAD",
+    "BETWEEN_DEVICES",
+    "DEVICE_TAIL",
+    "ABOUT_PORTAL",
+    "ABOUT_TALKPET",
+    "ABOUT_BOMB",
+    "ABOUT_SUN",
+    "ABOUT_MAIDENS"
+  ],
+  "changes": [
+    {
+      "record_id": "LIGHT_LOAD_E0",
+      "before": "양이 꽤 적군요, 함장 ",
+      "after": "양이 꽤 적군요, ",
+      "reason": "동적 이름 앞의 직함을 뒤쪽 조각으로 옮겨 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_E1",
+      "before": "님. 이렇게 적은 광물을 나르는 건 수지가 맞지 않습니다. 더 많이 가져오십시오.",
+      "after": " 함장님. 이렇게 적은 광물을 나르는 건 수지가 맞지 않습니다. 더 많이 가져오십시오.",
+      "reason": "이름 삽입 여부와 무관하게 함장님 호칭을 완성한다."
+    },
+    {
+      "record_id": "DEFEAT_LIKE_SO",
+      "before": "적을 물리치려면 기함과 함대 모두 막강한 전력이 필요하고\n강력한 새 동맹의 도움도 필요합니다.\n전투는 피할 수 없으며, 때로는 목표를 이루기 위해 꼭 싸워야겠지만\n함장님의 기지가 무기만큼이나 중요하리라 확신합니다.\n이 일대 우주를 탐험하며 가는 곳마다 자원과 정보를 모으셔야 합니다.",
+      "after": "적을 물리치려면 기함과 함대 모두 막강한 전력이 필요하고\n강력한 새 동맹의 도움도 필요합니다.\n전투는 피할 수 없으며, 때로는 목표를 이루기 위해 꼭 싸워야겠지만\n함장님의 지략이 무기만큼이나 중요하리라 확신합니다.\n이 일대 우주를 탐험하며 가는 곳마다 자원과 정보를 모으셔야 합니다.",
+      "reason": "wits가 우주기지와 혼동되지 않도록 지략으로 명확히 한다."
+    },
+    {
+      "record_id": "STARBASE_BULLETIN_18",
+      "before": "이상한 일이라 굳이 말씀드리지 않으려 했습니다만\n얼마 전 기지 인원 여섯 명이 아무 이유도 없이 동시에 의식을 잃었습니다.\n몇 시간 뒤 깨어나서는\n무언가 아주 끔찍한 일이 일어났다는 느낌에 압도당했다고 했습니다.\n의료진은 이들에게서 이상을 찾지 못했지만, 공통점 하나를 발견했습니다.\n여섯 명 모두 초능력 적성 수치가 유난히 높았습니다.",
+      "after": "이상한 일이라 굳이 말씀드리지 않으려 했습니다만\n얼마 전 기지 인원 여섯 명이 뚜렷한 이유도 없이 동시에 의식을 잃었습니다.\n몇 시간 뒤 깨어나서는\n무언가 아주 끔찍한 일이 일어났다는 느낌에 압도당했다고 했습니다.\n의료진은 이들에게서 이상을 찾지 못했지만, 공통점 하나를 발견했습니다.\n여섯 명 모두 초능력 적성 수치가 유난히 높았습니다.",
+      "reason": "for no apparent reason은 이유 자체가 없다는 단정이 아니다."
+    },
+    {
+      "record_id": "STARBASE_BULLETIN_29",
+      "before": "함장님, 또 다른 문제가 있습니다.\n우리를 위해 정말 놀라운 일을 해내셨고, 저도 이제 이 싸움에서 이길 수 있다고 믿습니다.\n하지만 그 성과에는 대가가 따랐습니다.\n제 부하 천 명 이상이 함장님의 함선을 타고 떠나\n돌아오지 못했습니다.\n천 명입니다, 함장님!\n승무원이 빠르게 귀한 인력이 되고 있으니\nRU 비용도 그 사정을 반영하게 될 겁니다.",
+      "after": "함장님, 또 다른 문제가 있습니다.\n우리를 위해 정말 놀라운 일을 해내셨고, 저도 이제 이 싸움에서 이길 수 있다고 믿습니다.\n하지만 그 성과에는 대가가 따랐습니다.\n제 부하 천 명이 넘는 인원이 함장님의 함선을 타고 떠나\n돌아오지 못했습니다.\n천 명입니다, 함장님!\n승무원이 빠르게 귀한 인력이 되고 있으니\nRU 비용도 그 사정을 반영하게 될 겁니다.",
+      "reason": "over a thousand의 초과 범위를 보존한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_A0",
+      "before": "돌아오신 것을 환영합니다, 함장",
+      "after": "돌아오신 것을 환영합니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_A1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_B0",
+      "before": "안녕하십니까, 함장",
+      "after": "안녕하십니까,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_B1",
+      "before": "님. 무엇이든 도와드리겠습니다.",
+      "after": " 함장님. 무엇이든 도와드리겠습니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_C0",
+      "before": "다시 뵈니 반갑습니다, 함장",
+      "after": "다시 뵈니 반갑습니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_C1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_D0",
+      "before": "아, 함장",
+      "after": "아,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_D1",
+      "before": "님. 돌아오셔서 기쁩니다.",
+      "after": " 함장님. 돌아오셔서 기쁩니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_E0",
+      "before": "안녕하십니까, 함장",
+      "after": "안녕하십니까,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_E1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_F0",
+      "before": "분부만 내리십시오, 함장",
+      "after": "분부만 내리십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_F1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_G0",
+      "before": "함장",
+      "after": " ",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_G1",
+      "before": "님. 무사히 돌아오셔서 다행입니다.",
+      "after": " 함장님. 무사히 돌아오셔서 다행입니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_H0",
+      "before": "전황이 순조롭기를 바랍니다, 함장",
+      "after": "전황이 순조롭기를 바랍니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_HELLO_H1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_A0",
+      "before": "안녕히 가십시오, 함장",
+      "after": "안녕히 가십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_A1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_B0",
+      "before": "광물을 많이 가져와 주십시오, 함장",
+      "after": "광물을 많이 가져와 주십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_B1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_C0",
+      "before": "곧 돌아오십시오, 함장",
+      "after": "곧 돌아오십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_C1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_D0",
+      "before": "그럼 안녕히, 함장",
+      "after": "그럼 안녕히,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_D1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_E0",
+      "before": "처참하게 죽는 일은 피하십시오, 함장",
+      "after": "처참하게 죽는 일은 피하십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_E1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_F0",
+      "before": "돌아오시기를 기다리겠습니다, 함장",
+      "after": "돌아오시기를 기다리겠습니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_F1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_G0",
+      "before": "제 몫까지 우르콴을 날려 버리십시오, 함장",
+      "after": "제 몫까지 우르콴을 날려 버리십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_G1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_H0",
+      "before": "밖에서는 조심하십시오, 함장",
+      "after": "밖에서는 조심하십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "NORMAL_GOODBYE_H1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_A0",
+      "before": "광물을 많이 가져오실수록, 함장",
+      "after": "광물을 많이 가져오실수록,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_A1",
+      "before": "님, 우르콴과 맞설 날도 빨라집니다.",
+      "after": " 함장님, 우르콴과 맞설 날도 빨라집니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_B0",
+      "before": "이번에는 적게 가져오셨군요, 함장",
+      "after": "이번에는 적게 가져오셨군요,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_B1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_C0",
+      "before": "이번에도 양이 적군요, 함장",
+      "after": "이번에도 양이 적군요,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_C1",
+      "before": "님. 뭐, 없는 것보다는 낫겠지요.",
+      "after": " 함장님. 뭐, 없는 것보다는 낫겠지요.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_D0",
+      "before": "나무라려는 것은 아닙니다, 함장",
+      "after": "나무라려는 것은 아닙니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_D1",
+      "before": "님. 하지만, 음, 한 번에 더 많이 가져오시는 편이 효율적이지 않겠습니까?",
+      "after": " 함장님. 하지만, 음, 한 번에 더 많이 가져오시는 편이 효율적이지 않겠습니까?",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_F0",
+      "before": "오늘은 별로 없군요, 함장",
+      "after": "오늘은 별로 없군요,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_F1",
+      "before": "님. 다음에는 운이 더 따르기를 바랍니다.",
+      "after": " 함장님. 다음에는 운이 더 따르기를 바랍니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_G0",
+      "before": "오늘은 별로 없군요, 함장",
+      "after": "오늘은 별로 없군요,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "LIGHT_LOAD_G1",
+      "before": "님. 다음에는 운이 더 따르기를 바랍니다.",
+      "after": " 함장님. 다음에는 운이 더 따르기를 바랍니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_A0",
+      "before": "제법 하셨습니다, 함장",
+      "after": "제법 하셨습니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_A1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_B0",
+      "before": "수고하셨습니다, 함장",
+      "after": "수고하셨습니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_B1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_C0",
+      "before": "감사합니다, 함장",
+      "after": "감사합니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_C1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_D0",
+      "before": "계속 가져와 주십시오, 함장",
+      "after": "계속 가져와 주십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_D1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_E0",
+      "before": "꽤 괜찮은 양입니다, 함장",
+      "after": "꽤 괜찮은 양입니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_E1",
+      "before": "님. 다음에는 더 가져오실 수 있겠습니까?",
+      "after": " 함장님. 다음에는 더 가져오실 수 있겠습니까?",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_F0",
+      "before": "여기서 멈추지 마십시오, 함장",
+      "after": "여기서 멈추지 마십시오,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_F1",
+      "before": "님. 가져오시는 것은 조금도 버릴 게 없습니다.",
+      "after": " 함장님. 가져오시는 것은 조금도 버릴 게 없습니다.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_G0",
+      "before": "꽤 쏠쏠한 수확입니다, 함장",
+      "after": "꽤 쏠쏠한 수확입니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "MEDIUM_LOAD_G1",
+      "before": "님. 더 많이 실을 수 있도록 화물칸을 추가해 보시면 어떻겠습니까?",
+      "after": " 함장님. 더 많이 실을 수 있도록 화물칸을 추가해 보시면 어떻겠습니까?",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_A0",
+      "before": "훌륭하십니다, 함장",
+      "after": "훌륭하십니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_A1",
+      "before": "님!",
+      "after": " 함장님!",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_B0",
+      "before": "정말 큰 도움이 되겠습니다, 함장",
+      "after": "정말 큰 도움이 되겠습니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_B1",
+      "before": "님.",
+      "after": " 함장님.",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_C0",
+      "before": "정말 잘하셨습니다, 함장",
+      "after": "정말 잘하셨습니다,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_C1",
+      "before": "님!",
+      "after": " 함장님!",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_F0",
+      "before": "함장",
+      "after": " ",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_F1",
+      "before": "님, 찬사를 받으실 만합니다. 계속 힘써 주십시오!",
+      "after": " 함장님, 찬사를 받으실 만합니다. 계속 힘써 주십시오!",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_G0",
+      "before": "불길에 땔감을 더하시는 겁니까, 함장",
+      "after": "불길에 땔감을 더하시는 겁니까,",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    },
+    {
+      "record_id": "HEAVY_LOAD_G1",
+      "before": "님? 이번 물량이면 활활 타오르겠군요!",
+      "after": " 함장님? 이번 물량이면 활활 타오르겠군요!",
+      "reason": "동적 이름과 호칭을 이름+함장님 순서로 연결한다."
+    }
+  ],
+  "dynamic_name_pairs": [
+    [
+      "LIGHT_LOAD_E0",
+      "LIGHT_LOAD_E1"
+    ],
+    [
+      "NORMAL_HELLO_A0",
+      "NORMAL_HELLO_A1"
+    ],
+    [
+      "NORMAL_HELLO_B0",
+      "NORMAL_HELLO_B1"
+    ],
+    [
+      "NORMAL_HELLO_C0",
+      "NORMAL_HELLO_C1"
+    ],
+    [
+      "NORMAL_HELLO_D0",
+      "NORMAL_HELLO_D1"
+    ],
+    [
+      "NORMAL_HELLO_E0",
+      "NORMAL_HELLO_E1"
+    ],
+    [
+      "NORMAL_HELLO_F0",
+      "NORMAL_HELLO_F1"
+    ],
+    [
+      "NORMAL_HELLO_G0",
+      "NORMAL_HELLO_G1"
+    ],
+    [
+      "NORMAL_HELLO_H0",
+      "NORMAL_HELLO_H1"
+    ],
+    [
+      "NORMAL_GOODBYE_A0",
+      "NORMAL_GOODBYE_A1"
+    ],
+    [
+      "NORMAL_GOODBYE_B0",
+      "NORMAL_GOODBYE_B1"
+    ],
+    [
+      "NORMAL_GOODBYE_C0",
+      "NORMAL_GOODBYE_C1"
+    ],
+    [
+      "NORMAL_GOODBYE_D0",
+      "NORMAL_GOODBYE_D1"
+    ],
+    [
+      "NORMAL_GOODBYE_E0",
+      "NORMAL_GOODBYE_E1"
+    ],
+    [
+      "NORMAL_GOODBYE_F0",
+      "NORMAL_GOODBYE_F1"
+    ],
+    [
+      "NORMAL_GOODBYE_G0",
+      "NORMAL_GOODBYE_G1"
+    ],
+    [
+      "NORMAL_GOODBYE_H0",
+      "NORMAL_GOODBYE_H1"
+    ],
+    [
+      "LIGHT_LOAD_A0",
+      "LIGHT_LOAD_A1"
+    ],
+    [
+      "LIGHT_LOAD_B0",
+      "LIGHT_LOAD_B1"
+    ],
+    [
+      "LIGHT_LOAD_C0",
+      "LIGHT_LOAD_C1"
+    ],
+    [
+      "LIGHT_LOAD_D0",
+      "LIGHT_LOAD_D1"
+    ],
+    [
+      "LIGHT_LOAD_F0",
+      "LIGHT_LOAD_F1"
+    ],
+    [
+      "LIGHT_LOAD_G0",
+      "LIGHT_LOAD_G1"
+    ],
+    [
+      "MEDIUM_LOAD_A0",
+      "MEDIUM_LOAD_A1"
+    ],
+    [
+      "MEDIUM_LOAD_B0",
+      "MEDIUM_LOAD_B1"
+    ],
+    [
+      "MEDIUM_LOAD_C0",
+      "MEDIUM_LOAD_C1"
+    ],
+    [
+      "MEDIUM_LOAD_D0",
+      "MEDIUM_LOAD_D1"
+    ],
+    [
+      "MEDIUM_LOAD_E0",
+      "MEDIUM_LOAD_E1"
+    ],
+    [
+      "MEDIUM_LOAD_F0",
+      "MEDIUM_LOAD_F1"
+    ],
+    [
+      "MEDIUM_LOAD_G0",
+      "MEDIUM_LOAD_G1"
+    ],
+    [
+      "HEAVY_LOAD_A0",
+      "HEAVY_LOAD_A1"
+    ],
+    [
+      "HEAVY_LOAD_B0",
+      "HEAVY_LOAD_B1"
+    ],
+    [
+      "HEAVY_LOAD_C0",
+      "HEAVY_LOAD_C1"
+    ],
+    [
+      "HEAVY_LOAD_F0",
+      "HEAVY_LOAD_F1"
+    ],
+    [
+      "HEAVY_LOAD_G0",
+      "HEAVY_LOAD_G1"
+    ]
+  ],
+  "preserved_facts": [
+    "First 175 base records, BEFORE_WE_GO_ON_1 through ABOUT_MAIDENS, compared against installed base source. Remaining 125 records and voice overrides are pending.",
+    "Greeting, farewell and mineral-delivery prefixes and suffixes retain dynamic player-name insertion. Cached starbas.c uses pStr + optional SPACE/GLOBAL_PLAYER_NAME when !usingSpeech + tail; name-present and omitted concatenations checked, not runtime.",
+    "Ready-base and crew descriptions preserve dynamic ship names, five-unit warp cost, 50-person pods, 50-unit fuel tanks, firing arcs, limited staffing and possible RU increase.",
+    "Resource acquisition, mining advice and original English color mnemonic retained; historical chronology, uncertainty and Hayes limited knowledge not replaced with later revelations.",
+    "Alliance blueprints and captains, three Arilou ships, Melnorme rendezvous, Spathi disappearance, 100:50 disturbance and probe warning retained.",
+    "Chmmr modification takes two weeks; escape unit removed, ten rear slots occupied and six remaining, resource provision unchanged.",
+    "Crew-sale rumors, evidence, anger, increased recruitment cost and promised prosecution remain separate variants.",
+    "Scientist reports use report register. Talking Pet mind-control interruption remains unexplained; bomb 12 AU warning, Sun Device 1/100 of 1% and sixteen Shofixti females retained."
+  ],
+  "limitations": [
+    "Partial agent semantic review; unlisted IDs and voice overrides are not covered.",
+    "Human approval, dynamic-name rendering, layout, branch behavior and audio synchronization require runtime review."
+  ]
+}
