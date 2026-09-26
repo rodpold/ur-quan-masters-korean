@@ -19,6 +19,7 @@
   "complete": false,
   "user_feedback": "User confirmed the reported clipping issue is resolved after installing the seven-pixel padding correction.",
   "runtime_observed_after_fix": [
-    "Agent observed one-line Hayes WHAT_KIND_OF_INFO history without clipped strokes; associated player response and response heading also fit."
+    "Agent observed one-line Hayes WHAT_KIND_OF_INFO history without clipped strokes; associated player response and response heading also fit.",
+    "Agent observed all three URQUAN_STARTED_WAR history pages after user-operated Enter transitions: 12, 12 and 8 visible lines, continuous text through expected final sentence, no visible clipping or overlap."
   ]
 }

@@ -25,10 +25,38 @@
     "status": "npc_reply_and_four_next_choices_runtime_confirmed"
   },
   "pending": [
-    "Post-padding long conversation-history page transitions",
     "Audio synchronization",
     "Other races and endings"
   ],
   "input_result": "One tool Escape key followed by a second observation did not visibly change the response screen. User asked to navigate manually.",
-  "complete": false
+  "complete": false,
+  "long_history_trial": {
+    "npc_phrase": "URQUAN_STARTED_WAR",
+    "player_response": "what_started_war",
+    "pages_observed": [
+      {
+        "page": 1,
+        "visible_lines": 12,
+        "first": "지구는 뒤늦게 합류했습니다. 첸제수가 처음 태양계에 온",
+        "last": "고립되어 살지만 적대적이지는 않은 종족이었지요.",
+        "result": "All visible rows fit after TinyFont padding correction; header, player-response caption, and selected question also fit."
+      },
+      {
+        "page": 2,
+        "visible_lines": 12,
+        "first": "침공에 충격을 받은 첸제수는 우르콴이...",
+        "last": "무렵이었습니다.",
+        "result": "Continues immediately after page 1 through the fall of the Androsynth stars. All twelve rows fit; no visible clipping or overlap."
+      },
+      {
+        "page": 3,
+        "visible_lines": 8,
+        "first": "2116년 첸제수와 맺은 협정의 잉크가 마르기도 전에...",
+        "last": "..당시에는 크게 신경 쓰지 않았습니다.",
+        "result": "Remaining text continues from page 2 and reaches the expected final sentence. All eight rows fit without clipping or overlap."
+      }
+    ],
+    "status": "all_three_pages_and_final_sentence_runtime_confirmed",
+    "scope": "One complete URQUAN_STARTED_WAR history with user-operated transitions; does not establish every dialogue history or audio synchronization."
+  }
 }
