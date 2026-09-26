@@ -163,10 +163,10 @@ PC 소개 슬라이드 자막 32개 초안을 패키지에 연결했습니다. �
 
 HUD 실기 확인에서 원본 인덱스 PNG를 RGBA로 변환하면 게임 색상표가 적용되지 않아
 배경이 회색으로 바뀌는 문제가 발견됐습니다. HUD는 원본 팔레트를 유지하도록 수정했습니다.
-추가 조사에서 ANI의 색상표 참조가 있는 이미지 8개가 팔레트를 잃은 상태로 남아 있습니다.
-이는 8개 모두에서 오류가 확인됐다는 뜻은 아니며, 색상·선택 강조·명암 변화의 검증 대상입니다.
-`docs/runtime-palette-review.json`에 경로와 ANI 프레임·색상표 번호를 기록했습니다.
-기존 정적 레이아웃 검증 통과를 전체 게임의 시각적 검증 완료로 해석해서는 안 됩니다.
+추가 조사에서 발견한 팔레트 손실 항목을 수정했습니다. 현재 애드온 ANI의 319개 원본 인덱스
+프레임 참조 검사에서 팔레트 형식/색상표 손실은 0개입니다. 전체 빌드는 손실이 생기면 실패합니다.
+`docs/runtime-palette-review.json`에 검사 범위와 한계를 기록했습니다. 이 결과는 실기 완료를 뜻하지
+않으며, 선택 강조·명암·투명색과 실제 화면 배치를 게임에서 확인해야 합니다.
 
 ```powershell
 python tools/check_runtime_palettes.py "$game/content/packages/uqm-0.8.0-content.uqm" artifacts/ko-ui.uqm --output docs/runtime-palette-review.json

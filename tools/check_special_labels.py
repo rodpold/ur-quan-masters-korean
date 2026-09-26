@@ -1,3 +1,4 @@
+from indexed_menus import finalize_menu
 from pathlib import Path
 import io,json
 from PIL import Image,ImageChops,ImageDraw,ImageFont
@@ -13,7 +14,7 @@ def verify_special_labels(package,source):
             name=str(Path(p).parent/line.split()[0]).replace('\\','/')
             if name not in targets:assert source.read(name)==package.read(name.replace('base/','ko/',1))
     for row in spec['rows']:
-        p=row['source_path'];old=source.read(p);new=package.read(p.replace('base/','ko/',1));assert new==render_regions(old,row,font)
+        p=row['source_path'];old=source.read(p);new=package.read(p.replace('base/','ko/',1));assert new==finalize_menu(p.replace('base/','ko/',1),old,render_regions(old,row,font))
         if p=='base/ui/outfitmodules-055.png':
             indexed=Image.open(io.BytesIO(new));original=Image.open(io.BytesIO(old))
             assert indexed.mode==original.mode=='P'

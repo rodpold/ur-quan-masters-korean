@@ -392,6 +392,46 @@
         36,
         7
       ]
+    },
+    {
+      "target": "ko/ui/meleemenu-000.png",
+      "source": "base/ui/meleemenu-000.png",
+      "source_sha256": "7ec85607d5390aefe2b25c36358a2a7e5c4b06f83b6e7f82aa8df8e4bf903df9"
+    },
+    {
+      "target": "ko/ui/meleemenu-028.png",
+      "source": "base/ui/meleemenu-028.png",
+      "source_sha256": "529f1af67bde73753fcddf7dbf23e950307e31dd3b4b9beb67f74b0aa124dc2d"
+    },
+    {
+      "target": "ko/ui/playmenu-058.png",
+      "source": "base/ui/playmenu-058.png",
+      "source_sha256": "9df58f208507160971d95393d880866f082312880454196a69bd0c6fd2e1f1cd"
+    },
+    {
+      "target": "ko/ui/playmenu-059.png",
+      "source": "base/ui/playmenu-059.png",
+      "source_sha256": "a96292275ed0da2e8698503b6dab73254aae06d6504f68bfa5fd6b347fcc268f"
+    },
+    {
+      "target": "ko/ui/playmenu-060.png",
+      "source": "base/ui/playmenu-060.png",
+      "source_sha256": "051f197b90c315ada2e1867f8244aea3d88d7c71218c8a5a0771829291798a5c"
+    },
+    {
+      "target": "ko/ui/playmenu-061.png",
+      "source": "base/ui/playmenu-061.png",
+      "source_sha256": "a6fae6c358587947488fdc1a98c7738d44653a75a3814fcd349eab0a88eab959"
+    },
+    {
+      "target": "ko/ui/playmenu-062.png",
+      "source": "base/ui/playmenu-062.png",
+      "source_sha256": "6e6ed8f4f54a4536ba853cf88eee334bd3f55767669e924f364901edeb212074"
+    },
+    {
+      "target": "ko/ui/playmenu-063.png",
+      "source": "base/ui/playmenu-063.png",
+      "source_sha256": "340ffd7c3aff922bb68e73a4d4c9bf1cbd78e8edb9fe2471f0bbeb9a60bf2e06"
     }
   ]
 }

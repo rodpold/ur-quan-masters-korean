@@ -128,15 +128,15 @@ def panel_assets(z):
         name = line.split()[0]
         entries['ko/ui/'+name] = z.read('base/ui/'+name)
     f = font('Galmuri7', 8)
-    def label(im, text, box, color=(255,0,255,255)):
+    def label(im, text, box, color=(186,0,186,255)):
         x,y,w,h=box
         mask=text_mask(text,f)
         if mask.width>w or mask.height>h:
             raise ValueError(f'이미지 영역보다 긴 번역: {text}')
-        ImageDraw.Draw(im).rectangle((x,y,x+w-1,y+h-1),fill=(0,0,0,255))
+        ImageDraw.Draw(im).rectangle((x,y,x+w-1,y+h-1),fill=(7,7,7,255))
         im.paste(color,(x+(w-mask.width)//2,y+(h-mask.height)//2),mask)
     for n,text in [(61,'저장'),(62,'불러오기')]:
-        im=Image.new('RGBA',(90,7),(0,0,0,255))
+        im=Image.new('RGBA',(90,7),(7,7,7,255))
         label(im,text,(0,0,90,7))
         entries[f'ko/ui/playmenu-{n:03}.png']=png(im)
     im=Image.open(io.BytesIO(entries['ko/ui/playmenu-060.png'])).convert('RGBA')

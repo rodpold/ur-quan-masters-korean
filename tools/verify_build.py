@@ -11,6 +11,10 @@ def verify(game, ui_font="compact", report_previews=None):
     assert patcher.build(game, ui_font)[0]==data,'Non-deterministic build'
     with ZipFile(io.BytesIO(data)) as z, ZipFile(Path(game)/patcher.SOURCE) as source:
         assert z.testzip() is None
+        from check_runtime_palettes import audit as audit_palettes
+        palette_check=audit_palettes(source,z)
+        (patcher.ROOT/'docs/runtime-palette-review.json').write_text(json.dumps(palette_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        assert palette_check['risk_images']==0,'Runtime palette mapping lost'
         from check_intro import verify_intro, verify_ending
         intro_check = verify_intro(z, source)
         (patcher.ROOT/'docs/intro-layout-checks.json').write_text(json.dumps(intro_check,indent=2)+'\n',encoding='utf-8')

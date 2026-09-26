@@ -1,108 +1,11 @@
 {
-  "status": "runtime_risks_identified",
+  "status": "palette_structure_preserved_runtime_pending",
   "indexed_frame_references_checked": 319,
-  "risk_images": 8,
+  "risk_images": 0,
   "limitations": [
     "An ANI colormap reference plus a truecolor conversion is a review target, not proof that every affected screen has incorrect colors.",
     "Matching PNG colors do not prove matching runtime remapping, fades or highlights.",
     "Only images referenced by addon ANI files and with matching base paths are checked."
   ],
-  "rows": [
-    {
-      "image": "ko/ui/meleemenu-000.png",
-      "source": "base/ui/meleemenu-000.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/meleemenu.ani",
-          "frame": 0,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/meleemenu-028.png",
-      "source": "base/ui/meleemenu-028.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/meleemenu.ani",
-          "frame": 28,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/playmenu-058.png",
-      "source": "base/ui/playmenu-058.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/playmenu.ani",
-          "frame": 39,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/playmenu-059.png",
-      "source": "base/ui/playmenu-059.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/playmenu.ani",
-          "frame": 40,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/playmenu-060.png",
-      "source": "base/ui/playmenu-060.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/playmenu.ani",
-          "frame": 41,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/playmenu-061.png",
-      "source": "base/ui/playmenu-061.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/playmenu.ani",
-          "frame": 42,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/playmenu-062.png",
-      "source": "base/ui/playmenu-062.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/playmenu.ani",
-          "frame": 43,
-          "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/playmenu-063.png",
-      "source": "base/ui/playmenu-063.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/playmenu.ani",
-          "frame": 44,
-          "colormap": 0
-        }
-      ]
-    }
-  ]
+  "rows": []
 }
