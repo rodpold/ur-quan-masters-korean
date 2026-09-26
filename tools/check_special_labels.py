@@ -58,7 +58,12 @@ def verify_special_labels(package,source):
     assert [r['text'] for r in hud['regions']]==[ui['CAPTAIN'],ui['FUEL'],ui['CREW']]
     assert [r['box'] for r in hud['regions']]==[[2,1,58,7],[18,29,26,7],[18,108,26,7]]
     assert source.read('base/ui/flagshipstatus.ani').decode().splitlines()[0].split()[3:]==['-1','-1']
-    hud_image=Image.open(io.BytesIO(package.read('ko/ui/flagshipstatus-000.png'))).convert('RGBA')
+    hud_original=Image.open(io.BytesIO(source.read('base/ui/flagshipstatus-000.png')))
+    hud_indexed=Image.open(io.BytesIO(package.read('ko/ui/flagshipstatus-000.png')))
+    assert hud_indexed.mode==hud_original.mode=='P', 'HUD runtime colormap needs indexed PNG'
+    assert hud_indexed.getpalette()==hud_original.getpalette(), 'HUD palette index meanings changed'
+    assert hud_indexed.info.get('transparency')==hud_original.info.get('transparency')
+    hud_image=hud_indexed.convert('RGBA')
     for region in hud['regions']:
         start=31-((9*len(region['text'])-1)//2)
         for i,c in enumerate(region['text']):

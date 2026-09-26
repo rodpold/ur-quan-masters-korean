@@ -34,5 +34,14 @@
   ],
   "limitations": [
     "Runtime palette, PC/3DO switching and dynamic equipment redraw remain unverified."
+  ],
+  "runtime_findings": [
+    {
+      "date": "2026-09-26",
+      "observation": "Solar-system HUD caption bounds fit, but grid/background changed to gray after RGBA conversion.",
+      "cause": "Indexed PNG palette was lost; ANI colormap 58 cannot remap RGBA pixels.",
+      "fix": "Preserve source P mode, palette and transparency index; modify only caption indexes.",
+      "verification": "Full build validation passed; corrected installed runtime pending."
+    }
   ]
 }

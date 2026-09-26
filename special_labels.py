@@ -4,20 +4,28 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 from melee_regions import ROOT,render_regions as render_base_regions
 def render_regions(raw,row,font):
-    result=render_base_regions(raw,row,font)
-    if row['source_path']!='base/ui/flagshipstatus-000.png':return result
+    if row['source_path']!='base/ui/flagshipstatus-000.png':
+        return render_base_regions(raw,row,font)
     # Match TinyFont's 8px glyph + 1px advance and TextRect's final -1 width.
     # DrawPC_SIS redraws these same pixels; its 5px clears must not leave ghosts.
-    im=Image.open(io.BytesIO(result)).convert('RGBA')
+    # ANI colormap 58 remaps palette indexes at runtime. RGBA freezes the
+    # embedded preview palette and turns the original black grid background gray.
+    im=Image.open(io.BytesIO(raw));im.load()
+    if im.mode!='P':raise ValueError('HUD requires the original indexed palette')
+    palette=im.getpalette()
+    def index(color):
+        matches=[i for i in range(len(palette)//3) if palette[3*i:3*i+3]==color[:3] and i!=im.info.get('transparency')]
+        if len(matches)!=1:raise ValueError('HUD palette color is missing or ambiguous')
+        return matches[0]
     for region in row['regions']:
-        x,y,w,h=region['box'];im.paste(tuple(region['background']),(x,y,x+w,y+h))
+        x,y,w,h=region['box'];im.paste(index(region['background']),(x,y,x+w,y+h))
         start=31-((9*len(region['text'])-1)//2)
         for i,char in enumerate(region['text']):
             b=font.getbbox(char);mask=Image.new('L',(b[2]-b[0],b[3]-b[1]))
             ImageDraw.Draw(mask).text((-b[0],-b[1]),char,font=font,fill=255)
             mask=mask.point(lambda p:255 if p>=128 else 0)
             assert mask.size==(8,7) and x<=start+i*9 and start+i*9+8<=x+w
-            im.paste(tuple(region['foreground']),(start+i*9,y),mask)
+            im.paste(index(region['foreground']),(start+i*9,y),mask)
     out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
 
 
