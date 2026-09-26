@@ -51,5 +51,21 @@
       2
     ],
     "result": "All four initial responses visible. Selected first choice is white; others cyan. Final two-line choice stays above bottom border; no visible clipping, overlap or missing glyphs. No choice was activated by the agent."
+  },
+  "friendly_branch": {
+    "response_id": "hi_there",
+    "npc_phrase": "ARE_YOU_SURE",
+    "status": "expected_reply_segment_visually_confirmed",
+    "observed_segment": 2,
+    "observed_text": "그 말은 흔히 다음 말을 좀 더 공손하게 하는 것뿐이거든요.",
+    "visible_subtitle_lines": 2,
+    "player_response_lines": 2,
+    "result": "Expected reply follows the friendly player response. Both subtitle and repeated player response fit; first 정말요? segment was not directly observed.",
+    "additional_observation": {
+      "segment": 4,
+      "text": "어쨌든 저는 우주선 스타러너의 스파시 함장 프위포예요.",
+      "lines": 2,
+      "result": "Ship name 스타러너 and captain 프위포 are visible with complete strokes and no line overlap."
+    }
   }
 }
