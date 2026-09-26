@@ -495,3 +495,10 @@ commander 99개 레코드를 대조했다. 재활용하지 않는 물자를 재�
 ## 설정 의미 검수 (2026-09-26)
 
 설정 121개 레코드를 설치 원문과 대조했다. 켬/끔 순서, 화면/음향 드라이버 조건, 재시작 안내, PC/3DO 판본 구분, 본편과 함대 대전의 조작 대상을 확인했다. 추가 교정은 없으며 docs/setup-language-review.json에 현재 원고와 원문의 해시를 기록했다. 사용자 조작 구성명과 옵션의 실제 동작, 모든 화면의 배치는 별도 실행 검증 대상이다.
+
+
+## 기본 함대 이름 생성 경로 (2026-09-26)
+
+고정 버전 공개 소스의 InitPreBuilt는 기본 함대 15개를 생성한다. 처음 5개 이름은 MELEE_STRING_BASE+4..8에서 읽으며 설치된 한글 패키지에도 균형 팀 1/2, 200점, 베헤모스 제니스, 부릅뜬 눈들이 들어 있다. 나머지 10개는 C 문자열 리터럴이고 현재 uqm.exe에서도 같은 영문을 발견했다. docs/prebuilt-team-name-audit.json에 소스·실행 파일 해시와 문자열 위치를 기록했다.
+
+Ford's Fighters, Leyland's Lashers, The Gregorizers 200, 300 point Armada!, Little Dudes with Attitudes, New Alliance Ships, Old Alliance Ships, Old Hierarchy Ships, Star Control 1/2는 현재 리소스 패치가 교체하지 못하는 항목이다. 전체 번역 완료로 처리하지 않는다. 실행 파일 수정 금지 제약을 유지하며 사용자 팀/설정 파일을 덮어쓰거나 별도 팀을 추가해 기존 이름의 번역을 대신하지 않는다. 공개 포트의 코드 경로와 설치 EXE의 실제 동작이 같다는 실행 검증은 아직 없다.

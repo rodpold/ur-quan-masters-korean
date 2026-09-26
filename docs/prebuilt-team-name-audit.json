@@ -1,0 +1,102 @@
+{
+  "status": "source_and_installed_binary_audited_runtime_pending",
+  "complete": false,
+  "source_url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/supermelee/loadmele.c",
+  "source_sha256": "a63a5ad481a7e91e9b01b1e64986617ae75718afb99220b664a98760beceb294",
+  "source_function": "InitPreBuilt",
+  "source_team_count": 15,
+  "installed_executable": {
+    "name": "uqm.exe",
+    "sha256": "947ba59ce466175024125bfa57e3f4bbaf90cf3f57fc550968d53f83db7a1673"
+  },
+  "resource_names": [
+    {
+      "source": "Balanced Team 1",
+      "ko": "균형 팀 1",
+      "game_string_offset": 4,
+      "status": "translation_present_in_installed_package"
+    },
+    {
+      "source": "Balanced Team 2",
+      "ko": "균형 팀 2",
+      "game_string_offset": 5,
+      "status": "translation_present_in_installed_package"
+    },
+    {
+      "source": "200 points",
+      "ko": "200점",
+      "game_string_offset": 6,
+      "status": "translation_present_in_installed_package"
+    },
+    {
+      "source": "Behemoth Zenith",
+      "ko": "베헤모스 제니스",
+      "game_string_offset": 7,
+      "status": "translation_present_in_installed_package"
+    },
+    {
+      "source": "The Peeled Eyes",
+      "ko": "부릅뜬 눈들",
+      "game_string_offset": 8,
+      "status": "translation_present_in_installed_package"
+    }
+  ],
+  "literal_names": [
+    {
+      "source": "Ford's Fighters",
+      "byte_offset": 1535488,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "Leyland's Lashers",
+      "byte_offset": 1535504,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "The Gregorizers 200",
+      "byte_offset": 1535522,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "300 point Armada!",
+      "byte_offset": 1535542,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "Little Dudes with Attitudes",
+      "byte_offset": 1535560,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "New Alliance Ships",
+      "byte_offset": 1535588,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "Old Alliance Ships",
+      "byte_offset": 1535607,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "Old Hierarchy Ships",
+      "byte_offset": 1535626,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "Star Control 1",
+      "byte_offset": 1535646,
+      "status": "untranslated_executable_literal"
+    },
+    {
+      "source": "Star Control 2",
+      "byte_offset": 1535661,
+      "status": "untranslated_executable_literal"
+    }
+  ],
+  "limitations": [
+    "The public port source is not proof of exact installed executable control flow.",
+    "All ten source literals occur in the installed executable; runtime display has not been observed.",
+    "Existing user team/config files may retain user-selected names. Do not rewrite them.",
+    "No executable edits or substitute team files were made. Resource-only localization does not currently replace these ten built-in names."
+  ]
+}
