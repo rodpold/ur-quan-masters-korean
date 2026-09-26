@@ -67,7 +67,7 @@ def verify_special_labels(package,source):
     assert all(b[0]>=5 and b[2]<=51 and b[3]<=53 for b in boxes),'Radar bounds / storage-mask overlap'
     hud=next(r for r in spec['rows'] if r['source_path']=='base/ui/flagshipstatus-000.png')
     assert [r['text'] for r in hud['regions']]==[ui['CAPTAIN'],ui['FUEL'],ui['CREW']]
-    assert [r['box'] for r in hud['regions']]==[[2,1,58,7],[18,29,26,7],[18,108,26,7]]
+    assert [r['box'] for r in hud['regions']]==[[2,1,58,8],[18,29,26,8],[18,108,26,8]]
     assert source.read('base/ui/flagshipstatus.ani').decode().splitlines()[0].split()[3:]==['-1','-1']
     hud_original=Image.open(io.BytesIO(source.read('base/ui/flagshipstatus-000.png')))
     hud_indexed=Image.open(io.BytesIO(package.read('ko/ui/flagshipstatus-000.png')))
@@ -79,10 +79,10 @@ def verify_special_labels(package,source):
         start=31-((9*len(region['text'])-1)//2)
         for i,c in enumerate(region['text']):
             glyph=Image.open(io.BytesIO(package.read(f'ko/fonts/tiny.fon/{ord(c):05x}.png'))).convert('RGBA')
-            alpha=glyph.getchannel('A').crop((0,0,8,7))
-            expected=Image.new('RGBA',(8,7),tuple(region['background']))
+            alpha=glyph.getchannel('A')
+            expected=Image.new('RGBA',(8,8),tuple(region['background']))
             expected.paste(tuple(region['foreground']),(0,0),alpha)
-            assert hud_image.crop((start+i*9,region['box'][1],start+i*9+8,region['box'][1]+7)).tobytes()==expected.tobytes(),'HUD does not match dynamic TinyFont'
+            assert hud_image.crop((start+i*9,region['box'][1],start+i*9+8,region['box'][1]+8)).tobytes()==expected.tobytes(),'HUD does not match dynamic TinyFont'
     # Image origin is status (1,1). Caption bottoms precede dynamic name/fuel/crew clears.
     for region,clear_y in zip(hud['regions'],[10,38,117]):
         assert region['box'][1]+1+region['box'][3]<=clear_y

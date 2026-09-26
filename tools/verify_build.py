@@ -103,6 +103,13 @@ def verify(game, ui_font="compact", report_previews=None):
                 alpha=im.getchannel('A')
                 assert alpha.getbbox(),n
                 assert set(alpha.tobytes()) <= {0,255},f'Semitransparent Korean glyph: {n}'
+                if '/tiny.fon/' in n:
+                    assert im.size == (8,8) and alpha.crop((0,0,8,1)).getbbox() is None,n
+                    # Emulate DrawSISTitle's seven-row clip at baseline 6, hotspot 7.
+                    visible=Image.new('L',(8,7));visible.paste(alpha,(0,-1))
+                    assert sum(visible.tobytes()) == sum(alpha.tobytes()),f'Title clips ink: {n}'
+                    native=patcher.text_mask(chr(int(Path(n).stem,16)),patcher.font('Galmuri7',8))
+                    assert alpha.crop((0,1,8,8)).tobytes()==native.tobytes(),f'Tiny ink was resized: {n}'
         translations=json.loads((patcher.ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
         setup=json.loads((patcher.ROOT/'translations/setup.ko.json').read_text(encoding='utf-8'))
         dialogue = {p.stem:json.loads(p.read_text(encoding='utf-8')) for p in (patcher.ROOT/'translations/dialogue').glob('*.json')}

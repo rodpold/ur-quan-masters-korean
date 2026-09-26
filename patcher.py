@@ -337,7 +337,9 @@ def build(game, ui_font="compact"):
                 # Keep the baseline at the bottom of the ink; UQM uses h-3 above 9px.
                 # Larger starcon is experimental: fixed 8px in-game rows need visual QA.
                 glyph = Image.new('RGBA', (12,14) if large else (10,12) if larger_ui else (8,8), (255,255,255,0))
-                glyph.paste(Image.new('RGBA', mask.size, (255,255,255,255)), (0,0), mask)
+                # TinyFont title clip is y=0..6 with baseline 6 and hotspot 7.
+                # One transparent top row maps all seven ink rows into that clip.
+                glyph.paste(Image.new('RGBA', mask.size, (255,255,255,255)), (0,1 if family == 'tiny' else 0), mask)
                 entries[f'ko/fonts/{family}.fon/{ord(char):05x}.png'] = png(glyph)
             resource = 'comm.urquan.font' if family == 'urquan' else f'font.{family}'
             rmp.append(f'{resource} = FONTRES:ko/fonts/{family}.fon')

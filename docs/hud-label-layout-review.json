@@ -1,5 +1,5 @@
 {
-  "status": "source_and_static_layout_review_runtime_pending",
+  "status": "tiny_padding_fix_prepared_runtime_pending",
   "source_url": "https://raw.githubusercontent.com/intgr/uqm-wasm/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/sis.c",
   "source_sha256": "67ee200db11ca93cdeda24d8aa9bf7bb41ab825cdda7611dc5715b04d02dfb05",
   "frame_origin": [
@@ -12,9 +12,9 @@
     116
   ],
   "caption_screen_tops": [
-    2,
-    30,
-    109
+    3,
+    31,
+    110
   ],
   "dynamic_clear_y": [
     10,
@@ -30,7 +30,8 @@
   "tiny_advance": 9,
   "notes": [
     "TextRect removes final spacing pixel before center alignment. Static labels use the same glyph pixels/advance as dynamic PC text.",
-    "Frame dimensions, ANI hotspots, equipment frames, names and numerical areas are preserved."
+    "Frame dimensions, ANI hotspots, equipment frames, names and numerical areas are preserved.",
+    "2026-09-26: preserve seven ink rows, move TinyFont ink from rows 0..6 to 1..7 within unchanged 8px PNG. Static HUD caption regions extend by one row and match this shift. Title baseline 6 minus hotspot 7 places image at -1; its former top ink row was clipped. Fuel uses gradient coloring and requires separate runtime confirmation."
   ],
   "limitations": [
     "Observed encounter validates static HUD background and caption bounds; PC/3DO switching and dynamic equipment/numeric redraw remain unverified."
@@ -43,5 +44,6 @@
       "fix": "Preserve source P mode, palette and transparency index; modify only caption indexes.",
       "verification": "Installed update and Earth drone encounter visually checked: black HUD background restored; three labels fit alongside fuel 10 and crew 50. Numeric/equipment redraw and font-mode switching remain pending."
     }
-  ]
+  ],
+  "tiny_ink_offset_y": 1
 }

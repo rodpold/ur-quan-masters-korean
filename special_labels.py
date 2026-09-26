@@ -28,7 +28,7 @@ def render_regions(raw,row,font):
             ImageDraw.Draw(mask).text((-b[0],-b[1]),char,font=font,fill=255)
             mask=mask.point(lambda p:255 if p>=128 else 0)
             assert mask.size==(8,7) and x<=start+i*9 and start+i*9+8<=x+w
-            im.paste(index(region['foreground']),(start+i*9,y),mask)
+            im.paste(index(region['foreground']),(start+i*9,y+1),mask)
     out=io.BytesIO();im.save(out,format='PNG');return out.getvalue()
 
 

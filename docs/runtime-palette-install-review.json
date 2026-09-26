@@ -18,7 +18,9 @@
     "Observed SEND_MESSAGE segments (2, 4, 8) wrap to two lines inside the subtitle area without clipping: 무인선 authority, Earth prohibition, submission warning.",
     "The existing saved game loads into the encounter after this patch; this is not a save/write round-trip test.",
     "User navigated to the Hayes first-contact response screen: all three Korean responses fit; first and third wrap to two lines, second fits on one line. Selected response/bullet is white, other responses/bullets cyan, with no visible clipping or overlap. Dynamic ship name Vindicator is preserved.",
-    "User opened Hayes first-contact conversation history with Escape. Eight Korean lines appear on the dark-green panel, from 미확인 우주선에 알린다! to 반복한다. 너희가 보급선인가? No visible missing glyphs, line overlap, or clipping in this short history; longest line fits horizontally and the panel has space below."
+    "User opened Hayes first-contact conversation history with Escape. Eight Korean lines appear on the dark-green panel, from 미확인 우주선에 알린다! to 반복한다. 너희가 보급선인가? No visible missing glyphs, line overlap, or clipping in this short history; longest line fits horizontally and the panel has space below.",
+    "User reports long conversation-history page transitions work; not independently observed by the agent.",
+    "Follow-up user review found apparent top-row loss in 태양/지구 and 연료. Earlier fit checks did not establish complete stroke visibility. A TinyFont padding correction is prepared and not yet installed."
   ],
   "not_verified": [
     "HUD numeric/equipment redraw under changed values and PC/3DO switching",
