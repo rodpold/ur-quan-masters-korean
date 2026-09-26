@@ -1,0 +1,1656 @@
+{
+  "status": "runtime_risks_identified",
+  "indexed_frame_references_checked": 319,
+  "risk_images": 137,
+  "limitations": [
+    "An ANI colormap reference plus a truecolor conversion is a review target, not proof that every affected screen has incorrect colors.",
+    "Matching PNG colors do not prove matching runtime remapping, fades or highlights.",
+    "Only images referenced by addon ANI files and with matching base paths are checked."
+  ],
+  "rows": [
+    {
+      "image": "ko/lander/lander-032.png",
+      "source": "base/lander/lander-032.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/lander/lander.ani",
+          "frame": 32,
+          "colormap": 105
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-000.png",
+      "source": "base/ships/flagship/flagship-cap-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 0,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-009.png",
+      "source": "base/ships/flagship/flagship-cap-009.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 9,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-010.png",
+      "source": "base/ships/flagship/flagship-cap-010.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 10,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-011.png",
+      "source": "base/ships/flagship/flagship-cap-011.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 11,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-012.png",
+      "source": "base/ships/flagship/flagship-cap-012.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 12,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-013.png",
+      "source": "base/ships/flagship/flagship-cap-013.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 13,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/flagship/flagship-cap-014.png",
+      "source": "base/ships/flagship/flagship-cap-014.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/flagship/flagship-cap.ani",
+          "frame": 14,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/samatra/samatra-cap-000.png",
+      "source": "base/ships/samatra/samatra-cap-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/samatra/samatra-cap.ani",
+          "frame": 0,
+          "colormap": 2
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/oldscout-cap-000.png",
+      "source": "base/ships/shofixti/oldscout-cap-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/oldscout-cap.ani",
+          "frame": 0,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-000.png",
+      "source": "base/ships/shofixti/scout-cap-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 0,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-012.png",
+      "source": "base/ships/shofixti/scout-cap-012.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 12,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-013.png",
+      "source": "base/ships/shofixti/scout-cap-013.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 13,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-014.png",
+      "source": "base/ships/shofixti/scout-cap-014.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 14,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-015.png",
+      "source": "base/ships/shofixti/scout-cap-015.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 15,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-016.png",
+      "source": "base/ships/shofixti/scout-cap-016.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 16,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-017.png",
+      "source": "base/ships/shofixti/scout-cap-017.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 17,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-018.png",
+      "source": "base/ships/shofixti/scout-cap-018.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 18,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ships/shofixti/scout-cap-019.png",
+      "source": "base/ships/shofixti/scout-cap-019.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ships/shofixti/scout-cap.ani",
+          "frame": 19,
+          "colormap": 1
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/activity-000.png",
+      "source": "base/ui/activity-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/activity.ani",
+          "frame": 0,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/activity-001.png",
+      "source": "base/ui/activity-001.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/activity.ani",
+          "frame": 1,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-000.png",
+      "source": "base/ui/meleemenu-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 0,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-001.png",
+      "source": "base/ui/meleemenu-001.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 1,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-002.png",
+      "source": "base/ui/meleemenu-002.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 2,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-003.png",
+      "source": "base/ui/meleemenu-003.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 3,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-004.png",
+      "source": "base/ui/meleemenu-004.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 4,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-005.png",
+      "source": "base/ui/meleemenu-005.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 5,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-006.png",
+      "source": "base/ui/meleemenu-006.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 6,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-007.png",
+      "source": "base/ui/meleemenu-007.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 7,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-008.png",
+      "source": "base/ui/meleemenu-008.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 8,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-009.png",
+      "source": "base/ui/meleemenu-009.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 9,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-010.png",
+      "source": "base/ui/meleemenu-010.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 10,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-011.png",
+      "source": "base/ui/meleemenu-011.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 11,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-012.png",
+      "source": "base/ui/meleemenu-012.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 12,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-013.png",
+      "source": "base/ui/meleemenu-013.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 13,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-014.png",
+      "source": "base/ui/meleemenu-014.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 14,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-015.png",
+      "source": "base/ui/meleemenu-015.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 15,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-016.png",
+      "source": "base/ui/meleemenu-016.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 16,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-017.png",
+      "source": "base/ui/meleemenu-017.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 17,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-018.png",
+      "source": "base/ui/meleemenu-018.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 18,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-019.png",
+      "source": "base/ui/meleemenu-019.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 19,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-020.png",
+      "source": "base/ui/meleemenu-020.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 20,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-021.png",
+      "source": "base/ui/meleemenu-021.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 21,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-022.png",
+      "source": "base/ui/meleemenu-022.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 22,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-023.png",
+      "source": "base/ui/meleemenu-023.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 23,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-024.png",
+      "source": "base/ui/meleemenu-024.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 24,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-025.png",
+      "source": "base/ui/meleemenu-025.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 25,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-026.png",
+      "source": "base/ui/meleemenu-026.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 26,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-027.png",
+      "source": "base/ui/meleemenu-027.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 27,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/meleemenu-028.png",
+      "source": "base/ui/meleemenu-028.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 28,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/netplay-000.png",
+      "source": "base/ui/netplay-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 31,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/netplay-001.png",
+      "source": "base/ui/netplay-001.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 32,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/netplay-002.png",
+      "source": "base/ui/netplay-002.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 33,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/netplay-003.png",
+      "source": "base/ui/netplay-003.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/meleemenu.ani",
+          "frame": 34,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-000.png",
+      "source": "base/ui/modulesmenu-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 0,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-001.png",
+      "source": "base/ui/modulesmenu-001.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 1,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-002.png",
+      "source": "base/ui/modulesmenu-002.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 2,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-003.png",
+      "source": "base/ui/modulesmenu-003.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 3,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-004.png",
+      "source": "base/ui/modulesmenu-004.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 4,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-005.png",
+      "source": "base/ui/modulesmenu-005.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 5,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-006.png",
+      "source": "base/ui/modulesmenu-006.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 6,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-007.png",
+      "source": "base/ui/modulesmenu-007.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 7,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-008.png",
+      "source": "base/ui/modulesmenu-008.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 8,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-009.png",
+      "source": "base/ui/modulesmenu-009.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 9,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-010.png",
+      "source": "base/ui/modulesmenu-010.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 10,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-011.png",
+      "source": "base/ui/modulesmenu-011.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 11,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-012.png",
+      "source": "base/ui/modulesmenu-012.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 12,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-013.png",
+      "source": "base/ui/modulesmenu-013.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 13,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-014.png",
+      "source": "base/ui/modulesmenu-014.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 14,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/modulesmenu-015.png",
+      "source": "base/ui/modulesmenu-015.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/modulesmenu.ani",
+          "frame": 15,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/outfitmodules-055.png",
+      "source": "base/ui/outfitmodules-055.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/outfitmodules.ani",
+          "frame": 55,
+          "colormap": 67
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-000.png",
+      "source": "base/ui/playmenu-000.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 0,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-001.png",
+      "source": "base/ui/playmenu-001.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 1,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-002.png",
+      "source": "base/ui/playmenu-002.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 2,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-003.png",
+      "source": "base/ui/playmenu-003.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 3,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-004.png",
+      "source": "base/ui/playmenu-004.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 4,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-005.png",
+      "source": "base/ui/playmenu-005.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 5,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-006.png",
+      "source": "base/ui/playmenu-006.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 6,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-007.png",
+      "source": "base/ui/playmenu-007.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 7,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-008.png",
+      "source": "base/ui/playmenu-008.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 8,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-009.png",
+      "source": "base/ui/playmenu-009.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 9,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-010.png",
+      "source": "base/ui/playmenu-010.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 10,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-011.png",
+      "source": "base/ui/playmenu-011.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 11,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-012.png",
+      "source": "base/ui/playmenu-012.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 12,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-013.png",
+      "source": "base/ui/playmenu-013.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 13,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-014.png",
+      "source": "base/ui/playmenu-014.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 14,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-064.png",
+      "source": "base/ui/playmenu-064.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 15,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-015.png",
+      "source": "base/ui/playmenu-015.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 16,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-016.png",
+      "source": "base/ui/playmenu-016.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 17,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-017.png",
+      "source": "base/ui/playmenu-017.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 18,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-018.png",
+      "source": "base/ui/playmenu-018.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 19,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-019.png",
+      "source": "base/ui/playmenu-019.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 20,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-020.png",
+      "source": "base/ui/playmenu-020.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 21,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-021.png",
+      "source": "base/ui/playmenu-021.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 22,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-022.png",
+      "source": "base/ui/playmenu-022.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 23,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-023.png",
+      "source": "base/ui/playmenu-023.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 24,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-024.png",
+      "source": "base/ui/playmenu-024.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 25,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-025.png",
+      "source": "base/ui/playmenu-025.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 26,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-026.png",
+      "source": "base/ui/playmenu-026.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 27,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-027.png",
+      "source": "base/ui/playmenu-027.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 28,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-028.png",
+      "source": "base/ui/playmenu-028.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 29,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-029.png",
+      "source": "base/ui/playmenu-029.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 30,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-030.png",
+      "source": "base/ui/playmenu-030.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 31,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-031.png",
+      "source": "base/ui/playmenu-031.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 32,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-032.png",
+      "source": "base/ui/playmenu-032.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 33,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-033.png",
+      "source": "base/ui/playmenu-033.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 34,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-034.png",
+      "source": "base/ui/playmenu-034.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 35,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-035.png",
+      "source": "base/ui/playmenu-035.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 36,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-036.png",
+      "source": "base/ui/playmenu-036.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 37,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-037.png",
+      "source": "base/ui/playmenu-037.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 38,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-058.png",
+      "source": "base/ui/playmenu-058.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 39,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-059.png",
+      "source": "base/ui/playmenu-059.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 40,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-060.png",
+      "source": "base/ui/playmenu-060.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 41,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-061.png",
+      "source": "base/ui/playmenu-061.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 42,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-062.png",
+      "source": "base/ui/playmenu-062.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 43,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/playmenu-063.png",
+      "source": "base/ui/playmenu-063.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/playmenu.ani",
+          "frame": 44,
+          "colormap": 0
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-003.png",
+      "source": "base/ui/shipyard-003.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 3,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-004.png",
+      "source": "base/ui/shipyard-004.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 4,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-005.png",
+      "source": "base/ui/shipyard-005.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 5,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-006.png",
+      "source": "base/ui/shipyard-006.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 6,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-007.png",
+      "source": "base/ui/shipyard-007.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 7,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-008.png",
+      "source": "base/ui/shipyard-008.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 8,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-009.png",
+      "source": "base/ui/shipyard-009.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 9,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-010.png",
+      "source": "base/ui/shipyard-010.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 10,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-011.png",
+      "source": "base/ui/shipyard-011.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 11,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-012.png",
+      "source": "base/ui/shipyard-012.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 12,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-013.png",
+      "source": "base/ui/shipyard-013.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 13,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-014.png",
+      "source": "base/ui/shipyard-014.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 14,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-015.png",
+      "source": "base/ui/shipyard-015.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 15,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-016.png",
+      "source": "base/ui/shipyard-016.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 16,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-017.png",
+      "source": "base/ui/shipyard-017.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 17,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-018.png",
+      "source": "base/ui/shipyard-018.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 18,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-019.png",
+      "source": "base/ui/shipyard-019.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 19,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-020.png",
+      "source": "base/ui/shipyard-020.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 20,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-021.png",
+      "source": "base/ui/shipyard-021.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 21,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-022.png",
+      "source": "base/ui/shipyard-022.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 22,
+          "colormap": 69
+        }
+      ]
+    },
+    {
+      "image": "ko/ui/shipyard-023.png",
+      "source": "base/ui/shipyard-023.png",
+      "reason": "indexed_source_became_truecolor",
+      "references": [
+        {
+          "ani": "ko/ui/shipyard.ani",
+          "frame": 23,
+          "colormap": 69
+        }
+      ]
+    }
+  ]
+}
