@@ -16,6 +16,11 @@ $game = 'C:\Program Files (x86)\Steam\steamapps\common\Free Stars The Ur-Quan Ma
 .\.venv\Scripts\python patcher.py launch --game "$game"
 ```
 
+`python patcher.py discover`로 Steam 설치 후보를 확인할 수 있습니다. `--game`을 생략하면
+Windows Steam 레지스트리와 추가 라이브러리의 앱 목록에서 설치를 찾습니다. 후보가 하나일 때만
+자동 선택하며, 없거나 여러 개이면 경로를 지정해야 합니다. 탐색은 읽기 전용이며, 실제 패치 전에는
+기존 원본 데이터 해시 검증을 그대로 수행합니다.
+
 설치 폴더의 쓰기 권한이 필요합니다. 별도 테스트 설정/세이브를 쓰려면 launch에
 `--test-config artifacts/test-profile`을 추가하세요. 일반 launch는 원래 사용자 설정을 사용합니다.
 `install`은 전용 애드온 폴더만 추가하며, Steam 실행 옵션은 자동 변경하지 않습니다.

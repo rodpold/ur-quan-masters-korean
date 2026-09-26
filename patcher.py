@@ -10,6 +10,7 @@ import subprocess
 import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
 from PIL import Image, ImageDraw, ImageFont
+from steam_discovery import discover_games, select_game
 
 ROOT = Path(__file__).resolve().parent
 ADDON = 'uqm-korean-ui-poc'
@@ -454,14 +455,18 @@ def launch(game, test_config=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command',choices=['inspect','build','install','status','uninstall','launch'])
-    parser.add_argument('--game',required=True,type=Path)
+    parser.add_argument('command',choices=['inspect','build','install','status','uninstall','launch','discover'])
+    parser.add_argument('--game',type=Path,help='Omit to detect a single Steam installation.')
     parser.add_argument('--output',type=Path,default=ROOT/'artifacts/ko-ui.uqm')
     parser.add_argument('--test-config',type=Path)
     parser.add_argument('--ui-font',choices=['compact','larger'],default='compact',
                         help='Experimental larger preset: 9px common UI glyphs (build/install only).')
     args = parser.parse_args()
     try:
+        if args.command == 'discover':
+            print(json.dumps({'candidates': [str(p) for p in discover_games()]},ensure_ascii=False,indent=2))
+            return
+        args.game = select_game(args.game)
         if args.command == 'inspect':
             print(validate_game(args.game)); return
         if args.command == 'build':
