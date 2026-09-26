@@ -33,7 +33,7 @@
     "Frame dimensions, ANI hotspots, equipment frames, names and numerical areas are preserved."
   ],
   "limitations": [
-    "Runtime palette, PC/3DO switching and dynamic equipment redraw remain unverified."
+    "Observed encounter validates static HUD background and caption bounds; PC/3DO switching and dynamic equipment/numeric redraw remain unverified."
   ],
   "runtime_findings": [
     {
@@ -41,7 +41,7 @@
       "observation": "Solar-system HUD caption bounds fit, but grid/background changed to gray after RGBA conversion.",
       "cause": "Indexed PNG palette was lost; ANI colormap 58 cannot remap RGBA pixels.",
       "fix": "Preserve source P mode, palette and transparency index; modify only caption indexes.",
-      "verification": "Full build validation passed; corrected installed runtime pending."
+      "verification": "Installed update and Earth drone encounter visually checked: black HUD background restored; three labels fit alongside fuel 10 and crew 50. Numeric/equipment redraw and font-mode switching remain pending."
     }
   ]
 }

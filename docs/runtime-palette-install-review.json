@@ -12,15 +12,20 @@
   },
   "observed": [
     "Korean main menu entries appear fully within the menu panel.",
-    "Credits opening labels 이식판, 제작진 and 핵심 개발진 display in Korean while original personal names remain visible."
+    "Credits opening labels 이식판, 제작진 and 핵심 개발진 display in Korean while original personal names remain visible.",
+    "After the user loaded a saved game, the Earth Ur-Quan drone encounter displayed Korean subtitles.",
+    "HUD black grid background is restored; 함장/연료/승무원 fit with captain/ship names and fuel 10 / crew 50 in the observed encounter.",
+    "Observed SEND_MESSAGE segments (2, 4, 8) wrap to two lines inside the subtitle area without clipping: 무인선 authority, Earth prohibition, submission warning.",
+    "The existing saved game loads into the encounter after this patch; this is not a save/write round-trip test.",
+    "User navigated to the Hayes first-contact response screen: all three Korean responses fit; first and third wrap to two lines, second fits on one line. Selected response/bullet is white, other responses/bullets cyan, with no visible clipping or overlap. Dynamic ship name Vindicator is preserved."
   ],
   "not_verified": [
-    "Corrected HUD background and numeric redraw",
-    "Conversation subtitle/response/history screens",
-    "Race-specific dialogue fonts in actual encounters",
-    "Menu selection input and highlighting reliability",
-    "Audio playback and save compatibility after this update"
+    "HUD numeric/equipment redraw under changed values and PC/3DO switching",
+    "Response navigation/activation and conversation-history screen (initial Hayes response layout visually checked)",
+    "Other Ur-Quan lines and other race dialogue fonts in actual encounters",
+    "Tool key-input reliability",
+    "Audio playback and save/write round-trip compatibility"
   ],
-  "input_limitation": "Computer Use Return/Down/Escape did not reliably navigate to the requested saved state. Main menu and subsequent credits were observed; this does not prove a game input regression. User navigation requested.",
+  "input_limitation": "User navigated to the saved Earth drone encounter and Hayes response screen after tool key presses failed to navigate reliably. Natural subtitle progression and initial response layout were observed; response activation/history input remain unverified.",
   "complete": false
 }
