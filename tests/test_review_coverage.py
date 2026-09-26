@@ -80,3 +80,10 @@ class CoverageIntegrationTests(unittest.TestCase):
             self.assertEqual(surface_rows[1]['source_path'], 'second-report')
             self.assertEqual(surface_rows[1]['pending_ids'], ['SAME 1'])
             self.assertFalse(result['complete'])
+
+
+class CreditSourceIdTests(unittest.TestCase):
+    def test_comment_headers_and_duplicate_titles_use_original_positions(self):
+        from tools.check_review_coverage import credit_source_ids
+        raw = b'#(comment)\n#(Repeated title)\n13 C Name\n#(Repeated title)\n13 C Other\n#(empty)\n'
+        self.assertEqual(credit_source_ids(raw), {'0001', '0002'})

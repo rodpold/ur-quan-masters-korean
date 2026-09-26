@@ -21,6 +21,11 @@
       "total_records": 29,
       "current_agent_review_records": 29,
       "pending_records": 0
+    },
+    "credits": {
+      "total_records": 55,
+      "current_agent_review_records": 55,
+      "pending_records": 0
     }
   },
   "issues": [],
@@ -629,11 +634,22 @@
       "reports": [
         "reports-language-review.json"
       ]
+    },
+    {
+      "translation_path": "translations/credits.ko.json",
+      "source_path": "base/cutscene/credits/credits.txt",
+      "category": "credits",
+      "total_records": 55,
+      "current_agent_review_records": 55,
+      "pending_ids": [],
+      "reports": [
+        "credits-language-review.json"
+      ]
     }
   ],
   "limitations": [
     "Counts attest current source/translation bytes and recorded review IDs, not semantic correctness or human approval.",
-    "Dialogue, voice overrides, cutscenes and surface reports are counted separately; other UI, credits and image text are outside this report.",
+    "Dialogue, voice overrides, cutscenes, surface reports and credits are counted separately; other UI and image text are outside this report.",
     "All runtime and human review remains a separate requirement."
   ]
 }
