@@ -52,6 +52,9 @@ def audit(root, game):
     if credit_path.exists():
         spec = json.loads(credit_path.read_text(encoding='utf-8'))
         specs['translations/credits.ko.json'] = ('credits', spec['source_path'], {row['id']: row for row in spec['records']})
+    setup_path = root/'translations/setup.ko.json'
+    if setup_path.exists():
+        specs['translations/setup.ko.json'] = ('setup', 'base/ui/setupmenu.txt', json.loads(setup_path.read_text(encoding='utf-8')))
     evidence = {key: [] for key in specs}
     issues = []
     for p in sorted((root/'docs').glob('*language-review.json')):
@@ -100,14 +103,14 @@ def audit(root, game):
                              current_agent_review_records=len(valid_ids),
                              pending_ids=[i for i in records if i not in valid_ids], reports=reports))
     totals = {}
-    for category in ['base_dialogue', 'voice_overrides', 'cutscene_subtitles', 'surface_reports', 'credits']:
+    for category in ['base_dialogue', 'voice_overrides', 'cutscene_subtitles', 'surface_reports', 'credits', 'setup']:
         selected = [r for r in rows if r['category'] == category]
         total = sum(r['total_records'] for r in selected)
         reviewed = sum(r['current_agent_review_records'] for r in selected)
         totals[category] = dict(total_records=total, current_agent_review_records=reviewed, pending_records=total-reviewed)
     return dict(status='current_review_evidence_audited', complete=False, totals=totals, issues=issues, resources=rows,
                 limitations=['Counts attest current source/translation bytes and recorded review IDs, not semantic correctness or human approval.',
-                             'Dialogue, voice overrides, cutscenes, surface reports and credits are counted separately; other UI and image text are outside this report.',
+                             'Dialogue, voice overrides, cutscenes, surface reports, credits and setup are counted separately; other UI and image text are outside this report.',
                              'All runtime and human review remains a separate requirement.'])
 
 
