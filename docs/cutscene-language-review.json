@@ -1,0 +1,136 @@
+{
+  "status": "agent_semantic_review_pass_human_and_runtime_pending",
+  "resources": [
+    {
+      "source_path": "base/cutscene/intro/intro.txt",
+      "source_sha256": "7588cf6aab993189c5516e7b635a757b0002f3722e3a86915e164c583afc8de7",
+      "translation_path": "translations/intro.ko.json",
+      "translation_sha256": "3e878927711b7648070e888d3d29905e787e8316a0eba3b8beca3611fd8a9c14",
+      "reviewed_record_ids": [
+        "0032",
+        "0036",
+        "0040",
+        "0052",
+        "0057",
+        "0062",
+        "0067",
+        "0072",
+        "0078",
+        "0088",
+        "0093",
+        "0098",
+        "0103",
+        "0108",
+        "0113",
+        "0118",
+        "0128",
+        "0133",
+        "0138",
+        "0143",
+        "0148",
+        "0158",
+        "0163",
+        "0168",
+        "0173",
+        "0178",
+        "0183",
+        "0193",
+        "0198",
+        "0203",
+        "0208",
+        "0213"
+      ],
+      "changes": [
+        {
+          "id": "0148",
+          "before": "그것은 공장이었다. ",
+          "after": "그것은 공장이다. ",
+          "reason": "The factory is still usable at the time the expedition addresses the captain."
+        },
+        {
+          "id": "0163",
+          "before": "하지만 완전한 함선을 만들기에는\n자재가 부족했다.",
+          "after": "하지만 완전한 함선을 만들기에는\n자재가 부족하다.",
+          "reason": "Preserve the present material constraint rather than a resolved past shortage."
+        },
+        {
+          "id": "0168",
+          "before": "우주선 한 척의 뼈대만\n완성할 수 있었다.",
+          "after": "우주선 한 척의 뼈대만\n완성할 수 있다.",
+          "reason": "Retain current construction capability rather than asserting past completion."
+        }
+      ]
+    },
+    {
+      "source_path": "base/cutscene/ending/final.txt",
+      "source_sha256": "4bf58c6f61d84adff3740905a19d45557100e4a2548149c284809496ca2dfb76",
+      "translation_path": "translations/ending.ko.json",
+      "translation_sha256": "4c8f73dcbdd1dbd8e37980ce15a5fa1ea3285ee60197249c628a06a013db03b5",
+      "reviewed_record_ids": [
+        "0020",
+        "0025",
+        "0030",
+        "0035",
+        "0040",
+        "0045",
+        "0050",
+        "0055",
+        "0060",
+        "0065",
+        "0070",
+        "0075",
+        "0080",
+        "0085",
+        "0090",
+        "0095",
+        "0105",
+        "0110",
+        "0115",
+        "0120",
+        "0125",
+        "0130",
+        "0140",
+        "0145",
+        "0150",
+        "0155",
+        "0160",
+        "0165",
+        "0170",
+        "0175",
+        "0180",
+        "0185",
+        "0190",
+        "0201",
+        "0206",
+        "0211",
+        "0221",
+        "0226",
+        "0231",
+        "0236",
+        "0241",
+        "0251"
+      ],
+      "changes": [
+        {
+          "id": "0025",
+          "before": "나는 내가 죽은 줄 알았다.",
+          "after": "나는 내가 죽었다고 확신했다.",
+          "reason": "Preserve I knew I was dead as the narrators comic certainty before Talana interrupts."
+        }
+      ]
+    }
+  ],
+  "preserved": [
+    "Intro chronology: 1992 creation, 2002 source release, one thousand centuries as 100,000 years, 100 light years and 20 years remain intact.",
+    "The survivors colonize the research planet and task the player with returning to Earth; the continuing war is conditional rather than assumed.",
+    "Ending crystals are literal Chmmr crystals, not an editorial modification; Sa-Matra destruction precedes fleet defeat and shield removal.",
+    "More than three weeks unconscious, almost a month in hospital and nearly five years before return to Unzervalt retain their bounds.",
+    "First-person recollection, grandchildren questions and grandfather reply retain their separate registers. Talana speech remains reported narration.",
+    "Mark II and the unreported later adventure remain an open ending, without added sequel details.",
+    "Subtitle record IDs and line counts are unchanged; no animation, timing or audio command is edited."
+  ],
+  "limitations": [
+    "Agent semantic review is not user approval.",
+    "In-game cutscene playback, reading speed, animation synchronization and font readability remain unverified by this text review."
+  ]
+}
