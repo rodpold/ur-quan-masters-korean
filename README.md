@@ -1,6 +1,6 @@
 # Ur-Quan Masters 한국어 패치
 
-**v1.0.1 — Steam판 Free Stars: The Ur-Quan Masters 0.8.0 한국어 패치**입니다.
+**v1.0.2 — Steam판 Free Stars: The Ur-Quan Masters 0.8.0 한국어 패치**입니다.
 대화, 설정, 공통 UI, 선택지와 대화 로그를 번역하고 종족별로 서로 다른 한글 글꼴과 말투를 적용했습니다.
 이후 수정은 실제 플레이 피드백을 바탕으로 진행합니다. 비공식 팬 프로젝트입니다.
 
@@ -12,9 +12,9 @@
 > 패치 프로그램이 이 게임의 **Steam 실행 옵션을 자동으로 등록**합니다. 처음 연결할 때는 Steam 메뉴의 **종료(끝내기)**로 완전히 종료한 뒤, 연결을 마치고 Steam을 다시 켜 주세요.
 > 연결 후에는 평소처럼 **플레이**만 누르면 됩니다. 게임을 실행할 때마다 Steam을 재시작할 필요는 없습니다.
 
-Releases의 **Assets → `uqm-korean-1.0.1-windows-x64.zip`**을 받으세요.
+Releases의 **Assets → `uqm-korean-1.0.2-windows-x64.zip`**을 받으세요.
 Windows 10/11 64비트용이며 Python을 따로 설치할 필요가 없습니다.
-`Source code`와 `uqm-korean-1.0.1-source.zip`은 개발자용 소스입니다.
+`Source code`와 `uqm-korean-1.0.2-source.zip`은 개발자용 소스입니다.
 게임은 포함되어 있지 않으므로 Steam에서 먼저 설치해야 합니다.
 
 ## 설치

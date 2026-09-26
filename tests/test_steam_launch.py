@@ -32,7 +32,7 @@ class SteamLaunchTests(unittest.TestCase):
             target = root/'userdata/1/config/localconfig.vdf'
             target.parent.mkdir(parents=True); target.write_text(config())
             with patch.object(sl,'steam_roots',return_value=[root,root]), patch.object(sl,'read_vdf',return_value={'users':{'76561197960265729':{'AutoLogin':'1'}}}):
-                self.assertEqual(sl.account_config(),target)
+                self.assertEqual(sl.account_config(),target.resolve())
             with patch.object(sl,'steam_roots',return_value=[root]), patch.object(sl,'read_vdf',return_value={'users':{'76561197960265729':{},'76561197960265730':{}}}):
                 with self.assertRaises(ValueError): sl.account_config()
 

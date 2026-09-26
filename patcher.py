@@ -14,7 +14,7 @@ from steam_discovery import discover_games, select_game
 
 ROOT = Path(__file__).resolve().parent
 ADDON = 'uqm-korean-ui-poc'
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 SOURCE = Path('content/packages/uqm-0.8.0-content.uqm')
 SUPPORTED_HASH = 'ee730116f1a3d3f77689e7cbdfb26f43a1773d236db986dc0d47abf93b14e7d6'
 
