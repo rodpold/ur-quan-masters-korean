@@ -61,6 +61,10 @@ def audit(root, game):
             raw_ui = archive.read('base/gamestrings.txt').decode('utf-8-sig')
         ids = [f'{i:04d}' for i, _ in enumerate(re.findall(r'^#\([^\r\n]*\)', raw_ui, re.M))]
         specs['translations/ui.ko.json'] = ('common_ui', 'base/gamestrings.txt', dict.fromkeys(ids))
+    ships_path = root/'translations/ships.ko.json'
+    if ships_path.exists():
+        for resource in json.loads(ships_path.read_text(encoding='utf-8'))['resources']:
+            specs['translations/ships.ko.json::'+resource['source_path']] = ('ship_tables', resource['source_path'], {row['id']: row for row in resource['records']})
     evidence = {key: [] for key in specs}
     issues = []
     for p in sorted((root/'docs').glob('*language-review.json')):
@@ -70,7 +74,7 @@ def audit(root, game):
         items = report.get('resources', [report])
         for item in items:
             key = item['translation_path']
-            if key == 'translations/reports.ko.json':
+            if key in ('translations/reports.ko.json', 'translations/ships.ko.json'):
                 key += '::'+item['source_path']
             if key not in specs:
                 issues.append({'report': p.name, 'error': 'unknown_translation_path', 'path': key})
@@ -99,7 +103,7 @@ def audit(root, game):
                     errors.append('wrong_source_path')
                 if category != 'cutscene_subtitles':
                     source_ids = set(re.findall(r'^#\(([^)]*)\)', raw.decode('utf-8-sig'), re.M))
-                    if category == 'common_ui':
+                    if category in ('common_ui', 'ship_tables'):
                         source_ids = {f'{i:04d}' for i, _ in enumerate(re.findall(r'^#\([^\r\n]*\)', raw.decode('utf-8-sig'), re.M))}
                     if category == 'credits':
                         source_ids = credit_source_ids(raw)
@@ -114,14 +118,14 @@ def audit(root, game):
                              current_agent_review_records=len(valid_ids),
                              pending_ids=[i for i in records if i not in valid_ids], reports=reports))
     totals = {}
-    for category in ['base_dialogue', 'voice_overrides', 'cutscene_subtitles', 'surface_reports', 'credits', 'setup', 'common_ui']:
+    for category in ['base_dialogue', 'voice_overrides', 'cutscene_subtitles', 'surface_reports', 'credits', 'setup', 'common_ui', 'ship_tables']:
         selected = [r for r in rows if r['category'] == category]
         total = sum(r['total_records'] for r in selected)
         reviewed = sum(r['current_agent_review_records'] for r in selected)
         totals[category] = dict(total_records=total, current_agent_review_records=reviewed, pending_records=total-reviewed)
     return dict(status='current_review_evidence_audited', complete=False, totals=totals, issues=issues, resources=rows,
                 limitations=['Counts attest current source/translation bytes and recorded review IDs, not semantic correctness or human approval.',
-                             'Dialogue, voice overrides, cutscenes, surface reports, credits, setup and common UI are counted separately; ship tables and image text are outside this report.',
+                             'Dialogue, voice overrides, cutscenes, surface reports, credits, setup, common UI and ship tables are counted separately; image text is outside this report.',
                              'All runtime and human review remains a separate requirement.'])
 
 
