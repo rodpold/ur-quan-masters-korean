@@ -502,3 +502,8 @@ commander 99개 레코드를 대조했다. 재활용하지 않는 물자를 재�
 고정 버전 공개 소스의 InitPreBuilt는 기본 함대 15개를 생성한다. 처음 5개 이름은 MELEE_STRING_BASE+4..8에서 읽으며 설치된 한글 패키지에도 균형 팀 1/2, 200점, 베헤모스 제니스, 부릅뜬 눈들이 들어 있다. 나머지 10개는 C 문자열 리터럴이고 현재 uqm.exe에서도 같은 영문을 발견했다. docs/prebuilt-team-name-audit.json에 소스·실행 파일 해시와 문자열 위치를 기록했다.
 
 Ford's Fighters, Leyland's Lashers, The Gregorizers 200, 300 point Armada!, Little Dudes with Attitudes, New Alliance Ships, Old Alliance Ships, Old Hierarchy Ships, Star Control 1/2는 현재 리소스 패치가 교체하지 못하는 항목이다. 전체 번역 완료로 처리하지 않는다. 실행 파일 수정 금지 제약을 유지하며 사용자 팀/설정 파일을 덮어쓰거나 별도 팀을 추가해 기존 이름의 번역을 대신하지 않는다. 공개 포트의 코드 경로와 설치 EXE의 실제 동작이 같다는 실행 검증은 아직 없다.
+
+
+## 공통 UI 의미 검수 1차 (2026-09-26)
+
+순서 ID 0400–0593의 194개를 원문과 대조했다. 달력·기지·조우·저장·옵션·함선 수치·행성 수치·메뉴·통신 대전 안내를 포함한다. 기본 이름/단위/빈 레코드 보존을 확인했고 추가 교정은 없다. 앞부분 400개는 정식 검수 집계에서 대기로 유지한다. ui-language-review.json과 집계는 원고 및 문맥별 override 파일의 해시에 연결된다. 실기와 동적 숫자/이름 삽입은 별도 검증이다.

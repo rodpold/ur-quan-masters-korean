@@ -68,6 +68,8 @@ class CoverageIntegrationTests(unittest.TestCase):
             surface = dict(report, translation_path='translations/reports.ko.json', source_path='first-report',
                            source_sha256=hashlib.sha256(report_source).hexdigest(),
                            translation_sha256=hashlib.sha256(report_ko).hexdigest(), reviewed_record_ids=['SAME 1'])
+            (root/'translations/dependency.json').write_bytes(b'original')
+            surface['translation_dependencies'] = {'translations/dependency.json': hashlib.sha256(b'original').hexdigest()}
             (root/'docs/surface-language-review.json').write_text(json.dumps(surface))
             result = audit(root, game)
             self.assertEqual(result['totals']['base_dialogue'], {
@@ -80,6 +82,10 @@ class CoverageIntegrationTests(unittest.TestCase):
             self.assertEqual(surface_rows[1]['source_path'], 'second-report')
             self.assertEqual(surface_rows[1]['pending_ids'], ['SAME 1'])
             self.assertFalse(result['complete'])
+            (root/'translations/dependency.json').write_bytes(b'changed')
+            changed = audit(root, game)
+            self.assertEqual(changed['totals']['surface_reports']['current_agent_review_records'], 0)
+            self.assertTrue(any('translation_dependency_changed_since_review' in issue.get('errors', []) for issue in changed['issues']))
 
 
 class CreditSourceIdTests(unittest.TestCase):
