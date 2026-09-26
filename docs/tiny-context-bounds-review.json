@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-26",
+  "status": "installed_tiny_vertical_bounds_passed",
+  "package_sha256": "faa6b7080523368eba2d4d366fbd95e67e540ad689c14c6faa41c6ab9e308b85",
+  "source_evidence": {
+    "sis.c": "67ee200db11ca93cdeda24d8aa9bf7bb41ab825cdda7611dc5715b04d02dfb05",
+    "units.h": "55061f177ecd8d8b408adc5bc09f7f6bfe013f4df13c1a241bf5e49ebf603a99",
+    "comm.c": "03f5376603b13d792938245231fa0d11a7ba96ac91843238be1ed4678fcda53f",
+    "gfxload.c": "d9302a2a9119aa9b4a585a3a3c6fcefa5b2b830a350ff63c7b69fd2ad3fd809d"
+  },
+  "contexts": [
+    {
+      "name": "SIS title",
+      "baseline": 6,
+      "allowed_y_half_open": [
+        0,
+        7
+      ],
+      "hangul_glyphs_checked": 1214
+    },
+    {
+      "name": "SIS message",
+      "baseline": 6,
+      "allowed_y_half_open": [
+        0,
+        7
+      ],
+      "hangul_glyphs_checked": 1214
+    },
+    {
+      "name": "Status date/resources",
+      "baseline": 6,
+      "allowed_y_half_open": [
+        0,
+        7
+      ],
+      "hangul_glyphs_checked": 1214
+    },
+    {
+      "name": "Captain name",
+      "baseline": 16,
+      "allowed_y_half_open": [
+        10,
+        17
+      ],
+      "hangul_glyphs_checked": 1214
+    },
+    {
+      "name": "Captain caption",
+      "baseline": 9,
+      "allowed_y_half_open": [
+        3,
+        10
+      ],
+      "hangul_glyphs_checked": 1214
+    },
+    {
+      "name": "Fuel caption",
+      "baseline": 37,
+      "allowed_y_half_open": [
+        31,
+        38
+      ],
+      "hangul_glyphs_checked": 1214
+    },
+    {
+      "name": "Crew caption",
+      "baseline": 116,
+      "allowed_y_half_open": [
+        110,
+        117
+      ],
+      "hangul_glyphs_checked": 1214
+    }
+  ],
+  "history_glyphs_checked": 1214,
+  "history_line_step": 8,
+  "minimum_interline_blank_rows": 1,
+  "limitations": [
+    "Static vertical bounds only; no proof of horizontal fit, draw order, gradient contrast or runtime pagination.",
+    "Flagship name uses StarConFont/MicroFont, not TinyFont; unchanged by this correction.",
+    "Long history pagination was user-confirmed before this padding change and needs confirmation on this version."
+  ],
+  "complete": false
+}

@@ -71,3 +71,7 @@ artifacts/save-backups/<내용 해시 접두사>/uqmsave.00에 동일 바이트 
 - https://github.com/intgr/uqm-wasm/blob/main/sc2/src/uqm/comm/comandr/comandr.c
   AlienTextWidth=143 및 자막 기준선 설정.
 - 이 공개 소스는 분석 참고 자료다. Steam 바이너리의 모든 동작과 같다고 단정하지 않으며 실기로 확인한다.
+
+## 2026-09-26 검증 업데이트
+
+초기 계획의 예시·후보 표기는 현재 적용 상태가 아니다. 현재 24종 폰트 배정은 translations/FONTS.md 및 fonts.ko.json을 따른다. 헤이스 첫 선택지와 짧은 로그, 우르콴 경고 일부 자막은 실제 화면에서 확인했다. 긴 로그 페이지 전환은 사용자가 확인했다. 이후 TinyFont 여백 보정은 상단 지명·연료 잘림 해결이 사용자 확인됐으며, 같은 폰트를 공유하는 로그도 1픽셀 내려간다. docs/tiny-context-bounds-review.json에서 8픽셀 로그 간격 및 HUD 수직 범위를 설치된 모든 한글 TinyFont 글리프로 확인했다. 이 정적 검사는 보정 후 긴 로그의 실제 페이지 전환을 대신하지 않는다.
