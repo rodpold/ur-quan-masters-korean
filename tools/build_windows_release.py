@@ -14,14 +14,15 @@ sys.path.insert(0, str(ROOT))
 from patcher import VERSION
 
 
-def build():
+def build(output_root=None):
     if sys.platform != 'win32' or platform.machine().lower() not in ('amd64', 'x86_64'):
         raise ValueError('Build on Windows x64 with 64-bit Python.')
-    out = ROOT/'dist/UQM-Korean-Patcher'
+    output_root = Path(output_root) if output_root else ROOT/'dist'
+    out = output_root/'UQM-Korean-Patcher'
     if out.exists():
         raise ValueError('dist/UQM-Korean-Patcher already exists; use a fresh checkout/build directory.')
     command = [sys.executable, '-m', 'PyInstaller', '--noconfirm', '--onedir', '--console', '--noupx',
-               '--name', 'UQM-Korean-Patcher', '--distpath', str(ROOT/'dist'),
+               '--name', 'UQM-Korean-Patcher', '--distpath', str(output_root),
                '--workpath', str(ROOT/'build/pyinstaller'), '--specpath', str(ROOT/'build')]
     for folder in ('translations', 'vendor', 'LICENSES'):
         command += ['--add-data', f'{ROOT/folder}:{folder}']

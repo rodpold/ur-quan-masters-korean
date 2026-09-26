@@ -14,7 +14,7 @@ from steam_discovery import discover_games, select_game
 
 ROOT = Path(__file__).resolve().parent
 ADDON = 'uqm-korean-ui-poc'
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 SOURCE = Path('content/packages/uqm-0.8.0-content.uqm')
 SUPPORTED_HASH = 'ee730116f1a3d3f77689e7cbdfb26f43a1773d236db986dc0d47abf93b14e7d6'
 
@@ -360,9 +360,11 @@ def status(game):
     meta = json.loads(manifest.read_text(encoding='utf-8'))
     if meta.get('addon') != ADDON or sha(package.read_bytes()) != meta.get('sha256'):
         raise ValueError('패치 파일이 설치 이후 변경되었습니다. 자동 변경하지 않습니다.')
-    if {p.name for p in target.iterdir()} != {'manifest.json', 'ko-ui.uqm'}:
+    from steam_launch import BACKUP
+    names = {p.name for p in target.iterdir()}
+    if names - {BACKUP} != {'manifest.json', 'ko-ui.uqm'}:
         raise ValueError('애드온 폴더에 추가 파일이 있습니다. 자동 변경하지 않습니다.')
-    for p in [manifest, package]:
+    for p in [manifest, package] + ([target/BACKUP] if BACKUP in names else []):
         if p.is_symlink() or not p.resolve().is_relative_to(Path(game).resolve()):
             raise ValueError('외부 경로 또는 심볼릭 링크는 지원하지 않습니다.')
     return {'state':'installed', **meta}
@@ -408,6 +410,8 @@ def uninstall(game):
     current = status(game)
     if current['state'] == 'not_installed':
         return current
+    from steam_launch import restore
+    restore(game)
     target = addon_dir(game)
     previous = [(target/name, (target/name).read_bytes()) for name in ['ko-ui.uqm','manifest.json']]
     try:
@@ -438,7 +442,7 @@ def launch(game, test_config=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--version', action='version', version=VERSION)
-    parser.add_argument('command',choices=['inspect','build','install','status','uninstall','launch','discover'])
+    parser.add_argument('command',choices=['inspect','build','install','status','uninstall','launch','discover','steam-enable','steam-restore'])
     parser.add_argument('--game',type=Path,help='Omit to detect a single Steam installation.')
     parser.add_argument('--output',type=Path,default=ROOT/'artifacts/ko-ui.uqm')
     parser.add_argument('--test-config',type=Path)
@@ -460,6 +464,9 @@ def main():
             result = install(args.game, args.ui_font)
         elif args.command == 'launch':
             result = {'pid':launch(args.game,args.test_config)}
+        elif args.command in ('steam-enable', 'steam-restore'):
+            from steam_launch import configure, restore
+            result = configure(args.game) if args.command == 'steam-enable' else restore(args.game)
         else:
             result = globals()[args.command](args.game)
         print(json.dumps(result,ensure_ascii=False,indent=2))
