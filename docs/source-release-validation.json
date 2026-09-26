@@ -1,15 +1,16 @@
 {
-  "package_sha256": "faa6b7080523368eba2d4d366fbd95e67e540ad689c14c6faa41c6ab9e308b85",
+  "package_sha256": "b9930b01a62e63ea5cbfc36f9266482628b4f3c59e7f45a0d04e717151252ca8",
   "installed_byte_match": true,
   "original_title_preserved": true,
   "files": 40888,
-  "archive_sha256": "4a4751b07d8b70efbf9188734dfcd93db77151800de918cacb01664650b578df",
-  "source_revision": "bb276a38e5616f571d0520c60169b8c570604c86",
+  "archive_sha256": "c41add7ae023e69d2b84d6ea56cc9620023e0c86bf31ee2d0222ff1a4dccfb53",
+  "source_revision": "cbed039feafaf27689794b93f4a762038bbabd08",
+  "archive": "artifacts/uqm-korean-development-source.zip",
+  "status": "extracted_source_reproduces_installed_patch",
+  "starmap_label": "우주 지도",
   "complete": false,
   "limitations": [
     "Source distribution requires Python and dependencies.",
     "Byte reproducibility does not prove full-game translation quality or runtime layout."
-  ],
-  "archive": "artifacts/uqm-korean-development-source.zip",
-  "status": "extracted_source_reproduces_installed_patch"
+  ]
 }
