@@ -11,6 +11,8 @@ def verify(game, ui_font="compact", report_previews=None):
     assert patcher.build(game, ui_font)[0]==data,'Non-deterministic build'
     with ZipFile(io.BytesIO(data)) as z, ZipFile(Path(game)/patcher.SOURCE) as source:
         assert z.testzip() is None
+        assert not any(n.startswith('ko/ui/newgame') for n in z.namelist()),'Title artwork override returned'
+        assert not any(line.startswith('graphics.newgame ') for line in z.read('ko-ui.rmp').decode().splitlines()),'Original title menu must remain active'
         from check_runtime_palettes import audit as audit_palettes
         palette_check=audit_palettes(source,z)
         (patcher.ROOT/'docs/runtime-palette-review.json').write_text(json.dumps(palette_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

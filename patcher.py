@@ -17,7 +17,6 @@ ADDON = 'uqm-korean-ui-poc'
 VERSION = '0.1.0'
 SOURCE = Path('content/packages/uqm-0.8.0-content.uqm')
 SUPPORTED_HASH = 'ee730116f1a3d3f77689e7cbdfb26f43a1773d236db986dc0d47abf93b14e7d6'
-LABELS = ['새 게임', '불러오기', '함대 대전', '설정', '종료']
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
@@ -78,26 +77,6 @@ def text_mask(text, f):
     im = Image.new('L', (box[2]-box[0], box[3]-box[1]))
     ImageDraw.Draw(im).text((-box[0], -box[1]), text, font=f, fill=255)
     return im.point(lambda p: 255 if p >= 128 else 0)
-
-def menu_assets(z):
-    # The original unselected English labels are baked into the background.
-    # For this POC use a solid panel; no AI reconstruction of the artwork.
-    bg = Image.open(io.BytesIO(z.read('base/ui/newgame-000.png'))).convert('RGB')
-    d = ImageDraw.Draw(bg)
-    d.rectangle((79, 24, 244, 216), fill=(8, 13, 26), outline=(85, 104, 127))
-    entries = {'ko/ui/newgame-000.png': None}
-    ani = ['newgame-000.png -1 -1 0 0']
-    for i, label in enumerate(LABELS, 1):
-        mask = text_mask(label, font('Galmuri11', 24))
-        x, y = (320-mask.width)//2, 45+(i-1)*32
-        bg.paste((174, 184, 199), (x, y), mask)
-        selected = Image.new('RGBA', mask.size, (255, 255, 255, 0))
-        selected.putalpha(mask)
-        entries[f'ko/ui/newgame-{i:03}.png'] = png(selected)
-        ani.append(f'newgame-{i:03}.png -1 -1 {-x} {-y}')
-    entries['ko/ui/newgame-000.png'] = png(bg)
-    entries['ko/ui/newgame.ani'] = ('\n'.join(ani)+'\n').encode()
-    return entries
 
 def translate_setup(text, translations):
     chunks = re.split(r'(?m)(^#\(([^\r\n]*)\)[^\r\n]*\r?\n)', text)
@@ -277,7 +256,6 @@ def build(game, ui_font="compact"):
     chars = sorted({c for s in [*translations.values(), *setup.values(), *dialogue_values] for c in s if ord(c)>127})
     entries = {}
     rmp = ['text.starcon = STRTAB:ko/gamestrings.txt',
-           'graphics.newgame = GFXRES:ko/ui/newgame.ani',
            'graphics.playmenu = GFXRES:ko/ui/playmenu.ani',
            'text.setupmenu = STRTAB:ko/setupmenu.txt']
     with ZipFile(game/SOURCE) as z:
@@ -293,7 +271,7 @@ def build(game, ui_font="compact"):
             translations = {**translations, '(MORE)': spaced(translations.get('(MORE)', '(다음)'))}
         translated, counts = translate_table(original, translations, load_ui_overrides())
         entries['ko/gamestrings.txt'] = translated.encode('utf-8')
-        entries.update(menu_assets(z))
+        # Preserve the original English title menu artwork (user choice).
         entries.update(panel_assets(z))
         from playmenu_headings import add_headings
         add_headings(entries, z)

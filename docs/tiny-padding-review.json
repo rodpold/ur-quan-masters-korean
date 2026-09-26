@@ -2,7 +2,7 @@
   "date": "2026-09-26",
   "source_revision": "3f19ca8",
   "installed_package_sha256": "c4980c38c793788d992079f46e500e0b8a3dfc1e37f1045512a5af61faa8c9a8",
-  "status": "installed_runtime_recheck_pending",
+  "status": "user_confirmed_title_and_fuel_fix",
   "ink_height": 7,
   "tiny_png_size": [
     8,
@@ -13,10 +13,9 @@
   "full_build_verification": "passed including all Hangul TinyFont clipping and native ink preservation checks",
   "installed_readback": "태양지구연료 top padding and seven-row title clip verified",
   "runtime_pending": [
-    "Title strokes for 태양/지구",
-    "Fuel label strokes and gradient visibility",
     "HUD dynamic numeric redraw and PC/3DO modes",
     "Other TinyFont screens after baseline shift"
   ],
-  "complete": false
+  "complete": false,
+  "user_feedback": "User confirmed the reported clipping issue is resolved after installing the seven-pixel padding correction."
 }
