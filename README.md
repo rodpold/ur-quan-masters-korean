@@ -4,6 +4,8 @@
 대화, 설정, 공통 UI, 선택지와 대화 로그를 번역하고 종족별로 서로 다른 한글 글꼴과 말투를 적용했습니다.
 이후 수정은 실제 플레이 피드백을 바탕으로 진행합니다. 비공식 팬 프로젝트입니다.
 
+이 패치는 **아스트라(Astra)를 사용해 번역**했습니다. 전체 플레이 검수는 진행 중이며, 오역이나 문맥에 맞지 않는 표현은 플레이 피드백을 받아 수정합니다.
+
 ## 다운로드
 
 [최신 배포판 다운로드](https://github.com/rodpold/ur-quan-masters-korean/releases/latest)
@@ -16,6 +18,22 @@ Releases의 **Assets → `uqm-korean-1.0.2-windows-x64.zip`**을 받으세요.
 Windows 10/11 64비트용이며 Python을 따로 설치할 필요가 없습니다.
 `Source code`와 `uqm-korean-1.0.2-source.zip`은 개발자용 소스입니다.
 게임은 포함되어 있지 않으므로 Steam에서 먼저 설치해야 합니다.
+
+## 한글화 스크린샷
+
+한국어 패치를 적용한 실제 게임 화면입니다.
+
+### 타이틀 화면
+
+![한국어 공개 문구가 적용된 타이틀 화면](docs/screenshots/korean-title.png)
+
+### 도입부 이야기
+
+![한국어 자막이 적용된 도입부 이야기](docs/screenshots/korean-intro.png)
+
+### 태양계 항해와 인터페이스
+
+![태양계 항해 화면의 한국어 함장 정보와 메뉴](docs/screenshots/korean-navigation.png)
 
 ## 설치
 

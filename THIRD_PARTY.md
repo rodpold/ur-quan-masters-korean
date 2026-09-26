@@ -15,6 +15,17 @@ Public source inspected for resource format documentation: https://github.com/in
 The local installation's Manual.txt documents --addon and .rmp resource maps.
 This is an unofficial fan project, not affiliated with the original developers.
 
+### README gameplay screenshots (2026-09-26)
+
+The three PNGs in `docs/screenshots/` were captured and supplied by the project
+maintainer for the README, showing the Korean patch in The Ur-Quan Masters 0.8.0.
+They are copied without cropping, retouching or other modifications. SHA-256
+hashes are recorded in [SHA256.json](docs/screenshots/SHA256.json).
+These are documentation screenshots, not redistributable game resource files.
+Original game artwork belongs to its respective rights holders; this project's
+code license does not grant a separate license to that artwork. No separate
+screenshot license was supplied. Official game project: https://sc2.sourceforge.net/.
+
 ## Font provenance and usage policy
 
 Official webfont/documentation: https://github.com/quiple/galmuri#use-as-web-fonts
