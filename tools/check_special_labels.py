@@ -35,6 +35,11 @@ def verify_special_labels(package,source):
     assert spec['rows'][0]['regions'][2]['text']==spec['rows'][2]['regions'][1]['text']==terms['escape_pod']
     assert spec['rows'][1]['regions'][0]['text']==json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))['UNLIMITED']
     lander=next(r for r in spec['rows'] if r['source_path']=='base/lander/lander-032.png')
+    lander_original=Image.open(io.BytesIO(source.read(lander['source_path'])))
+    lander_output=Image.open(io.BytesIO(package.read(lander['source_path'].replace('base/','ko/',1))))
+    assert lander_original.mode==lander_output.mode=='P'
+    assert lander_original.getpalette()==lander_output.getpalette()
+    assert lander_original.info.get('transparency')==lander_output.info.get('transparency')
     ui=json.loads((ROOT/'translations/ui.ko.json').read_text(encoding='utf-8'))
     assert [r['text'] for r in lander['regions']]==[ui['mineral'],ui['biological']]
     # ANI hotspot (-1,-1) places this panel at radar (1,1).

@@ -1,25 +1,13 @@
 {
   "status": "runtime_risks_identified",
   "indexed_frame_references_checked": 319,
-  "risk_images": 137,
+  "risk_images": 136,
   "limitations": [
     "An ANI colormap reference plus a truecolor conversion is a review target, not proof that every affected screen has incorrect colors.",
     "Matching PNG colors do not prove matching runtime remapping, fades or highlights.",
     "Only images referenced by addon ANI files and with matching base paths are checked."
   ],
   "rows": [
-    {
-      "image": "ko/lander/lander-032.png",
-      "source": "base/lander/lander-032.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/lander/lander.ani",
-          "frame": 32,
-          "colormap": 105
-        }
-      ]
-    },
     {
       "image": "ko/ships/flagship/flagship-cap-000.png",
       "source": "base/ships/flagship/flagship-cap-000.png",
