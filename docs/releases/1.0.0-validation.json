@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "generated_addon_sha256": "b9930b01a62e63ea5cbfc36f9266482628b4f3c59e7f45a0d04e717151252ca8",
+  "frozen_matches_source": true,
+  "install_repeat_status_uninstall": "passed",
+  "interactive_status_exit": "passed",
+  "non_ascii_paths": "passed",
+  "originals_and_user_fixtures_unchanged": true,
+  "game_launched": false,
+  "scope": "Local pre-release executable verification; published assets are built independently by GitHub Actions from the release tag.",
+  "local_preflight_archive_sha256": "fedca832698a6ac7cbfd382acd97f8dfb6588821c4350b2a9a4f7b2ac5840fa0",
+  "unit_tests": 105,
+  "extracted_source_bundle_unit_tests": 105,
+  "glossary_check": {
+    "entries": 626,
+    "linked_ui_terms": 196,
+    "passed": true
+  },
+  "matches_user_verified_installed_addon": true,
+  "runtime": {
+    "Python": "3.12.14",
+    "Pillow": "12.3.0",
+    "PyInstaller": "6.22.0"
+  }
+}
