@@ -173,3 +173,11 @@ HUD 실기 확인에서 원본 인덱스 PNG를 RGBA로 변환하면 게임 색�
 ```powershell
 python tools/check_runtime_palettes.py "$game/content/packages/uqm-0.8.0-content.uqm" artifacts/ko-ui.uqm --output docs/runtime-palette-review.json
 ```
+
+## 플레이 피드백
+
+현재는 사용자가 게임을 진행하면서 제보한 문제를 중심으로 검수합니다. 다른 종족과 후반부를 포함한 전체 실기 검수는 진행 중입니다.
+
+[플레이 피드백 작성](https://github.com/rodpold/ur-quan-masters-korean/issues/new?template=play-feedback.md)에서 종족·화면 이름, 문제가 나온 문구 또는 스크린샷, 직전에 고른 선택지를 알려주세요. 번역·말투·고유명사, 글자 잘림·겹침, 음성·자막 연결 문제를 모두 제보할 수 있습니다. 전체 진행을 멈추고 모든 항목을 검사할 필요는 없습니다.
+
+세이브는 재현이 필요할 때 별도로 요청합니다. 보고된 문제는 해당 번역 ID와 패치 버전에 연결해 수정하고, 확인한 화면 범위와 미검증 범위를 구분해 기록합니다.
