@@ -30,10 +30,26 @@
     "HUD 태양/명왕성 and labels fit; fuel 19 and crew 42 visible in dialogue."
   ],
   "pending": [
-    "Remaining intro segments and response choices",
+    "Unobserved intro segments and outcomes after choosing a response",
     "Longer Spathi dialogue and subtitle timing",
     "User readability preference for PoorStory",
     "Other races"
   ],
-  "complete": false
+  "complete": false,
+  "response_screen": {
+    "status": "initial_four_choices_visually_confirmed",
+    "ids": [
+      "identify",
+      "hi_there",
+      "dont_kill",
+      "we_fight_1"
+    ],
+    "visible_lines": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "result": "All four initial responses visible. Selected first choice is white; others cyan. Final two-line choice stays above bottom border; no visible clipping, overlap or missing glyphs. No choice was activated by the agent."
+  }
 }
