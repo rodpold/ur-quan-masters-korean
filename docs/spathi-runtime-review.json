@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-26",
+  "status": "first_encounter_partial_visual_review",
+  "package_sha256": "b9930b01a62e63ea5cbfc36f9266482628b4f3c59e7f45a0d04e717151252ca8",
+  "font": "PoorStory",
+  "font_resource_binding": "comm.spathi.font = FONTRES:addons/uqm-korean-ui-poc/ko/fonts/races/spathi.fon",
+  "conversation": "SORRY_ABOUT_THAT",
+  "observed": [
+    {
+      "segment": 3,
+      "text": "어차피 고문하실 테니 지금 바로 끝내죠.",
+      "lines": 2,
+      "result": "White Korean subtitle fits upper portrait area without visible clipping or line overlap."
+    },
+    {
+      "segment": 4,
+      "text": "제 모성 스파시와의 좌표는 241.6, 368.7이에요.",
+      "lines": 2,
+      "result": "Korean and retained original numeral glyphs both visible; coordinate values intact; second line starts with 368.7."
+    },
+    {
+      "segment": 5,
+      "text": "저와 다른 스파시 수십억 명만 아는 극비 스파시 암호는...",
+      "lines": 2,
+      "result": "Longer Korean segment and continuation ellipsis fit within subtitle area without clipping or overlap."
+    }
+  ],
+  "other_observed": [
+    "Pluto distress report before dialogue: Korean emergency heading, message and (다음) fit.",
+    "HUD 태양/명왕성 and labels fit; fuel 19 and crew 42 visible in dialogue."
+  ],
+  "pending": [
+    "Remaining intro segments and response choices",
+    "Longer Spathi dialogue and subtitle timing",
+    "User readability preference for PoorStory",
+    "Other races"
+  ],
+  "complete": false
+}
