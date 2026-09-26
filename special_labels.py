@@ -6,7 +6,7 @@ from melee_regions import ROOT,render_regions as render_base_regions
 def render_regions(raw,row,font):
     if row['source_path']!='base/ui/flagshipstatus-000.png':
         result=render_base_regions(raw,row,font)
-        if row['source_path']=='base/lander/lander-032.png':
+        if row['source_path'] in ('base/lander/lander-032.png','base/ui/outfitmodules-055.png'):
             return preserve_indexed_colors(raw,result)
         return result
     # Match TinyFont's 8px glyph + 1px advance and TextRect's final -1 width.

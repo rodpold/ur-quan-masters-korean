@@ -1,7 +1,7 @@
 {
   "status": "runtime_risks_identified",
   "indexed_frame_references_checked": 319,
-  "risk_images": 81,
+  "risk_images": 80,
   "limitations": [
     "An ANI colormap reference plus a truecolor conversion is a review target, not proof that every affected screen has incorrect colors.",
     "Matching PNG colors do not prove matching runtime remapping, fades or highlights.",
@@ -425,18 +425,6 @@
           "ani": "ko/ui/meleemenu.ani",
           "frame": 34,
           "colormap": 0
-        }
-      ]
-    },
-    {
-      "image": "ko/ui/outfitmodules-055.png",
-      "source": "base/ui/outfitmodules-055.png",
-      "reason": "indexed_source_became_truecolor",
-      "references": [
-        {
-          "ani": "ko/ui/outfitmodules.ani",
-          "frame": 55,
-          "colormap": 67
         }
       ]
     },
