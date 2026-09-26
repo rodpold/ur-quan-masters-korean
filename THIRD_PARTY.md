@@ -211,3 +211,6 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 착륙정 MIN/DAT 라벨에도 기존 Galmuri7(동일 저자·공식 출처·OFL 라이선스·vendor 해시)을 사용한다. 광물/생물 표기는 기존 ui.ko.json을 따른다. native 7픽셀 이진 글리프이며 원본 PNG/ANI 해시는 special-labels.ko.json, 기존 공개 lander.c의 레이아웃 조사 해시·함수 근거는 docs/lander-label-layout-review.json 참조. 원본 코드와 게임 그림은 재배포하지 않는다.
 
 탐사선 좌표 조사: [고정 slyland.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/comm/slyland/slyland.c) 및 [고정 commglue.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a8c46f09dcdb0080b4212fb33e6cb94/sc2/src/uqm/commglue.c), Paul Reiche/Fred Ford, GPL-2.0-or-later. 기존 `LICENSES/UQM-GPL.txt` 사본을 참조한다. 소스 해시는 docs/probe-coordinate-source-review.json에 기록했다. 좌표·숫자 자막/음성 분리 동작을 읽어 문서화했으며 원본 C 코드를 복제하거나 실행 파일을 수정하지 않았다. 검사 도구는 패키지 레코드·PNG 바이트를 대조하며 원본 숫자 변환 알고리즘을 이식하지 않는다.
+
+
+Cockpit caption usage (2026-09-26): existing unmodified Galmuri7.ttf renders the Sa-Matra title at native 8px / 7px ink with binary glyph alpha. Font source, hash and SIL OFL license are unchanged. Build-time replacements derive from the user-installed game artwork; no game PNGs are distributed in this repository. The unlinked Y=200 variant is prepared without activating it.

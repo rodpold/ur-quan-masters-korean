@@ -54,6 +54,9 @@ def verify(game, ui_font="compact", report_previews=None):
         from check_shipyard_labels import verify_shipyard
         shipyard_check=verify_shipyard(z, source)
         (patcher.ROOT/'docs/shipyard-label-checks.json').write_text(json.dumps(shipyard_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from check_cockpit_labels import verify_cockpit
+        cockpit_check=verify_cockpit(z, source)
+        (patcher.ROOT/'docs/cockpit-label-checks.json').write_text(json.dumps(cockpit_check,indent=2)+'\n',encoding='utf-8')
         from check_special_labels import verify_special_labels
         special_check=verify_special_labels(z, source)
         (patcher.ROOT/'docs/special-label-checks.json').write_text(json.dumps(special_check,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

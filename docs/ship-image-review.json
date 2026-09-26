@@ -5,7 +5,7 @@
   "total_images": 3903,
   "reviewed_images": 3903,
   "pending_visual_review": 0,
-  "pending_image_translations": 19,
+  "pending_image_translations": 17,
   "records": [
     {
       "source_path": "base/ships/androsynth/blazer-big-000.png",
@@ -20426,12 +20426,14 @@
         64,
         99
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "SA-MATRA"
       ],
-      "ani_references": []
+      "ani_references": [],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "사마트라"
     },
     {
       "source_path": "base/ships/samatra/samatra-cap-000.png",
@@ -20440,7 +20442,7 @@
         64,
         120
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "SA-MATRA"
@@ -20450,7 +20452,9 @@
           "ani": "base/ships/samatra/samatra-cap.ani",
           "frame": 0
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "사마트라"
     },
     {
       "source_path": "base/ships/samatra/samatra-med-000.png",
@@ -39193,7 +39197,7 @@
       "observed_text": [
         "SA-MATRA"
       ],
-      "status": "translation_and_layout_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "notes": "samatra-cap-000.png is referenced; samatra-cap-000.Y=200.png also contains the title but has no ANI reference in the installed base package. Keep the unlinked variant tracked separately."
     },
     {
@@ -39230,7 +39234,7 @@
     }
   ],
   "limitations": [
-    "All source PNGs have a contact-sheet visual observation, but no runtime approval. Detected caption images remain untranslated.",
+    "All source PNGs have a contact-sheet visual observation, but no runtime approval. Caption translation status is tracked per image.",
     "No readable text observed is a visual judgment, not proof of no symbols or dynamic captions.",
     "Panel call sites, animation, color states, translated layout and runtime rendering remain pending.",
     "Original game artwork is not included in this repository.",

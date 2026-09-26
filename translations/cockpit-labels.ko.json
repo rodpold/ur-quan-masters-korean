@@ -1,0 +1,76 @@
+{
+  "status": "static_review_runtime_pending",
+  "groups": [
+    {
+      "source_path": "base/ships/samatra/samatra-cap.ani",
+      "source_sha256": "ebbca4f04fcdfcac0458bd8a51e53aa5c6b785460f88d2b77cf266cca296ced0",
+      "resource_key": "ship.samatra.graphics.captain"
+    }
+  ],
+  "rows": [
+    {
+      "source_path": "base/ships/samatra/samatra-cap-000.png",
+      "source_sha256": "c95b5385aebcedd81ca332ad4c26ff0104804eca8c1d45c3ac30c5162045135f",
+      "size": [
+        64,
+        120
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            2,
+            2,
+            60,
+            11
+          ],
+          "text": "사마트라",
+          "background": [
+            0,
+            40,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            255,
+            0,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/samatra/samatra-cap-000.Y=200.png",
+      "source_sha256": "1e16ededcccb9515a02fdfb6d2d85d10bb75b6fc241e4bd44c74aa754a4e420f",
+      "size": [
+        64,
+        99
+      ],
+      "usage": "unreferenced_asset_prepared_only",
+      "regions": [
+        {
+          "box": [
+            2,
+            2,
+            60,
+            11
+          ],
+          "text": "사마트라",
+          "background": [
+            0,
+            40,
+            0,
+            255
+          ],
+          "foreground": [
+            0,
+            255,
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ]
+}
