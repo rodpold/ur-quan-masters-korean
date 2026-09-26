@@ -15,8 +15,13 @@ def verify_shipyard(package,source):
         row=rows[i];assert a[:3]==b[:3] and b[3:]==['0','11']
         ship=ships[row['ship_resource']];refs={r['id']:r['ko'] for r in ship['records']};assert row['lines']==[refs[k] for k in row['record_ids']]
         assert row['size']==[56,15 if len(row['lines'])==2 else 11]
-        raw=package.read(p.replace('base/','ko/',1));assert raw==render_label(row)
-        assert set(Image.open(io.BytesIO(raw)).convert('RGBA').getdata())<={(82,82,82,255),(232,232,232,255)}
+        raw=package.read(p.replace('base/','ko/',1));assert raw==render_label(row,source.read(p))
+        indexed=Image.open(io.BytesIO(raw));original=Image.open(io.BytesIO(source.read(p)))
+        assert indexed.mode==original.mode=='P'
+        assert indexed.getpalette()==original.getpalette()
+        assert indexed.info.get('transparency')==original.info.get('transparency')==0
+        assert set(indexed.getdata())=={0,227}
+        assert 227 in set(original.getdata()),'Original caption ink index changed'
         ani=resources['ship.'+row['race']+'.meleeicons'].split(':',1)[1];tops=[]
         for line in source.read(ani).decode().splitlines():
             f=line.split();top=26-int(f[4]);tops.append(top)
