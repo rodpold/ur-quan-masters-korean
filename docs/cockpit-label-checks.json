@@ -1,7 +1,7 @@
 {
   "status": "static_passed_runtime_pending",
-  "images": 2,
-  "active_images": 1,
+  "images": 12,
+  "active_images": 11,
   "prepared_unlinked_images": 1,
   "limitations": [
     "Runtime animation and palette behavior remain unverified."

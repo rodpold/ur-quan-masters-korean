@@ -5,6 +5,16 @@
       "source_path": "base/ships/samatra/samatra-cap.ani",
       "source_sha256": "ebbca4f04fcdfcac0458bd8a51e53aa5c6b785460f88d2b77cf266cca296ced0",
       "resource_key": "ship.samatra.graphics.captain"
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap.ani",
+      "source_sha256": "fa1a301a94a51f9e2cdb6be86c429a7548f698d03499a5673f69c9691105e595",
+      "resource_key": "ship.shofixti.graphics.captain"
+    },
+    {
+      "source_path": "base/ships/shofixti/oldscout-cap.ani",
+      "source_sha256": "937602a8ecf2ccf95a2e26890801a01b08eaaea92187646bb42dc706560ef8f8",
+      "resource_key": "ship.shofixti.graphics.oldcaptain"
     }
   ],
   "rows": [
@@ -67,6 +77,326 @@
             0,
             255,
             0,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/oldscout-cap-000.png",
+      "source_sha256": "2dde76c9ac2dbd308c9a48aafeff5919ad4e6c6b5bce5cfe11216ddcc25ee8e1",
+      "size": [
+        55,
+        30
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            23,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            48,
+            48,
+            48,
+            255
+          ],
+          "foreground": [
+            112,
+            112,
+            112,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-000.png",
+      "source_sha256": "4342d6b1639e6b11c58b9177f44615d57578608f3c189350d14a638fa6ca35d1",
+      "size": [
+        55,
+        30
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            23,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            168,
+            168,
+            168,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-012.png",
+      "source_sha256": "d329c1bd88279ce2ce8864daf206b3224efa2d940dd3d26d9d6940f718c84799",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            168,
+            168,
+            168,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-013.png",
+      "source_sha256": "31417b6bcd1153c605c9c08f8a0a0b3724497b0bb8cfb615d64dce47eae757ba",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            168,
+            168,
+            168,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-014.png",
+      "source_sha256": "31417b6bcd1153c605c9c08f8a0a0b3724497b0bb8cfb615d64dce47eae757ba",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            168,
+            168,
+            168,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-015.png",
+      "source_sha256": "31417b6bcd1153c605c9c08f8a0a0b3724497b0bb8cfb615d64dce47eae757ba",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            168,
+            168,
+            168,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-016.png",
+      "source_sha256": "79dfbae18f2384c04e8e10a98faaa7dec0d583ea5897e869fcf95f16123fb8cc",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            252,
+            252,
+            84,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-017.png",
+      "source_sha256": "79dfbae18f2384c04e8e10a98faaa7dec0d583ea5897e869fcf95f16123fb8cc",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            252,
+            252,
+            84,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-018.png",
+      "source_sha256": "9742fee7a45985ebd24c1ab5a24a8b248527cbb88e70ec1cb83027661cb2ff89",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            252,
+            84,
+            84,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "source_path": "base/ships/shofixti/scout-cap-019.png",
+      "source_sha256": "9742fee7a45985ebd24c1ab5a24a8b248527cbb88e70ec1cb83027661cb2ff89",
+      "size": [
+        55,
+        7
+      ],
+      "usage": "active_resource",
+      "regions": [
+        {
+          "box": [
+            0,
+            0,
+            33,
+            7
+          ],
+          "text": "자폭",
+          "background": [
+            84,
+            84,
+            84,
+            255
+          ],
+          "foreground": [
+            252,
+            84,
+            84,
             255
           ]
         }

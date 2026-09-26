@@ -5,7 +5,7 @@
   "total_images": 3903,
   "reviewed_images": 3903,
   "pending_visual_review": 0,
-  "pending_image_translations": 17,
+  "pending_image_translations": 7,
   "records": [
     {
       "source_path": "base/ships/androsynth/blazer-big-000.png",
@@ -22543,7 +22543,7 @@
         55,
         30
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -22553,7 +22553,9 @@
           "ani": "base/ships/shofixti/oldscout-cap.ani",
           "frame": 0
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/oldscout-cap-001.png",
@@ -23182,7 +23184,7 @@
         55,
         30
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23192,7 +23194,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 0
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-001.png",
@@ -23311,7 +23315,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23321,7 +23325,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 12
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-013.png",
@@ -23330,7 +23336,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23340,7 +23346,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 13
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-014.png",
@@ -23349,7 +23357,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23359,7 +23367,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 14
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-015.png",
@@ -23368,7 +23378,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23378,7 +23388,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 15
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-016.png",
@@ -23387,7 +23399,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23397,7 +23409,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 16
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-017.png",
@@ -23406,7 +23420,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23416,7 +23430,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 17
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-018.png",
@@ -23425,7 +23441,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23435,7 +23451,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 18
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-cap-019.png",
@@ -23444,7 +23462,7 @@
         55,
         7
       ],
-      "status": "embedded_text_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "review_method": "contact_sheet_and_enlarged_detail",
       "observed_text": [
         "DESTRUCT"
@@ -23454,7 +23472,9 @@
           "ani": "base/ships/shofixti/scout-cap.ani",
           "frame": 19
         }
-      ]
+      ],
+      "translation_spec": "translations/cockpit-labels.ko.json",
+      "translated_text": "자폭"
     },
     {
       "source_path": "base/ships/shofixti/scout-icons-000.png",
@@ -39217,7 +39237,7 @@
       "observed_text": [
         "DESTRUCT"
       ],
-      "status": "translation_and_layout_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "notes": "Base portrait and eight status overlays contain the label. Preserve warning colors and neighboring countdown/status graphics; overlays use y offset -23."
     },
     {
@@ -39229,7 +39249,7 @@
       "observed_text": [
         "DESTRUCT"
       ],
-      "status": "translation_and_layout_pending",
+      "status": "generated_korean_caption_runtime_pending",
       "notes": "Damaged cockpit has a worn label in its base frame; keep the damaged appearance distinct from the standard cockpit."
     }
   ],

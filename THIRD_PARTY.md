@@ -214,3 +214,5 @@ UQM 공개 포트의 [intro.c](https://github.com/intgr/uqm-wasm/blob/daadbb540a
 
 
 Cockpit caption usage (2026-09-26): existing unmodified Galmuri7.ttf renders the Sa-Matra title at native 8px / 7px ink with binary glyph alpha. Font source, hash and SIL OFL license are unchanged. Build-time replacements derive from the user-installed game artwork; no game PNGs are distributed in this repository. The unlinked Y=200 variant is prepared without activating it.
+
+The same Galmuri7 renderer also supplies the Shofixti self-destruct cockpit labels (2026-09-26): native 7px ink, binary glyph alpha, source warning colors retained. The damaged cockpit uses a dimmer caption; surrounding damage artwork is unchanged.
