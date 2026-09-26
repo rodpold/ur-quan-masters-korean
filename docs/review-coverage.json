@@ -39,8 +39,8 @@
     },
     "ship_tables": {
       "total_records": 528,
-      "current_agent_review_records": 125,
-      "pending_records": 403
+      "current_agent_review_records": 528,
+      "pending_records": 0
     }
   },
   "issues": [],
@@ -688,25 +688,8 @@
       "source_path": "base/ships/androsynth/guardian.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -716,25 +699,8 @@
       "source_path": "base/ships/arilou/skiff.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -744,25 +710,8 @@
       "source_path": "base/ships/chenjesu/broodhome.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -772,25 +721,8 @@
       "source_path": "base/ships/chmmr/avatar.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -800,25 +732,8 @@
       "source_path": "base/ships/druuge/mauler.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -828,25 +743,8 @@
       "source_path": "base/ships/human/cruiser.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -856,25 +754,8 @@
       "source_path": "base/ships/ilwrath/avenger.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -884,25 +765,8 @@
       "source_path": "base/ships/kohrah/marauder.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -912,25 +776,8 @@
       "source_path": "base/ships/melnorme/trader.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -940,25 +787,8 @@
       "source_path": "base/ships/mmrnmhrm/xform.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -968,25 +798,8 @@
       "source_path": "base/ships/mycon/podship.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -996,25 +809,8 @@
       "source_path": "base/ships/orz/nemesis.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1024,25 +820,8 @@
       "source_path": "base/ships/pkunk/fury.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1052,27 +831,8 @@
       "source_path": "base/ships/shofixti/scout.txt",
       "category": "ship_tables",
       "total_records": 23,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020",
-        "0021",
-        "0022"
-      ],
+      "current_agent_review_records": 23,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1082,25 +842,8 @@
       "source_path": "base/ships/slylandro/probe.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1110,26 +853,8 @@
       "source_path": "base/ships/spathi/eluder.txt",
       "category": "ship_tables",
       "total_records": 22,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020",
-        "0021"
-      ],
+      "current_agent_review_records": 22,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1139,25 +864,8 @@
       "source_path": "base/ships/supox/blade.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1167,25 +875,8 @@
       "source_path": "base/ships/syreen/penetrator.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1195,25 +886,8 @@
       "source_path": "base/ships/thraddash/torch.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1223,25 +897,8 @@
       "source_path": "base/ships/umgah/drone.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1251,25 +908,8 @@
       "source_path": "base/ships/urquan/dreadnought.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1279,25 +919,8 @@
       "source_path": "base/ships/utwig/jugger.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1307,25 +930,8 @@
       "source_path": "base/ships/vux/intruder.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1335,25 +941,8 @@
       "source_path": "base/ships/yehat/terminator.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
@@ -1363,25 +952,8 @@
       "source_path": "base/ships/zoqfotpik/stinger.txt",
       "category": "ship_tables",
       "total_records": 21,
-      "current_agent_review_records": 5,
-      "pending_ids": [
-        "0005",
-        "0006",
-        "0007",
-        "0008",
-        "0009",
-        "0010",
-        "0011",
-        "0012",
-        "0013",
-        "0014",
-        "0015",
-        "0016",
-        "0017",
-        "0018",
-        "0019",
-        "0020"
-      ],
+      "current_agent_review_records": 21,
+      "pending_ids": [],
       "reports": [
         "ships-language-review.json"
       ]
