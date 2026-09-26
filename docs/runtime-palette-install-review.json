@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-26",
+  "source_revision": "724de65",
+  "installed_package_sha256": "75ab7f90dabdbda36cb53d2febf4c61c9f8e0aab8953f23b8d87ed025dce162e",
+  "profile": "artifacts/test-profile",
+  "status": "installed_partial_visual_review_incomplete",
+  "installed_checks": {
+    "palette_frame_references": 319,
+    "palette_loss_targets": 0,
+    "special_caption_regions": 21,
+    "hud_caption_regions": 3
+  },
+  "observed": [
+    "Korean main menu entries appear fully within the menu panel.",
+    "Credits opening labels 이식판, 제작진 and 핵심 개발진 display in Korean while original personal names remain visible."
+  ],
+  "not_verified": [
+    "Corrected HUD background and numeric redraw",
+    "Conversation subtitle/response/history screens",
+    "Race-specific dialogue fonts in actual encounters",
+    "Menu selection input and highlighting reliability",
+    "Audio playback and save compatibility after this update"
+  ],
+  "input_limitation": "Computer Use Return/Down/Escape did not reliably navigate to the requested saved state. Main menu and subsequent credits were observed; this does not prove a game input regression. User navigation requested.",
+  "complete": false
+}
