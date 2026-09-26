@@ -18,6 +18,11 @@ def verify_cockpit(package,source):
         assert group['resource_key']+' = GFXRES:addons/uqm-korean-ui-poc/'+target in package.read('ko-ui.rmp').decode().splitlines()
     for row in spec['rows']:
         p=row['source_path'];a=Image.open(io.BytesIO(source.read(p))).convert('RGBA');b=Image.open(io.BytesIO(package.read(p.replace('base/','ko/',1))))
+        indexed_original=Image.open(io.BytesIO(source.read(p)))
+        assert b.mode==indexed_original.mode=='P'
+        assert b.getpalette()==indexed_original.getpalette()
+        assert b.info.get('transparency')==indexed_original.info.get('transparency')
+        b=b.convert('RGBA')
         assert list(a.size)==row['size'];assert list(b.size)==row.get('output_size',row['size'])
         if a.size!=b.size:
             assert '/flagship/' in p and a.size==(34,5) and b.size==(34,7)

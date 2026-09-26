@@ -7,11 +7,31 @@ def load_cockpit():
     return json.loads((ROOT/'translations/cockpit-labels.ko.json').read_text(encoding='utf-8'))
 
 def render_cockpit(raw,row,font):
-    if 'output_size' not in row:return render_regions(raw,row,font)
-    if list(Image.open(io.BytesIO(raw)).size)!=row['size']:raise ValueError('Cockpit source dimensions changed')
-    if row['size']!=[34,5] or row['output_size']!=[34,7] or row['regions'][0]['box']!=[0,0,34,7]:raise ValueError('Unexpected cockpit expansion')
-    im=Image.new('RGBA',tuple(row['output_size']),tuple(row['regions'][0]['background']));out=io.BytesIO();im.save(out,format='PNG')
-    return render_regions(out.getvalue(),{**row,'size':row['output_size']},font)
+    original=Image.open(io.BytesIO(raw));original.load()
+    if original.mode!='P' or list(original.size)!=row['size']:raise ValueError('Indexed cockpit source mismatch')
+    size=row.get('output_size',row['size'])
+    if size!=row['size']:
+        if row['size']!=[34,5] or size!=[34,7] or row['regions'][0]['box']!=[0,0,34,7]:raise ValueError('Unexpected cockpit expansion')
+        base=Image.new('RGBA',tuple(size),tuple(row['regions'][0]['background']))
+        out=io.BytesIO();base.save(out,format='PNG');render_source=out.getvalue()
+    else:render_source=raw
+    rendered=Image.open(io.BytesIO(render_regions(render_source,{**row,'size':size},font))).convert('RGBA')
+    result=Image.new('P',tuple(size));result.putpalette(original.getpalette())
+    result.info=dict(original.info);result.paste(original,(0,0))
+    palette=original.getpalette()
+    for region in row['regions']:
+        bg,fg=region['background_index'],region['foreground_index']
+        for index,color in ((bg,region['background']),(fg,region['foreground'])):
+            if palette[index*3:index*3+3]!=color[:3] or index==original.info.get('transparency'):raise ValueError('Cockpit palette index mismatch')
+        x,y,w,h=region['box']
+        for yy in range(y,y+h):
+            for xx in range(x,x+w):
+                color=rendered.getpixel((xx,yy))
+                if color==tuple(region['background']):index=bg
+                elif color==tuple(region['foreground']):index=fg
+                else:raise ValueError('Unexpected cockpit caption color')
+                result.putpixel((xx,yy),index)
+    out=io.BytesIO();result.save(out,format='PNG');return out.getvalue()
 
 def add_cockpit(entries,rmp,source):
     spec=load_cockpit();reachable=set()
